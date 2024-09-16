@@ -1,0 +1,111 @@
+[SmokeDrag]
+f-drag=1
+f-pos=0 0 0
+f-radius=1000
+
+[Smokering]
+e-active=0.1
+e-life=1000000
+e-local-orient=1
+e-period=4
+e-rate=600
+e-rotation1=5
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+field-attract-1=attract
+field-drag-1=SmokeDrag
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=4
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-mesh=sphere.sco
+p-offset=0 0 0
+p-rgba=d_color-chimneysmokering.tga
+p-scale=2
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=cloudwall32.tga
+p-type=3
+p-uvscroll-rgb=0 -0.800000011920929
+p-vel=0 300 0
+p-velYP1=0 1
+p-velYP2=1 1.1
+p-xscale1=0 0
+p-xscale2=0.1 0.30000000000000004
+p-xscale3=1 2
+rendermode=1
+
+[Smokering_in]
+e-active=0.1
+e-life=1000000
+e-local-orient=1
+e-period=4
+e-rate=300
+e-rotation1=4
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+field-attract-1=attract
+field-drag-1=SmokeDrag
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=4
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=d_color-chimneysmokering.tga
+p-rotvel=1
+p-rotvelP1=0 -40
+p-rotvelP2=1 40
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=clouds32.tga
+p-type=0
+p-vel=0 300 0
+p-velYP1=0 1
+p-velYP2=1 1.1
+p-xscale1=0 0
+p-xscale2=0.1 0.30000000000000004
+p-xscale3=1 2
+rendermode=1
+
+[System]
+GroupPart1=Smokering_in
+GroupPart1Type=Simple
+GroupPart2=Smokering
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[attract]
+f-accel=-40 0 0
+f-pos=0 200 0
+f-radius=300
+

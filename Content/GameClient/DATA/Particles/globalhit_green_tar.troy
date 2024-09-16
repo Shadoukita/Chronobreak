@@ -1,0 +1,96 @@
+[System]
+GroupPart1=blastring
+GroupPart1Type=Simple
+GroupPart2=star
+GroupPart2Type=Simple
+GroupPart3=star2
+GroupPart3Type=Simple
+GroupPart4=outerring
+GroupPart4Type=Simple
+GroupPart5=innerring
+GroupPart5Type=Simple
+
+[blastring]
+e-life=1
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=color-globalhitgreen.tga
+p-scale=130
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.0010000467300415
+
+[innerring]
+e-life=1
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=color-globalhitgreen.tga
+p-scale=130
+p-startframe=3
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.0010000467300415
+
+[outerring]
+e-life=1
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=color-globalhitgreen.tga
+p-scale=90
+p-startframe=4
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.1863700151443481
+
+[star]
+e-life=1
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=color-globalhitgreen.tga
+p-scale=150
+p-startframe=1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.2234439849853516
+
+[star2]
+e-life=1
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=-45
+p-rgba=color-globalhitgreen.tga
+p-scale=120
+p-startframe=1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.2234439849853516
+

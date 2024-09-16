@@ -1,0 +1,51 @@
+[System]
+GroupPart1=gem_sparkle
+GroupPart2=beam
+GroupPart3=sparkles
+GroupPart3Type=Simple
+GroupPart4=glow_flash
+GroupPart4Type=Simple
+GroupPart5=electric
+SimulateEveryFrame=1
+
+[glow_flash]
+e-life=0.30000000000000004
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.3
+p-colorscale=1 0.8
+p-flexoffset=0.009999999776482582
+p-flexscale=0.004000000189989805
+p-life=0.1
+p-linger=0
+p-offset=0 50 0
+p-rgba=color-blue-nexus-explo.tga
+p-scale=180
+p-texdiv=2 2
+p-texture=glows.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+single-particle=1
+
+[sparkles]
+e-rate=2
+p-bindtoemitter=1 1
+p-flexscale=0.009999999776482582
+p-life=0.6499999761581421
+p-offset=0 5 0
+p-quadrot=180
+p-rgba=color-hold.tga
+p-scale=75
+p-scaleXP1=0 1
+p-scaleXP2=1 1.4000000000000001
+p-simpleorient=2
+p-texdiv=2 2
+p-texture=gemglow.dds
+p-xscale=1
+p-xscale1=0 0.2
+p-xscale2=0.5 0.6000000000000001
+p-xscale3=1 0.2
+

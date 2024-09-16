@@ -1,0 +1,46 @@
+[GroundRing_01]
+e-disabled=1
+e-life=1
+p-bindtoemitter=1 1
+p-life=-1
+p-quadrot=-90 0 0
+p-rotvel=0 90 0
+p-scale=100 100 100
+p-texture=Global_Item_SunfireCape_Ground_Indicator.dds
+p-type=1
+pass=5
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=GroundRing_01
+GroupPart2=circletimer
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[circletimer]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=-1
+p-mesh=Global_Item_SunfireCape_Indicator_Mesh.scb
+p-meshtex=Global_Item_SunfireCape_Ground_Mesh_Indicator.dds
+p-meshtex-mult=Global_Item_SunfireCape_Indicator_Noise.dds
+p-quadrot=90 0 180
+p-scale=20 20 0
+p-texdiv=0.33329999446868896 1
+p-type=3
+p-uvscroll-rgb=0.5 0
+p-uvscroll-rgb-mult=0.2 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.95 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=1000
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk720BBBDE=1

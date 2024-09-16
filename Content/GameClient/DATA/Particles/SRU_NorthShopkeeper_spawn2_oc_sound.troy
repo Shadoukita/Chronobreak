@@ -1,0 +1,16 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_env_map11_NorthShopkeeper_spawn2_foley_mvmnt
+group-vis=1000
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

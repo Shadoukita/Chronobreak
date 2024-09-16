@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="kalistarallyspelllock"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallycameralock"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_ally_avatar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadParticle, Params={Name="kalistaindicatormedium.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_r_ally_fadeout.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_r_ground.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base r_buf_ transparency.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_r_ally_vanish_cone.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallylineupdater"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_r_indicator_ring_grow.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="crowstorm"}}, 
+}

@@ -1,0 +1,46 @@
+[System]
+GroupPart1=crossbones
+GroupPart1Importance=High
+GroupPart1Type=complex
+
+[crossbones]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.007000000216066837
+p-life=300
+p-linger=0
+p-mesh=crossbones4.sco
+p-meshtex=color-blueincinerate.tga
+p-offset=0 0 0
+p-postoffset=0 20 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 60 0
+p-scale=2.2 2.2 2.2
+p-shadow=1
+p-type=3
+p-uvscroll-rgb=0.20000000298023224 -0.5
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk009F14F3=1000
+unk3338EECF=10000
+unk33CE5E95=3.5
+unk551330D7=0 600 0
+unk56BE19D4=0 0 0
+unk5EFF3708=1400
+unk6876CB5D=0 1 0
+unk8E3A18C9=10000
+unk90F9BDF5=0 1 0
+unk9CF498B2=70
+unkB9785392=1000
+unkBCB6EFB3=0 0 0
+unkC4690725=0
+unkF3A66671=0.7000000000000001
+unkFCEC3B38=2

@@ -1,0 +1,87 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=helix
+GroupPart3=tiger_mesh
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_SpiritUdyr_Recall_recall_tigerparticle
+
+[glow]
+e-life=1
+e-rate=1
+p-life=1
+p-offset=0 0 0
+p-rgba=alpha_12.dds
+p-scale=210
+p-simpleorient=2
+p-texture=udyr_spirit_tiger_glow.dds
+p-type=0
+pass=-100
+rendermode=0
+
+[helix]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=2
+p-mesh=Udyr_Spirit_Recall_Swirl.sco
+p-meshtex=Udyr_Spirit_Recall_Ribbon_Tiger.dds
+p-meshtex-mult=Udyr_Spirit_Recall_Helix_Mult_Tiger.dds
+p-postoffset=0 -10 0
+p-rotvel=0 1 0
+p-rotvelYP1=0 -130
+p-rotvelYP2=1 130
+p-scale=0.5 0.5 0.5
+p-scaleYP1=0 0.25
+p-scaleYP2=1 2
+p-type=3
+p-uvscroll-rgb=0.5 -0.41
+p-uvscroll-rgb-mult=0.35 -0.21
+p-uvscroll-rgbXP1=0 -0.5
+p-uvscroll-rgbXP2=1 0.5
+p-uvscroll-rgbYP1=0 -0.5
+p-uvscroll-rgbYP2=1 0.5
+p-vel=0 50 0
+p-velYP1=0 1
+p-velYP2=1 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.6 1 1 1 0.5
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 2 3 2
+rendermode=4
+
+[tiger_mesh]
+ChildEmitOnDeath3=0
+ChildParticleName3=Udyr_Spirit_Tiger_Activation_Child.troy
+e-life=1
+e-local-orient=1
+e-rate=1
+p-animation=udyr_spirit_PET_tiger_Recall.anm
+p-bindtoemitter=1 0
+p-colorscale=1 1
+p-life=2
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_tiger_TX_CM.dds
+p-postoffset=0 60 0
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_tiger.skl
+p-skin=udyr_spirit_PET_tiger.skn
+p-texture=udyr_spirit_PET_tiger_TX_CM.dds
+p-type=3
+p-vel=0 30 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 0.5
+p-xrgba3=1 1 1 0.75 0
+pass=100
+rendermode=1
+single-particle=1
+

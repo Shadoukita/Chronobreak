@@ -1,0 +1,36 @@
+[System]
+GroupPart1=star
+GroupPart1Type=Simple
+
+[star]
+e-life=1
+e-rate=5
+p-bindtoemitter=1 1
+p-coloroffset=0 0.8
+p-flexoffset=0.1
+p-flexscale=0.1
+p-frameRate=0
+p-life=0.7000000000000001
+p-linger=0
+p-offset=1 100 1
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-CrypticGaze.tga
+p-rotvel=180
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-texture=WitsEnd01.tga
+p-xscale=1
+p-xscale1=0 1.2979999780654907
+p-xscale2=1 2.039370059967041
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk7D642E82=0 177 25 22 255
+unk7D642E83=0.7573333 0 0 0 255

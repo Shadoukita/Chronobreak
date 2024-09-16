@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="heimerdinger_base_q_target.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="heimerdinger_base_q_directaggro.troy"}}, 
+}

@@ -1,0 +1,19 @@
+[Reticle01]
+e-rate=1
+e-timeoffset=0 0 0
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=color-reticule32.tga
+p-rotvel=0
+p-scale=70
+p-simpleorient=2
+p-texture=reticule02.tga
+p-type=1
+p-xscale=1 1
+
+[System]
+GroupPart1=Reticle01
+GroupPart1Type=Simple
+

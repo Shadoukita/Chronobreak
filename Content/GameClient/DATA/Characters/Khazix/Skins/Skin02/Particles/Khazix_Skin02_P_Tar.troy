@@ -1,0 +1,49 @@
+[Background]
+ChildEmitOnDeath=0
+ChildParticleName=Khazix_Skin02_P_Tar_Child.troy
+e-life=0.5
+e-local-orient=1
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-drag=5 5 5
+p-dragXP1=0 1
+p-dragXP2=1 2
+p-dragYP1=0 1
+p-dragYP2=1 2
+p-dragZP1=0 1
+p-dragZP2=1 2
+p-life=1
+p-linger=0
+p-offset=50 50 50
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-postoffset=0 120 0
+p-scale=15 15 15
+p-texture=Khazix_Skin02_P_Tar_Background.dds
+p-type=0
+p-vel=500 500 500
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.8 1 1 1
+p-xscale3=0.9 2 2 2
+p-xscale4=1 0 0 0
+pass=40
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Background
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_KhazixSkin02_KhazixPDamage_hit
+

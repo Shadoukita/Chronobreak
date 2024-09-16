@@ -1,0 +1,71 @@
+[Center]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2.4000000000000004
+p-linger=0
+p-offset=0 -50 0
+p-quadrot=0
+p-rgba=Gnar_Base_Q_Target_Shadow_rgba.dds
+p-rotvel=-360
+p-scale=20
+p-simpleorient=2
+p-texture=Gnar_Base_Q_Target_Center.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+pass=-300
+single-particle=1
+
+[System]
+GroupPart1=Center
+GroupPart1Type=Simple
+GroupPart2=Target2
+GroupPart2Type=Simple
+GroupPart3=Target2_shadow
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[Target2]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2.4000000000000004
+p-linger=0
+p-offset=0 -50 0
+p-quadrot=30
+p-rgba=Gnar_Base_Q_Target3_rgba.dds
+p-rotvel=-40
+p-scale=100
+p-simpleorient=2
+p-texture=Gnar_Skin01_Q_Weapon_Catch2.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 1 1
+pass=-100
+single-particle=1
+
+[Target2_shadow]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2.4000000000000004
+p-linger=0
+p-offset=0 -50 0
+p-quadrot=0
+p-rgba=Gnar_Skin01_Q_Target_Shadow_rgba.dds
+p-rotvel=-30
+p-scale=100
+p-simpleorient=2
+p-texture=Gnar_Skin01_Q_Target2_shadow.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+pass=-200
+rendermode=1
+single-particle=1
+

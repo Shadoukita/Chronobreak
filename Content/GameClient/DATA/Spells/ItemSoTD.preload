@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="itemsotddebuff"}}, 
+{Function=BBPreloadParticle, Params={Name="sword_of_the_divine_03.troy"}}, 
+}

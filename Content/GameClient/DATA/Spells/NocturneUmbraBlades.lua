@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "Nocturne_UmbraBlades.dds"
+BuffTextureName = L0_1
+L0_1 = "NocturneUmbraBlades"
+BuffName = L0_1
+L0_1 = "NocturnePassiveReady.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "BUFFBONE_CSTM_L_PALM"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "NocturnePassiveReady.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "BUFFBONE_CSTM_R_PALM"
+AutoBuffActivateAttachBoneName2 = L0_1

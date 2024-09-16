@@ -1,0 +1,24 @@
+[System]
+GroupPart1=WeaponTrail
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.26
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=MasterYi_Blue_WeaponTrail_1.dds
+p-postoffset=0 150 140
+p-quadrot=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=0.5 0.5 0.5
+p-type=3
+p-uvscroll-rgb=-3.799999952316284 0
+rendermode=0
+single-particle=1
+

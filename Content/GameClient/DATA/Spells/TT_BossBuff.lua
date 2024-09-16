@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "TT_Spider_Icon.dds"
+BuffTextureName = L0_1
+L0_1 = "TTBossBuff"
+BuffName = L0_1
+L0_1 = "TT_spiderboss_buff.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+NonDispellable = L0_1

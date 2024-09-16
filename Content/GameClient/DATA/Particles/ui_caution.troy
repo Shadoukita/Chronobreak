@@ -1,0 +1,45 @@
+[System]
+GroupPart1=gear
+GroupPart1Importance=High
+GroupPart2=exclamation
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[exclamation]
+e-life=6
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-mesh=ui_exclamation.sco
+p-meshtex=ui-exclamation.tga
+p-offset=0 0 0
+p-postoffset=0 10 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=8 10 8
+p-shadow=1
+p-type=3
+rendermode=3
+
+[gear]
+e-life=6
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-mesh=ui_gear.sco
+p-meshtex=ui-gear.tga
+p-offset=0 0 0
+p-postoffset=0 10 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=8 10 8
+p-shadow=1
+p-type=3
+rendermode=3
+

@@ -1,0 +1,86 @@
+[System]
+GroupPart1=glow_0
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=glow_0_pulsefire
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=pulse
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=glow_Debonair
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[glow_0]
+KeywordsExcluded=CyberEzreal TPAEzreal Ezreal_Skin07
+e-life=-1
+e-rate=30
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.03333333333
+p-linger=0
+p-offset=-9 4 0
+p-rgba=color-hold.tga
+p-scale=15
+p-texdiv=3 2
+p-texture=EzrealHandGlow.dds
+p-xscale=1
+
+[glow_0_pulsefire]
+KeywordsRequired=CyberEzreal
+e-life=-1
+e-rate=30
+p-bindtoemitter=1 1
+p-life=0.03333333333
+p-linger=0
+p-offset=-1 2 0
+p-quadrot=0
+p-rgba=color-hold.tga
+p-rotvel=50
+p-scale=35
+p-texdiv=3 2
+p-texture=EzrealHandGlow.dds
+p-xquadrot=0
+p-xscale=1
+pass=-100
+
+[glow_Debonair]
+KeywordsRequired=Ezreal_Skin07
+e-disabled=1
+e-life=-1
+e-rate=30
+p-bindtoemitter=1 1
+p-life=0.03333333333
+p-linger=0
+p-offset=-9 4 0
+p-rgba=color-hold.tga
+p-scale=15
+p-texdiv=3 2
+p-texture=EzrealHandGlow.dds
+p-xscale=1
+
+[pulse]
+KeywordsRequired=CyberEzreal
+e-life=-1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1.25
+p-linger=0
+p-quadrot=0
+p-rgba=color-hold.tga
+p-rotvel=200
+p-scale=10
+p-startframe=2
+p-texdiv=3 2
+p-texture=ezreal_pulsefire_handglows.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.949999988079071 0.949999988079071 0.949999988079071
+pass=-100
+
+[UNKNOWN_HASHES]
+unk03870B74=1
+unk13DD2832=1

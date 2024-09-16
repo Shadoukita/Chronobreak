@@ -1,0 +1,64 @@
+[EyeGlow]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=2
+p-offset=0 0 0
+p-rgba=Cass_Greek_ULT_Color.tga
+p-scale=50
+p-texture=Flare-Sun_05.tga
+p-type=0
+p-xscale1=0 0.30000000000000004
+p-xscale2=0.30000000000000004 1
+p-xscale3=1 0
+rendermode=4
+single-particle=1
+
+[EyeRays]
+KeywordsExcluded=LunarRevelCassiopeia
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-life=0.8
+p-rgba=Cass_Greek_ULT_Color.tga
+p-scale=30 200 0
+p-texture=Light_Rays_01.tga
+p-type=2
+p-xscale=6 1.5 0
+p-xscale1=0 0 0 0
+p-xscale2=0.25 1 2 1
+p-xscale3=0.5 2 3 2
+p-xscale4=1 4 3.5 3
+rendermode=4
+single-particle=1
+
+[LargeRays]
+KeywordsExcluded=LunarRevelCassiopeia
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-life=0.6000000000000001
+p-linger=0.6000000000000001
+p-quadrot=0 0 0
+p-rgba=Cass_Greek_ULT_Color.tga
+p-scale=170 700 0
+p-simpleorient=2
+p-texture=Light_Rays_01.tga
+p-type=2
+p-xscale1=0 0 0 0
+p-xscale2=0.2 8 1 0
+p-xscale3=1 9 1.5 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=EyeRays
+GroupPart2=LargeRays
+GroupPart3=EyeGlow
+GroupPart3Type=Simple
+KeepOrientationAfterSpellCast=1
+PersistThruDeath=1
+SimulateEveryFrame=1
+

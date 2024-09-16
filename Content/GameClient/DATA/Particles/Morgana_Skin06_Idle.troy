@@ -1,0 +1,46 @@
+[System]
+GroupPart1=flat_dark1
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=flat_dark
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[flat_dark]
+KeywordsExcluded=FallenMorgana Blackthorn
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=0 1 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-hold.tga
+p-scale=400
+p-simpleorient=2
+p-texture=Morgana_Skin06_Idle_Sub.dds
+p-type=7
+pass=-100
+rendermode=2
+uniformscale=1
+
+[flat_dark1]
+KeywordsExcluded=FallenMorgana Blackthorn
+e-disabled=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=0 1 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-hold.tga
+p-scale=400
+p-simpleorient=2
+p-texture=Morgana_Skin06_Idle_Sub.dds
+p-type=7
+pass=-100
+rendermode=2
+uniformscale=1
+

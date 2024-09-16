@@ -1,0 +1,32 @@
+[System]
+GroupPart4=shockwave
+GroupPart4Importance=High
+GroupPart4Type=Complex
+
+[shockwave]
+e-life=1
+e-linger=0
+e-rate=1
+e-timeoffset=0
+e-uvoffset=0 0.8
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-mesh=shockwavetrail.sco
+p-meshtex=shockwavebluelines.tga
+p-numframes=1
+p-offset=0 1 0
+p-rgba=color-rampdown.tga
+p-scale=8 8 8
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 0
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.1 3 3 3
+p-xscale3=0.2 5 5 5
+p-xscale4=1 8 8 8
+single-particle=1
+

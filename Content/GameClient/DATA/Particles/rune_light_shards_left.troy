@@ -1,0 +1,34 @@
+[System]
+AudioFlexValueParameterName=TT_CaptureBeam
+AudioParameterFlexID=0
+GroupPart1=rune_light_shards
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_TT_Alter_alterunlocking
+group-vis=500
+
+[rune_light_shards]
+e-life=-1
+e-linger=0
+e-rate=0.009999999776482582
+e-uvoffset=0.6700000166893005 0
+e-uvoffset_flex0=1 1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=100
+p-linger=1
+p-mesh=TT_rune_light_shards.sco
+p-meshtex=rune_light_shards.dds
+p-postoffset=0 -17 1
+p-quadrot=0 146 0
+p-rotvel=0 0 0
+p-scale=1.0099999904632568 1.0099999904632568 1.0099999904632568
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.2
+p-uvscroll-rgbYP1=0 1
+p-uvscroll-rgbYP2=1 2
+rendermode=4
+
+[UNKNOWN_HASHES]
+unkED61FBF1=0.0001 1

@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="volibear_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_chain_lighting_01.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="volibearrchain"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_lasthit_sound.troy"}}, 
+}

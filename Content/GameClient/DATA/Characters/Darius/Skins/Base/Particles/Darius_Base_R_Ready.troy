@@ -1,0 +1,64 @@
+[Death]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=10
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-accel=0 100 0
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=30 0 30
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-scale=40 80 50
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1.5
+p-scaleYP1=0 0.5
+p-texture=Darius_R_Ready.tga
+p-type=0
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.25
+p-uvscroll-rgbXP1=0 0.5
+p-uvscroll-rgbXP2=1 1
+p-vel=0 50 0
+p-xrgba=0.8 0.2 0.2 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=0.75 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 0.25 1
+p-xscale2=0.4 1 1 1
+p-xscale3=1 1 2 1
+rendermode=4
+
+[Glow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=3
+p-linger=0
+p-scale=40 0 0
+p-texture=Darius_R_Ready_Glow.tga
+p-type=0
+p-xrgba=0 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=0.75 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=2
+uniformscale=1
+
+[System]
+GroupPart1=Glow
+GroupPart2=Death
+SimulateEveryFrame=1
+

@@ -1,0 +1,65 @@
+[System]
+GroupPart1=flare
+GroupPart1Type=Simple
+GroupPart2=glow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[flare]
+KeywordsRequired=DeepseaKogMaw
+e-life=-1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1.4000000000000001
+p-linger=0
+p-offset=0 0 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=45
+p-texture=Flare-Omnimax.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+
+[glow]
+KeywordsRequired=DeepseaKogMaw
+e-life=-1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=1.4000000000000001
+p-linger=0
+p-offset=0 0 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=12
+p-texture=bigglow.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1
+unkD650CE5F=1

@@ -1,0 +1,49 @@
+[System]
+GroupPart1=whitesparks
+
+[whitesparks]
+e-rate=0.8
+e-rateP1=0 0
+e-rateP2=0.7 0
+e-rateP3=0.7099999785423279 1
+e-rateP4=1 1
+e-rgba=255 255 255 179
+e-shape-name=sru_magebase_shopkeeper_sword.scb
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-flexoffset=0.004999999888241291
+p-life=1
+p-lifeP1=0 0.7
+p-lifeP2=1 1.1
+p-linger=0
+p-quadrot=1 0 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 90
+p-quadrotZP1=0 0
+p-quadrotZP2=1 90
+p-rgba=color-hold.tga
+p-rotvel=45 0 45
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=14 14 14
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.1
+p-scaleZP1=0 0.8
+p-scaleZP2=1 1.1
+p-texture=SRU_Chaos_Shopkeeper_weaponRack_sparkle.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0.2 0.2 0.2
+

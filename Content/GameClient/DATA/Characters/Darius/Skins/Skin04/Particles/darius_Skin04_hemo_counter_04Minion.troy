@@ -1,0 +1,124 @@
+[Parent_01]
+ChildParticleName=Darius_Skin04_Passive_Child.troy
+e-life=0.1
+e-rate=1
+e-rgba=255 255 255 115
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=-1
+p-linger=0
+p-orbitvel=0 1 0
+p-postoffset=0 20 -70
+p-scale=20 20 20
+p-texture=Darius_Skin04_Z_Glow_01.dds
+pass=1
+rendermode=4
+single-particle=1
+
+[Parent_02]
+ChildParticleName=Darius_Skin04_Passive_Child.troy
+e-life=0.1
+e-rate=1
+e-rgba=255 255 255 115
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=-1
+p-linger=0
+p-orbitvel=0 1 0
+p-postoffset=0 20 70
+p-scale=20 20 20
+p-texture=Darius_Skin04_Z_Glow_01.dds
+pass=1
+rendermode=4
+single-particle=1
+
+[Parent_03]
+ChildParticleName=Darius_Skin04_Passive_Child.troy
+e-life=0.1
+e-rate=1
+e-rgba=255 255 255 115
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=-1
+p-linger=0
+p-orbitvel=0 1 0
+p-postoffset=85 20 35
+p-scale=20 20 20
+p-texture=Darius_Skin04_Z_Glow_01.dds
+pass=1
+rendermode=4
+single-particle=1
+
+[Parent_04]
+ChildParticleName=Darius_Skin04_Passive_Child.troy
+e-life=0.1
+e-rate=1
+e-rgba=255 255 255 115
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=-1
+p-linger=0
+p-orbitvel=0 1 0
+p-postoffset=-85 20 -35
+p-scale=20 20 20
+p-texture=Darius_Skin04_Z_Glow_01.dds
+pass=1
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=bleed_counter_04
+GroupPart1Importance=High
+GroupPart2=basketball_01
+GroupPart2Importance=High
+GroupPart3=Parent_01
+GroupPart4=Parent_02
+GroupPart5=Parent_03
+GroupPart6=Parent_04
+PersistThruRevive=0
+SimulateEveryFrame=1
+
+[basketball_01]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.009999999776482582
+p-life=300
+p-linger=0
+p-mesh=darius_skin04_passive_basketball_04.scb
+p-meshtex=Darius_Skin04_TX_CM.dds
+p-postoffset=0 20 0
+p-rgba=color-hold.dds
+p-rotvel=0 60 0
+p-scale=0.8 0.8 0.8
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+
+[bleed_counter_04]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.009999999776482582
+p-life=300
+p-linger=0
+p-mesh=bleed_drop_counter_04.sco
+p-meshtex=bleed_blood_drop.dds
+p-postoffset=0 20 0
+p-rgba=color-hold.dds
+p-rotvel=0 60 0
+p-scale=0.8 0.8 0.8
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+

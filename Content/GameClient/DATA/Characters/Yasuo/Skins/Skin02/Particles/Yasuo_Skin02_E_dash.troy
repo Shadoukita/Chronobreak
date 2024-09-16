@@ -1,0 +1,58 @@
+[System]
+GroupPart1=afterimage_skin01
+GroupPart2=sub_glow_skin01
+SimulateEveryFrame=1
+SoundOnCreate=Play_vo_YasuoSkin02_YasuoDashWrapper_cast
+SoundPersistent=Play_sfx_YasuoSkin02_YasuoDashWrapper_cast
+
+[afterimage_skin01]
+e-life=0.4
+e-rate=15
+p-backfaceon=1
+p-colortype=1 3
+p-flexoffset=0.004999999888241291
+p-life=0.8500000238418579
+p-linger=0.5
+p-mesh=yasuo_Skin02_e_dash_afterimage.scb
+p-meshtex=Yasuo_Skin02_E_Dash_Afterimage.dds
+p-offset=-50 -120 0
+p-quadrot=-60 0 0
+p-rgba=Color_Yasuo_skin02_E_afterimage.dds
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-scaleXP1=0 1
+p-scaleXP2=1 0.75
+p-type=3
+p-vel=0 0 0
+p-velZP1=0 0
+p-velZP2=1 1
+p-xrgba=1 1 1 0.5
+pass=20
+rendermode=4
+uniformscale=1
+
+[sub_glow_skin01]
+e-life=0.3499999940395355
+e-rate=60
+p-backfaceon=1
+p-flexoffset=0.004999999888241291
+p-life=0.75
+p-linger=1
+p-postoffset=0 50 50
+p-quadrot=-60 0 0
+p-scale=130 130 130
+p-scaleXP1=0 1
+p-scaleXP2=1 1.1
+p-texture=Yasuo_Skin02_e_dash_sub.dds
+p-vel=0 0 0
+p-velZP1=0 0
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 0.15
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=2
+uniformscale=1
+

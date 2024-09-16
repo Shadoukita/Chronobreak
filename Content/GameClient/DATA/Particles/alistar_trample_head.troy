@@ -1,0 +1,71 @@
+[System]
+GroupPart1=lines
+GroupPart10=glowmatador
+GroupPart11=glowcowboy
+GroupPart1Type=Simple
+GroupPart7=glowbase
+GroupPart8=glowblack
+GroupPart9=glowgold
+
+[glowbase]
+KeywordsRequired=Minotaur
+MaterialOverride1Texture=Minotaur_Diffuse_Trample.tga
+e-life=0.5
+p-life=1
+
+[glowblack]
+KeywordsRequired=BlackMinotaur
+MaterialOverride1Texture=Minotaur_Black_Trample.tga
+e-life=1
+p-life=1
+
+[glowcowboy]
+KeywordsRequired=CowboyMinotaur
+MaterialOverride1Texture=Minotaur_Cowboy_Trample.tga
+e-life=1
+p-life=1
+
+[glowgold]
+KeywordsRequired=GoldenMinotaur
+MaterialOverride1Texture=Minotaur_Golden_Trample.tga
+e-life=1
+p-life=1
+
+[glowmatador]
+KeywordsRequired=MatadorMinotaur
+MaterialOverride1Texture=Minotaur_Matador_Trample.tga
+e-life=1
+p-life=1
+
+[lines]
+e-life=3
+e-linger=0
+e-rate=5
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.6000000000000001
+p-colortype=1 0
+p-frameRate=0
+p-life=0.8
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=1
+p-numframes=1
+p-postoffset=20 30 0
+p-quadrot=1
+p-quadrotP1=0 -60
+p-quadrotP2=1 60
+p-rgba=color-redflash32.tga
+p-scale=110
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=angstlines.tga
+p-xscale1=0 1
+p-xscale2=1 2
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk80347BC8=1
+unkB65B3CBD=1

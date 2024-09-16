@@ -1,0 +1,15 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+IsDamagingSpell = L0_1
+L0_1 = "MordekaiserMaceOfSpades.dds"
+BuffTextureName = L0_1
+L0_1 = "MordekaiserMaceOfSpades"
+BuffName = L0_1
+L0_1 = "mordakaiser_maceOfSpades_activate.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "BUFFBONE_CSTM_WEAPON_1"
+AutoBuffActivateAttachBoneName2 = L0_1

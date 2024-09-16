@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>ScriptPackageTemplate</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Scripts\AI\" />
+      <Folder Include="Scripts\Items\" />
+      <Folder Include="Scripts\Shared\Buffs\" />
+      <Folder Include="Scripts\Shared\Spells\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ScriptsCore\ScriptsCore.csproj" />
+    </ItemGroup>
+
+</Project>

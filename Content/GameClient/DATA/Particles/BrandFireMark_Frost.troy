@@ -1,0 +1,32 @@
+[FlameMarker_Frost]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-flexscale=0.004999999888241291
+p-frameRate=30
+p-life=2.5
+p-linger=0
+p-numframes=16
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-eyefade.tga
+p-rotvel=0
+p-scale=80
+p-simpleorient=2
+p-startframe=0
+p-texdiv=4 4
+p-texture=fireloop_aura_BrandFrost.tga
+p-type=1
+p-vel=0 0 0
+rendermode=0
+
+[System]
+GroupPart1=FlameMarker_Frost
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

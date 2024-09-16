@@ -1,0 +1,237 @@
+[Skn3Dome]
+KeywordsRequired=MakerViktor
+e-life=3
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-life=2
+p-postoffset=0 120 0
+p-scale=120 120 0
+p-texture=Viktor_Skin03_Q_ShieldDome.tga
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 0.5
+p-xrgba3=0.8 1 1 1 0.3
+p-xrgba4=1 1 1 1 0
+rendermode=1
+single-particle=1
+
+[Skn3Glow]
+KeywordsRequired=MakerViktor
+e-life=3
+e-rate=8
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-life=1
+p-postoffset=0 120 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=115 115 0
+p-texture=Viktor_Skin03_Q_ShieldGlow.tga
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 0.498039 0.698039 1 1
+p-xrgba3=0.5 0.5 0.7 1 1
+p-xrgba4=1 0 0 0.3 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.25 1.2000000476837158 1.2000000476837158 1.100000023841858
+
+[Skn3Orb]
+KeywordsRequired=MakerViktor
+e-life=2.8000000000000003
+e-rate=2
+e-uvoffset=0 0.3
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-colorscale=1 0
+p-life=2
+p-linger=2
+p-mesh=fireball.sco
+p-meshtex=ring06.tga
+p-postoffset=0 120 0
+p-quadrot=90 0 0
+p-rgba=color-bellramp.tga
+p-scale=13 13 13
+p-texdiv=1 4
+p-type=3
+p-uvscroll-rgb=0 -0.2
+p-xrgba=1 1 1 0.15000000596046448
+
+[Skn3Pattern]
+KeywordsRequired=MakerViktor
+e-alpharef=10
+e-life=2.8000000000000003
+e-rate=2
+p-alphaslicerange=0.15000000596046448
+p-bindtoemitter=1 1
+p-coloroffset=0.4 0
+p-fresnel=0.1
+p-fresnel-color=-1 -1 -1 -1
+p-mesh=simplesphere.sco
+p-meshtex=Viktor_skn3_Staffshapes.dds
+p-numframes=4
+p-postoffset=0 120 0
+p-quadrot=1 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown32.tga
+p-scale=150 150 150
+p-scaleXP1=0 -1
+p-scaleXP2=0.5 -1
+p-scaleXP3=0.5001000165939331 1
+p-scaleYP1=0 -1
+p-scaleYP2=0.5 -1
+p-scaleYP3=0.5001000165939331 1
+p-scaleZP1=0 -1
+p-scaleZP2=0.5 -1
+p-scaleZP3=0.5001000165939331 1
+p-texdiv=0.5 2
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.35 0.6 0.7 1
+p-xrgba2=1 0 0 0.1 1
+pass=1
+rendermode=4
+uniformscale=1
+
+[Skn3ProcRing]
+KeywordsRequired=MakerViktor
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0
+p-life=0.30000000000000004
+p-linger=1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=180 1 1
+p-texture=Viktor_skin03_Z_paleblueflare.tga
+single-particle=1
+
+[System]
+GroupPart1=outer_ring1
+GroupPart10=Skn3Dome
+GroupPart1Type=Simple
+GroupPart2=outer_ring2
+GroupPart2Type=Simple
+GroupPart3=alphaslice
+GroupPart4=rainbow-down
+GroupPart5=outer_ring_proc
+GroupPart5Type=Simple
+GroupPart6=Skn3Pattern
+GroupPart7=Skn3Glow
+GroupPart8=Skn3Orb
+GroupPart9=Skn3ProcRing
+SimulateEveryFrame=1
+build-up-time=0.5
+group-scale-cap=-1
+
+[alphaslice]
+KeywordsExcluded=MakerViktor
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1-axis=1 0 0
+e-rotation2-axis=0 1 0
+p-alphaslicerange=0.019999999552965164
+p-bindtoemitter=1 1
+p-colorscale=1 0.8
+p-flexoffset=0.004999999888241291
+p-life=3.5
+p-linger=1we
+p-offsetYP2=1 5 0
+p-postoffset=0 60 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-blueslice32.tga
+p-scale=110 110 1
+p-texture=Viktor_Base_E_shield_alphaslice.dds
+rendermode=4
+single-particle=1
+
+[outer_ring1]
+KeywordsExcluded=MakerViktor
+e-life=2.5
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-linger=0
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-fringe.tga
+p-scale=130
+p-texture=Viktor_Base_Q_Shield_Rim.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 1.1
+
+[outer_ring2]
+KeywordsExcluded=MakerViktor
+e-life=2.5
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.8
+p-linger=0
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-fringe.tga
+p-scale=130
+p-texture=Viktor_Base_Q_Shield_Rim.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 1.1
+
+[outer_ring_proc]
+KeywordsExcluded=MakerViktor
+e-life=1.5
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0
+p-life=0.30000000000000004
+p-linger=1
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=180
+p-texture=light-shield.dds
+single-particle=1
+
+[rainbow-down]
+KeywordsExcluded=MakerViktor
+e-life=1.5
+e-rate=1
+e-uvoffset=0 0.3
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-colorscale=1 0
+p-life=2
+p-linger=2
+p-mesh=fireball.sco
+p-meshtex=ring06.tga
+p-offset=0 60 0
+p-quadrot=90 0 0
+p-rgba=color-bellramp.tga
+p-scale=13 13 13
+p-texdiv=1 4
+p-type=3
+p-uvscroll-rgb=0 -0.2
+

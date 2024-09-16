@@ -1,0 +1,51 @@
+[Glow]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=3.5
+p-linger=0.75
+p-offset=0 0 0
+p-quadrot=50 0 0
+p-quadrotXP1=0 -1
+p-quadrotXP2=1 1
+p-scale=50 25 100
+p-texture=FlareBuilding_orange.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.5
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 2 3 1
+p-xscale2=1 4 6 1
+rendermode=4
+single-particle=1
+
+[Glow2]
+e-life=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=3.5
+p-linger=0.75
+p-offset=0 0 0
+p-scale=50 50 100
+p-texture=Glow_02.dds
+p-type=0
+p-xrgba=1 0.8 0.4 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.5
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 2 2 0
+p-xscale2=1 4 4 0.5
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Glow
+GroupPart2=Glow2
+SimulateEveryFrame=1
+

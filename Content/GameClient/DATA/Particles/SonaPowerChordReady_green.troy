@@ -1,0 +1,59 @@
+[System]
+GroupPart1=ready1
+GroupPart1Type=Complex
+GroupPart2=ready2
+
+[ready1]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.9
+p-colortype=1 0
+p-frameRate=0
+p-life=1000
+p-linger=0
+p-mesh=sphere.sco
+p-meshtex=powerchordready_green.tga
+p-numframes=1
+p-offset=0 120 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-scale=5 2 5
+p-startframe=1
+p-texdiv=1 0.5
+p-type=3
+p-uvscroll-rgb=0 0.5
+rendermode=0
+single-particle=1
+
+[ready2]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.9
+p-colortype=1 0
+p-frameRate=0
+p-life=1000
+p-linger=0
+p-mesh=sphere.sco
+p-meshtex=powerchordready_green.tga
+p-numframes=1
+p-offset=0 120 0
+p-quadrot=0 180 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-scale=5 2 5
+p-startframe=1
+p-texdiv=1 0.5
+p-type=3
+p-uvscroll-rgb=0 0.5
+rendermode=0
+single-particle=1
+

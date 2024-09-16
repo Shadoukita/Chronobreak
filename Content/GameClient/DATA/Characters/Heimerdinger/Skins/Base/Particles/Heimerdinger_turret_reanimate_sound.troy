@@ -1,0 +1,16 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundsPlayWhileOffScreen=1
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkDADE2112=Play_sfx_Heimerdinger_HeimerdingerTurretShutdown_reanimate

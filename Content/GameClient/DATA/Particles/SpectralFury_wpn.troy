@@ -1,0 +1,39 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=-1
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=1
+p-lifeP1=0 0.9
+p-lifeP2=1 1.1
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=alpha_04.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=80
+p-scale1=80
+p-texture=Flare-Rainbow_yellow_01.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0 0 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 0 0 1
+p-xscale=1 1 1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1

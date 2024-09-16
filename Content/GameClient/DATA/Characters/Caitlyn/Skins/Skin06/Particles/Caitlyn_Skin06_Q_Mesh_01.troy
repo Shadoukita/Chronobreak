@@ -1,0 +1,47 @@
+[Mesh_Anim]
+e-life=0.5
+e-local-orient=0
+e-rate=1
+p-animation=Caitlyn_Skin06_Q_Mesh.anm
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-linger=0
+p-local-orient=1
+p-meshtex=Caitlyn_Skin06_Q_Mesh.dds
+p-quadrot=0 -90 0
+p-scale=4 3 4
+p-skeleton=Caitlyn_Skin06_Q_Mesh.skl
+p-skin=Caitlyn_Skin06_Q_Mesh.skn
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=0.2 1 1 1
+p-xscale3=1 1 1 1
+rendermode=1
+single-particle=1
+
+[Mesh_Static]
+e-disabled=1
+e-life=0.5
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-linger=0
+p-local-orient=1
+p-mesh=caitlyn_skin06_q_mesh_static.scb
+p-quadrot=0 -90 0
+p-scale=4 3 4
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=0.5 1 1 1
+p-xscale3=1 1 1 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Mesh_Anim
+GroupPart2=Mesh_Static
+SimulateEveryFrame=1
+

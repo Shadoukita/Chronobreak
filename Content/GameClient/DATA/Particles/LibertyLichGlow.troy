@@ -1,0 +1,32 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+KeywordsRequired=StatueLich
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=4
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellramp.tga
+p-scale=40
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-sun_12.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 1.2000000000000002
+rendermode=0
+

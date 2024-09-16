@@ -1,0 +1,41 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=5000
+
+[glow]
+e-life=1.8
+e-linger=1.8
+e-rate=70
+e-timeoffset=1.2000000000000002
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=1
+p-numframes=1
+p-offset=1 1 1
+p-offsetXP1=0 -30
+p-offsetXP2=1 30
+p-offsetYP1=0 -100
+p-offsetYP2=1 100
+p-offsetZP1=0 -10
+p-offsetZP2=1 40
+p-rgba=color-hold.tga
+p-scale=20
+p-scaleP1=0 1
+p-scaleP2=1 3
+p-startframe=0
+p-texdiv=1 1
+p-texture=ball01.tga
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=0.9 1 1 1
+p-xscale4=1 0 0 0
+rendermode=0
+

@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kalista_base_ceremony_rez.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_ceremony_rezspear.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistaallymarker"}}, 
+}

@@ -1,0 +1,15 @@
+[System]
+GroupPart1=cyberezrealaudio
+GroupPart1Type=Simple
+SoundPersistent=Play_sfx_CyberEzreal_Joke3D_buffactivate
+
+[cyberezrealaudio]
+KeywordsRequired=CyberEzreal
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

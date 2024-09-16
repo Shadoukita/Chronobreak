@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="movequick_buf2.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="teemomovequickspeed"}}, 
+}

@@ -1,0 +1,23 @@
+[System]
+GroupPart1=ring_end
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[ring_end]
+e-alpharef=100
+e-life=1
+e-rate=1
+p-life=0.5
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 -260 0
+p-quadrot=90 0 0
+p-scale=1000 1000 1000
+p-texture=yikes_circle.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.3 0 0 0
+p-xrgba2=1 0 0 0 1
+rendermode=4
+single-particle=1
+

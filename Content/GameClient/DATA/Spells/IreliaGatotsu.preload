@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="irelia_gotasu_ability_indicator.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="irelia_gotasu_mana_refresh.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="irelia_gotasu_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="irelia_gotasu_cast_01.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="irelia_gotasu_cast_02.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="ireliagatotsudash"}}, 
+}

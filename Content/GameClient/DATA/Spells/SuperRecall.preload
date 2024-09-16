@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="super_teleporthome.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="teleportarrive.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="super_teleportarrive.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="recallends"}}, 
+{Function=BBPreloadSpell, Params={Name="exaltedspeed"}}, 
+}

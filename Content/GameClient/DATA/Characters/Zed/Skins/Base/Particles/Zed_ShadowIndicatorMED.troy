@@ -1,0 +1,35 @@
+[System]
+GroupPart1=arrow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+
+[arrow]
+e-life=1
+e-linger=0
+e-rate=-1
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 0.5
+p-colortype=0 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=orbarrow.sco
+p-meshtex=orbarrow32.tga
+p-offset=0 0 125
+p-orbitvel=0 0 0
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=color-orbarrow.tga
+p-scale=1.5 3 1.5
+p-shadow=1
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=0 0
+rendermode=3
+single-particle=1
+teamcolor-correction=1
+
+[UNKNOWN_HASHES]
+unk2CBA137F=1

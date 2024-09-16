@@ -1,0 +1,63 @@
+[Laser_Core]
+e-life=0.25
+e-linger=0
+e-local-orient=1
+e-rate=5
+e-rgba=255 255 255 255
+e-rgbaAP1=0 0.75
+e-rgbaAP2=1 1
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.25
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-scale=50.5 1 1
+p-scaleXP1=0 -2
+p-scaleXP2=0.5 -1
+p-scaleXP3=0.50001 1
+p-scaleXP4=1 2
+p-startframe=0
+p-texdiv=1 1
+p-texture=SRU_Inhibitor_Order_Tower_Beam.dds
+p-type=6
+p-uvscroll-rgb=-1 0
+p-uvscroll-rgbXP1=0 1
+p-uvscroll-rgbXP2=1 2
+pass=40
+rendermode=4
+
+[System]
+GroupPart1=Laser_Core
+GroupPart2=flash
+SimulateEveryFrame=1
+group-vis=11000
+
+[flash]
+e-life=0.30000000000000004
+e-linger=0.30000000000000004
+e-rate=3
+e-rgba=255 255 255 255
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=200 200 1
+p-texture=SRU_Order_ambientGlow.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=80
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk06CCDE97=0 0.5
+unk06CCDE98=1 2
+unk1A9EE489=0 0.5
+unk1A9EE48A=1 1
+unk8CF38B63=0 100 0

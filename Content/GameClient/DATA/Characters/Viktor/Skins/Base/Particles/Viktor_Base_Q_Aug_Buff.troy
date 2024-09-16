@@ -1,0 +1,38 @@
+[Basic]
+e-rate=7
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.4
+p-scale=30 30 0
+p-texture=Viktor_Base_Q_Aug_Buf_Sparkle.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 1
+p-xscale2=0.5 2 1 1
+p-xscale3=1 0.75 0.75 1
+
+[Basic1]
+e-disabled=1
+e-rate=3
+e-rotation1-axis=1 0 0
+e-rotation2-axis=0 1 0
+p-alphaslicerange=0.07999999821186066
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Viktor_Base_Q_Aug_Buf_alphaslice_gradient.dds
+p-scale=50 50 0
+p-texture=Nocturne_Cyber_alphaslice_noise.dds
+rendermode=4
+
+[System]
+GroupPart1=Basic
+GroupPart2=Basic1
+SimulateEveryFrame=1
+

@@ -1,0 +1,67 @@
+[Flashes_Projected]
+e-life=0.1
+e-rate=1
+p-life=1
+p-linger=0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=Khazix_Skin01_Z_Missile_RGB.tga
+p-scale=300
+p-texture=Khazix_Skin01_Z_Glow.tga
+p-type=7
+rendermode=0
+single-particle=1
+
+[SmokePuff_Drag]
+f-drag=4
+f-pos=0 0 0
+f-radius=500
+
+[System]
+GroupPart1=XP_Add
+GroupPart2=Flashes_Projected
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Khazix_KhazixWMissile_hit
+
+[XP_Add]
+ChildEmitOnDeath=0
+ChildParticleName=Khazix_Skin01_W_Tar_Child.troy
+e-life=0.35
+e-linger=0
+e-rate=50
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-drag-1=SmokePuff_Drag
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.3
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0.3
+p-numframes=1
+p-offset=100 100 100
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=1 1 1
+p-randomstartframe=1
+p-rgba=Khazix_Skin01_Z_Rampdown_Immediate_RGB.tga
+p-scale=1 1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=Khazix_Skin01_W_Explo_2x2.tga
+p-type=0
+pass=2
+rendermode=0
+

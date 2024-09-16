@@ -1,0 +1,35 @@
+[System]
+GroupPart1=clone
+GroupPart1Type=Simple
+
+[clone]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-rate=2
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-alphaslicerange=0.07999999821186066
+p-coloroffset=0.3 0
+p-colorscale=0.7000000000000001 1
+p-life=1
+p-local-orient=1
+p-numframes=4
+p-randomstartframe=1
+p-rgba=color-cyan_slice.tga
+p-simpleorient=3
+p-texdiv=2 2
+p-texture=Kalista_Base_R_alphaslice.dds
+p-type=11
+p-xscale=1
+p-xscale1=0 1.2
+p-xscale2=0.30000000000000004 1.1
+p-xscale3=0.8999999761581421 1.0499999523162842
+p-xscale4=1 1.0499999523162842
+pass=100
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+

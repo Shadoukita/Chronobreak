@@ -1,0 +1,26 @@
+[System]
+GroupPart4=streak
+GroupPart5=proj_core
+GroupPart5Importance=High
+GroupPart5Type=Complex
+SimulateEveryFrame=1
+
+[proj_core]
+e-life=1
+e-linger=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-mesh=rock_test.sco
+p-meshtex=rock_test.tga
+p-postoffset=0 100 0
+p-quadrot=0 270 90
+p-rotvel=0 350 0
+p-scale=400 400 400
+p-texture=rock_test.tga
+p-type=3
+rendermode=3
+single-particle=1
+

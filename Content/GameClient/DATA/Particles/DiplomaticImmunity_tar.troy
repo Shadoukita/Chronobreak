@@ -1,0 +1,85 @@
+[System]
+GroupPart1=buckyball
+GroupPart1Type=Complex
+GroupPart2=buckyball2
+GroupPart2Type=Complex
+GroupPart3Type=Complex
+GroupPart4Type=Complex
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Poppy_PoppyDITarget_loop
+group-scale-cap=-1
+
+[buckyball]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rgba=255 180 0 255
+e-uvoffset=0 0.5
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexscale=0.004999999888241291
+p-life=8
+p-linger=0
+p-mesh=buckybit.sco
+p-meshtex=dihex.tga
+p-offset=0 0 0
+p-quadrot=90 0 0
+p-scale=30 30 30
+p-type=3
+p-uvscroll-rgb=0.5 0
+
+[buckyball2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 255 255
+e-uvoffset=0 0.2
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=8
+p-linger=0
+p-mesh=buckybeam.sco
+p-meshtex=dispots.tga
+p-offset=0 140 0
+p-quadrot=0 0 0
+p-scale=40 40 40
+p-type=3
+p-uvscroll-rgb=-0.4000000059604645 0
+
+[UNKNOWN_HASHES]
+unk05AA4F66=1
+unk0A6A6414=1
+unk1A53C01A=20 20 20
+unk284EC97C=0.004999999888241291
+unk2CF9EC3E=-0.4000000059604645 0
+unk2D117ACB=3
+unk2EA9ABE0=0 90 0
+unk473A0219=20 20 20
+unk5401AC0C=8
+unk60197E57=1
+unk65DB68A3=0
+unk701A9770=0 0.5
+unk735FEA3B=1
+unk764242CF=255 255 255 255
+unk7CEA8753=1
+unk7D362A2F=0 0.2
+unk809D41FD=buckybit.sco
+unk8E4B1E09=dihex.tga
+unk916C2453=0
+unk99DE5F23=0 250 0
+unk9F55787F=0.5 0
+unkB0EFFA4D=8
+unkB5CEA63D=0.004999999888241291
+unkB672D365=1
+unkBD07CC98=1
+unkC810DE5F=0 90 0
+unkD0232C8A=3
+unkD04E387C=1
+unkD3309110=255 180 0 50
+unkDD8B903E=buckybit.sco
+unkE0156214=0
+unkE8879CE4=0 250 0
+unkF37FDC62=0
+unkF4E3EB8A=dispots.tga

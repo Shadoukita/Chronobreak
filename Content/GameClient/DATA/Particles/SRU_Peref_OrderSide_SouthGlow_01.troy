@@ -1,0 +1,21 @@
+[System]
+GroupPart1=WolfDen_Glow
+
+[WolfDen_Glow]
+e-local-orient=0
+e-rate=-1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=sru_peref_orderside_southglow_01.scb
+p-meshtex=SRU_WolfDen_Blueside_Glow_01.DDS
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.06
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk63AB7C76=color-hold.DDS
+unkB62C8011=sphere.sco

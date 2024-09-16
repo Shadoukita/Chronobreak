@@ -1,0 +1,69 @@
+[HarbingerGlow]
+KeywordsRequired=DarkBladeKassadin
+e-life=5
+e-linger=0
+e-local-orient=1
+e-rate=150
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.2
+p-linger=0
+p-local-orient=1
+p-numframes=1
+p-offset=70 6 10
+p-quadrot=90 -2 360
+p-scale=80 80 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=kassadin_darkblade_glow.tga
+p-type=1
+rendermode=0
+
+[System]
+GroupPart1=voidbladeglow
+GroupPart1Importance=High
+GroupPart2=HarbingerGlow
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[voidbladeglow]
+KeywordsExcluded=DarkbladeKassadin
+e-life=5
+e-linger=0
+e-local-orient=1
+e-rate=300
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-life=0.016699999570846558
+p-local-orient=1
+p-numframes=4
+p-offset=47 4 6
+p-quadrot=0 0 0
+p-randomstartframe=1
+p-scale=70 70 0
+p-startframe=0
+p-texdiv=2 2
+p-texture=netherblade_glow.tga
+p-type=1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk13E1C510=1
+unk1EF6CD10=1 1
+unk363CC08A=0 0 0
+unk45F2D860=1
+unk4A195D91=0
+unk5A1E3C55=voidblade_glow.tga
+unk641908E9=1
+unk83BCDD07=0
+unkA03FDFED=1
+unkAEAA2AA2=0
+unkB4BE5C38=1
+unkB5E97FF9=47 4 6
+unkC44509C4=70 70 0
+unkC9D157E2=1
+unkD5E92A2D=-1
+unkD6731466=1
+unkE92F9611=1
+unkEC11EEA5=255 255 255 255

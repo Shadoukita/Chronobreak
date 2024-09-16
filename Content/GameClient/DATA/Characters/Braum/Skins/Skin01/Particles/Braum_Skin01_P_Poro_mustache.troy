@@ -1,0 +1,53 @@
+[System]
+GroupPart1=mustache
+GroupPart2=mustache_ini
+SimulateEveryFrame=1
+
+[mustache]
+e-rate=1
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-flexscale=0.004000000189989805
+p-life=-1
+p-local-orient=1
+p-mesh=Braum_skin01_P_poro_mustache.scb
+p-meshtex=Braum_skin01_P_poro_mustache.dds
+p-scale=7 7 7
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=-20
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[mustache_ini]
+e-life=0.1
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.004000000189989805
+p-life=0.6000000000000001
+p-local-orient=1
+p-mesh=Braum_Skin01_P_poro_mustache.scb
+p-meshtex=Braum_Skin01_P_poro_mustache.dds
+p-scale=7 7 7
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=0.2 1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-xscale3=0.22499999403953552 0.8999999761581421 0.8999999761581421 0.8999999761581421
+p-xscale4=0.25 1 1 1
+pass=-20
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5FC6BDF9=1

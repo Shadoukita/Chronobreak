@@ -1,0 +1,45 @@
+[Arrow]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=Quinn_Skin02_BA_Mis_Arrow.sco
+p-meshtex=Quinn_Skin02_BA_Mis_Arrow.dds
+p-quadrot=90 0 0
+p-rotvel=0 1020 0
+p-scale=6.349999904632568 6.349999904632568 6.349999904632568
+p-shadow=1
+p-type=3
+rendermode=1
+
+[Streak]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=190
+e-rgba=255 255 255 255
+p-life=0.1
+p-linger=0
+p-postoffset=0 -70 0
+p-quadrot=0 0 90
+p-scale=50 16 4
+p-texture=Quinn_Skin02_BA_Mis_Streak.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.2 0.6 1 0
+p-xrgba2=0.05 0.2 0.6 1 0.25
+p-xrgba3=0.7 0.2 0.6 1 0.25
+p-xrgba4=1 0.2 0.6 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+pass=-1
+rendermode=0
+
+[System]
+GroupPart1=Arrow
+GroupPart1Importance=High
+GroupPart2=Streak
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk126F621A=1

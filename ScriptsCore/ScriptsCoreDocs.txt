@@ -1,0 +1,17 @@
+[SCRIPTS-CORE]
+
+Core project used to create new scripting pages.
+Also used for core classes/scripts that the server can run without
+but may increase QoL for scripting needs adn examples.
+
+[Commands]
+NameSpace: Commands
+Inherit Class: BaseCommand
+
+The server loads commands based on their inherited class, "BaseCommand".
+So they can be placed within any namespace in any assembly the server is set to load.
+However it is best practice to leave them all in the same namespace of "Commands" to minimize issues if changes are made
+to the server in the future.
+
+TODO:
+- Rework the API to grant access to Core system managers, determining what commands should and shouldn't be able to manipulate or access

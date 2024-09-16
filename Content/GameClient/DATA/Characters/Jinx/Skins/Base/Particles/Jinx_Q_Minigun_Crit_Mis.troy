@@ -1,0 +1,25 @@
+[System]
+GroupPart1=bullet
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[bullet]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.3
+p-linger=0
+p-quadrot=0 0 90
+p-scale=175 3 0
+p-texture=Jinx_Basic_Bullet.tga
+p-type=1
+p-xscale1=0 1 1 1
+p-xscale2=0.1 1 1 1
+p-xscale3=0.15 0.5 1 1
+p-xscale4=1 0.5 1 1
+pass=40
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="MonkeyKing_Base_E_Tar.troy"}}, 
+}

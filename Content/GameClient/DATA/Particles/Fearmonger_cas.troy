@@ -1,0 +1,176 @@
+[Bubbling_Confetti]
+KeywordsRequired=SurprisePartyFiddlesticks
+e-life=4
+e-rate=200
+field-accel-1=Confetti_Accel
+field-drag-1=Confetti_Drag
+field-orbit-1=Confetti_Orbit
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=80 10 80
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-randomstartframe=2
+p-rgba=color-beacontrail.tga
+p-rotvel=600
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=25
+p-scaleP1=0 0.3
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=Confetti.tga
+p-type=0
+p-vel=0 300 0
+p-velYP1=0 1
+p-velYP2=1 1.5
+rendermode=0
+
+[Confetti_Accel]
+f-accel=0 -800 0
+f-localspace=0
+
+[Confetti_Drag]
+f-drag=0.4
+f-pos=0 0 0
+f-radius=200
+
+[Confetti_Orbit]
+f-direction=1 1 1
+f-localspace=0
+
+[EnergyIn_Accel]
+f-accel=0 100 0
+f-localspace=0
+
+[EnergyIn_Drag]
+f-drag=0.3
+f-pos=0 0 0
+f-radius=1000
+
+[PartySparks]
+KeywordsRequired=SurprisePartyFiddlesticks
+e-life=4.5
+e-rate=10
+e-rotation1=10
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=60 0 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-hold.tga
+p-scale=10
+p-texture=flare-sun_07.tga
+p-vel=0 250 0
+p-velYP1=0 0.5
+p-velYP2=1 1.5
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+
+[Party_EnergyIn]
+KeywordsRequired=SurprisePartyFiddlesticks
+e-life=4.4
+e-rate=10
+field-accel-1=EnergyIn_Accel
+field-drag-1=EnergyIn_Drag
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.8
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.8
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-fountainheal.tga
+p-rotvel=40
+p-rotvelP1=0 0
+p-rotvelP2=1 1
+p-scale=45
+p-startframe=1
+p-texdiv=2 1
+p-texture=FountainHeal01.tga
+p-vel=0 275 0
+p-xscale=1
+p-xscale1=0 3
+p-xscale2=0.2 2
+p-xscale3=0.7 1
+p-xscale4=1 0.2
+
+[System]
+GroupPart1=healspark
+GroupPart1Type=Complex
+GroupPart3=Party_EnergyIn
+GroupPart3Type=Simple
+GroupPart4=PartySparks
+GroupPart4Type=Simple
+GroupPart5=Bubbling_Confetti
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+
+[healspark]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=10
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-drag=3 1 3
+p-life=0.3
+p-lifeP1=0 1
+p-lifeP2=1 3
+p-offset=30 25 30
+p-offsetXP1=0 -1
+p-offsetXP2=0.5 -0.5
+p-offsetXP3=0.51 0.5
+p-offsetXP4=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=0.5 -0.5
+p-offsetZP3=0.51 0.5
+p-offsetZP4=1 1
+p-orbitvel=0 3 0
+p-orbitvelYP1=0 -1
+p-orbitvelYP2=1 1
+p-rgba=color-bellcurve.tga
+p-scale=25 25 25
+p-texture=Soraka_heal_sparkle_green.tga
+p-type=0
+p-vel=0 800 0
+p-velYP1=0 0.2
+p-velYP2=1 1
+p-xscale=1 1 1
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.1 0.3 0.3 0.3
+p-xscale3=0.3 1 10 1
+p-xscale4=0.6 0.3 0.3 0.3
+p-xscale5=1 0.1 0.1 0.1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk447BC0AE=0

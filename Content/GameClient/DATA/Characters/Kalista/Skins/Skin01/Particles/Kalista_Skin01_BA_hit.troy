@@ -1,0 +1,67 @@
+[Flash]
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-life=0.15000000596046448
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=100 100 100
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.2000000000000002
+p-texture=Kalista_Skin01_BA_hit_ring.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.7 0.333333 0 0 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.5 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[Flash1]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=0.30000000000000004
+p-scale=150 150 150
+p-texture=Kalista_Skin01_Q_Flash_glow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+rendermode=4
+
+[Flash2]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=0.25
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=150 150 150
+p-texture=Kalista_Skin01_Q_Flash_tar.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 0 0 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 1 0.5
+p-xscale2=0.1 1.1 1 1
+p-xscale3=1 1.350000023841858 0.10000000149011612 1
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart2=Flash1
+GroupPart3=Flash2
+SimulateEveryFrame=1
+

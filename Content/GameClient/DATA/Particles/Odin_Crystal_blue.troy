@@ -1,0 +1,111 @@
+[System]
+GroupPart1=gem_low
+GroupPart1Importance=NotWhenHigh
+GroupPart2=gem_refract
+GroupPart3=gem_sparkle
+GroupPart4=gem
+GroupPart4Importance=Low
+SimulateEveryFrame=1
+group-vis=8000
+
+[gem]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 150
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=0
+p-mesh=Nexus_Crystal.sco
+p-meshtex=Dominion_Crystal_blue32.tga
+p-offset=0 0 0
+p-rotvel=0 3 0
+p-scale=1 1 1
+p-type=3
+pass=2
+rendermode=1
+single-particle=1
+
+[gem_low]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 255
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=0
+p-mesh=Nexus_Crystal.sco
+p-meshtex=Dominion_Crystal_blue32.tga
+p-offset=0 0 0
+p-rotvel=0 3 0
+p-scale=1 1 1
+p-type=3
+pass=2
+rendermode=1
+single-particle=1
+
+[gem_refract]
+e-life=-1
+e-linger=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.5 1
+p-colortype=0 0
+p-distortion-mode=1
+p-distortion-power=0.5
+p-life=100000
+p-linger=0
+p-mesh=Nexus_Crystal.sco
+p-meshtex=color-hold.tga
+p-normal-map=Dominion_Crystal_distort.tga
+p-offset=0 0 0
+p-rgba=rampdown32.tga
+p-rotvel=0 3 0
+p-scale=0.9900000095367432 0.9900000095367432 0.9900000095367432
+p-type=3
+pass=-1
+rendermode=1
+single-particle=1
+
+[gem_sparkle]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 50
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1000000
+p-linger=0
+p-mesh=Nexus_crystal_sparkle.sco
+p-meshtex=Nexus_Gem_Sparkle.tga
+p-offset=15 0 0
+p-rotvel=0 3 0
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=0.10000000149011612 0.029999999329447746
+pass=100
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk2EE2E2B7=0
+unk64B344F7=100000
+unk70CB1742=-1
+unk84118326=1
+unk86F3DBBA=255 255 255 120
+unk8B210FBE=1
+unk9133073B=1 1
+unk914EDAE8=Nexus_Crystal.sco
+unkA4C75489=0
+unkA689F7BE=0
+unkAEFC328E=0 0 0
+unkB71B8F6F=0
+unkCA06EFED=1
+unkCEF361EF=0.9900000095367432 0.9900000095367432 0.9900000095367432
+unkE0D4C575=3
+unkE1AA4641=0 3 0
+unkFAA5F2DF=Dominion_Crystal_blue_in32.tga

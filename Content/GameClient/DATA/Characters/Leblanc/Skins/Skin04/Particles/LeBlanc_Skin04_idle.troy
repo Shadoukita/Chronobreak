@@ -1,0 +1,87 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart2=WispTrail
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[WispTrail]
+e-framerate=0
+e-local-orient=0
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-accel=0 -20 0
+p-bindtoemitter=1 1
+p-drag=2 6 2
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 1
+p-numframes=15
+p-offset=0 0 0
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rotvel=50 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=0.5 -0.5
+p-rotvelXP3=0.5001000165939331 0.5
+p-rotvelXP4=1 1
+p-scale=30 30 0
+p-scaleXP1=0 1.5
+p-scaleXP2=0.1 1
+p-scaleXP3=0.5 0.5
+p-scaleXP4=0.5001000165939331 -0.5
+p-scaleXP5=0.8999999761581421 -1
+p-scaleXP6=1 1.5
+p-scaleYP1=0 0.7
+p-scaleYP2=1 1
+p-texdiv=4 4
+p-texture=LeBlanc_Skin04_Z_Wisps.dds
+p-vecalign=1
+p-vel=50 50 50
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 1 0.701961 1
+p-xrgba2=0.3 0 0.239216 0.603922 1
+p-xrgba3=1 0.156863 0 0.168627 0
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.5 0.5
+p-xscale2=0.5 1.5 1 1
+p-xscale3=1 2 1.5 0
+
+[glow]
+e-rate=3
+p-bindtoemitter=1 1
+p-flexoffset=0.0020000000949949026
+p-life=1
+p-linger=0
+p-local-orient=1
+p-quadrot=360 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rotvel=100 0 0
+p-rotvelXP1=0 0.5
+p-rotvelXP2=1 -0.5
+p-scale=50 50 1
+p-texture=flare-Rainbow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 0 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+
+[UNKNOWN_HASHES]
+unkDA5F84E3=1

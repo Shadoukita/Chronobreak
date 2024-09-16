@@ -1,0 +1,27 @@
+[System]
+GroupPart1=vandals
+SimulateEveryFrame=1
+
+[vandals]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.09000000357627869
+p-bindtoemitter=1
+p-drag=1 0 0
+p-life=2
+p-linger=0
+p-mesh=Gragas_Skin05_Q_Mis.sco
+p-meshtex=Gragas_Skin05_Q_Mis.tga
+p-offset=0 0 0
+p-postoffset=-70 0 -100
+p-quadrot=0 0 0
+p-rotvel=-1200 0 0
+p-scale=13 13 13
+p-shadow=1
+p-type=3
+p-vel=70 0 -10
+rendermode=3
+single-particle=1
+

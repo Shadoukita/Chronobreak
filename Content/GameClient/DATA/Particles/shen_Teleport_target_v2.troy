@@ -1,0 +1,41 @@
+[System]
+GroupPart1=transport_lines
+GroupPart1Importance=High
+GroupPart1Type=Complex
+group-scale-cap=-1
+
+[transport_lines]
+e-life=2.25
+e-linger=0
+e-rate=90
+e-rate1=0 0.1
+e-rate2=0.7000000000000001 2
+e-rate3=1 1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=32
+p-life=0.5
+p-life1=0 1
+p-life2=1 0.5
+p-linger=1
+p-numframes=16
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-teleportlines_02.tga
+p-scale=80 80 80
+p-scale1=0 1 0.5 0.5
+p-scale2=1 0.30000000000000004 1 2
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 2
+p-scaleYP2=1 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=drip.tga
+p-type=2
+p-xscale1=0 0 1 1
+p-xscale2=0.30000000000000004 2 1 1
+p-xscale3=0.7000000000000001 1 2 0
+

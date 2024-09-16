@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="anniesparks.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="twistedfate_base_w_bluecard.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="twistedfate_base_w_redcard.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="twistedfate_base_w_goldcard.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="pickacard"}}, 
+{Function=BBPreloadSpell, Params={Name="redcardlock"}}, 
+{Function=BBPreloadSpell, Params={Name="goldcardlock"}}, 
+{Function=BBPreloadSpell, Params={Name="bluecardlock"}}, 
+{Function=BBPreloadSpell, Params={Name="redcardpreattack"}}, 
+{Function=BBPreloadSpell, Params={Name="goldcardpreattack"}}, 
+{Function=BBPreloadSpell, Params={Name="bluecardpreattack"}}, 
+{Function=BBPreloadSpell, Params={Name="pickacard_tracker"}}, 
+}

@@ -1,0 +1,31 @@
+[System]
+GroupPart1=bleed_counter_02
+GroupPart1Importance=High
+GroupPart1Type=complex
+SimulateEveryFrame=1
+
+[bleed_counter_02]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.02500000037252903
+p-flexscale=0.01
+p-life=300
+p-linger=0
+p-mesh=crossbones2.sco
+p-meshtex=frostflaketex_02.tga
+p-offset=0 25 0
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 80 0
+p-scale=1 1 1
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+

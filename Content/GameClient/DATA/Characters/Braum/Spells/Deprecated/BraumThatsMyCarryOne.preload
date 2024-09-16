@@ -1,0 +1,12 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="blindmonk_w_cas_01.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="Braumthatsmycarryonedash"}}, 
+{Function=BBPreloadSpell, Params={Name="destealth"}}, 
+{Function=BBPreloadSpell, Params={Name="Braumthatsmycarryoneshield"}}, 
+{Function=BBPreloadParticle, Params={Name="gragas_caskboom.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braumslash_tar_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braumslash_tar_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_tmc_knockback_green_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_tmc_knockback_red_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="moveaway"}}, 
+}

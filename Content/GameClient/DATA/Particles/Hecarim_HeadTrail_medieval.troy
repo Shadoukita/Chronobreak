@@ -1,0 +1,143 @@
+[FlameAccel]
+f-accel=0 50 0
+f-localspace=0
+
+[FlameAccel2]
+f-accel=0 60 0
+f-localspace=0
+
+[FlameBody_Add]
+KeywordsRequired=MedievalHecarim
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=30
+field-accel-1=FlameAccel
+field-drag-1=FlameDrag
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=0.9
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-linger=0.9
+p-numframes=16
+p-postoffset=8 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-hecarimflame.tga
+p-rotvel=15
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=10
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-startframe=8
+p-texdiv=4 4
+p-texture=hecarimflame.tga
+p-type=0
+p-vel=0 50 0
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-xscale1=0 0.1
+p-xscale2=1 2
+rendermode=4
+
+[FlameBody_Alpha]
+KeywordsRequired=MedievalHecarim
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=40
+field-accel-1=FlameAccel2
+field-drag-1=FlameDrag
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-linger=1
+p-numframes=16
+p-postoffset=8 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-hecarimflame03.tga
+p-rotvel=10
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=15
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-startframe=8
+p-texdiv=4 4
+p-texture=hecarimflame.tga
+p-type=0
+p-vel=0 50 0
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-xscale1=0 0.1
+p-xscale2=1 1.3
+rendermode=1
+
+[FlameDrag]
+f-drag=0.3
+f-pos=0 0 0
+f-radius=300
+
+[Glow]
+KeywordsRequired=MedievalHecarim
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=15
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=0.3 0.3 0.3
+p-life=1.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=1.3
+p-postoffset=8 0 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-hecarimglow.tga
+p-scale=20 20 0
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-texture=ahri_castlight.tga
+p-type=0
+p-vel=0 30 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-worldaccel=0 40 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 0
+p-xscale3=1 0.3 0.3 0
+rendermode=0
+
+[System]
+GroupPart1=FlameBody_Add
+GroupPart1Type=Simple
+GroupPart2=FlameBody_Alpha
+GroupPart2Type=Simple
+GroupPart3=Glow
+SimulateEveryFrame=1
+

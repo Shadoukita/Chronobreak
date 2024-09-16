@@ -1,0 +1,113 @@
+[Flash]
+e-life=0.1
+e-rate=1
+flag-disable-z=1
+p-life=0.18000000715255737
+p-offset=0 40 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=120 120 120
+p-texture=Darius_Skin04_R_Flash_02.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=4
+single-particle=1
+
+[Flash_Add]
+e-life=0.1
+e-rate=1
+p-life=0.1
+p-offset=0 40 0
+p-orientation=0 0 0
+p-quadrot=0 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=100 100 100
+p-texture=Darius_Skin04_Z_Flash_01.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+rendermode=4
+single-particle=1
+
+[Sparks]
+e-framerate=0
+e-life=0.1
+e-rate=12
+p-life=0.15000000596046448
+p-numframes=8
+p-offset=0 40 0
+p-randomstartframe=1
+p-scale=35 50 50
+p-texdiv=8 1
+p-texture=Darius_Skin04_Z_Sparks_04.dds
+p-vecalign=1
+p-vel=1200 1200 1200
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart2=ring
+GroupPart3=Sparks
+GroupPart4=Flash_Add
+SimulateEveryFrame=1
+
+[ring]
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.30000000000000004
+p-offset=0 50 0
+p-orientation=1 0 0
+p-quadrot=90 0 0
+p-quadrotXP1=0 -360
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=80 80 80
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-texture=Darius_Skin04_Z_BA_Crit.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.5 1.5 1.5
+rendermode=4
+single-particle=1
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk404456E0=0 0
+unk404456E1=1 360
+unkFD503C7E=0 0
+unkFD503C7F=1 360
+unkFDCE4BFF=0 0
+unkFDCE4C00=1 360

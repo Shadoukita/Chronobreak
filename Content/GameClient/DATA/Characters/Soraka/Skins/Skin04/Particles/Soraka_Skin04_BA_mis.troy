@@ -1,0 +1,89 @@
+[System]
+GroupPart1=missilewake
+GroupPart2=shadowmissile
+GroupPart3=dust_shadow
+SimulateEveryFrame=1
+
+[dust_shadow]
+e-life=4
+e-rate=50
+field-drag-1=dustdrag
+p-coloroffset=0.30000000000000004 1
+p-colorscale=0.7000000000000001 1
+p-life=0.6000000000000001
+p-lifeP1=0 1
+p-lifeP2=1 1
+p-linger=0.6000000000000001
+p-quadrot=0 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rotvel=0 0 -50
+p-scale=80 80 1
+p-simpleorient=2
+p-texdiv=4 4
+p-texture=Soraka_Skin04_BA_wisp2.dds
+p-type=1
+p-vel=15 110 15
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0.25 0 0.666667 1 0.247105
+p-xrgba2=0.75 0 0 1 0.047105
+p-xrgba3=1 0.031373 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 0.8 0.8 0.8
+pass=-1
+rendermode=1
+
+[dustdrag]
+f-drag=1.3
+f-radius=5000
+
+[missilewake]
+e-life=3
+e-rate=25
+p-drag=5 5 5
+p-life=0.25
+p-linger=2
+p-offset=5 10 5
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=90 90 90
+p-quadrot1=0 0 0 0
+p-quadrot2=1 0 0 -15
+p-rotvel=0 0 -90
+p-scale=150 150 150
+p-texture=Soraka_Skin04_BA_Crescent_Blurred.dds
+p-type=1
+p-vel=0 350 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0.749004
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+rendermode=1
+
+[shadowmissile]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-linger=0
+p-quadrot=0 0 40
+p-rotvel=0 0 800
+p-scale=120 120 120
+p-simpleorient=2
+p-texture=Soraka_Skin04_BA_Crescent.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 3 3 3
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,44 @@
+[GlowRocks_BearRock]
+e-local-orient=0
+e-rate=3
+e-rateP1=0 1
+e-rateP2=1 0.5
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-mesh=SRU_RainDrops_01.scb
+p-meshtex=SRU_RainDrops_01.DDS
+p-numframes=2
+p-offset=5 0 5
+p-offsetXP1=0 -8
+p-offsetXP2=1 8
+p-offsetZP1=0 -8
+p-offsetZP2=1 8
+p-randomstartframe=1
+p-scale=0.9 0.9 0.9
+p-scaleXP1=0 1
+p-scaleXP2=1 0.5
+p-texdiv=2 1
+p-texture-mode=clamp
+p-type=3
+p-uvscroll-rgb=-1.4 0
+p-uvscroll-rgb-clamp=1
+p-uvscroll-rgbXP1=0 1
+p-uvscroll-rgbXP2=1 0.4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=GlowRocks_BearRock
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=15
+
+[UNKNOWN_HASHES]
+unk5F46ACF7=sphere.sco
+unkA711DC10=color-hold.DDS

@@ -1,0 +1,137 @@
+[Flame]
+e-life=1
+e-linger=0
+e-rate=100
+e-rate1=0 2
+e-rate2=0.5 2
+e-rate3=1 0.30000000000000004
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 -120
+e-rotation1P2=1 60
+field-accel-1=FlameAccel
+field-drag-1=FlameDrag
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-lifeP1=0 0.1
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=12
+p-offset=1 0 1
+p-offsetXP1=0 40
+p-offsetXP2=1 50
+p-offsetZP1=0 -10
+p-offsetZP2=1 10
+p-postoffset=1 1 1
+p-postoffset1=0 -30 200 0
+p-postoffset2=0.5 -30 250 0
+p-postoffset3=1 -30 250 0
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-addflame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=6
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-scalebias=1.2000000000000002 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=flames03.tga
+p-type=0
+p-vel=20 0 0
+p-velXP1=0 1
+p-velXP2=1 2
+p-xscale=1
+p-xscale1=0 0.2
+p-xscale2=0.4 1.5
+p-xscale3=0.6000000000000001 2
+p-xscale4=1 0.1
+pass=200
+rendermode=0
+
+[FlameAccel]
+f-accel=-500 0 -300
+f-localspace=0
+
+[FlameDrag]
+f-drag=0.1
+f-pos=0 50 0
+f-radius=200
+
+[Phoenixstance]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+field-drag-1=ringdrag
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1.5
+p-offset=0 200 -20
+p-postoffset=0 0 0
+p-quadrot=-90
+p-rgba=color-eyefade32.tga
+p-scale=60
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=PhoenixStance.tga
+p-type=1
+p-vel=0 200 0
+pass=50
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Phoenixstance
+GroupPart1Type=Simple
+GroupPart2Type=Simple
+GroupPart3=Flame
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[ringdrag]
+f-drag=2.5
+f-pos=0 0 0
+f-radius=1200
+
+[UNKNOWN_HASHES]
+unk066F6790=0
+unk0709A14C=50
+unk081FD8AA=0
+unk0D17734F=2
+unk0F549482=1 1
+unk1551651E=1 1
+unk164738AB=0 0 0
+unk24C2D598=-90
+unk3C962885=0
+unk48A45163=shields_buf.tga
+unk4E254DD0=1
+unk697C3854=1.25
+unk75940A9F=1
+unk76B75914=0
+unk7D704A9E=0 0
+unk7FA4FCCC=color-disintegrate.tga
+unk88DA7683=2
+unk91A845DF=1 1
+unk9C126966=0
+unkA647476B=0 200 -20
+unkC6F7E585=1 0
+unkCCDC84A7=0 4
+unkCCDC84A8=0.15000000596046448 1
+unkCCDC84A9=1 1
+unkD8F55B1E=90
+unkDF73EF46=ringdrag
+unkE59DB8D2=1
+unkEAB47665=0 200 0
+unkEFC445D2=70

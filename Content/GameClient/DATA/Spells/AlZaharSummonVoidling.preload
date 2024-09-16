@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="malzaharvoidling"}}, 
+{Function=BBPreloadSpell, Params={Name="alzaharvoidling"}}, 
+{Function=BBPreloadSpell, Params={Name="ifhasbuffcheck"}}, 
+}

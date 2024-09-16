@@ -1,0 +1,35 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+KeywordsRequired=BattlecastChogath
+e-life=-1
+e-linger=1
+e-rate=5
+p-bindtoemitter=1 1
+p-life=0.3
+p-linger=0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=Chogath_Distortion_Waves_Color_Add.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=50
+p-texture=Chogath_Battlecast_Eye_Glow.tga
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 2 2 2
+pass=100
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1

@@ -1,0 +1,23 @@
+[Hex_Child]
+e-life=1
+e-rate=10
+p-flexscale=0.006000000052154064
+p-life=0.5
+p-scale=100 100 100
+p-simpleorient=2
+p-texture=Malphite_Skin06_Z_Hexagon_02.dds
+p-vel=0 -10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.2 1.1 1.1 1
+p-xscale3=0.30000000000000004 1 1 1
+p-xscale4=1 1 1 1
+rendermode=4
+
+[System]
+GroupPart1=Hex_Child
+group-scale-cap=0
+

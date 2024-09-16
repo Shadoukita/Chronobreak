@@ -1,0 +1,30 @@
+[System]
+GroupPart1=circletimer
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[circletimer]
+e-life=0.1
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-flexscale=0.004999999888241291
+p-life=8
+p-mesh=Braum_base_P_cooldowntimer.sco
+p-meshtex=Braum_Base_P_Cooldowntimer.dds
+p-quadrot=90 0 180
+p-scale=20 20 0
+p-type=3
+p-uvscroll-rgb=0.058 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 0.4
+p-xrgba3=0.1 1 1 1 0.2
+pass=1000
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0F39E523=1 0.1 0.2 1 0.15

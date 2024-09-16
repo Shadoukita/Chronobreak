@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="lissandra_base_e_end.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="lissandra_base_e_cast.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="lissandra_e_teleport.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="lissandra_base_e_skin_flash.troy "}}, 
+{Function=BBPreloadSpell, Params={Name="lissandraebuffer"}}, 
+{Function=BBPreloadParticle, Params={Name="lissandra_base_e_departure.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="lissandra_base_e_arrival.troy"}}, 
+}

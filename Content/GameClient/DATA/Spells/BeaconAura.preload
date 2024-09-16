@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="summoner_flash.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="beaconauranoparticle"}}, 
+}

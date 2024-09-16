@@ -1,0 +1,22 @@
+[System]
+GroupPart1=head_light_flash_tiny_skin07
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[head_light_flash_tiny_skin07]
+KeywordsRequired=blitzcrankskin07
+e-life=-1
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-life=0.1
+p-postoffset=5 0 0
+p-rgba=alpha_12.tga
+p-scale=200
+p-texture=Blitzcrank_Skin07_W_flash_02.dds
+p-type=0
+p-xscale1=0 0.2
+p-xscale2=1 1
+pass=0
+rendermode=0
+

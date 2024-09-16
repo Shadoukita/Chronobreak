@@ -1,0 +1,120 @@
+[System]
+GroupPart1=up_flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ring
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=star
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=ring2
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[ring]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.7
+p-linger=0
+p-offset=0 10 0
+p-rgba=alpha_20.tga
+p-scale=62 62 0
+p-simpleorient=2
+p-texture=blind_monk_symbol_07.tga
+p-type=1
+rendermode=1
+
+[ring2]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.65
+p-linger=0
+p-offset=0 10 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=55 55 0
+p-simpleorient=2
+p-texture=blind_monk_symbol_07.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=1 0.65
+rendermode=0
+
+[star]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=4
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-linger=0
+p-offset=0 10 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=140 140 0
+p-simpleorient=2
+p-texture=flare-sun_33.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=1 0.65
+rendermode=0
+
+[up_flash]
+e-life=0.1
+e-linger=0
+e-local-orient=0
+e-rate=15
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.30000000000000004
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rotvel=90 90 0
+p-scale=320
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-sun_33.tga
+p-type=0
+p-vel=0 1000 0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk2A66AC1C=1000
+unk367E7E67=-1
+unk4053339B=flare-sun_31.tga
+unk49C4EA4B=1
+unk4CF904DC=0
+unk67F17356=1 1
+unk72DF8073=0 40 0
+unk8B6F792E=0
+unk8D321C63=0
+unkA0C55C08=1
+unkA6882C9A=1
+unkC8526AE6=20 0 0
+unkDD3EC40A=140 140 0
+unkF6785717=2

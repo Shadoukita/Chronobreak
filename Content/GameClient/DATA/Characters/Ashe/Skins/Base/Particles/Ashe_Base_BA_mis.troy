@@ -1,0 +1,136 @@
+[System]
+GroupPart1="trail"
+GroupPart1Type="Simple"
+GroupPart2="icearrow"
+GroupPart2Type="complex"
+GroupPart3="amyarrow"
+GroupPart3Type="complex"
+GroupPart4="frelarrow"
+GroupPart4Type="complex"
+GroupPart5="queenarrow"
+GroupPart5Type="complex"
+GroupPart6="woadarrow"
+GroupPart6Type="complex"
+GroupPart7="sherarrow"
+GroupPart7Type="complex"
+SimulateEveryFrame=1
+
+[amyarrow]
+KeywordsRequired="CrystalBowmaster"
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh="IceArrow.sco"
+p-meshtex="IceArrow_Amethyst.tga"
+p-quadrot=90.0 0.0 0.0
+p-scale=4.0 4.0 4.0
+p-shadow=1
+p-type=3
+rendermode=1
+
+[frelarrow]
+KeywordsRequired="FreljordBowmaster"
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh="IceArrow.sco"
+p-meshtex="IceArrow_Freljord.tga"
+p-quadrot=90.0 0.0 0.0
+p-scale=4.0 4.0 4.0
+p-shadow=1
+p-type=3
+rendermode=1
+
+[icearrow]
+KeywordsExcluded="CrystalBowmaster FreljordBowmaster QueenBowmaster WoadBowmaster SherwoodBowmaster"
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh="IceArrow.sco"
+p-meshtex="IceArrow.tga"
+p-quadrot=90.0 0.0 0.0
+p-scale=4.0 4.0 4.0
+p-shadow=1
+p-type=3
+rendermode=1
+
+[queenarrow]
+KeywordsRequired="QueenBowmaster"
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh="IceArrow.sco"
+p-meshtex="IceArrow_Freljord.tga"
+p-quadrot=90.0 0.0 0.0
+p-scale=4.0 4.0 4.0
+p-shadow=1
+p-type=3
+rendermode=1
+
+[sherarrow]
+KeywordsRequired="SherwoodBowmaster"
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh="IceArrow.sco"
+p-meshtex="Ashe_Woad_ArrowTX.tga"
+p-quadrot=90.0 0.0 0.0
+p-scale=4.0 4.0 4.0
+p-shadow=1
+p-type=3
+rendermode=1
+
+[trail]
+e-rate=150
+p-bindtoemitter=0.5 0.0
+p-colortype=1
+p-life=0.6000000000000001
+p-lifeP1=0.0 0.5
+p-lifeP2=1.0 2.0
+p-offset=5.0 -40.0 5.0
+p-offsetXP1=0.007000000216066837 -1.0
+p-offsetXP2=1.0 1.0
+p-offsetYP1=0.0 0.0
+p-offsetYP2=1.0 1.0
+p-offsetZP1=0.0 -1.0
+p-offsetZP2=1.0 1.0
+p-quadrot=1
+p-quadrotP1=0.0 0.0
+p-quadrotP2=1.0 360.0
+p-rgba="bowmasterbasicattack_mis__arro2__p-rgba.tga"
+p-rotvel=1
+p-scale=5
+p-texture="lofog01.tga"
+p-vecalign=1
+p-vel=1.0 1.0 1.0
+p-xscale=1
+p-xscale1=0.0 2.0
+p-xscale2=1.0 4.0
+rendermode=1
+
+[woadarrow]
+KeywordsRequired="WoadBowmaster"
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh="IceArrow.sco"
+p-meshtex="Ashe_Woad_ArrowTX.tga"
+p-quadrot=90.0 0.0 0.0
+p-scale=4.0 4.0 4.0
+p-shadow=1
+p-type=3
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk08438018=1
+unk1C1B89AF=1
+unk7588605F=1
+unk9A8E0BB0=1
+unkB70B0F87=1
+unkFCA18CAD=1

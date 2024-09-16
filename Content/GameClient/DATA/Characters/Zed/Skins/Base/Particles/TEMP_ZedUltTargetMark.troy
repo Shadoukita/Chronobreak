@@ -1,0 +1,64 @@
+[Symbol1]
+e-life=8
+e-local-orient=0
+e-rate=4
+e-rotation1=-150
+e-rotation1-axis=0 1 0
+e-timeoffset=0
+p-bindtoemitter=1
+p-drag=2 2 2
+p-life=2
+p-linger=0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-orbitvel=0 0s 0
+p-quadrot=90 0 0
+p-rgba=color-rampdown32_03.tga
+p-scale=160 160 0
+p-startframe=0
+p-texdiv=4 2
+p-texture=Zed_RecallSymbols.tga
+p-type=1
+p-vel=1 0 0
+p-xrgba=0.7 0 0 1
+pass=2
+rendermode=1
+
+[System]
+GroupPart1=Symbol1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk195F8F24=0
+unk27E7D185=8
+unk2F282145=1
+unk33FFA3D0=5
+unk3E1095FD=color-hold.tga
+unk46251D4C=0
+unk47460FB4=1.4000000000000001
+unk4941A036=0 1 1 1
+unk4941A037=1 1 1 1
+unk4E97581C=3 80 -110
+unk5AFFCE61=Zed_Recall_SymbolVanish.troy
+unk5C6DB54F=0 1 0
+unk656FF8E1=40 40 0
+unk6C15C683=8
+unk75DE69A3=0 0 0 0
+unk960B2C32=0 30
+unk960B2C33=1 -385
+unk9B92709C=0 0s 0
+unkA05A80F4=1 0 0
+unkA127F127=90 0 0
+unkA3918FEC=0 1
+unkA3918FED=1 0.3
+unkA4095203=1
+unkB7A4A533=4 2
+unkB81AD5DD=2 2 2
+unkC5096CF2=color-hold.tga
+unkCF4032B4=0
+unkD3593A2D=1
+unkE6E4C3BF=1
+unkEBED02FD=1
+unkFB06CFDB=0
+unkFCB0DD1D=0 -1
+unkFCB0DD1E=1 1

@@ -1,0 +1,20 @@
+[System]
+GroupPart1=handglow
+GroupPart1Type=Simple
+
+[handglow]
+e-life=8
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.4
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-chaosshop.tga
+p-scale=60
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-texdiv=2 2
+p-texture=Glows.tga
+

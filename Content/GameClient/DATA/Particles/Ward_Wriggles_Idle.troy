@@ -1,0 +1,65 @@
+[System]
+GroupPart1=Ward_Eye
+GroupPart1Importance=High
+GroupPart2=Ward_Energy
+GroupPart2Importance=High
+GroupPart3=Ward_Decal
+GroupPart3Importance=High
+SimulateEveryFrame=1
+
+[Ward_Decal]
+e-life=180
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-postoffset=0 2 0
+p-quadrot=90 0 0
+p-rgba=color-bellcurve4.tga
+p-rotvel=0 10 0
+p-scale=80 80 80
+p-texture=Ward_Decal.tga
+p-type=1
+p-xrgba=0.8 0.8 0.2 0.5
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 2
+rendermode=0
+
+[Ward_Energy]
+e-life=-1
+e-rate=15
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.5
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-numframes=16
+p-postoffset=0 150 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve4.tga
+p-rotvel=150 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=20 20 20
+p-startframe=0
+p-texdiv=4 4
+p-texture=void_ball_energy.tga
+p-type=0
+p-xrgba=0.8 0.8 0.4 0.5
+rendermode=0
+
+[Ward_Eye]
+e-life=-1
+e-rate=4
+p-bindtoemitter=1 1
+p-life=2
+p-postoffset=0 150 0
+p-rgba=color-bellcurve4.tga
+p-scale=20 20 20
+p-texture=Ward_Green_Eye.tga
+p-type=0
+p-xrgba=0.8 0.8 0.4 0.5
+rendermode=0
+

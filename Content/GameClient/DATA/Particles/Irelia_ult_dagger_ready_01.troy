@@ -1,0 +1,23 @@
+[System]
+GroupPart1=sword
+GroupPart1Importance=High
+GroupPart1Type=complex
+
+[sword]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=irelia_dagger_02.sco
+p-meshtex=Irelia_dagger_02.tga
+p-postoffset=0 0 0
+p-quadrot=180 90 0
+p-scale=1.350000023841858 1.350000023841858 1.350000023841858
+p-type=3
+rendermode=1
+single-particle=1
+

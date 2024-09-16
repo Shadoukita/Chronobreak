@@ -1,0 +1,31 @@
+[System]
+GroupPart1=lightcup
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[lightcup]
+e-life=-1
+e-local-orient=0
+e-rate=3
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.1
+p-colortype=1 3
+p-life=2
+p-linger=2
+p-mesh=TT_buffplat_order_well.sco
+p-meshtex=TT_Well_Caustics.tga
+p-offset=0 -450 0
+p-rgba=color-wellfog.tga
+p-scale=0.9900000095367432 0.9900000095367432 0.9900000095367432
+p-type=3
+p-uvscroll-rgb=1 0
+p-uvscroll-rgbXP1=0 -0.029999999329447746
+p-uvscroll-rgbXP2=0.5 -0.019999999552965164
+p-uvscroll-rgbXP3=0.5009999871253967 0.019999999552965164
+p-uvscroll-rgbXP4=1 0.029999999329447746
+rendermode=0
+

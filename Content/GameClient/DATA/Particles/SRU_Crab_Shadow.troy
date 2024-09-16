@@ -1,0 +1,30 @@
+[Shadow]
+e-life=5
+e-linger=0.4
+e-rate=0.1
+e-rgba=255 255 255 115
+p-bindtoemitter=1 1
+p-life=90
+p-linger=0
+p-mesh=sru_crab_shadow_01.scb
+p-meshtex=SRU_Crab_Shadow.dds
+p-meshtex-mult=SRU_Crab_Shadow_Mult.dds
+p-offset=0 -20 0
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.15000000596046448 -0.15000000596046448
+p-uvscroll-rgb-mult=0 -0.4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.004155 1 1 1 0.769231
+p-xrgba3=0.999 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=2
+uniformscale=1
+
+[System]
+GroupPart1=Shadow
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+

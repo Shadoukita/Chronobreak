@@ -1,0 +1,74 @@
+[System]
+GroupPart1=ground_indicator_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ground_indicator_03
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=ground_indicator_symbol
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+
+[ground_indicator_02]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=1
+p-offset=0 10 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=80 80 0
+p-simpleorient=2
+p-texture=waypoint_ring_01.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=1 0.5
+
+[ground_indicator_03]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=1
+p-offset=0 10 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=40 40 0
+p-simpleorient=2
+p-texture=waypoint_ring_01.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=1 0.5
+
+[ground_indicator_symbol]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=1
+p-offset=0 10 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-rotvel=90
+p-scale=110 110 0
+p-simpleorient=2
+p-texture=waypoint_symbol_01.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0.6600000262260437
+p-xscale2=1 0.6600000262260437
+

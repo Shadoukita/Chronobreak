@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="ward_sight_idle.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_crab_visionring_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_crab_visionring_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="swain_shadowgrasp_transform_grand.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="swain_shadowgrasp_warning_grand_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="swain_shadowgrasp_warning_grand_red.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="sru_crabspeedboost"}}, 
+}

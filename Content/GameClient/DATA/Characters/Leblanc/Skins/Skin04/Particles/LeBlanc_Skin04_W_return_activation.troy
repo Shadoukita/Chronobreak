@@ -1,0 +1,75 @@
+[System]
+GroupPart1=inner_ring
+GroupPart1Importance=High
+GroupPart2=flat_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=inner_ring1
+GroupPart3Importance=High
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_LeblancSkin04_LeblancSlide_flash
+
+[flat_02]
+e-life=0.15000000596046448
+e-local-orient=0
+e-rate=25
+p-life=0.15000000596046448
+p-linger=0
+p-postoffset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90
+p-scale=240
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-texture=sharp_flash_02.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+
+[inner_ring]
+e-life=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.6000000000000001
+p-linger=0
+p-offset=0 10 0
+p-quadrot=90 0 0
+p-rgba=alpha_03.tga
+p-rotvel=0 40 0
+p-scale=80 80 0
+p-simpleorient=2
+p-texture=LeBlanc_Skin04_Z_Reticle.dds
+p-type=1
+p-xrgba=0 0.203922 0.533333 1
+single-particle=1
+
+[inner_ring1]
+e-life=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.30000000000000004
+p-linger=0
+p-offset=0 10 0
+p-quadrot=90 0 0
+p-rgba=alpha_03.tga
+p-rotvel=0 -40 0
+p-scale=100 100 0
+p-simpleorient=2
+p-texture=LeBlanc_Skin04_Z_Reticle.dds
+p-type=1
+p-xrgba=0 0.372549 0.533333 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.5 1.5 1
+single-particle=1
+

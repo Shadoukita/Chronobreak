@@ -1,0 +1,324 @@
+[System]
+GroupPart1=glow4
+GroupPart10=glass2
+GroupPart11=glass3
+GroupPart12=hourglass2
+GroupPart13=hourglass3
+GroupPart1Type=Simple
+GroupPart2=glow1
+GroupPart2Type=Simple
+GroupPart3=glow2
+GroupPart3Type=Simple
+GroupPart4=glow3
+GroupPart4Type=Simple
+GroupPart5=sparks
+GroupPart6=glow5
+GroupPart7=glow6
+GroupPart7Type=Simple
+GroupPart8=hourglass1
+GroupPart9=glass1
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_ZhonyasRingShield_cast
+
+[accel]
+f-accel=1000 0 0
+
+[attraction]
+f-accel=3000 0 0
+f-pos=0 250.1 0
+f-radius=200
+
+[glass1]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=50 100 0
+p-rgba=color-hold.tga
+p-rotvel=-60 0 0
+p-scale=3 1 1
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=1
+single-particle=1
+
+[glass2]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=50 100 0
+p-rgba=color-hold.tga
+p-rotvel=-60 0 0
+p-scale=3 1 1
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=1
+single-particle=1
+
+[glass3]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=50 100 0
+p-rgba=color-hold.tga
+p-rotvel=-60 0 0
+p-scale=3 1 1
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=1
+single-particle=1
+
+[glow1]
+e-life=1
+e-local-orient=0
+e-rate=1
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.30000001192092896 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=50 100 0
+p-rgba=color-beacontrail.tga
+p-scale=100
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=90
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.30000001192092896 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=50 100 0
+p-rgba=color-beacontrail.tga
+p-scale=100
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow3]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-90
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.30000001192092896 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=50 100 0
+p-rgba=color-beacontrail.tga
+p-scale=100
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow4]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=180
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.30000001192092896 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=50 100 0
+p-rgba=color-beacontrail.tga
+p-scale=100
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow5]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-60
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.30000001192092896 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=50 100 0
+p-rgba=color-beacontrail.tga
+p-scale=100 1 1
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow6]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=60
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.30000001192092896 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=50 100 0
+p-rgba=color-beacontrail.tga
+p-scale=100
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[hourglass1]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=50 100 0
+p-rgba=color-hold.tga
+p-rotvel=-60 0 0
+p-scale=3 1 1
+p-shadow=1
+p-simpleorient=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=-0.6 0
+p-vel=0 0 -50
+rendermode=3
+single-particle=1
+
+[hourglass2]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=50 100 0
+p-rgba=color-hold.tga
+p-rotvel=-60 0 0
+p-scale=3 1 1
+p-shadow=1
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=3
+single-particle=1
+
+[hourglass3]
+e-disabled=1
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=50 100 0
+p-rgba=color-hold.tga
+p-rotvel=-60 0 0
+p-scale=3 1 1
+p-shadow=1
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=3
+single-particle=1
+
+[orbit]
+f-direction=0 1 0
+
+[sparks]
+e-disabled=1
+e-life=10
+e-linger=10
+e-local-orient=0
+e-rate=40
+e-rotation1=40
+e-rotation1-axis=0 1 0
+e-rotation2=150
+e-rotation2-axis=1 0 0
+field-accel-1=accel
+field-attract-1=attraction
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-linger=0
+p-numframes=4
+p-offset=0 0 0
+p-offsetXP1=0 50
+p-offsetXP2=1 70
+p-postoffset=0 250 0
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-scale=6 1 1
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-texdiv=2 2
+p-texture=sparks.dds
+p-vel=400 0 0
+

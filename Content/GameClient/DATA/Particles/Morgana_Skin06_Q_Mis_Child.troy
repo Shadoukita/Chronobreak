@@ -1,0 +1,47 @@
+[System]
+GroupPart1=Wispy
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Wispy]
+e-life=5
+e-rate=15
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-local-orient=1
+p-mesh=morgana_skin06_q_mis_wispy.scb
+p-meshtex=Morgana_Skin06_Q_Mis_Wispy1x8.dds
+p-meshtex-mult=Morgana_Skin06_Q_Mis_Wispy1x8_Mult.dds
+p-numframes=8
+p-numframes-mult=8
+p-quadrot=1 1 1
+p-quadrotXP1=0 -7
+p-quadrotXP2=1 7
+p-quadrotYP1=0 -7
+p-quadrotYP2=1 7
+p-quadrotZP1=0 -7
+p-quadrotZP2=1 7
+p-randomstartframe=1
+p-scale=7.5 7.5 7.5
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1.1
+p-scaleYP1=0 0.9
+p-scaleYP2=1 1.1
+p-scaleZP1=0 0.9
+p-scaleZP2=1 1.1
+p-texdiv=1 8
+p-texdiv-mult=1 8
+p-type=3
+p-uvscroll-rgb=1.5 0
+p-uvscroll-rgbXP1=0 0.5
+p-uvscroll-rgbXP2=1 2
+pass=100
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk02594629=1

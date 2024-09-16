@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="yorickrarevive"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickrapetid"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickrapetbuff2"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickraremovepet"}}, 
+}

@@ -1,0 +1,55 @@
+[System]
+GroupPart1=crossbones1
+GroupPart1Importance=High
+GroupPart1Type=complex
+SimulateEveryFrame=1
+
+[crossbones1]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.0024999999441206455
+p-flexscale=0.004000000189989805
+p-life=10
+p-linger=0
+p-mesh=Twitch_Venom_Counter.sco
+p-meshtex=frostflaketex_02.tga
+p-offset=0 70 75
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=120 120 120
+p-type=3
+p-xscale1=0 2 2 2
+p-xscale2=0.05000000074505806 1 1 1
+p-xscale3=1 1 1 1
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0040B8AE=1
+unk0858ECB0=0.8 0.8 0.8
+unk24F02D20=frostflaketex_02.tga
+unk31F9F9F6=300
+unk383E674D=0 20 0
+unk3E11CC41=1
+unk4822BE6E=color-hold.tga
+unk4A49A13A=1
+unk4F857A08=0
+unk51481D3D=0
+unk51583825=1
+unk59BA580D=0 0 0
+unk5E958FE7=crossbones6.sco
+unk5EB5ED76=0 0 0
+unk8C686BC0=0 60 0
+unk9525D64C=0
+unk95BF0617=0.01
+unkAE1B7A74=3
+unkB39F7481=1 1
+unkC76CCFFC=1 1
+unkD16838B6=3
+unkF820EE63=1 0

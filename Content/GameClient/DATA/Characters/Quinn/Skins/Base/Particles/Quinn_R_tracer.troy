@@ -1,0 +1,51 @@
+[System]
+GroupPart1=beam1
+group-vis=5000
+
+[beam1]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-tilesize=0 600 0
+p-bindtoemitter=0
+p-frameRate=0
+p-life=0.75
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-rgba=color-bellcurve4.tga
+p-scale=6 1 1
+p-startframe=1
+p-texdiv=2 1
+p-texture=color-hold.tga
+p-type=6
+p-uvscroll-rgb=-0.10000000149011612 0
+pass=1000
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk04CB9B5E=0 600 0
+unk081E5E80=1
+unk12119348=1
+unk143630CB=1
+unk1E4722F8=color-rainbowbell.tga
+unk1FD7AAA6=5 1 1
+unk277C9CAF=1
+unk2AFF1D78=1000
+unk36DCB6B2=0.1 0
+unk3EEE21F2=1
+unk45AA8C37=LaserSight_beam.tga
+unk48EE64AE=2 1
+unk4C126A0B=0.5 0.009999999776482582
+unk74FC972F=0
+unk77C20AA4=1
+unk843FDEFE=6
+unk98E5F659=0 0
+unkBF5B5BE9=0
+unkD5AC3992=0
+unkD76EDCC7=0
+unkDFE11797=0 0 0
+unkF613D340=0
+unkFD62A6D6=1

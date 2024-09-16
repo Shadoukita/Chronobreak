@@ -1,0 +1,30 @@
+[System]
+GroupPart1=ground_arrow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+build-up-time=20
+group-vis=10000
+
+[ground_arrow]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=0.5
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=20
+p-linger=20
+p-local-orient=1
+p-offset=0 1 0
+p-quadrot=90 -90 0
+p-rgba=color-eyefade32.tga
+p-scale=200 200 0
+p-texture=tutorial-arrow32.tga
+p-type=1
+p-vecalign=0
+p-vel=0 0 140
+rendermode=1
+

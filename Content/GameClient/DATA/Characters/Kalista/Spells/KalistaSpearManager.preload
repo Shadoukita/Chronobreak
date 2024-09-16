@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kalista_skin01_ba_spear_piece1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_ba_spear_piece1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_skin01_ba_spear_piece2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_ba_spear_piece2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_skin01_ba_spear_piece3.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_ba_spear_piece3.troy"}}, 
+}

@@ -1,0 +1,32 @@
+[System]
+GroupPart1=tracer
+SimulateEveryFrame=1
+
+[tracer]
+e-life=8
+e-linger=0
+e-local-orient=1
+e-rate=3
+e-tilesize=0 5000 1
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=5
+p-linger=0
+p-numframes=1
+p-offset=500 0 0
+p-quadrot=90 0 0
+p-rgba=color-hold.tga
+p-scale=40 1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=rebirthready.tga
+p-type=6
+p-uvscroll-rgb=-0.10000000149011612 0
+rendermode=2
+single-particle=1
+

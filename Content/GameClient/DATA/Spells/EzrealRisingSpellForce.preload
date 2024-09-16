@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="ezreal_glow1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="ezreal_glow2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="ezreal_glow3.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="ezreal_glow4.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="ezreal_glow5.troy"}}, 
+}

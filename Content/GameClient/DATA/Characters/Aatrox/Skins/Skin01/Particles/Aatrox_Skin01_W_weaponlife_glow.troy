@@ -1,0 +1,20 @@
+[System]
+GroupPart1=texture_swap
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[texture_swap]
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Aatrox_Base2_TX_CM.dds
+MaterialOverrideTransMap=Aatrox_R_transition.tga
+e-life=1
+e-linger=0
+p-coloroffset=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=16
+rendermode=4
+

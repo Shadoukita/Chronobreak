@@ -1,0 +1,54 @@
+[System]
+GroupPart1=eat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=eat2
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[eat]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.07500000298023224
+p-life=1
+p-postoffset=0 25 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-rotvel=90
+p-scale=10 10 0
+p-simpleorient=2
+p-texture=tooth_target.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1.149999976158142
+p-xscale2=1 0.55
+
+[eat2]
+e-life=-1
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.07500000298023224
+p-life=0.7
+p-offset=0 0 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-rotvel=90
+p-scale=8 8 0
+p-simpleorient=2
+p-texture=tooth_target_ring.tga
+p-type=7
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 1.2000000000000002
+

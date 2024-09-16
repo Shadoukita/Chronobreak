@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Sejuani_NorthernWinds.dds"
+BuffTextureName = L0_1
+L0_1 = "SejuaniNorthernWinds"
+BuffName = L0_1
+L0_1 = "l_hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "r_hand"
+AutoBuffActivateAttachBoneName2 = L0_1

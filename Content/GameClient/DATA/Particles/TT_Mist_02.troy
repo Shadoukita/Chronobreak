@@ -1,0 +1,44 @@
+[System]
+GroupPart1=TT_Mist_01
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=1500
+
+[TT_Mist_01]
+e-life=-1
+e-linger=1000
+e-local-orient=0
+e-rate=0.1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=0 0
+p-life=20
+p-mesh=TT_Mist_01.sco
+p-meshtex=TT_Mist_02.tga
+p-offset=200 0 200
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=0 -70 0
+p-scale=200 0 200
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.08
+p-uvscroll-rgbXP1=0 -1
+p-uvscroll-rgbXP2=1 1
+p-uvscroll-rgbYP1=0 0.5
+p-uvscroll-rgbYP2=1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.5
+p-xrgba3=0.75 1 1 1 0.5
+p-xrgba4=1 1 1 1 0
+pass=50
+rendermode=1
+uniformscale=1
+

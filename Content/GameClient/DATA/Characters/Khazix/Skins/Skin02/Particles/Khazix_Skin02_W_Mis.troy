@@ -1,0 +1,64 @@
+[Spike]
+ChildParticleName=Khazix_Skin02_W_Mis_Child.troy
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-mesh=Khazix_Base_W_Spike.sco
+p-meshtex=Khazix_Skin02_W_Mis_Spike.dds
+p-offset=0 15 0
+p-quadrot=0 360 0
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-rotvel=0 900 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=100 110 100
+p-shadow=1
+p-type=3
+rendermode=1
+
+[Spike_L]
+ChildParticleName=Khazix_Skin02_W_Mis_Child_Left.troy
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-mesh=Khazix_Base_W_Spike.sco
+p-meshtex=Khazix_Skin02_W_Mis_Spike.dds
+p-offset=20 -30 0
+p-orbitvel=0 8 0
+p-quadrot=0 360 -7
+p-scale=60 80 60
+p-shadow=1
+p-type=3
+rendermode=1
+
+[Spike_R]
+ChildParticleName=Khazix_Skin02_W_Mis_Child_Right.troy
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-mesh=Khazix_Base_W_Spike.sco
+p-meshtex=Khazix_Skin02_W_Mis_Spike.dds
+p-offset=-20 -30 0
+p-orbitvel=0 8 0
+p-quadrot=0 360 7
+p-scale=60 80 60
+p-shadow=1
+p-type=3
+rendermode=1
+
+[System]
+GroupPart1=Spike
+GroupPart2=Spike_L
+GroupPart3=Spike_R
+SimulateEveryFrame=1
+

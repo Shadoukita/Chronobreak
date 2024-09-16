@@ -1,0 +1,130 @@
+[Glow]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0 0
+p-colorscale=1 0.5
+p-colortype=1 0
+p-drag=2 2 2
+p-life=2
+p-linger=0
+p-offset=0 -100 20
+p-quadrot=-90 0 90
+p-rgba=Velkoz_Base_E_Puffs_rgba.tga
+p-scale=200 200 0
+p-texture=Velkoz_Base_Q_Marker_Glow.tga
+p-type=1
+p-vel=0 0 -100
+p-xscale1=0 1 1 1
+p-xscale2=0.95 1 1 1
+p-xscale3=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+pass=-200
+rendermode=4
+single-particle=1
+
+[Marker1]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=0
+p-drag=2 2 2
+p-life=1.149999976158142
+p-linger=0
+p-mesh=Velkoz_Base_Q_Marker.sco
+p-meshtex=Velkoz_Base_Z_Void_BG1.dds
+p-offset=0 -100 30
+p-quadrot=0 180 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=20 10 20
+p-texdiv=0.30000000000000004 0.5
+p-type=3
+p-uvmode=1
+p-uvparallax-scale=3.5
+p-uvscroll-rgb=0.009999999776482582 0.009999999776482582
+p-vel=0 0 -100
+pass=-110
+rendermode=1
+single-particle=1
+
+[Marker2]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-drag=2 2 2
+p-life=1.149999976158142
+p-linger=0
+p-mesh=Velkoz_Base_Q_Marker.sco
+p-meshtex=Velkoz_Base_Z_Void_BG2.dds
+p-offset=0 -100 30
+p-quadrot=0 180 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=20 10 20
+p-texdiv=0.30000000000000004 0.5
+p-type=3
+p-uvmode=1
+p-uvparallax-scale=4
+p-uvscroll-rgb=0.019999999552965164 0.019999999552965164
+p-vel=0 0 -100
+pass=-110
+rendermode=1
+single-particle=1
+
+[Marker3]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-drag=2 2 2
+p-life=1.149999976158142
+p-linger=0
+p-mesh=Velkoz_Base_Q_Marker.sco
+p-meshtex=Velkoz_Base_Z_Void_BG3.dds
+p-offset=0 -100 30
+p-quadrot=0 180 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=20 10 20
+p-texdiv=0.30000000000000004 0.5
+p-type=3
+p-uvmode=1
+p-uvparallax-scale=5.5
+p-uvscroll-rgb=0.029999999329447746 0.029999999329447746
+p-vel=0 0 -100
+pass=-110
+rendermode=1
+single-particle=1
+
+[Marker4]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-drag=2 2 2
+p-life=1.149999976158142
+p-linger=0
+p-mesh=Velkoz_Base_Q_Marker.sco
+p-meshtex=Velkoz_Base_Z_Void_BG4.dds
+p-offset=0 -100 30
+p-quadrot=0 180 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=20 10 20
+p-texdiv=0.30000000000000004 0.5
+p-type=3
+p-uvmode=1
+p-uvparallax-scale=6
+p-uvscroll-rgb=0.03999999910593033 0.03999999910593033
+p-vel=0 0 -100
+pass=-110
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Glow
+GroupPart2=Marker1
+GroupPart3=Marker2
+GroupPart4=Marker3
+GroupPart5=Marker4
+SimulateEveryFrame=1
+

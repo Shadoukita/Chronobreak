@@ -1,0 +1,59 @@
+[System]
+GroupPart1=Warning_Reticle_right
+GroupPart2=Warning_Reticle_left
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+SoundPersistent=Play_sfx_Braum_BraumRWrapper_buffactivate
+group-vis=10000
+
+[Warning_Reticle_left]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-colortype=1 0
+p-life=4
+p-linger=0
+p-offset=-140 0 650
+p-projection-fading=50
+p-projection-y-range=100
+p-rgba=Braum_Skin01_R_teamhardbell_rgba.dds
+p-scale=-100 0 700
+p-texture=Braum_Skin01_R_indicator_side.dds
+p-type=7
+p-xscale1=0 0.30000000000000004 1 1
+p-xscale2=0.125 0.95 1 1
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+
+[Warning_Reticle_right]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-colortype=1 0
+p-life=4
+p-linger=0
+p-offset=140 0 650
+p-projection-fading=10
+p-projection-y-range=100
+p-rgba=Braum_Skin01_R_teamhardbell_rgba.dds
+p-scale=100 0 700
+p-texture=Braum_Skin01_R_indicator_side.dds
+p-type=7
+p-xscale1=0 0.30000000000000004 1 1
+p-xscale2=0.125 0.95 1 1
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+

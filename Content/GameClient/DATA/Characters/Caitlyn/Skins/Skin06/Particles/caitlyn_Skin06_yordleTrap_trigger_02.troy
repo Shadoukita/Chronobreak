@@ -1,0 +1,23 @@
+[System]
+GroupPart1=ring
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[ring]
+e-life=0.1
+e-local-orient=0
+e-rate=1
+p-life=0.5
+p-postoffset=0 20 0
+p-quadrot=45
+p-rgba=alpha_02.tga
+p-scale=180
+p-simpleorient=2
+p-texture=Caitlyn_Skin06_R_Holo_01.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 1
+single-particle=1
+

@@ -1,0 +1,49 @@
+[System]
+GroupPart2=buckyball
+GroupPart2Type=Complex
+GroupPart3=buckyball2
+GroupPart3Type=Complex
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Poppy_PoppyDiplomaticImmunity_loop
+group-scale-cap=-1
+
+[buckyball]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-rgba=255 180 0 255
+e-uvoffset=0 0.5
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=8
+p-linger=0
+p-local-orient=1
+p-mesh=buckyball.sco
+p-meshtex=dihex.tga
+p-offset=0 50 20
+p-quadrot=0 0 0
+p-rotvel=0 -10 0
+p-scale=15 15 15
+p-type=3
+p-uvscroll-rgb=0.5 0
+
+[buckyball2]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 255
+e-uvoffset=0 0.2
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=8
+p-linger=0
+p-local-orient=1
+p-mesh=buckyball.sco
+p-meshtex=dispots.tga
+p-offset=0 50 20
+p-quadrot=0 0 0
+p-rotvel=0 -10 0
+p-scale=15 15 15
+p-type=3
+p-uvscroll-rgb=-0.4000000059604645 0
+

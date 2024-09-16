@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="gnar_q_boomerang_end_point.troy"}}, 
+}

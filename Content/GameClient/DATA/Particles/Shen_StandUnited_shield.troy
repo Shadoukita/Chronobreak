@@ -1,0 +1,98 @@
+[System]
+GroupPart1=shield_halo
+GroupPart1Type=Simple
+GroupPart2=shield_dots
+GroupPart2Type=Simple
+GroupPart3=shield_in1
+GroupPart3Type=Simple
+GroupPart4=shield_in2
+GroupPart4Type=Simple
+group-scale-cap=-1
+
+[shield_dots]
+e-life=-1
+e-linger=0
+e-rate=100
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 80 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hurtbeam.tga
+p-scale=100
+p-startframe=0
+p-texdiv=1 1
+p-texture=halodots.tga
+
+[shield_halo]
+e-life=-1
+e-linger=0
+e-rate=20
+p-bindtoemitter=1 1
+p-coloroffset=0.4 0
+p-colorscale=0.6000000000000001 0.2
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=0.30000000000000004
+p-linger=0
+p-offset=0 80 0
+p-rgba=color-rainbowbell.tga
+p-scale=100
+p-startframe=0
+p-texdiv=1 1
+p-texture=halo.tga
+
+[shield_in1]
+e-life=-1
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 80 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-shen-shield.tga
+p-rotvel=-30
+p-rotvelP1=0 0.7000000000000001
+p-rotvelP2=1 1
+p-scale=92
+p-startframe=0
+p-texdiv=1 1
+p-texture=ShenShield.tga
+
+[shield_in2]
+e-life=-1
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 80 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-shen-shield.tga
+p-rotvel=30
+p-rotvelP1=0 0.7000000000000001
+p-rotvelP2=1 1
+p-scale=92
+p-startframe=0
+p-texdiv=1 1
+p-texture=ShenShield.tga
+

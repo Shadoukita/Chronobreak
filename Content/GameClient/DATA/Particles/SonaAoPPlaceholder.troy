@@ -1,0 +1,64 @@
+[FireMove1]
+e-rate=60
+p-bindtoemitter=0
+p-bindtoemitter1=0 0.8
+p-bindtoemitter2=0.2 0
+p-bindtoemitter3=1 0
+p-life=0.7000000000000001
+p-linger=2
+p-offset=100 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.22144439816474915
+p-quadrot=180
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rgba=color-rampdown.tga
+p-rotvel=-180 0 0
+p-scale=50
+p-shadow=1
+p-startframe=0
+p-texdiv=1 1
+p-texture=Flare-Sun_green.tga
+p-vel=0 100 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.8 0.8 1 0.4
+p-xrgba2=1 0.8 0.8 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 1 1
+
+[System]
+GroupPart1=FireMove1
+GroupPart1Type=Simple
+GroupPart2=ball
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[ball]
+e-rate=30
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 0.8
+p-bindtoemitter2=0.2 0
+p-bindtoemitter3=1 0
+p-life=0.7000000000000001
+p-linger=2
+p-offset=100 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.22144439816474915
+p-quadrot=180
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rgba=color-rampdown.tga
+p-rotvel=-180 0 0
+p-scale=70
+p-startframe=0
+p-texdiv=1 1
+p-texture=Flare-Sun_green.tga
+p-vel=0 100 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.8 0.8 1 0.4
+p-xrgba2=1 0.8 0.8 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 1 1
+

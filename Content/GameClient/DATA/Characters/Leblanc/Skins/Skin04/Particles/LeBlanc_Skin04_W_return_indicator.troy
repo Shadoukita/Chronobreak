@@ -1,0 +1,92 @@
+[FlashBlack]
+e-life=4
+e-rate=1
+p-bindtoemitter=1 1
+p-life=4
+p-linger=0
+p-postoffset=0 5 0
+p-quadrot=90 0 0
+p-scale=250 250 1
+p-texture=Flare-omnimax.dds
+p-type=1
+p-xrgba=1 1 1 0.48799899220466614
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=-30
+rendermode=2
+single-particle=1
+
+[System]
+GroupPart1=indicator_01
+GroupPart1Importance=High
+GroupPart2=flat_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=FlashBlack
+GroupPart3Importance=High
+GroupPart4=indicatorPulse
+GroupPart4Importance=High
+SimulateEveryFrame=1
+
+[flat_02]
+e-life=0.15000000596046448
+e-local-orient=0
+e-rate=15
+p-life=0.15000000596046448
+p-linger=0
+p-postoffset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90
+p-scale=240
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-texture=sharp_flash_02.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+
+[indicatorPulse]
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-linger=0
+p-offset=0 10 0
+p-quadrot=90 0 0
+p-scale=100 100 1
+p-simpleorient=2
+p-texture=LeBlanc_Skin04_Z_Reticle.dds
+p-type=1
+p-xrgba=1 1 1 0.41600701212882996
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0.54902 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.5 1.5 1
+
+[indicator_01]
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=10
+p-linger=0
+p-offset=0 10 0
+p-quadrot=90 0 0
+p-scale=100 100 1
+p-simpleorient=2
+p-texture=LeBlanc_Skin04_Z_Reticle.dds
+p-type=1
+p-xrgba=0.7764710187911987 0.8980389833450317 1 1
+single-particle=1
+

@@ -1,0 +1,82 @@
+[System]
+GroupPart1=baseinner
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=baseouter
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=exclamation
+GroupPart3Importance=High
+SimulateEveryFrame=1
+
+[baseinner]
+e-life=0.7
+e-linger=0
+e-rate=2.3000000000000003
+e-timeoffset=0
+flag-brighter-in-fow=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.75
+p-offset=0 0 0
+p-postoffset=0 10 0
+p-quadrot=190
+p-rgba=ping-command-base-color.tga
+p-scale=65
+p-simpleorient=2
+p-texture=ping-command-base.tga
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 0.5 0.5 0.5
+p-xscale3=0.4 0.75 0.75 0.75
+p-xscale4=1 1 1 1
+pass=-10
+rendermode=0
+
+[baseouter]
+e-life=0.4
+e-linger=0
+e-rate=1
+e-timeoffset=0
+flag-brighter-in-fow=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.75
+p-offset=0 0 0
+p-postoffset=0 10 0
+p-quadrot=190
+p-rgba=ping-command-base-color.tga
+p-scale=130
+p-simpleorient=2
+p-texture=ping-command-base.tga
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 0.5 0.5 0.5
+p-xscale3=0.4 0.75 0.75 0.75
+p-xscale4=1 1 1 1
+pass=-10
+rendermode=0
+
+[exclamation]
+e-life=2
+e-linger=0
+e-rate=1
+flag-brighter-in-fow=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=alpha_20_03.tga
+p-scale=65 130 0
+p-texture=ping-command_02.tga
+p-type=0
+pass=20
+rendermode=1
+single-particle=1
+

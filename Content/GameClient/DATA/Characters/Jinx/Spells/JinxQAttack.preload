@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="jinx_q_rocket_tar_unit.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="jinx_q_rocket_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="jinxqicon"}}, 
+}

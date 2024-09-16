@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="veigar_base_w_cas_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="veigar_base_w_cas_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="permission_dark_matter_tar_leprechaun.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="veigar_base_w_aoe_explosion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="veigar_base_w_aoe_explosionred.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcube"}}, 
+}

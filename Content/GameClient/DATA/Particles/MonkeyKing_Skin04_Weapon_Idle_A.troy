@@ -1,0 +1,47 @@
+[Glow]
+KeywordsRequired=MonkeyKingSkin04
+e-local-orient=0
+e-rate=12
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-offset=0 20 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 -360
+p-quadrotXP2=1 360
+p-rgba=MonkeyKing_Skin04_Weapon_Idle_Glow_Ramp.dds
+p-scale=140 140 140
+p-scaleXP1=0 0.6
+p-scaleXP2=1 1
+p-texture=MonkeyKing_Skin04_Weapon_Idle_Glow.dds
+p-xscale=1 1 1
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=1 1 1 1
+
+[System]
+GroupPart1=Trail
+GroupPart2=Glow
+SimulateEveryFrame=1
+
+[Trail]
+KeywordsRequired=MonkeyKingSkin04
+e-rate=100
+e-tilesize=100 0 0
+e-trail-cutoff=100
+p-life=0.30000000000000004
+p-linger=2
+p-offset=0 20 0
+p-scale=40 0 0
+p-texture=MonkeyKing_Skin04_Weapon_Idle_Trail.dds
+p-trailmode=1
+p-type=4
+p-worldaccel=0 0 1000
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0.497993
+p-xrgba2=1 0 0.431373 0.552941 0
+p-xscale=1 1 1
+p-xscale1=0 1 0 0
+p-xscale2=1 0 0 0
+rendermode=1
+

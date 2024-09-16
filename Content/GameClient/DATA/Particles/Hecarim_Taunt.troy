@@ -1,0 +1,44 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=WeaponTrail2
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Hecarim_WeaponTrail_1.tga
+p-quadrot=-30 -180 0
+p-rgba=color-rampdown.tga
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=2.8000000000000003 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail2]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.8
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.18
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_2.sco
+p-meshtex=Hecarim_WeaponTrail_1.tga
+p-quadrot=0 60 0
+p-rgba=color-rampdown.tga
+p-scale=1.5 1.5 1.5
+p-type=3
+p-uvscroll-rgb=3.8000000000000003 0
+rendermode=0
+single-particle=1
+

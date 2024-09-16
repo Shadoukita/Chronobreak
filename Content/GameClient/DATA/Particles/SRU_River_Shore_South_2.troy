@@ -1,0 +1,55 @@
+[Shore_01]
+e-rate=0.5
+p-bindtoemitter=1 0
+p-life=2.5
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_River_Shore_South_2.scb
+p-meshtex=SRU_River_Shore_01.DDS
+p-meshtex-mult=SRU_RiverEdging_Mult_01.DDS
+p-type=3
+p-uvscroll-rgb=-0.05 0
+p-uvscroll-rgb-mult=0 0.4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[Shore_02]
+e-rate=0.4
+p-bindtoemitter=1 0
+p-life=5
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_River_Shore_South_2.scb
+p-meshtex=SRU_River_Shore_01.DDS
+p-meshtex-mult=SRU_RiverEdging_Mult_01.DDS
+p-type=3
+p-uvscroll-rgb=-0.05 0
+p-uvscroll-rgb-mult=0 -0.2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=Shore_01
+GroupPart1Importance=Medium
+GroupPart2=Shore_02
+GroupPart2Importance=Medium
+SimulateEveryFrame=1
+group-vis=340
+
+[UNKNOWN_HASHES]
+unk3B0CA3E6=0 1
+unk3B0CA3E7=0.3 1
+unk3B0CA3E8=1 1.5
+unk80B8F8A5=0 1
+unk80B8F8A6=0.3 1
+unk80B8F8A7=1 1.5
+unk9C98EA94=sphere.sco
+unkA28FD174=color-hold.DDS
+unkAFAB6433=color-hold.DDS
+unkC97F2C93=sphere.sco

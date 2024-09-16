@@ -1,0 +1,58 @@
+[System]
+GroupPart1=boltcharge
+GroupPart2=boltchargemesh
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[boltcharge]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0
+p-scale=50 0 0
+p-texture=varus_arrow_beam2.tga
+p-type=6
+p-xscale1=0 1 0 0
+p-xscale2=0.5 0.5 0 0
+p-xscale3=1 0.4 0 0
+rendermode=1
+single-particle=1
+
+[boltchargemesh]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=varus_arrow_beam.sco
+p-meshtex=varus_arrow_glow.tga
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0
+p-scale=60 60 60
+p-shadow=1
+p-type=6
+p-xscale1=0 1 1 0
+p-xscale2=0.2 1 1 0
+p-xscale3=0.30000000000000004 0.4 0.4 0
+p-xscale4=1 0.4 0.4 0
+pass=1
+rendermode=1
+single-particle=1
+

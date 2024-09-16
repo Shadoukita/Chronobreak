@@ -1,0 +1,43 @@
+[System]
+GroupPart1=large
+
+[large]
+e-life=1
+e-local-orient=1
+e-rate=5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=1
+p-mesh=Fiddle_Terror_Helix.sco
+p-meshtex=Fiddle_Terrify_Ribbon.tga
+p-quadrot=10 360 0
+p-quadrotXP1=0 -1
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-scale=150 150 150
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-scaleZP1=0 0.5
+p-scaleZP2=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.5
+p-uvscroll-rgbYP1=0 0.5
+p-uvscroll-rgbYP2=1 1.5
+p-xrgba=1 1 1 0.25
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk7224FBD6=0 0
+unk7224FBD7=1 1
+unk73211AD8=0 0
+unk73211AD9=1 1
+unkEB73CEA3=100 0 100

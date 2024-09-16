@@ -1,0 +1,48 @@
+[System]
+GroupPart1=flames_hellvine
+GroupPart1Importance=Medium
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flames_hellvine]
+KeywordsRequired=Zyra_hellvine
+e-life=0.3
+e-rate=60
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=drag_05
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=0
+p-life=0.75
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=12
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 1
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 1
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-addflame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=16
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-scalebias=1.2000000000000002 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=flames03.tga
+p-vel=150 150 150
+rendermode=0
+

@@ -1,0 +1,24 @@
+[Avatar]
+e-life=1
+e-linger=0
+e-rate=1
+p-alphaslicerange=0.13500000536441803
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=3
+p-linger=0.4
+p-local-orient=1
+p-rgba=SRU_pallybase_spawn_TEMP.tga
+p-scale=1.0499999523162842 1.0499999523162842 1.0499999523162842
+p-simpleorient=3
+p-texture=alphaslice_mesh2.tga
+p-type=11
+rendermode=4
+
+[System]
+GroupPart1=Avatar
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SummonerFlash_return
+

@@ -1,0 +1,103 @@
+[System]
+GroupPart1=top
+GroupPart2=bottom
+GroupPart3=teal_01_skin_06
+GroupPart4=teal_02_skin_06
+SimulateEveryFrame=1
+
+[bottom]
+KeywordsExcluded=Renekton_VolcanoGod RenektonSkin06
+e-life=-1
+e-local-orient=1
+e-rate=5
+e-uvscroll=0 0
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-local-orient=1
+p-offset=70 0 -10
+p-quadrot=0 0 90
+p-rgba=color-eyefade.tga
+p-scale=180 100 0
+p-simpleorient=2
+p-texture=shockwaves_02.tga
+p-type=1
+p-vel=-60 0 0
+p-xscale1=0 0.5 1 0
+p-xscale2=1 1 1 0
+rendermode=0
+
+[teal_01_skin_06]
+KeywordsRequired=RenektonSkin06
+e-life=-1
+e-local-orient=1
+e-rate=5
+e-uvscroll=0 0
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-local-orient=1
+p-offset=50 0 10
+p-quadrot=0 0 90
+p-rgba=color-eyefade.tga
+p-scale=180 100 0
+p-simpleorient=2
+p-texture=shockwaves_teal.tga
+p-type=1
+p-vel=-60 0 0
+p-xscale1=0 0.5 1 0
+p-xscale2=1 1 1 0
+rendermode=0
+
+[teal_02_skin_06]
+KeywordsRequired=RenektonSkin06
+e-life=-1
+e-local-orient=1
+e-rate=5
+e-uvscroll=0 0
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-local-orient=1
+p-offset=50 0 -10
+p-quadrot=0 0 90
+p-rgba=color-eyefade.tga
+p-scale=180 100 0
+p-simpleorient=2
+p-texture=shockwaves_teal.tga
+p-type=1
+p-vel=-60 0 0
+p-xscale1=0 0.5 1 0
+p-xscale2=1 1 1 0
+rendermode=0
+
+[top]
+KeywordsExcluded=Renekton_VolcanoGod RenektonSkin06
+e-life=-1
+e-local-orient=1
+e-rate=5
+e-uvscroll=0 0
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-local-orient=1
+p-offset=70 0 10
+p-quadrot=0 0 90
+p-rgba=color-eyefade.tga
+p-scale=180 100 0
+p-simpleorient=2
+p-texture=shockwaves_02.tga
+p-type=1
+p-vel=-60 0 0
+p-xscale1=0 0.5 1 0
+p-xscale2=1 1 1 0
+rendermode=0
+

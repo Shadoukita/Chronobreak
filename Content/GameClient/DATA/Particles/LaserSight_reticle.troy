@@ -1,0 +1,26 @@
+[System]
+GroupPart1=tower_reticle
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+group-scale-cap=0
+
+[tower_reticle]
+e-life=-1
+e-linger=0
+e-rate=0.02500000037252903
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=0.25 0.10000000149011612
+p-colortype=0 0
+p-flexscale=0.004999999888241291
+p-life=40
+p-linger=0
+p-local-orient=0
+p-offset=0 0 0
+p-rgba=color-lensbell.tga
+p-rotvel=90
+p-scale=40
+p-texture=tower_reticle.tga
+p-type=0
+rendermode=0
+

@@ -1,0 +1,129 @@
+[Drag]
+f-drag=6
+f-pos=0 300 0
+f-radius=1000
+
+[Suck_in]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=0.44999998807907104
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=60 60 1
+p-simpleorient=2
+p-texture=Viktor_Base_Q_Buf_Hit_Burst.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.333333 0 1 1
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.25 0.917647 0.752941 1 1
+p-xrgba4=1 0.333333 0 1 1
+p-xscale=1 1 1
+p-xscale1=0 4 4 0
+p-xscale2=0.25 3.8 3.8 0
+p-xscale3=1 0 0 0
+
+[System]
+GroupPart1=Suck_in
+GroupPart2=burst
+GroupPart3=glow_flash
+GroupPart3Type=Simple
+GroupPart4=sparks_vecalign
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Skarner_SkarnerFractureMissile_hit2
+
+[burst]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=0.44999998807907104
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=60 60 1
+p-simpleorient=2
+p-texture=Viktor_Base_Q_Buf_Hit_Burst.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.333333 0 1 1
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=0.6 1 0 1 1
+p-xrgba5=0.75 0.333333 0 1 0.494118
+p-xrgba6=1 1 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.25 2 2 1
+p-xscale3=0.5 2.5 2.5 1
+p-xscale4=0.75 2.700000047683716 2.700000047683716 1
+p-xscale5=1 2.8 2.8 0
+
+[glow_flash]
+e-disabled=1
+e-life=0.5
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.3
+p-colorscale=1 0.8
+p-flexoffset=0.004999999888241291
+p-flexscale=0.003000000026077032
+p-life=1.25
+p-linger=0e
+p-offset=0 50 0
+p-quadrot=0
+p-rgba=color-purpleflame.dds
+p-rotvel=0
+p-scale=180
+p-texdiv=2 2
+p-texture=glows.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+single-particle=1
+
+[sparks_vecalign]
+e-life=0.2
+e-rate=20
+e-rotation1-axis=0 0 1
+e-rotation2-axis=0 1 0
+field-drag-1=Drag
+p-life=0.6000000000000001
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-randomstartframe=1
+p-scale=20 30 50
+p-texdiv=2 2
+p-texture=Viktor_Base_Q_Aug_BA_cas_sparks.dds
+p-vecalign=1
+p-vel=1000 2500 1000
+p-velXP1=0 -1
+p-velXP2=0.5 -0.5
+p-velXP3=0.5099999904632568 0.5
+p-velXP4=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=0.5 -0.5
+p-velZP3=0.5099999904632568 0.5
+p-velZP4=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=0.75 0.843137 0.843137 1 0.497993
+p-xrgba4=1 0.333333 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.5 0 1
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk2CD3DD5F=Kayle_skin07

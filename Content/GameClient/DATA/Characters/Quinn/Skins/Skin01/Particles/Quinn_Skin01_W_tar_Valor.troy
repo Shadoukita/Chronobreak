@@ -1,0 +1,31 @@
+[Phoenix]
+e-life=0.5
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0
+p-animation=QuinnValor_dive.anm
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=1
+p-meshtex=QuinnValor_skin01.tga
+p-offset=0 -20 0
+p-quadrot=0 90 0
+p-scale=1.5 1.5 1.5
+p-skeleton=QuinnValor_skin01.skl
+p-skin=QuinnValor_skin01.skn
+p-type=3
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=0.55 1 1 1 1
+p-xrgba4=0.65 1 1 1 0
+p-xrgba5=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=Phoenix
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Quinn_QuinnWPassiveReady_buffactivate
+

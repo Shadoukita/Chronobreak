@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="yasuo_base_q_wind_ready_buff.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_yasuo_wind_anivia_sound.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="yasuoq3w"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_base_q3_indicator_ring_alt.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_base_q_ready_sound.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_base_q3_indicator_ring.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="yasuoqw"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_skin01_q3_sound.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_q3_sound.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="yasuoq3"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_yasuo_q_sound.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+}

@@ -1,0 +1,26 @@
+[Beam]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-life=0.44999998807907104
+p-postoffset=0 -20 0
+p-quadrot=-90 0 90
+p-scale=180 650 0
+p-texture=SOG_Ceremony_Barrier_fireLine.dds
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.03 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 0 0
+p-xscale2=0.30000000000000004 1 1 0
+p-xscale3=1 0 1 0
+pass=3
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Beam
+SimulateEveryFrame=1
+

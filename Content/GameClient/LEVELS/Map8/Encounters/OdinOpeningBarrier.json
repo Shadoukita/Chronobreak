@@ -1,0 +1,29 @@
+{
+  "EncounterDefinition": {
+    "BonusValue": 12,
+    "SquadAI": "Guard",
+    "MaxMonstersPerSpawn": 1,
+    "SpawnDelay": 0.0,
+    "Tags": [],
+    "MonsterGroups": [
+      {
+        "Tags": [],
+        "Monsters": [
+          {
+            "SkinName": "OdinOpeningBarrier",
+            "OrderSkinName": "OdinOpeningBarrier",
+            "ChaosSkinName": "OdinOpeningBarrier",
+            "Value": 1,
+            "Count": 1,
+            "Tags": [],
+            "MinimapIcon": "",
+            "Targetable": 0,
+            "GoldAwarded": 0,
+            "ExperienceAwarded": 0,
+            "BehaviorTreeAI": 0
+          }
+        ]
+      }
+    ]
+  }
+}

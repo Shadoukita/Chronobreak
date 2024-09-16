@@ -1,0 +1,34 @@
+[System]
+GroupPart1=rays
+SimulateEveryFrame=1
+
+[rays]
+e-life=4
+e-linger=0
+e-local-orient=0
+e-rate=200
+e-rate1=0 0.1
+e-rate2=0.7000000000000001 2
+e-rate3=1 1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1.5
+p-linger=0.5
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-lichbullet.tga
+p-scale=60 60 60
+p-startframe=0
+p-texdiv=1 1
+p-texture=sliver.tga
+p-type=2
+p-xscale1=0 1 1 0
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=0.7000000000000001 1 0 2
+rendermode=0
+single-particle=1
+

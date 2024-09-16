@@ -1,0 +1,54 @@
+[System]
+GroupPart1=slash
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[slash]
+e-life=0.8
+e-linger=0
+e-local-orient=0
+e-rate=50
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+e-rotation2=0
+e-rotation2-axis=1 0 0
+e-rotation2P1=0 0
+e-rotation2P2=1 180
+p-backfaceon=1
+p-flexscale=0.004999999888241291
+p-life=0.2
+p-lifeP1=0 1
+p-lifeP2=1 1.4000000000000001
+p-mesh=wolfclaw.sco
+p-meshtex=Amumu_Sadrobot_Thrash.tga
+p-offset=0 0 0
+p-postoffset=50 0 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rgba=Amumu_Sadrobot_Color_Electricity.tga
+p-rotvel=0 0 360
+p-scale=0.5 0.5 0.5
+p-scale1=0 0.8 0.8 0.8
+p-scale2=1 1.5 1.5 1.5
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-scaleZP1=0 1
+p-scaleZP2=1 2
+p-simpleorient=2
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1.5 1.5 1.5
+p-xscale3=1 1 1 1
+

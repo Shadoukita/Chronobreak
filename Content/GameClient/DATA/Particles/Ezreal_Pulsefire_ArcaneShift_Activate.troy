@@ -1,0 +1,29 @@
+[System]
+GroupPart1=streak_1
+SimulateEveryFrame=1
+
+[streak_1]
+KeywordsRequired=CyberEzreal
+e-life=1
+e-rate=8
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5199999809265137
+p-colortype=1 0
+p-life=1
+p-local-orient=1
+p-quadrot=180 0 0
+p-rgba=alpha_20.tga
+p-rotvel=0 0 0
+p-scale=100 50 100
+p-simpleorient=1
+p-texture=ezreal_flare_streak_a01.tga
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 2 0.75 2
+p-xscale3=0.9 0.1 0.1 0.1
+p-xscale4=1 0 0 0
+rendermode=0
+

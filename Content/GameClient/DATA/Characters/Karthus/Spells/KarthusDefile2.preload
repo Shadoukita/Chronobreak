@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="karthus_base_p_defile.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="karthus_base_e_defile.troy"}}, 
+}

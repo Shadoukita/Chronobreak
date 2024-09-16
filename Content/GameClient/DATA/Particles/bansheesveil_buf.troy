@@ -1,0 +1,114 @@
+[FuzzySpheres]
+e-life=10000
+e-rate=10
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=316
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.3 0
+p-rotvel3=0.65 0
+p-rotvel4=1 0
+p-scale=50
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-startframe=1
+p-texdiv=2 2
+p-texture=SpellBlock02.dds
+p-vel=25 0 0
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 2 2 2
+pass=-1
+
+[System]
+GroupPart1=shieldInside
+GroupPart1Type=Simple
+GroupPart2=FuzzySpheres
+GroupPart2Type=Simple
+GroupPart3=shieldout
+GroupPart3Type=Simple
+GroupPart4=shield_4
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[shieldInside]
+e-life=100000
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=316
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.3 0
+p-rotvel3=0.65 0
+p-rotvel4=1 0
+p-scale=7
+p-texdiv=2 2
+p-texture=SpellBlock02.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 2 2 2
+p-xscale2=0.5 12 12 12
+p-xscale3=1 15 15 15
+pass=-1
+
+[shield_4]
+e-life=10000
+e-rate=8
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=BanSheeS_Veil_RampDown.dds
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.3 0
+p-rotvel3=0.65 0
+p-rotvel4=1 0
+p-scale=13.200000000000001
+p-startframe=2
+p-texdiv=2 2
+p-texture=SpellBlock02.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 10 10 10
+p-xscale2=0.5 10 10 10
+p-xscale3=1 10 10 10
+pass=-1
+
+[shieldout]
+e-disabled=1
+e-life=10000
+p-bindtoemitter=1 1
+p-life=20
+p-linger=0
+p-quadrot=316
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 360
+p-rotvel2=0.3 180
+p-rotvel3=0.65 0
+p-rotvel4=1 0
+p-scale=9
+p-texdiv=2 2
+p-texture=SpellBlock02.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 10 10 10
+p-xscale2=0.5 10 10 10
+p-xscale3=1 10 10 10
+pass=-1
+single-particle=1
+

@@ -1,0 +1,30 @@
+[System]
+GroupPart1=circletimer
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[circletimer]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 255 255
+e-uvoffset=-0.6299999952316284 0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=10
+p-linger=0
+p-mesh=circletimer.sco
+p-meshtex=Velkoz_Base_Z_Timer.tga
+p-offset=0 0 0
+p-quadrot=90 0 180
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=20 20 0
+p-type=3
+p-uvscroll-rgb=0.015375 0 '9 sec
+p-xrgba1=0 0.2 0 1 1
+p-xrgba2=1 1 1 1 1
+pass=1000
+rendermode=4
+single-particle=1
+

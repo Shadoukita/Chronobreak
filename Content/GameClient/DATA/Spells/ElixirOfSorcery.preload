@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="global_item_elixirofsorcery_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+}

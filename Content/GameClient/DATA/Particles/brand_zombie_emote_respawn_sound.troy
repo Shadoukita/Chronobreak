@@ -1,0 +1,15 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundPersistent=Play_sfx_ZombieBrand_Respawn3D_cast
+VoiceOverPersistent=Play_vo_ZombieBrand_respawn_buffactivate
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

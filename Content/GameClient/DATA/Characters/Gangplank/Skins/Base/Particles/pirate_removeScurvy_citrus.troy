@@ -1,0 +1,39 @@
+[System]
+GroupPart1=oranges
+GroupPart1Importance=Medium
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[oranges]
+e-life=1.5
+e-linger=0
+e-local-orient=0
+e-rate=20
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 -12
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.15
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 35
+p-postoffset=0 200 0
+p-rgba=color-hold.tga
+p-scale=16
+p-scaleP1=0 0.9
+p-scaleP2=0.6000000000000001 1
+p-scaleP3=1 1.1
+p-texture=orange.tga
+p-type=0
+p-vel=0 -300 0
+p-velYP1=0 0.6
+p-velYP2=1 1
+rendermode=1
+

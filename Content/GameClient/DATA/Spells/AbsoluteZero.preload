@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="absolutezero2_green_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="absolutezero2_red_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="absolutezeroslow"}}, 
+{Function=BBPreloadSpell, Params={Name="absolutezero"}}, 
+{Function=BBPreloadParticle, Params={Name="absolutezero_nova.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="absolutezero_tar.troy"}}, 
+}

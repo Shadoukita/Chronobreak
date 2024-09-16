@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="gnarbig_base_q_rock_explosion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gnarbig_base_q_rock_hit.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="gnarqslow"}}, 
+{Function=BBPreloadSpell, Params={Name="gnarbigqmissile"}}, 
+{Function=BBPreloadParticle, Params={Name="gnarbig_base_q_rock_ground.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gnarbig_q_rock_pickup.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gnarbig_base_q_gotrock.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gnarbig_base_q_gotrock_whiteflash.troy"}}, 
+}

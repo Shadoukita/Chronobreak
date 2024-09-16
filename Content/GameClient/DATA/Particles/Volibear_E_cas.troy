@@ -1,0 +1,13 @@
+[System]
+GroupPart11=placeholder
+GroupPart11Type=Simple
+
+[placeholder]
+e-life=0.05
+e-linger=0
+e-rate=1
+p-life=0.05
+p-scale=0
+p-texture=missing_instant.tga
+p-type=0
+

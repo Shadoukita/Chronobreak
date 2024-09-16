@@ -1,0 +1,61 @@
+[Distort]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-distortion-mode=2
+p-distortion-power=0.09
+p-life=1
+p-linger=0.35
+p-normal-map=distort-heat.dds
+p-rgba=color-bellcurve32.dds
+p-scale=220
+p-texture=Aura_self.dds
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 3
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=bear_mesh
+GroupPart2=Distort
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[bear_mesh]
+ChildEmitOnDeath=0
+ChildParticleName=Udyr_Spirit_Bear_Activation_Child_Trails.troy
+e-life=4
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=udyr_spirit_PET_bear_Stun.anm
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.5
+p-linger=1
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_bear_TX_CM.dds
+p-postoffset=0 120 30
+p-quadrot=0 0 0
+p-rgba=alpha_20.dds
+p-scale=0.85 0.85 0.85
+p-skeleton=udyr_spirit_PET_bear.skl
+p-skin=udyr_spirit_PET_bear.skn
+p-texture=udyr_spirit_PET_bear_TX_CM.dds
+p-type=3
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.6 1 1 1 0.5
+p-xrgba3=1 0 0 1 0
+p-xscale1=0 1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-xscale2=0.1 1 1 1
+p-xscale3=0.3499999940395355 1 1 1
+p-xscale4=1 1 1 1
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,21 @@
+[System]
+GroupPart1=waterripple1
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+
+[waterripple1]
+e-local-orient=0
+e-rate=-1
+p-bindtoemitter=1 0
+p-life=-1
+p-linger=0
+p-mesh=SRU_WaterRipple_01.scb
+p-meshtex=SRU_WaterRipple_01.DDS
+p-meshtex-mult=SRU_WaterRipple_Mult_01.dds
+p-quadrot=0 25 0
+p-type=3
+p-uvscroll-rgb=0.009999999776482582 -0.05000000074505806
+p-uvscroll-rgb-mult=-0.20000000298023224 -0.20000000298023224
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,21 @@
+[System]
+GroupPart1=WavyFoam2
+SimulateEveryFrame=1
+
+[WavyFoam2]
+e-rate=-1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_River_LongRipples_01.scb
+p-meshtex=SRU_River_LongWhiteWavyFoam_01.DDS
+p-meshtex-mult=SRU_River_LongWhiteWavyFoam_Mult_02.DDS
+p-type=3
+p-uvscroll-rgb=0 -0.1
+p-uvscroll-rgb-mult=-0.6 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk59507E90=sphere.sco
+unk62C78D37=color-hold.DDS

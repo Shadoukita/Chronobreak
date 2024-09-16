@@ -1,0 +1,50 @@
+[DeathFX]
+ChildEmitOnDeath=0
+ChildParticleName=SRU_Chaos_DeathVFX01.troy
+e-life=3
+e-rate=1
+p-bindtoemitter=1 1
+p-life=3
+p-linger=0
+p-rgba=color-hold.tga
+p-scale=0 0 0
+p-texture=color-hold.tga
+single-particle=1
+
+[System]
+GroupPart1=mesh
+GroupPart2=DeathFX
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[mesh]
+e-alpharef=10
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=SRU_chaos_mm_death_Super_anim.anm
+p-backfaceon=1
+p-bindtoemitter=0
+p-life=0.9
+p-local-orient=0
+p-meshtex=SRU_Chaos_MM_death_tex.dds
+p-scale=0.9 0.9 0.9
+p-shadow=1
+p-skeleton=SRU_Chaos_mm_death.skl
+p-skin=SRU_Chaos_mm_death.skn
+p-type=3
+p-uvscroll-no-alpha=1
+p-vel=0 -20 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.7 1 1 1 0.1
+p-xrgba3=1 1 1 1 0
+pass=3
+rendermode=3
+single-particle=1
+uniformscale=0
+
+[UNKNOWN_HASHES]
+unk054D97FF=0 50 0
+unk94FFF7B1=1

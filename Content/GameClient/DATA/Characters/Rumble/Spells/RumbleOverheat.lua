@@ -1,0 +1,25 @@
+local L0_1, L1_1
+L0_1 = "Rumble_Junkyard Titan3.dds"
+BuffTextureName = L0_1
+L0_1 = "RumbleOverheat"
+BuffName = L0_1
+L0_1 = "LOC_Silence.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "rumble_overheat.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "spine"
+AutoBuffActivateAttachBoneName2 = L0_1
+L0_1 = "rumble_overheat_lite.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = "rumble_overheat_lite_02.troy"
+AutoBuffActivateEffect4 = L0_1
+L0_1 = {}
+L1_1 = "RumbleSkin03"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1
+L0_1 = {}
+L1_1 = "RumbleSkin03"
+L0_1[1] = L1_1
+SpellVOOverrideSkins = L0_1

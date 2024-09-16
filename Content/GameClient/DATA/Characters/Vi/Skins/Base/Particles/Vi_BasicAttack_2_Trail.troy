@@ -1,0 +1,27 @@
+[System]
+GroupPart1=WeaponTrail
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.16
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Evelynn_WeaponTrail2.tga
+p-quadrot=0 0 90
+p-rgba=color-rampdown.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-1.7999999523162842 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=1 0 0 0 0
+rendermode=1
+single-particle=1
+

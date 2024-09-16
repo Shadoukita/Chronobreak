@@ -1,0 +1,37 @@
+[System]
+GroupPart1=tiger_mesh
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SpiritUdyr_Dance3D_tiger
+
+[tiger_mesh]
+ChildEmitOnDeath3=0
+ChildParticleName=Udyr_Spirit_Tiger_Activation_Child.troy
+ChildParticleName2=Udyr_Spirit_Tiger_Arms_Pet.troy
+ChildParticleName3=Udyr_Spirit_Tiger_Arms_Pet.troy
+ChildSpawnAtBone2=L_Hand
+ChildSpawnAtBone3=R_Hand
+KeywordsRequired=SpiritUdyr
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=udyr_spirit_PET_tiger_Dance.anm
+p-bindtoemitter=1 0
+p-colorscale=1 1
+p-life=2
+p-linger=0
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_tiger_TX_CM.dds
+p-postoffset=0 230 0
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_tiger.skl
+p-skin=udyr_spirit_PET_tiger.skn
+p-texture=udyr_spirit_PET_tiger_TX_CM.dds
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 0.6
+p-xrgba3=1 1 1 1 0
+rendermode=1
+single-particle=1
+

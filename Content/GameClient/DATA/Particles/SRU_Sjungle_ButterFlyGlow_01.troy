@@ -1,0 +1,62 @@
+[System]
+GroupPart1=sparktrail
+GroupPart2=sparktrail1
+
+[sparktrail]
+e-rate=8
+e-rate1=0 1
+e-rate2=1 0
+p-bindtoemitter=0.3 0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.9 1.2000000000000002
+p-lifeP3=1 2.2
+p-offset=10 25 10
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-scale=8 8 8
+p-scaleXP1=0 1
+p-scaleXP2=0.9 0.7000000000000001
+p-scaleXP3=1 0
+p-scalebias=5 5
+p-texture=SRU_Sjungle_ButterFlyGlow_01.dds
+p-worldaccel=0 -200 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 0.984314 1 0 1
+p-xrgba3=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=0.4 0.30000000000000004 0.30000000000000004 0.30000000000000004
+p-xscale4=0.6 0 0 0
+p-xscale5=1 0 0 0
+rendermode=4
+
+[sparktrail1]
+e-disabled=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=3
+p-lifeP1=0 0.5
+p-lifeP2=0.9 1.2000000000000002
+p-lifeP3=1 2.2
+p-scale=135 135 135
+p-scaleXP1=0 1
+p-scaleXP2=0.9 0.7000000000000001
+p-scaleXP3=1 0
+p-texture=SRU_Sjungle_ButterFlyGlow_01.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 0.984314 1 0 1
+p-xrgba3=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=0.4 0.30000000000000004 0.30000000000000004 0.30000000000000004
+p-xscale4=0.6 0 0 0
+p-xscale5=1 0 0 0
+rendermode=4
+

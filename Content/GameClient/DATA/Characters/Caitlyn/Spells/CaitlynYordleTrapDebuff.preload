@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="caitlyn_base_yordletrap_impact_debuf.troy"}}, 
+}

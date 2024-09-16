@@ -1,0 +1,36 @@
+[Spatter]
+KeywordsExcluded=ZacGrumpy
+e-life=1.5
+e-rate=15
+p-colortype=3 3
+p-frameRate=0
+p-life=1
+p-numframes=4
+p-offset=0 3 0
+p-quadrot=90 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rgba=Zac_Goo_RGB.tga
+p-scale=100 50 0
+p-startframe=0
+p-texdiv=2 2
+p-texture=Zac_Goo_03.tga
+p-type=1
+p-xrgba=1 1 1 0.8
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.149999976158142 1.149999976158142 1.149999976158142
+pass=-150
+rendermode=1
+
+[System]
+GroupPart1=Spatter
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk56F86A0E=10

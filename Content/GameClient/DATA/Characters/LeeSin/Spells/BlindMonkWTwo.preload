@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="blindmonk_w_ironwill_armor.troy"}}, 
+}

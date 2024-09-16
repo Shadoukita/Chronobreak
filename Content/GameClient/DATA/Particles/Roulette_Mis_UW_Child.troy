@@ -1,0 +1,25 @@
+[Card_Missile_Trail_UW]
+e-life=2
+e-rate=30
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-linger=0.5
+p-numframes=4
+p-quadrot=0 1 0
+p-quadrot1=0 0 0 0
+p-quadrot2=1 0 180 0
+p-randomstartframe=1
+p-rgba=color-rampdown03.tga
+p-scale=15 25 0
+p-texdiv=2 2
+p-texture=TF_Underworld_Card_Mis.tga
+p-type=1
+rendermode=4
+
+[System]
+GroupPart1=Card_Missile_Trail_UW
+SimulateEveryFrame=1
+

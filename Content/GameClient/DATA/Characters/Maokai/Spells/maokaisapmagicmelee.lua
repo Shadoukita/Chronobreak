@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "Maokai_PassiveReady.dds"
+BuffTextureName = L0_1
+L0_1 = "MaokaiSapMagicMelee"
+BuffName = L0_1
+L0_1 = "Maokai_Base_P_cas.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "L_BUFFBONE_GLB_HAND_LOC"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "Maokai_Base_P_active.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "L_BUFFBONE_GLB_HAND_LOC"
+AutoBuffActivateAttachBoneName2 = L0_1

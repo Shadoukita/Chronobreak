@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GameServerConsole\\bin\\Debug\\net8.0",
+    "\\GameServerConsole\\bin\\Release",
+    "\\GameServerConsole\\bin\\Release\\net8.0",
+    "\\LENet\\DummyServer"
+  ],
+  "SelectedNode": "\\GameServerConsole",
+  "PreviewInSolutionExplorer": false
+}

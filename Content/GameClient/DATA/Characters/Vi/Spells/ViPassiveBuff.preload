@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="vi_passive_shield.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_passive_buff.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_passive_hand_l.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_passive_hand_r.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_passive_buff_deactivate.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+}

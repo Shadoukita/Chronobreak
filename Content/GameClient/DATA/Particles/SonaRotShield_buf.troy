@@ -1,0 +1,100 @@
+[ArrowUp]
+KeywordsRequired=PaxSona
+e-life=30
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1
+p-flexoffset=0.005
+p-frameRate=4
+p-numframes=4
+p-postoffset=-50 10 -60
+p-scale=50 50 50
+p-startframe=0
+p-texdiv=2 2
+p-texture=sona_pax_arrowup.tga
+p-type=0
+pass=1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=blueshields
+GroupPart2=yellowshields
+GroupPart3=pixelshield
+GroupPart4=ArrowUp
+SimulateEveryFrame=1
+
+[blueshields]
+KeywordsExcluded=PaxSona
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-colorscale=0.5 0.5
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1000
+p-linger=0
+p-mesh=buffrotshields.sco
+p-meshtex=color-blinking.tga
+p-offset=0 50 0
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-dazzle.tga
+p-rotvel=0 30 0
+p-scale=1 1 1
+p-texdiv=4 4
+p-type=3
+p-uvscroll-rgb=0.5 0
+pass=4
+rendermode=0
+single-particle=1
+
+[pixelshield]
+KeywordsRequired=PaxSona
+e-life=30
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1
+p-flexoffset=0.005
+p-postoffset=-80 10 -50
+p-scale=50 50 50
+p-texture=sona_pax_defenseup2.tga
+p-type=0
+rendermode=1
+single-particle=1
+
+[yellowshields]
+KeywordsExcluded=PaxSona
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-colorscale=0.009999999776482582 0.009999999776482582
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1000
+p-linger=0
+p-mesh=buffrotshields.sco
+p-meshtex=color-blinking.tga
+p-offset=0 50 0
+p-postoffset=0 0 0
+p-quadrot=0 45 0
+p-rgba=color-flamesword.tga
+p-rotvel=0 30 0
+p-scale=1 1 1
+p-texdiv=4 4
+p-type=3
+p-uvscroll-rgb=0.5 0
+pass=4
+rendermode=0
+single-particle=1
+

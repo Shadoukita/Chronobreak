@@ -1,0 +1,30 @@
+[Hex_Child]
+Particle-Drag=0 0 1
+Particle-Drag1=0 0 0 0
+Particle-Drag2=1 0 0 20
+e-life=0.2
+e-rate=1
+e-rgba=255 202 96 255
+p-bindtoemitter=1 1
+p-drag=0 0 1
+p-life=0.30000000000000004
+p-scale=15 15 0
+p-simpleorient=2
+p-texture=Aatrox_Skin02_W_Cube_02.dds
+p-type=1
+p-vel=0 0 450
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Hex_Child
+SimulateEveryFrame=1
+

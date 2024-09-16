@@ -1,0 +1,25 @@
+[Rebirth]
+KeywordsExcluded=ZacGrumpy
+e-life=-1
+e-local-orient=1
+e-rate=2
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1
+p-scale=40 40 40
+p-texture=glow-soft.tga
+p-type=0
+p-xrgba=0.6 0.6 1 0.35
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 2
+pass=0
+rendermode=0
+
+[System]
+GroupPart1=Rebirth
+GroupPart1Importance=High
+SimulateEveryFrame=1
+

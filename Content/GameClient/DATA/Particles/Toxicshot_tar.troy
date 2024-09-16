@@ -1,0 +1,142 @@
+[System]
+GroupPart1=outerring
+GroupPart1Type=Simple
+GroupPart2=innerring
+GroupPart2Type=Simple
+GroupPart3=smoke2
+GroupPart4=blastring
+GroupPart5=star
+GroupPart6=star2
+
+[blastring]
+e-disabled=1
+e-life=1
+e-rate=1
+p-life=0.30000000000000004
+p-offset=0 40 0
+p-quadrot=45 0 0
+p-rgba=TeemoBasicAttack_tar__blastring__p-rgba.tga
+p-scale=130 1 1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xrgba=255 255 255 255
+p-xscale=1 1 1
+p-xscale1=0 0.779 0.779 0.779
+p-xscale2=1 1.0010000467300415 1.0010000467300415 1.0010000467300415
+
+[drag]
+f-drag=13
+f-dragP1=0 0.8529999852180481
+f-dragP2=1 1.0751479864120483
+f-radius=1500
+
+[innerring]
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_blue_tar__outerring__p-rgba.tga
+p-scale=130
+p-startframe=3
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.779
+p-xscale2=1 1.0010000467300415
+
+[outerring]
+e-life=1
+e-rate=1
+p-life=0.5
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_blue_tar__outerring__p-rgba.tga
+p-scale=90
+p-startframe=4
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.779
+p-xscale2=1 1.1863700151443481
+
+[smoke2]
+e-life=0.5
+e-rate=40
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=drag
+p-life=3
+p-lifeP1=0 0.816
+p-lifeP2=1 1.1122219562530518
+p-offset=0 75 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 -360
+p-quadrotXP2=1 360
+p-rotvel=45 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=50 50 50
+p-scaleXP1=0 0.89
+p-scaleXP2=0.9962959885597229 1.260517954826355
+p-startframe=2
+p-texdiv=2 4
+p-texture=InfernalGuardian02.dds
+p-vel=700 350 0
+p-velXP1=0 1.187
+p-velXP2=1 0.6668518781661987
+p-worldaccel=0 -25 0
+p-xrgba=1 1 1 0.7499960064888
+p-xrgba1=0 0.345098 0 0.062745 0
+p-xrgba2=0.1 0.376471 0 0.564706 1
+p-xrgba3=1 0 0 0.498039 0
+rendermode=1
+
+[star]
+e-disabled=1
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45 0 0
+p-rgba=globalhit_blue_tar__blastring__p-rgba.tga
+p-scale=150 1 1
+p-startframe=1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xrgba=255 255 255 255
+p-xscale=1 1 1
+p-xscale1=0 0.779 0.779 0.779
+p-xscale2=1 1.2234439849853516 1.2234439849853516 1.2234439849853516
+
+[star2]
+e-disabled=1
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=-45 0 0
+p-rgba=globalhit_blue_tar__blastring__p-rgba.tga
+p-scale=120 1 1
+p-startframe=1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xrgba=255 255 255 255
+p-xscale=1 1 1
+p-xscale1=0 0.779 0.779 0.779
+p-xscale2=1 1.2234439849853516 1.2234439849853516 1.2234439849853516
+
+[UNKNOWN_HASHES]
+unk3AE55274=0 60 165 183 255
+unk3AE55275=0.92 0 0 0 255
+unk492ADD6E=0 60 165 183 255
+unk492ADD6F=0.92 0 0 0 255
+unk7D642E82=0 60 165 183 255
+unk7D642E83=0.92 0 0 0 255
+unkA57D1169=0 255 255 255 255
+unkA57D116A=0.92 0 0 0 255
+unkEEB21C8C=0 222 234 168 255
+unkEEB21C8D=0.92 0 0 0 255

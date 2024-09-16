@@ -1,0 +1,19 @@
+[Javelin_skin2]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=Kalista_base_q_mis_spear.scb
+p-meshtex=Kalista_Base_Q_Tar_Spear.dds
+p-quadrot=0 90 0
+p-scale=1 1 1
+p-scale1=0 1 1 1
+p-scale2=1 1 1 1
+p-shadow=1
+p-type=3
+single-particle=1
+
+[System]
+GroupPart1=Javelin_skin2
+SimulateEveryFrame=1
+

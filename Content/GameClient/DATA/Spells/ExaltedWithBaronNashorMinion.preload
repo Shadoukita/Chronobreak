@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="exalted_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_baron_meleemin_shield.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="turretshield"}}, 
+{Function=BBPreloadParticle, Params={Name="exalted_buf_siege.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="s5_baronminionsiegeattack"}}, 
+{Function=BBPreloadParticle, Params={Name="exalted_buf_order.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="s5_baronminionrangedattack"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_baron_meleemin_shield_hit.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="feelnopain_eff.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="s5_dragonblock.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="exaltedwithbaronnashorminioncharge"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_baron_siegemin_cas.troy"}}, 
+}

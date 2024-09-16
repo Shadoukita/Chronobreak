@@ -1,0 +1,61 @@
+[Noise]
+f-period=0.30000000000000004
+f-pos=0 0 0
+f-radius=1000
+f-veldelta=20
+
+[Pulse]
+Particle-Velocity=10 0 0
+Particle-Velocity1=0 0 0 0
+Particle-Velocity2=0.5 0 0 0
+Particle-Velocity3=0.5099999904632568 -10 0 -10
+Particle-Velocity4=1 -10 0 -10
+e-life=3
+e-local-orient=1
+e-rate=60
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=drag
+field-noise-1=Noise
+p-bindtoemitter=0.7000000000000001 0
+p-colorscale=1 1
+p-colortype=1 0
+p-drag=1 1 1
+p-flexoffset=0.004999999888241291
+p-frameRate=40
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.9 1
+p-lifeP3=1 2
+p-numframes=16
+p-offset=1 1 0
+p-offsetXP1=0 20
+p-offsetXP2=1 30
+p-offsetYP1=0 50
+p-offsetYP2=1 150
+p-quadrot=-90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=30 30 0
+p-startframe=0
+p-texdiv=4 4
+p-texture=greenpulse.tga
+p-type=0
+p-vel=50 0 0
+p-xscale1=0 1 1 0
+p-xscale2=1 0 0 0
+rendermode=0
+
+[System]
+GroupPart1=Pulse
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[drag]
+f-drag=1
+f-pos=0 0 0
+f-radius=200
+

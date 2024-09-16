@@ -1,0 +1,60 @@
+[System]
+GroupPart1=cylinder
+GroupPart1Type=Simple
+GroupPart2=bigray
+SimulateEveryFrame=1
+
+[bigray]
+e-life=1
+e-local-orient=0
+e-rate=30
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.5
+p-linger=0.5
+p-offset=20 0 0
+p-offsetXP1=0 1
+p-offsetXP2=1 -1
+p-quadrot=-90 0 0
+p-rgba=Color-MejaisSoulSteeler.tga
+p-scale=300 100 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=MejaisSoulstealer02.tga
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.1
+p-xrgba3=0.34 1 1 1 0.3
+p-xrgba4=0.5 1 1 1 0.4
+p-xrgba5=0.68 1 1 1 0.3
+p-xrgba6=0.88 1 1 1 0.1
+p-xrgba7=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 4 4 4
+
+[cylinder]
+e-life=1
+e-local-orient=0
+e-rate=8
+p-bindtoemitter=1 1
+p-life=1
+p-mesh=Saucer8.sco
+p-meshtex=Wish_Cylinder.tga
+p-offset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Color-MejaisSoulSteeler2.tga
+p-rotvel=100 0 0
+p-scale=100 100 100
+p-simpleorient=2
+p-startframe=1
+p-texdiv=2 2
+p-texture=MejaisSoulstealer02.tga
+p-type=1
+p-vel=0 -100 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.7108888030052185 1 1
+

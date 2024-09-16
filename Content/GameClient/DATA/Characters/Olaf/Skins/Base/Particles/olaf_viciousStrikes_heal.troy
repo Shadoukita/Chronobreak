@@ -1,0 +1,86 @@
+[System]
+GroupPart1=heal
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=heal_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=olaf_runes
+GroupPart3Importance=High
+GroupPart3Type=Complex
+SimulateEveryFrame=1
+
+[heal]
+e-life=0.3
+e-linger=0
+e-rate=25
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.55
+p-linger=1
+p-offset=27 30 27
+p-postoffset=0 15 10
+p-scale=43
+p-texture=green_buf_02.tga
+p-type=1
+p-vel=0 320 0
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.9 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[heal_02]
+e-life=0.3
+e-linger=0
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.55
+p-linger=0
+p-offset=15 15 15
+p-postoffset=0 15 10
+p-scale=53
+p-texture=green_buf_02.tga
+p-type=1
+p-vel=0 320 0
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.9 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[olaf_runes]
+e-life=0.35
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=0.5
+p-linger=-1
+p-mesh=olaf_rune_shield_02.sco
+p-meshtex=olaf_rune_shield_06.tga
+p-offset=0 0 0
+p-postoffset=0 120 0
+p-quadrot=0 45 0
+p-rotvel=0 325 0
+p-scale=6 6 6
+p-type=3
+p-uvscroll-rgb=0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.7 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk36EBFB0E=1

@@ -1,0 +1,146 @@
+[BlueTrail]
+KeywordsRequired=WaterTest
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=3
+e-rateP1=0 0.5
+e-rateP2=1 1
+field-drag-1=BlueTrailDrag
+p-bindtoemitter=0 0
+p-life=2.5
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-linger=4
+p-postoffset=0 30 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-lightgrey_darkbellcurve.tga
+p-rotvel=35
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=65
+p-scaleP1=0 0.7
+p-scaleP2=1 1
+p-simpleorient=2
+p-texture=smoke_blue.tga
+p-type=1
+p-vel=50 40 50
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0.2
+p-xscale2=1 3
+pass=-100
+rendermode=1
+
+[BlueTrailDrag]
+f-drag=0.5
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=WaterSpray
+GroupPart1Type=Simple
+GroupPart2=Trail
+GroupPart3=BlueTrail
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[Trail]
+KeywordsRequired=WaterTest
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=50
+e-tilesize=200 0 0
+p-coloroffset=0 0
+p-colortype=1 3
+p-drag=1 1 1
+p-life=0.7
+p-linger=1
+p-rgba=color-Elise_bluestrands.tga
+p-rotvel=1 0 0
+p-rotvelXP1=0 -80
+p-rotvelXP2=1 80
+p-scale=20 0 0
+p-texture=Nami_watertrail.tga
+p-trailmode=1
+p-type=4
+p-xscale1=0 0.3 0 0
+p-xscale2=1 1 0 0
+rendermode=1
+
+[WaterAccel]
+f-accel=0 -150 0
+f-localspace=0
+
+[WaterSpray]
+KeywordsRequired=WaterTest
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=50
+field-accel-1=WaterAccel
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-frameRate=0
+p-life=0.7
+p-lifeP1=0 0.3
+p-lifeP2=0.5 0.8
+p-lifeP3=1 2
+p-linger=1
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-empathize32.tga
+p-rotvel=70
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=15
+p-scaleP1=0 0.2
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=waterdots.tga
+p-type=0
+p-vel=40 70 40
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=1 1.8
+pass=100
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0261F8F0=0
+unk292BE954=0.3
+unk2F91BDEE=distort-heat.tga
+unk3543BB9F=-1
+unk36C193A7=0 0.15
+unk36C193A8=0.2 1
+unk36C193A9=1 0
+unk3F54ADCC=color-bellcurve32.tga
+unk488A2783=2
+unk76396AAD=0.08
+unk7B25244F=2
+unk95160A14=1
+unk9CF99A66=0
+unk9D79E01B=2
+unk9EBC3D9B=0.3
+unkA54D69D2=1
+unkB2896063=Aura_self.tga
+unkCD00D4D2=100
+unkCDFAA733=0 -200 0
+unkD7B5BBA4=WaterTest
+unkDBAFF41E=0 0

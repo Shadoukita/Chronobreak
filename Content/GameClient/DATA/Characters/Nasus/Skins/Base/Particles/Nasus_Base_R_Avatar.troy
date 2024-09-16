@@ -1,0 +1,117 @@
+[System]
+GroupPart1=override_base
+GroupPart1Type=Simple
+GroupPart2=override_galactic
+GroupPart2Type=Simple
+GroupPart3=override_pharoah
+GroupPart3Type=Simple
+GroupPart4=override_dreadknight
+GroupPart4Type=Simple
+GroupPart5=override_riot
+GroupPart5Type=Simple
+GroupPart6=override_skin05
+GroupPart6Type=Simple
+SimulateEveryFrame=1
+
+[override_base]
+KeywordsRequired=BaseNasus
+MaterialOverride1Priority=-1
+MaterialOverride1Texture=Nasus_Base_R_Avatar.tga
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=15
+p-linger=0.2
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-type=0
+rendermode=0
+single-particle=1
+
+[override_dreadknight]
+KeywordsRequired=DreadKnightNasus
+MaterialOverride1Priority=-1
+MaterialOverride1Texture=Nasus_Dreadknight_Ult_Skin.tga
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=15
+p-linger=0.2
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-type=0
+rendermode=0
+single-particle=1
+
+[override_galactic]
+KeywordsRequired=SilverNasus
+MaterialOverride1Priority=-1
+MaterialOverride1Texture=Nasus_Galactic_Ult_Skin.tga
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=15
+p-linger=0.2
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-type=0
+rendermode=0
+single-particle=1
+
+[override_pharoah]
+KeywordsRequired=PharaohNasus
+MaterialOverride1Priority=-1
+MaterialOverride1Texture=Nasus_Pharoah_Ult_Skin.tga
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=15
+p-linger=0.2
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-type=0
+rendermode=0
+single-particle=1
+
+[override_riot]
+KeywordsRequired=RiotNasus
+MaterialOverride1Priority=-1
+MaterialOverride1Texture=Nasus_Riot_Ult_Skin.tga
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=15
+p-linger=0.2
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-type=0
+rendermode=0
+single-particle=1
+
+[override_skin05]
+KeywordsRequired=NasusSkin05
+MaterialOverride1Priority=-1
+MaterialOverride1Texture=nasus_Skin05_ultimate_TX_CM.dds
+e-life=1
+e-linger=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=15
+p-linger=0.2
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-type=0
+rendermode=0
+single-particle=1
+

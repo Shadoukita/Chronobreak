@@ -1,0 +1,98 @@
+[System]
+GroupPart1=flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=flash_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=fairy_dust
+GroupPart3Importance=High
+GroupPart3Type=Simple
+
+[fairy_dust]
+KeywordsExcluded=LuluSkin04
+e-life=0.2
+e-linger=0
+e-rate=30
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.5
+p-quadrot=0
+p-rgba=alpha_03.tga
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 0.7000000000000001
+p-scaleP2=1 0.3499999940395355
+p-texture=flare-Rainbow_rainbow_02.tga
+p-vel=120 0 120
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[flash]
+e-life=0.2
+e-linger=0
+e-local-orient=0
+e-rate=10
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.15
+p-numframes=1
+p-quadrot=45
+p-rgba=alpha_02.tga
+p-rotvel=0 0 150
+p-scale=160
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-Rainbow_pink_01.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+
+[flash_02]
+e-life=0.2
+e-linger=0
+e-local-orient=0
+e-rate=10
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.18
+p-numframes=1
+p-quadrot=45
+p-rgba=alpha_02.tga
+p-rotvel=0 0 150
+p-scale=140
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=pink_flare_01.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkF9D8BBD8=0 0 0 0 255
+unkF9D8BBD9=0.12 255 255 255 255
+unkF9D8BBDA=0.24 211 255 212 255
+unkF9D8BBDB=0.35 166 255 154 255
+unkF9D8BBDC=0.72 0 255 0 255
+unkF9D8BBDD=1 0 0 0 255

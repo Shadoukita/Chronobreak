@@ -1,0 +1,37 @@
+[System]
+GroupPart1=twisted_vines
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+group-scale-cap=0
+
+[twisted_vines]
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=zyra_Plant_spell3_root_winddown.anm
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=0.5
+p-linger=0
+p-local-orient=1
+p-meshtex=izara_plant_props_fire_19.tga
+p-postoffset=0 0 0
+p-quadrot=0 180 0
+p-rotvel=0 0 0
+p-scale=0.3 0.3 0.3
+p-shadow=1
+p-skeleton=zyra_E_rootvines_v8.skl
+p-skin=zyra_E_rootvines_v8.skn
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.16 1 1 1 1
+p-xrgba4=0.8 1 1 1 1
+p-xrgba5=0.9 1 1 1 1
+p-xrgba6=1 1 1 1 0
+rendermode=1
+single-particle=1
+

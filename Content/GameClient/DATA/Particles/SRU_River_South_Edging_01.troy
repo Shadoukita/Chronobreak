@@ -1,0 +1,29 @@
+[SouthEding]
+e-rate=0.25
+p-bindtoemitter=1 0
+p-life=4
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_River_South_Edging_01.scb
+p-meshtex=SRU_RiverEdging_01.DDS
+p-meshtex-mult=SRU_RiverEdging_Mult_01.DDS
+p-texture-mode=clamp
+p-type=3
+p-uvscroll-rgb=0 0.5
+p-uvscroll-rgb-mult=-0.20000000298023224 0.5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=SouthEding
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk39303DE3=0 1
+unk39303DE4=0.3 1
+unk39303DE5=1 1.5
+unk8BC97AD6=sphere.sco
+unkF8A8A571=color-hold.DDS

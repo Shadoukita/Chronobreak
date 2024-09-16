@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="threshqpassive1"}}, 
+{Function=BBPreloadSpell, Params={Name="threshqpassive2"}}, 
+{Function=BBPreloadSpell, Params={Name="threshqpassive3"}}, 
+{Function=BBPreloadSpell, Params={Name="threshqpassive4"}}, 
+}

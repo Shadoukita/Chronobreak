@@ -1,0 +1,251 @@
+[Center_Smoke]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=80
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=SmokeAccel
+field-drag-1=SmokeDrag
+field-noise-1=SmokeNoise
+p-bindtoemitter=1 0
+p-coloroffset=0.2 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 0.6
+p-lifeP2=1 1.2000000000000002
+p-linger=1.2000000000000002
+p-numframes=2
+p-offset=25 100 0
+p-offsetXP1=0 0.5
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 30 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=Katarina_XMas_cloud_colormap.dds
+p-rotvel=60
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=60
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=BuildingSmoke.tga
+p-type=0
+p-vel=150 100 150
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -0.2
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=1 2
+rendermode=1
+single-particle=1
+
+[Column]
+e-life=1
+e-linger=0
+e-rate=3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-linger=0.3
+p-mesh=cylinder_blast_ring_01.sco
+p-meshtex=red_orange_lightbar_02.tga
+p-rgba=alpha_13.tga
+p-scale=30 4000 30
+p-type=3
+p-uvscroll-rgb=0.1 0
+p-vel=0 700 0
+p-xscale1=0 0.5 0.5 0.35
+p-xscale2=0.35 0.75 0.75 0.75
+p-xscale3=1 1.5 1.5 1.5
+rendermode=0
+single-particle=1
+
+[Drag]
+f-drag=1
+f-pos=0 0 0
+f-radius=1000
+
+[Flash]
+e-life=1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.2
+p-linger=0.2
+p-postoffset=0 130 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=250
+p-texture=flare-omnimax_purp.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[Flash_Ground]
+e-life=1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.25
+p-linger=0.25
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=250
+p-simpleorient=2
+p-texture=glow_deepred.tga
+p-type=1
+rendermode=0
+single-particle=1
+
+[Gravity]
+f-accel=0 -300 0
+f-localspace=0
+
+[Noise]
+f-period=1
+f-pos=0 800 0
+f-radius=1000
+f-veldelta=20
+
+[SmokeAccel]
+f-accel=0 200 0
+f-localspace=0
+
+[SmokeDrag]
+f-drag=1
+f-pos=0 50 0
+f-radius=1000
+
+[SmokeNoise]
+f-period=0.5
+f-pos=0 50 0
+f-radius=500
+f-veldelta=20
+
+[Snowpoof]
+e-life=1
+e-linger=0
+e-rate=40
+e-rate1=0 1
+e-rate2=1 0
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=5 5 5
+p-dragYP1=0 0.7
+p-dragYP2=1 1
+p-life=1.5
+p-life1=0 0.5
+p-life2=1 2
+p-linger=2
+p-numframes=4
+p-offset=0 0 0
+p-offset1=0 1.5 1.5 1.5
+p-offset2=1 0 0 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown32_03.tga
+p-rotvel=10 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=120 120 20
+p-scaleXP1=0 0.6
+p-scaleXP2=1 1.2000000000000002
+p-texdiv=2 2
+p-texture=Katarina_XMas_ShadowStep_SnowClouds.dds
+p-vel=600 400 0
+p-velYP1=0 0.3
+p-velYP2=1 1
+p-worldaccel=0 -50 0
+p-xrgba=1 1 1 0.5
+p-xscale1=0 0.6 0.6 0.7
+p-xscale2=1 1 1 1
+pass=10
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Flash_Ground
+GroupPart2Type=Simple
+GroupPart3=Column
+GroupPart4=Center_Smoke
+GroupPart4Type=Simple
+GroupPart5=snowflakes
+GroupPart5Type=Simple
+GroupPart6=Snowpoof
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Katarina_KatarinaE_return
+
+[snowflakes]
+e-life=0.4
+e-rate=45
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=Gravity
+field-drag-1=Drag
+field-noise-1=Noise
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=90 30 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=0 224 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-rotvel=1
+p-rotvelP1=0 -360
+p-rotvelP2=1 360
+p-scale=0.8
+p-scaleP1=0 1
+p-scaleP2=1 6
+p-texdiv=2 2
+p-texture=Snowflakes03.tga
+p-type=0
+rendermode=0
+

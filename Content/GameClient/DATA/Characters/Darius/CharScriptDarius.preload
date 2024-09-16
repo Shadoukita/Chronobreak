@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="dariushemo"}}, 
+{Function=BBPreloadSpell, Params={Name="dariushemointernal"}}, 
+{Function=BBPreloadSpell, Params={Name="dariushemovisual"}}, 
+{Function=BBPreloadParticle, Params={Name="dariusexecutecastsound.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="darius_base_r_cast_axe.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="darius_skin04_r_tar_backboard.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="dariushemomarker"}}, 
+{Function=BBPreloadSpell, Params={Name="dariushemospeedkuomanager"}}, 
+{Function=BBPreloadSpell, Params={Name="dariusrecalloverridebuff"}}, 
+{Function=BBPreloadSpell, Params={Name="dariusaxegrabarmorpen"}}, 
+}

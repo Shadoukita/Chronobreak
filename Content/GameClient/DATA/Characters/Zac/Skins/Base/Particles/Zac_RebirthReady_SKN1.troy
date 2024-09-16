@@ -1,0 +1,40 @@
+[Rebirth_SKN1]
+KeywordsRequired=ZacGrumpy
+e-life=-1
+e-local-orient=1
+e-rate=2
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1
+p-scale=40 40 40
+p-texture=glow-soft.tga
+p-type=0
+p-xrgba=1 0 0 0.75
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 2
+pass=0
+rendermode=0
+
+[System]
+GroupPart1=Rebirth_SKN1
+GroupPart1Importance=High
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk3EE6A5F2=0.05
+unk4423594F=1
+unk45A94D42=ZacGrumpy
+unk4AFE783D=5
+unk550F6A6A=color-hold.tga
+unk56E3E804=0
+unk5E44E421=1
+unk8B7C03B2=1
+unk9DD01DF6=zac_grumpy_passive_TX_CM.tga
+unkBB082670=0
+unkC0D07A45=missing_instant.tga
+unkE2933FB4=0

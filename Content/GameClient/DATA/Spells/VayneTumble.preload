@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="vayne_ult_invis_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vayne_q_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vayne_ult_invis_cas_02.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="vaynetumble"}}, 
+{Function=BBPreloadSpell, Params={Name="vaynetumblefade"}}, 
+{Function=BBPreloadSpell, Params={Name="vaynetumblefailsafe"}}, 
+{Function=BBPreloadSpell, Params={Name="vaynetumblebonus"}}, 
+}

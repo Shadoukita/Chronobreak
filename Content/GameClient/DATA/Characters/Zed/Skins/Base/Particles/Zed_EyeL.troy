@@ -1,0 +1,64 @@
+[Glow]
+e-life=-1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+flag-disable-z=0
+p-bindtoemitter=1
+p-life=1
+p-linger=1
+p-local-orient=1
+p-offset=-5.5 4.5 12
+p-quadrot=1
+p-quadrotP1=0 180
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=10 10 10
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-sun_30.tga
+p-type=0
+p-xscale=1
+
+[System]
+GroupPart1=Trail
+GroupPart2=Glow
+SimulateEveryFrame=1
+
+[Trail]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=40
+e-tilesize=500 0 0
+e-timeoffset=0.1
+e-trail-cutoff=2000
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=7 2 2
+p-life=0.8
+p-linger=4
+p-offset=-5.5 4.5 12
+p-quadrot=0 90 90
+p-rgba=color-rampdown32_03.tga
+p-rotvel=100 0 100
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=20 0 0
+p-texture=DarkSov_Forcetrail.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=0.2 0
+p-uvscroll-rgbXP1=0 0.3
+p-uvscroll-rgbXP2=1 1.5
+p-vel=-70 30 -40
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 0 0 1
+p-xrgba3=0.6 0 0 0 0
+p-xscale1=0 1 0 0
+p-xscale2=1 0 0 0
+rendermode=1
+

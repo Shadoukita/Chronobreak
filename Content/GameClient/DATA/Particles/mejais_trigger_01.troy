@@ -1,0 +1,167 @@
+[System]
+GroupPart1=poofs_03
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=poofs_04
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=wipe
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=ability_power
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SoundOnCreate=Play_sfx_MejaisSoulStealer_buff
+
+[ability_power]
+e-life=0.25
+e-linger=0
+e-local-orient=1
+e-rate=12
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.0035000001080334187
+p-life=0.4
+p-offset=0 10 0
+p-postoffset=0 -40 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-rotvel=360 0 0
+p-scale=90 0 0
+p-simpleorient=2
+p-texture=mejais_01.tga
+p-type=1
+p-vel=0 280 0
+
+[orbit1]
+f-direction=0 1 0
+f-localspace=0
+
+[poofs_03]
+e-life=0.25
+e-local-orient=0
+e-rate=75
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0.1
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-flexscale=0.0035000001080334187
+p-life=0.5
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-numframes=4
+p-offset=5 5 0
+p-offsetXP1=0 0.25
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-smoke32_07.tga
+p-scale=50
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 0.9
+p-shadow=0
+p-startframe=0
+p-texture=flare-Rainbow_blue_01.tga
+p-vel=0 290 600
+p-velYP1=0 0.550000011920929
+p-velYP2=1 2.5
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale1=0 0
+p-xscale2=0.30000001192092896 1.75
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=0
+
+[poofs_04]
+e-life=0.25
+e-local-orient=0
+e-rate=75
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0.1
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-flexscale=0.0035000001080334187
+p-life=0.5
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-numframes=4
+p-offset=5 5 0
+p-offsetXP1=0 0.25
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-smoke32_07.tga
+p-scale=50
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 0.9
+p-shadow=0
+p-startframe=0
+p-texture=flare-Rainbow_green_01.tga
+p-vel=0 290 600
+p-velYP1=0 0.550000011920929
+p-velYP2=1 2.5
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale1=0 0
+p-xscale2=0.30000001192092896 1.75
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=0
+
+[slow]
+f-drag=1
+f-pos=0 0 0
+f-radius=10000
+
+[up]
+f-accel=0 100 0
+f-localspace=0
+
+[wipe]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=70
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-flexscale=0.0035000001080334187
+p-life=0.8
+p-offset=0 0 0
+p-postoffset=0 -180 0
+p-rgba=ability_indicator_p-rgba.tga
+p-rotvel=880
+p-scale=85 0 0
+p-simpleorient=2
+p-texture=mejais_trigger_05.tga
+p-type=1
+p-vel=0 560 0
+p-xscale=1
+rendermode=1
+

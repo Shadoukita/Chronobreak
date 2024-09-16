@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "ThreeSisters_Averosan.dds"
+BuffTextureName = L0_1
+L0_1 = "ThreeSistersAsheDefeatedSejuani"
+BuffName = L0_1
+L0_1 = "Freljord_Crown_Ashe.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_Buffbone_Glb_Overhead_Loc"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1

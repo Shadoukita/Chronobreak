@@ -1,0 +1,74 @@
+[System]
+GroupPart1=base
+GroupPart1Type=Simple
+GroupPart2=skullsbase
+GroupPart2Type=Simple
+GroupPart3=gemstones
+GroupPart3Type=Simple
+GroupPart4=rings
+GroupPart4Type=Simple
+
+[base]
+e-rate=1.5
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0.5
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=120
+p-simpleorient=2
+p-texdiv=2 2
+p-texture=AbyssalScepter02.tga
+p-type=1
+
+[gemstones]
+e-rate=1.5
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0.5
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=150
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=AbyssalScepter02.tga
+p-type=1
+
+[rings]
+e-rate=2
+p-bindtoemitter=1 1
+p-linger=0.5
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=90
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=AbyssalScepter02.tga
+p-type=1
+p-xscale=1
+
+[skullsbase]
+e-rate=1.5
+e-timeoffset=0.25
+p-bindtoemitter=1 1
+p-life=2.2
+p-linger=0.5
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=120
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=AbyssalScepter02.tga
+p-type=1
+

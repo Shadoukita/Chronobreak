@@ -1,0 +1,56 @@
+[System]
+GroupPart1=smoke
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[smoke]
+e-life=1000000
+e-local-orient=0
+e-rate=20
+e-ratebyvel=1 10
+field-accel-1=smokeaccel
+field-drag-1=smokedrag
+field-noise-1=smokenoise
+p-bindtoemitter=0 0
+p-coloroffset=0.9 0
+p-colorscale=0.1 1
+p-colortype=1 0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1.2000000000000002
+p-numframes=4
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown32.tga
+p-rotvel=60
+p-rotvel1=0 -1
+p-rotvel2=1 1
+p-scale=40
+p-scaleP1=0 0.5
+p-scaleP2=1 1.5
+p-startframe=0
+p-texdiv=2 2
+p-texture=Env_HermitBot_Exhaust.tga
+p-vel=0 400 0
+p-xscale1=0 0.5
+p-xscale2=1 1
+rendermode=1
+
+[smokeaccel]
+f-accel=-50 10 50
+f-localspace=0
+
+[smokedrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=100
+
+[smokenoise]
+f-period=0.5
+f-pos=0 0 0
+f-radius=100
+f-veldelta=10
+

@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="lulu_r_slow_trigger_units.troy"}}, 
+}

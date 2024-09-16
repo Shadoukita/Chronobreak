@@ -1,0 +1,37 @@
+[System]
+GroupPart1=exhaust
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Corki_RapidReload_ufobuffactivate
+
+[exhaust]
+KeywordsRequired=UFOCorki
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=16
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0.1
+p-colorscale=1 0.6000000000000001
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=1
+p-offset=0 -30 0
+p-quadrot=0 90 0
+p-rgba=color-hoopspeed.tga
+p-scale=50 50 50
+p-simpleorient=1
+p-startframe=0
+p-texdiv=1 1
+p-texture=ufo-exhaust.tga
+p-type=1
+p-vel=10 0 0
+p-xscale1=0 1 1 0
+p-xscale2=1 0.2 0.2 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk07BB521A=0 0
+unkD3E3DB40=1

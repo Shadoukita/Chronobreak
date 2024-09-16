@@ -1,0 +1,25 @@
+[Magic]
+e-rate=0.25
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-life=10
+p-mesh=sru_njungle_nl_magic_01.scb
+p-meshtex=SRU_NJungle_NH_magic.dds
+p-type=3
+p-uvscroll-rgb=0 0.07
+p-uvscroll-rgbXP1=0 -1
+p-uvscroll-rgbXP2=1 1
+p-uvscroll-rgbYP1=0 0.5
+p-uvscroll-rgbYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=Magic
+

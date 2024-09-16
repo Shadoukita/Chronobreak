@@ -1,0 +1,48 @@
+[System]
+GroupPart1=phoenix_mesh
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+
+[phoenix_mesh]
+ChildParticleName=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName2=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName3=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName4=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName5=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName6=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildSpawnAtBone=L_Elbow
+ChildSpawnAtBone2=R_Elbow
+ChildSpawnAtBone3=L_Wing
+ChildSpawnAtBone4=R_Wing
+ChildSpawnAtBone5=L_Tip
+ChildSpawnAtBone6=R_Tip
+KeywordsRequired=SpiritUdyr
+e-life=6
+e-linger=1
+e-local-orient=1
+e-rate=1
+p-animation=udyr_spirit_PET_phoenix_Death.anm
+p-bindtoemitter=0.85 0.85
+p-colorscale=1 1
+p-colortype=1 3
+p-life=6
+p-linger=1
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_phoenix_TX_CM.dds
+p-postoffset=0 130 10
+p-rgba=alpha_20.dds
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_phoenix.skl
+p-skin=udyr_spirit_PET_phoenix.skn
+p-texture=udyr_spirit_PET_phoenix_TX_CM.dds
+p-type=3
+p-vel=0 10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 0.5
+p-xrgba3=0.85 1 1 1 0.5
+p-xrgba4=1 0 0 0 0
+rendermode=4
+single-particle=1
+

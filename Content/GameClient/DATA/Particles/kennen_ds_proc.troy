@@ -1,0 +1,71 @@
+[System]
+GroupPart1=lightning
+GroupPart2=lightningglow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Kennen_KennenDoubleStrikeLive_buffactivate
+
+[lightning]
+e-life=10000
+e-linger=0
+e-local-orient=0
+e-rate=100
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.4
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 1
+p-linger=0
+p-numframes=4
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-rotvel=60 70 80
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=30 80 0
+p-scaleYP1=0 0.2
+p-scaleYP2=0.8 0.4
+p-scaleYP3=1 0.6000000000000001
+p-startframe=1
+p-texdiv=2 2
+p-texture=lightning02.tga
+p-type=2
+p-xscale1=0 1 1 0
+p-xscale2=1 1 1.2000000000000002 0
+rendermode=0
+
+[lightningglow]
+e-life=10000
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=4
+p-rgba=color-order-crystal-shards.tga
+p-scale=50 50 50
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+rendermode=0
+

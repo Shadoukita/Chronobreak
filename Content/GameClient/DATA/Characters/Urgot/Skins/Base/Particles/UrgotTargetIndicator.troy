@@ -1,0 +1,28 @@
+[System]
+GroupPart1=target
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Urgot_UrgotHeatseekingHomeMissile_marker
+
+[target]
+e-life=0.8
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=0.7000000000000001 0.4
+p-colortype=1 0
+p-life=0.8
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=color-soulshackleteams.tga
+p-rotvel=60
+p-scale=150 0 0
+p-simpleorient=2
+p-texture=UrgotReticule.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 1
+p-xscale2=1 0.7000000000000001
+rendermode=0
+

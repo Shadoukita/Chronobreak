@@ -1,0 +1,36 @@
+[System]
+GroupPart2=rays
+PersistThruDeath=1
+SoundOnCreate=Play_sfx_Poppy_PoppyDevastatingBlow_hit
+
+[rays]
+e-life=0.2
+e-linger=0
+e-rate=800
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.30000000000000004
+p-lifeP1=0 0.5
+p-lifeP2=1 1.5
+p-linger=0
+p-offset=0 30 0
+p-postoffset=0 0 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 -90
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=60 1 1
+p-texture=streak.tga
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 0.7 0 1
+p-xrgba3=1 1 0.7 0 0
+p-xscale1=0 2 20 0
+p-xscale2=0.800000011920929 2 200 40
+p-xscale3=1 2 200 60
+rendermode=0
+

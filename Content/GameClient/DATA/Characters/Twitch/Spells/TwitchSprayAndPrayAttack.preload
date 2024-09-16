@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="twitch_base_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="twitch_gangster_sprayandpray_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="twitch_punk_sprayandpray_tar.troy"}}, 
+}

@@ -1,0 +1,80 @@
+[System]
+GroupPart1=spike_01
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=smoke_01
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Chogath_Rupture_cast2
+
+[dustdrag]
+f-drag=7
+f-pos=0 0 0
+f-radius=600
+
+[smoke_01]
+e-life=0.30000000000000004
+e-rate=100
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=dustdrag
+p-bindtoemitter=0
+p-life=2.25
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-linger=-1
+p-offset=5 55 5
+p-offsetYP1=0 0.5
+p-offsetYP2=1 7.5
+p-postoffset=0 -70 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32_03.tga
+p-rotvel=60
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=40
+p-scaleP1=0 0.5
+p-scaleP2=1 1.6
+p-texture=smoke_dark_magic_02.tga
+p-vel=400 0 500
+p-velXP1=0 0.6000000000000001
+p-velXP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1.3
+p-xscale3=0.25 1.399999976158142
+p-xscale4=1 1.7000000000000002
+rendermode=1
+single-particle=1
+
+[spike_01]
+e-life=0.5
+e-rate=1
+e-timeoffset=0.15
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1
+p-colortype=1
+p-frameRate=0
+p-life=1
+p-linger=1
+p-mesh=tooth_spike_02.sco
+p-meshtex=fang_spike_red_05.tga
+p-numframes=1
+p-offset=0 0 0
+p-scale=1.850000023841858 1.850000023841858 1.850000023841858
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-vel=0 1750 0
+p-worldaccel=0 -9800 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk4E50AD28=600
+unkA5D84FBE=0 0 0
+unkF310014A=6

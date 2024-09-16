@@ -1,0 +1,499 @@
+[AniMesh]
+e-disabled=1
+e-local-orient=0
+e-rate=1
+p-animation=ezreal_Dance.anm
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-life=1
+p-linger=0
+p-meshtex=ezreal_dance_hologram.dds
+p-quadrot=0 180 0
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-skeleton=Ezreal.skl
+p-skin=Ezreal.skn
+p-type=3
+rendermode=1
+
+[System]
+GroupPart1=soft
+GroupPart10=orbit
+GroupPart11=path
+GroupPart12=children
+GroupPart13=arbquad
+GroupPart14=ray
+GroupPart15=mesh
+GroupPart16=trail
+GroupPart17=projection
+GroupPart18=vecalign
+GroupPart19=distort
+GroupPart2=softball
+GroupPart20=AniMesh
+GroupPart21=alpharef
+GroupPart22=alphaslice
+GroupPart23=ground_kill
+GroupPart24=empty
+GroupPart3=bug
+GroupPart4=line
+GroupPart5=line2
+GroupPart6=fan
+GroupPart7=disc
+GroupPart8=sphere
+GroupPart9=hover
+SimulateEveryFrame=1
+
+[alpharef]
+e-alpharef=32
+e-disabled=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=1 0.1
+p-life=1
+p-postoffset=0 200 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-whiteweb32.tga
+p-scale=200 200 0
+p-texdiv=2 2
+p-texture=webfluid32.dds
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0
+p-xscale2=1 2 2 0
+rendermode=3
+
+[alphaslice]
+e-disabled=1
+e-local-orient=0
+e-rate=0.1
+p-alphaslicerange=0.009999999776482582
+p-bindtoemitter=1 1
+p-colorscale=1 0.5
+p-life=10
+p-offset=0 200 0
+p-rgba=color-rainbowfade32.tga
+p-scale=100 100 0
+p-texture=slicedisplay2.dds
+p-texture-pixelate=1
+rendermode=1
+
+[arbquad]
+e-disabled=1
+e-linger=-1
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-postoffset=0 200 0
+p-rgba=color-hold.tga
+p-scale=50 50 50
+p-shadow=1
+p-texture=checkers.dds
+p-type=1
+p-vel=0 400 0
+p-worldaccel=0 -300 0
+rendermode=1
+
+[bug]
+e-disabled=1
+e-life=1
+e-linger=1
+e-rate=100
+p-bindtoemitter=1 0
+p-rgba=color-hold.tga
+p-scale=30 30 0
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 100 0
+p-xscale=1 1 1
+p-xscale1=0 2 2 0
+p-xscale2=1 0 0 0
+single-particle=1
+
+[children]
+ChildEmitOnDeath=1
+ChildParticleName=disintegrate_hit.troy
+e-active=2
+e-disabled=1
+e-linger=-1
+e-period=2
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.1 1
+p-colortype=3 1
+p-life=1
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 800
+p-offsetYP1=0 0
+p-offsetYP2=1 200
+p-quadrot=90 0 0
+p-rgba=color-beacontrail.tga
+p-scale=10 10 0
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 600 0
+rendermode=1
+
+[disc]
+e-active=2
+e-disabled=1
+e-linger=-1
+e-period=2
+e-rate=1000
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 0
+p-life=2
+p-offset=100 0 0
+p-offsetXP1=0 0
+p-offsetXP2=0.0010000000474974513 0.30000001192092896
+p-offsetXP3=0.2 0.8
+p-offsetXP4=0.30000000000000004 0.9
+p-offsetXP5=1 1
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 200 0
+rendermode=1
+
+[distort]
+e-disabled=1
+e-linger=-1
+e-rate=0.16666659712791443
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-colorscale=0.5 0
+p-colortype=0 0
+p-distortion-mode=2
+p-distortion-power=0.05000000074505806
+p-life=6
+p-normal-map=distort-pinch.tga
+p-rgba=color-hold.tga
+p-scale=400 400 0
+p-texture=ball32_01.dds
+rendermode=1
+
+[empty]
+e-rate=1
+p-bindtoemitter=1 0
+p-fixedorbittype=1
+p-life=-1
+p-offset=0 0 -200
+p-orbitvel=0 6.5 0
+p-scale=10 10 0
+p-texture=disc32.dds
+single-particle=1
+
+[fan]
+e-disabled=1
+e-linger=-1
+e-rate=1000
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 -20
+e-rotation1P2=0.5 -20
+e-rotation1P3=0.50001 20
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=0.3 0
+e-rotation2P3=0.3001 120
+e-rotation2P4=0.6 120
+e-rotation2P5=0.6001 360
+e-rotation2P6=1 360
+p-bindtoemitter=1 0
+p-offset=0 10 0
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 300 0
+rendermode=1
+
+[ground_kill]
+ChildEmitOnDeath=1
+ChildParticleName=0drop_hit.troy
+e-disabled=1
+e-linger=-1
+e-rate=4
+e-rgba=100 100 255 100
+p-bindtoemitter=1 0
+p-life=0.1
+p-life-scale-offset=0 0.0004 0
+p-life-scale-symY=1
+p-offset=1 1 1
+p-offsetXP1=0 -200
+p-offsetXP2=1 200
+p-offsetYP1=0 400
+p-offsetYP2=1 300
+p-scale=3 3 0
+p-shadow=1
+p-texture=disc32.dds
+p-vec-velocity-scale=0.0020000000949949026
+p-vecalign=1
+p-vel=0 -2000 0
+p-worldaccel=0 -2000 0
+
+[hover]
+Particle-Acceleration=0 1 0
+Particle-Acceleration1=0 0 -200 0
+Particle-Acceleration2=0.1 0 200 0
+Particle-Acceleration3=0.2 0 -200 0
+Particle-Acceleration4=0.3 0 200 0
+Particle-Acceleration5=0.4 0 -200 0
+Particle-Acceleration6=0.5 0 200 0
+Particle-Acceleration7=0.6 0 -200 0
+Particle-Acceleration8=0.7 0 200 0
+Particle-Acceleration9=0.8 0 -200 0
+e-disabled=1
+e-linger=-1
+e-rate=0.1
+p-bindtoemitter=1 0
+p-life=10
+p-offset=0 500 0
+p-rgba=color-hold.tga
+p-scale=8 8 8
+p-shadow=1
+p-texture=disc32.dds
+rendermode=1
+
+[line]
+e-disabled=1
+e-linger=-1
+e-rate=100
+p-bindtoemitter=1 0
+p-offset=1 10 1
+p-offsetXP1=0 -200
+p-offsetXP2=1 200
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 300 0
+
+[line2]
+e-disabled=1
+e-linger=-1
+e-rate=100
+e-rotation1=45
+e-rotation1-axis=1 0 0
+p-bindtoemitter=1 0
+p-offset=1 10 0
+p-offsetXP1=0 -200
+p-offsetXP2=1 200
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 300 0
+rendermode=1
+
+[mesh]
+e-disabled=1
+e-linger=-1
+e-rate=3
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 50
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-mesh=teapot.sco
+p-meshtex=checkers.dds
+p-postoffset=0 200 0
+p-rgba=color-rampdown32.tga
+p-shadow=1
+p-type=3
+p-vel=0 400 0
+p-worldaccel=0 -300 0
+rendermode=1
+
+[orbit]
+e-disabled=1
+e-linger=-1
+e-rate=10
+p-bindtoemitter=1 0
+p-life=10
+p-offset=-100 0 0
+p-orbitvel=0 2 0
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 100 0
+rendermode=1
+
+[path]
+e-disabled=1
+e-linger=-1
+e-rate=300
+e-rotation1=-49
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-accel=-420 20 0
+p-bindtoemitter=1 0
+p-drag=2 0.30000000000000004 2
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=0 10 0
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=0 200 0
+p-worldaccel=0 200 0
+rendermode=1
+
+[projection]
+e-disabled=1
+e-linger=-1
+e-rate=0.2
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 0
+p-projection-fading=300
+p-projection-y-range=0
+p-rgba=color-hold.tga
+p-rotvel=100 0 100
+p-scale=200 200 200
+p-texture=Reticule02.dds
+p-type=7
+
+[ray]
+e-disabled=1
+e-linger=-1
+e-rate=100
+p-bindtoemitter=1 0
+p-life=1
+p-postoffset=0 200 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=10 150 200
+p-texture=ball01.dds
+p-type=2
+p-xscale=1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=1 0.2 0.5 1
+
+[soft]
+e-disabled=1
+e-life=1
+e-rate=1
+e-soft-in-depth=-100
+p-bindtoemitter=1 0
+p-life=100000
+p-scale=200 200 0
+p-texture=disc32.dds
+rendermode=1
+
+[softball]
+e-disabled=1
+e-life=1
+e-rate=1
+e-soft-in-depth=-40
+e-soft-in-depth-delta=200
+p-bindtoemitter=1 0
+p-life=100000
+p-mesh=sphere.sco
+p-meshtex=color-hold.dds
+p-scale=20 20 20
+p-type=3
+rendermode=1
+
+[sphere]
+e-disabled=1
+e-linger=-1
+e-rate=300
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-colorscale=0.9900000095367432 1
+p-life=3
+p-lifeP1=0 0.2
+p-lifeP2=0.009999999776482582 1
+p-lifeP3=0.7000000000000001 0.5
+p-offset=100 0 0
+p-postoffset=0 200 0
+p-rgba=color-rampdown32.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+p-vel=-100 0 0
+p-velXP1=0 0
+p-velXP2=1 2
+rendermode=1
+
+[trail]
+e-disabled=1
+e-life=1.2000000000000002
+e-rate=1
+p-bindtoemitter=1 0
+p-life=10000
+p-offset=-200 400 0
+p-orbitvel=0 3 0
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-texture=disc32.dds
+rendermode=1
+
+[vecalign]
+e-disabled=1
+e-linger=-1
+e-rate=4
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 20
+e-rotation1P2=1 30
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-drag=1 1 1
+p-rgba=color-hold.tga
+p-scale=20 50 0
+p-shadow=1
+p-texture=direction-arrow.dds
+p-vecalign=1
+p-vel=0 2000 0
+p-worldaccel=0 -1000 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk164E9B5C=1
+unkC26C64B8=0.9 0 200 0
+unkC26C64B9=1 0 -200 0

@@ -1,0 +1,45 @@
+[Flat3]
+e-disabled=1
+e-life=2
+e-rate=120
+e-timeoffset=0.15000000596046448
+p-bindtoemitter=0.1 0.1
+p-life=0.15000000596046448
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=0
+p-scale=45
+p-texture=sonic_flare_04.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+
+[Resonance]
+e-disabled=1
+e-life=2
+e-rate=80
+e-timeoffset=0.2
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=0
+p-scale=20
+p-texture=sonic_flare_04.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+
+[System]
+GroupPart1=Flat3
+GroupPart1Type=Simple
+GroupPart2=Resonance
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+

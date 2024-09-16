@@ -1,0 +1,49 @@
+[Hit_Blend]
+e-life=0.1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-frameRate=30
+p-life=0.13333329558372498
+p-linger=0
+p-numframes=4
+p-postoffset=1 50 1
+p-scale=170
+p-texdiv=2 2
+p-texture=MissFortune_Skin07_Q_Tar_Hit.dds
+p-xscale=1
+p-xscale1=0 0.75
+p-xscale3=1 1
+pass=50
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[System]
+GroupPart1=Hit_Blend
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk064B68C4=1 1
+unk0FE0EC1A=4
+unk1F91AE09=MissFortune_Skin07_Q_Tar_Hit.dds
+unk223A2B2B=1
+unk3F07AE5C=2 2
+unk3F1F5176=1
+unk61E91F2E=0.13333329558372498
+unk6E00F179=0.1
+unk7C2017E4=1
+unk81475D5D=1
+unk9F8A3885=1 50 1
+unkA3C9E14D=0 0.75
+unkA3C9E14F=1 1
+unkB7C725EE=4
+unkBD2AB4BB=30
+unkCBC58340=0
+unkCD882675=0
+unkDDDE9B49=1
+unkE586D526=100
+unkF96B1578=170

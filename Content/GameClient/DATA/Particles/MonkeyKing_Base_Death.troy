@@ -1,0 +1,19 @@
+[Stone]
+MaterialOverride1Texture=MonkeyKing_Base_Death_Stone.dds
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=90
+p-linger=90
+p-rgba=MonkeyKing_Base_Death_Stone_Ramp.dds
+p-trans-sample=64
+rendermode=1
+
+[System]
+GroupPart1=Stone
+GroupPart1Importance=High
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

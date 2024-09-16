@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="Braummark"}}, 
+{Function=BBPreloadSpell, Params={Name="Braummarkcounter"}}, 
+}

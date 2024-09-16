@@ -1,0 +1,17 @@
+[System]
+GroupPart1=WepGlow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[WepGlow]
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Draven_Skin02_Z_Glowweps_01.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=200
+p-linger=4
+p-rgba=Draven_Skin02_Z_Color-Rampdown01.tga
+rendermode=0
+single-particle=1
+

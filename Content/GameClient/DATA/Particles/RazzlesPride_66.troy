@@ -1,0 +1,47 @@
+[System]
+GroupPart1=shield_halo
+GroupPart1Type=Simple
+GroupPart2=shield_dots
+GroupPart2Type=Simple
+GroupPart3Type=Simple
+GroupPart4Type=Simple
+
+[shield_dots]
+e-life=-1
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 80 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hurtbeam.tga
+p-scale=115
+p-startframe=0
+p-texdiv=1 1
+p-texture=halodots.tga
+
+[shield_halo]
+e-life=-1
+e-linger=0
+e-rate=25
+p-bindtoemitter=1 1
+p-coloroffset=0.4 0
+p-colorscale=0.6000000238418579 0.009999999776482582
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=0.25
+p-linger=0
+p-offset=0 80 0
+p-rgba=color-rainbowbell.tga
+p-scale=115
+p-startframe=0
+p-texdiv=1 1
+p-texture=halo.tga
+

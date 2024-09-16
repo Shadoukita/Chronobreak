@@ -1,0 +1,15 @@
+{
+	"champion":"Ziggs",
+	"title":"Beginner",
+	"type":"riot",
+	"map":"SR",
+	"mode":"INTRO",
+	"priority":false,
+	"blocks": [
+		{"type":"beginner_Starter","maxSummonerLevel":4,"items":[{"id":"1056","count":1}]},
+		{"type":"beginner_Starter","minSummonerLevel":5,"items":[{"id":"1056","count":1},{"id":"2003","count":1}]},
+		{"type":"beginner_Advanced","recMath":true,"items":[{"id":"1028","count":1},{"id":"1027","count":1},{"id":"3010","count":1}]},
+		{"type":"beginner_MovementSpeed","recMath":true,"items":[{"id":"1001","count":1},{"id":"3020","count":1}]},
+		{"type":"beginner_LegendaryItem","recMath":true,"items":[{"id":"3010","count":1},{"id":"1026","count":1},{"id":"3027","count":1}]},
+		{"type":"beginner_MoreLegendaryItems","items":[{"id":"3151","count":1},{"id":"3174","count":1},{"id":"3116","count":1},{"id":"3089","count":1}]}
+]}

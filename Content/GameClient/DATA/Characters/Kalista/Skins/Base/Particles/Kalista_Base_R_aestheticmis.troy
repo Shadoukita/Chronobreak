@@ -1,0 +1,216 @@
+[Cone]
+e-life=2
+e-rate=6
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-mesh=Kalista_Base_R_mis_cone.scb
+p-meshtex=Kalista_Base_R_mis_cone1.dds
+p-quadrot=90 0 90
+p-scale=10 10 20
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 3 3 1
+rendermode=4
+
+[Flash]
+e-life=10
+e-rate=60
+p-bindtoemitter=1 1
+p-life=0.016699999570846558
+p-linger=0
+p-offset=0 -100 0
+p-scale=100 20 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.1
+p-texture=Kalista_Base_BA_flash.dds
+rendermode=4
+
+[Glow]
+e-life=1
+e-rate=1
+e-rgba=0 255 119 203
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-offset=0 -100 0
+p-scale=100 100 0
+p-texture=Kalista_Base_BA_hot.dds
+rendermode=4
+
+[Lightburst-horiz]
+e-life=0.30000000000000004
+e-rate=1
+flag-disable-z=1
+p-life=0.30000000000000004
+p-linger=0
+p-local-orient=1
+p-offset=0 -80 0
+p-postoffset=0 100 0
+p-rgba=color-eyefade.tga
+p-scale=100 100 0
+p-texture=Kalista_Base_R_LightBlob.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=0.75 1 1 1 0
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=0.1 0.725 2 0
+p-xscale3=0.3 0.55 3 0
+p-xscale4=1 0.55 3.875 0
+rendermode=4
+single-particle=1
+
+[Spirit_Sphere]
+e-rate=6
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1 1
+p-life=4
+p-linger=0
+p-mesh=Kalista_Base_R_Charged_Sphere.scb
+p-meshtex=Kalista_Base_R_Charged_Sphere.dds
+p-meshtex-mult=Kalista_Base_R_Charged_Glow.dds
+p-offset=0 -100 0
+p-quadrot=135 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=5 5 5
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-type=3
+p-uvscroll-rgb=1 1
+p-uvscroll-rgbXP1=0 -0.1
+p-uvscroll-rgbXP2=1 0.1
+p-uvscroll-rgbYP1=0 -0.1
+p-uvscroll-rgbYP2=1 0.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 1 0
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Trail_Head
+GroupPart1Importance=High
+GroupPart2=Trail_Head_Jaw
+GroupPart2Importance=High
+GroupPart3=Trail_Stripes
+GroupPart3Importance=High
+GroupPart4=Cone
+GroupPart5=Spirit_Sphere
+GroupPart6=Glow
+GroupPart7=Flash
+GroupPart8=Lightburst-horiz
+GroupPart9=Tube
+SimulateEveryFrame=1
+
+[Trail_Head]
+e-life=1
+e-linger=1
+e-rate=120
+e-rgba=255 255 255 255
+e-rgba1=0 1 1 1 0
+e-rgba2=0.05 1 1 1 1
+e-tilesize=800 -1 0
+e-trail-cutoff=800
+flag-disable-z=1
+p-accel=0 500 0
+p-life=1
+p-linger=0.5
+p-offset=0 -10 0
+p-scale=120 0 0
+p-texture=Kalista_Base_R_Trail.dds
+p-type=4
+p-vel=0 0 0
+p-velXP1=0 -10
+p-velXP2=1 10
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 0 0
+rendermode=4
+
+[Trail_Head_Jaw]
+e-life=1
+e-linger=1
+e-rate=120
+e-rgba=255 255 255 255
+e-rgba1=0 1 1 1 0
+e-rgba2=0.05 1 1 1 1
+e-tilesize=800 -1 0
+e-trail-cutoff=800
+flag-disable-z=1
+p-accel=0 500 0
+p-life=1
+p-linger=0.5
+p-offset=0 -10 0
+p-scale=120 0 0
+p-texture=Kalista_Base_R_Trail_Jaw.dds
+p-type=4
+p-vel=0 0 0
+p-velXP1=0 -10
+p-velXP2=1 10
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 0 0
+
+[Trail_Stripes]
+e-life=1
+e-linger=1
+e-rate=60
+e-tilesize=600 -1 0
+flag-disable-z=1
+p-life=0.5
+p-linger=0.5
+p-offset=0 -80 0
+p-scale=45 0 0
+p-texture=Kalista_Base_R_Trail_mult.dds
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb=-0.2 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0.5 1 1
+p-xrgba2=0.45 0 0.35 1 1
+p-xrgba3=1 0 0 1 0
+rendermode=4
+
+[Tube]
+e-life=1
+e-rate=4
+e-uvoffset=1 0
+e-uvoffset1=0 0 0
+e-uvoffset2=1 0 1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0.5
+p-mesh=Kalista_Base_R_mis_tube.scb
+p-meshtex=Kalista_Base_R_mis_tube.dds
+p-quadrot=90 0 90
+p-scale=15 15 15
+p-texdiv=0.5 0.5
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 0 0 0 1
+rendermode=4
+single-particle=1
+

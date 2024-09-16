@@ -1,0 +1,65 @@
+[HitBubble]
+e-color-modulate=2 2 2 1
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_JungleBuff_Baron_RangedMin_Glow.scb
+p-meshtex=SRU_JungleBuff_Baron_MeleeMin_Shield.dds
+p-offset=3 0 3
+p-quadrot=-90 1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1
+p-scale=0.34 0.34 0.34
+p-texdiv=3 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.2 -1
+p-uvscroll-rgbXP1=0 -1
+p-uvscroll-rgbXP2=1 1
+p-uvscroll-rgbYP1=0 0.5
+p-uvscroll-rgbYP2=1 1
+p-xrgba=1 0.8 0.8 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1.1 1.1 1
+rendermode=1
+
+[System]
+GroupPart2=HitBubble
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk0C9F6610=Glows.tga
+unk0D265979=0
+unk0EE8FCAE=0
+unk175B377E=3 0 3
+unk2F152E7A=0 0.9
+unk2F152E7B=1 1.2000000000000002
+unk3422DEB0=0 1 1 1 0
+unk3422DEB1=0.5 1 1 1 1
+unk3422DEB2=1 1 1 1 0
+unk35AF39B4=0 0
+unk35AF39B5=1 360
+unk3E61C1E7=-1
+unk4671A64B=1 1
+unk4A799432=0.1
+unk548A865F=color-purpleflame.dds
+unk5DC00016=1
+unk80688495=2 2
+unkB35742F2=1 1
+unkDC417016=3
+unkDDD420FF=40 40 40
+unkE8BDEA45=1 0 0
+unkEE4291C1=1 1 1 1

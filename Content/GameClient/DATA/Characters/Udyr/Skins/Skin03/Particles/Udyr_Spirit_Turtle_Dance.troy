@@ -1,0 +1,35 @@
+[System]
+GroupPart1=turtle_mesh
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SpiritUdyr_Dance3D_turtle
+
+[turtle_mesh]
+ChildEmitOnDeath=0
+ChildParticleName=Udyr_Spirit_Turtle_Activation_Child_Trails.troy
+ChildParticleName2=Udyr_Spirit_Turtle_Pet_Eyes_L.troy
+ChildParticleName3=Udyr_Spirit_Turtle_Pet_Eyes_R.troy
+ChildSpawnAtBone2=BUFFBONE_CSTM_R_EYE
+ChildSpawnAtBone3=BUFFBONE_CSTM_L_EYE
+KeywordsRequired=SpiritUdyr
+e-life=1
+e-local-orient=0
+e-rate=1
+p-animation=udyr_spirit_PET_turtle_Dance.anm
+p-bindtoemitter=0.85 0.85
+p-life=1.75
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_turtle_TX_CM.dds
+p-postoffset=0 200 0
+p-skeleton=udyr_spirit_PET_turtle.skl
+p-skin=udyr_spirit_PET_turtle.skn
+p-texture=udyr_spirit_PET_turtle_TX_CM.dds
+p-type=3
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.5 1 0.5 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0 1 0 0
+pass=100
+rendermode=1
+single-particle=1
+

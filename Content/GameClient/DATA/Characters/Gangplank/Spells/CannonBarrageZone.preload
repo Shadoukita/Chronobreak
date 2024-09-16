@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="gangplank_specialforces_r_indicator_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gangplank_specialforces_r_indicator_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gangplank_specialforces_r_spotlight.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="pirate_cannonbarrage_aoe_indicator_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="pirate_cannonbarrage_aoe_indicator_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gangplank_specialforces_r_point.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gangplank_specialforces_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="pirate_cannonbarrage_point.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="pirate_cannonbarrage_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="pirate_xmarksthespot_nova.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimer"}}, 
+{Function=BBPreloadSpell, Params={Name="cannonbarrageslow"}}, 
+}

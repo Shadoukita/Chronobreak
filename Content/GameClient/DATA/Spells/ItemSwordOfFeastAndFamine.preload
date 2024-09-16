@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="global_slow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_haste.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="itemswordoffeastandfaminetransfuse"}}, 
+{Function=BBPreloadParticle, Params={Name="piratecutlass_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="globaldrain"}}, 
+{Function=BBPreloadSpell, Params={Name="itemswordoffeastandfamine"}}, 
+{Function=BBPreloadSpell, Params={Name="itemswordoffeastandfamineself"}}, 
+}

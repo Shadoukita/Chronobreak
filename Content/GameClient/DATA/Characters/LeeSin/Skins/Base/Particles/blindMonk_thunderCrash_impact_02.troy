@@ -1,0 +1,149 @@
+[System]
+GroupPart1=warpwave
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+GroupPart2=warpwave3
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+GroupPart3=ping
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=shockwave_01
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=shockwave_02
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=flat_03
+GroupPart6Importance=High
+GroupPart6Type=Simple
+SimulateEveryFrame=1
+
+[flat_03]
+e-life=0.1
+e-local-orient=0
+e-rate=20
+p-life=0.25
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90
+p-scale=400
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-simpleorient=2
+p-texture=LeeSin_Base_R_Glow_01.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 0 0 0
+rendermode=4
+
+[ping]
+e-life=0.10999999940395355
+e-rate=8
+p-colorscale=1 0.4
+p-life=0.25
+p-quadrot=0
+p-rgba=alpha_12.tga
+p-rotvel=0
+p-scale=200
+p-simpleorient=2
+p-texture=blast_nova_07.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0.25 0.25 0.25
+p-xscale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+
+[shockwave_01]
+e-life=0.10999999940395355
+e-rate=9
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.25
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 8
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-rotvel=0
+p-scale=370
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-simpleorient=2
+p-texture=shockWaves_15.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1 1 1
+
+[shockwave_02]
+e-life=0.10999999940395355
+e-rate=15
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.3499999940395355
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 8
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-rotvel=0
+p-scale=250
+p-scaleP1=0 0.9
+p-scaleP2=1 1.2000000000000002
+p-simpleorient=2
+p-texture=gragas_shockWaves_05.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1 1 1
+
+[warpwave]
+e-life=0.17000000178813934
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-distortion-power=0.019999999552965164
+p-life=0.3499999940395355
+p-linger=0
+p-normal-map=distortion_soundwaves_01.tga
+p-quadrot=0
+p-rgba=alpha_20.tga
+p-rotvel=0
+p-scale=550
+p-simpleorient=2
+p-texture=Aura_Self.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0.35 0.35 0.35
+p-xscale2=1 1 1 1
+rendermode=1
+single-particle=1
+
+[warpwave3]
+e-life=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0.3 0
+p-colorscale=0.7000000000000001 1
+p-distortion-mode=2
+p-distortion-power=0.03500000014901161
+p-life=0.44999998807907104
+p-normal-map=distort-ripples.tga
+p-quadrot=0
+p-rgba=color-bellcurve32.tga
+p-rotvel=0
+p-scale=450
+p-simpleorient=2
+p-texture=Aura_Self_02.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0.25 0.25 0.25
+p-xscale2=1 1 1 1
+rendermode=1
+single-particle=1
+

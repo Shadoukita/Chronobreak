@@ -1,0 +1,15 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundsPlayWhileOffScreen=1
+VoiceOverOnCreate=Play_vo_Twitch_Interactive3DChampionSpecific01
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

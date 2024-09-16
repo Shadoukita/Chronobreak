@@ -1,0 +1,23 @@
+[CrossHair]
+e-life=6
+e-linger=1
+e-rate=0.5
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-offset=0 100 0
+p-rgba=color-pulse.tga
+p-scale=70
+p-texture=ui_crosshair_2D.tga
+p-type=0
+rendermode=1
+
+[System]
+GroupPart1=CrossHair
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

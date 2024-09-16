@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="soraka_skin04_recall_ghost.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_skin04_recall_ghostparent.troy"}}, 
+}

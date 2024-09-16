@@ -1,0 +1,16 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+VoiceOverPersistent=Play_vo_Nasus_taunt3Dparticle
+
+[empty]
+e-life=14
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkB9328AF5=1

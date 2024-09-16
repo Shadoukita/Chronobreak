@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="temp_iceblock_impact.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_iceblock_spawn_m.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_iceblock_spawn.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_iceblock_spawn_xs.troy"}}, 
+}

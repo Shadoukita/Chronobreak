@@ -1,0 +1,23 @@
+[GeoBot]
+e-local-orient=0
+e-rate=0.07000000029802322
+p-bindtoemitter=1 0
+p-life=18
+p-linger=0
+p-mesh=SRU_Order_FogBase_01.scb
+p-meshtex=SRU_Pally_FogBase_01.DDS
+p-type=3
+p-uvscroll-rgb=-0.14000000059604645 -0.14000000059604645
+p-xrgba=1 1 1 0.4
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=GeoBot
+GroupPart1Importance=High
+SimulateEveryFrame=1
+group-vis=251
+

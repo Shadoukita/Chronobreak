@@ -1,0 +1,33 @@
+[System]
+GroupPart1=roundwake
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=450
+
+[roundwake]
+e-rate=1.5
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=sru_river_wake_01.scb
+p-meshtex=SRU_River_Wake_01.dds
+p-quadrot=0 30 0
+p-quadrotYP1=0 -30
+p-quadrotYP2=0.3 30
+p-quadrotYP3=0.5 90
+p-quadrotYP4=0.8 280
+p-quadrotYP5=1 360
+p-type=3
+p-uvscroll-rgb=0.10000000149011612 -0.699999988079071
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.5608
+p-xrgba3=0.701 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 2
+rendermode=4
+uniformscale=1
+

@@ -1,0 +1,103 @@
+[System]
+GroupPart1=ring_01
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=speed_blur
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=sparkle
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_OdinSpeedShrineAura_buffactivate
+
+[ring_01]
+e-life=-1
+e-local-orient=0
+e-rate=10
+p-backfaceon=0
+p-bindtoemitter=0
+p-life=0.7
+p-local-orient=0
+p-mesh=saucer7.sco
+p-meshtex=twilight_04.tga
+p-postoffset=0 80 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rotvel=0 1 0
+p-rotvelYP1=0 -100
+p-rotvelYP2=1 100
+p-scale=35 1 35
+p-type=3
+p-vel=0 -120 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.33 0.8 0.8 0.8 0.6
+p-xrgba3=1 0 0 0 0
+p-xscale1=0 0.1 0.65 0.1
+p-xscale2=1 1 0.5 1
+rendermode=0
+
+[sparkle]
+e-life=-1
+e-rate=100
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.009999999776482582
+p-colortype=1 0
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=1 1.4000000000000001
+p-offset=230 0 0
+p-offsetXP1=0 0.9
+p-offsetXP2=1 1
+p-postoffset=0 10 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellramp.tga
+p-scale=15
+p-scaleP1=0 0.6
+p-scaleP2=1 1
+p-texture=RhyzeSparks01.tga
+p-vel=0 0 1
+p-velZP1=0 -20
+p-velZP2=1 20
+pass=-100
+rendermode=0
+
+[speed_blur]
+e-life=-1
+e-local-orient=0
+e-rate=30
+p-life=0.6
+p-lifeP1=0 1
+p-lifeP2=1 1.4000000000000001
+p-postoffset=0 100 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-bellcurve.tga
+p-rotvel=-1
+p-rotvelP1=0 -800
+p-rotvelP2=1 800
+p-scale=150
+p-scaleP1=0 0.3 0.3 0.3
+p-scaleP2=1 1 1 1
+p-simpleorient=2
+p-texture=speed_blur.tga
+p-type=1
+p-vel=50 -120 50
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0.6 0.6 0.6
+p-xscale2=1 2.4000000000000004 2.4000000000000004 2.4000000000000004
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk8AA264C9=1

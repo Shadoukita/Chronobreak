@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="leblanc_base_w_aoe_impact.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancchaosorbproc"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancchaosorbmproc"}}, 
+}

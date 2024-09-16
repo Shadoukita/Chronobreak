@@ -1,0 +1,59 @@
+[System]
+GroupPart2=sparks
+SimulateEveryFrame=1
+
+[sparks]
+e-life=0.1
+e-linger=0
+e-rate=115
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.3
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-offset=1 1 1
+p-offsetXP1=0 0
+p-offsetXP2=1 25
+p-offsetYP1=0 0
+p-offsetYP2=1 80
+p-offsetZP1=0 0
+p-offsetZP2=1 25
+p-postoffset=0 0 0
+p-quadrot=180 90 0
+p-rgba=alpha_20.dds
+p-scale=7 7 7
+p-texture=teardrop.dds
+p-vecalign=1
+p-vel=0 100 500
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.3
+p-velYP2=1 1q
+p-worldaccel=0 -1000 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk01C530EF=1
+unk035272CE=0
+unk0844BC15=0 0 0
+unk0BD6231C=alpha_12.dds
+unk150B9CD3=3
+unk1A6F6B48=0 180 0
+unk3C265B80=1
+unk3E50E713=Trundle_Q_Bite_marks.dds
+unk71CEDF22=2
+unk81E02F64=4
+unk8D426EBF=1
+unk95C9E6FB=0 100 -40
+unk962CB382=100 150 0
+unk9C9CEF9C=-100
+unkA811E2AF=1
+unkC187F99F=2
+unkC2891A57=0 1 1 1
+unkC2891A58=0.2 1 1 0
+unkC2891A59=1 2.5 2.5 0
+unkF5AD5EA4=0.2
+unkFD7567B6=0
+unkFF380AEB=0

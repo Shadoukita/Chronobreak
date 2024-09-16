@@ -1,0 +1,33 @@
+[System]
+GroupPart1=glyphglow
+SimulateEveryFrame=1
+
+[glyphglow]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 180
+p-bindtoemitter=1 1
+p-life=8
+p-linger=0
+p-local-orient=1
+p-mesh=Azir_base_R_glyphglow.sco
+p-meshtex=Azir_base_R_glyph_glow1.tga
+p-meshtex-mult=Azir_base_R_glyph_glow2.tga
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-scale=1 1 1
+p-texdiv=0.5 1
+p-texdiv-mult=1 1
+p-type=3
+p-uvscroll-rgb=0.30000000000000004 0
+p-uvscroll-rgb-mult=-0.30000001192092896 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.02 1 1 1 0
+p-xrgba3=0.05 1 1 1 1
+p-xrgba4=0.95 1 1 1 1
+p-xrgba5=1 1 1 1 0
+pass=1
+rendermode=4
+single-particle=1
+

@@ -1,0 +1,96 @@
+[BubbleSpawner]
+ChildParticleName=Thresh_skn1_BA_trail.troy
+KeywordsRequired=ThreshUndersea
+e-life=1
+e-rate=1
+p-drag=6 6 6
+p-drag1=0 1 1 1
+p-drag2=0.1 1 1 1
+p-drag3=0.1001 500 500 500
+p-life=3
+p-offset=40 120 -280
+p-scale=0 0 0
+p-texture=color-hold.tga
+p-type=0
+p-vel=-60 3000 7000
+p-worldaccel=0 -18000 0
+p-worldaccel1=0 1 1 1
+p-worldaccel2=0.05 1 1 1
+p-worldaccel3=0.05001 0 0 0
+
+[Skin02Streak]
+KeywordsRequired=ThreshSkin02
+e-life=0.12
+e-linger=0
+e-local-orient=1
+e-rate=40
+e-uvoffset=1 1
+e-uvoffset1=0 -0.05 1
+e-uvoffset2=1 -0.35 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 -0.25
+p-bindtoemitter=1
+p-life=0.15000000596046448
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-local-orient=1
+p-mesh=Thresh_ba_torus.sco
+p-meshtex=Thresh_Skin02_BA_Trail_01.tga
+p-offset=30 0 140
+p-quadrot=0 3 0
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-1.5 0
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 0 0.2 1 0
+rendermode=0
+single-particle=0
+
+[System]
+GroupPart1=WeaponStreak
+GroupPart2=UnderseaStreak
+GroupPart3=BubbleSpawner
+GroupPart4=Skin02Streak
+SimulateEveryFrame=1
+
+[UnderseaStreak]
+KeywordsRequired=ThreshUndersea
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-local-orient=0
+p-mesh=Thresh_ba_torus.sco
+p-meshtex=Thresh_ba_trail_02.tga
+p-offset=10 0 140
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-3 0
+rendermode=0
+single-particle=1
+
+[WeaponStreak]
+KeywordsExcluded=ThreshUndersea ThreshSkin02
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-local-orient=1
+p-mesh=Thresh_ba_torus.sco
+p-meshtex=Thresh_ba_trail.tga
+p-offset=10 0 140
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-3 0
+rendermode=0
+single-particle=1
+

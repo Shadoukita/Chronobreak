@@ -1,0 +1,102 @@
+[DroolQuads]
+e-alpharef=20
+e-life=1.8
+e-linger=-1
+e-rate=10
+e-timeoffset=0.6000000000000001
+p-life=1
+p-lifeP1=0 0.25
+p-lifeP2=1 0.5
+p-quadrot=1 0 0
+p-rotvel=20 20 20
+p-scale=100 100 0
+p-texture=Gnar_Base_P_Transform_Drool.dds
+p-vel=0 0 -600
+p-worldaccel=0 -600 0
+p-xrgba=1 1 1 0.902006983757019
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=1 1 1 1
+rendermode=1
+
+[DroolQuads2]
+e-alpharef=55
+e-life=1.8
+e-linger=-1
+e-rate=2
+e-rate1=0 10
+e-rate2=0.5 0.5
+e-rgba=255 255 255 206
+e-timeoffset=0.6000000000000001
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-quadrot=1 0 0
+p-randomstartframe=1
+p-rotvel=20 20 20
+p-scale=100 30 100
+p-texdiv=2 2
+p-texture=Gnar_Base_P_Transform_Drool2.dds
+p-vel=0 0 -600
+p-worldaccel=0 -800 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.25 0.25 0.25
+p-xscale2=1 2 2 2
+rendermode=4
+
+[DroolTrail]
+e-disabled=1
+e-life=4
+e-linger=-1
+e-local-orient=0
+e-rate=30
+e-tilesize=50 -1 0
+e-trail-cutoff=50
+p-accel=0 -1000 0
+p-accel1=0 1 1 1
+p-accel2=1 0 0 0
+p-life=0.5
+p-offset=0 0 -50
+p-scale=5 75 75
+p-texture=SRU_Dragon_DroolDrips.dds
+p-type=4
+p-vel=50 0 -10
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+
+[DroolTrail2]
+e-alpharef=64
+e-disabled=1
+e-life=4
+e-linger=-1
+e-local-orient=0
+e-rate=30
+e-tilesize=75 -1 0
+e-trail-cutoff=75
+p-accel=0 -1000 0
+p-accel1=0 1 1 1
+p-accel2=1 0 0 0
+p-life=0.5
+p-offset=30 90 -50
+p-scale=20 75 75
+p-texture=SRU_Dragon_DroolDrips.dds
+p-type=4
+p-vel=200 0 25
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+
+[System]
+GroupPart1=DroolTrail
+GroupPart2=DroolTrail2
+GroupPart3=DroolQuads
+GroupPart4=DroolQuads2
+SimulateEveryFrame=1
+

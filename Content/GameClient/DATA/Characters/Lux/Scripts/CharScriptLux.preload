@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="luxdeath"}}, 
+{Function=BBPreloadSpell, Params={Name="luxilluminationpassive"}}, 
+}

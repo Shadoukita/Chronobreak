@@ -1,0 +1,29 @@
+[System]
+GroupPart1=shields
+GroupPart1Importance=High
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[shields]
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.25
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=4
+p-linger=0
+p-local-orient=0
+p-mesh=xen_shield_06.sco
+p-meshtex=xen_props_02.tga
+p-offset=0 120 0
+p-quadrot=0 0 0
+p-rotvel=0 -175 0
+p-scale=1300 1300 1300
+p-type=3
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk6CD29120=0

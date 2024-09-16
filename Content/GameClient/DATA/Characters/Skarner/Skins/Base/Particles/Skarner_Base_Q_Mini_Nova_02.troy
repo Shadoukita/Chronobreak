@@ -1,0 +1,9 @@
+[System]
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Skarner_SkarnerVirulentSlash_castuncharged
+
+[UNKNOWN_HASHES]
+unk4B790A19=0 0.75
+unk4B790A1A=1 1.5
+unk7A609A58=3.5
+unk8BC99F36=1000

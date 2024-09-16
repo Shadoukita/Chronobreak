@@ -1,0 +1,49 @@
+[BLUE]
+ChildParticleName=SRU_Blue_Buff_child.troy
+ChildSpawnAtBone=BLUE
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=SRU_Buff_BLUE.anm
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-local-orient=0
+p-meshtex=SRU_Wolves_death_mesh_tex.dds
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=SRU_Buff_BLUE.skl
+p-skin=SRU_Buff_BLUE.skn
+p-type=3
+pass=3
+rendermode=3
+single-particle=1
+
+[RED]
+ChildParticleName=SRU_Red_Buff_child.troy
+ChildSpawnAtBone=RED
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=SRU_Buff_BLUE.anm
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-local-orient=0
+p-meshtex=SRU_Wolves_death_mesh_tex.dds
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=SRU_Buff_BLUE.skl
+p-skin=SRU_Buff_BLUE.skn
+p-type=3
+pass=3
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=RED
+GroupPart2=BLUE
+SimulateEveryFrame=1
+

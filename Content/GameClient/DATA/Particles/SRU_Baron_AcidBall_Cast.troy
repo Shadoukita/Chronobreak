@@ -1,0 +1,17 @@
+[System]
+GroupPart1=empty
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[empty]
+e-disabled=1
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk24E20A1F=1

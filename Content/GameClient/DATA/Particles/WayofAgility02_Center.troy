@@ -1,0 +1,107 @@
+[System]
+GroupPart1=star
+GroupPart1Type=Simple
+GroupPart2=circle
+GroupPart2Type=Simple
+GroupPart3=circle1
+GroupPart3Type=Simple
+GroupPart4=type
+GroupPart4Type=Simple
+group-vis=0
+
+[circle]
+e-life=-1
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=5
+p-offset=0 50 0
+p-postoffset=0 60 0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 90
+p-rgba=color-wayofagility32-blue.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=150
+p-startframe=1
+p-texdiv=2 2
+p-texture=WayofAgility01.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=1 1
+
+[circle1]
+e-life=-1
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=5
+p-offset=0 50 0
+p-postoffset=0 60 0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 90
+p-rgba=color-wayofagility32-blue.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=100
+p-texdiv=2 2
+p-texture=WayofAgility01.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=1 1
+
+[star]
+e-life=-1
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=5
+p-offset=0 50 0
+p-postoffset=0 60 0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 90
+p-rgba=color-wayofagility32-blue.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=100
+p-startframe=2
+p-texdiv=2 2
+p-texture=WayofAgility01.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=1 1
+rendermode=2
+
+[type]
+e-life=-1
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=5
+p-offset=0 50 0
+p-postoffset=0 60 0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 90
+p-rgba=color-wayofagility32-blue.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=100
+p-startframe=3
+p-texdiv=2 2
+p-texture=WayofAgility01.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=1 1
+

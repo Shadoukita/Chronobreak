@@ -1,0 +1,54 @@
+[Skin02SoulTrail]
+KeywordsRequired=ThreshSkin02
+e-life=20
+e-linger=0
+e-rate=30
+e-rgba=20 180 255 100
+e-tilesize=800 -1 0
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-life=1
+p-linger=1
+p-offset=0 0 0
+p-rotvel=0 0 0
+p-scale=3 0 0
+p-texture=color-hold.tga
+p-trailmode=0
+p-type=4
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0 0 1 0
+rendermode=0
+teamcolor-correction=1
+
+[SoulTrail]
+KeywordsExcluded=ThreshSkin02
+e-life=20
+e-linger=0
+e-rate=30
+e-rgba=20 255 200 100
+e-tilesize=800 -1 0
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-life=1
+p-linger=1
+p-offset=0 0 0
+p-rotvel=0 0 0
+p-scale=3 0 0
+p-texture=color-hold.tga
+p-trailmode=0
+p-type=4
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0 0 1 0
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=SoulTrail
+GroupPart2=Skin02SoulTrail
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Thresh_ThreshPassiveSoulsDead_missilelaunch
+

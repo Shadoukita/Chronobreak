@@ -1,0 +1,25 @@
+local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+IsDamagingSpell = L0_1
+L0_1 = 1
+SpellDamageRatio = L0_1
+L0_1 = {}
+L1_1 = 8
+L2_1 = 7
+L3_1 = 6
+L4_1 = 5
+L5_1 = 4
+L0_1[1] = L1_1
+L0_1[2] = L2_1
+L0_1[3] = L3_1
+L0_1[4] = L4_1
+L0_1[5] = L5_1
+AutoCooldownByLevel = L0_1
+L0_1 = {}
+L1_1 = "BadSantaVeigar"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

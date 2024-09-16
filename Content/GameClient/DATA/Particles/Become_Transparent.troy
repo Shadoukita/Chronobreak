@@ -1,0 +1,17 @@
+[System]
+GroupPart1=gone
+GroupPart1Type=Simple
+MaterialOverride1Texture=empty32.tga
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[gone]
+e-life=1
+e-linger=0
+p-life=30
+p-linger=0
+p-scale=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk8F2C2C7A=rate=1

@@ -1,0 +1,58 @@
+[Streak]
+KeywordsExcluded=SteellegionGaren
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=1
+p-local-orient=1
+p-offset=0 0 0
+p-rgba=Jayce_Color_Fade_Range2.tga
+p-scale=40 40 40
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-scaleZP1=0 0.5
+p-scaleZP2=1 1
+p-texture=Garen_Base_Q_Slash_Blue_Flare.dds
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.3 5 1 5
+p-xscale3=0.7 1 0.1 1
+p-xscale4=1 0 0
+pass=-100
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Streak
+GroupPart1Importance=High
+GroupPart2=hoop
+GroupPart2Importance=Low
+SimulateEveryFrame=1
+
+[hoop]
+KeywordsExcluded=SteellegionGaren
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=4
+p-bindtoemitter=1 1
+p-life=1
+p-local-orient=1
+p-offset=6 -9 6
+p-quadrot=90 30 -60
+p-rgba=Jayce_Color_Fade_Range2.tga
+p-scale=95 95 95
+p-texture=Garen_Base_W_Glow_Glint.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 0.3
+p-xrgba4=1 0 0 0 0
+pass=0
+rendermode=0
+

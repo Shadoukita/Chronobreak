@@ -1,0 +1,159 @@
+[Cyber_Eyes_Ring]
+KeywordsRequired=CyberNocturne
+e-rate=4
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-rampdown32.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=38
+p-texture=Nocturne_Cyber_Eye_Ring.dds
+p-vel=0 20 0
+p-xquadrot=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1
+pass=1
+
+[FlameAttract]
+f-accel=100 0 0
+f-pos=20 30 20
+f-radius=200
+
+[FlameOrbit]
+f-direction=0 1 0
+
+[System]
+GroupPart1=passiveready1
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=passiveready2
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=passiveready1_cyber
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=passiveready2_cyber
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=Cyber_Eyes_Ring
+GroupPart5Type=Simple
+GroupPart6=slice
+GroupPart6Type=Simple
+SimulateEveryFrame=1
+
+[passiveready1]
+KeywordsExcluded=CyberNocturne
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=color-hold.tga
+p-rotvel=90
+p-scale=40
+p-texture=bloodpinwheel.dds
+p-xquadrot=0
+p-xscale=1
+
+[passiveready1_cyber]
+KeywordsRequired=CyberNocturne
+e-rate=5
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=alpha_12.tga
+p-rotvel=90
+p-scale=40
+p-texture=Nocturne_Cyber_Passive.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0 0 0
+rendermode=4
+
+[passiveready2]
+KeywordsExcluded=CyberNocturne
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=color-hold.tga
+p-rotvel=-90
+p-scale=40
+p-scalebias=-1 1
+p-texture=bloodpinwheel.dds
+p-xquadrot=0
+p-xscale=1
+
+[passiveready2_cyber]
+KeywordsRequired=CyberNocturne
+e-rate=3
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=alpha_12.tga
+p-rotvel=-90
+p-scale=30
+p-texture=Nocturne_Cyber_Tail_Glow.dds
+p-xquadrot=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 0.5
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0 0 0
+rendermode=4
+
+[slice]
+KeywordsRequired=CyberNocturne
+e-rate=5
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-attract-1=FlameAttract
+field-orbit-1=FlameOrbit
+p-alphaslicerange=0.07000000029802322
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.949999988079071
+p-life=4
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-offset=10 0 0
+p-offsetXP1=0 0.8
+p-offsetXP2=1 1
+p-rgba=color-beacontrail32.tga
+p-scale=40
+p-texture=Nocturne_Cyber_alphaslice_noise.dds
+p-vel=-10 0 10
+p-velXP1=0 1
+p-velXP2=1 3
+p-velYP1=0 1
+p-velYP2=1 3
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 0 0 0
+pass=100
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk02D351A6=1
+unk08A3BCEC=1
+unk229D2006=1
+unkA20AEF6B=1
+unkB39BD5A5=1

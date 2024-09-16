@@ -1,0 +1,194 @@
+[System]
+GroupPart1=crown1
+GroupPart2=crown2
+GroupPart3=crown3
+GroupPart4=crown1_lubu
+GroupPart5=crown2_lubu
+GroupPart6=crown3_lubu
+SimulateEveryFrame=1
+
+[crown1]
+KeywordsExcluded=LubuJarvanIV
+e-life=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.5 1
+p-bindtoemitter3=0.5009999871253967 0
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.dds
+p-offset=-100 0 0
+p-quadrot=1 0 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-lensbell.tga
+p-scale=5 5 5
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[crown1_lubu]
+KeywordsRequired=LubuJarvanIV
+e-life=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.5 1
+p-bindtoemitter3=0.5009999871253967 0
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.dds
+p-offset=-100 0 0
+p-quadrot=1 0 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-sunfiresparks.tga
+p-scale=5 5 5
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[crown2]
+KeywordsExcluded=LubuJarvanIV
+e-life=1.2000000000000002
+e-rate=1
+e-timeoffset=0.1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.5 1
+p-bindtoemitter3=0.5009999871253967 0
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.dds
+p-offset=-150 0 0
+p-quadrot=1 0 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-lensbell.tga
+p-scale=5 5 5
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[crown2_lubu]
+KeywordsRequired=LubuJarvanIV
+e-life=1.2000000000000002
+e-rate=1
+e-timeoffset=0.1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.5 1
+p-bindtoemitter3=0.5009999871253967 0
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.dds
+p-offset=-150 0 0
+p-quadrot=1 0 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-sunfiresparks.tga
+p-scale=5 5 5
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[crown3]
+KeywordsExcluded=LubuJarvanIV
+e-life=1.2000000000000002
+e-rate=1
+e-timeoffset=0.2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.5 1
+p-bindtoemitter3=0.5009999871253967 0
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.dds
+p-offset=-200 0 0
+p-quadrot=1 0 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-lensbell.tga
+p-scale=5 5 5
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[crown3_lubu]
+KeywordsRequired=LubuJarvanIV
+e-life=1.2000000000000002
+e-rate=1
+e-timeoffset=0.2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.5 1
+p-bindtoemitter3=0.5009999871253967 0
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.dds
+p-offset=-200 0 0
+p-quadrot=1 0 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-sunfiresparks.tga
+p-scale=5 5 5
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5216501B=linger=1.2
+unkAF049E5C=linger=0
+unkB54CFA95=linger=0
+unkB5CB0A16=linger=1.2
+unkB6491997=linger=1.2
+unkF52801DA=linger=1.2

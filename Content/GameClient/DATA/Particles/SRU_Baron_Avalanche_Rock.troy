@@ -1,0 +1,48 @@
+[System]
+GroupPart1=shadow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=cannonball
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[cannonball]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.5
+p-life=1
+p-linger=0
+p-mesh=rock.sco
+p-meshtex=rock05.tga
+p-postoffset=0 1000 0
+p-rgba=color-rock.tga
+p-scale=3.25
+p-texture=rock05.tga
+p-type=3
+p-vel=0 -1000 0
+rendermode=1
+single-particle=1
+
+[shadow]
+e-life=2
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=2
+p-offset=0 3 0
+p-rgba=alpha_01.tga
+p-rotvel=300
+p-scale=100
+p-simpleorient=2
+p-texture=cannonball_shadow.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.35 0
+p-xscale3=1 1
+rendermode=2
+single-particle=1
+

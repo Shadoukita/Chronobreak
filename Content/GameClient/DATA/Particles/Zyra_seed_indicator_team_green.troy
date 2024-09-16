@@ -1,0 +1,38 @@
+[System]
+GroupPart1=team_glow
+GroupPart1Importance=High
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[team_glow]
+e-life=1000
+e-linger=0
+e-rate=12
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.55
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-numframes=2
+p-offset=0 30 0
+p-postoffset=0 100 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=alpha_12.tga
+p-scale=10 28 10
+p-scaleYP1=0 8
+p-scaleYP2=1 13
+p-startframe=0
+p-texdiv=2 1
+p-texture=lifetap_ghost.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 0.3499999940395355 0 1
+p-xscale2=1 1 2.2 1
+teamcolor-correction=1
+
+[UNKNOWN_HASHES]
+unk6B459974=1

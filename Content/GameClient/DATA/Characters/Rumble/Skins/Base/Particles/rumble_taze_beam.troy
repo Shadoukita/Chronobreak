@@ -1,0 +1,45 @@
+[System]
+GroupPart1=beam_zap
+GroupPart1Importance=High
+GroupPart2=beam_zap_02
+GroupPart2Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[beam_zap]
+e-life=10000
+e-linger=0
+e-local-orient=1
+p-bindtoemitter=1
+p-frameRate=15
+p-life=0.2
+p-linger=-1
+p-meshtex=mord_energy_ball_01.tga
+p-numframes=8
+p-offset=0 0 0
+p-scale=100 1 1
+p-texdiv=4 2
+p-texture=lightning_taze.tga
+p-type=6
+rendermode=0
+
+[beam_zap_02]
+e-life=10000
+e-linger=0
+e-local-orient=1
+p-bindtoemitter=1
+p-frameRate=15
+p-life=0.2
+p-linger=-1
+p-meshtex=mord_energy_ball_01.tga
+p-numframes=8
+p-offset=0 0 0
+p-scale=100 1 1
+p-texdiv=4 2
+p-texture=lightning_taze.tga
+p-type=6
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0BD4EC4F=1
+unk32EDD63E=1

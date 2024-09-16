@@ -1,0 +1,17 @@
+[System]
+GroupPart1=bloodking_text
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[bloodking_text]
+MaterialOverride1Texture=Vi_txt_hot.dds
+MaterialOverrideTransMap=Vi_Joke_Hot_Fade.dds
+e-life=1.5499999523162842
+p-life=3
+p-linger=1
+p-rgba=alpha_12.tga
+p-trans-sample=16
+pass=100
+rendermode=0
+

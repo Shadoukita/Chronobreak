@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = false
+IsDamagingSpell = L0_1
+L0_1 = "Lucian_Passive.dds"
+BuffTextureName = L0_1
+L0_1 = "LucianPassiveBuff"
+BuffName = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1

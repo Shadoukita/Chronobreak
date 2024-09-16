@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "FizzSeastoneActive.dds"
+BuffTextureName = L0_1
+L0_1 = "FizzMalison"
+BuffName = L0_1
+L0_1 = "Fizz_SeastoneTrident.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "root"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1

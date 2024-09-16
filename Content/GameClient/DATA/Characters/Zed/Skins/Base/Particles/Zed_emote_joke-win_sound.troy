@@ -1,0 +1,15 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundPersistent=Play_sfx_Zed_Joke3D_buffactivate_win
+VoiceOverPersistent=Play_vo_Zed_joke3dwin
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

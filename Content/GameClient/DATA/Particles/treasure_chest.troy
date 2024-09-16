@@ -1,0 +1,22 @@
+[System]
+GroupPart1=chest
+SimulateEveryFrame=1
+
+[chest]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-life=-1
+p-mesh=chest.sco
+p-meshtex=shop_base_TX_prop_v01.tga
+p-offset=0 50 0
+p-quadrot=0 -45 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+

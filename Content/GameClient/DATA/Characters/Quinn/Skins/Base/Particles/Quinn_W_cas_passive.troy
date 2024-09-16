@@ -1,0 +1,63 @@
+[BlackHole]
+e-life=0.3
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-offset=-40 0 0
+p-rgba=Quinn_W_Enhanced_ramp.tga
+p-scale=40
+p-texture=Quinn_W_Enchanted_blackHole.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+pass=-1
+rendermode=1
+single-particle=1
+
+[PulseWave]
+e-life=0.30000000000000004
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-linger=0
+p-offset=-40 0 0
+p-rgba=Quinn_W_Enhanced_ramp.tga
+p-scale=45
+p-texture=Quinn_W_Enhanced_pulseWave.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+
+[StarFlash]
+e-life=0.3
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.35
+p-linger=0
+p-offset=-40 0 0
+p-scale=100 40 0
+p-texture=Quinn_W_Enhanced_starFlash.tga
+p-type=0
+p-xscale1=0 1 0 0
+p-xscale2=0.2 1 1 0
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=StarFlash
+GroupPart2=PulseWave
+GroupPart2Type=Simple
+GroupPart3=BlackHole
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

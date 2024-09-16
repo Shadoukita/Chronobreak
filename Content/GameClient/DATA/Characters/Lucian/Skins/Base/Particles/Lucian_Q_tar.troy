@@ -1,0 +1,86 @@
+[Glow]
+KeywordsExcluded=LucianSkin01
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 0
+p-flexscale=0.004999999888241291
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-offset=0 175 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-scale=400
+p-scaleP1=0 0.7
+p-scaleP2=1 1
+p-texture=AhriFireLight.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=100
+single-particle=1
+
+[Hit_Flash]
+KeywordsExcluded=LucianSkin01
+SoundOnCreate=Play_sfx_Lucian_LucianQTar_hit
+e-life=1
+e-local-orient=0
+e-rate=2
+p-flexscale=0.004999999888241291
+p-life=0.25
+p-linger=0.25
+p-numframes=4
+p-offset=0 175 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-scale=100
+p-texdiv=2 2
+p-texture=Lucian_Base_Q_Flash_Revision.dds
+p-xquadrot=0
+p-xscale=1
+pass=90
+single-particle=1
+
+[Skin01_Hit_Flash]
+KeywordsRequired=LucianSkin01
+SoundOnCreate=Play_sfx_LucianSkin01_LucianQTar_hit
+e-life=1
+e-rate=1
+p-flexscale=0.004999999888241291
+p-life=0.2
+p-linger=0.2
+p-offset=0 150 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-scale=110
+p-scaleP1=0 0.75
+p-scaleP2=1 1.25
+p-texture=Lucian_SKIN1_W_Atoms_Sub.dds
+p-xquadrot=0
+p-xscale=1
+pass=100
+single-particle=1
+
+[System]
+GroupPart1=Hit_Flash
+GroupPart1Type=Simple
+GroupPart2=Glow
+GroupPart2Type=Simple
+GroupPart3=Skin01_Hit_Flash
+GroupPart3Type=Simple
+GroupPart4=test
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

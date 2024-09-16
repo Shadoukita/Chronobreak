@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="runeprison_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="desperatepower_aoe.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="manaleach_tar.troy"}}, 
+}

@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="steamgolemshield_hit.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="manabarrier"}}, 
+{Function=BBPreloadSpell, Params={Name="manabarriercooldown"}}, 
+}

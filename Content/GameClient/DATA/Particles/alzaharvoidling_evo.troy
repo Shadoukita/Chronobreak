@@ -1,0 +1,36 @@
+[System]
+GroupPart1=rays
+SimulateEveryFrame=1
+
+[rays]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=100
+p-bindtoemitter=1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-lifeP1=0 2
+p-lifeP2=1 0.30000000000000004
+p-linger=0
+p-postoffset=0 30 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-wildcard.tga
+p-scale=20 50 0
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.2
+p-scaleYP2=1 1
+p-texdiv=1 1
+p-texture=chaosexploshaft.tga
+p-type=2
+p-xscale1=0 4 0 0
+p-xscale2=0.5 4 4 0
+p-xscale3=1 0 8 0
+rendermode=0
+single-particle=1
+

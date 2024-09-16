@@ -1,0 +1,331 @@
+[Flame_trail1]
+e-life=1
+e-linger=-1
+e-rate=60
+e-tilesize=500 0 0
+p-life=0.30000000000000004
+p-offset=1 1 1
+p-rgba=Skarner_Skin03_E_mis_fire_trail_02_rgba.dds
+p-scale=30 0 0
+p-texture=Skarner_Skin03_E_mis_fire_trail_03.dds
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb=-0.6 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+pass=-5
+rendermode=1
+
+[Rocket_Glow_1]
+e-disabled=1
+e-rate=30
+e-rateP1=0 1
+e-rateP2=1 3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=12
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-randomstartframe=1
+p-scale=22 5 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-texdiv=2 2
+p-texture=Rumble_Skin03_E_missile_trail_02.dds
+p-vec-velocity-minscale=1.3
+p-vec-velocity-scale=0.019999999552965164
+p-vecalign=1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.25 1.25 1.25
+
+[Rocket_Glow_1_DangerZone]
+e-disabled=1
+e-rate=30
+e-rateP1=0 1
+e-rateP2=1 3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=30
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-postoffset=0 -40 0
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=22 5 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-texdiv=2 2
+p-texture=Rumble_Skin03_E_missile_trail.tga
+p-vec-velocity-minscale=1.3
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.25 1.25 1.25
+
+[Rocket_Glow_1_DangerZone__]
+e-disabled=1
+
+[Rocket_Glow_1_bu]
+e-disabled=1
+e-rate=30
+e-rateP1=0 1
+e-rateP2=1 3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=12
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-postoffset=0 -40 0
+p-randomstartframe=1
+p-scale=18 5 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-texdiv=2 2
+p-texture=Rumble_Skin03_flame_seq_10.dds
+p-vec-velocity-minscale=1.3
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.25 1.25 1.25
+
+[Rocket_Glow_1_template]
+e-disabled=1
+e-rate=30
+e-rateP1=0 1
+e-rateP2=1 3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=30
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-postoffset=0 -40 0
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=25 5 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-texdiv=2 2
+p-texture=Rumble_Skin03_E_missile_trail.tga
+p-vec-velocity-minscale=1.3
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.25 1.25 1.25
+
+[System]
+GroupPart1=Flame_trail1
+GroupPart10=trail_Bg
+GroupPart11=smoke
+GroupPart12=Rocket_Glow_1_DangerZone
+GroupPart13=trail_Skin03
+GroupPart14=trail_add_Skin03
+GroupPart15=child_rocks_01
+GroupPart2=trail
+GroupPart3=trail_add
+GroupPart4=Rocket_Glow_1
+GroupPart5=flame_glow
+GroupPart5Type=Simple
+GroupPart6=trail_add_Skin03__
+GroupPart7=Rocket_Glow_1_DangerZone__
+GroupPart8=Rocket_Glow_1_bu
+GroupPart9=Rocket_Glow_1_template
+SimulateEveryFrame=1
+
+[child_rocks_01]
+e-disabled=1
+e-life=1
+e-rate=80
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 -15
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 270
+e-timeoffset=0.2
+p-bindtoemitter=1 1
+p-life=0.1
+p-local-orient=1
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 50
+p-scale=15 0 0
+p-scaleXP1=0 0.75
+p-scaleXP2=0.9 1
+p-scaleXP3=1 2
+p-texdiv=2 2
+p-texture=DirtBits_fire_glow.dds
+p-type=1
+p-vel=0 0 100
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.55 0.35 0.1 1
+p-xrgba2=0.1 0.45 0.45 0.1 1
+p-xrgba3=0.3 0.35 0.35 0.1 1
+p-xrgba4=1 0.35 0.35 0.1 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.9 1 1 1
+p-xscale3=1 0 0 0
+pass=1
+rendermode=1
+
+[flame_glow]
+e-disabled=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=1
+p-linger=0
+p-offset=0 -10 0
+p-rgba=color-flicker.tga
+p-scale=65
+p-texture=Rumble_Skin03_Q_cas_glow_01.tga
+single-particle=1
+uniformscale=1
+
+[smoke]
+KeywordsRequired=RumbleSkin03
+e-disabled=1
+e-life=0.5
+e-linger=0.75
+e-rate=30
+p-bindtoemitter=1 0
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-life=0.6000000000000001
+p-lifeP1=0 0.65
+p-lifeP2=1 1
+p-offset=20 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 120
+p-quadrotYP2=1 70
+p-rgba=Rumble_Skin03_smoke32_03.tga
+p-scale=170 1 1
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-texture=lofog01.dds
+p-type=2
+p-xscale=1 1 1
+p-xscale1=0 0 20 0
+p-xscale2=0.5 0.75 200 125
+p-xscale3=1 1.5 400 250
+rendermode=1
+
+[trail]
+e-disabled=1
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+p-life=0.2
+p-rgba=alpha_20.tga
+p-scale=3 0 0
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-texdiv=0.6000000000000001 0.30000000000000004
+p-texture=Skarner_Skin03_E_color_04.tga
+p-trailmode=2
+p-type=5
+p-uvmode=1
+p-xscale=1 1 1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=3
+rendermode=1
+
+[trail_Bg]
+e-disabled=1
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+p-life=0.30000000000000004
+p-rgba=color_mono_trail.tga
+p-scale=12 0 0
+p-texdiv=0.6000000000000001 0.30000000000000004
+p-texture=Rumble_Skin03_E_color_01.tga
+p-trailmode=1
+p-type=5
+p-uvmode=1
+p-xscale=1 1 1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=2
+rendermode=1
+
+[trail_Skin03]
+e-disabled=1
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+p-life=0.2
+p-rgba=alpha_20.tga
+p-scale=3 0 0
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-texdiv=0.6000000000000001 0.30000000000000004
+p-texture=Rumble_Skin03_E_color_05.tga
+p-trailmode=2
+p-type=5
+p-uvmode=1
+p-xscale=1 1 1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=3
+rendermode=1
+
+[trail_add]
+e-life=4
+e-rate=80
+e-tilesize=10 0 0
+p-life=0.3499999940395355
+p-offset=0 0 20
+p-rgba=alpha_12.tga
+p-scale=3 0 0
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-texdiv=0.6000000000000001 0.30000000000000004
+p-texture=Skarner_Skin03_E_color_04.dds
+p-trailmode=2
+p-type=5
+p-uvmode=1
+p-xscale=1 1 1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=5
+
+[trail_add_Skin03]
+e-disabled=1
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+p-life=0.2750000059604645
+p-rgba=alpha_12.tga
+p-scale=3 0 0
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-texdiv=0.6000000000000001 0.30000000000000004
+p-texture=Rumble_Skin03_E_color_05.dds
+p-trailmode=2
+p-type=5
+p-uvmode=1
+p-xscale=1 1 1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=5
+
+[trail_add_Skin03__]
+e-disabled=1
+

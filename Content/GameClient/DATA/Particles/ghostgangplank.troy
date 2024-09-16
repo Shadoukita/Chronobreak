@@ -1,0 +1,32 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+KeywordsRequired=GhostGangplank
+e-life=10000
+e-linger=-1
+e-local-orient=0
+e-rate=0.5
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=2
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-rgba=color-ghostglow.tga
+p-scale=100
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkDA5F84E3=1

@@ -1,0 +1,63 @@
+[System]
+GroupPart2=border
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[border]
+e-life=0.1
+e-linger=0
+e-rate=30
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colortype=0 0
+p-life=0.75
+p-linger=0
+p-postoffset=0 5 0
+p-quadrot=90 0 0
+p-rgba=color-team-shaded.tga
+p-scale=120 120 0
+p-texture=team_ring_red_01.tga
+p-type=1
+p-xrgba1=0 0.5 0.5 0.5 1
+p-xrgba2=1 1 1 1 1
+rendermode=0
+teamcolor-correction=1
+
+[UNKNOWN_HASHES]
+unk00D74AD3=0 0.5 0 0
+unk00D74AD4=0.15 0.5 1 0
+unk00D74AD5=0.5 1 0.5 1
+unk00D74AD6=1 0 0.2 0
+unk079A1DE8=4
+unk2794EFDC=1
+unk336261FE=11 50 10
+unk339A55B1=1 3
+unk36E930F4=1
+unk426CD37F=0 5 0
+unk43D0D2C0=1 0 0 1
+unk4DB85128=0.7
+unk58BD9BC4=90 0 0
+unk59D02373=0.6
+unk5C27583A=1
+unk63E115A0=color-energyburst.tga
+unk665C363F=200 0 0
+unk6D168F57=300
+unk70FEEC3C=0 0.3
+unk70FEEC3D=1 2
+unk74046D3F=0 0 0
+unk7C9F178F=sparks.tga
+unk8580471D=1
+unk9C3E0DFA=1
+unkACC5F2A0=4
+unkAF7D497E=1
+unkB624294A=1 1
+unkBAD2DD9D=0 0
+unkBAD2DD9E=1 360
+unkBBC0E891=-400 0 0
+unkC51CC625=0
+unkC9D9D1A6=1
+unkCF698356=2 2
+unkDDEB5580=7 7 7
+unkE8C258E9=0 0.1
+unkE8C258EA=1 1
+unkEC678A62=0 0 0

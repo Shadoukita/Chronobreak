@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "AlZahar_SummonVoidling.dds"
+BuffTextureName = L0_1
+L0_1 = "AlZaharVoidlingPhase3"
+BuffName = L0_1
+L0_1 = "AlzaharVoidling_speed.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "BUFFBONE_GLB_HAND_R"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "AlzaharVoidling_speed.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "BUFFBONE_GLB_HAND_L"
+AutoBuffActivateAttachBoneName2 = L0_1

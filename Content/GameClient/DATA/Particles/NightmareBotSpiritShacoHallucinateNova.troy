@@ -1,0 +1,51 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=daggers
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Shaco_HallucinateFull_nova
+
+[daggers]
+KeywordsExcluded=KoreanShaco
+e-life=0.30000000000000004
+e-local-orient=0
+e-rate=300
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-life=0.44999998807907104
+p-mesh=JesterDagger.sco
+p-meshtex=JesterDagger.dds
+p-postoffset=0 100 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 -10
+p-quadrotYP2=1 10
+p-rgba=color-daggerfade32.tga
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-type=3
+p-vecalign=1
+p-vel=400 0 0
+p-velXP1=0 0.9
+p-velXP2=1 1.1
+rendermode=1
+
+[flash]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-postoffset=0 100 0
+p-quadrot=20
+p-rgba=color-rampdown.tga
+p-scale=400
+p-simpleorient=2
+p-texture=jesterflash.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.2 1
+p-xscale3=1 0
+single-particle=1
+

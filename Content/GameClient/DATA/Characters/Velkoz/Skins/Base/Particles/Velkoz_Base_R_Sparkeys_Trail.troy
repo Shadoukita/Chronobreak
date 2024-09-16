@@ -1,0 +1,30 @@
+[System]
+GroupPart1=Trail
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Trail]
+e-life=1
+e-linger=-1
+e-local-orient=1
+e-rate=120
+e-tilesize=1000 0 0
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.7000000000000001
+p-linger=-1
+p-rgba=Velkoz_Base_R_Sparkey_Trail_rgba.tga
+p-scale=5 0 0
+p-scale1=0 0 0 0
+p-scale2=0.1 1 0 0
+p-scale3=0.8 0 0 0
+p-scale4=1 0 0 0
+p-texture=Velkoz_Base_Z_White.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=1 0 0 0
+rendermode=0
+

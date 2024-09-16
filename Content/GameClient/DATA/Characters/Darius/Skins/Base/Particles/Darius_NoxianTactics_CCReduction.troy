@@ -1,0 +1,55 @@
+[System]
+GroupPart1=shield
+GroupPart2=shieldhex
+
+[shield]
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 255 150
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-flexscale=0.003000000026077032
+p-frameRate=0
+p-life=25000
+p-linger=0
+p-mesh=geosphere.sco
+p-meshtex=spellblockcell.tga
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rotvel=0 15 0
+p-scale=15 15 15
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=1 0
+rendermode=0
+single-particle=1
+
+[shieldhex]
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 255 255
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-flexscale=0.003000000026077032
+p-frameRate=0
+p-life=25000
+p-linger=0
+p-mesh=geosphere.sco
+p-meshtex=hex.tga
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rotvel=0 15 0
+p-scale=20 20 20
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-xrgba1=0 0.2 1 1 0
+p-xrgba2=0.03 0.2 1 1 1
+p-xrgba3=0.06 0 0 1 1
+p-xrgba4=1 0 0 1 1
+rendermode=0
+single-particle=1
+

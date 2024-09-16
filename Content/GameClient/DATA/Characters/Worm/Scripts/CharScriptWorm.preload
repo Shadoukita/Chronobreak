@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="resistantskin"}}, 
+{Function=BBPreloadSpell, Params={Name="wormrecouperateon"}}, 
+{Function=BBPreloadSpell, Params={Name="agitatedidle"}}, 
+{Function=BBPreloadSpell, Params={Name="actiontimer"}}, 
+{Function=BBPreloadSpell, Params={Name="wrathtimer"}}, 
+{Function=BBPreloadSpell, Params={Name="wrathcooldown"}}, 
+{Function=BBPreloadSpell, Params={Name="sweeptimer"}}, 
+{Function=BBPreloadSpell, Params={Name="propeltimer"}}, 
+{Function=BBPreloadSpell, Params={Name="actiontimer2"}}, 
+{Function=BBPreloadSpell, Params={Name="wormcooldown"}}, 
+{Function=BBPreloadSpell, Params={Name="monsterminiondamageamp"}}, 
+}

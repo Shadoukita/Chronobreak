@@ -1,0 +1,51 @@
+[Drag]
+f-drag=0.30000000000000004
+f-pos=0 500 0
+f-radius=1000
+
+[Noise1]
+f-period=0.25
+f-pos=0 1 0
+f-radius=2000
+f-veldelta=5
+
+[System]
+GroupPart1=Wisps
+SimulateEveryFrame=1
+
+[Wisps]
+e-rate=6
+e-rgba=255 255 255 76
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=Drag
+field-noise-1=Noise1
+p-life=5
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-numframes=4
+p-offset=1 1 0
+p-offsetXP1=0 50
+p-offsetXP2=1 500
+p-offsetYP1=0 0
+p-offsetYP2=1 50
+p-randomstartframe=1
+p-scale=25 20 20
+p-scaleXP1=0 0.4
+p-scaleXP2=0.8 0.6000000000000001
+p-scaleXP3=1 1
+p-texdiv=2 2
+p-texture=SRU_NJungle_Wisps.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=4
+uniformscale=1
+

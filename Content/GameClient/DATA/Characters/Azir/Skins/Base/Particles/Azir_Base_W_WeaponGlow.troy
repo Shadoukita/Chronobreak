@@ -1,0 +1,67 @@
+[CrossVecGlow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-offset=0 60 0
+p-quadrot=0 0 90
+p-scale=95 20 40
+p-texdiv=4 1
+p-texture=Azir_Base_Z_ArmorGlow.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.9 0.9 0.9
+p-xscale2=1 1 1 1
+rendermode=0
+
+[System]
+GroupPart1=VecGlow
+GroupPart1Importance=High
+GroupPart2=CrossVecGlow
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[VecGlow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-offset=0 60 0
+p-quadrot=0 90 90
+p-scale=95 45 40
+p-texdiv=4 1
+p-texture=Azir_Base_Z_ArmorGlow.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.9 0.9 0.9
+p-xscale2=1 1 1 1
+rendermode=0
+

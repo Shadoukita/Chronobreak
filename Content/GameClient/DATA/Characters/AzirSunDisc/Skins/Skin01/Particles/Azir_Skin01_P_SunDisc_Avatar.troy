@@ -1,0 +1,26 @@
+[Avatar]
+e-life=5
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-alphaslicerange=0.029999999329447746
+p-colorscale=1 1
+p-colortype=1 1
+p-life=2
+p-lifeP1=0 0.85
+p-lifeP2=1 1
+p-linger=0.2
+p-local-orient=1
+p-rgba=Azir_Skin01_P_Sundisc_Avatar-color.dds
+p-scale=1.0149999856948853
+p-simpleorient=3
+p-texture=Azir_Skin01_P_Sundisc_AvatarAlphaslice.dds
+p-type=11
+rendermode=0
+
+[System]
+GroupPart1=Avatar
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

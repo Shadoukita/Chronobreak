@@ -1,0 +1,70 @@
+[System]
+GroupPart1=poofs
+GroupPart1Importance=Medium
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Akali_AkaliSBStealth_buffactivate
+
+[orbit1]
+f-direction=0 1 0
+f-localspace=0
+
+[poofs]
+e-life=0.15000000596046448
+e-local-orient=0
+e-rate=100
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 7120
+e-timeoffset=-0.5
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.35
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-numframes=4
+p-offset=230 270 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.25
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 -60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 180
+p-randomstartframe=1
+p-scale=25
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=0.2 1
+p-scaleP3=1 0.1
+p-shadow=0
+p-startframe=0
+p-texdiv=2 2
+p-texture=poof.tga
+p-vel=0 0 800
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 2
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=1
+
+[slow]
+f-drag=2
+f-pos=0 0 0
+f-radius=10000
+
+[up]
+f-accel=0 500 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk057101D8=2000
+unk16BC4CA4=0 200 0
+unk7A493CC2=100

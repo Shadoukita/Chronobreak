@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "RengarQ.dds"
+BuffTextureName = L0_1
+L0_1 = "RengarQBuff"
+BuffName = L0_1
+L0_1 = "Rengar_Base_Q_Buf_Blade.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "Weapon"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "Rengar_Base_Q_Buf_Claw.troy"
+AutoBuffActivateEffect2 = L0_1

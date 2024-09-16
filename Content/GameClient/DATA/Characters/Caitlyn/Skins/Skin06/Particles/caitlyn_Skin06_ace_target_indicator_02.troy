@@ -1,0 +1,77 @@
+[System]
+GroupPart1=overhead_symbol_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=overhead_symbol_2
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=overhead_symbol_3
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=overhead_symbol_4
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[overhead_symbol_02]
+e-disabled=1
+e-life=10
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-postoffset=0 420 0
+p-rgba=whitebox.tga
+p-rotvel=40
+p-scale=45
+p-texture=Caitlyn_Skin06_R_Holo_01.dds
+rendermode=1
+single-particle=1
+
+[overhead_symbol_2]
+e-life=10
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-postoffset=0 420 0
+p-rgba=whitebox.tga
+p-rotvel=40
+p-scale=47
+p-texture=Caitlyn_Skin06_R_indicator_01.dds
+rendermode=4
+single-particle=1
+
+[overhead_symbol_3]
+e-disabled=1
+e-life=10
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-postoffset=0 420 0
+p-rgba=whitebox.tga
+p-rotvel=-70
+p-scale=45
+p-texture=Caitlyn_Skin06_R_Decal_Ring_03.dds
+rendermode=1
+single-particle=1
+
+[overhead_symbol_4]
+e-life=10
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-postoffset=0 420 0
+p-rgba=whitebox.tga
+p-rotvel=40
+p-scale=47
+p-texture=Caitlyn_Skin06_R_Holo_01.dds
+rendermode=1
+single-particle=1
+

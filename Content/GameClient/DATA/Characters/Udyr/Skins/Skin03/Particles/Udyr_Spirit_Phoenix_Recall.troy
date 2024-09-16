@@ -1,0 +1,95 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=helix
+GroupPart3=phoenix_mesh
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_SpiritUdyr_Recall_recall_phoenixparticle
+
+[glow]
+e-life=1
+e-rate=1
+p-life=1
+p-offset=0 0 0
+p-rgba=alpha_12.dds
+p-scale=210
+p-simpleorient=2
+p-texture=udyr_spirit_phoenix_glow.dds
+p-type=0
+pass=-100
+rendermode=0
+
+[helix]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=2
+p-mesh=Udyr_Spirit_Recall_Swirl.sco
+p-meshtex=Udyr_Spirit_Recall_Ribbon_Phoenix.dds
+p-meshtex-mult=Udyr_Spirit_Recall_Helix_Mult_Phoenix.dds
+p-postoffset=0 -10 0
+p-rotvel=0 1 0
+p-rotvelYP1=0 -130
+p-rotvelYP2=1 130
+p-scale=0.5 0.5 0.5
+p-scaleYP1=0 0.25
+p-scaleYP2=1 2.5
+p-type=3
+p-uvscroll-rgb=0.5 -0.41
+p-uvscroll-rgb-mult=0 -0.21
+p-uvscroll-rgbXP1=0 -0.5
+p-uvscroll-rgbXP2=1 0.5
+p-uvscroll-rgbYP1=0 -0.5
+p-uvscroll-rgbYP2=1 0.5
+p-vel=0 70 0
+p-velYP1=0 1
+p-velYP2=1 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.6 1 1 1 0.5
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 2 3 2
+rendermode=4
+
+[phoenix_mesh]
+ChildParticleName=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName2=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName3=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName4=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName5=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildParticleName6=Udyr_Spirit_Phoenix_Pet_Wings.troy
+ChildSpawnAtBone=L_Elbow
+ChildSpawnAtBone2=R_Elbow
+ChildSpawnAtBone3=L_Wing
+ChildSpawnAtBone4=R_Wing
+ChildSpawnAtBone5=L_Tip
+ChildSpawnAtBone6=R_Tip
+e-life=1
+e-local-orient=0
+e-rate=1
+p-animation=udyr_spirit_PET_phoenix_Recall.anm
+p-bindtoemitter=1 1
+p-life=1.6
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_phoenix_TX_CM.dds
+p-postoffset=0 50 0
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_phoenix.skl
+p-skin=udyr_spirit_PET_phoenix.skn
+p-texture=udyr_spirit_PET_phoenix_TX_CM.dds
+p-type=3
+p-vel=0 10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.6 1 1 1 0.5
+p-xrgba3=1 1 0.1 0.4 0
+rendermode=1
+single-particle=1
+

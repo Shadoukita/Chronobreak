@@ -1,0 +1,54 @@
+[Rays]
+e-disabled=1
+e-life=1
+e-rate=16
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-flexoffset=0.004999999888241291
+p-life=1.25
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0
+p-offset=0 50 0
+p-quadrot=6000 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=70 70 70
+p-scaleXP1=0 0.2
+p-scaleXP2=1 0.75
+p-scaleYP1=0 1
+p-scaleYP2=1 1.75
+p-texture=leona_passive_rays.dds
+p-xscale=1 1 1
+p-xscale1=0 0.3 1 1
+p-xscale2=0.699999988079071 1.75 1.75 1.75
+p-xscale3=1 2 2 2
+pass=10
+single-particle=1
+
+[SunSpot]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0.3 0
+p-colorscale=0.7000000000000001 1
+p-flexoffset=0.004999999888241291
+p-life=3.5
+p-linger=0
+p-rgba=color-eyefade.tga
+p-scale=150
+p-texture=solar_tag.dds
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.8 0.8 0.8
+pass=1
+single-particle=1
+
+[System]
+GroupPart1=SunSpot
+GroupPart1Type=Simple
+GroupPart2=Rays
+SimulateEveryFrame=1
+

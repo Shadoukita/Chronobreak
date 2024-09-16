@@ -1,0 +1,49 @@
+[System]
+GroupPart3=glow_03_Darius_ZaunKnight
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[glow_03_Darius_ZaunKnight]
+KeywordsRequired=Darius_ZaunKnight
+e-life=1
+e-linger=0.65
+e-rate=1
+p-life=2
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=1.0099999904632568 1.0099999904632568 1.0099999904632568
+p-simpleorient=3
+p-texture=darius_zaun_knight_mesh_glow_10.tga
+p-type=11
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0211C742=Darius_ZaunKnight
+unk02128045=darius_zaun_knight_mesh_glow_11_c.tga
+unk1D4FEE83=Darius_ZaunKnight
+unk321DFC33=1 1 1
+unk371AF6A8=1 1 1
+unk47B6E2B2=0
+unk47E01FF2=0.35
+unk53F7F23D=1.2000000000000002
+unk5B1A7FBE=1
+unk5E08E46A=alpha_12.tga
+unk63E9D9B3=1
+unk673E5E21=3
+unk7001ABFE=1
+unk749096AE=3
+unk7A129E2B=alpha_12.tga
+unk834817E2=1
+unk864AB389=0 1 1 1
+unk864AB38A=0.5 1.025 1.025 1.025
+unk864AB38B=1 1.0499999523162842 1.0499999523162842 1.0499999523162842
+unk86C06204=0
+unk91F845B4=1 1 1
+unkA6874B45=0
+unkBD46E744=darius_zaun_knight_mesh_glow_11.tga
+unkC09B3B73=0
+unkC401A070=11
+unkD05A87FD=1
+unkE00B5A31=11
+unkE9D09EED=3

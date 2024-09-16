@@ -1,0 +1,19 @@
+[Basic]
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-life=1
+p-scale=10 10 0
+p-texture=disc32.DDS
+p-vel=0 200 0
+rendermode=1
+
+[System]
+GroupPart1=Basic
+

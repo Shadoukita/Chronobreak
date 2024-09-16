@@ -1,0 +1,23 @@
+[System]
+GroupPart1=base
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Rengar_RengarWArmorMR_buffactivate
+
+[base]
+e-life=-1
+e-local-orient=1
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=0.5 0
+p-life=0.5
+p-local-orient=1
+p-rgba=Rengar_Base_Z_RGB.tga
+p-scale=1.1
+p-simpleorient=3
+p-texture=Rengar_Base_Z_Avatar.tga
+p-type=11
+pass=100
+rendermode=2
+

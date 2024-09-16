@@ -1,0 +1,52 @@
+[System]
+GroupPart1=flies
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flies]
+e-life=-1
+e-rate=3
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-orbit-1=swirl1
+field-orbit-2=swirl2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=30
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-numframes=2
+p-offset=30 0 0
+p-offsetXP1=0 1
+p-offsetXP2=1 2
+p-rgba=color-flies.tga
+p-scale=7
+p-shadow=0
+p-startframe=2
+p-texdiv=2 2
+p-texture=waterbugs.tga
+p-type=0
+p-vel=0 200 0
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=0.9 1
+p-xscale4=1 0
+pass=200
+rendermode=1
+
+[swirl1]
+f-direction=1 0 0
+f-localspace=0
+
+[swirl2]
+f-direction=0 1 0
+f-localspace=0
+

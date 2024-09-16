@@ -1,0 +1,29 @@
+[System]
+GroupPart1=arrow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+
+[arrow]
+e-life=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=3
+p-linger=0
+p-local-orient=1
+p-meshtex=Kalista_Base_TX_CM.dds
+p-offset=0 0 1000
+p-offset1=0 0 0 0
+p-offset2=1 0 0 1000
+p-postoffset=0 100 400
+p-quadrot=0 180 0
+p-scale=0.8500000238418579 0.8500000238418579 0.8500000238418579
+p-shadow=1
+p-simpleorient=2
+p-skeleton=Kalista.skl
+p-skin=Kalista.skn
+p-type=11
+rendermode=4
+single-particle=1
+

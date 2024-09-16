@@ -1,0 +1,24 @@
+[DragLine]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1
+p-life=3
+p-linger=0
+p-quadrot=-90 0 0
+p-rgba=alpha_21.tga
+p-scale=20 2000 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=web_beam.tga
+p-type=2
+p-xscale1=0 1 0 0
+p-xscale2=0.07 1 1 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=DragLine
+SimulateEveryFrame=1
+

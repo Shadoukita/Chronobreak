@@ -1,0 +1,42 @@
+[System]
+GroupPart1=Target
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Target]
+e-life=0.5
+e-rate=5
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=2.2
+p-linger=0
+p-offset=0 15 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 -35
+p-quadrotXP2=1 35
+p-scale=250 250 250
+p-texture=Kalista_Skin01_P_Reticle.dds
+p-texture-mult=Kalista_Skin01_BA_tail.dds
+p-uvscroll-rgb-mult=1 1
+p-uvscroll-rgb-multXP1=0 0.5
+p-uvscroll-rgb-multXP2=1 -0.5
+p-uvscroll-rgb-multYP1=0 0.5
+p-uvscroll-rgb-multYP2=1 -0.5
+p-xrgba=1 0 0 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=0.1 1 1 1
+p-xscale3=0.9 1 1 1
+p-xscale4=1 0.9 0.9 0.9
+pass=100
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk6E3A0982=1

@@ -1,0 +1,42 @@
+[System]
+GroupPart1=watchedlines
+GroupPart1Importance=High
+GroupPart2=watched
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[watched]
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=2
+p-linger=0
+p-offset=0 110 0
+p-rgba=color-hold.dds
+p-scale=50
+p-texture=watched32.dds
+rendermode=1
+
+[watchedlines]
+e-active=1.8
+e-local-orient=0
+e-period=3
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=0.5 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=0
+p-offset=0 120 0
+p-rgba=color-breathstealtrail.tga
+p-scale=50 50 0
+p-texture=watchedlines.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=1 2 2.5 0
+pass=10
+

@@ -1,0 +1,57 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=WeaponTrail_Steel
+SimulateEveryFrame=1
+
+[WeaponTrail]
+KeywordsExcluded=SteellegionGaren
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.22
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Garen_Base_AA_Wpn_Trail.dds
+p-postoffset=-30 180 0
+p-quadrot=-50 10 -10
+p-rgba=color-rampdown.tga
+p-scale=1 1.4000000000000001 1
+p-type=3
+p-uvscroll-rgb=-1.600000023841858 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.7 1 1 1 0.5
+p-xrgba4=0.95 1 1 1 0
+p-xrgba5=1 0 0 0
+rendermode=4
+single-particle=1
+
+[WeaponTrail_Steel]
+KeywordsRequired=SteellegionGaren
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.22
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Garen_Steel_AA_Wpn_Trail.dds
+p-postoffset=-30 180 0
+p-quadrot=-50 10 -10
+p-rgba=color-rampdown.tga
+p-scale=1 1.4000000000000001 1
+p-type=3
+p-uvscroll-rgb=-1.600000023841858 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.7 1 1 1 0.5
+p-xrgba4=0.95 1 1 1 0
+p-xrgba5=1 0 0 0
+rendermode=4
+single-particle=1
+

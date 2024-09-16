@@ -1,0 +1,44 @@
+[System]
+GroupPart1=placeholder
+GroupPart1Type=Simple
+MaterialOverride1BlendMode=3
+MaterialOverride1Texture=gold_overlay_01.tga
+
+[placeholder]
+e-life=-1
+e-linger=0
+e-rate=1
+p-life=0.05
+p-linger=0
+p-rgba=color-hold.tga
+p-scale=0
+p-texture=missing_instant.tga
+p-type=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk03F03B43=0 1 1 1 0
+unk03F03B44=0.1 1 1 1 1
+unk03F03B45=0.9 1 1 1 1
+unk03F03B46=1 1 1 1 0
+unk0C6E5AF8=1
+unk0DA21F51=0 0 0
+unk1570B2BA=1
+unk19D6A7C4=420 0 420
+unk2F14F21C=gold_overlay_01.tga
+unk454243AA=1
+unk49876FAC=125 125 125
+unk59F5E06E=1 1 1 1
+unk5BD5BD81=0
+unk68DAB272=0 0 0
+unk725F00FB=3
+unk740EF7FA=5
+unk8026CA45=5
+unk936D3629=1
+unkA0AA8DEB=ring_02.sco
+unkBF9FDC2C=0 0
+unkCDD90D13=0.0035
+unkDCF3B60C=0
+unkDEB65941=0
+unkE7289411=0 0 0
+unkF0307878=3

@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Nidalee_Passive.dds"
+BuffTextureName = L0_1
+L0_1 = "Prowl"
+BuffName = L0_1
+L0_1 = "nidalee_base_p.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "BUFFBONE_GLB_GROUND_LOC"
+AutoBuffActivateAttachBoneName = L0_1

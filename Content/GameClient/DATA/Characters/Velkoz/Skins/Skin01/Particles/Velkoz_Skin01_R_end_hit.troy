@@ -1,0 +1,22 @@
+[Starhitburst]
+e-life=4
+e-rate=60
+p-bindtoemitter=1 1
+p-life=0.016699999570846558
+p-linger=0
+p-postoffset=0 50 0
+p-quadrot=0
+p-rgba=Velkoz_Skin01_Z_White.tga
+p-scale=100
+p-texture=Velkoz_Skin01_R_Beam_Hit.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 4
+p-xscale2=0.30000000000000004 10
+p-xscale3=1 15
+
+[System]
+GroupPart5=Starhitburst
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+

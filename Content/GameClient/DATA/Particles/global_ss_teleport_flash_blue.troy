@@ -1,0 +1,31 @@
+[Flash]
+e-life=4
+e-linger=-1
+e-rate=1
+flag-disable-z=1
+p-frameRate=0
+p-life=0.1
+p-local-orient=1
+p-numframes=4
+p-offset=0 150 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-scale=300 300 300
+p-startframe=0
+p-texdiv=2 2
+p-texture=global_ss_teleport_flash_blue_2x2.tga
+p-type=0
+p-xquadrot-on=1
+p-xrgba=1 1 1 1
+p-xscale1=0 0.25 0.25 0
+p-xscale2=1 1 1 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+SimulateEveryFrame=1
+

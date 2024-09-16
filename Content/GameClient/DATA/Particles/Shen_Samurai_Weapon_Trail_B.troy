@@ -1,0 +1,47 @@
+[Distort]
+e-life=0.2
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-distortion-mode=2
+p-distortion-power=0.09
+p-life=0.2
+p-linger=0.2
+p-normal-map=distort-heat.tga
+p-rgba=color-bellcurve32.tga
+p-scale=320
+p-texture=Aura_self.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 1.5
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=Distort
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=0
+p-life=0.15
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Shen_Samurai_Wpn_trail.tga
+p-quadrot=-90 0 0
+p-rgba=color-rampdown.tga
+p-scale=1 1 1
+p-scale1=0 1 1 1
+p-scale2=1 0 2 0
+p-type=3
+p-uvscroll-rgb=2.7 0
+rendermode=0
+single-particle=1
+

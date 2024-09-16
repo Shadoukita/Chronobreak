@@ -1,0 +1,111 @@
+[System]
+GroupPart1=sparks
+GroupPart1Type=Simple
+GroupPart2=snowflakes
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Brand_Joke3D_buffactivate
+
+[drag]
+f-drag=5
+f-pos=0 0 0
+f-radius=1000
+
+[noise]
+f-period=0.1
+f-pos=0 1 0
+f-radius=1000
+f-veldelta=100
+
+[snowflakes]
+KeywordsRequired=FrostFireBrand
+e-life=10
+e-linger=0
+e-rate=80
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-drag-1=drag
+field-noise-1=noise
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.8 1
+p-lifeP3=1 2
+p-linger=-1
+p-numframes=4
+p-offset=0 0 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-randomstartframe=1
+p-rgba=color-snowflakes.tga
+p-scale=5
+p-scaleXP1=0 0.4
+p-scaleXP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=snowflakes04.tga
+p-type=0
+p-vel=200 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+uniformscale=1
+
+[sparks]
+KeywordsExcluded=FrostFireBrand ZombieBrand
+e-life=10
+e-linger=0
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-drag-1=drag
+field-noise-1=noise
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.8 1
+p-lifeP3=1 2
+p-linger=-1
+p-numframes=4
+p-offset=0 0 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-randomstartframe=1
+p-rgba=color-hotsparks.tga
+p-scale=5
+p-scaleXP1=0 0.4
+p-scaleXP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=sparks-orange.tga
+p-type=0
+p-vel=200 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk8AA264C9=1

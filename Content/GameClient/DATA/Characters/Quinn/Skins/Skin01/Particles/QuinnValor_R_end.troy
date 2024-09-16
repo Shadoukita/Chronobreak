@@ -1,0 +1,48 @@
+[Phoenix]
+KeywordsRequired=PhoenixQuinn
+e-life=1
+e-linger=0
+e-rate=1
+p-animation=QuinnValor_ Spell4_out.anm
+p-bindtoemitter=1
+p-life=1
+p-linger=1
+p-meshtex=QuinnValor_skin01.tga
+p-quadrot=0 180 0
+p-rgba=color-hold.tga
+p-scale=1.7000000000000002 1.7000000000000002 1.7000000000000002
+p-skeleton=QuinnValor_skin01.skl
+p-skin=QuinnValor_skin01.skn
+p-type=3
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=Valor
+GroupPart1Importance=High
+GroupPart2=Phoenix
+GroupPart2Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[Valor]
+KeywordsExcluded=PhoenixQuinn
+e-life=1
+e-linger=0
+e-rate=1
+p-animation=QuinnValor_ Spell4_out.anm
+p-bindtoemitter=1
+p-life=1
+p-linger=1
+p-meshtex=QuinnValor_props_01.tga
+p-quadrot=0 180 0
+p-rgba=color-hold.tga
+p-scale=1.7000000000000002 1.7000000000000002 1.7000000000000002
+p-skeleton=QuinnValor.skl
+p-skin=QuinnValor.skn
+p-type=3
+rendermode=3
+single-particle=1
+

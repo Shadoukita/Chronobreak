@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Armordillo_ScaledPlating.dds"
+BuffTextureName = L0_1
+L0_1 = "PuncturingTaunt"
+BuffName = L0_1
+L0_1 = ""
+AutoBuffActivateEffect = L0_1
+L0_1 = ""
+AutoBuffActivateAttachBoneName = L0_1

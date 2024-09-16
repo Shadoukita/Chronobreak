@@ -1,0 +1,32 @@
+[BombGlow]
+e-life=4
+e-linger=0
+e-local-orient=0
+e-rate=10
+e-rate1=0 0.3
+e-rate2=1 2
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.4
+p-life1=0 1
+p-life2=0.2 0.8
+p-life3=0.4 0.05
+p-linger=0
+p-local-orient=1
+p-rgba=color-enrage.tga
+p-scale=1.1 1.1 1.1
+p-simpleorient=3
+p-texture=color-hold.tga
+p-type=11
+p-xscale1=0 1 1 1
+p-xscale2=1 1.4000000000000001 1.4000000000000001 1.4000000000000001
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=BombGlow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

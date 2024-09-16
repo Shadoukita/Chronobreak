@@ -1,0 +1,26 @@
+[System]
+GroupPart1=trail
+
+[trail]
+e-life=0.5
+e-rate=60
+e-trail-cutoff=50
+p-coloroffset=0 0
+p-colorscale=1 0.550000011920929
+p-colortype=1 0
+p-life=0.30000000000000004
+p-offset=0 0 0
+p-rgba=color-beacontrail.tga
+p-rotvel=0 0 0
+p-scale=2 2 0
+p-scale1=0 0 0 0
+p-scale2=0.5 1 1 0
+p-scale3=1 0 0 0
+p-texture=smoke_fade_01.tga
+p-trailmode=0
+p-type=5
+p-vel=0 0 -200
+p-xscale=1 1 1
+
+[UNKNOWN_HASHES]
+unk73AF821D=1

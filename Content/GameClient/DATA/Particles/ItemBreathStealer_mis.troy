@@ -1,0 +1,45 @@
+[System]
+GroupPart1=trail
+SimulateEveryFrame=1
+
+[trail]
+e-life=4
+e-local-orient=1
+e-rate=120
+e-tilesize=150 0 0
+p-coloroffset=0 0
+p-colorscale=1 0.1
+p-colortype=1 0
+p-drag=1 2 1
+p-life=1
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=2
+p-offset=1 0 0
+p-offsetXP1=0 -10
+p-offsetXP2=1 10
+p-quadrot=2000 0 0
+p-quadrot1=0 0 0 0
+p-quadrot2=1 1 0 0
+p-rgba=color-breathstealtrail.tga
+p-rotvel=1 0 0
+p-rotvelXP1=0 -30
+p-rotvelXP2=1 30
+p-scale=20 0 0
+p-texture=trailbreathstealer.tga
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb=0 0
+p-vel=1 200 0
+p-velXP1=0 -100
+p-velXP2=0.20000000298023224 -20
+p-velXP3=0.8 20
+p-velXP4=1 100
+p-velYP1=0 1
+p-velYP2=1 1
+p-xscale1=0 3 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=0.5 0 0 0
+p-xscale4=1 0 0 0
+rendermode=0
+

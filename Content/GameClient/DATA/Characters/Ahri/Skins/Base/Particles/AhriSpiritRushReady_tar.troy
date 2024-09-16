@@ -1,0 +1,47 @@
+[Skin04_ready]
+KeywordsRequired=AhriSkin04
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-offset=-10 0 -15
+p-quadrot=0
+p-rgba=Ahri_Skin04_R_dash_bellcurve.dds
+p-rotvel=-70
+p-scale=80
+p-simpleorient=2
+p-texture=Ahri_Skin04_R_buf_ground.dds
+p-type=1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=base
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Skin04_ready
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[base]
+KeywordsExcluded=AhriSkin04
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-offset=-10 0 -15
+p-quadrot=0
+p-rgba=Ahri_R_dash_bellcurve.dds
+p-rotvel=-70
+p-scale=80
+p-simpleorient=2
+p-texture=Ahri_base_R_buf_ground.dds
+p-type=1
+rendermode=0
+single-particle=1
+

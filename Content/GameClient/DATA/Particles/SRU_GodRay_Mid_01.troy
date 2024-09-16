@@ -1,0 +1,92 @@
+[Godray]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=0.4
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_godray_mid_01.scb
+p-meshtex=SRU_GodRay_Mid_01.DDS
+p-meshtex-mult=SRU_GodRay_Mid_Mult_01.DDS
+p-scale=2 2 2
+p-shadow=0
+p-type=3
+p-uvscroll-rgb=0.5 0
+p-uvscroll-rgbXP1=0 0.009999999776482582
+p-uvscroll-rgbXP2=1 0.05000000074505806
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=4
+single-particle=0
+
+[System]
+GroupPart1=Godray
+GroupPart1Importance=Low
+GroupPart2=dust_Parts
+SimulateEveryFrame=1
+
+[dust_Parts]
+e-life=-1
+e-rate=5
+e-rotation1=45
+e-rotation1-axis=0 0 1
+e-rotation2=18.5
+e-rotation2-axis=1 0 0
+field-noise-1=dust_Partsbox
+p-life=1.2000000000000002
+p-lifeXP1=0 0.5
+p-lifeXP2=1 1
+p-numframes=4
+p-offset=250 200 100
+p-offsetXP1=0 1
+p-offsetXP2=1 -1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-postoffset=-80 100 80
+p-quadrot=0 20 90
+p-randomstartframe=1
+p-rotvel=100 0 0
+p-rotvelXP1=0 0.8
+p-rotvelXP2=1 5
+p-scale=4 4 4
+p-scaleXP1=0 1
+p-scaleXP2=0.8 0.4
+p-scaleXP3=1 1
+p-texture=SRU_Godray_Dustparticles_01.DDS
+p-type=0
+p-vel=20 -35 -10
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.5
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=0.9 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+uniformscale=1
+
+[dust_Partsbox]
+f-axisfrac=2 1 0
+f-period=0.5
+f-pos=0 0 0
+f-radius=250
+f-veldelta=50
+
+[UNKNOWN_HASHES]
+unk3EFBF48E=sphere.sco
+unk52E12B6E=-0.02500000037252903 0
+unkC755AC11=color-hold.DDS

@@ -1,0 +1,59 @@
+[System]
+GroupPart1=Zap
+GroupPart1Type=Complex
+GroupPart2=Zap_Add
+GroupPart2Type=Complex
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Rengar_RengarManager_buffactivate
+
+[Zap]
+e-life=-1
+e-rate=100
+p-bindtoemitter=1
+p-life=0.5
+p-lifeP1=0 0.75
+p-lifeP2=1 1
+p-numframes=4
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=Rengar_Skin01_Z_RGB.tga
+p-scale=10 30 0
+p-startframe=1
+p-texdiv=2 2
+p-texture=Rengar_Skin01_Z_Claw_2x2.tga
+p-type=2
+p-xscale1=0 4 0 0
+p-xscale2=0.5 4 3 0
+p-xscale3=1 4 5 0
+rendermode=2
+
+[Zap_Add]
+e-life=-1
+e-rate=50
+p-bindtoemitter=1
+p-life=0.5
+p-lifeP1=0 0.75
+p-lifeP2=1 1
+p-numframes=4
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=Rengar_Skin01_Z_Red_RGB.tga
+p-scale=10 30 0
+p-startframe=1
+p-texdiv=2 2
+p-texture=Rengar_Skin01_Z_Claw_2x2.tga
+p-type=2
+p-xscale1=0 4 0 0
+p-xscale2=0.5 4 3 0
+p-xscale3=1 1 5 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk4F36AC10=1
+unkDE75AF4E=1

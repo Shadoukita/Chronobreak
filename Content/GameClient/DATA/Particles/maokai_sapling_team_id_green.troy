@@ -1,0 +1,82 @@
+[Aura]
+KeywordsExcluded=GraveDiggerMaokai
+e-local-orient=0
+e-rate=1.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=0.7
+p-linger=0
+p-numframes=1
+p-offset=0 10 0
+p-rgba=alpha_02.tga
+p-scale=40
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ring_green_04.tga
+p-type=1
+p-xscale1=0 0.1
+p-xscale2=1 1.8
+rendermode=0
+teamcolor-correction=1
+
+[AuraGrave]
+KeywordsRequired=GraveDiggerMaokai
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=1
+p-offset=0 10 0
+p-quadrot=90 0 0
+p-rgba=color-bellcurve.tga
+p-scale=50 50 40
+p-startframe=0
+p-texdiv=1 1
+p-texture=ball32_02.tga
+p-type=0
+p-xrgba=0 0.3 0.1 1
+rendermode=4
+teamcolor-correction=1
+
+[Aura_02]
+KeywordsExcluded=GraveDiggerMaokai
+e-local-orient=0
+e-rate=1.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=0.6
+p-linger=0
+p-numframes=1
+p-offset=0 10 0
+p-rgba=alpha_03.tga
+p-scale=50
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ring_green_04.tga
+p-type=1
+p-xscale1=0 1
+p-xscale2=1 0.1
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=Aura
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Aura_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=AuraGrave
+SimulateEveryFrame=1
+

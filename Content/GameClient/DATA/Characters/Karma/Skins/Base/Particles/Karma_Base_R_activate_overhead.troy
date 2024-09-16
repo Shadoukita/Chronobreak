@@ -1,0 +1,285 @@
+[Motes]
+e-rate=3
+field-noise-1=moteNoise
+p-bindtoemitter=1 0
+p-colorscale=0.5 0.5
+p-colortype=1 3
+p-drag=3 3 3
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=0.9 1.5
+p-lifeP3=1 3
+p-offset=10 0 0
+p-rgba=color-flicker_teal.tga
+p-scale=13 20 10
+p-scaleXP1=0 0.4
+p-scaleXP2=1 1.5
+p-texture=Nidalee_Glowspecks.dds
+p-vecalign=1
+p-vel=30 30 30
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 0.3
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.6 0 0.8 0.5 1
+p-xrgba3=0.8 0 0.4 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+rendermode=4
+uniformscale=1
+
+[Override]
+KeywordsExcluded=SungoddessKarma GeishaKarma KarmaClassic KarmaLunar
+MaterialOverride1Priority=1
+MaterialOverride1Texture=karma_base_glowmap.tga
+e-life=1
+e-rate=1
+p-life=8
+p-linger=8
+p-rgba=color-karma_mantraglow.dds
+p-texture=empty32.dds
+p-trans-sample=50
+single-particle=1
+
+[OverrideClassic]
+KeywordsRequired=KarmaClassic
+MaterialOverride1Priority=1
+MaterialOverride1Texture=karma_skn3_glowmap.tga
+MaterialOverrideTransMap=karma_skn3_glow.tga
+e-life=1
+e-rate=1
+p-life=8
+p-linger=8
+p-rgba=color-karma_mantraglow.dds
+p-texture=empty32.dds
+p-trans-sample=50
+rendermode=1
+single-particle=1
+
+[OverrideLunar]
+KeywordsRequired=KarmaLunar
+MaterialOverride1Priority=1
+MaterialOverride1Texture=karma_lunar_glow_TX_CM.tga
+MaterialOverrideTransMap=karma_skn4_glow.tga
+e-life=1
+e-rate=1
+p-life=8
+p-linger=8
+p-rgba=color-karma_mantraglow.dds
+p-texture=empty32.dds
+p-trans-sample=50
+single-particle=1
+
+[OverrideSakura]
+KeywordsRequired=GeishaKarma
+MaterialOverride1Priority=1
+MaterialOverride1Texture=karma_skn2_glowmap.tga
+MaterialOverrideTransMap=karma_skn2_glow.tga
+e-life=1
+e-rate=1
+p-life=8
+p-linger=8
+p-rgba=color-karma_mantraglow.dds
+p-texture=empty32.dds
+p-trans-sample=50
+rendermode=1
+single-particle=1
+
+[OverrideSunGoddess]
+KeywordsRequired=SungoddessKarma
+MaterialOverride1Priority=1
+MaterialOverride1Texture=karma_skn1_glowmap.tga
+MaterialOverrideTransMap=karma_skn1_glow.tga
+e-life=1
+e-rate=1
+p-life=8
+p-linger=8
+p-rgba=color-karma_mantraglow.dds
+p-texture=empty32.dds
+p-trans-sample=50
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=flash
+GroupPart10=flash_lunar
+GroupPart10Type=Simple
+GroupPart11=flare_lunar
+GroupPart11Type=Simple
+GroupPart12=glow2_lunar
+GroupPart12Type=Simple
+GroupPart13=Motes_lunar
+GroupPart14=glow
+GroupPart1Type=Simple
+GroupPart2=Override
+GroupPart2Type=Simple
+GroupPart3=flare
+GroupPart3Type=Simple
+GroupPart4=glow2
+GroupPart5=Motes
+GroupPart6=OverrideClassic
+GroupPart6Type=Simple
+GroupPart7=OverrideSakura
+GroupPart7Type=Simple
+GroupPart8=OverrideSunGoddess
+GroupPart8Type=Simple
+GroupPart9=OverrideLunar
+GroupPart9Type=Simple
+SimulateEveryFrame=1
+
+[flare]
+KeywordsExcluded=KarmaLunar
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-poison_fade.tga
+p-scale=90
+p-texture=glowflare.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 0.7000000000000001
+p-xscale3=1 1
+single-particle=1
+
+[flare_lunar]
+KeywordsRequired=KarmaLunar
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-purp_fade.tga
+p-scale=90
+p-texture=glowflare.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 0.7000000000000001
+p-xscale3=1 1
+single-particle=1
+
+[flash]
+KeywordsExcluded=KarmaLunar
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.15000000596046448
+p-linger=0
+p-quadrot=-90
+p-rgba=color-hold.tga
+p-scale=250
+p-texture=flare-sun_15.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=1 0
+single-particle=1
+
+[flash_lunar]
+KeywordsRequired=KarmaLunar
+e-life=0.1
+e-rate=10
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.07500000298023224
+p-linger=0
+p-quadrot=-90
+p-rgba=color-hold.tga
+p-scale=250
+p-texture=flare-purp_02.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=1 0
+
+[glow]
+e-disabled=1
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.9
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rgba=color-poison_fade.tga
+p-rotvel=0 400 0
+p-scale=90 90 0
+p-texture=glow-soft.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=0.30000000000000004 0.7000000000000001 0.7000000000000001 0.7000000000000001
+p-xscale3=1 1 1 1
+single-particle=1
+
+[glow2]
+KeywordsExcluded=KarmaLunar
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=1.1
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rgba=color-karma_idle.tga
+p-rotvel=0 400 0
+p-scale=50 50 0
+p-texture=glow-soft.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.125 1 1 1 1
+p-xrgba3=0.875 1 1 1 1
+p-xrgba4=1 1 1 1 0
+
+[glow2_lunar]
+KeywordsRequired=KarmaLunar
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=1
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-Karma_Idle_purp.tga
+p-scale=50
+p-texture=glow-soft.dds
+p-type=1
+
+[moteNoise]
+f-period=0.1
+f-radius=1000
+f-veldelta=20
+
+[UNKNOWN_HASHES]
+unk2D6ABB85=0 0 0

@@ -1,0 +1,226 @@
+[CastFlare]
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-colorscale=1 0.009999999776482582
+p-life=0.17000000178813934
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=95 0 30
+p-texture=urgot_auto_flare.dds
+p-xrgba=1 1 1 0.5589990019798279
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0
+p-xscale2=0.2 1.5 1.5 0
+p-xscale3=1 0.7 0.7 0
+single-particle=1
+uniformscale=1
+
+[CastFlareGlow]
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-colorscale=1 0.009999999776482582
+p-life=0.1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=110 0 30
+p-texture=urgot_base_q_mis_glow.dds
+p-xrgba=1 1 1 0.8359959721565247
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0
+p-xscale2=0.2 1.5 1.5 0
+p-xscale3=1 0.7 0.7 0
+single-particle=1
+uniformscale=1
+
+[CastFlicker]
+e-life=0.4
+e-linger=0.4
+e-rate=20
+p-bindtoemitter=1 1
+p-colorscale=1 0.009999999776482582
+p-life=0.2
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=55 0 30
+p-texture=urgot_auto_flare.dds
+p-xrgba=1 1 1 0.33299800753593445
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0
+p-xscale2=0.2 1.5 1.5 0
+p-xscale3=1 0.7 0.7 0
+uniformscale=1
+
+[Elec_Cast_HandLinger]
+e-life=0.9399999976158142
+e-linger=0.9
+e-local-orient=0
+e-rate=30
+e-rate1=0 1
+e-rate2=1 0
+e-rgba=255 255 255 255
+e-rgba1=0 1 1 1 1
+e-rgba2=1 1 1 1 0.097993
+e-timeoffset=0.03999999910593033
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.15000000596046448
+p-lifeP1=0 0.4
+p-lifeP2=1 0.75
+p-linger=0.15000000596046448
+p-numframes=4
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-scale=65 65 1
+p-scaleXP1=0 0.7
+p-scaleXP2=1 0.8500000238418579
+p-scaleupfromorigin=1
+p-texdiv=2 2
+p-texture=urgot_auto_elecimpact.dds
+p-type=2
+p-uvscroll-no-alpha=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 0 1
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 1.5 1.5 1
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=ring
+GroupPart1Type=Simple
+GroupPart2=flash
+GroupPart2Type=Simple
+GroupPart3=flashlines
+GroupPart3Type=Simple
+GroupPart4=flash_battlecast
+GroupPart4Type=Simple
+GroupPart5=outerring
+GroupPart6=CastFlare
+GroupPart7=Elec_Cast_HandLinger
+GroupPart8=CastFlicker
+GroupPart9=CastFlareGlow
+
+[flash]
+KeywordsExcluded=BattlecastUrgot
+e-disabled=1
+e-life=1
+e-linger=1
+e-rate=2
+p-colorscale=1 0.2
+p-life=0.30000000000000004
+p-postoffset=-20 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=150
+p-texdiv=2 3
+p-texture=ryzebasicattack.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+single-particle=1
+
+[flash_battlecast]
+KeywordsRequired=BattlecastUrgot
+e-disabled=1
+e-life=1
+e-linger=1
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-life=0.30000000000000004
+p-postoffset=0 0 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=150
+p-texdiv=2 3
+p-texture=ryzebasicattack.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+single-particle=1
+
+[flashlines]
+e-disabled=1
+e-life=1
+e-linger=1
+e-rate=1
+e-rgba=74 255 34 255
+p-colorscale=1 0.2
+p-life=0.2
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-snowball.tga
+p-scale=50
+p-startframe=5
+p-texdiv=2 3
+p-texture=ryzebasicattack.dds
+p-xrgba=0.20392200350761414 1 0.06274499744176865 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 3
+
+[outerring]
+e-disabled=1
+e-life=1
+e-rate=1
+p-life=0.6000000000000001
+p-quadrot=45 0 0
+p-scale=70 0 1
+p-startframe=4
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xrgba=0.6588240265846252 0.992156982421875 0.4313730001449585 0.6710000038146973
+p-xrgba1=0 1 1 1 0.4392
+p-xrgba2=0.5 1 1 1 0.105898
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.2 0 0
+p-xscale2=0.15 1.4 0 0
+p-xscale3=1 1.6 0 0
+single-particle=1
+uniformscale=1
+
+[ring]
+e-disabled=1
+e-life=1
+e-linger=1
+e-rate=1
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-life=0.6000000000000001
+p-rgba=color-greendisc.tga
+p-scale=70
+p-texture=rainbowhalo.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 1.5
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk97029B3E=0 1 1 1 0.9
+unk97029B3F=1 1 1 1 1.5

@@ -1,0 +1,20 @@
+[BlackFade]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=3
+p-offset=0 0 0
+p-scale=5000 5000 5000
+p-texture=SOG_Ceremony_Barrier_BlackFade.tga
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=10000
+rendermode=1
+
+[System]
+GroupPart1=BlackFade
+SimulateEveryFrame=1
+

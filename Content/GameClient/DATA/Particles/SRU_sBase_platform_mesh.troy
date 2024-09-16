@@ -1,0 +1,28 @@
+[System]
+GroupPart1=platform
+
+[platform]
+e-rate=2
+p-bindtoemitter=1 0
+p-life=5
+p-lifeP1=0 0.3
+p-lifeP2=0.8 0.4
+p-lifeP3=1 1
+p-mesh=sru_sbase_platform_mesh.scb
+p-meshtex=SRU_sBase_platform.dds
+p-scale=1.0499999523162842 1.0499999523162842 1.0499999523162842
+p-scaleXP1=0 0.98
+p-scaleXP2=0.800000011920929 0.9990000128746033
+p-scaleXP3=1 1
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.4 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.98 1 1
+p-xscale2=0.9900000095367432 0.9990000128746033 1 1
+p-xscale3=1 1 1 1
+rendermode=4
+uniformscale=1
+

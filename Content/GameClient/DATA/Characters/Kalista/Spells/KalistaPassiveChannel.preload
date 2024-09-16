@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kalista_base_p_spear_channel.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="globaldrain"}}, 
+}

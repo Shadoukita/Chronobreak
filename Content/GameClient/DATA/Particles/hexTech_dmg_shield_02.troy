@@ -1,0 +1,16 @@
+[System]
+GroupPart1=placeholder
+GroupPart1Type=Simple
+MaterialOverride1BlendMode=0
+MaterialOverride1Texture=ghost_overlay_15.tga
+
+[placeholder]
+e-life=0.1
+e-rate=1
+p-life=0.2
+p-rgba=color-hold.tga
+p-scale=0
+p-texture=missing_instant.tga
+p-type=0
+single-particle=1
+

@@ -1,0 +1,14 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+VoiceOverPersistent=Play_vo_Sivir_Interactive_Interactive3DChampionSpecific3
+
+[empty]
+e-life=5
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

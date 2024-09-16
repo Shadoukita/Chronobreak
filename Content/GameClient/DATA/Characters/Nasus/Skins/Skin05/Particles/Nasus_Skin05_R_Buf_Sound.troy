@@ -1,0 +1,13 @@
+[Sound]
+SoundPersistent=Play_sfx_NasusSkin05_NasusR_loop
+e-life=-1
+e-linger=0
+e-rate=-1
+p-life=0.1
+p-linger=0
+p-type=0
+
+[System]
+GroupPart1=Sound
+SimulateEveryFrame=1
+

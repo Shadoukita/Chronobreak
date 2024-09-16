@@ -1,0 +1,25 @@
+[Hook_Mesh]
+KeywordsExcluded=ThreshUndersea ThreshSkin02
+e-life=0.7
+e-linger=0
+e-local-orient=1
+e-rate=7
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.2
+p-linger=0.01
+p-local-orient=1
+p-rgba=color-c-cyan32.tga
+p-scale=1.0299999713897705 1.0299999713897705 1.0299999713897705
+p-simpleorient=3
+p-texture=Thresh_Hook.tga
+p-type=11
+pass=10
+rendermode=0
+
+[System]
+GroupPart1=Hook_Mesh
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

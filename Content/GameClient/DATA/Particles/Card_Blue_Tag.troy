@@ -1,0 +1,31 @@
+[System]
+GroupPart1=card_blue
+GroupPart1Type=Simple
+
+[card_blue]
+e-life=10000
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=1
+p-offset=0 200 0
+p-rgba=color-white32.tga
+p-scale=20
+p-scalebias=1 1.6
+p-startframe=0
+p-texdiv=2 2
+p-texture=playingcard.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.1 1.2000000000000002
+p-xscale3=0.2 0.8
+p-xscale4=0.30000000000000004 1
+p-xscale5=1 1
+rendermode=1
+

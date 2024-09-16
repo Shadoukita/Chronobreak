@@ -1,0 +1,35 @@
+[System]
+GroupPart1=flat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flat]
+e-life=0.1
+e-linger=1
+e-local-orient=0
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.1
+p-linger=-1
+p-numframes=1
+p-postoffset=0 90 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=40
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-sun_08.tga
+p-type=1
+p-xscale1=0 8
+p-xscale2=0.5 3
+p-xscale3=1 1
+rendermode=0
+

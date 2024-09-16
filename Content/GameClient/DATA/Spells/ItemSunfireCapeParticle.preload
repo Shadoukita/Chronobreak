@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="global_item_sunfirecape_aura.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="itemsunfirecapeaura"}}, 
+}

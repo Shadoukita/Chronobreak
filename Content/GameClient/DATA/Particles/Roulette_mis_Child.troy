@@ -1,0 +1,63 @@
+[System]
+GroupPart1=trail
+GroupPart2=trail2
+GroupPart3=trail3
+SimulateEveryFrame=1
+
+[trail]
+e-life=4
+e-rate=100
+e-tilesize=10 0 0
+p-life=0.5
+p-offset=20 0 0
+p-orbitvel=2 2 2
+p-postoffset=0 0 5
+p-rgba=color-bellcurve4.tga
+p-scale=2 0 0
+p-texture=TF_Card_Trail.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=30
+rendermode=0
+
+[trail2]
+e-life=4
+e-rate=100
+e-tilesize=50 0 0
+p-life=0.5
+p-offset=20 0 0
+p-orbitvel=-2 -2 -2
+p-postoffset=0 0 5
+p-rgba=color-bellcurve4.tga
+p-scale=2 0 0
+p-texture=TF_Card_Trail.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=30
+rendermode=0
+
+[trail3]
+e-life=4
+e-rate=100
+e-tilesize=50 0 0
+p-life=0.75
+p-offset=20 0 0
+p-orbitvel=-2 -2 -2
+p-postoffset=5 0 0
+p-rgba=color-bellcurve4.tga
+p-scale=2 0 0
+p-texture=TF_Card_Trail.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=30
+rendermode=0
+

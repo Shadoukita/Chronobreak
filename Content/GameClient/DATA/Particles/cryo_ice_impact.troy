@@ -1,0 +1,89 @@
+[System]
+GroupPart1=icerock
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=magicdots
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[gravity]
+f-accel=0 -3400 0
+f-localspace=0
+
+[icerock]
+e-active=1
+e-life=0.30000000000000004
+e-period=1
+e-rate=12
+e-rotation1=20
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-life=1.25
+p-mesh=rock.sco
+p-meshtex=icerock01.tga
+p-offset=0 200 0
+p-rotvel=100 200 300
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=0.8 0.8 0.8
+p-scaleXP1=0 0.6669999957084656
+p-scaleXP2=1 1.5570000410079956
+p-scaleYP1=0 0.5559999942779541
+p-scaleYP2=1 1.6312589645385742
+p-scaleZP1=0 0.7409999966621399
+p-scaleZP2=1 1.3346669673919678
+p-texture=icerock01.tga
+p-type=3
+p-vel=0 600 0
+p-worldaccel=0 -3000 0
+p-xscale=0.8
+
+[magicdots]
+e-active=1
+e-life=0.2
+e-period=1
+e-rate=60
+e-rotation1=20
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity
+p-life=0.75
+p-meshtex=icerock01.tga
+p-offset=10 40 10
+p-quadrot=1 1 1
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-rotvelP1=0 30
+p-rotvelP2=1 -30
+p-scale=110
+p-scaleXP1=0 0.8889999985694885
+p-scaleXP2=1 1.2000000000000002
+p-scaleYP1=0 0.5559999942779541
+p-scaleYP2=1 1.6312589645385742
+p-scaleZP1=0 0.7409999966621399
+p-scaleZP2=1 1.3346669673919678
+p-startframe=6
+p-texdiv=2 4
+p-texture=InfernalGuardian03.tga
+p-vel=0 800 0
+p-xscale=0.8
+p-xscale1=0 0.1
+p-xscale2=0.5 1.15
+p-xscale3=1 0.1
+

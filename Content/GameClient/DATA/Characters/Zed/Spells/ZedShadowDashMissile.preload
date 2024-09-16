@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="zedshadow"}}, 
+{Function=BBPreloadSpell, Params={Name="zedwcloneswapevfx"}}, 
+{Function=BBPreloadSpell, Params={Name="zedwshadowbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="zedwcloneactive"}}, 
+{Function=BBPreloadParticle, Params={Name="abyssalscepter_itm.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_stormninja_w_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_base_w_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="zedpbaoe"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_base_e_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="zedshurikenmistwo"}}, 
+{Function=BBPreloadSpell, Params={Name="zedshadowdashmissile"}}, 
+}

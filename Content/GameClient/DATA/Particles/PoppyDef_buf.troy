@@ -1,0 +1,28 @@
+[System]
+GroupPart1=shieldglow
+SimulateEveryFrame=1
+
+[shieldglow]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-life=8
+p-linger=8
+p-local-orient=1
+p-offset=16 -10 -5
+p-postoffset=0 0 0
+p-quadrot=30 -8 100
+p-scale=70 70 1
+p-texdiv=1 1
+p-texture=poppydef_buf.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=0
+single-particle=1
+

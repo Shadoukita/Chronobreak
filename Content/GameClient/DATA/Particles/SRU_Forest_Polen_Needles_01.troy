@@ -1,0 +1,55 @@
+[PolenNoise]
+f-axisfrac=2 1 0
+f-period=0.5
+f-radius=1940
+f-veldelta=20
+
+[SRU_Polen_Needles]
+e-rate=4.5
+e-rotation1=200
+e-rotation1-axis=0 1 0
+field-noise-1=PolenNoise
+p-life=1.2000000000000002
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=200 100 200
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 4
+p-offsetZP1=0 -0.5
+p-offsetZP2=1 1
+p-randomstartframe=1
+p-rotvel=0 0 190
+p-rotvelXP1=0 0.8
+p-rotvelXP2=1 1
+p-scale=10 10 10
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-texdiv=2 2
+p-texture=SRU_Forest_Polen_Needles_01.DDS
+p-type=1
+p-vel=-320 -150 -100
+p-velXP1=0 0.1
+p-velXP2=1 0.4
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.9 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=SRU_Polen_Needles
+SimulateEveryFrame=1
+group-vis=10
+
+[UNKNOWN_HASHES]
+unk19FF4A56=color-hold.dds

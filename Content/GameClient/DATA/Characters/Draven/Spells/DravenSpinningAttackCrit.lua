@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "3071_The_Black_Cleaver.dds"
+BuffTextureName = L0_1
+L0_1 = "DravenSpinning"
+BuffName = L0_1
+L0_1 = {}
+L1_1 = "DravenSkin03"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1
+L0_1 = {}
+L1_1 = "Draven_SoulReaper"
+L0_1[1] = L1_1
+SpellVOOverrideSkins = L0_1

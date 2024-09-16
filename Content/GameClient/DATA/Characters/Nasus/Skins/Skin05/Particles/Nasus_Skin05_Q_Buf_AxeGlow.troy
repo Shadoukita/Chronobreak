@@ -1,0 +1,37 @@
+[AxeGlow]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=6
+e-timeoffset=0.1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-flexscale=0.0032999999821186066
+p-life=0.30000000000000004
+p-linger=2
+p-local-orient=1
+p-mesh=Nasus_Skin05_Q_Buf_Geo_AxeGlow.sco
+p-meshtex=Nasus_Skin05_Q_Buf_Geo_AxeGlow.dds
+p-quadrot=0 0 0
+p-scale=0.9300000071525574 0.9300000071525574 0.9300000071525574
+p-shadow=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1.1 1 1.2000000000000002 1.2000000000000002
+pass=0
+rendermode=4
+single-particle=0
+
+[System]
+GroupPart1=AxeGlow
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[UNKNOWN_HASHES]
+unk4E640FEA=0.0032999999821186066

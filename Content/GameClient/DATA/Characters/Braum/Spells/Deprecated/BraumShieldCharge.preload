@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="sejuaniunlockanimationknockup"}}, 
+{Function=BBPreloadSpell, Params={Name="Braumshieldcharge"}}, 
+}

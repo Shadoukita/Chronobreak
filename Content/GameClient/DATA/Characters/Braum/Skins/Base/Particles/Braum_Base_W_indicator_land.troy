@@ -1,0 +1,23 @@
+[Ring]
+e-life=1
+e-rate=1
+p-life=0.4
+p-offset=0 10 0
+p-quadrot=90 1 0
+p-scale=200 200 0
+p-texture=Braum_Base_BA_solar_circle.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 0.1 0.5 1 0
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=0.1 1 1 0
+p-xscale3=1 1.1 1.1 0
+rendermode=4w
+single-particle=1
+
+[System]
+GroupPart1=Ring
+SimulateEveryFrame=1
+

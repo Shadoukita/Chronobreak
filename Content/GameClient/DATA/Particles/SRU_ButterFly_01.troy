@@ -1,0 +1,82 @@
+[ButterFly]
+Particle-Acceleration=0 1 0
+Particle-Acceleration1=0 0 -300 0
+Particle-Acceleration2=0.10000000149011612 0 300 0
+Particle-Acceleration3=0.20000000298023224 0 -300 0
+Particle-Acceleration4=0.30000001192092896 0 300 0
+Particle-Acceleration5=0.4000000059604645 0 -300 0
+Particle-Acceleration6=0.5 0 300 0
+Particle-Acceleration7=0.6000000238418579 0 -300 0
+Particle-Acceleration8=0.699999988079071 0 300 0
+Particle-Acceleration9=0.800000011920929 0 -300 0
+e-framerateP1=0 0
+e-life=-1
+e-rate=0.3
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=Drag
+field-noise-1=Noise1
+field-noise-2=Noise2
+p-accel=0 -20 0
+p-frameRate=20
+p-life=25
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-numframes=4
+p-offset=1 1 0
+p-offsetXP1=0 50
+p-offsetXP2=1 200
+p-offsetYP1=0 0
+p-offsetYP2=1 50
+p-randomstartframe=1
+p-scale=23 23 23
+p-scaleXP1=0 0.6
+p-scaleXP2=0.5 0.7000000000000001
+p-scaleXP3=1 1
+p-startframe=1
+p-texdiv=2 2
+p-texture=SRU_ButterFly_Anim_01.dds
+p-type=0
+p-vecalign=1
+p-vel=0 100 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=1
+uniformscale=1
+
+[Drag]
+f-drag=0.30000000000000004
+f-pos=0 500 0
+f-radius=1000
+
+[Noise1]
+f-period=0.3499999940395355
+f-pos=0 1 0
+f-radius=2000
+f-veldelta=10
+
+[Noise2]
+f-period=0.2
+f-pos=0 1 0
+f-radius=2000
+f-veldelta=20
+
+[System]
+GroupPart1=ButterFly
+GroupPart1Importance=high
+SimulateEveryFrame=1
+group-vis=500
+
+[UNKNOWN_HASHES]
+unk1328154F=0.8999999761581421 0 300 0
+unk13281550=1 0 -300 0
+unk2867E8C1=0 1 1 1 1
+unkDC9506E2=0.5 1 1 1 1
+unkDC9506E3=1 1 1 1 1

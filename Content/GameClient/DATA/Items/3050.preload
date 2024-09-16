@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="rallyingbannerauraself"}}, 
+{Function=BBPreloadSpell, Params={Name="rallyingbanneraurafriend"}}, 
+{Function=BBPreloadParticle, Params={Name="rallyingbanner_itm.troy"}}, 
+}

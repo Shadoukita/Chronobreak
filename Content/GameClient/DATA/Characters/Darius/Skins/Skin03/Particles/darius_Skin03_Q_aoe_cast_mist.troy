@@ -1,0 +1,49 @@
+[System]
+GroupPart1=atomic_mist
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[atomic_mist]
+KeywordsRequired=Darius_ZaunKnight
+e-life=0.3
+e-rate=100
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.5
+p-lifeP3=1 1.25
+p-linger=-1
+p-mesh==Darius_ZaunKnight_Smoke.sco
+p-meshtex=Darius_ZaunKnight_atomicSmoke_03.tga
+p-numframes=9
+p-offset=350 0 0
+p-offsetXP1=0 0.4
+p-offsetXP2=1 1
+p-orbitvel=0 -1 0
+p-postoffset=0 10 0
+p-quadrot=0 90 0
+p-randomstartframe=1
+p-rgba=color-bellcurve4.tga
+p-scale=300 200 600
+p-texdiv=2 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1 0
+p-uvscroll-rgbXP=1 2
+p-uvscroll-rgbXP1=0 1
+p-vecalign=1
+p-xscale=1 1 1
+p-xscale1=0 0.8 0 0
+p-xscale2=0.5 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="fizzjumpbuffer"}}, 
+{Function=BBPreloadSpell, Params={Name="fizzjumpbuffered"}}, 
+}

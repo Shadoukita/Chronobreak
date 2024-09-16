@@ -1,0 +1,76 @@
+[SoftGlow]
+e-rate=0.5
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-life=12
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-offset=10 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-quadrot=0 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 365
+p-scale=100 100 100
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=SRU_SJungle_mushroomGlow_soft.dds
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.20000000298023224 -0.17000000178813934
+p-uvscroll-rgbXP1=0 1
+p-uvscroll-rgbXP2=1 -1
+p-uvscroll-rgbYP1=0 1
+p-uvscroll-rgbYP2=1 -1
+p-xquadrot=0.1 0 0
+p-xquadrot-on=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.725505
+p-xrgba3=1 1 1 1 0
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=SoftGlow
+GroupPart2=motes
+SimulateEveryFrame=1
+
+[motes]
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-life=10
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-numframes=2
+p-offset=25 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-randomstartframe=1
+p-scale=25 25 25
+p-texdiv=2 1
+p-texture=SRU_SJungle_mushroomGlow_motes.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.6
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0 0 0
+rendermode=4
+uniformscale=1
+

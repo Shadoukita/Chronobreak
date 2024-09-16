@@ -1,0 +1,233 @@
+[LunarGlow1]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=0.1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-offset=30 -30 10
+p-quadrot=-100
+p-rgba=color-poison_fade_03.tga
+p-rotvel=40
+p-scale=100
+p-texture=glow-soft.dds
+pass=70
+rendermode=4
+
+[LunarGlow2]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=0.1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-offset=-30 -30 10
+p-quadrot=-100
+p-rgba=color-poison_fade_03.tga
+p-rotvel=40
+p-scale=100
+p-texture=glow-soft.dds
+pass=70
+rendermode=4
+
+[LunarMissile1]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=0.1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-mesh=Cass_Skn4_E.sco
+p-meshtex=Cass_Skn4_Snake_TX.dds
+p-offset=30 -30 0
+p-quadrot=-100 180 0
+p-rgba=color-rampdown.tga
+p-rotvel=40 0 0
+p-scale=3 3 3
+p-type=3
+p-xrgba=0 1 0.8 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1.5
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+pass=70
+rendermode=4
+
+[LunarMissile2]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=0.1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-mesh=Cass_Skn4_E.sco
+p-meshtex=Cass_Skn4_Snake_TX.dds
+p-offset=-30 -30 0
+p-quadrot=-100 180 0
+p-rgba=color-rampdown.tga
+p-rotvel=40 0 0
+p-scale=3 3 3
+p-type=3
+p-xrgba=0 1 0.8 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1.5
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+pass=70
+rendermode=4
+
+[LunarTrail1]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=0.6000000000000001
+e-rate=90
+e-tilesize=400 310 0
+p-colorscale=1 0.6000000000000001
+p-life=0.23000000417232513
+p-linger=1
+p-offset=-30 0 0
+p-rgba=color-poison_fade.tga
+p-scale=10 10 10
+p-scale1=0 1 1 1
+p-scale2=0.2 1 1 1
+p-scale3=1 0 0 0
+p-texture=sonatrail.dds
+p-trailmode=1
+p-type=5
+
+[LunarTrail2]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=0.6000000000000001
+e-rate=90
+e-tilesize=400 310 0
+p-colorscale=1 0.6000000000000001
+p-life=0.23000000417232513
+p-linger=1
+p-offset=30 0 0
+p-rgba=color-poison_fade.tga
+p-scale=10 10 10
+p-scale1=0 1 1 1
+p-scale2=0.2 1 1 1
+p-scale3=1 0 0 0
+p-texture=sonatrail.dds
+p-trailmode=1
+p-type=5
+
+[Mist]
+KeywordsRequired=LunarRevelCassiopeia
+e-life=2
+e-rate=250
+flag-disable-z=1
+p-drag=3 3 3
+p-life=0.5
+p-lifeP1=0 0.7
+p-lifeP2=1 1.5
+p-linger=2
+p-numframes=16
+p-offset=30 0 0
+p-offsetXP1=0 -1
+p-offsetXP2=0.5 -1
+p-offsetXP3=0.5009999871253967 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown.tga
+p-rotvel=70 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=50 50 30
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1.5
+p-texdiv=4 4
+p-texture=Smoky_Wisps_Teal.dds
+p-vel=0 500 0
+p-velYP1=0 0.4
+p-velYP2=1 1
+p-velZP1=0 0.7
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.5 0.5 0.5 0.5
+p-xrgba2=1 0 0.3 0.5 0.5
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=1 1 1 1
+pass=-1
+uniformscale=1
+
+[System]
+GroupPart1=basemissile
+GroupPart10=Mist
+GroupPart10Importance=Low
+GroupPart2=trail
+GroupPart3=trail2
+GroupPart4=LunarMissile1
+GroupPart5=LunarMissile2
+GroupPart6=LunarTrail1
+GroupPart7=LunarTrail2
+GroupPart8=LunarGlow1
+GroupPart8Type=Simple
+GroupPart9=LunarGlow2
+GroupPart9Type=Simple
+SimulateEveryFrame=1
+
+[basemissile]
+KeywordsExcluded=LunarRevelCassiopeia
+e-life=0.1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-mesh=Cass_Fang_Geo.sco
+p-meshtex=Cass_Greek_Fang.dds
+p-offset=0 -30 -20
+p-quadrot=160 180 0
+p-rgba=Cass_Greek_Color.tga
+p-rotvel=40 0 0
+p-scale=150 150 150
+p-type=3
+p-xquadrot=1 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 0
+p-xquadrot2=0.4 4 0 0
+p-xquadrot3=0.5 10 0 0
+p-xquadrot4=1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1.5
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 1 0.30000000000000004 0.30000000000000004
+pass=70
+
+[trail]
+KeywordsExcluded=LunarRevelCassiopeia
+e-life=4
+e-rate=220
+e-tilesize=180 0 0
+p-life=0.30000000000000004
+p-offset=0 0 50
+p-rgba=Cass_Greek_Color_Fade.tga
+p-scale=100 0 0
+p-texture=Cass_Greek_Fang_Trail.dds
+p-trailmode=1
+p-type=5
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+
+[trail2]
+KeywordsExcluded=LunarRevelCassiopeia
+e-rate=60
+e-tilesize=160 0 0
+p-coloroffset=0.8 0
+p-colorscale=0.2 0.9
+p-life=0.30000000000000004
+p-offset=0 -50 50
+p-rgba=Cass_Greek_Color_Fade.tga
+p-scale=100 0 0
+p-texture=Cass_Greek_Fang_Trail.dds
+p-trailmode=1
+p-type=5
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+

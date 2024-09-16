@@ -1,0 +1,27 @@
+[Flame]
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=20
+p-life=1
+p-linger=1
+p-numframes=16
+p-offset=0 1 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-orbitrunes.tga
+p-scale=80
+p-simpleorient=2
+p-startframe=0
+p-texdiv=4 4
+p-texture=fireloop_aura.tga
+p-type=1
+rendermode=0
+
+[System]
+GroupPart1=Flame
+GroupPart1Type=Simple
+

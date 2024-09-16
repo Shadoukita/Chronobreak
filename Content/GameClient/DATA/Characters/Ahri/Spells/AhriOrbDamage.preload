@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="ahri_passiveheal.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="ahriorbvamp"}}, 
+{Function=BBPreloadParticle, Params={Name="ahri_orb_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="ahri_passive_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="ahrisoulcrusher5"}}, 
+{Function=BBPreloadSpell, Params={Name="ahrisoulcrushercounter"}}, 
+}

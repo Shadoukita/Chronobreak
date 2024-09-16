@@ -1,0 +1,85 @@
+[SmokeDrag]
+f-drag=2
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=dust_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ping
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[dust_01]
+e-life=0.52
+e-local-orient=0
+e-rate=420
+e-rotation1=360
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=360
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+field-drag-1=SmokeDrag
+p-bindtoemitter=0 0
+p-life=0.85
+p-lifeP1=0 0.9
+p-lifeP2=1 1.1
+p-offset=10 30 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Gragas_Skin05_E_Dust_RGBA.tga
+p-rotvel=1
+p-rotvelP1=0 -60
+p-rotvelP2=1 60
+p-scale=19
+p-scaleP1=0 1
+p-scaleP2=1 1.8
+p-texture=Gragas_Skin05_E_Dust.tga
+p-type=0
+p-vel=210 0 0
+p-velYP1=0 0.35
+p-velYP2=1 1.1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 2
+rendermode=1
+
+[ping]
+e-life=0.45
+e-linger=0
+e-local-orient=1
+e-rate=40
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.25
+p-offset=0 0 0
+p-postoffset=0 105 60
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 8
+p-rgba=Gragas_Skin05_E_Ping_RGB.tga
+p-scale=240 0 0
+p-simpleorient=2
+p-texture=Gragas_Skin05_E_Ping.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.3
+p-xscale2=1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk057101D8=500
+unk0CD0BBFD=400
+unk16BC4CA4=0 50 0
+unk7A493CC2=1000
+unkA7D96A9F=7
+unkE9F64129=0 0 0

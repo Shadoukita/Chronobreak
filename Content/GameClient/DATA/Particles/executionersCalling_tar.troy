@@ -1,0 +1,47 @@
+[System]
+GroupPart1=Flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Flash_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Flash_03
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=symbol_01
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=symbol_03
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=poofs
+GroupPart6Importance=High
+GroupPart6Type=Simple
+SimulateEveryFrame=1
+
+[symbol_03]
+e-life=0.3
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.35
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=65 65 0
+p-simpleorient=2
+p-texture=ring_poison_01.tga
+p-type=7
+
+[UNKNOWN_HASHES]
+unk1434BF04=0 0 0
+unk4F910172=0 100 0
+unk8B156384=2
+unk90F9BDF5=0 1 0
+unk92549262=10000
+unkC4690725=0
+unkCB680D71=0

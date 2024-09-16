@@ -1,0 +1,46 @@
+[Cover]
+e-life=1
+e-linger=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.3
+p-offset=0 150 0
+p-quadrot=0 0 90
+p-rgba=Quinn_Skin02_R_Cas_Cover_Color.dds
+p-scale=250 80 250
+p-texture=Quinn_Skin02_R_Cas_Cover.dds
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.4 5 1 5
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Valor_Streak
+GroupPart2=Cover
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Valor_Streak]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-uvoffset=0 0.2
+p-backfaceon=1
+p-life=0.6499999761581421
+p-linger=0
+p-mesh=Quinn_Skin02_R_Cas_Streak.sco
+p-meshtex=Quinn_Skin02_R_Cas_Streak.dds
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-scale=450 450 450
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1.5
+p-xrgba=1 1 1 0.5
+rendermode=4
+single-particle=1
+

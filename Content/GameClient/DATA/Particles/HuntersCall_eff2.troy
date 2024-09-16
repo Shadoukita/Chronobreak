@@ -1,0 +1,76 @@
+[System]
+GroupPart1Type=Simple
+GroupPart2=base
+GroupPart2Type=Simple
+GroupPart3=rising
+GroupPart3Type=Simple
+
+[base]
+e-life=0.5
+e-rate=20
+p-life=0.8
+p-quadrot=180
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=HuntersCall_eff2__base__p-rgba.tga
+p-rotvel=360
+p-rotvelP1=0 0.8336666822433472
+p-rotvelP2=1 1
+p-scale=60
+p-simpleorient=2
+p-texdiv=2 2
+p-texture=Hunterscall02.tga
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=0.5040000081062317 2.8550000190734863 1 1
+p-xscale3=1 3.2995920181274414 1 1
+
+[rising]
+e-life=0.5
+e-rate=20
+p-life=0.8
+p-quadrot=180
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=feroscioushowl_cas2__base__p-rgba.tga
+p-rotvel=360
+p-rotvelP1=0 0.8336666822433472
+p-rotvelP2=1 1
+p-scale=134
+p-simpleorient=2
+p-startframe=2
+p-texdiv=2 2
+p-texture=Hunterscall02.tga
+p-type=1
+p-vel=0 500 0
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 5.153295993804932 1 1
+
+[UNKNOWN_HASHES]
+unk1F85E96B=1
+unk24A4F323=0 0 0 0 255
+unk24A4F324=0.5880449 161 167 171 255
+unk24A4F325=0.7306666 255 255 255 255
+unk24A4F326=1 0 0 0 255
+unk27273E42=Clouddome2.tga
+unk3CEC5FE6=0 0 0 0 255
+unk3CEC5FE7=0.5546666 255 255 255 255
+unk3CEC5FE8=1 0 0 0 255
+unk4496D680=1
+unk4B643D30=1
+unk4EA7C8AD=feroscioushowl_cas2__dome1__p-rgba.tga
+unk57DD4264=1
+unk651A9A26=Dome01.sco
+unk6CEBFC2F=1
+unk73B63D6E=0 0 0 0 255
+unk73B63D6F=0.5880449 230 230 230 255
+unk73B63D70=0.7306666 255 255 255 255
+unk73B63D71=1 0 0 0 255
+unk796032CC=0 50 0
+unkAB5F7186=0 0 0 0
+unkAB5F7187=1 5.338666915893555 0 0
+unkAD557231=0.6600000262260437
+unkB4A084B3=3
+unkF15BA244=0 700 0

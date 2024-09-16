@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="missfortunewavehold"}}, 
+{Function=BBPreloadSpell, Params={Name="missfortunebulletholder"}}, 
+{Function=BBPreloadSpell, Params={Name="missfortunepassivestack"}}, 
+{Function=BBPreloadParticle, Params={Name="missfortune_base_r_tar.troy"}}, 
+}

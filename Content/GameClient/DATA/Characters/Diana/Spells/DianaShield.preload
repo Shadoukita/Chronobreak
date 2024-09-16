@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="diana_base_w_shield.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="diana_base_w_refreshed.troy"}}, 
+}

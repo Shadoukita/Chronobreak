@@ -1,0 +1,15 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+PersistThruDeath=1
+SoundOnCreate=Play_sfx_CaitlynSkin06_CaitlynYordleTrap_buffdeactivate
+
+[empty]
+e-life=1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

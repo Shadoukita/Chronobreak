@@ -1,0 +1,31 @@
+[System]
+GroupPart1=materialize_dist
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[materialize_dist]
+e-life=0.6
+e-linger=0
+e-rate=1
+p-distortion-mode=1
+p-distortion-power=1
+p-frameRate=0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-normal-map=distort-heat-trail.dds
+p-numframes=1
+p-rgba=alpha_12.dds
+p-scale=1
+p-simpleorient=3
+p-startframe=0
+p-texture=fire_ball.dds
+p-type=11
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.2 -0.2
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.75 1.05
+p-xscale3=1 1.25
+rendermode=0
+

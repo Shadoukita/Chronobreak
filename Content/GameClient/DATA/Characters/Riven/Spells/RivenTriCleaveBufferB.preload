@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="marthtricleavebuffer"}}, 
+{Function=BBPreloadSpell, Params={Name="marthtricleave"}}, 
+{Function=BBPreloadSpell, Params={Name="marthtricleavebuffered"}}, 
+{Function=BBPreloadSpell, Params={Name="marthtricleavebufferlock"}}, 
+}

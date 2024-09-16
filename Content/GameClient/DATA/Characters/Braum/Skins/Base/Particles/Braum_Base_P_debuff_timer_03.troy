@@ -1,0 +1,25 @@
+[System]
+GroupPart1=circletimer
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[circletimer]
+e-life=0.1
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-colortype=1 1
+p-life=6
+p-mesh=Braum_base_P_cooldowntimer.sco
+p-meshtex=Braum_Base_P_Cooldowntimer.dds
+p-quadrot=90 0 180
+p-rgba=Braum_Base_W_ground_decal_RGBA.dds
+p-scale=20 20 0
+p-type=3
+p-uvscroll-rgb=0.08 0
+pass=1000
+rendermode=4
+single-particle=1
+

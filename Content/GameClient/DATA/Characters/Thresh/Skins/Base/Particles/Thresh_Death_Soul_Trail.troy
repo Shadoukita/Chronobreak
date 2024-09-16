@@ -1,0 +1,123 @@
+[LightProj]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.7000000000000001
+p-colortype=1 0
+p-life=16
+p-linger=0
+p-offset=0 1 0
+p-projection-fading=100
+p-projection-y-range=600
+p-rgba=color-plateau-ramp.tga
+p-scale=100
+p-simpleorient=2
+p-texture=thresh_headglow.tga
+p-type=7
+rendermode=0
+single-particle=1
+
+[Skin02SoulGlow]
+KeywordsRequired=ThreshSkin02
+e-life=5
+e-linger=0
+e-local-orient=1
+e-rate=3
+flag-disable-z=0
+p-bindtoemitter=1 1
+p-coloroffset=0.2 0
+p-colorscale=0.7000000000000001 1
+p-colortype=1 0
+p-drag=1 1 1
+p-life=0.7
+p-linger=0
+p-offset=0 0 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown.tga
+p-rotvel=10
+p-rotvelP1=0 -90
+p-rotvelP2=0.5 -90
+p-rotvelP3=0.5099999904632568 90
+p-rotvelP4=1 90
+p-scale=80 80 0
+p-texdiv=1 1
+p-texture=Thresh_Skin02_Z_Soul02.tga
+p-xscale1=0 0.3 0.3 1
+p-xscale2=1 1 1 1
+pass=100
+rendermode=0
+
+[SoulGlow1]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.25
+p-colortype=1 0
+p-life=16
+p-linger=0
+p-quadrot=0
+p-rgba=color-plateau-ramp.tga
+p-rotvel=10
+p-scale=80
+p-texture=Thresh_Soul.tga
+rendermode=0
+single-particle=1
+
+[SoulGlow2]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.25
+p-colortype=1 0
+p-life=16
+p-linger=0
+p-quadrot=0
+p-rgba=color-plateau-ramp.tga
+p-rotvel=-10
+p-scale=80
+p-texture=Thresh_Soul.tga
+rendermode=0
+single-particle=1
+
+[SoulMist]
+KeywordsExcluded=ThreshSkin02
+e-life=14
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 0.7000000000000001
+p-colortype=1 0
+p-life=1.5
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bell-cyan.tga
+p-scale=80
+p-texture=circle-mist.tga
+p-xscale1=0 0.5
+p-xscale2=1 2
+rendermode=0
+
+[System]
+GroupPart1=LightProj
+GroupPart1Type=Simple
+GroupPart2=SoulGlow1
+GroupPart2Type=Simple
+GroupPart3=SoulGlow2
+GroupPart3Type=Simple
+GroupPart4=SoulMist
+GroupPart4Type=Simple
+GroupPart7=Skin02SoulGlow
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unkFEC4DC84=0 0 0

@@ -1,0 +1,33 @@
+[System]
+GroupPart1=dustClouds
+SimulateEveryFrame=1
+
+[dustClouds]
+e-life=-1
+e-rate=0.5
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-life=6
+p-lifeXP1=0 0.2
+p-lifeXP2=1 1
+p-mesh=SRU_NJungle_dustclouds.scb
+p-meshtex=SRU_NJungle_airclouds.dds
+p-offset=0 0 0
+p-quadrot=0 65 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-scale=15 15 15
+p-type=3
+p-uvscroll-rgb=0.2 0
+p-uvscroll-rgbXP1=0 0.1
+p-uvscroll-rgbXP2=1 1
+p-xrgba=1 1 1 0.2
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+

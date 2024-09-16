@@ -1,0 +1,148 @@
+[Burnout]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-life=2
+p-linger=1
+p-offset=0 0 -240
+p-quadrot=-90 90 0
+p-scale=290 290 990
+p-texture=SRU_Dragon_BA2_impact_GroundDirt.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.02 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=-100
+rendermode=1
+single-particle=1
+
+[Conemesh]
+e-life=0.25
+e-rate=1
+p-backfaceon=1
+p-life=0.4
+p-mesh=SRU_Dragon_BA2_Conemesh.scb
+p-meshtex=BA2_Dragon_BA2_impact_meshtex.dds
+p-offset=0 0 0
+p-quadrot=0 180 0
+p-scale=3 3 3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1.6
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.2 1 0.7 0 1
+p-xrgba4=1 0 0 0 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=Burnout
+GroupPart3=Sparks
+GroupPart4=Conemesh
+GroupPart5=twist
+GroupPart7=ground_fire
+GroupPart8=ground_flames
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_SRU_Dragon_DragonFireball_hit
+
+[flash]
+e-life=1
+e-local-orient=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=0.2
+p-linger=0.2
+p-offset=0 0 0
+p-quadrot=1
+p-scale=200
+p-texture=SRU_Dragon_BA2_Flash.dds
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 0.1
+rendermode=0
+single-particle=1
+
+[ground_fire]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-life=2
+p-offset=0 0 -240
+p-quadrot=90 90 0
+p-scale=290 290 290
+p-texture=SRU_Dragon_BA2_impact_groundburn.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0.001 0 0 0 0
+p-xrgba2=0 1 0.8 0.8 1
+p-xrgba3=0.02 0.4 0.2 0.2 1
+p-xrgba4=0.8 0 0 0 0
+pass=-100
+rendermode=1
+single-particle=1
+
+[ground_flames]
+e-life=0.4
+e-rate=30
+e-shape-name=SRU_Dragon_BA2_Conemesh_edge.scb
+e-shape-scale=3
+e-shape-use-normal-for-birth=0
+p-life=0.5
+p-lifeP1=0 0.2
+p-lifeP2=0.9 1.2
+p-lifeP3=1 2.2
+p-mesh=SRU_Dragon_BA2_Conemesh_edge.scb
+p-meshtex=color-hold.tga
+p-offset=0 0 10
+p-scale=100 100 100
+p-scaleXP1=0 0.4
+p-scaleXP2=0.9 0.7
+p-scaleXP3=1 1
+p-texture=SRU_Dragon_death_Sparks.dds
+p-type=0
+p-vel=0 50 -200
+p-velYP1=0 1
+p-velYP2=1 5
+p-velZP1=0 0.3
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 1 1
+p-xscale3=0.2 0.3 0.3 0.3
+p-xscale4=0.6 0.6 0.6 0.6
+p-xscale5=0.8 0.1 0.2 0.1
+p-xscale6=0.9 0.1 0.3 0.1
+p-xscale7=1 0 0 0
+pass=10
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[twist]
+e-life=0.25
+e-rate=1
+p-backfaceon=1
+p-life=0.2
+p-mesh=SRU_Dragon_BA2_Conemesh.scb
+p-meshtex=SRU_Dragon_BA2_Mesh_spikes.dds
+p-offset=0 0 0
+p-quadrot=0 180 0
+p-scale=3 3 3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 4
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.001 1 1 1 1
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=0.8 1 0 0 1
+rendermode=4
+single-particle=1
+

@@ -1,0 +1,55 @@
+[System]
+GroupPart1=whitesparks
+
+[whitesparks]
+e-rate=1
+e-rateP1=0 0.2
+e-rateP2=0.9 0.2
+e-rateP3=0.9010000228881836 1.2999999523162842
+e-rateP4=1 1.5
+e-rgba=250 255 153 255
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-flexoffset=0.004999999888241291
+p-life=1.5
+p-lifeP1=0 0.8
+p-lifeP2=1 0.9
+p-linger=0
+p-offset=15 15 1
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=1 0 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 90
+p-quadrotZP1=0 0
+p-quadrotZP2=1 90
+p-rgba=color-hold.tga
+p-rotvel=90 0 90
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=20 35 1
+p-scaleXP1=0 0.4
+p-scaleXP2=1 0.6000000000000001
+p-scaleYP1=0 0.4
+p-scaleYP2=1 0.6000000000000001
+p-scaleZP1=0 0.4
+p-scaleZP2=1 0.6000000000000001
+p-texture=SRU_Chaos_Shopkeeper_weaponRack_sparkle.dds
+p-xrgba=0.992156982421875 1 0.6862750053405762 0.800000011920929
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.5 1 1 1 0.1608
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.1 0.9 0.9 0.9
+p-xscale3=1 0.2 0.2 0.2
+

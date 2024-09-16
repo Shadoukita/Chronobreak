@@ -1,0 +1,86 @@
+[GlowBot]
+e-rate=0.029999999329447746
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=20
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-mesh=sru_raptornest_glow_01.scb
+p-meshtex=SRU_RaptorNest_Glow_2.dds
+p-meshtex-mult=SRU_Wjungle_Magic_GlowBot_Mult_01.dds
+p-quadrot=0 0 -20
+p-scale=1 1 1
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-scaleZP1=0 1
+p-scaleZP2=1 1.5
+p-type=3
+p-uvscroll-rgb=-0.05 0
+p-uvscroll-rgb-mult=-0.009999999776482582 0.05000000074505806
+p-uvscroll-rgb-multXP1=0 1
+p-uvscroll-rgb-multXP2=1 1.4000000000000001
+p-uvscroll-rgb-multYP1=-1 1.399999976158142
+p-uvscroll-rgb-multYP2=0 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 0.666667 0.498039 0.572549
+p-xrgba3=1 1 1 1 0
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=sparkles
+GroupPart2=GlowBot
+
+[sparkles]
+Particle-Drag=1 1 1
+e-local-orient=0
+e-rate=1
+e-shape-name=sru_raptornest_base_01.scb
+flag-disable-z=1
+p-life=15
+p-lifeP1=0 0.6
+p-lifeP2=0.8 0.7000000000000001
+p-lifeP3=1 1
+p-numframes=4
+p-offset=0 -49 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rotvel=50 50 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=35 35 35
+p-scaleXP1=0 0.4
+p-scaleXP2=0.8 0.5
+p-scaleXP3=0.8989999890327454 0.5
+p-scaleXP4=0.9 0.6000000000000001
+p-scaleXP5=1 0.6000000000000001
+p-texdiv=2 2
+p-texture=SRU_RaptorNest_Sparkles_01.dds
+p-type=1
+p-vel=0 0 0
+p-velXP1=0 0
+p-velXP2=1 1
+p-worldaccel=0 3 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0.14902 0 0
+p-xrgba2=0.4 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 1 1
+rendermode=4
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk1E90023A=sphere.sco
+unk9F20E90D=color-hold.DDS

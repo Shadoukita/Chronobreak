@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganadarkbindingmissile"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganatormentedsoil"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcube"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganamissile2"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganamissile3"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimer"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganamissile"}}, 
+}

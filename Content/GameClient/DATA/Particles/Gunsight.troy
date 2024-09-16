@@ -1,0 +1,25 @@
+[System]
+GroupPart1=gunsight
+GroupPart1Type=Simple
+
+[gunsight]
+e-life=19
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=1
+p-numframes=1
+p-offset=0 100 0
+p-rgba=color-pulse.tga
+p-scale=40
+p-startframe=0
+p-texdiv=1 1
+p-texture=bounty32.tga
+p-type=0
+rendermode=1
+

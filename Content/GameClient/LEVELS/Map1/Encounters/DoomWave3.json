@@ -1,0 +1,33 @@
+{
+  "EncounterDefinition": {
+    "BonusValue": 12,
+    "SquadAI": "Wave",
+    "MaxMonstersPerSpawn": 2,
+    "SpawnDelay": 0.75,
+    "Tags": [],
+    "MonsterGroups": [
+      {
+        "Tags": [],
+        "Monsters": [
+          {
+            "SkinName": "",
+            "OrderSkinName": "Blue_Minion_MechMelee",
+            "ChaosSkinName": "Red_Minion_MechMelee",
+            "Value": 1,
+            "Count": 2,
+            "Tags": [
+              "Melee"
+            ],
+            "MinimapIcon": "",
+            "Targetable": 1,
+			"IsLaneMinion": 1,
+            "GoldAwarded": 40,
+            "ExperienceAwarded": 97,
+            "BehaviorTreeAI": 0,
+            "runLuaAI" : "default"
+          }
+        ]
+      }
+    ]
+  }
+}

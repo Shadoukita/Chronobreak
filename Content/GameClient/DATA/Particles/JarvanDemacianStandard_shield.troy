@@ -1,0 +1,32 @@
+[System]
+GroupPart1=shield
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[shield]
+e-life=8
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=8
+p-local-orient=1
+p-mesh=shieldmap.sco
+p-meshtex=shield-map.tga
+p-offset=0 100 50
+p-postoffset=0 0 0
+p-quadrot=0 -180 0
+p-rgba=color-lensbell.tga
+p-scale=50 50 50
+p-shadow=1
+p-type=3
+p-uvscroll-rgb=-0.5 0
+p-vel=0 0 0
+rendermode=0
+

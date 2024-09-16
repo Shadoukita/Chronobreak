@@ -1,0 +1,13 @@
+[Backboard_mesh]
+e-life=0.1
+e-rate=1
+p-mesh=darius_skin04_r_backboard.scb
+p-meshtex=Darius_Skin04_TX_CM.dds
+p-type=3
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Backboard_mesh
+SimulateEveryFrame=1
+

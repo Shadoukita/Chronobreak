@@ -1,0 +1,24 @@
+[System]
+GroupPart1=glow
+GroupPart2=glow_skin01
+SimulateEveryFrame=1
+
+[glow_skin01]
+e-life=0.1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.4
+p-local-orient=1
+p-offset=0 0 0
+p-quadrot=90 0 0
+p-rgba=alpha_12.tga
+p-scale=200 200 200
+p-simpleorient=2
+p-texture=vlad_red_flare_01.tga
+p-type=0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 2
+pass=1001
+rendermode=0
+

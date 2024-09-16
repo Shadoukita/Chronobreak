@@ -1,0 +1,66 @@
+[Drag]
+f-drag=0.6000000000000001
+f-pos=0 0 0
+f-radius=4000
+
+[System]
+GroupPart2=redflies
+GroupPart2Type=Simple
+build-up-time=10
+
+[attract]
+f-accel=100 0 0
+f-pos=0 0 0
+f-radius=1000
+
+[noise]
+f-period=1
+f-pos=0 100 0
+f-radius=4000
+f-veldelta=150
+
+[redflies]
+e-life=100000
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-attract-1=attract
+field-drag-1=Drag
+field-noise-1=noise
+field-orbit-1=swirl
+p-bindtoemitter=1 1
+p-colorscale=0.5 0.004999999888241291
+p-colortype=0 2
+p-frameRate=0
+p-life=4
+p-numframes=1
+p-offset=0 200 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-randomstartframe=1
+p-rgba=color-redflies.tga
+p-scale=4
+p-shadow=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+p-vel=0 0 50
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=0.9 1
+p-xscale4=1 0
+rendermode=0
+
+[swirl]
+f-direction=0 1 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk321489C4=0 0

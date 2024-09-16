@@ -1,0 +1,90 @@
+[System]
+GroupPart1=glow
+GroupPart2=trail
+GroupPart3=trail2
+SimulateEveryFrame=1
+
+[glow]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-scale=25 25 25
+p-texture=Braum_Base_I_shield_glow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.4 0.4 0.4
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 1 1 1
+rendermode=4
+
+[trail]
+e-active=3
+e-linger=1
+e-period=3
+e-rate=100
+e-tilesize=1000 0 0
+e-trail-cutoff=500
+p-bindtoemitter=0.2 0
+p-life=0.4
+p-linger=1
+p-quadrot=0 -130 -20
+p-scale=20 0 0
+p-texture=Braum_Base_I_shield_trail.dds
+p-trailmode=3
+p-type=5
+p-uvscroll-rgb=0.1 0
+p-uvscroll-rgbXP1=0 0.3
+p-uvscroll-rgbXP2=1 1.5
+p-vel=0 1 -1
+p-vel1=0 1 0 150
+p-vel2=0.25 1 150 125
+p-vel3=0.5 1 0 100
+p-vel4=0.75 1 -200 125
+p-vel5=1 1 0 150
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.6
+p-xrgba3=0.6 0.1 0.1 1 0.3
+p-xrgba4=1 0.1 0.1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1.5 0 0
+p-xscale2=0.3 0.5 0 0
+p-xscale3=1 0.3 0 0
+
+[trail2]
+e-active=0.6000000000000001
+e-disabled=1
+e-period=2.5
+e-rate=100
+e-tilesize=400 0 0
+e-trail-cutoff=1000
+p-bindtoemitter=0.1 0
+p-life=0.4
+p-linger=1
+p-quadrot=0 -130 -20
+p-scale=15 0 0
+p-texture=Braum_Base_I_shield_trail.dds
+p-trailmode=3
+p-type=5
+p-uvscroll-rgb=0.1 0
+p-uvscroll-rgbXP1=0 0.3
+p-uvscroll-rgbXP2=1 1.5
+p-vel=0 1 -1
+p-vel1=0 1 0 125
+p-vel2=0.25 1 100 100
+p-vel3=0.5 1 0 80
+p-vel4=0.75 1 -100 105
+p-vel5=1 1 0 125
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 0.1 1 1 1
+p-xrgba3=0.4 0.1 0.1 1 1
+p-xrgba4=1 0.1 0.1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1.5 0 0
+p-xscale2=0.3 0.5 0 0
+p-xscale3=1 0.3 0 0
+

@@ -1,0 +1,15 @@
+[System]
+GroupPart1=feet
+GroupPart1Type=Simple
+GroupPart2=followsparks
+GroupPart2Type=Simple
+GroupPart3=flatring
+GroupPart3Type=Simple
+GroupPart4=flashring
+GroupPart4Type=Simple
+GroupPart5=whizrays
+GroupPart5Type=complex
+SoundOnCreate=Play_sfx_Malzahar_AlZaharCalloftheVoid_missilelaunch
+
+[UNKNOWN_HASHES]
+unk73AF821D=1

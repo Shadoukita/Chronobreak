@@ -1,0 +1,35 @@
+[System]
+GroupPart1=ravagespike
+GroupPart1Type=complex
+
+[ravagespike]
+e-life=1
+e-local-orient=1
+e-rate=3
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 80
+e-rotation1P2=1 60
+e-timeoffset=0.2
+p-bindtoemitter=0 0
+p-colorscale=1 0.8
+p-colortype=1 0
+p-drag=3 3 3
+p-life=0.2
+p-postoffset=0 -50 0
+p-quadrot=70 0 0
+p-rgba=color-rodofages.tga
+p-scale=50 40 50
+p-startframe=0
+p-texdiv=1 1
+p-texture=RavageSpike.tga
+p-type=1
+p-vel=0 1600 0
+p-xscale1=0 1 1 1
+p-xscale2=1 2 8 2
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk55A3942D=0 -100 0
+unk62ACEBF9=500
+unk7A84D89B=4

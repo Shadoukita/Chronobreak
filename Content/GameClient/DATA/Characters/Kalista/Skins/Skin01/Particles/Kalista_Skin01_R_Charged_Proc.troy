@@ -1,0 +1,22 @@
+[System]
+GroupPart1=clone
+GroupPart1Type=Simple
+
+[clone]
+KeywordsExcluded=ThreshSkin02
+e-alpharef=200
+e-life=0.2
+e-rate=1
+p-alphaslicerange=0.3370000123977661
+p-life=0.7000000000000001
+p-local-orient=1
+p-rgba=Kalista_Skin01_R_alphaslice_RGBA.dds
+p-simpleorient=3
+p-texture=Kalista_Skin01_R_alphaslice.dds
+p-type=11
+p-xscale=1
+p-xscale1=0 1.05
+p-xscale2=1 1.0099999904632568
+pass=100
+rendermode=4
+

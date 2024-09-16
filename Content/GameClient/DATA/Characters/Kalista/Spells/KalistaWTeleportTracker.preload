@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="orianaballindicatormedium.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Kalistaindicatormedium.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="jackintheboxpoof2.troy"}}, 
+}

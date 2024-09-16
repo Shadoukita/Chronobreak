@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kayle_skin07_e_light_lwing.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kayle_skin07_e_light_rwing.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kayle_skin07_e_light_lshoulder.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kayle_skin07_e_light_rshoulder.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="righteousfuryhalo_buf.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kaylerighteousfuryanim"}}, 
+}

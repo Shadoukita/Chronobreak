@@ -1,0 +1,27 @@
+[System]
+GroupPart1=bowsparkle
+GroupPart1Type=Simple
+
+[bowsparkle]
+e-local-orient=1
+e-rate=12
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.5
+p-numframes=1
+p-offset=0 20 0
+p-offsetYP1=0 -2
+p-offsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 1
+p-texture=absolutezero04.tga
+p-type=0
+rendermode=0
+

@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Armsmaster_CoupDeGrace.dds"
+BuffTextureName = L0_1
+L0_1 = "JaxRelentlessAttack"
+BuffName = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1
+L0_1 = {}
+L1_1 = "JaxSkin08"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

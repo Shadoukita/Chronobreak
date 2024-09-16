@@ -1,0 +1,44 @@
+[System]
+GroupPart1=bang
+GroupPart1Type=Simple
+GroupPart2=ring
+GroupPart2Type=Simple
+SoundOnCreate=Play_sfx_Alistar_Headbutt_hit
+
+[bang]
+e-life=1
+e-rate=2
+p-life=0.5
+p-linger=0
+p-offset=0 70 0
+p-quadrot=1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 45
+p-rgba=color-bellcurve.tga
+p-scale=70
+p-texdiv=2 1
+p-texture=HeadButt08.tga
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 2.5 1 1
+single-particle=1
+
+[ring]
+e-life=1
+e-rate=1
+p-life=0.4
+p-linger=0
+p-offset=0 90 0
+p-quadrot=1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 45
+p-rgba=color-bellcurve.tga
+p-scale=60
+p-startframe=1
+p-texdiv=2 1
+p-texture=HeadButt08.tga
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 2.5 1 1
+single-particle=1
+

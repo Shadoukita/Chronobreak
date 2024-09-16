@@ -1,0 +1,67 @@
+[SoftGlow]
+e-disabled=1
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-life=10
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-offset=10 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-scale=100 100 100
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=SRU_SJungle_mushroomGlow_soft.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=SoftGlow
+GroupPart2=motes
+SimulateEveryFrame=1
+
+[motes]
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-life=0.5
+p-numframes=2
+p-offset=25 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-randomstartframe=1
+p-scale=25 25 25
+p-texdiv=2 1
+p-texture=SRU_SJungle_mushroomGlow_motes.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+rendermode=4
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk2C8248B0=0 0.2
+unk2C8248B1=1 1
+unk9CDA4CCC=0 0 0 0
+unk9CDA4CCD=0.30000000000000004 1 1 1
+unk9CDA4CCE=1 0 0 0

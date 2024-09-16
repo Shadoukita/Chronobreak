@@ -1,0 +1,28 @@
+[System]
+GroupPart1=Trail
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Trail]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=30
+e-tilesize=80 0 0
+p-life=0.2
+p-linger=0.12
+p-offset=0 20 0
+p-rgba=Jinx_Base_E_Mis_Trail_RGB.tga
+p-scale=25 0 0
+p-texture=WhiteSquare.tga
+p-trailmode=0
+p-type=5
+p-xrgba=1 1 1 0.4
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 0 0
+p-xscale2=0.8 0 0 0
+pass=3
+rendermode=0
+

@@ -1,0 +1,32 @@
+[System]
+GroupPart1=dustClouds
+SimulateEveryFrame=1
+
+[dustClouds]
+e-rate=0.009999999776482582
+e-uvoffset=1 1
+e-uvoffsetXP1=0 -1
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 -1
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1 1
+p-life=300
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-local-orient=1
+p-mesh=sru_peref_clouds_05.scb
+p-meshtex=SRU_Peref_clouds_05.dds
+p-offset=1 1 11
+p-offsetYP1=0 0
+p-offsetYP2=1 300
+p-type=3
+p-uvscroll-rgb=-0.01 0
+p-uvscroll-rgbXP1=0 0.1
+p-uvscroll-rgbXP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.7 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+

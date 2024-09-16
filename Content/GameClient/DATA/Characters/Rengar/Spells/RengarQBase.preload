@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="rengarmanager"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarqbasebuff"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarqbuffbonus"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_base_q_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_base_q_buf_claw.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_base_q_buf_blade.troy"}}, 
+}

@@ -1,0 +1,37 @@
+[System]
+GroupPart1=beamflow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[beamflow]
+KeywordsExcluded=VelkozSkin01
+e-alpharef=60
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-tilesize=0 200 0
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.25
+p-linger=0
+p-offset=0 0 0
+p-randomstartframe=1
+p-scale=80 1 1
+p-texdiv=3 2
+p-texture=Azir_Skin01_BA_Beam_1x3.dds
+p-type=6
+p-uvscroll-rgb=2 0
+p-xrgba=1 0.8 0.95 1
+p-xrgba1=0.5 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale1=0.6000000000000001 1 0 0
+p-xscale2=0.8 0.75 0 0
+rendermode=0
+single-particle=1
+

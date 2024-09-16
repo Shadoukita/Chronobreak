@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Lulu_GiantGrowth.dds"
+BuffTextureName = L0_1
+L0_1 = "LuluR"
+BuffName = L0_1
+L0_1 = "lulu_R_tar_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1

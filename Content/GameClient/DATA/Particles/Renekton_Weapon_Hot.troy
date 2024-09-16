@@ -1,0 +1,198 @@
+[Brutal_weapon]
+KeywordsRequired=Renekton_brutal
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Renekton_Skin03_W_override.dds
+MaterialOverrideTransMap=Renekton_VG_trasition.dds
+e-life=1
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=8
+rendermode=1
+
+[Head_sub_VG]
+KeywordsRequired=Renekton_VolcanoGod
+e-rate=25
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-quadrot=1 1 1
+p-quadrotXP1=0 -60
+p-quadrotXP2=1 60
+p-scale=220 220 220
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=Renekton_skin05_W_sub_flash.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.3 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.25 1.25 1.25
+pass=-5
+rendermode=2
+uniformscale=1
+
+[RuneWars_weapon]
+KeywordsRequired=Renekton_RuneWars
+MaterialOverride1Priority=1
+MaterialOverride1Texture=renekton_runewars_hot.dds
+MaterialOverrideTransMap=Renekton_VG_trasition.dds
+e-life=1
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=16
+rendermode=1
+
+[System]
+GroupPart1=lines
+GroupPart10=lines_Skin06
+GroupPart10Type=Simple
+GroupPart1Type=Simple
+GroupPart2=White_Weapon
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=White_Weapon_galactic
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=White_Weapon_outback
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=Brutal_weapon
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=RuneWars_weapon
+GroupPart6Importance=High
+GroupPart6Type=Simple
+GroupPart7=VolcanoGod_weapon
+GroupPart7Importance=High
+GroupPart7Type=Simple
+GroupPart8=spark_VG
+GroupPart9=Head_sub_VG
+SimulateEveryFrame=1
+
+[VolcanoGod_weapon]
+KeywordsRequired=Renekton_VolcanoGod
+MaterialOverride1Priority=-10
+MaterialOverride1Texture=renekton_volcanogod_hot.tga
+MaterialOverrideTransMap=Renekton_VG_trasition.tga
+e-life=1
+p-coloroffset=0.1 0.1
+p-linger=5
+p-rgba=trans-renektonblade.tga
+p-scale=2
+p-trans-sample=0
+rendermode=4
+
+[White_Weapon]
+KeywordsRequired=Renekton_base
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Renekton_base_W_override.dds
+MaterialOverrideTransMap=Renekton_VG_trasition.dds
+e-life=1
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+rendermode=1
+
+[White_Weapon_galactic]
+KeywordsRequired=Renekton_galactic
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Renekton_Skin01_W_override.dds
+MaterialOverrideTransMap=Renekton_VG_trasition.dds
+e-life=1
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+rendermode=1
+
+[White_Weapon_outback]
+KeywordsRequired=Renekton_outback
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Renekton_Skin02_W_override.dds
+MaterialOverrideTransMap=Renekton_VG_trasition.dds
+e-life=1
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=8
+rendermode=1
+
+[lines]
+KeywordsExcluded=Renekton_VolcanoGod RenektonSkin06
+e-rate=20
+p-bindtoemitter=1 1
+p-colorscale=1 0.6000000000000001
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-quadrot=1
+p-quadrotP1=0 -60
+p-quadrotP2=1 60
+p-rgba=color-rainbowbell.tga
+p-scale=100
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-texture=angstlines.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+
+[lines_Skin06]
+KeywordsRequired=RenektonSkin06
+e-rate=20
+p-bindtoemitter=1 1
+p-colorscale=1 0.02500000037252903
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-quadrot=1
+p-quadrotP1=0 -60
+p-quadrotP2=1 60
+p-rgba=color-rainbowbell.tga
+p-scale=100
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-texture=angstlines.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+
+[spark_VG]
+KeywordsRequired=Renekton_VolcanoGod
+e-rate=6
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-quadrot=1 1 1
+p-quadrotXP1=0 -60
+p-quadrotXP2=1 60
+p-scale=90 90 90
+p-scaleXP1=0 0.6
+p-scaleXP2=1 1
+p-texture=Renekton_skin05_W_spike.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 1 0 0 0.05
+p-xscale=1 1 1
+p-xscale1=0 0.75 0.75 0.75
+p-xscale2=1 2 2 2
+pass=5
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk1DF0DF8D=1
+unk2F68C7F1=1
+unk824D7C61=1
+unkB65B3CBD=1

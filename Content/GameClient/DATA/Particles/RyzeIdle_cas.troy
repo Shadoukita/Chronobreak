@@ -1,0 +1,59 @@
+[System]
+GroupPart1=hot1
+GroupPart1Type=Simple
+GroupPart2=lightning
+SimulateEveryFrame=1
+
+[hot1]
+e-life=-1
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=color-bellramp.tga
+p-scale=30
+p-startframe=1
+p-texdiv=2 3
+p-texture=RyzeBasicAttack.tga
+
+[lightning]
+e-life=-1
+e-rate=40
+p-bindtoemitter=0.5
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=3 1
+p-life=0.05000000074505806
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-numframes=4
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rgba=color-lightning3.tga
+p-scale=10 30 0
+p-scaleYP1=0 0.2
+p-scaleYP2=1 1
+p-startframe=1
+p-texdiv=2 2
+p-texture=lightning02.tga
+p-type=2
+p-xscale1=0 1 1 1
+p-xscale2=1 2 1 1
+
+[UNKNOWN_HASHES]
+unk0A9A88E3=40
+unkC4C8E680=1
+unkE639AB9A=1

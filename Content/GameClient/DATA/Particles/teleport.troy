@@ -1,0 +1,49 @@
+[System]
+GroupPart1=hoops
+GroupPart1Type=Simple
+GroupPart2=lines
+GroupPart2Type=Simple
+GroupPart3=fire04
+GroupPart4=ligntning
+GroupPart5=lightning4
+GroupPart6=lightning5
+GroupPart7=lightning6
+
+[hoops]
+e-life=2
+e-rate=10
+field-drag-1=ringdrag
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0.3499999940395355
+p-life=6
+p-numframes=2
+p-postoffset=0 800 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-teleporthoop.tga
+p-rotvel=1
+p-rotvelP1=0 -30
+p-rotvelP2=1 30
+p-scale=100
+p-scale1=0 1
+p-scale2=1 0.2
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 1
+p-texture=teleporthoop.tga
+p-type=1
+p-vel=0 -600 0
+p-xscale1=0 0.2
+p-xscale2=0.30000000000000004 0.2
+p-xscale3=0.5 1.5
+p-xscale4=1 1.5
+rendermode=0
+
+[ringdrag]
+f-drag=2
+f-pos=0 0 0
+f-radius=300
+

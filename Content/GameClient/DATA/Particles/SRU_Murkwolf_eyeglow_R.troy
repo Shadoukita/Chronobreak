@@ -1,0 +1,38 @@
+[Flash]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=100
+e-rgba=255 255 255 255
+e-tilesize=200 0 0
+e-trail-cutoff=300
+flag-disable-z=0
+p-bindtoemitter=1
+p-bindtoemitter1=0 0.15
+p-bindtoemitter2=0.25 0
+p-drag=1 1 1
+p-life=0.2
+p-linger=0
+p-offset=0 0 0
+p-quadrot=0 90 0
+p-scale=15 0 0
+p-texture=SRU_murkwolf_eyeglow.dds
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=-0.10000000149011612 0
+p-worldaccel=0 0 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.6
+p-xrgba3=0.7 0.5 0 0 0.4
+p-xrgba4=1 0.5 0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=0.2 1.5 1.5 1.5
+p-xscale3=0.5 0 0 0
+p-xscale4=1 0 0 0
+pass=1
+rendermode=4
+
+[System]
+GroupPart1=Flash
+SimulateEveryFrame=1
+

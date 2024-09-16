@@ -1,0 +1,106 @@
+[Bubble]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=0.2
+p-offset=100 0 0
+p-orbitvel=0 5 0
+p-postoffset=0 -10 0
+p-rgba=color-rampdown32.tga
+p-scale=100 100 100
+p-texture=rainbowring32.tga
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.3 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+rendermode=1
+single-particle=1
+
+[Fish]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=fizzbait_idle1.anm
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=1000000
+p-linger=0
+p-meshtex=fizz_fish_TX_CM_256.tga
+p-offset=100 0 0
+p-orbitvel=0 5 0
+p-postoffset=0 70 0
+p-quadrot=0 270 0
+p-rgba=color-hold.tga
+p-scale=3 3 3
+p-shadow=1
+p-skeleton=fizzbait.skl
+p-skin=fizzbait.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[Flash]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=0.2
+p-linger=0
+p-offset=100 0 0
+p-orbitvel=0 5 0
+p-postoffset=0 -10 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rgba=color-hold.tga
+p-scale=70 70 70
+p-texture=flareblue.tga
+p-type=0
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.1 2.5 2.5 2.5
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+
+[Rays]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-colortype=1 3
+p-fixedorbit=1
+p-fixedorbittype=1
+p-life=0.2
+p-offset=100 0 0
+p-orbitvel=0 5 0
+p-postoffset=0 -10 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=100 100 100
+p-scaleP1=0 0.7 0.7 0.7
+p-scaleP2=1 1 1 1
+p-texture=bigradialhalo.tga
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.3 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart2=Rays
+GroupPart3=Bubble
+GroupPart4=Fish
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Fizz_FizzMarinerDoomMissile_hit
+SoundPersistent=Play_sfx_Fizz_FizzMarinerDoomMissile_buffactivate
+

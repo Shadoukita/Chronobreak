@@ -1,0 +1,28 @@
+[Glow]
+e-life=8
+e-linger=0
+e-rate=20
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-flexscale=0.005
+p-frameRate=0
+p-life=0.2
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-beacontrail.tga
+p-scale=70
+p-scaleP1=0 0.3
+p-scaleP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=2 2
+p-texture=Glows.tga
+p-type=0
+rendermode=0
+
+[System]
+GroupPart1=Glow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

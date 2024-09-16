@@ -1,0 +1,30 @@
+[Ring]
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-offset=0 10 0
+p-postoffset=0 30 0
+p-scale=550 0 0
+p-simpleorient=2
+p-texture=MissFortune_Skin07_E_Unit_Tar_green_ring.dds
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.66
+p-xscale2=1 0.66
+rendermode=1
+teamcolor-correction=1
+
+[System]
+GroupPart1=Ring
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_MissFortuneSkin07_MissFortuneScattershot_buffactivate
+

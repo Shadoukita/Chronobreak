@@ -1,0 +1,27 @@
+[Droid_Invis]
+e-life=1.25
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-alphaslicerange=0.1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=0.5
+p-local-orient=1
+p-numframes=1
+p-rgba=Khazix_Skin01_R_Invisible_AlphaSlice_RGB.tga
+p-scale=1.0499999523162842
+p-simpleorient=3
+p-startframe=0
+p-texdiv=4 4
+p-texture=Khazix_Skin01_R_Invisible.tga
+p-type=11
+pass=40
+rendermode=4
+
+[System]
+GroupPart1=Droid_Invis
+GroupPart1Type=Simple
+

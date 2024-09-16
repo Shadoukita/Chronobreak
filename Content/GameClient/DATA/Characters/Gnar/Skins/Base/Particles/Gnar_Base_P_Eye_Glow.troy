@@ -1,0 +1,26 @@
+[EyeGlow]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 255
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=4
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-scale=30 30 0
+p-texture=Gnar_Base_P_Eye_Glow.tga
+p-type=0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.7 0.7 0
+p-xscale2=1 1 1 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=EyeGlow
+SimulateEveryFrame=1
+

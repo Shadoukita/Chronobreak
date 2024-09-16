@@ -1,0 +1,95 @@
+[System]
+GroupPart1=WeaponTrail_base
+GroupPart2=WeaponTrail_classic
+GroupPart3=WeaponTrail_junk
+GroupPart4=WeaponTrail_baseball
+SimulateEveryFrame=1
+
+[WeaponTrail_base]
+KeywordsExcluded=ClassicTrundle BaseballTrundle JunkyardTrundle
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Trundle_Weapon_Trail.dds
+p-postoffset=-70 -20 0
+p-quadrot=0 20 0
+p-rgba=color-rampdown.dds
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=1.2000000000000002 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_baseball]
+KeywordsRequired=BaseballTrundle
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Trundle_Classic_Weapon_Trail.dds
+p-postoffset=-70 -20 0
+p-quadrot=0 20 0
+p-rgba=color-rampdown.dds
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=1.2000000000000002 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_classic]
+KeywordsRequired=ClassicTrundle
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Trundle_Classic_Weapon_Trail.dds
+p-postoffset=-70 -20 0
+p-quadrot=0 20 0
+p-rgba=color-rampdown.dds
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=1.2000000000000002 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_junk]
+KeywordsRequired=JunkyardTrundle
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Trundle_junk_Weapon_Trail.dds
+p-postoffset=-70 -20 0
+p-quadrot=0 20 0
+p-rgba=color-rampdown.dds
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=1.2000000000000002 0
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="varusqchannel.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="varusqchannel2.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="varusqanimations"}}, 
+{Function=BBPreloadSpell, Params={Name="varusqlaunchsound"}}, 
+{Function=BBPreloadSpell, Params={Name="varusqlaunch"}}, 
+{Function=BBPreloadSpell, Params={Name="varusq"}}, 
+{Function=BBPreloadParticle, Params={Name="varusqexpire.troy"}}, 
+}

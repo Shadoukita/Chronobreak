@@ -1,0 +1,46 @@
+[GhostImages]
+e-life=5
+e-linger=10
+e-local-orient=1
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=0
+p-bindtoemitter1=0 0
+p-bindtoemitter2=0.2 1
+p-colortype=1 0
+p-fresnel=1
+p-fresnel-color=1 1 1 1
+p-life=0.55
+p-lifeP1=0 0.75
+p-lifeP2=1 1
+p-linger=0.2
+p-local-orient=1
+p-offset=0 0 0
+p-rgba=global_ss_teleport-color_ramp.tga
+p-scale=1 1 1
+p-simpleorient=3
+p-texture=global_ss_teleport-color_2.tga
+p-type=11
+p-uvscroll-rgb=-0.5 0
+p-uvscroll-rgbXP1=0 -0.5
+p-uvscroll-rgbXP2=1 1
+p-vel=1 1 1
+p-velXP1=0 -50
+p-velXP2=1 50
+p-velYP1=0 -50
+p-velYP2=1 50
+p-velZP1=0 -55
+p-velZP2=1 -270
+p-xscale1=0 1 1 10
+p-xscale2=1 1.0099999904632568 1.0099999904632568 10
+pass=100
+rendermode=4
+
+[System]
+GroupPart1=GhostImages
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk58520E93=0
+unk92E8668C=1

@@ -1,0 +1,73 @@
+[Beam_Core]
+e-life=80
+e-linger=0
+e-rate=1
+e-uvoffset=0 0.3499999940395355
+p-backfaceon=1
+p-coloroffset=0.1 0
+p-colorscale=0.9 1
+p-life=3
+p-linger=0
+p-mesh=Azir_Base_Z_Beam_Core.scb
+p-meshtex=Azir_Base_Z_Beam_Core.dds
+p-scale=3 3 1
+p-texdiv=1 2
+p-type=6
+p-uvscroll-rgb=0 0.095
+p-uvscroll-rgbYP1=0 0.25
+p-uvscroll-rgbYP2=1 1
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[OuterBeam_1]
+e-life=80
+e-linger=0
+e-rate=1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0.5
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0.5
+e-uvoffsetYP2=1 1
+p-backfaceon=1
+p-coloroffset=0.1 0
+p-colorscale=0.9 1
+p-life=3
+p-linger=0
+p-mesh=Azir_Base_Z_Beam_Outer.scb
+p-meshtex=Azir_Base_Z_Beam_Outer.dds
+p-offset=0 100 0
+p-offsetYP1=0 0.5
+p-offsetYP2=1 1
+p-quadrot=0 0 180
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-scale=2 2 1
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-texdiv=5 0.5
+p-type=6
+p-uvscroll-rgb=0 0.5
+p-uvscroll-rgbYP1=0 0.5
+p-uvscroll-rgbYP2=1 1
+p-xrgba=1 1 1 0.7
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.25 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+rendermode=4
+
+[System]
+GroupPart1=Beam_Core
+GroupPart1Importance=High
+GroupPart2=OuterBeam_1
+GroupPart2Importance=Low
+PersistThruDeath=1
+SimulateEveryFrame=1
+

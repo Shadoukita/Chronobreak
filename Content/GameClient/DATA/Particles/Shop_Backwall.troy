@@ -1,0 +1,26 @@
+[System]
+GroupPart1=backwall
+
+[backwall]
+e-local-orient=1
+e-rate=2
+e-rgba=255 255 255 130
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=3
+p-mesh=Saucer6.sco
+p-meshtex=StoreCrown.tga
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 100
+p-quadrotYP2=1 120
+p-scale=15 10 15
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=0
+

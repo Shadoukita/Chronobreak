@@ -1,0 +1,86 @@
+[Flame]
+e-local-orient=1
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=FlameAccel
+p-bindtoemitter=1 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=4
+p-lifeP1=0 0.1
+p-lifeP2=0.8999999761581421 0.15000000596046448
+p-lifeP3=1 0.30000000000000004
+p-numframes=12
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 30
+p-postoffset=0 0 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-Brand_Zombie_Flames.tga
+p-rotvel=360
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.8999999761581421 -0.30000001192092896
+p-rotvelP4=1 1
+p-scale=4
+p-scaleP1=0 0
+p-scaleP2=0.75 3
+p-scaleP3=1.5 3
+p-startframe=0
+p-texdiv=4 4
+p-texture=Brand_Zombie_flames.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.6000000000000001 3
+p-xscale3=0.9 3
+p-xscale4=1.5 0.75
+rendermode=0
+
+[FlameAccel]
+f-accel=0 300 0
+f-localspace=0
+
+[Glow]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=30
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.1
+p-linger=0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellramp.tga
+p-texture=Brand_Zombie_glow.tga
+p-type=0
+rendermode=0
+
+[System]
+GroupPart1=Flame
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Glow
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk1E0E56D5=300
+unk2FE53305=400
+unk9E2B8451=0 30 0

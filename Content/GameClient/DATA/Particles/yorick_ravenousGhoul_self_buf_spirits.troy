@@ -1,0 +1,56 @@
+[System]
+GroupPart3=large
+GroupPart3Importance=High
+GroupPart4=medium
+GroupPart4Importance=High
+SimulateEveryFrame=1
+
+[large]
+e-rate=1
+e-rgba=255 255 255 255
+e-timeoffset=0.4
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1.5
+p-linger=0
+p-mesh=spiral_01.sco
+p-meshtex=invis_wisp_01.tga
+p-numframes=1
+p-postoffset=0 -50 -30
+p-quadrot=0 0 0
+p-scale=0.55 0.55 0.55
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 0.3499999940395355
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.65 0 0 0
+p-xrgba2=0.2 0.65 0 0 1
+p-xrgba3=0.8 0.65 0 0 1
+p-xrgba4=1 0.65 0 0 0
+rendermode=0
+
+[medium]
+e-rate=1
+e-rgba=255 255 255 255
+e-timeoffset=0.4
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1.5
+p-linger=0
+p-mesh=spiral_01.sco
+p-meshtex=invis_wisp_01.tga
+p-numframes=1
+p-postoffset=0 -50 -30
+p-scale=0.4 0.5 0.4
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 0.42500001192092896
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.65 0 0 0
+p-xrgba2=0.2 0.65 0 0 1
+p-xrgba3=0.8 0.65 0 0 1
+p-xrgba4=1 0.65 0 0 0
+rendermode=0
+

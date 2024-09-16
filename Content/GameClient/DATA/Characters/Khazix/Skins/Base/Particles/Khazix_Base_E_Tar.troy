@@ -1,0 +1,38 @@
+[System]
+GroupPart1=Void_FG_Lightning
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Void_FG_Lightning]
+e-life=0.8
+e-rate=5
+p-frameRate=20
+p-life=0.5
+p-mesh=Khazix_Base_E_Tar.sco
+p-meshtex=Khazix_Base_Z_VoidLightning.tga
+p-numframes=8
+p-postoffset=0 80 0
+p-quadrot=0 360 0
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-randomstartframe=1
+p-rgba=Khazix_Base_Z_VoidLightning_RGB.tga
+p-rotvel=0 200 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=100 100 100
+p-scaleXP1=0 0.75
+p-scaleXP2=1 1
+p-scaleYP1=0 0.75
+p-scaleYP2=1 1
+p-scaleZP1=0 0.75
+p-scaleZP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-xscale1=0 1 0 1
+p-xscale2=1 1 1 1
+pass=15
+rendermode=4
+single-particle=1
+

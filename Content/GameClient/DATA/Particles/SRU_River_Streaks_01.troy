@@ -1,0 +1,23 @@
+[Streaks2]
+e-rate=0.30000000000000004
+p-bindtoemitter=1 1
+p-life=5.300000000000001
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_River_Streaks_03.scb
+p-meshtex=SRU_River_Ripples_01.DDS
+p-meshtex-mult=SRU_River_Ripples_Mult_01.DDS
+p-type=3
+p-uvscroll-rgb=0 -0.2
+p-uvscroll-rgb-mult=-0.009999999776482582 -0.10000000149011612
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=Streaks2
+SimulateEveryFrame=1
+group-vis=650
+

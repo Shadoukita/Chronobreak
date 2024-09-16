@@ -1,0 +1,94 @@
+[Flares_End]
+e-life=10
+e-rate=100
+e-rgba=128 255 251 255
+e-timeoffset=4
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-quadrot=1 0 180
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-scale=80 50 0
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texdiv=2 2
+p-texture=Malphite_Skin06_Z_Flares_01.dds
+p-type=1
+p-vel=0 -50 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0.007843 0.298039 0.54902 0
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 3 1 1
+pass=10
+rendermode=4
+
+[Flares_Start]
+e-life=7.5
+e-rate=200
+e-rgba=255 255 127 255
+e-timeoffset=3.5
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-quadrot=1 0 180
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-scale=50 40 0
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texdiv=2 2
+p-texture=Malphite_Skin06_Z_Flares_01.dds
+p-type=1
+p-vel=0 -50 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 3 1 1
+pass=10
+rendermode=4
+
+[Glow]
+e-life=9.5
+e-rate=350
+e-rgba=255 255 255 17
+e-timeoffset=3.5
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-local-orient=1
+p-quadrot=1 0 0
+p-quadrotXP1=0 -360
+p-quadrotXP2=1 360
+p-scale=70 70 0
+p-texture=Malphite_Skin06_Z_Glow_01.DDS
+p-vel=-650 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 0.368627 0.309804 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.2 0.2 0.2
+rendermode=4
+
+[System]
+GroupPart1=Flares_Start
+GroupPart2=Flares_End
+GroupPart3=Glow
+SimulateEveryFrame=1
+

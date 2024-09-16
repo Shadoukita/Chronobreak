@@ -1,0 +1,26 @@
+[System]
+GroupPart1=Test
+SimulateEveryFrame=1
+
+[Test]
+e-life=1
+e-linger=0
+e-rate=1
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 0
+e-uvoffset-multXP2=1 1
+e-uvoffset-multYP1=0 0
+e-uvoffset-multYP2=1 1
+p-bindtoemitter=1
+p-life=30
+p-mesh=uvClampWrap_test_geo.scb
+p-meshtex=uvClampWrap_test_geo_tex.dds
+p-meshtex-mult=SR2_dustCloud_mult.dds
+p-scale=5 5 5
+p-type=3
+p-uvscroll-rgb-mult=1 1
+p-xrgba=1 1 1 1
+pass=0
+rendermode=1
+single-particle=1
+

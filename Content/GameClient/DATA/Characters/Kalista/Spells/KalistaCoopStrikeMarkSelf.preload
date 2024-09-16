@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kalista_base_p_blade_hero_right.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_p_blade_right.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_p_reticle.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistacoopstrikemarkself"}}, 
+}

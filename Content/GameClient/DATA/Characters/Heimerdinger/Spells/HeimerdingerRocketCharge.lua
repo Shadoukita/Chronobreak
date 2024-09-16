@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Kennen_MarkOfStorm.dds"
+BuffTextureName = L0_1
+L0_1 = "KennenMarkOfStorm"
+BuffName = L0_1
+L0_1 = ""
+AutoBuffActivateEffect = L0_1
+L0_1 = ""
+AutoBuffActivateEffect2 = L0_1

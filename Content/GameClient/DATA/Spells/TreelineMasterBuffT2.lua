@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "TreelineMasterBuffT2.dds"
+BuffTextureName = L0_1
+L0_1 = "TreelineMasterBuffT2"
+BuffName = L0_1
+L0_1 = "TT_masterbuff2.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+NonDispellable = L0_1

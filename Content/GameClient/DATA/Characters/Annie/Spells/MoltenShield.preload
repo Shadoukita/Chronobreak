@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="anniesparks.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="pyromania"}}, 
+}

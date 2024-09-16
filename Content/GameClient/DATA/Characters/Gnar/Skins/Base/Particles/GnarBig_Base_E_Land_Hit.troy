@@ -1,0 +1,95 @@
+[Hit]
+e-life=1
+flag-disable-z=1
+p-life=0.25
+p-linger=0.25
+p-numframes=2
+p-quadrot=90 1 90
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=Gnar_Base_BA_Hit_rgba.dds
+p-scale=100 100 0
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1
+p-texdiv=2 1
+p-texture=GnarBig_Base_E_Land_Hit.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0
+p-xscale2=0.2 1 1 0
+p-xscale3=1 2 2 0
+single-particle=1
+
+[HitBubble]
+e-life=0.1
+e-local-orient=0
+e-rate=40
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetYP1=0 0
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=0.4
+p-linger=0
+p-mesh=GnarBig_Base_E_HitBubble.scb
+p-meshtex=GnarBig_Base_E_HitBubble.dds
+p-quadrot=90 0 0
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rgba=GnarBig_Base_E_Bellramp_rgba.dds
+p-scale=0.5 0.5 1
+p-scale1=0 1 1 1
+p-scale2=0.5 1 1 1.2000000000000002
+p-scale3=1 1 1 1
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1
+p-scaleYP1=0 0.9
+p-scaleYP2=1 1
+p-scaleZP1=0 0.99
+p-scaleZP2=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -2
+rendermode=4
+
+[Spike]
+e-life=1
+e-rate=4
+flag-disable-z=1
+p-frameRate=17
+p-life=0.5
+p-linger=0.5
+p-numframes=9
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=100 100 30
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-scaleZP1=0 0
+p-scaleZP2=1 1
+p-texdiv=3 3
+p-texture=GnarBig_Base_E_Land_Hit_Spike.dds
+p-type=2
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1 2 1.5
+p-xscale3=1 1 2 2
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Hit
+GroupPart2=Spike
+GroupPart3=HitBubble
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Gnar_GnarBigE_hit2
+

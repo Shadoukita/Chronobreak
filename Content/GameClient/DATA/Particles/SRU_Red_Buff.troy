@@ -1,0 +1,28 @@
+[System]
+GroupPart1=mesh
+SimulateEveryFrame=1
+
+[mesh]
+ChildParticleName=SRU_Red_Buff_child.troy
+ChildSpawnAtBone=JOINT2
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=SRU_Red_Buff7.anm
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-local-orient=0
+p-meshtex=SRU_Wolves_death_mesh_tex.dds
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=SRU_Red_buff3.skl
+p-skin=SRU_Red_Buff3.skn
+p-type=3
+p-uvscroll-no-alpha=1
+pass=3
+rendermode=3
+single-particle=1
+uniformscale=0
+

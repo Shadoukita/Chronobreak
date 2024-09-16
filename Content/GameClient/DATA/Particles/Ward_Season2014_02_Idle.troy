@@ -1,0 +1,66 @@
+[Basic]
+e-rate=2
+e-rgba=85 255 255 255
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0.30000000000000004
+p-postoffset=0 5 10
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rotvel=30 0 0
+p-rotvelXP1=0 0.5
+p-rotvelXP2=1 1
+p-scale=60 60 60
+p-texture=Ward_Season2014_01_Idle.dds
+p-vel=0 1 0
+p-worldaccel=0 0 5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.6 0.6 0.6
+p-xscale2=1 1 1 1
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Basic
+GroupPart2=Temp_Mesh
+SimulateEveryFrame=1
+
+[Temp_Mesh]
+e-rate=2
+p-bindtoemitter=1 1
+p-life=2
+p-mesh=sightward_eos_04_sphere.scb
+p-meshtex=Sightward_EOS_04_Cloud_01.dds
+p-numframes=4
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rotvel=20 20 20
+p-scale=0.3199999928474426 0.3199999928474426 0.3199999928474426
+p-texdiv=2 2
+p-type=3
+p-uvscroll-rgb=0 0.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+

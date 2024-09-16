@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="jaycepassivedebuff"}}, 
+{Function=BBPreloadParticle, Params={Name="jayce_charged_hit_ranged_skn1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="jayce_charged_hit_ranged.troy"}}, 
+}

@@ -1,0 +1,24 @@
+[System]
+GroupPart1=beam1
+SimulateEveryFrame=1
+group-vis=5000
+
+[beam1]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=0 255 0 50
+e-tilesize=0 400 0
+p-bindtoemitter=1
+p-life=4.1000000000000005
+p-linger=0
+p-offset=0 0 0
+p-scale=30 1 1
+p-texture=thresh_barbwire.tga
+p-type=6
+pass=-1
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+

@@ -1,0 +1,27 @@
+[System]
+GroupPart1=barrel
+SimulateEveryFrame=1
+
+[barrel]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.09000000357627869
+p-bindtoemitter=1
+p-drag=1 0 0
+p-life=2
+p-linger=0
+p-mesh=Gragas_Base_Q_Mis.sco
+p-meshtex=Gragas_Base_Q_Mis.tga
+p-offset=0 0 0
+p-postoffset=-70 0 -100
+p-quadrot=0 5 5
+p-rotvel=-600 0 0
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-shadow=1
+p-type=3
+p-vel=70 0 -5
+rendermode=3
+single-particle=1
+

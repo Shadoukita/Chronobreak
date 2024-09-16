@@ -1,0 +1,72 @@
+[Attract1]
+f-accel=50
+f-pos=500 200 -400
+f-radius=200
+
+[Attract2]
+f-accel=50
+f-pos=-200 200 200
+f-radius=200
+
+[Drag]
+f-drag=0.1
+f-pos=0 500 0
+f-radius=10000
+
+[Fuzz]
+e-life=-1
+e-rate=10
+e-rateP1=0 0.2
+e-rateP2=1 1
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 60
+field-attract-1=Attract1
+field-attract-2=Attract2
+field-drag-1=Drag
+field-noise-1=Noise
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=10
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=80
+p-quadrot=0 0 1
+p-rgba=color-dandelions.tga
+p-rotvel=180 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=10
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=1
+p-texdiv=3 2
+p-texture=Dandelion_env.tga
+p-vel=120 0 0
+p-velXP1=0 -1
+p-velXP2=0.5 -0.5
+p-velXP3=0.5099999904632568 0.5
+p-velXP4=1 1
+rendermode=1
+
+[Noise]
+f-period=2
+f-pos=0 1 0
+f-radius=10000
+f-veldelta=30
+
+[System]
+GroupPart1=Fuzz
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+build-up-time=10
+
+[UNKNOWN_HASHES]
+unk390DC62C=0 0
+unk390DC62D=1 1
+unkC007BE94=0 90 0

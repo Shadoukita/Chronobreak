@@ -1,0 +1,25 @@
+global using System.Numerics;
+global using log4net;
+global using GameServerCore;
+global using GameServerCore.Enums;
+global using GameServerCore.NetInfo;
+global using GameServerCore.Packets.Enums;
+global using Chronobreak.GameServer;
+global using GameServerCore.Content;
+global using Chronobreak.GameServer.Commands;
+global using Chronobreak.GameServer.Inventory;
+global using Chronobreak.GameServer.Logging;
+global using Chronobreak.GameServer.Chatbox;
+global using Chronobreak.GameServer.API;
+global using Chronobreak.GameServer.Scripting.CSharp.Converted;
+global using MapScripts.Mutators;
+global using MapScripts.GameModes;
+global using MapScripts;
+global using Chronobreak.GameServer.GameObjects;
+global using Chronobreak.GameServer.GameObjects.StatsNS;
+global using Chronobreak.GameServer.GameObjects.AttackableUnits.AI;
+global using Chronobreak.GameServer.GameObjects.AttackableUnits;
+global using Chronobreak.GameServer.GameObjects.SpellNS.Missile;
+
+global using static Chronobreak.GameServer.Scripting.Lua.Functions;
+global using static Chronobreak.GameServer.Scripting.Lua.Functions_BBB_and_CS;

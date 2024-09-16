@@ -1,0 +1,77 @@
+[System]
+GroupPart1=spiral_ground
+GroupPart2=spotlight
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[spiral_ground]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=10
+e-rate1=0 0
+e-rate2=0.2 2
+e-rate3=1 6
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1.9000000000000001
+p-linger=0
+p-mesh=Nasus_Base_R_Aura_Energy.sco
+p-meshtex=Karthus_Base_R_Swirl_Scroll.dds
+p-meshtex-mult=Karthus_Base_R_Swirl_Mask.dds
+p-orbitvel=0 -1 0
+p-postoffset=0 50 0
+p-quadrot=10 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rotvel=0 10 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=30 30 30
+p-scale1=0 0 0 0
+p-scale2=0.3 0.6 1 0.6
+p-scale3=1 1.2000000000000002 3 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=-0.15 -1
+p-uvscroll-rgb1=0 1 1
+p-uvscroll-rgb2=0.7 1 1.2
+p-uvscroll-rgb3=1 1 2.5
+p-uvscroll-rgbXP1=0 0
+p-uvscroll-rgbXP2=1 1
+p-uvscroll-rgbYP1=0 2
+p-uvscroll-rgbYP2=1 0.1
+p-vel=0 50 0
+p-xrgba=1 1 1 0.25
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.2 1 1 1 0.5
+p-xrgba3=0.85 1 1 1 1
+p-xrgba4=0.95 1 1 1 0
+p-xscale1=0 1 2 1
+p-xscale2=1 1.5 4 1.5
+pass=3
+rendermode=4
+
+[spotlight]
+e-life=1
+e-linger=0
+e-rate=2
+e-rgba=50 255 225 255
+p-bindtoemitter=1 1
+p-life=3
+p-linger=1
+p-postoffset=0 0 0
+p-quadrot=90 0 90
+p-rotvel=0 130 0
+p-scale=300 300 200
+p-simpleorient=2
+p-texture=KARTHUS_BASE_Z_SPOTLIGHT.DDS
+p-type=1
+p-xrgba=1 1 1 0.35
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.6 0.5 0.5 0.5
+p-xscale5=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+rendermode=4
+single-particle=1
+

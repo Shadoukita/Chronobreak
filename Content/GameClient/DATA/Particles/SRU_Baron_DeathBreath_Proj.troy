@@ -1,0 +1,56 @@
+[System]
+GroupPart1=Trail
+GroupPart2=TrailGlow
+SimulateEveryFrame=1
+
+[Trail]
+e-active=1.5
+e-life=1
+e-linger=1
+e-period=1.5
+e-rate=100
+e-rgba=172 172 172 255
+e-tilesize=100 0 0
+e-trail-cutoff=1500
+p-life=0.30000000000000004
+p-quadrot=0 90 0
+p-scale=80 0 0
+p-texdiv=3 1
+p-texture=SRU_Baron_DeathBreath_Breath_Trail.dds
+p-trailmode=1
+p-type=5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.6 0.7 0.7 0.7 1
+p-xrgba4=1 0.5 0.5 0.5 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+pass=1
+rendermode=1
+
+[TrailGlow]
+e-active=1
+e-life=1.5
+e-period=1
+e-rate=100
+e-tilesize=100 0 0
+e-trail-cutoff=300
+p-life=0.5
+p-local-orient=1
+p-scale=50 1 1
+p-texdiv=2 1
+p-texture=SRU_Baron_DeathBreath_GoopTrail.dds
+p-type=5
+p-uvscroll-rgb=2 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.01 1 1 1 1
+p-xrgba3=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=2
+rendermode=1
+

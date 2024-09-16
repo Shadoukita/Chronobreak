@@ -1,0 +1,17 @@
+{"EncounterDefinition": {
+"BonusValue": 12,
+"SquadAI": "Guard",
+"MonsterGroups":
+[
+	{
+		"Monsters":
+		[
+			{
+				"SkinName": "AscWardOwned",
+				"Value": 1,
+				"Count": 1
+			}
+		]
+	}
+]
+}} 

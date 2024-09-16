@@ -1,0 +1,124 @@
+[Rise]
+f-accel=0 40 0
+f-localspace=0
+
+[SparksDrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=2000
+
+[System]
+GroupPart1=atomic_mist
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=frost_mist
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=frost_mist_02
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[atomic_mist]
+KeywordsRequired=Darius_ZaunKnight
+e-life=5
+e-linger=1.5
+e-rate=25
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Rise
+field-drag-1=SparksDrag
+p-bindtoemitter=0.7000000000000001 0
+p-life=0.75
+p-lifeP1=0 0.5
+p-lifeP2=0.5 0.75
+p-lifeP3=1 1
+p-linger=-1
+p-numframes=9
+p-offset=3 0 3
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_12.tga
+p-scale=45
+p-scaleP1=0 0.65
+p-scaleP2=1 1
+p-texdiv=3 3
+p-texture=Darius_ZaunKnight_atomicSmoke.tga
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=0.5 0.7
+p-xscale3=1 1
+rendermode=0
+
+[frost_mist]
+KeywordsRequired=Darius_NorseKing
+e-life=5
+e-linger=1.5
+e-rate=20
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.5 0.75
+p-lifeP3=1 1
+p-linger=1
+p-numframes=9
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_12_e.tga
+p-scale=65
+p-scaleP1=0 0.65
+p-scaleP2=1 1
+p-texdiv=2 1
+p-texture=Darius_Norse_King_frost_mist_02.tga
+p-vel=0 100 0
+p-xscale=1
+p-xscale1=0 0.3
+p-xscale2=0.5 0.3
+p-xscale3=1 0.3
+rendermode=0
+
+[frost_mist_02]
+KeywordsRequired=Darius_NorseKing
+e-life=5
+e-linger=0.5
+e-rate=25
+field-accel-1=Rise
+field-drag-1=SparksDrag
+p-bindtoemitter=1 0.3
+p-life=0.6
+p-lifeP1=0 0.5
+p-lifeP2=0.5 0.75
+p-lifeP3=1 1
+p-linger=-1
+p-numframes=9
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_12_e.tga
+p-scale=55
+p-scaleP1=0 0.65
+p-scaleP2=1 1
+p-texdiv=2 1
+p-texture=Darius_Norse_King_frost_mist_02.tga
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.5 0.7
+p-xscale3=1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkD93A9303=0 0 0 0
+unkD93A9304=1 0 1 0

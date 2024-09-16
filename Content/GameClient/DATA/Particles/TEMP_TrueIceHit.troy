@@ -1,0 +1,59 @@
+[System]
+GroupPart1=center
+GroupPart1Type=Simple
+GroupPart2=spark1
+GroupPart2Type=Simple
+
+[center]
+e-life=0.2
+p-bindtoemitter=1 0
+p-frameRate=0
+p-life=0.7000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.1
+p-offset=0 10 0
+p-postoffset=0 70 0
+p-quadrot=0
+p-rgba=color-snowball.tga
+p-rotvel=-1
+p-rotvel1=0 0
+p-rotvel2=1 100
+p-rotvelP1=0 0.7000000000000001
+p-rotvelP2=1 1.2000000000000002
+p-scale=15
+p-startframe=2
+p-texdiv=2 3
+p-texture=IceArrow03.tga
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.1 6
+p-xscale3=1 4
+
+[spark1]
+e-life=1
+e-rate=5
+p-bindtoemitter=1 0
+p-flexoffset=0.004999999888241291
+p-frameRate=0
+p-life=0.4
+p-lifeP1=0 0.8
+p-lifeP2=1 1.1
+p-offset=0 10 0
+p-quadrot=45
+p-quadrotP1=0 45
+p-quadrotP2=1 90
+p-rgba=color-snowball.tga
+p-rotvel=0
+p-scale=20
+p-simpleorient=2
+p-startframe=1
+p-texdiv=2 3
+p-texture=IceArrow03.tga
+p-type=1
+p-vel=0 -50 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.1 6
+p-xscale3=1 2
+single-particle=1
+

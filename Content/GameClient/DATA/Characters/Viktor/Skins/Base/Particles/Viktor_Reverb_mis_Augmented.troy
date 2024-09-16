@@ -1,0 +1,64 @@
+[System]
+GroupPart1=boomergear
+GroupPart2=boomergearsheen
+GroupPart3=trail
+SimulateEveryFrame=1
+
+[boomergear]
+e-rate=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-mesh=boomergear.sco
+p-meshtex=boomergear.tga
+p-postoffset=0 0 0
+p-quadrot=0 90 0
+p-rotvel=1000 0 0
+p-scale=8 2 2
+p-shadow=1
+p-type=3
+rendermode=3
+
+[boomergearsheen]
+e-rate=1
+p-alphaslicerange=0.1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 0.5
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-mesh=boomergear.sco
+p-meshtex=boomergearsheen.tga
+p-postoffset=0 0 0
+p-quadrot=0 90 0
+p-rgba=color-alphaslicesheen.tga
+p-rotvel=1000 0 0
+p-scale=9 2 2
+p-type=3
+rendermode=4
+
+[trail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=260
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0.4
+p-frameRate=0
+p-life=0.5
+p-numframes=1
+p-quadrot=0 0 1
+p-quadrot1=0 0 0 20
+p-quadrot2=1 0 0 -980
+p-scale=100 100 100
+p-startframe=1
+p-texdiv=1 1
+p-texture=tri_trail.tga
+p-type=1
+p-xrgba1=0 0.5 0.5 0.9 1
+p-xrgba2=0.1 0.5 0.5 0.9 0.1
+p-xrgba3=0.3 0.5 0.5 0.9 0.1
+p-xrgba4=1 0.5 0 1 0
+rendermode=0
+

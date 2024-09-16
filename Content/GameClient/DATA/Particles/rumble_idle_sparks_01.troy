@@ -1,0 +1,95 @@
+[Drag]
+f-drag=4
+f-radius=1000
+
+[System]
+GroupPart1=spark
+GroupPart1Importance=High
+GroupPart2=spark_02
+GroupPart2Importance=High
+GroupPart3=spark_03
+GroupPart3Importance=High
+SimulateEveryFrame=1
+
+[spark]
+KeywordsExcluded=RumbleSkin03
+e-rate=15
+e-rateP1=0 0
+e-rateP2=0.98 0
+e-rateP3=1 1.5
+p-bindtoemitter=1 0
+p-drag=5 5 5
+p-life=0.2
+p-lifeP1=0 0.75
+p-lifeP2=1 0.9
+p-offset=10 -18 10
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=5 5 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-texture=flare-Sun_35.dds
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-vel=-50 1000 0
+p-velZP1=0 0.7
+p-velZP2=1 1.4000000000000001
+
+[spark_02]
+KeywordsExcluded=RumbleSkin03
+e-active=0.75
+e-period=1.5
+e-rate=15
+e-rateP1=0 0
+e-rateP2=0.98 0
+e-rateP3=1 1.5
+p-bindtoemitter=1 0
+p-drag=5 5 5
+p-life=0.1
+p-lifeP1=0 0.75
+p-lifeP2=1 0.9
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=5 5 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-texture=flare-Sun_35.dds
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-vel=0 1000 50
+p-velZP1=0 0.7
+p-velZP2=1 1.4000000000000001
+
+[spark_03]
+KeywordsExcluded=RumbleSkin03
+e-active=1.25
+e-period=1.5
+e-rate=15
+e-rateP1=0 0
+e-rateP2=0.98 0
+e-rateP3=1 1.5
+field-drag-1=Drag
+p-bindtoemitter=1 0
+p-life=0.1
+p-lifeP1=0 0.75
+p-lifeP2=1 0.9
+p-offset=10 -18 10
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=5 5 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-texture=flare-Sun_35.dds
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-vel=50 150 1000
+p-velZP1=0 0.7
+p-velZP2=1 1.7000000000000002
+
+[UNKNOWN_HASHES]
+unk46B26D9A=1
+unkAD4B3B1B=1
+unkB8E31733=1

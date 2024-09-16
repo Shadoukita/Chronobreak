@@ -1,0 +1,48 @@
+[MagiMotesNoise_02]
+f-axisfrac=1 1 1
+f-period=0.5
+f-radius=500
+f-veldelta=10
+
+[System]
+GroupPart1=eastjungle_magicMotes_02
+SimulateEveryFrame=1
+group-vis=50
+
+[eastjungle_magicMotes_02]
+e-rate=2
+e-rateP1=0 1
+field-noise-1=MagiMotesNoise_02
+p-drag=0.009999999776482582 3.5 0.009999999776482582
+p-dragYP1=0 1
+p-dragYP2=1 0.8
+p-life=2.5
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-numframes=2
+p-offset=25 100 25
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.DDS
+p-scale=12 12 12
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-texdiv=2 1
+p-texture=SRU_EastJungle_MagicMotes_01.DDS
+p-vel=10 150 10
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.2 0.2 1 1 1
+p-xrgba3=0.5 0.6 1 1 1
+p-xrgba4=0.8 1 1 1 1
+p-xrgba5=1 0 0 1 0
+rendermode=4
+uniformscale=1
+

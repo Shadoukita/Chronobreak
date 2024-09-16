@@ -1,0 +1,42 @@
+[System]
+GroupPart1=blueglow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[blueglow]
+e-life=10
+e-linger=0
+e-local-orient=0
+e-rate=4
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=4
+p-lifeP1=0 0.1
+p-lifeP2=1 2
+p-linger=0
+p-offset=0.30000000000000004 1 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 -25
+p-offsetYP2=1 10
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-bellcurve.tga
+p-rotvel=1
+p-rotvelP1=0 -30
+p-rotvelP2=1 30
+p-scale=30
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=blueblob.tga
+p-vel=0 0 0
+rendermode=0
+

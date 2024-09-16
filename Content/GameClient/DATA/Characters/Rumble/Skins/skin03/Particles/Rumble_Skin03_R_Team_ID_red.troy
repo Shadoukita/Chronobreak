@@ -1,0 +1,53 @@
+[System]
+GroupPart1=TeamID_Red_proj
+GroupPart1Type=Complex
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=5000
+
+[TeamID_Red_proj]
+e-life=1
+e-linger=0.1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.6
+p-bindtoemitter=1 1
+p-coloroffset=0.7000000000000001 0
+p-colorscale=0.30000000000000004 0.2
+p-colortype=1 0
+p-life=4.5
+p-linger=-1
+p-postoffset=0 0 55
+p-projection-fading=50
+p-projection-y-range=100
+p-rgba=Rumble_Skin03_R_teamColor_red.dds
+p-scale=160 0 600
+p-texture=Rumble_Skin03_R_team_ID_red.tga
+p-type=7
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+
+[UNKNOWN_HASHES]
+unk05147DEB=0.1
+unk06D72120=-1
+unk0F495BF0=0 0 0
+unk10CAE253=90 180 90
+unk1395BC59=0.7000000000000001 0
+unk22B7920B=1
+unk34AC5E1E=Rumble_Skin03_R_team_ID_red.tga
+unk455CFFD7=1
+unk6D11D5AF=1
+unk73CF44C0=1 0
+unk79E3B564=0.30000000000000004 0.2
+unk996D7B19=0
+unkC6DBC00D=600 160 0
+unkC93B7F59=4.5
+unkCF2363A5=1
+unkD55351A4=1
+unkDF6443D1=Rumble_Skin03_R_teamColor_red.dds
+unkE225CAE8=0.6
+unkE899BD88=1
+unkE9E3A959=0
+unkFE82A830=0 0 55

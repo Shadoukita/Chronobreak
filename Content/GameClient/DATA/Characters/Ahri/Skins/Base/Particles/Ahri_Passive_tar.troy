@@ -1,0 +1,86 @@
+[Flash]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-life=0.2
+p-offset=0 80 0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=220
+p-texture=flare-rainbow_green_01.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 0.1
+rendermode=0
+single-particle=1
+
+[Glow]
+e-life=0.3
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0.1 0
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.005
+p-life=0.3
+p-linger=0
+p-offset=0 80 0
+p-rgba=color-AhriPassive.tga
+p-scale=200
+p-texture=AhriFireLight.tga
+p-type=0
+rendermode=0
+
+[Sparks]
+e-life=0.3
+e-local-orient=0
+e-rate=50
+field-accel-1=SparksAccel
+p-colortype=1 3
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.6
+p-lifeP1=0 0.8
+p-lifeP2=1 1.1
+p-linger=0
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-AhriPassive.tga
+p-scale=25
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=ball01.tga
+p-type=0
+p-vel=250 350 250
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=0.1 1
+p-xscale3=1 0
+rendermode=0
+
+[SparksAccel]
+f-accel=0 -500 0
+f-localspace=0
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Glow
+GroupPart2Type=Simple
+GroupPart3=Sparks
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

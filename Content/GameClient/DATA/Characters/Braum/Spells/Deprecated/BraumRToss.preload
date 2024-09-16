@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_landpositionindicator.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_trail.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_speedlines.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_ground_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_ground_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="fling_land.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="Braumrtossknockup"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_land.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Braum_r_toss_landhydra.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="Braumrtossroot"}}, 
+{Function=BBPreloadSpell, Params={Name="jarvanivcataclysmsound"}}, 
+}

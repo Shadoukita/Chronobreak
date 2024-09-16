@@ -1,0 +1,109 @@
+[SparksAttract]
+f-accel=5000
+f-pos=0 30 0
+f-radius=300
+
+[System]
+GroupPart1=plasma
+GroupPart2=sparks
+GroupPart2Type=Simple
+GroupPart3=flash
+GroupPart3Type=Simple
+
+[flash]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.30000000000000004
+p-offset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=150
+p-texdiv=1 1
+p-texture=Flare-Omnimax.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[plasma]
+e-life=0.2
+e-rate=20
+e-rgba=255 255 255 255
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-frameRate=0
+p-life=0.15000000596046448
+p-mesh=magicBall.sco
+p-meshtex=magicBall01_1.tga
+p-numframes=1
+p-offset=0 50 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rotvel=1 360 360
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=7 7 7
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.55 0.51 1 1
+p-xrgba2=1 0.5 0 0.25 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=0
+
+[sparks]
+e-life=1
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 180
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-attract-1=SparksAttract
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=0.15
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-fiddlehit.tga
+p-scale=37
+p-scaleP1=0 0.5
+p-scaleP2=1 1.5
+p-startframe=5
+p-texdiv=2 3
+p-texture=EvelynnBasicAttack01.tga
+p-type=0
+p-vel=400 0 0
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.5 1
+p-xscale3=1 0.5
+rendermode=0
+single-particle=1
+

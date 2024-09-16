@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="KogMaw_Skin04_Z_nose.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_deepsea_glow.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kogmawicathiansurprise"}}, 
+}

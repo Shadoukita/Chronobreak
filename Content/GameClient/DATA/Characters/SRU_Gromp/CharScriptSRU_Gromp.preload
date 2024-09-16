@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="regenerationruneaura"}},
+{Function=BBPreloadSpell, Params={Name="npcinitializer"}},
+{Function=BBPreloadParticle, Params={Name="SRU_JungleBuff_Gromp_Marker.troy"}},
+{Function=BBPreloadSpell, Params={Name="crestoftheancientgolemlines"}},
+{Function=BBPreloadSpell, Params={Name="s5junglemushroomarmor"}},
+}

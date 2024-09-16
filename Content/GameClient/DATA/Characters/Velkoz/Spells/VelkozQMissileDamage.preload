@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="velkoz_base_q_missile_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="velkozqslow"}}, 
+{Function=BBPreloadSpell, Params={Name="velkozresearchproc"}}, 
+{Function=BBPreloadSpell, Params={Name="velkozresearchapply"}}, 
+}

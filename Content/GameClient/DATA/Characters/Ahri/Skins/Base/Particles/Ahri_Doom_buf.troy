@@ -1,0 +1,42 @@
+[System]
+GroupPart1=pinklines
+GroupPart1Importance=High
+SimulateEveryFrame=1
+build-up-time=1
+group-scale-cap=-1
+
+[pinklines]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=45
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-frameRate=0
+p-life=3
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-linger=1
+p-numframes=4
+p-offset=62 10 0
+p-postoffset=0 0 0
+p-quadrot=0 0 90
+p-randomstartframe=1
+p-scale=30 -40 20
+p-texdiv=2 2
+p-texture=Soraka_wisp_stardust.tga
+p-type=1
+p-vecalign=1
+p-vel=1 20 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 0.8 0.1 0.5 0.8
+p-xrgba3=1 0.8 0.1 0.5 0
+p-xscale1=0 0 1 1
+p-xscale2=1 8 0.5 1
+rendermode=0
+

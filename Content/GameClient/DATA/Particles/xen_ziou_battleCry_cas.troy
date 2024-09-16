@@ -1,0 +1,103 @@
+[Lightning_Flash]
+KeywordsIncluded=ZhaoYunXinZhao
+e-life=-1
+e-linger=1
+e-local-orient=1
+e-rate=150
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-frameRate=3
+p-life=0.1
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=16
+p-randomstartframe=1
+p-rgba=Jayce_Color_Fade2.tga
+p-scale=15 15 15
+p-scaleXP1=0 1
+p-scaleXP2=0.8 1
+p-scaleXP3=1 4
+p-scaleYP1=0 1
+p-scaleYP2=0.8 1
+p-scaleYP3=1 4
+p-texdiv=4 4
+p-texture=Jayce_Lightning_Ground.tga
+p-type=0
+pass=1
+rendermode=0
+
+[System]
+GroupPart1=sparkle_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=flat
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Lightning_Flash
+GroupPart3Type=Complex
+SimulateEveryFrame=1
+
+[flat]
+KeywordsExcluded=ZhaoYunXinZhao
+e-life=0.1
+e-linger=0
+e-local-orient=0
+e-rate=10
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.25
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90 90 0
+p-scale=400
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-Rainbow_yellow_04.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+
+[sparkle_02]
+KeywordsExcluded=ZhaoYunXinZhao
+e-life=0.5
+e-linger=0
+e-rate=12
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.75
+p-quadrot=0
+p-rgba=alpha_03.tga
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 0.7000000000000001
+p-scaleP2=1 0.3499999940395355
+p-shadow=0
+p-texture=flare-Rainbow_yellow_04.tga
+p-vel=0 90 90
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk4FB2AFC9=0 0 0 0 255
+unk4FB2AFCA=0.12 255 255 255 255
+unk4FB2AFCB=0.24 211 255 212 255
+unk4FB2AFCC=0.35 166 255 154 255
+unk4FB2AFCD=0.72 0 255 0 255
+unk4FB2AFCE=1 0 0 0 255

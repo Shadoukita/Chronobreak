@@ -1,0 +1,16 @@
+[System]
+GroupPart1=DirtBits
+GroupPart1Type=Simple
+GroupPart2=Flat
+GroupPart2Type=Simple
+GroupPart3=Dustring1
+GroupPart3Type=Simple
+GroupPart4=Dustring2
+GroupPart4Type=Simple
+GroupPart5=Dustring3
+GroupPart5Type=Simple
+GroupPart7=warpwave
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_SejuaniSkin04_SejuaniNorthernWinds_hitlocation
+

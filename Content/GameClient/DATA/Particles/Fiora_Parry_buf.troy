@@ -1,0 +1,219 @@
+[BurstAccel]
+f-accel=0 -500 0
+f-localspace=0
+
+[BurstSparks]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=50
+field-accel-1=BurstAccel
+p-bindtoemitter=1 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.6
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.6
+p-local-orient=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=17
+p-scaleP1=0 0.5
+p-texture=prismaticflash.tga
+p-type=0
+p-vel=200 300 200
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[Flash]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.4
+p-linger=0.4
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=300
+p-texture=flare-omnimax_purp.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[Flash_02]
+e-life=1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0.2
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=200
+p-texture=prismaticflash.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+
+[Glow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.5
+p-lifeP1=0 0.3
+p-lifeP2=1 1
+p-linger=0.5
+p-offset=0 -10 0
+p-rgba=color-Fioraglow.tga
+p-scale=40
+p-texture=prismaticflash.tga
+p-type=0
+rendermode=0
+
+[Hilt_Sparkle]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=20
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.3
+p-local-orient=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=12
+p-scaleP1=0 0.5
+p-texture=prismaticflash.tga
+p-type=0
+p-vel=80 80 80
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+rendermode=0
+
+[SparkleAccel]
+f-accel=0 70 0
+f-localspace=0
+
+[SwordSparkle_purp]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=50
+field-accel-1=SparkleAccel
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.3
+p-local-orient=0
+p-offset=0 120 0
+p-offsetYP1=0 0
+p-offsetYP2=1 -1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=12
+p-scaleP1=0 0.5
+p-texture=flare-omnimax_purp.tga
+p-type=0
+p-vel=70 0 70
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+rendermode=0
+
+[Sword_Sparkle]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=50
+field-accel-1=SparkleAccel
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.3
+p-local-orient=0
+p-offset=0 120 0
+p-offsetYP1=0 0
+p-offsetYP2=1 -1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=12
+p-scaleP1=0 0.5
+p-texture=prismaticflash.tga
+p-type=0
+p-vel=70 0 70
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+rendermode=0
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Flash_02
+GroupPart2Type=Simple
+GroupPart3=BurstSparks
+GroupPart3Type=Simple
+GroupPart4=Glow
+GroupPart4Type=Simple
+GroupPart5=Hilt_Sparkle
+GroupPart5Type=Simple
+GroupPart6=Sword_Sparkle
+GroupPart6Type=Simple
+GroupPart7=SwordSparkle_purp
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk5DA3E55B=1 1
+unk83301051=1 1
+unk97ECFA44=1 1
+unkBC3A926F=1 1

@@ -1,0 +1,62 @@
+[System]
+GroupPart1=hand_glow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[hand_glow]
+KeywordsExcluded=SpiritUdyr
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=20
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-local-orient=1
+p-offset=3 0 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-quadrot=0 1 0
+p-quadrotYP1=0 -30
+p-quadrotYP2=1 -100
+p-rgba=color-smoke32_07.tga
+p-scale=20 30 20
+p-texture=tigerclaw.tga
+p-type=2
+p-vel=0 0 0
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 1 1 1.3
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk13CF0E16=Udyr_Spirit_Recall_Helix_Mult_Tiger.dds
+unk1543E405=1
+unk2DDD3A2D=3
+unk2F16F076=1
+unk38C01B37=0.5 0.5 0.5
+unk492E8BF9=1 1 1 1
+unk4EBDF3E1=0.5 -0.5
+unk5C8B3083=1 1
+unk60DB9F6F=4
+unk672D2518=0 -0.5
+unk672D2519=1 0.5
+unk6770ED41=0
+unk67AB3499=0 -0.5
+unk67AB349A=1 0.5
+unk69339076=2
+unk70191B81=0 -130
+unk70191B82=1 130
+unk7B1A8827=Udyr_Spirit_Recall_Ribbon_Tiger.dds
+unk8E6D7278=0 1 1 1 0
+unk8E6D7279=0.1 1 1 1 1
+unk8E6D727A=0.8 1 1 1 0.5
+unk8E6D727B=1 0 0 0 0
+unk94D00ADC=0.35 -0.5
+unkA453DEF9=0 1 0
+unkB1BBB9AF=2
+unkB4E0487D=0 1 0
+unkBDD38BFA=-1
+unkD119F7DE=15
+unkD1AF14FD=0 0
+unkD3780186=0 0 0
+unkDE574FA0=Udyr_Spirit_Recall_Helix.sco

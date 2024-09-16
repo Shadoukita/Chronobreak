@@ -1,0 +1,33 @@
+[Avatar_Overlay]
+e-alpharef=0
+e-life=0.5
+e-rate=3
+e-rgba=255 175 200 255
+e-timeoffset=0.25
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-local-orient=1
+p-meshtex=SRU_JungleBuff_Dragon_Activation_Buff_01.DDS
+p-postoffset=0 -10 0
+p-type=11
+p-uvscroll-rgb=-0.05000000074505806 -0.05000000074505806
+p-vel=0 5 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1.0099999904632568 1.0099999904632568 1.0099999904632568
+p-xscale1=0 1 1 1
+p-xscale2=1 1.1 1.1 1.1
+pass=100
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=Avatar_Overlay
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk506E7852=1

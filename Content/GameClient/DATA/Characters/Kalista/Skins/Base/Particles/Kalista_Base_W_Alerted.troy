@@ -1,0 +1,40 @@
+[Glow_Seen]
+e-disabled=1
+e-rate=2
+e-rgba=243 255 0 154
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-scale=100 100 0
+p-texture=Kalista_Base_BA_hot.dds
+rendermode=4
+
+[RadiaDiscYellow]
+e-local-orient=0
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-mesh=Kalista_Base_W_RadialDisc.scb
+p-meshtex=Kalista_Base_W_Radial_2.dds
+p-meshtex-mult=Kalista_Base_W_Radial_1.dds
+p-scale=0.5 0.5 0.5
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.10000000149011612 -0.20000000298023224
+p-uvscroll-rgb-mult=0.1 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=Glow_Seen
+GroupPart2=RadiaDiscYellow
+GroupPart2Importance=High
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Kalista_KalistaWSeesEnemy_alerted
+build-up-time=2
+

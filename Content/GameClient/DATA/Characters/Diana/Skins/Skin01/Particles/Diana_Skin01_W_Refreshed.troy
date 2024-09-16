@@ -1,0 +1,160 @@
+[CrescentFlash]
+e-life=1
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.4
+p-linger=0.4
+p-postoffset=0 100 0
+p-rgba=Diana_Base_Z_Rampdown_Beige_RGB.tga
+p-scale=220
+p-texture=Diana_Skin01_BA3_Decal_Crescent.dds
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=1 1
+pass=100
+rendermode=2
+single-particle=1
+
+[DarkGlow]
+e-life=4.6000000000000005
+e-local-orient=0
+e-rate=3
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.6000000000000001
+p-linger=0
+p-postoffset=0 100 0
+p-rgba=Diana_Skin01_Z_BellRamp_Yellow_RGB.tga
+p-scale=230
+p-texture=Diana_Skin01_Z_OrbGlow.dds
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=1 1
+rendermode=2
+
+[Flash]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-postoffset=0 100 0
+p-rgba=Diana_Skin01_Z_Rampdown_Green_RGB.tga
+p-scale=300
+p-texture=Diana_Skin01_Z_OrbGlow_Bright.dds
+pass=100
+rendermode=2
+single-particle=1
+
+[Glow]
+e-life=4.6000000000000005
+e-local-orient=0
+e-rate=3
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.6000000000000001
+p-linger=0
+p-postoffset=0 100 0
+p-rgba=Diana_Skin01_Z_BellRamp_Blue_RGB.tga
+p-scale=250
+p-texture=Diana_Skin01_Z_OrbGlow.dds
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=1 1
+
+[GroundLight]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=4.7
+p-linger=0.6000000000000001
+p-rgba=Diana_Skin01_Z_Rampdown_Purple_RGB.tga
+p-scale=240
+p-simpleorient=2
+p-texture=Diana_Skin01_Z_Glow.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0.7
+p-xscale2=1 1
+pass=-100
+
+[Sheen]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-colortype=1 3
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-mesh=Diana_Skin01_W_Sheen.scb
+p-meshtex=Diana_Skin01_W_Sheen.dds
+p-offset=0 100 0
+p-quadrot=0 90 0
+p-rgba=Diana_Skin01_Z_White_RGB.tga
+p-scale=15 15 15
+p-texdiv=1 6
+p-type=3
+p-uvscroll-rgb=0 0.6
+rendermode=2
+single-particle=1
+
+[Shield]
+e-life=4.4
+e-local-orient=0
+e-rate=3
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=Diana_Skin01_W_Shield.sco
+p-meshtex=Diana_Skin01_W_Shield.dds
+p-postoffset=0 110 0
+p-rgba=Diana_Skin01_Z_BellRamp_RGB.tga
+p-rotvel=0 220 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=0.5 -0.5
+p-rotvelYP3=0.5009999871253967 0.5
+p-rotvelYP4=1 1
+p-scale=11 11 11
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+rendermode=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=CrescentFlash
+GroupPart2Type=Simple
+GroupPart3=Sheen
+GroupPart3Importance=High
+GroupPart4=Shield
+GroupPart4Importance=High
+GroupPart5=DarkGlow
+GroupPart5Type=Simple
+GroupPart6=GroundLight
+GroupPart6Type=Simple
+GroupPart7=Glow
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Diana_DianaShield_buffactivate
+
+[UNKNOWN_HASHES]
+unkE2D33EC2=High

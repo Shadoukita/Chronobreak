@@ -1,0 +1,79 @@
+[Accel]
+f-accel=0 60 0
+f-localspace=0
+
+[Drag]
+f-drag=0.5
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=sparksIn
+GroupPart1Type=Simple
+GroupPart2=whitesparks
+GroupPart2Type=Simple
+
+[sparksIn]
+e-rate=10
+e-rotation1=20
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Accel
+field-drag-1=Drag
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=1.5
+p-linger=1.5
+p-offset=40 0 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-fountainheal.tga
+p-rotvel=45
+p-rotvel1=0 0
+p-rotvel2=1 45
+p-scale=35
+p-startframe=1
+p-texdiv=2 1
+p-texture=FountainHeal01.tga
+p-vel=0 130 0
+p-xscale=1
+p-xscale1=0 2.5
+p-xscale2=0.2 2
+p-xscale3=0.7000000000000001 1
+p-xscale4=1 0.8
+
+[whitesparks]
+e-rate=10
+e-rotation1=10
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=1.5
+p-linger=1.5
+p-offset=40 0 0
+p-quadrot=45
+p-rgba=color-hold.tga
+p-scale=10
+p-startframe=0
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-vel=0 130 0
+p-velYP1=0 0.5
+p-velYP2=1 1.5
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+

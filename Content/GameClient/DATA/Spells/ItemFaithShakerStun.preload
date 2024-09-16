@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="neutralize_tower.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="turretglowparticle"}}, 
+}

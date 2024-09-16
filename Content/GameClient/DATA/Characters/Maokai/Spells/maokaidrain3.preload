@@ -1,0 +1,15 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="maokaidrain3toggle"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_aura.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_teamid_blue.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_teamid_red.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="maokairinitialloop"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaidrain3defense"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaidrain3counter"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaidrain3"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_explo.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_r_charged.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="maokairchargedloop"}}, 
+}

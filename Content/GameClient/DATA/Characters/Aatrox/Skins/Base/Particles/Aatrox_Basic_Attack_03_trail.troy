@@ -1,0 +1,32 @@
+[System]
+GroupPart1=VG_Cull
+SimulateEveryFrame=1
+
+[VG_Cull]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.08
+e-uvoffset=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=0.25
+p-mesh=Aatrox_Basic_A_trail_01.sco
+p-meshtex=Aatrox_basicAttack_trail_Sub.tga
+p-offset=0 110 -50
+p-quadrot=90 0 -90
+p-rgba=Color_Aatrox_W_blood.tga
+p-scale=2.8000000000000003 2.8000000000000003 2.8000000000000003
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-2.5 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1.1 1 1.1
+rendermode=2
+single-particle=1
+

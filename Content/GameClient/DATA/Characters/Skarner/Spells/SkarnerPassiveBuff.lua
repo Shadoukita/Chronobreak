@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "Skarner_Passive.dds"
+BuffTextureName = L0_1
+L0_1 = "SkarnerPassiveBuff"
+BuffName = L0_1
+L0_1 = {}
+L1_1 = "SkarnerSkin03"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1
+L0_1 = {}
+L1_1 = "SkarnerSkin03"
+L0_1[1] = L1_1
+SpellVOOverrideSkins = L0_1

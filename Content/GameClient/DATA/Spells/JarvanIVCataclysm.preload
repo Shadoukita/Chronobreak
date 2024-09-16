@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="jarvancataclysm_sound.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="jarvanivcataclysm"}}, 
+{Function=BBPreloadSpell, Params={Name="unstoppableforcemarker"}}, 
+{Function=BBPreloadSpell, Params={Name="jarvanivcataclysmvisibility"}}, 
+{Function=BBPreloadSpell, Params={Name="jarvanivcataclysmsound"}}, 
+{Function=BBPreloadParticle, Params={Name="jarvancataclysm_tar.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="jarvanivwall"}}, 
+{Function=BBPreloadSpell, Params={Name="jarvanivcataclysmid"}}, 
+{Function=BBPreloadSpell, Params={Name="jarvanivcataclysmattack"}}, 
+{Function=BBPreloadSpell, Params={Name="globalwallpush"}}, 
+{Function=BBPreloadParticle, Params={Name="jarvaniv_lubu_wall_grnd_decal.troy"}}, 
+}

@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sejuani_r_freeze.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_slow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_freeze.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="sejuanifrost"}}, 
+{Function=BBPreloadSpell, Params={Name="sejuanifrostchaos"}}, 
+{Function=BBPreloadSpell, Params={Name="sejuaniglacialprisoncheck"}}, 
+}

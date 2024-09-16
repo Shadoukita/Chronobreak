@@ -1,0 +1,29 @@
+[System]
+GroupPart1=sparkles
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[sparkles]
+e-life=-1
+e-rate=2
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-quadrot=45
+p-rgba=color-hold.tga
+p-scale=40
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=gemglow_gold.dds
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+

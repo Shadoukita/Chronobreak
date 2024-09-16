@@ -1,0 +1,64 @@
+[System]
+GroupPart1=missle
+GroupPart2=smoke
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[missle]
+ChildEmitOnDeath=0
+ChildParticleName=Heimerdinger_Skin05_W_Mis_Child.troy
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=Heimerdinger_Skin05_W_mis_01.scb
+p-meshtex=Heimerdinger_Skin05_W_mis_01.dds
+p-postoffset=0 0 130
+p-quadrot=-90 30 0
+p-rotvel=0 0 1440
+p-scale=1.1 1.1 1.1
+p-shadow=1
+p-type=3
+rendermode=1
+
+[smoke]
+e-alpharef=22
+e-life=0.6
+e-linger=0.3
+e-local-orient=0
+e-rate=110
+p-bindtoemitter=0.4 0
+p-bindtoemitterP1=0 1
+p-bindtoemitterP2=1 0
+p-life=0.4
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=4
+p-offset=0 0 0
+p-postoffset=20 130 -50
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=Heimerdinger_Skin05_W_Smoke_ColorMap.dds
+p-rotvel=60
+p-rotvel1=0 -1
+p-rotvel2=1 1
+p-scale=30
+p-scaleP1=0 0.4
+p-scaleP2=1 1.5
+p-startframe=0
+p-texdiv=2 2
+p-texture=Heimerdinger_Base_W_AfterSmoke_2x2.dds
+p-vel=0 100 0
+p-velYP1=0 1
+p-velYP2=1 0
+p-xscale1=0 2
+p-xscale2=0.6000000000000001 1
+p-xscale3=1 2
+pass=-100
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk4D745766=1
+unkA42C673F=1

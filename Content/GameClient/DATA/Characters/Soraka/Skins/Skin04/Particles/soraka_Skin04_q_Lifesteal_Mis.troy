@@ -1,0 +1,107 @@
+[CometTrail]
+e-life=2
+e-local-orient=0
+e-rate=100
+e-tilesize=100 0 0
+e-trail-cutoff=1000
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-local-orient=1
+p-scale=75 75 75
+p-scale1=0 0 1 1
+p-scale2=0.1 1 1 1
+p-texdiv=6 1
+p-texture=Soraka_Skin04_Q_Mis_Trail.dds
+p-trailmode=1
+p-type=4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.3 1 1 1 0.497993
+p-xrgba4=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0 0 0
+pass=1
+rendermode=4
+
+[System]
+GroupPart1=wispTrail
+GroupPart2=CometTrail
+GroupPart3=darkWispTrail
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[darkWispTrail]
+e-life=1
+e-linger=0.2
+e-rate=25
+p-life=0.9
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=0 50 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=0 10 0
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-randomstartframe=1
+p-scale=50 100 1
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texdiv=2 2
+p-texture=Soraka_Skin04_R_wisps.dds
+p-vecalign=1
+p-vel=0 50 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xrgba=0 0 0 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.749004
+p-xrgba3=0.8 1 1 1 0.376501
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.31 0.31 0.31
+p-xscale2=0.2 0.5 0.5 0.5
+p-xscale3=0.6000000000000001 1 1 1
+p-xscale4=1 1.2 1.2 0
+rendermode=1
+
+[wispTrail]
+e-life=1
+e-linger=0.2
+e-rate=25
+p-life=0.9
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=0 50 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=0 10 0
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-randomstartframe=1
+p-scale=25 100 1
+p-texdiv=2 2
+p-texture=Soraka_Skin04_R_wisps.dds
+p-vecalign=1
+p-vel=0 50 0
+p-xrgba=0.2980389893054962 0.9686269760131836 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.2
+p-xrgba3=0.8 1 1 1 0.097993
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.31 0.31 0.31
+p-xscale2=0.2 0.5 0.5 0.5
+p-xscale3=0.6000000000000001 1 1 1
+p-xscale4=1 1.2 1.2 0
+
+[UNKNOWN_HASHES]
+unk03B0198C=0 5
+unk03B0198D=0.5 1
+unkA2E22096=0 5
+unkA2E22097=0.5 1

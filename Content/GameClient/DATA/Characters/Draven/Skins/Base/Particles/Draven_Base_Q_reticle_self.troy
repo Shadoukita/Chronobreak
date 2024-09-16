@@ -1,0 +1,25 @@
+[Draven_Symbol]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1.2000000000000002
+p-linger=0
+p-postoffset=0 0.6 0
+p-rgba=Draven_Base_Z_Color-hold.tga
+p-scale=135
+p-simpleorient=2
+p-texture=Draven_Base_Q_Symbol32.tga
+p-type=7
+pass=-100
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Draven_Symbol
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk9E91C3C7=High

@@ -1,0 +1,9 @@
+[System]
+GroupPart1=test
+
+[test]
+e-rate=1
+p-mesh=sru_baron_deathbreath_test.scb
+p-meshtex=color-holdfade.DDS
+p-type=3
+

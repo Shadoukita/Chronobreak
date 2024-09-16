@@ -1,0 +1,42 @@
+[System]
+GroupPart1=smoke
+GroupPart1Type=Simple
+
+[smoke]
+e-active=1
+e-life=1
+e-linger=1.5
+e-period=1
+e-rate=40
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=smokedrag
+p-colortype=1 3
+p-life=3
+p-lifeP1=0 0.6667777895927429
+p-lifeP2=1 1.2970000505447388
+p-linger=10
+p-quadrot=1
+p-quadrot1=0 0.5189999938011169
+p-quadrot2=1 1.4458889961242676
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=color-Sunfire.tga
+p-rotvel=30
+p-rotvel1=0 0.7409999966621399
+p-rotvel2=1 1.6312589645385742
+p-scale=40
+p-startframe=2
+p-texdiv=2 4
+p-texture=InfernalGuardian02.tga
+p-vel=20 100 0
+p-xscale1=0 0
+p-xscale2=1 2.5581109523773193
+rendermode=1
+
+[smokedrag]
+f-drag=1
+f-pos=0 0 0
+f-radius=100
+

@@ -1,0 +1,146 @@
+[System]
+GroupPart1=roar_01_base
+GroupPart1Type=Simple
+GroupPart2=roar_02_base
+GroupPart2Type=Simple
+GroupPart3=roar_01_VolibearKing
+GroupPart3Type=Simple
+GroupPart4=roar_02_VolibearKing
+GroupPart4Type=Simple
+GroupPart5=roar_01_VolibearArctic
+GroupPart5Type=Simple
+GroupPart6=roar_02_VolibearArctic
+GroupPart6Type=Simple
+GroupPart7=roar_01_VolibearRunewars
+GroupPart7Type=Simple
+
+[roar_01_VolibearArctic]
+KeywordsRequired=VolibearArctic
+e-life=0.1
+e-rate=15
+p-life=0.3499999940395355
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=0.9
+p-simpleorient=3
+p-texture=volibear_artic_mesh_texture.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.25
+p-xscale3=1 1.5
+
+[roar_01_VolibearKing]
+KeywordsRequired=VolibearKing
+e-life=0.1
+e-rate=15
+p-life=0.3499999940395355
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=0.9
+p-simpleorient=3
+p-texture=volibear_king_mesh_texture.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.25
+p-xscale3=1 1.5
+
+[roar_01_VolibearRunewars]
+KeywordsRequired=VolibearRunewars
+e-life=0.1
+e-rate=20
+p-life=0.25
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=0.9
+p-simpleorient=3
+p-texture=volibear_runeWars_Ult_swap.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.25
+p-xscale3=1 1.5
+
+[roar_01_base]
+KeywordsRequired=VolibearBase
+e-life=0.1
+e-rate=15
+p-life=0.3499999940395355
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=0.9
+p-simpleorient=3
+p-texture=volibear_base_TX_CM.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.25
+p-xscale3=1 1.5
+
+[roar_02_VolibearArctic]
+KeywordsRequired=VolibearArctic
+e-life=0.15000000596046448
+e-rate=7
+p-life=0.4749999940395355
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-simpleorient=3
+p-texture=volibear_artic_mesh_texture.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.3
+p-xscale3=1 1.5
+
+[roar_02_VolibearKing]
+KeywordsRequired=VolibearKing
+e-life=0.15000000596046448
+e-rate=7
+p-life=0.4749999940395355
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-simpleorient=3
+p-texture=volibear_king_mesh_texture.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.3
+p-xscale3=1 1.5
+
+[roar_02_base]
+KeywordsRequired=VolibearBase
+e-life=0.15000000596046448
+e-rate=7
+p-life=0.4749999940395355
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-simpleorient=3
+p-texture=volibear_base_TX_CM.dds
+p-type=11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.3
+p-xscale3=1 1.5
+

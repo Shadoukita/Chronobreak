@@ -1,0 +1,15 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Draven_Bloodrage.dds"
+BuffTextureName = L0_1
+L0_1 = "DravenFury"
+BuffName = L0_1
+L0_1 = "Draven_Base_W_move_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = {}
+L1_1 = "DravenSkin03"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

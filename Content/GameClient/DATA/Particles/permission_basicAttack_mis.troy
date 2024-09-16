@@ -1,0 +1,99 @@
+[System]
+GroupPart1=dark_energy_01
+GroupPart1Importance=High
+GroupPart1Type=complex
+GroupPart3=dark_energy_03
+GroupPart3Importance=High
+GroupPart3Type=complex
+GroupPart4=molten_proj
+GroupPart4Importance=High
+GroupPart4Type=complex
+GroupPart5=molten_proj_02
+GroupPart5Importance=High
+GroupPart5Type=complex
+SimulateEveryFrame=1
+
+[dark_energy_01]
+e-life=1
+e-linger=0
+e-rate=15
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.25
+p-quadrot=360 0 0
+p-rotvel=180 0 0
+p-rotvelP1=0 1
+p-rotvelP2=0.5 0
+p-rotvelP3=1 -1
+p-scale=65 65 65
+p-texture=cast_star_03.tga
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 1 0
+p-xquadrot2=0.5 0 1 -180
+p-xquadrot3=0.5 1 -6
+p-xquadrot4=1 0 1 0
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.5 0 1 1
+p-xrgba3=1 0 0 1 0
+rendermode=1
+
+[dark_energy_03]
+e-life=1
+e-linger=0
+e-rate=12
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-quadrot=360 0 0
+p-rotvel=360 0 0
+p-rotvelP1=0 1
+p-rotvelP2=0.5 0
+p-rotvelP3=1 -1
+p-scale=40 50 40
+p-texture=dark_energy_01.tga
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 1 0
+p-xquadrot2=0.5 0 1 -180
+p-xquadrot3=0.5 1 180
+p-xquadrot4=1 0 1 0
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.5 0 1 1
+p-xrgba3=1 0 0 1 0
+p-xscale1=0 1.2000000000000002
+p-xscale2=1 0.2
+rendermode=0
+
+[molten_proj]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=veigar_shadow_bolt_proj_01.sco
+p-meshtex=veigar_shadow_bolt_proj_03.tga
+p-quadrot=0 0 0
+p-rotvel=270 270 270
+p-scale=53 53 53
+p-type=3
+rendermode=1
+
+[molten_proj_02]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=fireball.sco
+p-meshtex=veigar_shadow_bolt_proj_07.tga
+p-quadrot=0 0 0
+p-rotvel=720 720 720
+p-scale=3 3 3
+p-type=3
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk39C420BA=1
+unk697AC349=1
+unk6FDDA8B6=0 350 0

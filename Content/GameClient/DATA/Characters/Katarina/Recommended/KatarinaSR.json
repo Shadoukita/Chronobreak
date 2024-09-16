@@ -1,0 +1,104 @@
+{
+	"champion": "Katarina",
+	"title": "KatarinaSR",
+	"type": "riot",
+	"map": "SR",
+	"mode": "CLASSIC",
+	"priority": false,
+	"blocks": [{
+		"type": "starting",
+		"recMath": false,
+		"items": [{
+			"id": "1001",
+			"count": 1
+		},
+		{
+			"id": "2003",
+			"count": 4
+		},
+		{
+			"id": "3340",
+			"count": 1
+		}]
+	},
+	{
+		"type": "essential",
+		"recMath": false,
+		"items": [{
+			"id": "3136",
+			"count": 1
+		},
+		{
+			"id": "3020",
+			"count": 1
+		},
+		{
+			"id": "3001",
+			"count": 1
+		}]
+	},
+	{
+		"type": "offensive",
+		"recMath": false,
+		"items": [{
+			"id": "3089",
+			"count": 1
+		},
+		{
+			"id": "3135",
+			"count": 1
+		},
+		{
+			"id": "3128",
+			"count": 1
+		}]
+	},
+	{
+		"type": "defensive",
+		"recMath": false,
+		"items": [{
+			"id": "3026",
+			"count": 1
+		},
+		{
+			"id": "3116",
+			"count": 1
+		},
+		{
+			"id": "3157",
+			"count": 1
+		}]
+	},
+	{
+		"type": "consumables",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "2003",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "hp pots"
+		},
+		{
+			"id": "2044",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "green ward"
+		},
+		{
+			"id": "2043",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "pink ward"
+		},
+		{
+			"id": "2139",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "AP elixir"
+		}]
+	}]
+}

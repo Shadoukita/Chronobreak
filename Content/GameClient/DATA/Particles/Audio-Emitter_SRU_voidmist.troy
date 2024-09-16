@@ -1,0 +1,16 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Env_Map11_Emitter_voidmist
+group-vis=500
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

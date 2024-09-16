@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = "YorickOmenOfWar.dds"
+BuffTextureName = L0_1
+L0_1 = "YorickSpectralBuffSelf"
+BuffName = L0_1
+L0_1 = "yorick_spectralGhoul_speed_buf.troy"
+AutoBuffActivateEffect = L0_1

@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="nidalee_javelin_mis.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_ba_spear_missed.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_ba_miss_impact.troy"}}, 
+}

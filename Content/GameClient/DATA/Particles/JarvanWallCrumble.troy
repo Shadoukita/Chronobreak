@@ -1,0 +1,125 @@
+[RockBase]
+e-life=0.8
+e-linger=0
+e-local-orient=0
+e-rate=100
+e-rate1=0 0
+e-rate2=0.5 1
+e-rate3=1 2
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0.30000000000000004
+field-accel-1=gravity2
+field-drag-1=RockDrag
+p-bindtoemitter=1 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 2
+p-numframes=4
+p-offset=0 0 1
+p-offsetZP1=0 10
+p-offsetZP2=1 30
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 -90
+p-quadrotP2=1 90
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-scale=20
+p-scaleP1=0 0.2
+p-scaleP2=1 1
+p-shadow=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=jarvanrockbits.tga
+p-type=0
+p-vel=0 0 100
+p-velZP1=0 0
+p-velZP2=0.9 2
+p-velZP3=1 4
+p-xscale1=0 1
+p-xscale2=0.4 1
+p-xscale3=1 0
+pass=-10
+rendermode=3
+
+[RockDrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=1000
+
+[Rockbits]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=20
+e-rateP1=0 0.5
+e-rateP2=1 1
+field-accel-1=gravity
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=1
+p-numframes=4
+p-offset=1 1 1
+p-offsetXP1=0 -50
+p-offsetXP2=1 50
+p-offsetYP1=0 0
+p-offsetYP2=1 50
+p-offsetZP1=0 -50
+p-offsetZP2=1 50
+p-quadrot=1
+p-quadrotP1=0 -90
+p-quadrotP2=1 90
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-rotvel=1
+p-rotvelP1=0 -160
+p-rotvelP2=0.10000000149011612 -20
+p-rotvelP3=0.9 20
+p-rotvelP4=1 160
+p-scale=40
+p-scaleP1=0 0.1
+p-scaleP2=0.9 0.5
+p-scaleP3=1 1
+p-shadow=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=jarvanrockbits.tga
+p-type=0
+p-vel=30 20 30
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Rockbits
+GroupPart1Type=Simple
+GroupPart2=RockBase
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_JarvanIV_JarvanIVCataclysm_buffdeactivate
+
+[gravity]
+f-accel=0 -200 0
+f-localspace=0
+
+[gravity2]
+f-accel=0 -5 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk6876CB5D=0 0 0
+unk8E3A18C9=500
+unk9CF498B2=50
+unkFCEC3B38=0.1

@@ -1,0 +1,81 @@
+[Energy]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-rateP1=0 1
+e-rateP2=1 4
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=24
+p-life=0.2
+p-linger=0
+p-numframes=4
+p-quadrot=1
+p-quadrotP1=0 0 0 0
+p-quadrotP2=1 360 360 360
+p-randomstartframe=1
+p-rgba=Khazix_Skin02_P_Tar_Child_Energy_Ramp.dds
+p-scale=20 20 20
+p-scaleXP1=0 1 1 1
+p-scaleXP2=1 2 2 2
+p-texdiv=2 2
+p-texture=Khazix_Skin02_P_Buf_Lightning.dds
+p-type=0
+pass=60
+rendermode=1
+
+[Highlight]
+e-life=0.2
+e-rate=3
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=4
+p-randomstartframe=1
+p-rotvel=300 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=0.45 -0.5
+p-rotvelXP3=0.55 0.5
+p-rotvelXP4=0 -1
+p-scale=4 4 4
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Khazix_Skin02_P_Tar_Child_Highlight.tga
+p-type=0
+p-xscale1=0 1 1 1
+p-xscale2=0.8 1 1 1
+p-xscale3=0.9 2 2 2
+p-xscale4=0.97 0 0 0
+pass=60
+rendermode=0
+single-particle=1
+uniformscale=1
+
+[OuterRing]
+e-life=0.2
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-scale=15 15 15
+p-texture=Khazix_Skin02_P_Tar_Child_OuterRing.dds
+p-type=0
+p-xscale1=0 1 1 1
+p-xscale2=0.8 1 1 1
+p-xscale3=0.9 2 2 2
+p-xscale4=0.97 0 0 0
+pass=50
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Highlight
+GroupPart2=OuterRing
+GroupPart3=Energy
+GroupPart3Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

@@ -1,0 +1,130 @@
+[Card_Glow]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=3
+p-linger=0
+p-numframes=4
+p-rgba=color-hold.tga
+p-scale=80
+p-startframe=0
+p-texdiv=2 2
+p-texture=cardglows.tga
+p-type=0
+pass=1
+rendermode=0
+single-particle=1
+
+[Card_Missile]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=3
+p-linger=0
+p-numframes=4
+p-quadrot=0 0 0
+p-rgba=color-white32.tga
+p-rotvel=0 0 1200
+p-scale=37 25 0
+p-shadow=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=TF_Card_Mis.tga
+p-type=1
+pass=10
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Card_Missile
+GroupPart2=Card_Glow
+GroupPart2Type=Simple
+GroupPart3=trailadd
+GroupPart4=traildistort
+GroupPart5=bits
+SimulateEveryFrame=1
+build-up-time=0.5
+
+[bits]
+e-life=3
+e-linger=0
+e-rate=100
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=0.30000000000000004 1
+p-bindtoemitter3=0.5 0.30000000000000004
+p-bindtoemitter4=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-drag=1 1 1
+p-life=1
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=0.5 0.30000000000000004
+p-lifeP3=0.9 1
+p-lifeP4=1 2
+p-linger=-1
+p-offset=1 1 0
+p-offsetXP1=0 -20
+p-offsetXP2=1 20
+p-offsetYP1=0 -20
+p-offsetYP2=1 -10
+p-quadrot=0 0 0
+p-rgba=color-eyefade.tga
+p-scale=4 4 0
+p-texture=Flare-Sun_red.tga
+p-type=0
+p-vec-velocity-minscale=1
+p-vec-velocity-scale=0.014999999664723873
+p-vecalign=1
+p-vel=0 1 0
+p-velYP1=0 -80
+p-velYP2=1 80
+pass=1
+rendermode=0
+
+[trailadd]
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=120
+e-tilesize=400 -1 0
+p-coloroffset=0 0
+p-colorscale=1 0.1
+p-colortype=1 0
+p-life=0.25
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=color-cardglow.tga
+p-scale=40 0 0
+p-texture=mist_trail2.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=1 0.5 0 0
+pass=-10
+rendermode=4
+
+[traildistort]
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=120
+e-tilesize=1000 -1 0
+p-distortion-mode=1
+p-distortion-power=0.009999999776482582
+p-life=0.5
+p-normal-map=distort-trail.tga
+p-offset=0 0 0
+p-postoffset=0 0 5
+p-quadrot=1 0 0
+p-quadrot1=0 90 0 0
+p-quadrot2=1 12000 0 0
+p-rgba=color-rampdown32.tga
+p-scale=30 0 0
+p-texture=color-hold.tga
+p-trailmode=0
+p-type=4
+p-xscale1=0 2 0 0
+p-xscale2=1 0 0 0
+pass=30
+rendermode=1
+

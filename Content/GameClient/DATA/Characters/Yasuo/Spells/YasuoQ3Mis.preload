@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="yasuoqspellshieldcheck"}}, 
+{Function=BBPreloadSpell, Params={Name="yasuoq3misminion"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_yasuoq_garen_bladestormcrit_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_skin01_q_hit_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_base_q_hit_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="yasuoqprotect"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_skin01_q_wind_hit_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yasuo_base_q_wind_hit_tar.troy"}}, 
+}

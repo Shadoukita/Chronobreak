@@ -1,0 +1,20 @@
+[Eyes_To_White]
+MaterialOverride1Priority=3000
+MaterialOverride1Texture=color-hold.dds
+MaterialOverrideTransMap=Gnar_Base_P_Eye_Trans.dds
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=4
+p-linger=4
+p-rgba=Gnar_Base_P_Fur_Trans_rgba.tga
+p-scale=0
+p-trans-sample=16
+rendermode=1
+
+[System]
+GroupPart1=Eyes_To_White
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

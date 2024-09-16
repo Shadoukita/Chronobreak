@@ -1,0 +1,41 @@
+[Rise]
+f-accel=0 100 0
+f-localspace=0
+
+[System]
+GroupPart1=yellowfire
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[yellowfire]
+KeywordsRequired=TribalMasterYi
+e-life=-1
+e-rate=300
+field-accel-1=Rise
+p-bindtoemitter=0.4 0
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 2
+p-life=0.95
+p-lifeP1=0 0.2
+p-lifeP2=0.9 0.5
+p-lifeP3=1 1
+p-numframes=1
+p-offset=1 -7 0
+p-offsetXP1=0 5
+p-offsetXP2=1 65
+p-rgba=color-wuju.tga
+p-scale=5
+p-scaleP1=0 1
+p-scaleP2=1 3
+p-startframe=3
+p-texdiv=2 2
+p-texture=glows.tga
+p-vel=0 1 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.2 1
+p-xscale3=1 0.2
+

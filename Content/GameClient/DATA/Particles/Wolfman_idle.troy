@@ -1,0 +1,75 @@
+[Gravity]
+f-accel=0 -600 0
+f-localspace=0
+
+[System]
+GroupPart1=poisondrops
+GroupPart1Type=Simple
+
+[poisondrops]
+e-local-orient=0
+e-rate=20
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=Gravity
+p-bindtoemitter=1 1
+p-frameRate=10
+p-life=0.30000000000000004
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=4
+p-offset=0 10 0
+p-postoffset=-15 12 0
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-white32.tga
+p-scale=3
+p-scaleP1=0 0.5
+p-scaleP2=1 1.5
+p-texdiv=2 2
+p-texture=poisondrops.tga
+p-xscale1=0 0
+p-xscale2=0.4 1
+p-xscale3=0.8 1
+p-xscale4=1 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0218041F=0.30000000000000004
+unk0F1BBBF1=1
+unk1840C897=color-white32.tga
+unk2164B74E=0 -30
+unk2164B74F=1 30
+unk2176424E=20
+unk47DE9508=0 0.5
+unk47DE9509=1 1.5
+unk49E66CC7=8
+unk4EAC86E9=0 0 1
+unk4F969469=4
+unk64B12ACD=2 2
+unk64F0811C=0 0
+unk64F0811D=0.4 1
+unk64F0811E=0.8 1
+unk64F0811F=1 0
+unk79CF4E75=0
+unk7E0A0060=0 1
+unk7E0A0061=1 2
+unk854A6213=1 1
+unkA05D2AE6=0 -45
+unkA05D2AE7=0.5 -45
+unkA05D2AE8=0.5099999904632568 45
+unkA05D2AE9=1 45
+unkBCD6D20D=1
+unkC51FB7F3=Gravity
+unkCA6591A5=1
+unkE01779DF=1
+unkE0AFBA84=0 -1
+unkE0AFBA85=1 1
+unkE0B84DD8=poisondrops.tga
+unkF58DA3F6=0 50 0
+unkFBA3DDB6=0 50 0
+unkFCE05D0A=10

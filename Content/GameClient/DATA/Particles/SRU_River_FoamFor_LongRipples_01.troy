@@ -1,0 +1,29 @@
+[FoamForLongRipples]
+e-rate=0.3499999940395355
+p-bindtoemitter=1 1
+p-life=2.5
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_River_FoamFor_LongRipples_01.scb
+p-meshtex=SRU_River_FoamFor_LongRipples_01.DDS
+p-rotvel=0 10 0
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=0.30000001192092896 1.149999976158142 1.149999976158142 1.149999976158142
+p-xscale3=1 1 1 1
+rendermode=4
+
+[System]
+GroupPart1=FoamForLongRipples
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk1F1B3C14=0 -0.3
+unk3D103034=color-hold.DDS
+unkC0EFBDD3=sphere.sco
+unkE42C5649=SRU_River_LongWhiteWavyFoam_Mult_02.DDS
+unkFEE42269=-0.20000000298023224 0

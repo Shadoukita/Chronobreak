@@ -1,0 +1,46 @@
+[Streaks2]
+e-rate=0.2
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-local-orient=1
+p-mesh=sru_river_sparkle_01.scb
+p-meshtex=SRU_River_Sparkle_01.dds
+p-meshtex-mult=SRU_River_Sparkle_Mult_01.dds
+p-quadrot=0 30 0
+p-type=3
+p-uvscroll-rgb=-0.02500000037252903 -0.03500000014901161
+p-uvscroll-rgb-mult=0.05000000074505806 -0.05000000074505806
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 0.588205
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[Streaks3]
+e-disabled=1
+e-rate=0.30000000000000004
+p-bindtoemitter=1 1
+p-life=5.300000000000001
+p-linger=0
+p-local-orient=1
+p-mesh=sru_river_sparkle_01.scb
+p-meshtex=SRU_River_Sparkle_01.dds
+p-meshtex-mult=SRU_River_Sparkle_Mult_01.dds
+p-quadrot=0 30 0
+p-type=3
+p-uvscroll-rgb=-0.05000000074505806 -0.10000000149011612
+p-uvscroll-rgb-mult=-0.009999999776482582 -0.10000000149011612
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=Streaks2
+GroupPart2=Streaks3
+GroupPart2Importance=High
+SimulateEveryFrame=1
+group-vis=450
+

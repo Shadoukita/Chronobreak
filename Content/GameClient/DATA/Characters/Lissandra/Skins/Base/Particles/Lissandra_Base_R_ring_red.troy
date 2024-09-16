@@ -1,0 +1,30 @@
+[System]
+GroupPart1=ring
+GroupPart1Type=Simple
+
+[ring]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=3
+p-linger=0
+p-offset=0 10 0
+p-postoffset=0 30 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-team_ring_red.tga
+p-scale=950 0 0
+p-simpleorient=2
+p-texture=team_ring.tga
+p-type=7
+p-xscale=0.9100000262260437
+p-xscale1=0 0.66
+p-xscale2=1 0.66
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+

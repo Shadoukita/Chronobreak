@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="monkeyking_base_q_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="monkeykingdoubleattackdebuff"}}, 
+{Function=BBPreloadParticle, Params={Name="xenziou_battle_cry_weapon_01.troy"}}, 
+}

@@ -1,0 +1,40 @@
+[Empty]
+e-disabled=1
+e-life=6.300000000000001
+e-linger=2
+e-rate=70
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 40
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-timeoffset=0.30000000000000004
+p-bindtoemitter=1 1
+p-distortion-power=0.019999999552965164
+p-life=0.5
+p-linger=2
+p-normal-map=distort-heat.tga
+p-offset=50 0 0
+p-postoffset=0 30 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_20.tga
+p-scale=80
+p-texture=color-hold.dds
+p-vel=0 200 0
+p-velYP1=0 1
+p-velYP2=1 1.2000000000000002
+p-xscale=1
+p-xscale1=0 0.9
+p-xscale2=1 2
+rendermode=1
+
+[System]
+GroupPart1=Empty
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

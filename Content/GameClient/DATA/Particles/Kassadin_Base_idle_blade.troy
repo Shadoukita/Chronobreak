@@ -1,0 +1,272 @@
+[DarkbladeBack]
+KeywordsRequired=DarkBladeKassadin
+e-rate=0.5
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=2
+p-local-orient=1
+p-mesh=kassadin_darkblade_03.scb
+p-meshtex=Kassadin_Base_Z_VoidBackground_01.dds
+p-offset=-11 6 3
+p-quadrot=0 -4 0
+p-scale=160 120 170
+p-shadow=1
+p-texdiv=0.03999999910593033 0.03999999910593033
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=0.5 0.5
+pass=10
+rendermode=1
+
+[DarkbladeFore]
+KeywordsRequired=DarkBladeKassadin
+e-rate=0.5
+e-rgba=255 255 255 120
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=2
+p-local-orient=1
+p-mesh=kassadin_darkblade_03.scb
+p-meshtex=Kassadin_Base_Z_VoidBackground_01.dds
+p-offset=-11 6 3
+p-quadrot=0 -4 0
+p-scale=160 120 170
+p-shadow=1
+p-texdiv=0.15000000596046448 0.15000000596046448
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=0.5 0.5
+pass=10
+rendermode=1
+
+[Rise]
+f-accel=0 300 0
+
+[System]
+GroupPart1=voidbladeglow
+GroupPart10=voidbladesparkles
+GroupPart11=VoidBladeTrail
+GroupPart12=darkblade_firey
+GroupPart1Importance=High
+GroupPart2=voidbladeglow2
+GroupPart2Importance=High
+GroupPart3=voidbladeback
+GroupPart3Importance=High
+GroupPart4=voidbladeFore
+GroupPart4Importance=High
+GroupPart5=darkblade_glow
+GroupPart5Importance=High
+GroupPart6=darkblade_glow2
+GroupPart6Importance=High
+GroupPart7=DarkbladeBack
+GroupPart7Importance=High
+GroupPart8=darkblade_firey2
+GroupPart8Importance=High
+GroupPart8Type=Simple
+GroupPart9=DarkbladeFore
+GroupPart9Importance=High
+SimulateEveryFrame=1
+
+[VoidBladeTrail]
+e-disabled=1
+e-life=100
+e-rate=60
+p-life=0.30000000000000004
+p-linger=0
+p-mesh=MasterYi3.sco
+p-meshtex=whitebox.dds
+p-quadrot=-90 180 0
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0.6 0 0
+p-xrgba2=0.1 1 0.6 0 0.03
+p-xrgba3=0.2 1 0.6 0 0.1
+p-xrgba4=1 1 0.6 0 0
+rendermode=1
+
+[darkblade_firey]
+KeywordsRequired=DarkBladeKassadin
+e-disabled=1
+e-rate=80
+e-rotation1=180
+field-accel-1=Rise
+p-bindtoemitter=1 0.8
+p-life=0.8500000238418579
+p-lifeP1=0 1
+p-lifeP2=0.9 0.8
+p-lifeP3=1 2.5
+p-numframes=4
+p-offset=-2.5 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 50
+p-randomstartframe=1
+p-rgba=color-darkflame-purple.tga
+p-scale=30 1 1
+p-scaleXP1=0 1
+p-scaleXP2=1 3
+p-texdiv=2 2
+p-texture=mordekaiser_destroyer_idle_tendrils.dds
+p-vel=1 5 1
+p-velXP1=0 1
+p-velXP2=1 2
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=0.5 0.1 0.1 0.1
+p-xscale4=1 0 0 0
+
+[darkblade_firey2]
+KeywordsRequired=DarkBladeKassadin
+e-rate=300
+e-rotation1=180
+field-accel-1=Rise
+p-bindtoemitter=1 1
+p-life=1.2000000000000002
+p-lifeP1=0 1
+p-lifeP2=0.6000000000000001 0.1
+p-lifeP3=1 0
+p-numframes=4
+p-offset=-2.7 0 3
+p-offsetXP1=0 0
+p-offsetXP2=1 50
+p-offsetZP1=0 0
+p-offsetZP2=1 -5
+p-randomstartframe=1
+p-rgba=kassadin-darkflame-purple.tga
+p-scale=30
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texdiv=2 3
+p-texture=EveFlames01.dds
+p-vel=30 20 0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=0.5 0 0 0
+p-xscale4=1 0 0 0
+
+[darkblade_glow]
+KeywordsRequired=DarkBladeKassadin
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1
+p-local-orient=1
+p-offset=70 6 14
+p-quadrot=90 -2 360
+p-scale=88 88 0
+p-texture=kassadin_darkblade_glow.dds
+p-type=1
+
+[darkblade_glow2]
+KeywordsRequired=DarkBladeKassadin
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1
+p-local-orient=1
+p-offset=70 6 14
+p-quadrot=90 -2 360
+p-rgba=voidtile.tga
+p-scale=88 88 0
+p-texture=kassadin_darkblade_glow.dds
+p-type=1
+
+[voidbladeFore]
+KeywordsExcluded=DarkBladeKassadin
+e-rate=0.5
+e-rgba=255 255 255 120
+p-bindtoemitter=1 0
+p-life=2
+p-local-orient=1
+p-mesh=vblade.sco
+p-meshtex=Kassadin_Base_Z_VoidBackground_01.dds
+p-offset=25 0 6
+p-quadrot=-90 0 0
+p-scale=120 220 120
+p-shadow=1
+p-texdiv=0.2 0.2
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=0.5 0.5
+pass=12
+rendermode=1
+
+[voidbladeback]
+KeywordsExcluded=DarkBladeKassadin
+e-rate=0.5
+p-bindtoemitter=1 0
+p-life=2
+p-local-orient=1
+p-mesh=vblade.sco
+p-meshtex=Kassadin_Base_Z_VoidBackground_04.dds
+p-offset=25 0 6
+p-quadrot=-90 0 0
+p-scale=120 220 120
+p-shadow=1
+p-texdiv=0.03999999910593033 0.03999999910593033
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=0.5 0.5
+pass=10
+rendermode=1
+
+[voidbladeglow]
+KeywordsExcluded=DarkBladeKassadin
+e-rate=20
+e-rgba=255 255 255 64
+p-bindtoemitter=1 0
+p-life=0.009999999776482582
+p-local-orient=1
+p-offset=47 4 6
+p-scale=70 70 0
+p-texture=voidblade_glow.dds
+p-type=1
+
+[voidbladeglow2]
+KeywordsExcluded=DarkBladeKassadin
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1
+p-local-orient=1
+p-offset=47 4 6
+p-scale=70 70 0
+p-texture=voidblade_glow.dds
+p-type=1
+
+[voidbladesparkles]
+KeywordsExcluded=DarkBladeKassadin
+e-disabled=1
+e-rate=20
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1 0
+p-life=0.1
+p-local-orient=1
+p-mesh=voidblade.sco
+p-meshtex=bigtile.dds
+p-offset=30 0 10
+p-quadrot=-90 0 0
+p-shadow=1
+p-type=3
+p-uvmode=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+
+[UNKNOWN_HASHES]
+unk0562667E=1
+unk1EC7DB34=1
+unk22B46487=1
+unk4965875D=0
+unk4B23549C=1
+unk4BA03197=1
+unk4CA77783=1
+unk4E6544C2=1
+unk6B032F97=1
+unk801603E0=1
+unkC84CEFFF=1

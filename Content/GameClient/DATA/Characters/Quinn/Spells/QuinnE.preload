@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="quinnedoublequinndebug"}}, 
+{Function=BBPreloadSpell, Params={Name="quinnetarget"}}, 
+{Function=BBPreloadSpell, Params={Name="quinnesecond"}}, 
+{Function=BBPreloadParticle, Params={Name="quinn_base_e_end.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="quinnebump"}}, 
+{Function=BBPreloadSpell, Params={Name="quinneroot"}}, 
+}

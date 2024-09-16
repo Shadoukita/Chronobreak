@@ -1,0 +1,16 @@
+[System]
+GroupPart1=base
+GroupPart1Type=Simple
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=udyr_spiritSummoner_TX_CM.dds
+
+[base]
+e-life=-1
+e-linger=1
+e-rate=-1
+p-life=10
+p-rgba=color-hold.dds
+p-scale=0
+p-texture=missing_instant.dds
+p-type=0
+

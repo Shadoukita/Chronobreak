@@ -1,0 +1,24 @@
+[System]
+GroupPart1=materialize_dist
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[materialize_dist]
+e-life=7
+e-linger=0
+e-rate=5
+p-distortion-power=0.1
+p-life=1.850000023841858
+p-local-orient=1
+p-normal-map=distort-heat-trail.dds
+p-postoffset=0 10 0
+p-rgba=color-eyefade.tga
+p-scale=1 1 1
+p-simpleorient=3
+p-startframe=0
+p-texture=Karthus_Skin01_Distort_Overlay.dds
+p-type=11
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0
+rendermode=4
+

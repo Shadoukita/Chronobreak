@@ -1,0 +1,76 @@
+[GhostImages]
+e-life=1
+e-rate=1
+e-rgba=255 255 255 255
+e-rgba1=0 255 255 255 255
+e-rgba2=1 255 255 255 0
+p-backfaceon=1
+p-fresnel-color=1 1 1 1
+p-life=0.7000000000000001
+p-lifeP1=0 0.75
+p-lifeP2=1 1
+p-linger=0
+p-local-orient=1
+p-rgba=color-Nidalee_Skn6_transformGlow.dds
+p-scale=1.1
+p-simpleorient=3
+p-texture=Nidalee_Base_Cougar_E_buf_mesh.dds
+p-type=11
+p-uvscroll-rgb=-0.5 0
+p-uvscroll-rgbXP1=0 -0.5
+p-uvscroll-rgbXP2=1 1
+p-xrgba=1 1 1 0.4930039942264557
+p-xscale=1.25
+p-xscale1=0 1
+p-xscale2=1 1.5
+pass=150
+rendermode=4
+single-particle=1
+
+[MagicSwirls]
+KeywordsExcluded=HeadhunterNidalee
+e-alpharef=0
+e-life=1
+e-local-orient=0
+e-rate=3
+e-rotation1-axis=0 0 1
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=0.6000000000000001
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-numframes=4
+p-postoffset=0 120 0
+p-quadrot=0 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 10
+p-randomstartframe=1
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=200 50 70
+p-scaleXP1=0 1
+p-scaleXP2=0.5099899768829346 0.6000000238418579
+p-scaleXP3=0.5099999904632568 0.800000011920929
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1
+p-texdiv=2 2
+p-texture=nidalee_base_Q_mark_swirls.dds
+p-worldaccel=0 40 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 0 0 1
+p-xrgba3=1 1 0 0 0
+p-xscale=1.25 1.25 1.25
+p-xscale1=0 1 1 1
+p-xscale2=1 1 4 1
+rendermode=1
+
+[System]
+GroupPart1=GhostImages
+GroupPart1Type=Simple
+GroupPart2=MagicSwirls
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Nidalee_Swipe_cooldownreset
+

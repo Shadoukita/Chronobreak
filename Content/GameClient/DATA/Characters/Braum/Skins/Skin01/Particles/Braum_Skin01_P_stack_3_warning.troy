@@ -1,0 +1,37 @@
+[System]
+GroupPart1=stack_warning
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[stack_warning]
+e-local-orient=0
+e-rate=10
+p-bindtoemitter=1 1
+p-drag=1 1 1
+p-flexoffset=0.004000000189989805
+p-flexscale=0.006000000052154064
+p-life=1.5
+p-linger=0
+p-offset=0 5 -100
+p-quadrot=90 -90 0
+p-scale=100 100 100
+p-texture=Braum_skin01_I_shield_glow.dds
+p-type=1
+p-vel=2 0 2
+p-velXP1=0 50
+p-velXP2=1 -50
+p-velZP1=0 50
+p-velZP2=1 -50
+p-xrgba=1 0.30000000000000004 0.2 0.30000000000000004
+p-xrgba1=0 0.7 1 1 0
+p-xrgba2=0.1 0.7 1 1 1
+p-xrgba3=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.5 1.5 1.5
+pass=20
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk0FE595CF=1
+unk895CF870=1

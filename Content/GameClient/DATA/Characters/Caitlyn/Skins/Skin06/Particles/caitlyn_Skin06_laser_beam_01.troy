@@ -1,0 +1,20 @@
+[System]
+GroupPart1=beam1
+group-vis=5000
+
+[beam1]
+e-life=1
+e-rate=1
+e-rgba=255 255 255 120
+e-tilesize=10 300 0
+p-bindtoemitter=1 0
+p-life=1000
+p-linger=0
+p-scale=10 1 1
+p-startframe=1
+p-texture=Caitlyn_Skin06_R_Beam_03.dds
+p-type=6
+pass=1000
+rendermode=4
+single-particle=1
+

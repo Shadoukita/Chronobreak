@@ -1,0 +1,50 @@
+[System]
+GroupPart1=overhead_light
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=overhead_light2
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[overhead_light]
+KeywordsExcluded=RumbleSkin03
+e-life=10
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-colorscale=0.5 1
+p-colortype=0 0
+p-life=0.25
+p-linger=0
+p-postoffset=0 360 0
+p-rgba=alpha_12.tga
+p-scale=110 110 110
+p-texture=sharp_flash_11.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.5 1
+p-xscale3=1 0.5
+rendermode=0
+
+[overhead_light2]
+KeywordsExcluded=RumbleSkin03
+e-life=10
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-colorscale=0.5 1
+p-colortype=0 0
+p-life=0.25
+p-linger=0
+p-postoffset=0 360 0
+p-rgba=alpha_12.tga
+p-scale=75 75 75
+p-texture=blast_nova_28.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.5 1
+p-xscale3=1 0.5
+rendermode=0
+

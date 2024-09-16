@@ -1,0 +1,86 @@
+[System]
+GroupPart1=blade
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=blade_small
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=blade_big
+GroupPart3Importance=High
+GroupPart3Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Talon_TalonShadowAssault_cast
+
+[blade]
+e-life=0.2
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.25
+p-postoffset=0 0 0
+p-quadrot=45
+p-rgba=alpha_07.tga
+p-rotvel=900
+p-scale=260 0 0
+p-simpleorient=2
+p-texture=talon_blade_split_02.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=0
+
+[blade_big]
+e-life=0.2
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.25
+p-postoffset=0 0 0
+p-quadrot=45
+p-rgba=alpha_07.tga
+p-rotvel=600
+p-scale=460 0 0
+p-simpleorient=2
+p-texture=talon_blade_split_02.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=0
+
+[blade_small]
+e-life=0.2
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.25
+p-postoffset=0 0 0
+p-quadrot=45
+p-rgba=alpha_07.tga
+p-rotvel=1100
+p-scale=140 0 0
+p-simpleorient=2
+p-texture=talon_blade_split_02.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=0
+

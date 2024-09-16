@@ -1,0 +1,51 @@
+[System]
+GroupPart1=gem_sparkle
+
+[gem_sparkle]
+e-life=-1
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 255
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=100000
+p-linger=0.1
+p-local-orient=1
+p-mesh=shouldergems.sco
+p-meshtex=GK_Sparkle.tga
+p-offset=-20 16 0
+p-quadrot=0 -15 0
+p-rotvel=0 0 0
+p-scale=1.2000000476837158 1.2000000476837158 -1.2000000476837158
+p-type=3
+p-uvscroll-rgb=1 0.5
+pass=10
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk092BBE20=20
+unk0C4D4D04=0
+unk1117ECC2=1
+unk385706E6=45
+unk5C3882B1=gemglow.tga
+unk5F0BE29D=10 20 -13
+unk681C6F11=1 1
+unk797D7B46=0
+unk902BCC86=1
+unk91069C35=0
+unk97EC4FD3=1 0
+unk9C439ED1=-1
+unkA1B3035C=0 -1
+unkA1B3035D=1 1
+unkA23112DD=0 -0.5
+unkA23112DE=1 0.30000000000000004
+unkA65490FE=color-hold.tga
+unkAF8A0AB5=2
+unkBE61B563=0
+unkC35EC9E1=0 1
+unkC35EC9E2=1 2
+unkC8192FB4=2 2
+unkE070B5F5=0 0
+unkE070B5F6=0.5 1
+unkE070B5F7=1 0

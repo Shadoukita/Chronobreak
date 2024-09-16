@@ -1,0 +1,35 @@
+[System]
+GroupPart1=wispFly
+SimulateEveryFrame=1
+
+[wispFly]
+e-rate=0.4
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-life=5.5
+p-mesh=sru_sjungle_wispfly.scb
+p-meshtex=SRU_SJungle_wispFly.dds
+p-offset=1400 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-quadrot=0 -45.2 0
+p-scale=1.5 1.5 1.5
+p-scaleXP1=0 0.3
+p-scaleXP2=0.8 0.4
+p-scaleXP3=1 0.7000000000000001
+p-type=3
+p-uvscroll-rgb=0.15 0
+p-xrgba=1 1 1 0.35599300265312195
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+uniformscale=1
+

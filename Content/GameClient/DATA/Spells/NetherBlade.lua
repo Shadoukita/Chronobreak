@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = "Voidwalker_NullBlade.dds"
+BuffTextureName = L0_1
+L0_1 = "NetherBladeArmorPen"
+BuffName = L0_1
+L0_1 = 2
+SpellToggleSlot = L0_1
+L0_1 = true
+NonDispellable = L0_1

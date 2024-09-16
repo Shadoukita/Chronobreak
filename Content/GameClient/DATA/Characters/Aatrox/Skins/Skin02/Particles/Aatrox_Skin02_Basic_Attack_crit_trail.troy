@@ -1,0 +1,33 @@
+[System]
+GroupPart1=trail
+SimulateEveryFrame=1
+
+[trail]
+e-life=1
+e-rate=5
+e-timeoffset=0.22499999403953552
+e-uvoffset=-1 1
+p-backfaceon=1
+p-bindtoemitter=0.5 0
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-linger=1
+p-mesh=Aatrox_Skin02_E_trail_01.sco
+p-meshtex=Aatrox_Skin02_E_Trail_01.dds
+p-offset=0 100 0
+p-quadrot=-130 0 90
+p-scale=3 3 3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-2.75 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.4 1 1 1 0
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.1 1 1.1
+rendermode=4
+single-particle=1
+

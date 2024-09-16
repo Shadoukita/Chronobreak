@@ -1,0 +1,129 @@
+[System]
+GroupPart1=hoop
+GroupPart1Importance=High
+GroupPart2=arrowout1
+GroupPart2Importance=High
+GroupPart3=arrowout2
+GroupPart3Importance=High
+GroupPart4=arrowout3
+GroupPart4Importance=High
+GroupPart5=arrowout4
+GroupPart5Importance=High
+SimulateEveryFrame=1
+
+[arrowout1]
+e-life=6
+e-linger=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=ui_arrowin.sco
+p-meshtex=ui-arrowsout.tga
+p-offset=15 0 15
+p-postoffset=0 10 0
+p-quadrot=0 -45 0
+p-rgba=color-hold.tga
+p-scale=10 10 10
+p-shadow=1
+p-type=3
+p-vel=60 0 60
+p-xscale1=0 1 1 1
+p-xscale2=1 0.25 1 1
+pass=1
+rendermode=3
+
+[arrowout2]
+e-life=6
+e-linger=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=ui_arrowin.sco
+p-meshtex=ui-arrowsout.tga
+p-offset=15 0 -15
+p-postoffset=0 10 0
+p-quadrot=0 45 0
+p-rgba=color-hold.tga
+p-scale=10 10 10
+p-shadow=1
+p-type=3
+p-vel=60 0 -60
+p-xscale1=0 1 1 1
+p-xscale2=1 0.25 1 1
+pass=1
+rendermode=3
+
+[arrowout3]
+e-life=6
+e-linger=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=ui_arrowin.sco
+p-meshtex=ui-arrowsout.tga
+p-offset=-15 0 15
+p-postoffset=0 10 0
+p-quadrot=0 -135 0
+p-rgba=color-hold.tga
+p-scale=10 10 10
+p-shadow=1
+p-type=3
+p-vel=-60 0 60
+p-xscale1=0 1 1 1
+p-xscale2=1 0.25 1 1
+pass=1
+rendermode=3
+
+[arrowout4]
+e-life=6
+e-linger=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=ui_arrowin.sco
+p-meshtex=ui-arrowsout.tga
+p-offset=-15 0 -15
+p-postoffset=0 10 0
+p-quadrot=0 135 0
+p-rgba=color-hold.tga
+p-scale=10 10 10
+p-shadow=1
+p-type=3
+p-vel=-60 0 -60
+p-xscale1=0 1 1 1
+p-xscale2=1 0.25 1 1
+pass=1
+rendermode=3
+
+[hoop]
+e-life=6
+e-linger=1
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=ui_hoop.sco
+p-meshtex=ui-hoopred.tga
+p-offset=0 0 0
+p-postoffset=0 10 0
+p-quadrot=0 0 0
+p-rgba=color-bellcurve32.tga
+p-scale=7 10 7
+p-shadow=0
+p-type=3
+p-xscale1=0 0.1 1 0.1
+p-xscale2=0.5 0.8 1 0.8
+p-xscale3=0.7000000000000001 0.9 1 0.9
+p-xscale4=1 1 1 1
+rendermode=1
+

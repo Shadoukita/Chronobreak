@@ -1,0 +1,117 @@
+[System]
+GroupPart1=angel
+GroupPart1Type=Simple
+GroupPart2=stars
+GroupPart2Type=Simple
+GroupPart3=base
+GroupPart3Type=Simple
+GroupPart4=sparks
+GroupPart4Type=Simple
+
+[angel]
+e-life=4
+e-rate=1
+e-timeoffset=0.8
+p-life=4.5
+p-linger=0
+p-offset=0 400 0
+p-postoffset=0 0 0
+p-postoffset1=0 0 1 0
+p-postoffset2=1 0 6.562480926513672 0
+p-rgba=color-bellcurve.tga
+p-scale=120 120 120
+p-simpleorient=3
+p-texture=GuardianAngel02.tga
+p-type=1
+p-vel=0 20 0
+p-xscale=1 1 1
+p-xscale1=0 0.6299999952316284 1 1
+p-xscale2=1 1 1 1
+single-particle=1
+
+[base]
+e-life=3
+e-rate=6
+p-linger=0
+p-rgba=color-bellcurve.tga
+p-rotvel=180
+p-scale=100
+p-simpleorient=2
+p-startframe=3
+p-texdiv=2 2
+p-texture=GuardianAngel04.tga
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 0.9268518090248108 1 1
+
+[noise]
+f-period=100000
+f-pos=0 1 0
+f-radius=100
+f-veldelta=0
+
+[sparks]
+e-life=3
+e-rate=6
+p-linger=0
+p-rgba=color-bellcurve.tga
+p-rotvel=180
+p-scale=100
+p-startframe=2
+p-texdiv=2 2
+p-texture=GuardianAngel04.tga
+p-vel=0 100 0
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 0.9268518090248108 1 1
+
+[stars]
+e-life=3
+e-rate=100
+field-noise-1=noise
+p-bindtoemitter=0.5 0
+p-life=2
+p-lifeP1=0 0.7042222023010254
+p-lifeP2=1 0.9265555739402771
+p-linger=0
+p-offset=0 35 0
+p-quadrot=0 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 45
+p-rgba=color-bellcurve-Blue.tga
+p-scale=20
+p-startframe=1
+p-texdiv=2 2
+p-texture=PotionGlow01.tga
+p-vel=0 200 0
+p-velYP1=0 0.8529999852180481
+p-velYP2=1 1.1122219562530518
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=1 2.7064080238342285 0 0
+
+[UNKNOWN_HASHES]
+unk016802E0=-90 90 0
+unk25497EAB=PotionGlow01.tga
+unk300D1938=noise
+unk6827953A=2 2
+unk708CD5CD=0 0.8529999852180481
+unk708CD5CE=1 1.1122219562530518
+unk72762666=0.5 0
+unk74E2150C=2
+unk80F9E757=3
+unk81806ACD=0 0.7042222023010254
+unk81806ACE=1 0.9265555739402771
+unk8B0AD984=color-bellcurve-Blue.tga
+unk8BB78559=0 0
+unk8BB7855A=1 45
+unk9440533B=100
+unk9A8D971A=100 100 0
+unkA53FFEC2=1
+unkA981B1EF=0 0 0 0
+unkA981B1F0=1 2.7064080238342285 0 0
+unkC473EBAD=0 0 0
+unkF103958A=2
+unkF6A80D53=0
+unkFF1A4823=0 35 0

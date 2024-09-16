@@ -1,0 +1,52 @@
+[System]
+GroupPart1=flat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=sparkle_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[flat]
+e-life=0.9300000071525574
+e-local-orient=0
+e-rate=1
+p-life=0.1
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=330
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-texture=Flare-Sun_17.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+single-particle=1
+
+[sparkle_02]
+e-life=0.25
+e-rate=10
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-colorscale=1 0.4
+p-life=0.5
+p-linger=0
+p-rgba=alpha_03.tga
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=80
+p-scaleP1=0 0.7
+p-scaleP2=1 0.3499999940395355
+p-texture=flare-Rainbow_purp_01.dds
+p-vel=0 0 150
+p-xscale=1
+p-xscale1=0 1.2
+p-xscale2=0.4 0.8
+p-xscale3=1 0.2
+

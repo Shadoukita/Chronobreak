@@ -1,0 +1,15 @@
+{
+	"champion":"Sivir",
+	"title":"Beginner",
+	"type":"riot",
+	"map":"SR",
+	"mode":"INTRO",
+	"priority":false,
+	"blocks": [
+		{"type":"beginner_Starter","maxSummonerLevel":4,"items":[{"id":"1055","count":1}]},
+		{"type":"beginner_Starter","minSummonerLevel":5,"items":[{"id":"1055","count":1},{"id":"2003","count":1}]},
+		{"type":"beginner_Advanced","recMath":true,"items":[{"id":"1036","count":1},{"id":"1053","count":1}]},
+		{"type":"beginner_MovementSpeed","recMath":true,"items":[{"id":"1001","count":1},{"id":"1042","count":1},{"id":"3006","count":1}]},
+		{"type":"beginner_LegendaryItem","recMath":true,"items":[{"id":"1053","count":1},{"id":"1038","count":1},{"id":"3072","count":1}]},
+		{"type":"beginner_MoreLegendaryItems","items":[{"id":"3087","count":1},{"id":"3022","count":1},{"id":"3031","count":1},{"id":"3102","count":1}]}
+]}

@@ -1,0 +1,51 @@
+[System]
+GroupPart1=base
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=darkcrystal
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=ionian
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[base]
+KeywordsRequired=VarusBase
+MaterialOverride1Texture=Varus_base_red.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=8
+rendermode=1
+
+[darkcrystal]
+KeywordsRequired=VarusDarkCrystal
+MaterialOverride1Texture=Varus_darkcrystal_red.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=8
+rendermode=1
+
+[ionian]
+KeywordsRequired=VarusIonianDefender
+MaterialOverride1Texture=Varus_ionian_red.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=2
+p-rgba=trans-renektonblade.tga
+p-trans-sample=8
+rendermode=1
+

@@ -1,0 +1,53 @@
+[System]
+GroupPart1=hitbubble
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[hitbubble]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.2
+p-linger=0
+p-mesh=SRU_JungleBuff_Baron_MeleeMin_Shield.scb
+p-meshtex=SRU_JungleBuff_Baron_MeleeMin_Shield.dds
+p-meshtex-mult=SRU_JungleBuff_Baron_MeleeMin_Shield_mult.dds
+p-offset=0 20 0
+p-postoffset=0 0 0
+p-quadrot=-90 1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1
+p-rgba=color-bellramp32.tga
+p-scale=0.85 0.85 0.7
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.2 -2
+p-uvscroll-rgb-mult=0.2 -1
+p-uvscroll-rgb-multXP1=0 -1
+p-uvscroll-rgb-multXP2=1 1
+p-uvscroll-rgb-multYP1=0 0.5
+p-uvscroll-rgb-multYP2=1 1
+p-uvscroll-rgbXP1=0 -1
+p-uvscroll-rgbXP2=1 1
+p-uvscroll-rgbYP1=0 0.5
+p-uvscroll-rgbYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.75 0.75 1
+p-xscale2=1 1.25 1.25 1
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk415478F4=1

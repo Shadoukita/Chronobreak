@@ -1,0 +1,24 @@
+[System]
+GroupPart1=trail
+GroupPart1Type=Complex
+
+[trail]
+e-life=6
+e-linger=0
+e-rate=60
+e-tilesize=100 0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=0.5
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-curserays.tga
+p-rotvel=0 0 0
+p-scale=20 0 0
+p-texture=slowattack_buf.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=0.30000000000000004 0
+

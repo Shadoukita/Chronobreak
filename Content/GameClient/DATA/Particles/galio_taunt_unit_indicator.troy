@@ -1,0 +1,29 @@
+[System]
+GroupPart1=head
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[head]
+e-life=3
+e-linger=0
+e-rate=8
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.4
+p-linger=-1
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_03.tga
+p-scale=7
+p-simpleorient=2
+p-texture=blast_ring_15.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+

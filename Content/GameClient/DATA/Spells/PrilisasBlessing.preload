@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="haste_proc.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="haste"}}, 
+}

@@ -1,0 +1,29 @@
+[System]
+GroupPart1=bow_glow
+GroupPart1Importance=High
+GroupPart1Type=complex
+SimulateEveryFrame=1
+
+[bow_glow]
+e-rate=20
+e-rgba=20 20 255 235
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.1
+p-linger=-1
+p-numframes=1
+p-offset=0 0 0
+p-scale=17 25 17
+p-startframe=3
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0
+p-xrgba2=0 0 1 1
+p-xrgba3=0 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkF97BBB18=1

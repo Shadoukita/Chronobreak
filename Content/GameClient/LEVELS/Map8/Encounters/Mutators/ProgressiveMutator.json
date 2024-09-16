@@ -1,0 +1,22 @@
+{"MutatorDefinition": {
+"Type": "ProgressiveMultiply",
+"Mutations":
+[
+	{		
+		
+		"Stat": "FlatHPPoolMod",
+		"Value": 4,
+		"PerLevelValue": 3,
+		"Min": 0,
+		"Max": 100		
+		
+	},
+	{	
+		"Stat": "PercentCooldownMod",
+		"Value": 15,
+		"PerLevelValue": 0,
+		"Min": 0,
+		"Max": 45
+	}
+]
+}} 

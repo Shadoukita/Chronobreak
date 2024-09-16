@@ -1,0 +1,25 @@
+[System]
+GroupPart1=arrow
+GroupPart1Importance=High
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[arrow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=buffbone_test_shield.sco
+p-quadrot=0 0 0
+p-scale=60 60 60
+p-type=3
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk79474B81=0

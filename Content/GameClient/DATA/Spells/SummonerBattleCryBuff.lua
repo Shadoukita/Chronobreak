@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Summoner_BattleCry.dds"
+BuffTextureName = L0_1
+L0_1 = "SummonerBattleCry"
+BuffName = L0_1
+L0_1 = "OntheHunt_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "root"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = ""
+AutoBuffActivateEffect2 = L0_1

@@ -1,0 +1,20 @@
+[System]
+GroupPart1=glow18
+GroupPart1Type=complex
+SimulateEveryFrame=1
+
+[glow18]
+e-rate=100
+e-rgba=255 0 255 255'magenta
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=0 0 0
+p-scale=50 50 50
+p-startframe=0
+p-texdiv=1 1
+p-texture=disc32.tga
+p-type=0
+rendermode=1
+

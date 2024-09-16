@@ -1,0 +1,86 @@
+[Flashback]
+e-life=0.6000000000000001
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-colorscale=1 0.5
+p-colortype=1 0
+p-frameRate=0
+p-life=0.8
+p-numframes=1
+p-offset=0 50 -3
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellramp.tga
+p-scale=300
+p-scalebias=1 1
+p-startframe=1
+p-texdiv=1 1
+p-texture=Flare-omnimax.tga
+p-type=1
+p-vel=0 300 0
+p-xscale1=0 0
+p-xscale2=0.25 1
+p-xscale3=1 0
+rendermode=0
+
+[Flashes]
+e-life=0.8
+e-linger=0.8
+e-local-orient=0
+e-rate=40
+e-rate1=0 0
+e-rate2=0.2 1
+e-rate3=0.8 1
+e-rate4=1 0
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=accel
+p-bindtoemitter=0 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.8
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=1
+p-offset=1 1 0
+p-offsetXP1=0 0
+p-offsetXP2=1 80
+p-offsetYP1=0 0
+p-offsetYP2=1 200
+p-rgba=color-rampdown.tga
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-scalebias=1 1
+p-startframe=1
+p-texdiv=1 1
+p-texture=Flare-sun.tga
+p-type=0
+p-vel=0 80 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 1
+p-xscale3=1 0
+rendermode=0
+
+[System]
+GroupPart1=Flashes
+GroupPart1Type=Simple
+GroupPart2=Flashback
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_SummonerFlash_return
+
+[accel]
+f-accel=0 50 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk25D25A6D=2

@@ -1,0 +1,80 @@
+[PoolGlow]
+e-life=1.2000000000000002
+e-rate=3
+e-timeoffset=0.2
+p-life=0.5
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=200 200 200
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=SRU_chaos_poolGlow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 0.309804
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.30000000000000004 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+uniformscale=1
+
+[System]
+GroupPart1=littleray
+GroupPart2=PoolGlow
+GroupPart3=flash
+SoundOnCreate=Play_sfx_Env_map11_ChaosTurretMinionBasicAttack_cast
+
+[flash]
+e-life=0.30000000000000004
+e-linger=0.30000000000000004
+e-rate=3
+e-rgba=255 255 255 204
+e-timeoffset=0.2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=200 200 1
+p-texture=SRU_chaos_flash.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=4
+
+[littleray]
+e-life=0.30000000000000004
+e-linger=0.6000000000000001
+e-local-orient=0
+e-rate=50
+p-bindtoemitter=1 0
+p-life=0.30000000000000004
+p-postoffset=0 10 -5
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=30 140 70
+p-texture=SRU_chaos_flash.dds
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 0.2 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk4584D10D=10

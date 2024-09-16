@@ -1,0 +1,28 @@
+[System]
+GroupPart1=ring
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Leona_LeonaSolarFlare_buffactivate
+group-vis=5000
+
+[ring]
+e-life=1
+e-rate=1
+e-rgba=255 255 255 204
+p-life=0.5
+p-quadrot=90 0 90
+p-scale=370 370 0
+p-simpleorient=2
+p-texture=GnarBig_Base_R_AOE.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 1
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+

@@ -1,0 +1,191 @@
+[DistortTrail]
+KeywordsExcluded=FizzSkin04
+e-life=0.4
+e-linger=0
+e-rate=50
+p-bindtoemitter=0 0.4
+p-distortion-mode=2
+p-distortion-power=0.08
+p-life=0.6
+p-linger=1
+p-normal-map=distort-heat.tga
+p-rgba=color-bellcurve32.tga
+p-scale=70
+p-texture=Aura_self.tga
+p-type=0
+p-xscale1=0 0.15
+p-xscale2=0.2 1
+p-xscale3=1 0.2
+rendermode=1
+
+[Flash]
+KeywordsExcluded=FizzSkin04
+SoundPersistent=Play_sfx_Fizz_FizzPiercingStrike_missilelaunch
+e-life=1
+e-linger=0
+e-rate=2
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.3
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hit-mana.tga
+p-scale=180
+p-texdiv=1 1
+p-texture=zapspark.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 0.1
+rendermode=0
+single-particle=1
+
+[GlowTrail]
+KeywordsExcluded=FizzSkin04
+e-life=1
+e-linger=0
+e-rate=350
+p-bindtoemitter=0 0.4
+p-coloroffset=0.7 0
+p-colorscale=0.3 1
+p-colortype=1 0
+p-life=0.4
+p-life1=0 0.6
+p-life2=1 1
+p-linger=-1
+p-postoffset=0 60 0
+p-rgba=color-rampdown-blue.tga
+p-scale=40 40 40
+p-texture=ball01.tga
+p-type=0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+
+[Ring]
+KeywordsExcluded=FizzSkin04
+e-life=1
+e-linger=0
+e-rate=1
+p-flexoffset=0.005
+p-life=0.2
+p-linger=0
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=130
+p-texture=blast_ring_01.tga
+p-type=0
+p-xscale1=0 0.1
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Ring
+GroupPart2Type=Simple
+GroupPart3=DistortTrail
+GroupPart3Type=Simple
+GroupPart4=GlowTrail
+GroupPart5=Void_Flash
+GroupPart5Type=Simple
+GroupPart6=Void_Trail
+GroupPart7=Void_Ring
+GroupPart7Type=Simple
+GroupPart8=Void_Distort
+GroupPart8Type=Simple
+SimulateEveryFrame=1
+
+[Void_Distort]
+KeywordsRequired=FizzSkin04
+e-life=0.4
+e-linger=0
+e-rate=50
+p-bindtoemitter=0 0.4
+p-distortion-mode=2
+p-distortion-power=0.08
+p-life=0.6
+p-linger=1
+p-normal-map=distort-heat.tga
+p-rgba=color-bellcurve32.tga
+p-scale=70
+p-texture=Fizz_Skin04_Z_Aura_01.dds
+p-type=0
+p-xscale1=0 0.15
+p-xscale2=0.2 1
+p-xscale3=1 0.2
+rendermode=1
+
+[Void_Flash]
+KeywordsRequired=FizzSkin04
+e-life=1
+e-linger=0
+e-rate=2
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.3
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Fizz_Skin04_Q_ColorHit.dds
+p-scale=180
+p-texdiv=1 1
+p-texture=Fizz_Skin04_Q_Flash.dds
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 0.1
+rendermode=0
+single-particle=1
+
+[Void_Ring]
+KeywordsRequired=FizzSkin04
+SoundPersistent=Play_sfx_FizzSkin04_FizzPiercingStrike_missilelaunch
+e-life=1
+e-linger=0
+e-rate=1
+p-flexoffset=0.005
+p-life=0.2
+p-linger=0
+p-postoffset=0 60 0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=160
+p-texture=Fizz_Skin04_Q_Ring.dds
+p-type=0
+p-xscale1=0 0.1
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+
+[Void_Trail]
+KeywordsRequired=FizzSkin04
+e-life=1
+e-linger=0
+e-rate=350
+p-bindtoemitter=0 0.4
+p-coloroffset=0.7 0
+p-colorscale=0.3 1
+p-colortype=1 0
+p-life=0.4
+p-life1=0 0.6
+p-life2=1 1
+p-linger=-1
+p-postoffset=0 60 0
+p-rgba=Fizz_Skin04_Color_PurpleHit.dds
+p-scale=40 40 40
+p-texture=Fizz_Skin04_Z_Ball_01.dds
+p-type=0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+

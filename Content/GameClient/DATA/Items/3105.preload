@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="itemaegisofthelegionauraself"}}, 
+{Function=BBPreloadSpell, Params={Name="itemaegisofthelegionaurafriend"}}, 
+{Function=BBPreloadParticle, Params={Name="zettasmanamanipulator_itm.troy"}}, 
+}

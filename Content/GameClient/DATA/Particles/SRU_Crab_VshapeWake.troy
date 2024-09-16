@@ -1,0 +1,27 @@
+[System]
+GroupPart1=Vshapewake
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=450
+
+[Vshapewake]
+e-rate=1.5
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=SRU_River_VshapeWake_01.scb
+p-meshtex=SRU_River_VshapeWake_01.dds
+p-offset=0 -85 0
+p-type=3
+p-uvscroll-rgb=0.5 -0.5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.009695 1 1 1 0.927602
+p-xrgba3=0.701 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 2
+rendermode=4
+uniformscale=1
+

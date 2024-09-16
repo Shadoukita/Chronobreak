@@ -1,0 +1,33 @@
+[Flash]
+e-linger=5
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=0.30000000000000004
+p-linger=5
+p-offset=0 70 0
+p-rgba=color-hold.tga
+p-scale=420
+p-texture=Sion_Skin03_Q_cas2_weaponglow.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=matoverride
+GroupPart2=Flash
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[matoverride]
+MaterialOverride1BlendMode=1
+MaterialOverride1Priority=2
+MaterialOverride1Texture=Sion_Skin03_TX_EM.dds
+MaterialOverride2Priority=3
+MaterialOverride2SubMesh=Sion_Lumberjack_Gear1
+MaterialOverride2Texture=Sion_Skin03_Gear_TX_CM.dds
+

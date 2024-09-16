@@ -1,0 +1,32 @@
+[SlimeStuff]
+e-life=-1
+e-rate=20
+p-life=1
+p-lifeXP1=0 0.5
+p-lifeXP2=1 1
+p-numframes=4
+p-offset=0 0 0
+p-randomstartframe=1
+p-scale=80 80 80
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-texdiv=2 2
+p-texture=SRU_Baron_Slimestuff.dds
+p-type=0
+p-vecalign=1
+p-vel=1000 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-worldaccel=0 -1000 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 1 1 1 1
+rendermode=1
+
+[System]
+GroupPart1=SlimeStuff
+SimulateEveryFrame=1
+

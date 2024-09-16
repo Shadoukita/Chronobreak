@@ -1,0 +1,23 @@
+[System]
+GroupPart1=Valor_Streak
+SimulateEveryFrame=1
+
+[Valor_Streak]
+KeywordsExcluded=QuinnValor_Phoenix
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-uvoffset=0 -0.1
+p-life=0.6499999761581421
+p-linger=0
+p-mesh=Quinn_Base_R_Summon_Root_Swoop.sco
+p-meshtex=Quinn_Base_R_Summon_Root_Swoop.dds
+p-postoffset=0 140 -60
+p-quadrot=0 -80 -20
+p-scale=400 700 400
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -1.100000023841858
+rendermode=4
+

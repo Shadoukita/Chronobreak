@@ -1,0 +1,102 @@
+[FlameAccel_Wraith]
+f-accel=-10 300 0
+f-localspace=1
+
+[FlameDrag_Wraith]
+f-drag=1
+f-pos=2 2 2
+f-radius=100
+
+[System]
+GroupPart1=electric
+GroupPart1Type=Simple
+GroupPart2=glow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[electric]
+e-life=2
+e-linger=1
+e-local-orient=0
+e-rate=43
+e-rateP1=0 1
+e-rateP2=1 0
+e-rotation1=1
+e-rotation1-axis=0 1 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=FlameAccel_Wraith
+field-drag-1=FlameDrag_Wraith
+field-orbit-1=flame_orbit
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 2
+p-frameRate=0
+p-life=0.15
+p-lifeP1=0 0.05
+p-lifeP2=0.7 1.5
+p-lifeP3=1 0
+p-linger=1.3
+p-numframes=8
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_20.tga
+p-rotvel=30
+p-rotvelP1=0 0
+p-rotvelP2=1 1
+p-scale=7
+p-scaleP1=0 0
+p-scaleP2=1 6
+p-texdiv=4 4
+p-texture=Garen_SteelLegion_Lightning_01.tga
+p-type=1
+p-vel=0 160 0
+p-velYP1=0 1
+p-velYP2=1 -2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.3 1 1 1 0.1
+p-xrgba3=1 0 0 1 0
+p-xscale1=0 0
+p-xscale2=0.6 0.5
+p-xscale3=1 2
+pass=-100
+rendermode=0
+
+[flame_orbit]
+f-direction=0 0.6 0
+f-localspace=1
+
+[glow]
+KeywordsRequired=SteellegionGaren
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=25
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.6
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=160
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-simpleorient=2
+p-texture=ahrifirelight.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 1
+pass=1000
+rendermode=0
+

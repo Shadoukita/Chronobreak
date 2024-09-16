@@ -1,0 +1,213 @@
+[System]
+GroupPart1=blade_exile_base
+GroupPart1Importance=High
+GroupPart2=sword_glow2_exile_base_charged
+GroupPart2Importance=High
+GroupPart3=blade_exile_redeemed
+GroupPart3Importance=High
+GroupPart4=sword_glow2_exile_redeemed_charged
+GroupPart4Importance=High
+GroupPart5=blade_exile_crimson
+GroupPart5Importance=High
+GroupPart6=sword_glow2_exile_crimson_charged
+GroupPart6Importance=High
+GroupPart7=sword_glow2_exile_bunny
+GroupPart7Importance=High
+GroupPart8=blade_s2
+GroupPart8Importance=High
+GroupPart9=sword_glow2_s2
+GroupPart9Importance=High
+SimulateEveryFrame=1
+
+[blade_exile_base]
+KeywordsRequired=BaseRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=exile_new_sword_fit_base_03.sco
+p-meshtex=exile_props_01.tga
+p-offset=-7.5 0 6.5
+p-postoffset=0 0 0
+p-quadrot=0 1 0
+p-scale=1.5 1.5 1.5
+p-type=3
+pass=10
+rendermode=1
+
+[blade_exile_crimson]
+KeywordsRequired=CrimsonRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=exile_sword_piece_crimson_02.sco
+p-meshtex=riven_crimson_props_02.tga
+p-offset=-5 -10 0
+p-postoffset=0 0 0
+p-quadrot=0 5 0
+p-scale=2.75 1.5 1.5
+p-type=3
+pass=10
+rendermode=1
+
+[blade_exile_redeemed]
+KeywordsRequired=RedeemedRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=riven_redeemed_weapon.sco
+p-meshtex=riven_redeemed_props_02.dds
+p-postoffset=0 14 8
+p-quadrot=180 180 0
+p-scale=2 1.5 1.5
+p-type=3
+pass=10
+rendermode=1
+
+[blade_s2]
+KeywordsRequired=Season2Riven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=exile_new_sword_fit_base_03.sco
+p-meshtex=exile_props_01.tga
+p-offset=-7.5 0 6.5
+p-postoffset=0 0 0
+p-quadrot=0 1 0
+p-scale=1.5 1.5 1.5
+p-type=3
+pass=10
+rendermode=1
+
+[sword_glow2_exile_base_charged]
+KeywordsRequired=BaseRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=12
+e-rgba=205 255 255 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.03
+p-linger=0
+p-local-orient=1
+p-numframes=1
+p-postoffset=0 -20 3
+p-quadrot=0 -90 89
+p-scale=205 205 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=sword_profile_glow_02.tga
+p-type=1
+rendermode=0
+
+[sword_glow2_exile_bunny]
+KeywordsRequired=BattlebunnyRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=Riven_Bunnygirl_Sword_piece.sco
+p-meshtex=riven_battlebunny_TX_CM.dds
+p-offset=-2.8499999046325684 3.25 -1.5
+p-postoffset=0 0 0
+p-quadrot=0 1 0
+p-scale=1.5 1.5 1.5
+p-type=3
+pass=10
+rendermode=1
+
+[sword_glow2_exile_crimson_charged]
+KeywordsRequired=CrimsonRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=12
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.03
+p-linger=0
+p-local-orient=1
+p-numframes=1
+p-postoffset=0 -44 -2
+p-quadrot=0 -90 90
+p-scale=112 105 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=exile_crimson_sword_profile_glow.tga
+p-type=1
+rendermode=0
+
+[sword_glow2_exile_redeemed_charged]
+KeywordsRequired=RedeemedRiven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=12
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.03
+p-linger=0
+p-local-orient=1
+p-numframes=1
+p-postoffset=0 -24 3
+p-quadrot=0 -90 90
+p-scale=110 100 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=redeemed_sword_profile_glow.tga
+p-type=1
+rendermode=0
+
+[sword_glow2_s2]
+KeywordsRequired=Season2Riven
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=12
+e-rgba=205 255 255 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.03
+p-linger=0
+p-local-orient=1
+p-numframes=1
+p-postoffset=0 -20 3
+p-quadrot=0 -90 89
+p-scale=205 205 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=Riven_S2_Sword_Glow.tga
+p-type=1
+rendermode=0
+

@@ -1,0 +1,25 @@
+[System]
+GroupPart1=sphereBreak
+GroupPart2=Skin02EdgeFade
+SimulateEveryFrame=1
+group-scale-cap=0
+
+[sphereBreak]
+ChildEmitOnDeath=0
+ChildParticleName=Thresh_W_Shield_break_child.troy
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-rate=1
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-scale=0 0 0
+p-texture=ball32_01.tga
+p-type=0
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="brushpassive"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="nidaleepassivehunt"}}, 
+{Function=BBPreloadParticle, Params={Name="nidalee_base_e_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="primalsurge"}}, 
+{Function=BBPreloadParticle, Params={Name="nidalee_base_cougar_e_buf.troy"}}, 
+}

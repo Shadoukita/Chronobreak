@@ -1,0 +1,25 @@
+[System]
+GroupPart1=sword_blur
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[sword_blur]
+e-life=1
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.22
+p-bindtoemitter=1 1
+p-life=0.23
+p-postoffset=0 50 0
+p-rotvel=1100
+p-scale=200
+p-simpleorient=2
+p-texture=Riven_Skin05_Q_Swipe_01.dds
+p-type=1
+p-vel=0 0 0
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk9E807817=1

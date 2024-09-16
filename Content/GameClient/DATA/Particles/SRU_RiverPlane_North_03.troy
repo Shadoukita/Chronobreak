@@ -1,0 +1,27 @@
+[System]
+GroupPart1=WaterPlaneNorth
+SimulateEveryFrame=1
+group-vis=350
+
+[WaterPlaneNorth]
+e-rate=0.2
+p-bindtoemitter=1 0
+p-life=10
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_RiverPlane_North_03.scb
+p-meshtex=SRU_RiverPlane_South_01.DDS
+p-meshtex-mult=SRU_RiverPlane_South_Mult_01.DDS
+p-type=3
+p-uvscroll-rgb=-0.0010000000474974513 0.014999999664723873
+p-uvscroll-rgb-mult=0.004999999888241291 0.012000000104308128
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=-10000
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk81D96904=color-hold.DDS
+unkA2B3FCC0=sphere.sco

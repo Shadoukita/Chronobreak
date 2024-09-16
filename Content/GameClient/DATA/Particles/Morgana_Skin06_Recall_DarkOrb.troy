@@ -1,0 +1,65 @@
+[Orb]
+e-life=3
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2.6
+p-linger=0
+p-offset=0 0 10
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=20 20 20
+p-texture=Morgana_Skin06_Recall_DarkOrb_Orb.dds
+p-uvmode=1
+p-uvparallax-scale=1
+p-uvscroll-no-alpha=1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.05000000074505806 1.5 1.5 1.5
+p-xscale3=0.07000000029802322 1 1 1
+rendermode=2
+single-particle=1
+
+[OrbRing]
+e-life=2.6
+e-rate=40
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-mesh=Morgana_Skin06_Recall_OrbRings.scb
+p-meshtex=Morgana_Skin06_Recall_DarkOrb_OrbRings.dds
+p-numframes=4
+p-offset=0 0 10
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-scale=4 4 4
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1.1
+p-scaleYP1=0 0.9
+p-scaleYP2=1 1.1
+p-scaleZP1=0 0.9
+p-scaleZP2=1 1.1
+p-texdiv=1 4
+p-type=3
+p-uvscroll-rgb=1 0
+p-uvscroll-rgbXP1=0 0.5
+p-uvscroll-rgbXP2=1 2
+rendermode=1
+
+[System]
+GroupPart1=Orb
+GroupPart1Importance=High
+GroupPart2=OrbRing
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

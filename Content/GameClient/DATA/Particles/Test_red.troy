@@ -1,0 +1,20 @@
+[System]
+GroupPart1=glow10
+SimulateEveryFrame=1
+
+[glow10]
+e-rate=1
+e-rgba=255 0 0 255'red
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=0 0 0
+p-scale=10 10 10
+p-startframe=0
+p-texdiv=1 1
+p-texture=disc32.tga
+p-type=0
+rendermode=1
+

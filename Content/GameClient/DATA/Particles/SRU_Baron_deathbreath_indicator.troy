@@ -1,0 +1,52 @@
+[System]
+GroupPart1=team_indicator_red
+GroupPart1Importance=High
+GroupPart2=indicator
+
+[indicator]
+e-life=1.9000000000000001
+e-rate=1
+e-timeoffset=0.9
+p-life=1.5
+p-quadrot=90 0 0
+p-scale=150 50 50
+p-texture=SRU_Baron_Acidball_indicator.dds
+p-type=1
+p-vecalign=1
+p-vel=0 0 600
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.7 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[team_indicator_red]
+e-life=3
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=3
+p-lifeP1=0 0.95
+p-lifeP2=1 1
+p-linger=0
+p-local-orient=1
+p-mesh=sru_baron_deathbreath_indicator.scb
+p-meshtex=SRU_Baron_deathBreath_indicator.dds
+p-postoffset=0 5 0
+p-quadrot=0 0 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=2 2 2
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.95 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=4
+single-particle=1
+uniformscale=1
+

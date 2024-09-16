@@ -1,0 +1,102 @@
+[Glow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1.5
+p-lifeP1=0 0.7
+p-lifeP2=1 1
+p-linger=1.5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve6.tga
+p-rotvel=30
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=80
+p-simpleorient=2
+p-texture=radialhalo.tga
+p-type=0
+pass=-2
+rendermode=0
+
+[Halo]
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1.5
+p-lifeP1=0 0.7
+p-lifeP2=1 1
+p-linger=1.5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve6.tga
+p-rotvel=40
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=70
+p-simpleorient=2
+p-texture=prismaticflash.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1.1
+rendermode=0
+
+[StarsAccel]
+f-accel=0 600 0
+f-localspace=0
+
+[StarsOrbit]
+f-direction=0 1 0
+f-localspace=0
+
+[System]
+GroupPart1=Glow
+GroupPart1Type=Simple
+GroupPart2=Halo
+GroupPart2Type=Simple
+GroupPart3=stars_Green
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[stars_Green]
+e-life=-1
+e-linger=0
+e-rate=50
+field-accel-1=StarsAccel
+field-orbit-1=StarsOrbit
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.6
+p-lifeP1=0 0.2
+p-lifeP2=1 1.1
+p-offset=30 25 0
+p-offsetXP1=0 -2
+p-offsetXP2=1 2
+p-offsetYP1=0 0.1
+p-offsetYP2=1 3
+p-rgba=color-AhriOrbPassive.tga
+p-scale=12
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=prismaticflash.tga
+p-type=0
+p-vel=50 100 50
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale3=1 0.1
+rendermode=0
+

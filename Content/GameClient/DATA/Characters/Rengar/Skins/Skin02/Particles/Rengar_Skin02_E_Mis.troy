@@ -1,0 +1,80 @@
+[Bola]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0.1
+p-mesh=Rengar_Skin02_e_Mis_bola.sco
+p-meshtex=Rengar_Skin02_E_Bola.tga
+p-quadrot=0 0 0
+p-rotvel=0 800 0
+p-scale=130 130 130
+p-shadow=1
+p-type=3
+pass=10
+rendermode=1
+
+[System]
+GroupPart1=Bola
+GroupPart2=trail_add
+GroupPart3=trail_dark
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Rengar_RengarE_missilelaunch
+
+[trail_add]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=12
+p-bindtoemitter=0.8 1
+p-life=0.35
+p-linger=1
+p-quadrot=20 20 360
+p-quadrotXP1=0 -1
+p-quadrotXP2=1 1
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-quadrotZP1=0 -1
+p-quadrotZP2=1 1
+p-scale=75 75 75
+p-texture=Rengar_Skin02_E_Bola_Add.tga
+p-type=1
+p-xquadrot=1 1 10
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 1
+p-xquadrot2=1 0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+rendermode=4
+
+[trail_dark]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=50
+p-bindtoemitter=0.35 1
+p-life=0.35
+p-linger=1
+p-quadrot=20 20 360
+p-quadrotXP1=0 -1
+p-quadrotXP2=1 1
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-quadrotZP1=0 -1
+p-quadrotZP2=1 1
+p-scale=75 75 75
+p-texture=Rengar_Skin02_E_Bola_Add.tga
+p-type=1
+p-xquadrot=1 1 10
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 1
+p-xquadrot2=1 0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+pass=10
+rendermode=1
+

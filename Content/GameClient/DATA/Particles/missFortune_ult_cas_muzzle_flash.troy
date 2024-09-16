@@ -1,0 +1,27 @@
+[Flash_forward]
+e-life=0.05999999865889549
+e-rate=10
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.1
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=25
+p-scaleP1=0 2.5
+p-scaleP2=1 3
+p-startframe=0
+p-texdiv=2 3
+p-texture=Tristanashot.tga
+p-type=0
+rendermode=0
+
+[System]
+GroupPart1=Flash_forward
+GroupPart1Importance=High
+GroupPart1Type=Simple
+

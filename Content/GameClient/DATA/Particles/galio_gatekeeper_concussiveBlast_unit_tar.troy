@@ -1,0 +1,85 @@
+[System]
+GroupPart1=swirls2
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=swirls1
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[swirls1]
+e-life=0.2
+e-linger=0
+e-local-orient=1
+e-rate=15
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.2
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 8
+p-rgba=color-rampdown.tga
+p-scale=170 0 0
+p-simpleorient=2
+p-texture=Galio_Gatekeeper_Spiritwave.tga
+p-type=0
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.3
+p-xscale2=1 1
+rendermode=0
+
+[swirls2]
+e-life=0.14
+e-linger=0
+e-local-orient=1
+e-rate=180
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.3
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-postoffset=0 0 0
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 8
+p-rgba=Galio_Gatekeeper_Color_Spiritflames.tga
+p-rotvel=-200 0 0
+p-scale=200 0 0
+p-simpleorient=2
+p-texture=Galio_Gatekeeper_Spiritswirl2.tga
+p-type=0
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=1 0.7
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk19454856=0 1
+unk19454857=1 2
+unk22E2E793=0
+unk328BC751=230 0 0
+unk38638797=45
+unk3D04DC4B=1
+unk41F1456B=1
+unk46E8E010=2
+unk5C450362=Galio_Gatekeeper_Ringflare.tga
+unk8CAA47A7=0
+unk8DF28764=0 0 0
+unkA6C16715=0.2
+unkB0E18804=1 0
+unkB2D93960=0.2
+unkBC9C289D=1 1
+unkBCEA2B8D=color-rampdown.tga
+unkC4A64320=1 0.4
+unkC61FA544=6
+unkE07D36A6=0 0.1
+unkE07D36A7=1 0.9
+unkF570114F=1
+unkFBDB47D8=0 0
+unkFBDB47D9=1 8
+unkFD4226D5=0

@@ -1,0 +1,37 @@
+[System]
+GroupPart1=slice
+GroupPart1Type=Simple
+GroupPart2=text_override
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[slice]
+e-life=-1
+e-rate=3
+p-alphaslicerange=0.07
+p-coloroffset=0.5 1
+p-colorscale=0.5 1
+p-colortype=1 0
+p-life=2
+p-local-orient=1
+p-rgba=color-beacontrail32.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=Nocturne_Cyber_Digital_Scroll.tga
+p-type=11
+rendermode=4
+
+[text_override]
+MaterialOverride1BlendMode=0
+MaterialOverride1Texture=Nocturne_Cyber_Q_Waveys.tga
+e-life=5
+e-linger=0
+e-rate=1
+p-life=0.05
+p-rgba=color-hold.tga
+p-scale=0
+p-texture=Nocturne_Cyber_Q_Waveys.tga
+p-type=0
+p-uvscroll-rgb=1 1
+single-particle=1
+

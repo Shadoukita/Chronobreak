@@ -1,0 +1,37 @@
+[System]
+GroupPart1=TestTextures
+GroupPart1Importance=High
+SimulateEveryFrame=1
+group-vis=20000
+
+[TestTextures]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=-1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_Wolfden_Blueside_WindGrass_01.scb
+p-meshtex=SRU_TextureTesting_03.DDS
+p-scale=0.5 0.5 0.5
+p-shadow=0
+p-texdiv=1 1
+p-texture-mode=warp
+p-type=3
+p-xrgba=1 1 1 1
+rendermode=1
+single-particle=0
+
+[UNKNOWN_HASHES]
+unk0F5FBB0A=sphere.sco
+unk2D24CC3D=color-hold.DDS
+unk8063CCAF=0 1
+unk8063CCB0=0.3 1
+unk8063CCB1=1 1.5
+unk9AD90B4B=0 0.5
+unkA022C8E2=0 1 1 1 0
+unkA022C8E3=0.8 1 1 1 1
+unkA022C8E4=1 1 1 1 0

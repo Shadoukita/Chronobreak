@@ -1,0 +1,26 @@
+[System]
+GroupPart1=handglow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[handglow]
+e-life=-1
+e-linger=0
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-flexscale=0.005
+p-life=0.1599999964237213
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-red.tga
+p-scale=45
+p-scaleP1=0 0.9
+p-scaleP2=1 1.2000000000000002
+p-startframe=3
+p-texdiv=2 2
+p-texture=Glows.tga
+

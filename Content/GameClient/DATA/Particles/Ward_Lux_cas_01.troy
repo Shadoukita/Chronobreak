@@ -1,0 +1,110 @@
+[System]
+GroupPart1=ring
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=prism_rays
+GroupPart2Importance=High
+GroupPart3=glow
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=ring2
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=flash
+GroupPart5Importance=High
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+
+[flash]
+KeywordsRequired=SightWardLux
+e-life=0.1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=0
+p-scale=40
+p-texture=sharp_flash_02.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+
+[glow]
+KeywordsRequired=SightWardLux
+e-life=100000
+e-rate=20
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=8
+p-texture=Flare-Omnimax.dds
+p-xquadrot=0
+p-xscale=1
+pass=1
+
+[prism_rays]
+KeywordsRequired=SightWardLux
+e-life=100000
+e-rate=1.6
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=52 52 1
+p-texture=starfilter.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.35 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.4 0.4 0.4
+p-xscale2=0.5 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+pass=1
+
+[ring]
+KeywordsRequired=SightWardLux
+e-life=0.30000000000000004
+e-linger=0.30000000000000004
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-rgba=alpha_12.tga
+p-scale=35
+p-texture=rainbowhalo.dds
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.5 1.5 1.5
+single-particle=1
+
+[ring2]
+KeywordsRequired=SightWardLux
+e-life=100000
+e-rate=0.5
+e-timeoffset=1.5
+p-bindtoemitter=1 1
+p-life=0.7000000000000001
+p-linger=0
+p-rgba=alpha_12.tga
+p-scale=24
+p-texture=rainbowhalo.dds
+p-xscale=1
+p-xscale1=0 0.9 0.9 0.9
+p-xscale2=1 1.5 1.5 1.5
+
+[UNKNOWN_HASHES]
+unk1602C07D=1
+unkDA5F84E3=1

@@ -1,0 +1,89 @@
+[System]
+GroupPart1=glow_3
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=glow_3_pulsefire
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart4=pulse
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[glow_3]
+KeywordsExcluded=CyberEzreal
+e-life=100000
+e-linger=0
+e-local-orient=1
+e-rate=30
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=60
+p-life=0.03333333333
+p-linger=0
+p-numframes=2
+p-offset=-9 4 0
+p-quadrot=90
+p-rgba=color-hold.tga
+p-scale=40
+p-startframe=1
+p-texdiv=3 2
+p-texture=EzrealHandGlow.tga
+p-type=0
+rendermode=0
+
+[glow_3_pulsefire]
+KeywordsRequired=CyberEzreal
+e-life=100000
+e-linger=0
+e-local-orient=1
+e-rate=30
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=60
+p-life=0.03333333333
+p-linger=0
+p-numframes=2
+p-quadrot=90
+p-rgba=color-hold.tga
+p-scale=46
+p-startframe=1
+p-texdiv=3 2
+p-texture=EzrealHandGlow.tga
+p-type=0
+rendermode=0
+
+[pulse]
+KeywordsRequired=CyberEzreal
+e-life=100000
+e-linger=0
+e-local-orient=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1.25
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=200 0 0
+p-scale=5
+p-startframe=4
+p-texdiv=3 2
+p-texture=ezreal_pulsefire_handglows.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0.95
+pass=-100
+rendermode=0
+

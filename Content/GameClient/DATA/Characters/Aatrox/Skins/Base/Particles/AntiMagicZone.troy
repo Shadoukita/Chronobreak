@@ -1,0 +1,19 @@
+[System]
+GroupPart1=shield
+SimulateEveryFrame=1
+
+[shield]
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=7.5
+p-linger=0
+p-mesh=Half_Sphere.sco
+p-meshtex=spellblockcell.tga
+p-offset=0 100 0
+p-scale=350 350 350
+p-type=3
+rendermode=0
+single-particle=1
+

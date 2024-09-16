@@ -1,0 +1,23 @@
+[Reticle01]
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=-1
+p-linger=0
+p-offset=0 0 0
+p-rgba=color-reticle1.tga
+p-rotvel=0
+p-scale=60
+p-simpleorient=2
+p-texdiv=2 2
+p-texture=base1.tga
+p-type=1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Reticle01
+GroupPart1Type=Simple
+

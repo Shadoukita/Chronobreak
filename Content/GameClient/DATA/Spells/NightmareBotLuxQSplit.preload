@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotluxq"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotluxqmarker"}}, 
+{Function=BBPreloadSpell, Params={Name="luxilluminatingfraulein"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotluxetrigger"}}, 
+}

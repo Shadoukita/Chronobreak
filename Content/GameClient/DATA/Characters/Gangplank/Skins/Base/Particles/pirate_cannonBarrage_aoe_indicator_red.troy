@@ -1,0 +1,51 @@
+[System]
+GroupPart1=x
+GroupPart1Importance=High
+GroupPart2=ring
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Gangplank_CannonBarrage_area
+
+[ring]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=7
+p-linger=0
+p-offset=0 10 0
+p-postoffset=0 30 0
+p-scale=875
+p-simpleorient=2
+p-texture=team_ring_red_02.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0.66
+p-xscale2=1 0.6600000262260437
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+
+[x]
+e-life=1
+e-rate=1
+p-colortype=1 3
+p-life=7
+p-linger=0
+p-local-orient=1
+p-offset=0 2 0
+p-quadrot=90 0 0
+p-scale=180 180 180
+p-texture=cannonBarrage_x_red.tga
+p-type=1
+p-xquadrot-on=1
+p-xrgba=1 1 1 1
+p-xrgba1=0.1 1 1 1 1
+p-xrgba2=0.15 1 1 1 0.35
+p-xrgba3=1 1 1 1 0.35
+pass=-1
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+

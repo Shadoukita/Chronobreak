@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Kalista_base_r_charged_sphere.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Kalista_base_r_charged_proc.troy"}}, 
+}

@@ -1,0 +1,44 @@
+[System]
+GroupPart1=WaterSpray_Pool
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[WaterAccel]
+f-accel=0 -850 0
+f-localspace=0
+
+[WaterSpray_Pool]
+KeywordsRequired=ZiggsPoolParty
+e-life=0.2
+e-linger=0
+e-local-orient=1
+e-rate=200
+field-accel-1=WaterAccel
+p-bindtoemitter=0.8 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.7
+p-lifeP2=1 1
+p-linger=1
+p-numframes=16
+p-randomstartframe=8
+p-rgba=color-empathize32.tga
+p-scale=30
+p-scaleP1=0 0.7
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=waterdots.tga
+p-type=0
+p-vel=10 650 0
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.3
+p-velYP2=1 1
+p-xscale1=0 0.3
+p-xscale2=1 1
+rendermode=1
+

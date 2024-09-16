@@ -1,0 +1,139 @@
+[DirtDrag]
+f-drag=0.30000000000000004
+f-pos=0 0 0
+f-radius=1000
+
+[DustDrag]
+f-drag=2
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=trench
+GroupPart2=dust
+GroupPart2Type=Simple
+GroupPart3=dirtbits
+GroupPart3Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[dirtbits]
+e-life=3
+e-linger=0
+e-local-orient=0
+e-rate=100
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 -20
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity
+field-drag-1=DirtDrag
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-linger=2
+p-numframes=4
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 50
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-scale=3
+p-scaleP1=0 0.5
+p-scaleP2=0.9 1
+p-scaleP3=1 3
+p-shadow=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=dirtbits.tga
+p-type=0
+p-vel=0 400 0
+p-velYP1=0 0.2
+p-velYP2=0.9 1
+p-velYP3=1 1.2000000000000002
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.9 1
+p-xscale3=1 0
+rendermode=1
+
+[dust]
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=100
+field-drag-1=DustDrag
+p-bindtoemitter=0.5 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.25
+p-lifeP2=1 1.5
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-dust32.tga
+p-rotvel=0 0 0
+p-scale=20
+p-startframe=0
+p-texdiv=1 1
+p-texture=smoke06.tga
+p-type=0
+p-vel=10 0 300
+p-velXP1=0 -40
+p-velXP2=1 40
+p-velZP1=0 0
+p-velZP2=1 1
+p-xscale=1 1 1
+p-xscale1=0 1
+p-xscale2=0.30000000000000004 3
+p-xscale3=1 3.5
+rendermode=1
+
+[gravity]
+f-accel=0 -1000 0
+f-localspace=0
+
+[trench]
+e-life=1
+e-linger=0
+e-rate=60
+e-tilesize=100 0 0
+p-life=3
+p-linger=3
+p-offset=1 0 0
+p-offsetXP1=0 -2
+p-offsetXP2=1 2
+p-quadrot=0 0 0
+p-rgba=color-eyefade32.tga
+p-scale=30 0 0
+p-scale1=0 0 0 0
+p-scale2=0.05000000074505806 1 0 0
+p-scale3=0.949999988079071 1 0 0
+p-scale4=1 0 0 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=trench.tga
+p-trailmode=1
+p-type=5
+p-xscale=1 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.03999999910593033 1 0 0
+p-xscale3=0.9 1 0 0
+p-xscale4=1 0 0 0
+pass=-1
+rendermode=1
+

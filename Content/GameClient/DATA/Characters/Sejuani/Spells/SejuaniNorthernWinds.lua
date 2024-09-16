@@ -1,0 +1,15 @@
+local L0_1, L1_1
+L0_1 = "Sejuani_W2.dds"
+BuffTextureName = L0_1
+L0_1 = "SejuaniNorthernWinds"
+BuffName = L0_1
+L0_1 = "l_hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "r_hand"
+AutoBuffActivateAttachBoneName2 = L0_1
+L0_1 = 2
+SpellToggleSlot = L0_1
+L0_1 = {}
+L1_1 = "SejuaniSkin04"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

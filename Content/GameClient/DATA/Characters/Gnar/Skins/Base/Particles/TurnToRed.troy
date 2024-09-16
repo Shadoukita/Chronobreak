@@ -1,0 +1,20 @@
+[System]
+GroupPart1=Turn_To_Red
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[Turn_To_Red]
+MaterialOverride1Priority=4000
+MaterialOverride1Texture=Gnar_Base_P_Fur_red.dds
+MaterialOverrideTransMap=Gnar_Base_P_Trans.dds
+MaterialOverrideTransSource=1
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=-1
+p-linger=0
+p-rgba=Gnar_Base_P_Fur_MOTrans_rgba.dds
+p-scale=0
+rendermode=1
+

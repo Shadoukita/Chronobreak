@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="cursebandages.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="threshqleapattack"}}, 
+{Function=BBPreloadSpell, Params={Name="threshq"}}, 
+}

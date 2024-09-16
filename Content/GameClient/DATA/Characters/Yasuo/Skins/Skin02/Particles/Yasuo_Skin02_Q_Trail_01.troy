@@ -1,0 +1,21 @@
+[Q_Trail_Child]
+e-life=1
+e-linger=1
+e-rate=30
+e-tilesize=300 -1 0
+flag-disable-z=1
+p-accel=0 500 0
+p-life=0.5
+p-scale=3 10 10
+p-scaleXP1=0 0.5 0.5 0.5
+p-scaleXP2=1 1 1 1
+p-texture=Yasuo_Skin02_Z_Ring_Mesh_01.dds
+p-trailmode=1
+p-type=4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 0 0 0 0
+
+[System]
+GroupPart1=Q_Trail_Child
+

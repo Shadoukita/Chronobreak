@@ -1,0 +1,41 @@
+[System]
+GroupPart1=wipe
+SimulateEveryFrame=1
+
+[wipe]
+e-life=0.2
+e-linger=0.2
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 30
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 0
+p-drag=3 3 3
+p-life=0.5
+p-lifeP1=0 1
+p-lifeP2=0.8 1.5
+p-lifeP3=1 2
+p-postoffset=0 0 0
+p-rgba=Velkoz_Base_Z_Rampdown_rgb.tga
+p-scale=5 5 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-texture=Velkoz_Base_Z_SoftDot.tga
+p-type=0
+p-vec-velocity-minscale=1
+p-vec-velocity-scale=0.019999999552965164
+p-vecalign=1
+p-vel=0 -300 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-worldaccel=0 -100 0
+rendermode=0
+uniformscale=1
+

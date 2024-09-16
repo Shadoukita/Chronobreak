@@ -1,0 +1,15 @@
+local L0_1, L1_1
+L0_1 = "Summoner_haste.dds"
+BuffTextureName = L0_1
+L0_1 = "ItemPhageSpeed"
+BuffName = L0_1
+L0_1 = "Boots_Deathmarch.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "Global_Haste.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "L_BUFFBONE_GLB_FOOT_LOC"
+AutoBuffActivateAttachBoneName2 = L0_1
+L0_1 = "Global_Haste.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = "R_BUFFBONE_GLB_FOOT_LOC"
+AutoBuffActivateAttachBoneName3 = L0_1

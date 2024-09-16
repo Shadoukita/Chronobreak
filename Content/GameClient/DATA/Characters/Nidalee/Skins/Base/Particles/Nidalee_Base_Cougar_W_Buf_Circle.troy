@@ -1,0 +1,48 @@
+[Ring]
+e-disabled=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-linger=0.75
+p-quadrot=90 0 0
+p-scale=700 700 0
+p-texture=ring_highres.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=0.85 1 1 1 1
+p-xrgba4=1 1 1 1 0
+single-particle=1
+teamcolor-correction=1
+
+[Ring2]
+e-framerate=0
+e-life=1
+e-rate=0.5
+e-rgba=170 255 127 255
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=nidalee_base_cougar_q_circle_mesh.scb
+p-meshtex=Nidalee_Base_Cougar_Q_ring.dds
+p-numframes=0
+p-scale=1.4249999523162842 1.4249999523162842 1.4249999523162842
+p-texdiv=0 0
+p-type=3
+p-uvmode=1
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1 1
+p-xrgba=1 1 1 0.19200399518013
+pass=-100
+rendermode=4
+
+[System]
+GroupPart1=Ring
+GroupPart2=Ring2
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="mordakaiser_siphonofdestruction_self.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="mordakeiser_hallowedstrike_self_skin.troy"}}, 
+}

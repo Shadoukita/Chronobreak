@@ -1,0 +1,86 @@
+[BlacksmithPoppyMaterialOverride]
+KeywordsRequired=BlacksmithPoppy
+MaterialOverride1Texture=poppy_blacksmith_max_TX_CM.dds
+e-life=1
+e-rate=1
+p-life=1
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[DefaultMaterialOverride]
+KeywordsRequired=BasePoppy
+MaterialOverride1Texture=PoppyDef_max.tga
+e-life=1
+e-rate=1
+p-life=1
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[LolliPoppyMaterialOverride]
+KeywordsRequired=LolliPoppy
+MaterialOverride1Texture=poppy_lolli_max_TX_CM.dds
+e-life=1
+e-rate=1
+p-life=1
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[NoxusPoppyMaterialOverride]
+KeywordsRequired=EvilPoppy
+MaterialOverride1Texture=NoxusPoppyDef_max.tga
+e-life=1
+e-rate=1
+p-life=1
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[System]
+GroupPart1=shieldglow
+GroupPart2=DefaultMaterialOverride
+GroupPart2Type=Simple
+GroupPart3=NoxusPoppyMaterialOverride
+GroupPart3Type=Simple
+GroupPart4=LolliPoppyMaterialOverride
+GroupPart4Type=Simple
+GroupPart5=BlacksmithPoppyMaterialOverride
+GroupPart5Type=Simple
+MaterialOverride1Texture=PoppyDef_max.tga
+SimulateEveryFrame=1
+SoundOnCreate=popppsfx_Poppy_PoppyParagonofDemacia_shieldmax
+SoundPersistent=Play_sfx_Poppy_PoppyParagonofDemacia_loop
+
+[shieldglow]
+e-life=8
+e-local-orient=1
+e-rate=30
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-life=0.06700000166893005
+p-linger=0
+p-local-orient=1
+p-offset=16 -10 -5
+p-postoffset=0 0 0
+p-quadrot=30 -8 100
+p-scale=70 70 1
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1.1
+p-scaleYP1=0 0.9
+p-scaleYP2=1 1.1
+p-texdiv=1 1
+p-texture=poppydef_buf.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.2
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=0
+

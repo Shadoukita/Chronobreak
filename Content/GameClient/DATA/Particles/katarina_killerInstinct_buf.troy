@@ -1,0 +1,81 @@
+[System]
+GroupPart1=hand_glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=cast_flash_02
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+GroupPart3=cast_flash
+GroupPart3Importance=High
+GroupPart3Type=Simple
+
+[cast_flash]
+e-life=0.2
+e-rate=10
+p-bindtoemitter=0 0
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=360 0 0
+p-scale=15
+p-texture=blast_ring_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+
+[cast_flash_02]
+e-life=0.05000000074505806
+e-rate=60
+p-bindtoemitter=0 0
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.65
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=270 0 0
+p-rotvelP1=0 -1
+p-rotvelP2=0.5 -1
+p-rotvelP3=0.5 1
+p-rotvelP4=1 1
+p-scale=13
+p-texture=purp_buf_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 25 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 0 0 0
+
+[hand_glow]
+e-life=-1
+e-rate=12
+p-bindtoemitter=1 1
+p-life=0.35
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-smoke32_07.tga
+p-rotvel=220
+p-rotvelP1=0 1
+p-rotvelP2=1 -1
+p-scale=120
+p-texture=purp_buf_01.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.4 0.4 0.4
+p-xscale3=1 0.8 0.8 0.8
+rendermode=0
+

@@ -1,0 +1,21 @@
+[System]
+GroupPart1=mesh
+SimulateEveryFrame=1
+
+[mesh]
+e-life=5
+e-rate=1
+p-life=5
+p-mesh=multipleUVsets_test.scb
+p-meshtex=multipleUVsets_test.dds
+p-meshtex-mult=multipleUVsets_test.dds
+p-offset=0 0 0
+p-scale=5 5 5
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+single-particle=1
+

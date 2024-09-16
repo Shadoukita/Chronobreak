@@ -1,0 +1,39 @@
+[System]
+GroupPart1=TeamCircle-Green
+SimulateEveryFrame=1
+group-vis=1000
+
+[TeamCircle-Green]
+e-life=0.1
+e-rate=1
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 -1
+e-uvoffset-multXP2=1 1
+e-uvoffset-multYP1=0 -1
+e-uvoffset-multYP2=1 1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=6
+p-mesh=Kalista_Skin01_R_indicator_ring.scb
+p-meshtex=Kalista_Skin01_R_indicator_ring.dds
+p-meshtex-mult=Kalista_Skin01_R_indicator_Ring_Mult.dds
+p-scale=37 37 37
+p-type=3
+p-uvscroll-rgb-mult=0.1 0.2
+p-uvscroll-rgb-multXP1=0 1
+p-uvscroll-rgb-multXP2=1 -1
+p-uvscroll-rgb-multYP1=0 1
+p-uvscroll-rgb-multYP2=1 -1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 0.419608 0.419608 1
+p-xrgba3=0.8 0.192157 0 0 1
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.1 1 1 1
+p-xscale3=1 1 1 1
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,65 @@
+[Flash]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.4
+p-offset=0 100 0
+p-rgba=color-rampdown.tga
+p-scale=330
+p-texture=Lissandra_Skin02_R_LensFlash.dds
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=WeaponTrail
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=0.21
+e-linger=0
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.16
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=0.21
+p-linger=0
+p-mesh=Lissandra_Skin02_Q_Swipe.sco
+p-meshtex=Lissandra_Skin02_Q_Swipe.dds
+p-postoffset=30 210 90
+p-quadrot=-40 40 0
+p-rgba=color-rampdown.tga
+p-scale=0.85 0.85 0.85
+p-type=3
+p-uvscroll-rgb=2 0
+pass=20
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk07B2136B=1
+unk0A80FC4F=1
+unk239573B3=-40 40 0
+unk43FB0C2B=2 0
+unk4DA20DC0=0
+unk62F1016D=0.85 0.85 0.85
+unk7CDFE5F9=0.21
+unk88F7B844=0.21
+unk9308AA71=color-rampdown.tga
+unk9C3E2428=2
+unkA2ED1171=20
+unkA97B7BEA=Hecarim_QTrail.sco
+unkAFAF948B=0
+unkB17237C0=0
+unkCAA741B9=0
+unkCEDE2AB9=1
+unkD5A64188=0.16
+unkE9CFB35D=Lissandra_Q_Swipe.tga
+unkF2031ED0=30 210 90
+unkF9016677=3

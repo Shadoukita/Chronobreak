@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="riven_base_r_tar_minion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="riven_base_r_tar.troy"}}, 
+}

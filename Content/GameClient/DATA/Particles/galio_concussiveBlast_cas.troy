@@ -1,0 +1,40 @@
+[System]
+GroupPart1=soundWave01
+GroupPart1Importance=High
+GroupPart1Type=Complex
+
+[soundWave01]
+KeywordsExcluded=GatekeeperGalio
+e-life=1.2000000000000002
+e-rate=19
+p-colorscale=1
+p-colortype=1
+p-life=0.2
+p-quadrot=90 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=80 80 80
+p-texture=shockwaves_02.tga
+p-type=1
+p-vel=0 0 120
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 0.6 0.6 0.6
+p-xscale3=1 1 1 1.2000000000000002
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk132E6259=0
+unk2D2C26E0=0 0 200
+unk4DF568CD=40 40 40
+unk51882D80=1
+unk5C35DA22=0 0.15 0.15 0.15
+unk5C35DA23=0.5 0.6 0.6 0.6
+unk5C35DA24=1 1 1 1
+unk6BA37CEF=1
+unk756BA699=0.2
+unk818378E4=1.4000000000000001
+unk8B946B11=AlphaStrike_Slash__slash__p-rgba.tga
+unk94C9E4C8=25
+unkB41C2B13=90 0 0
+unkD7FDA6DE=shockwaves_01.tga
+unkF18D2717=1
+unkF324FCA4=1

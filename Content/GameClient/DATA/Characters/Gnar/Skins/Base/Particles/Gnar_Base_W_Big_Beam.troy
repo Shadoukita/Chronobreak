@@ -1,0 +1,46 @@
+[PowProjection]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-linger=0
+p-offset=-10 0 330
+p-projection-fading=50
+p-projection-y-range=100
+p-rgba=Gnar_Base_W_Big_Beam_Pow.dds
+p-scale=200 0 360
+p-texture=GnarBig_Base_W_Pow_Area.dds
+p-type=7
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart2=PowProjection
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[UNKNOWN_HASHES]
+unk0A200D18=1 1
+unk3013FE58=1
+unk43A19492=90 0 90
+unk4974EF21=0
+unk51E729F1=-10 10 330
+unk6783105D=GnarBig_Base_W_Pow_Area.dds
+unk6EAED123=0 1 1 1 0
+unk6EAED124=0.5 1 1 1 1
+unk6EAED125=0.8 1 1 1 1
+unk6EAED126=1 1 1 1 0
+unk886561CC=360 200 0
+unk98D3D28E=1 1 1 1
+unkB3F27DDA=0.6000000000000001
+unkC00A5025=0.5
+unkCE82589A=1
+unkD350BC09=2
+unkEBBB43A1=0 1 1 0
+unkEBBB43A2=0.5 1 1 0
+unkEBBB43A3=1 1 1 0
+unkF80CE090=1 1 1

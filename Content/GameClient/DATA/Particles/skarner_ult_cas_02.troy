@@ -1,0 +1,24 @@
+[System]
+GroupPart1=flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flash]
+e-disabled=1
+e-life=0.2
+e-local-orient=0
+e-rate=8
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-postoffset=0 20 0
+p-quadrot=45
+p-rgba=alpha_02.tga
+p-scale=250
+p-simpleorient=2
+p-texture=flare-Rainbow_blue_02.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+

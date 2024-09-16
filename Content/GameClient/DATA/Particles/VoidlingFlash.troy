@@ -1,0 +1,83 @@
+[Proj_white]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.009999999776482582
+p-colortype=1 0
+p-life=0.30000000000000004
+p-linger=0
+p-local-orient=1
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-bellramp.tga
+p-scale=400 400 400
+p-texture=fuzzyshad.tga
+p-type=7
+p-xscale1=0 0 0 0
+p-xscale2=0.25 1 1 1
+p-xscale3=0.75 1 1 1
+p-xscale4=1 0.2 0.2 0.2
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Proj_white
+GroupPart1Importance=Low
+GroupPart2=rays
+GroupPart2Importance=High
+GroupPart3=ringflare
+GroupPart3Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[rays]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=40
+p-bindtoemitter=0
+p-colortype=1 0
+p-life=0.30000000000000004
+p-lifeP1=0 1
+p-lifeP2=1 0.30000000000000004
+p-linger=0
+p-offset=0 100 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-wildcard.tga
+p-scale=20 50 0
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.2
+p-scaleYP2=1 1
+p-texdiv=1 1
+p-texture=chaosexploshaft.tga
+p-type=2
+p-xscale1=0 4 0 0
+p-xscale2=0.5 4 4 0
+p-xscale3=1 0 8 0
+rendermode=0
+single-particle=1
+
+[ringflare]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=0 0
+p-life=0.6000000000000001
+p-postoffset=0 100 0
+p-rgba=color-rampdown.tga
+p-scale=50
+p-scalebias=1 0.5
+p-texdiv=1 1
+p-texture=ringflare.tga
+p-xscale1=0 3
+p-xscale2=1 5
+single-particle=1
+

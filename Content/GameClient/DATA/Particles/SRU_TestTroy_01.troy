@@ -1,0 +1,64 @@
+[Drag]
+f-drag=0.30000000000000004
+f-pos=0 500 0
+f-radius=1000
+
+[Fish1]
+e-life=-1
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=Drag
+field-noise-1=Noise1
+p-frameRate=30
+p-life=25
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-numframes=36
+p-offset=1 0 0
+p-offsetXP1=0 50
+p-offsetXP2=1 200
+p-randomstartframe=1
+p-scale=43 43 43
+p-scaleXP1=0 0.6
+p-scaleXP2=0.5 0.7000000000000001
+p-scaleXP3=1 1
+p-startframe=0
+p-texdiv=6 6
+p-texture=SRU_Fish_01.dds
+p-type=0
+p-vecalign=1
+p-vel=100 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=1
+uniformscale=1
+
+[Noise1]
+f-period=0.3499999940395355
+f-pos=0 1 0
+f-radius=2000
+f-veldelta=10
+
+[System]
+GroupPart1=Fish1
+GroupPart2=Fish2
+SimulateEveryFrame=1
+group-vis=5000
+
+[UNKNOWN_HASHES]
+unk7DC5794B=2000
+unkA826ABA7=0 1 1 1 1
+unkB9792A7C=0.5 1 1 1 1
+unkB9792A7D=1 1 1 1 1
+unkEC779BBA=0.2
+unkF02E395D=Noise2
+unkF25C495B=0 1 0
+unkFCD3D834=20

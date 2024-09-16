@@ -1,0 +1,27 @@
+[System]
+GroupPart1=arm_mesh
+SimulateEveryFrame=1
+
+[arm_mesh]
+KeywordsRequired=ShadowShyvana
+e-life=-1
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-local-orient=1
+p-mesh=shyvana_shadow_arm_mesh.sco
+p-meshtex=dark_energy_01.tga
+p-offset=5 0 0
+p-quadrot=0 0 -70
+p-rgba=alpha_20.tga
+p-scale=1.5 1.5 1.5
+p-scale1=0 1 1 1
+p-scale2=0.30000000000000004 3 3 3
+p-scale3=1 5 3 3
+p-type=3
+p-uvscroll-rgb=-0.2 -1
+pass=100
+rendermode=4
+

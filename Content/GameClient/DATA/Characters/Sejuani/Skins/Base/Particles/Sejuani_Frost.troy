@@ -1,0 +1,37 @@
+[System]
+GroupPart1=frost_freeze
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[frost_freeze]
+e-alpharef=15
+e-life=25000
+e-linger=0
+e-local-orient=0
+e-rate=4
+p-bindtoemitter=0.3 0
+p-frameRate=0
+p-life=0.8
+p-lifeP1=0 1
+p-lifeP2=1 1.149999976158142
+p-linger=0
+p-numframes=1
+p-offset=0 1 0
+p-offsetYP1=0 1
+p-offsetYP2=1 2
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=insta_freeze.tga
+p-scale=85
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Global_Freeze_multi_insta.tga
+p-type=1
+pass=-100
+rendermode=1
+

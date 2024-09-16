@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sona_base_e_pcready_corerings.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sona_base_e_powerchordready_right.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sona_base_e_powerchordready_left.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="sonaeattackupgrade"}}, 
+}

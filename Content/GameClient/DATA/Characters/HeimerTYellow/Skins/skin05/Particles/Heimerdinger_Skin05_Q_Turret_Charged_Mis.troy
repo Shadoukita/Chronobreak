@@ -1,0 +1,130 @@
+[System]
+GroupPart1=streak
+GroupPart2=rings
+GroupPart3=head
+GroupPart4=streak_black
+GroupPart5=toxin
+GroupPart5Importance=High
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+
+[head]
+e-local-orient=1
+e-rate=30
+p-bindtoemitter=1 1
+p-life=0.2
+p-local-orient=1
+p-postoffset=0 -220 0
+p-quadrot=0 0 90
+p-rgba=Heimerdinger_Skin05_Q_trail_color_01.dds
+p-rotvel=0 0 0
+p-scale=310 100 100
+p-texture=Heimerdinger_Skin05_Q_Turret_Charged_Mis_03.dds
+p-type=1
+p-xscale1=0 1.25 1 1
+p-xscale2=1 1 0.2 0.2
+rendermode=4
+
+[rings]
+e-life=1.5
+e-local-orient=1
+e-rate=46
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-life=0.13
+p-local-orient=1
+p-mesh=ezreal_pulsefire_muzzle_cone.sco
+p-meshtex=Heimerdinger_Skin05_R_MegaTurret_Mis_Rings_03.dds
+p-offset=0 35 0
+p-quadrot=0 0 180
+p-rgba=alpha_12.tga
+p-scale=2 2 2
+p-type=3
+p-vel=0 -1300 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 10 10 10
+p-xscale3=1 5 5 5
+rendermode=4
+
+[streak]
+e-rate=110
+p-bindtoemitter=0 0.4
+p-frameRate=0
+p-life=0.75
+p-linger=-1
+p-local-orient=1
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=0 20 0
+p-quadrot=90 0 0
+p-scale=100 50 0
+p-startframe=1
+p-texdiv=2 2
+p-texture=AirSpiritStreak.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.65 0.4 0 0.05
+p-xrgba2=0.15 0.65 0.4 0 0.1
+p-xrgba3=0.3 0.65 0.4 0 0.05
+p-xrgba4=1 0.65 0.4 0 0
+p-xscale1=0.1 2 2 2
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+
+[streak_black]
+e-rate=30
+p-bindtoemitter=0 0.4
+p-life=0.35
+p-linger=-1
+p-local-orient=1
+p-offset=0 0 0
+p-postoffset=0 -120 0
+p-quadrot=0 0 90
+p-scale=60 40 0
+p-texture=Heimerdinger_Base_W_Black_Ribbon.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.65 0.4 0 0.05
+p-xrgba2=0.15 0.65 0.4 0 0.1
+p-xrgba3=0.3 0.65 0.4 0 0.05
+p-xrgba4=1 0.65 0.4 0 0
+p-xscale1=0.1 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=1
+
+[toxin]
+e-life=0.75
+e-linger=0
+e-rate=75
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0.995
+p-life=0.325
+p-lifeP1=0 0.5
+p-lifeP2=0.5 0.75
+p-lifeP3=1 1
+p-linger=-1
+p-numframes=9
+p-offset=3 0 3
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_12.tga
+p-scale=55
+p-scaleP1=0 0.65
+p-scaleP2=1 1
+p-texdiv=3 3
+p-texture=Heimerdinger_Skin05_W_Mis_toxin_02.dds
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=0.5 0.7
+p-xscale3=1 1
+rendermode=0
+

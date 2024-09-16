@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="leblanc_base_re_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_re_tar_02.troy"}}, 
+}

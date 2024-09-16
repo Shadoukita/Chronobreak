@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="shyvana_doubleattack_tar_shadow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Shyvana_Base_doubleAttack_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="shyvanadoubleattackhit"}}, 
+}

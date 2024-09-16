@@ -1,0 +1,42 @@
+[System]
+GroupPart1=sound01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=sound02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+
+[sound01]
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=-45
+p-rgba=soundwave_blue_hit_tar_p-rgba.tga
+p-scale=120
+p-texture=sound_waves_styled_impact_01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.1
+p-xscale2=1 1
+
+[sound02]
+e-life=1
+e-rate=1
+p-life=0.30000000000000004
+p-offset=0 40 0
+p-quadrot=-90
+p-rgba=soundwave_blue_hit_tar_p-rgba.tga
+p-scale=100
+p-texture=sound_waves_styled_impact_01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.1
+p-xscale2=1 1.149999976158142
+
+[UNKNOWN_HASHES]
+unkB01672A3=0 60 165 183 255
+unkB01672A4=0.92 0 0 0 255
+unkFEBFB064=0 60 165 183 255
+unkFEBFB065=0.92 0 0 0 255

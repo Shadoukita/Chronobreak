@@ -1,0 +1,99 @@
+[System]
+GroupPart1=circle2
+GroupPart1Type=Simple
+GroupPart2=test
+GroupPart2Type=Simple
+GroupPart3=yell
+GroupPart3Type=Simple
+
+[circle2]
+Emitter-BirthRotationalAcceleration=0 0 0
+Particle-Acceleration=0 0 0
+Particle-Drag=0 0 0
+Particle-Velocity=0 0 0
+e-active=1
+e-life=1
+e-linger=1
+e-period=1
+e-rate=10
+e-rate1=0 1
+e-rate2=1 0.25903698801994324
+p-bindtoemitter=1 0
+p-bindtoemitter1=0 1 0
+p-bindtoemitter2=1 1 0
+p-frameRate=8
+p-life=0.5
+p-life1=0 1.5199999809265137
+p-life2=1 1
+p-offset=0 10 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=color-hunterscall2.tga
+p-rotvel=20
+p-rotvel1=0 0 0 0
+p-rotvel2=1 0 0 0
+p-scale=17
+p-simpleorient=2
+p-startframe=3
+p-texdiv=2 3
+p-texture=HuntersCall01.tga
+p-type=1
+p-vel=0 300 0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.03700000047683716 0.7944443821907043 0 0
+p-xscale3=0.10385189950466156 0.7944443821907043 0 0
+p-xscale4=0.1080000028014183 0.7944443821907043 0 0
+p-xscale5=0.24829639494419098 0.7944443821907043 0 0
+p-xscale6=0.25200000405311584 0.7944443821907043 0 0
+p-xscale7=0.25925931334495544 0.7944443821907043 0 0
+p-xscale8=0.41100001335144043 4.2210001945495605 0 0
+p-xscale9=1 15 0 0
+uniformscale=1
+
+[test]
+e-life=0.5
+e-rate=6
+p-life=0.5
+p-offset=0 200 0
+p-quadrot=180
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-scale=20
+p-startframe=5
+p-texdiv=2 3
+p-texture=HuntersCall01.tga
+p-vel=0 500 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 20 1 1
+
+[yell]
+e-life=0.5
+e-rate=6
+p-life=0.5
+p-offset=0 200 0
+p-quadrot=180
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-scale=5
+p-startframe=1
+p-texdiv=2 3
+p-texture=HuntersCall01.tga
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 20 1 1
+
+[UNKNOWN_HASHES]
+unk91F80A3B=7
+unkBFEE08D9=1
+unkC338E60D=0 30 0
+unkDEB393EC=0 0
+unkDEB393ED=1 1
+unkDF31A36D=0 0
+unkDF31A36E=1 0
+unkDFAFB2EE=0 0
+unkDFAFB2EF=1 1

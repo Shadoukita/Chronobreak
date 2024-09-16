@@ -1,0 +1,112 @@
+[Flashing]
+e-life=-1
+e-linger=0
+e-rate=13
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.4
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0.8
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-vladhealtrail.tga
+p-rotvel=20
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=125
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-texture=glow_maroon.tga
+p-type=0
+p-xscale1=0 0.5
+p-xscale2=1 1
+pass=100
+rendermode=0
+
+[Sparks]
+KeywordsExcluded=SpiritUdyr
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=40
+field-accel-1=SparksAccel
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.3
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=10
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=solar_tag.tga
+p-type=0
+p-vel=210 210 210
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=1 0
+pass=100
+rendermode=0
+
+[SparksAccel]
+f-accel=0 -550 0
+f-localspace=0
+
+[Swirl]
+e-life=-1
+e-local-orient=0
+e-rate=4
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.7
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-mesh=magicball.sco
+p-meshtex=Ahri_OrbSwirl.tga
+p-postoffset=0 10 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rgba=color-bellcurve.tga
+p-scale=3.3000000000000003 3.3000000000000003 3.3000000000000003
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1
+p-type=3
+p-uvscroll-rgb=2 0
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=1 1 1 1
+pass=100
+rendermode=2
+uniformscale=1
+
+[System]
+GroupPart1=Flashing
+GroupPart1Type=Simple
+GroupPart2=Sparks
+GroupPart2Type=Simple
+GroupPart3=Swirl
+SimulateEveryFrame=1
+

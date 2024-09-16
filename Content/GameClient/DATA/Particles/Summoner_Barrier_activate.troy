@@ -1,0 +1,32 @@
+[System]
+GroupPart1=shield_ball
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[shield_ball]
+e-alpharef=14
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.065
+p-linger=0
+p-offset=0 100 0
+p-quadrot=180 1 1
+p-scale=170 170 170
+p-texdiv=1 1
+p-texture=Global_SS_Barrier_SheildFlat.tga
+p-type=0
+p-xrgba=1 0.9 0.8 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1.25 1.25 1.25
+pass=50
+rendermode=1
+single-particle=1
+

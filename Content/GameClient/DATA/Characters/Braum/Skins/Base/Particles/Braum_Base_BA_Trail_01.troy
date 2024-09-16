@@ -1,0 +1,36 @@
+[System]
+GroupPart1=Trail
+SimulateEveryFrame=1
+
+[Trail]
+e-life=0.5
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.15
+e-uvoffset=0 0.9
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.45
+p-linger=1
+p-mesh=Braum_Base_BA_Trail_01.scb
+p-meshtex=Braum_Base_BA_Trail_cas.dds
+p-offset=0 0 0
+p-quadrot=0 180 0
+p-scale=1.8 1.1 1.2000000000000002
+p-texture-mode=clamp
+p-type=3
+p-uvscroll-no-alpha=0
+p-uvscroll-rgb=0 -6.5
+p-uvscroll-rgb-clamp=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.5
+p-xrgba3=0.5 0 0.5 1 0.5
+p-xrgba4=1 0.1 0.1 1 0
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk1E1B13FA=1

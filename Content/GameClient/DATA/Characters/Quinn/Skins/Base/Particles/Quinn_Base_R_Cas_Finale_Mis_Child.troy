@@ -1,0 +1,29 @@
+[System]
+GroupPart1=Trail
+SimulateEveryFrame=1
+
+[Trail]
+KeywordsExcluded=PhoenixQuinn
+e-life=1
+e-linger=0
+e-rate=60
+e-tilesize=10 0 0
+e-timeoffset=0.05000000074505806
+p-life=0.3
+p-linger=0
+p-offset=0 0 -100
+p-scale=25 0 0
+p-texture=Quinn_Base_R_Cas_Fin_Mis_Child_Trail.dds
+p-trailmode=1
+p-type=5
+p-xrgba=0.6 0.6 1 0.35
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.3 1 1 1 0.25
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0.2 0 0
+pass=35
+rendermode=0
+

@@ -1,0 +1,39 @@
+[System]
+GroupPart1=rays
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Leona_LeonaZenithBladeMissile_hitchampion
+
+[rays]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=40
+p-bindtoemitter=0
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-lifeP1=0 1
+p-lifeP2=1 0.30000000000000004
+p-linger=0
+p-offset=0 50 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-wildcard.tga
+p-scale=10 30 0
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.2
+p-scaleYP2=1 1
+p-texdiv=1 1
+p-texture=exploshaft-Yellow.tga
+p-type=2
+p-xscale1=0 4 0 0
+p-xscale2=0.5 4 4 0
+p-xscale3=1 0 8 0
+rendermode=0
+single-particle=1
+

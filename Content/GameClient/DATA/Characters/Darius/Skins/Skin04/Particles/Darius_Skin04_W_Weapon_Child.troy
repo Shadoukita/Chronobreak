@@ -1,0 +1,47 @@
+[Fire_Trail]
+e-beam-segments=800
+e-rate=40
+e-tilesize=300 40 0
+e-trail-cutoff=200
+p-life=0.30000000000000004
+p-scale=5 5 5
+p-scaleXP1=0 1
+p-scaleXP2=1 0.8
+p-texture=Darius_Skin04_Q_Trail.dds
+p-trailmode=1
+p-type=4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 0.6 0.4 1
+p-xrgba3=1 0.5 0.3 0.2 0
+p-xscale=1 1 1
+p-xscale1=0.1 1 1 1
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=4
+
+[GLOW_CHILD]
+e-disabled=1
+e-rate=200
+p-bindtoemitter=0.5 0.5
+p-life=0.1
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Darius_Skin04_Z_Glow_RGBA.dds
+p-scale=5
+p-texture=Darius_Skin04_Z_Glow_01.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=4
+
+[System]
+GroupPart1=GLOW_CHILD
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Fire_Trail
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

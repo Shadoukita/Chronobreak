@@ -1,0 +1,53 @@
+[System]
+GroupPart1=WindGrass2
+SimulateEveryFrame=1
+
+[WindGrass2]
+e-rate=10
+e-rotation1=-55
+e-rotation1-axis=0 1 0
+e-uvoffset=2 2
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 0.5
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=1
+p-lifeP1=0 0.4
+p-lifeP2=0.4 0.9
+p-lifeP3=1 1
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_Wolfden_Blueside_WindGrass_01.scb
+p-meshtex=SRU_WolfDen_Blueside_WindGrass_01.DDS
+p-meshtex-mult=SRU_WolfDen_Blueside_WindGrass_Mult_01.DDS
+p-offset=660 0 30
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=0 -90 0
+p-scale=2 2 2
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-type=3
+p-uvscroll-rgb=-0.8 0
+p-uvscroll-rgb-mult=0 0.1
+p-uvscroll-rgbXP1=0 0.5
+p-uvscroll-rgbXP2=1 0.9
+p-vecalign=1
+p-vel=5 0 0
+p-xrgba=1 1 1 0.8
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk3C90CB24=sphere.sco
+unk87C261F5=0 0
+unk87C261F6=1 1
+unkDB70EFA3=color-hold.DDS

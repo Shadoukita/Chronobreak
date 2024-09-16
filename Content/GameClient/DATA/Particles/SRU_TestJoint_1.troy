@@ -1,0 +1,53 @@
+[Butterfly_Anim1]
+ChildParticleName=SRU_Sjungle_ButterFlyGlow_01.troy
+ChildSpawnAtBone=Test_joint_1
+e-rate=0.05000000074505806
+e-rateP1=0 1
+e-rateP2=1 1.5
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-animation=SRU_TestJoint_1.anm
+p-bindtoemitter=1 0
+p-life=30
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-linger=0
+p-meshtex=color-white-red-down.dds
+p-offset=1 1 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-scale=100 100 100
+p-scaleXP1=0 0.6
+p-scaleXP2=1 1
+p-shadow=1
+p-skeleton=SRU_TestJoint_1.skl
+p-skin=SRU_TestJoint_1.skn
+p-type=3
+p-uvscroll-no-alpha=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.025346 1 1 0.998465341938
+p-xscale3=0.965438 0.997503836645 0.997503836645 0.995969178583
+p-xscale4=1 0 0 0
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Butterfly_Anim1
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=200
+
+[UNKNOWN_HASHES]
+unk3ACF7393=SRU_EastJungle_Waterfall_Swirlsteam_01.DDS
+unk8D18E9AA=SRU_EastJungle_Waterfall_Swirlsteam_Mult_01.dds
+unkDB855334=sphere.sco

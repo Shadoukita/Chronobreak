@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="morgana_base_r_indicator_ring.troy"}}, 
+}

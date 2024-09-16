@@ -1,0 +1,31 @@
+[System]
+GroupPart1=Waterfall_plane1
+
+[Waterfall_plane1]
+e-rate=0.1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1 0
+p-life=16
+p-linger=0
+p-mesh=sru_peref_clouds_02.scb
+p-meshtex=sru_peref_clouds_02.dds
+p-meshtex-mult=SRU_Peref_clouds_02_Mult.dds
+p-offset=0 1 0
+p-offsetYP1=0 -620
+p-offsetYP2=1 320
+p-texdiv=2 4
+p-type=3
+p-uvscroll-rgb=-0.05 0
+p-uvscroll-rgb-mult=-0.05 0
+p-vel=114 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+

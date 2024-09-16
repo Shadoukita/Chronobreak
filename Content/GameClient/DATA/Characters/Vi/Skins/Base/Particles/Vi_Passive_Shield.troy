@@ -1,0 +1,62 @@
+[System]
+GroupPart1=shield_inner
+GroupPart2=ring
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[ring]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+e-timeoffset=0.05
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.7
+p-linger=0
+p-offset=0 10 0
+p-postoffset=0 0 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=105 0 0
+p-simpleorient=0
+p-texture=Vi_Blue_Ring.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0.45
+p-xscale2=1 1
+
+[shield_inner]
+e-life=-1
+e-local-orient=0
+e-rate=4
+e-uvoffset=0.5 0.5
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-alphaslicerange=0.029999999329447746
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.53
+p-colortype=1 0
+p-life=1
+p-mesh=sphere_01.sco
+p-meshtex=alphaslice.tga
+p-postoffset=0 0 0
+p-rgba=color-beacontrail32.tga
+p-rotvel=0 -110 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=0.5 -0.5
+p-rotvelYP3=0.501 0.5
+p-rotvelYP4=1 2
+p-scale=11 11 11
+p-type=3
+p-xscale1=0 0 0 0
+p-xscale2=0.1 0.5 0.5 0.5
+p-xscale3=1 0.8 0.8 0.8
+rendermode=4
+

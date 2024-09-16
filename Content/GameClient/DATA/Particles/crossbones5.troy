@@ -1,0 +1,28 @@
+[System]
+GroupPart1=crossbones
+GroupPart1Type=complex
+
+[crossbones]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.007000000216066837
+p-life=300
+p-linger=0
+p-mesh=crossbones5.sco
+p-meshtex=crossbonesjuice.tga
+p-offset=0 40 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 60 0
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-type=3
+p-uvscroll-rgb=0.20000000298023224 -0.5
+rendermode=1
+single-particle=1
+

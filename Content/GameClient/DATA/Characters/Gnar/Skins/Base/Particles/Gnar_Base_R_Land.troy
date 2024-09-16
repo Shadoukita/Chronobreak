@@ -1,0 +1,49 @@
+[System]
+GroupPart1=flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=praxis
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Gnar_GnarR_hit
+
+[flash]
+e-life=0.11999999731779099
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-postoffset=0 40 0
+p-quadrot=0
+p-rotvel=0
+p-scale=200
+p-texture=GnarBig_Base_R_Land_Hit.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+
+[praxis]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-life=0.2
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-quadrot=90 1 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-scale=200 200 0
+p-texture=Jinx_Base_R_Tar_GroundFlame.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 0 0.47451
+p-xrgba3=0.5 1 1 0 0.176471
+p-xrgba4=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0.4 0.4 0.4
+p-xscale2=0.30000000000000004 0.9 0.9 0.9
+p-xscale3=1 1 1 1
+single-particle=1
+

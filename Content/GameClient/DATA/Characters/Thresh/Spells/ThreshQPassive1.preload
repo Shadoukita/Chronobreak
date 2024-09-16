@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="thresh_spinningscythe_passiveramp.troy"}}, 
+}

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="hatespikemaintarget"}}, 
+{Function=BBPreloadSpell, Params={Name="shadowwalkrevealeddebuff"}}, 
+}

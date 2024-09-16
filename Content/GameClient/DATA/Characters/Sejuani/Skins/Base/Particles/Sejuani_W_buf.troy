@@ -1,0 +1,103 @@
+[System]
+GroupPart1=Weapon_Glow
+GroupPart1Type=Simple
+GroupPart2=WeaponGlow_BeastLord
+GroupPart2Type=Simple
+GroupPart3=WeaponGlow_DeathKnight
+GroupPart3Type=Simple
+GroupPart4=Weapon_Glow_Skin04
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[WeaponGlow_BeastLord]
+KeywordsRequired=SejuaniBeastLord
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.4
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.4
+p-local-orient=1
+p-rgba=color-rampdown.tga
+p-scale=1.0299999713897705 1.0299999713897705 1.0299999713897705
+p-simpleorient=3
+p-texture=Sejuani_skin01_weaponglow.tga
+p-type=11
+p-xscale1=0 1 1 1
+p-xscale2=1 1.0499999523162842 1.0499999523162842 1.0499999523162842
+rendermode=0
+
+[WeaponGlow_DeathKnight]
+KeywordsRequired=SejuaniDeathKnight
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.4
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.4
+p-local-orient=1
+p-rgba=color-rampdown.tga
+p-scale=1.0299999713897705 1.0299999713897705 1.0299999713897705
+p-simpleorient=3
+p-texture=Sejuani_skin02_weaponglow.tga
+p-type=11
+p-xscale1=0 1 1 1
+p-xscale2=1 1.0499999523162842 1.0499999523162842 1.0499999523162842
+rendermode=0
+
+[Weapon_Glow]
+KeywordsExcluded=SejuaniBeastLord SejuaniDeathKnight SejuaniSkin04
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.4
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.4
+p-local-orient=1
+p-rgba=color-rampdown.tga
+p-scale=1.0299999713897705 1.0299999713897705 1.0299999713897705
+p-simpleorient=3
+p-texture=Sejuani_weaponglow.tga
+p-type=11
+p-xscale1=0 1 1 1
+p-xscale2=1 1.0499999523162842 1.0499999523162842 1.0499999523162842
+rendermode=0
+
+[Weapon_Glow_Skin04]
+KeywordsRequired=SejuaniSkin04
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.4
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.4
+p-local-orient=1
+p-rgba=color-rampdown.tga
+p-scale=1.0299999713897705 1.0299999713897705 1.0299999713897705
+p-simpleorient=3
+p-texture=sejuani_weapon_glow_Skin04_02.tga
+p-type=11
+p-xscale1=0 1 1 1
+p-xscale2=1 1.0499999523162842 1.0499999523162842 1.0499999523162842
+rendermode=0
+

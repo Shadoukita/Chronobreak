@@ -1,0 +1,40 @@
+[System]
+GroupPart1=speed_cast
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[speed_cast]
+e-active=1
+e-life=0.45
+e-linger=1
+e-period=1
+e-rate=15
+p-bindtoemitter=1 0
+p-bindtoemitter1=0 1 0
+p-bindtoemitter2=1 1 0
+p-life=0.5
+p-life1=0 1.5199999809265137
+p-life2=1 1
+p-local-orient=0
+p-offset=0 0 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-rotvel=20
+p-rotvel1=0 0 0 0
+p-rotvel2=1 0 0 0
+p-scale=45
+p-simpleorient=2
+p-texture=firery_pow_01.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.25 0.800000011920929 0 0
+p-xscale3=0.4 4.2 0 0
+p-xscale4=1 15 0 0
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk66D5FBD8=0 30 0

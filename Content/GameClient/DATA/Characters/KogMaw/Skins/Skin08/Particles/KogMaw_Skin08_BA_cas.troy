@@ -1,0 +1,6 @@
+[System]
+GroupPart1=empty
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

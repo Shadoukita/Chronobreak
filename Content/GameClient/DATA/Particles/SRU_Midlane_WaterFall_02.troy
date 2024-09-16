@@ -1,0 +1,130 @@
+[GroundSplash]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=2.5299999713897705
+p-linger=0
+p-mesh=SRU_Midlane_Waterfall_GroundSplash_02.scb
+p-meshtex=SRU_EastJungle_Waterfall_GroundSplash_01.DDS
+p-type=3
+p-uvscroll-rgb=0 -0.4
+p-uvscroll-rgbYP1=0 1
+p-uvscroll-rgbYP2=1 1.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.4
+p-xrgba3=0.8 1 1 1 0.5
+p-xrgba4=1 1 1 1 0
+rendermode=1
+
+[SideFoam]
+e-rate=-1
+p-bindtoemitter=1 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_Midlane_Waterfall_SideFoam_02.scb
+p-meshtex=SRU_EastJungle_Waterfall_SideFoam_01.DDS
+p-meshtex-mult=SRU_EastJungle_Waterfall_SideFoam_Mult_01.DDS
+p-type=3
+p-uvscroll-rgb=0 -0.58
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Waterfall_plane
+GroupPart2=WhiteFalls
+GroupPart3=WhiteFalls2
+GroupPart4=TopEdgeHightlight
+GroupPart5=SideFoam
+GroupPart6=ShoreTop
+GroupPart7=ShoreTopEdge
+GroupPart8=GroundSplash
+SimulateEveryFrame=1
+group-vis=15
+
+[TopEdgeHightlight]
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=1.5
+p-linger=0
+p-mesh=SRU_Midlane_Waterfall_TopEdgeHightlight_02.scb
+p-meshtex=SRU_WaterFall_Test_Small_Highlight_01.DDS
+p-meshtex-mult=SRU_WaterFall_Test_Small_Highlight_Mult_01.DDS
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb-mult=0 -1.5
+p-uvscroll-rgb-multYP1=0 1
+p-uvscroll-rgb-multYP2=0.30000000000000004 1
+p-uvscroll-rgb-multYP3=1 1.2000000000000002
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=12
+rendermode=4
+uniformscale=1
+
+[Waterfall_plane]
+e-rate=-1
+p-bindtoemitter=1 0
+p-life=-1
+p-linger=0
+p-mesh=SRU_Midlane_Waterfall_WhiteFalls_04.scb
+p-meshtex=SRU_EastJungle_Waterfall_plane_01.DDS
+p-meshtex-mult=SRU_EastJungle_Waterfall_plane_Mult_01.dds
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -1.65
+p-uvscroll-rgb-mult=0 -0.55
+pass=10
+rendermode=1
+single-particle=1
+
+[WhiteFalls]
+e-rate=-1
+p-bindtoemitter=1 0
+p-life=-1
+p-linger=0
+p-mesh=SRU_Midlane_Waterfall_WhiteFalls_03.scb
+p-meshtex=SRU_EastJungle_Waterfall_WhiteFalls_01.DDS
+p-meshtex-mult=SRU_EastJungle_Waterfall_WhiteFalls_Mult_01.DDS
+p-postoffset=1 0 0
+p-postoffset1=0 10 0 0
+p-postoffset2=1 30 0 0
+p-type=3
+p-uvscroll-rgb=0 -0.7
+p-uvscroll-rgb-mult=0.20000000298023224 -1.2999999523162842
+pass=11
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk083595FD=0.5 1
+unk083595FE=1 24
+unk083595FF=1 -24
+unk0C93F73C=1 0 0
+unk1BCE222E=0.20000000298023224 -0.30000001192092896
+unk24E44804=12
+unk367F5FAF=sphere.sco
+unk5DC9B1D4=0
+unk6818E677=1
+unk75A14453=2 4
+unk779A7F63=20
+unk7E3E3095=0 1
+unk7E3E3096=1 0.5
+unk8EFA19E6=0 1
+unk8EFA19E7=1 1.2000000000000002
+unk96594118=color-hold.DDS
+unkA7FCCED7=0 -1
+unkAC3881EF=sphere.sco
+unkAE27FD6C=sphere.sco
+unkB5C9F35B=color-hold.DDS
+unkD3C90DCE=sphere.sco
+unkD590CC79=color-hold.DDS
+unkD628C8A5=0 1
+unkD628C8A6=0.5 1
+unkD628C8A7=1 1.2000000000000002
+unkE7E4B358=color-hold.DDS
+unkF0E4F044=SRU_EastJungle_Waterfall_WhiteFalls_Mult_01.DDS
+unkFEEDB410=-0.5 0

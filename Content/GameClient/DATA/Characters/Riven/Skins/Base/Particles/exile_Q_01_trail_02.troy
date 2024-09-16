@@ -1,0 +1,82 @@
+[System]
+GroupPart1=sword_blur
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=bunnysword_blur
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=sword_blur_s2
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[bunnysword_blur]
+KeywordsRequired=BattlebunnyRiven
+e-life=0.33
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.3
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.15
+p-rotvel=1000
+p-scale=270 0 0
+p-simpleorient=2
+p-texture=bunny_sword_blur_08.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=0
+
+[sword_blur]
+KeywordsExcluded=BattlebunnyRiven Season2Riven RivenSKin05
+e-life=0.33
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.3
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.15
+p-rotvel=1000
+p-scale=270 0 0
+p-simpleorient=2
+p-texture=exile_sword_blur_08.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=0
+
+[sword_blur_s2]
+KeywordsRequired=Season2Riven
+e-life=0.33
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.3
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.15
+p-rotvel=1000
+p-scale=270 0 0
+p-simpleorient=2
+p-texture=Riven_S2_Q_01_trail.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0FDDFAF1=1
+unk9E807817=1
+unkA027568B=1

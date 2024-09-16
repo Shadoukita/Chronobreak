@@ -1,0 +1,19 @@
+[System]
+GroupPart1=glow13
+SimulateEveryFrame=1
+
+[glow13]
+e-rate=1
+e-rgba=255 255 0 255'yellow
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=0 0 0
+p-scale=50 50 50
+p-startframe=0
+p-texdiv=1 1
+p-texture=disc32.tga
+p-type=0
+rendermode=1
+

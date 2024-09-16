@@ -1,0 +1,39 @@
+[System]
+GroupPart1=blood_sprayed_armor
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=blood_sprayed_armor_emperor
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[blood_sprayed_armor]
+KeywordsRequired=Darius_Base
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=darius_props_ult_self_splatter_base.tga
+MaterialOverrideTransMap=uv-darius_blood_spatter.tga
+e-life=1
+e-linger=0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=5
+p-linger=-1
+p-rgba=alpha_linear_02.tga
+p-trans-sample=8
+rendermode=1
+
+[blood_sprayed_armor_emperor]
+KeywordsRequired=Darius_Emperor
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=darius_props_ult_self_splatter_emperor.tga
+MaterialOverrideTransMap=uv-darius_blood_spatter.tga
+e-life=1
+e-linger=0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=5
+p-linger=-1
+p-rgba=alpha_linear_02.tga
+p-trans-sample=8
+rendermode=1
+

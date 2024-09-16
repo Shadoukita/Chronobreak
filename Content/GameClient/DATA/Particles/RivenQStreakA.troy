@@ -1,0 +1,36 @@
+[System]
+GroupPart1=star
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[star]
+e-life=1
+e-rate=50
+p-frameRate=0
+p-life=1
+p-offset=10 10 10
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=enrage_buf__star__p-rgba.dds
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=30
+p-texdiv=2 3
+p-texture=BlindMonkChannel01.dds
+p-vel=0 100 0
+p-xscale=1
+p-xscale1=0 2.1502959728240967
+p-xscale2=0.2555555999279022 0.4448888897895813
+p-xscale3=0.6110000014305115 0
+
+[UNKNOWN_HASHES]
+unk7D642E82=0 177 25 22 255
+unk7D642E83=0.7573333 0 0 0 255

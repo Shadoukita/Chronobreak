@@ -1,0 +1,13 @@
+[System]
+GroupPart1=sound
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_env_map12_ha_ap_hermitrobot_idle3
+group-vis=1000
+
+[sound]
+e-life=-1
+e-linger=0
+e-rate=-1
+rendermode=0
+

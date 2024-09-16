@@ -1,0 +1,38 @@
+[System]
+GroupPart2=trail
+SimulateEveryFrame=1
+
+[trail]
+e-life=0.7000000000000001
+e-local-orient=1
+e-rate=30
+e-rotation1=-45
+e-rotation1-axis=0 1 0
+e-tilesize=100 0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-linger=1
+p-offset=1 20 0
+p-offset1=0 1 -2 0
+p-offset2=0.07999999821186066 50 -2 0
+p-offset3=0.11999999731779099 50 -2 0
+p-offset4=0.1599999964237213 50 -2 0
+p-offset5=0.30000001192092896 10 -1 0
+p-offset6=1 10 2 0
+p-rgba=color-hotshotpurple.DDS
+p-scale=10 0 0
+p-scale1=0 0.2 0 0
+p-scale2=0.15000000596046448 2 0 0
+p-scale3=0.30000000000000004 0.2 0 0
+p-texture=SRU_JungleBuff_Baron_MinionLines.dds
+p-trailmode=1
+p-type=5
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 0.2
+p-xscale1=0 0 0 0
+p-xscale2=0.009999999776482582 1 0 0
+p-xscale3=1 0 0 0
+rendermode=4
+

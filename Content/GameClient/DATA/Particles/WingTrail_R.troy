@@ -1,0 +1,25 @@
+[System]
+GroupPart1=trail
+SimulateEveryFrame=1
+
+[trail]
+e-life=-1
+e-rate=60
+e-tilesize=300 20 0
+e-uvoffset=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-offset=0 0 0
+p-rgba=color-tarflat.tga
+p-scale=20 0 0
+p-texture=wingtendril.tga
+p-trailmode=0
+p-type=5
+p-vel=0 -400 0
+p-worldaccel=0 -800 0
+p-xscale1=0 1 0 0
+p-xscale2=0.9 0 0 0
+p-xscale3=1 0 0 0
+

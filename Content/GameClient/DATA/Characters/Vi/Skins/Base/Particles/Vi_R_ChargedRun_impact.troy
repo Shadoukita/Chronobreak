@@ -1,0 +1,90 @@
+[SmokeDrag]
+f-drag=0.8
+f-pos=0 0 0
+f-radius=1000
+
+[SmokeNoise]
+f-period=0.5
+f-pos=0 300 0
+f-radius=500
+f-veldelta=15
+
+[System]
+GroupPart1=dust
+GroupPart1Type=Simple
+GroupPart2=distortion
+GroupPart2Type=Simples
+SimulateEveryFrame=1
+
+[distortion]
+e-life=3
+e-local-orient=0
+e-rate=20
+p-bindtoemitter=0.25 0.25
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.7000000000000001 1
+p-colortype=1 0
+p-distortion-mode=2
+p-distortion-power=0.03500000014901161
+p-life=0.75
+p-normal-map=distort-heat.tga
+p-offset=0 0 0
+p-postoffset=0 130 0
+p-rgba=alpha_20.tga
+p-scale=130 10 10
+p-simpleorient=3
+p-texture=Aura_Self_02.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1.5
+p-xscale2=1 0.5
+rendermode=1
+
+[dust]
+e-life=1
+e-local-orient=1
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 1
+e-rotation1P2=1 360
+field-drag-1=SmokeDrag
+field-noise-1=SmokeNoise
+p-bindtoemitter=0.5 0
+p-colorscale=1 1
+p-colortype=1 1
+p-life=1.1
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-linger=1.2000000000000002
+p-offset=5 0 0
+p-offsetXP1=0 0.8
+p-offsetXP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Vi_Q_Dust_ColorMap.dds
+p-rotvel=60
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=80
+p-scaleP1=0 0.8
+p-scaleP2=1 1.5
+p-simpleorient=2
+p-texture=Vi_SmokePuff_02.dds
+p-type=0
+p-vec-velocity-minscale=1
+p-vec-velocity-scale=0.1
+p-vecalign=1
+p-vel=10 120 -10
+p-velXP1=0 0
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 2
+p-velZP1=0 -1
+p-velZP2=1 2
+p-xscale1=0 1
+p-xscale2=1 1.8
+pass=-100
+rendermode=1
+

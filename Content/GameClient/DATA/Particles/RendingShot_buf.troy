@@ -1,0 +1,123 @@
+[System]
+GroupPart1=outer
+GroupPart1Type=Simple
+GroupPart2=inner
+GroupPart2Type=Simple
+GroupPart3=center
+GroupPart3Type=Simple
+GroupPart4=sparkbits
+GroupPart4Type=Simple
+
+[center]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-rgba=Fallenangel_tar__outer__p-rgba.tga
+p-scale=30
+p-startframe=3
+p-texdiv=2 2
+p-texture=RendingShot04.tga
+
+[inner]
+e-life=0.1
+e-rate=10
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 0
+p-frameRate=0
+p-life=0.7000000000000001
+p-postoffset=0 0 0
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 2
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 2
+p-quadrot=360
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 0
+p-scale=15
+p-startframe=1
+p-texdiv=2 2
+p-texture=RendingShot04.tga
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 6
+rendermode=2
+
+[outer]
+e-life=0.1
+e-rate=80
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0 0
+p-frameRate=0
+p-life=0.7000000000000001
+p-postoffset=0 0 0
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 5
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 5
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 5
+p-quadrot=-360
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 0
+p-scale=5
+p-startframe=2
+p-texdiv=2 2
+p-texture=RendingShot04.tga
+p-xscale=1
+
+[sparkbits]
+e-life=0.1
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.5
+p-postoffset=0 0 0
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 5
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 5
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 5
+p-quadrot=-360
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 0
+p-scale=60
+p-startframe=1
+p-texdiv=2 2
+p-texture=RendingShot04.tga
+p-xscale=1
+p-xscale1=0 0.4819999933242798
+p-xscale2=1 1.9278520345687866
+
+[UNKNOWN_HASHES]
+unk5666E6D9=0 255 255 255 255
+unk5666E6DA=1 255 255 255 255
+unk5668E757=0 255 255 255 255
+unk5668E758=1 0 0 0 255
+unk689C06F1=0 255 255 255 255
+unk689C06F2=1 255 255 255 255
+unk689E076F=0 255 255 255 255
+unk689E0770=1 0 0 0 255
+unk87211C7E=0 10 0
+unkC02E4165=0

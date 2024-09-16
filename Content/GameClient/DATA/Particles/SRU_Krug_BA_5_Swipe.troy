@@ -1,0 +1,38 @@
+[Swipe]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.166
+p-mesh=SRU_Krug_BA_5_Swipe.scb
+p-meshtex=SRU_Krug_BA_5_Swipe.tga
+p-offset=0 100 235
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=0 4.5
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.75 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart2=Swipe
+
+[UNKNOWN_HASHES]
+unk0E116F33=1
+unk1B4EC6F5=Gimbal_Test_Mesh.sco
+unk662CE81B=0 0 0
+unk6AD4B182=3
+unk82F48F4D=0 1 1 1 0
+unk82F48F4E=0.5 1 1 1 1
+unk82F48F4F=1 1 1 1 0
+unkB0FB7922=3 3 3
+unkB319715A=1
+unkB477A1C4=1
+unkC169E9E4=1 1 1 1
+unkC52FA092=Gimbal_Test_Mesh_Color.tga
+unkEEB33104=2
+unkFA41E120=1
+unkFACB034F=2

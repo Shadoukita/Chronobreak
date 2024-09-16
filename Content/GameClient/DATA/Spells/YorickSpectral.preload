@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="yorick_spectralghoul_attack_buf_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickspectralprimarytarget"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickspectralunlock"}}, 
+}

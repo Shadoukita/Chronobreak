@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="regenerationruneaura"}}, 
+{Function=BBPreloadSpell, Params={Name="monsterminiondamageamp"}}, 
+{Function=BBPreloadCharacter, Params={Name="sru_crab"}}, 
+{Function=BBPreloadParticle, Params={Name="ward_sight_idle.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="sru_crabsight"}}, 
+{Function=BBPreloadSpell, Params={Name="sru_crabspeedshrine"}}, 
+}

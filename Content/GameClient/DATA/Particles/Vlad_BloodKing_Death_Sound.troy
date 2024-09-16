@@ -1,0 +1,16 @@
+[System]
+GroupPart1=blank
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[blank]
+KeywordsRequired=BloodkingVladimir
+SoundOnCreate=Play_sfx_BloodkingVladimir_Death3D_cast
+e-life=1
+e-rate=1
+p-life=0.25
+p-scale=0.02
+p-texture=blank.dds
+p-type=0
+rendermode=0
+

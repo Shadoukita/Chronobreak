@@ -1,0 +1,30 @@
+[Avatar]
+e-active=0.6000000000000001
+e-period=1
+e-rate=4.1000000000000005
+flag-disable-z=1
+p-life=1
+p-linger=1
+p-local-orient=1
+p-quadrot=0
+p-reflection-fresnel=0.6000000000000001
+p-reflection-map=Gnar_Base_P_Transform_Cube.dds
+p-reflection-opacity-direct=0.30000000000000004
+p-reflection-opacity-glancing=0.2
+p-rgba=Gnar_Base_P_Transform_Shrink_rgba.dds
+p-rotvel=0
+p-scale=1
+p-simpleorient=3
+p-texture=Gnar_Base_P_Roar_Black.dds
+p-type=11
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=4
+
+[System]
+GroupPart1=Avatar
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

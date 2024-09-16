@@ -1,0 +1,37 @@
+[Sparkle]
+e-local-orient=1
+e-rate=3
+e-rateP1=0.0 1.0
+e-rateP2=0.3 2.0
+e-rateP3=1.0 1.5
+p-bindtoemitter=1.0 1.0
+p-colorscale=1.0 0.4
+p-colortype=1.0 0.0
+p-life=0.6
+p-offset=10.0 2.0 10.0
+p-offsetXP1=0.0 -1.0
+p-offsetXP2=1.0 1.0
+p-offsetZP1=0.0 -1.0
+p-offsetZP2=1.0 1.0
+p-quadrot=1
+p-quadrotP1=0.0 0.0
+p-quadrotP2=1.0 0.0
+p-rgba="color-bellcurve.tga"
+p-scale=45
+p-scaleP1=0.0 0.25
+p-scaleP2=0.5 0.7
+p-scaleP3=0.7 1.25
+p-scaleP4=1.0 1.4500000476837158
+p-texture="Ashe_Skin06_Z_Sparkle.tga"
+p-type=0
+p-xscale=1.1
+p-xscale1=0.0 0.0 0.0 0.0
+p-xscale2=0.5 1.0 0.0 0.0
+p-xscale3=1.0 0.0 0.0 0.0
+rendermode=0
+
+[System]
+GroupPart1="Sparkle"
+GroupPart1Type="Simple"
+SimulateEveryFrame=1
+

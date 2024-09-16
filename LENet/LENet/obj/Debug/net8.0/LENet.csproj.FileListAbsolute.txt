@@ -1,0 +1,11 @@
+D:\League Sandbox\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.deps.json
+D:\League Sandbox\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.dll
+D:\League Sandbox\Chronobreak\LENet\LENet\bin\Debug\net8.0\LENet.pdb
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.GeneratedMSBuildEditorConfig.editorconfig
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.AssemblyInfoInputs.cache
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.AssemblyInfo.cs
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.csproj.CoreCompileInputs.cache
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.dll
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\refint\LENet.dll
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\LENet.pdb
+D:\League Sandbox\Chronobreak\LENet\LENet\obj\Debug\net8.0\ref\LENet.dll

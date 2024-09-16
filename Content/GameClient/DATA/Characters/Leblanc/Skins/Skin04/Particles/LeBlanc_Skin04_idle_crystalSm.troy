@@ -1,0 +1,35 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-disabled=1
+e-rate=5
+p-bindtoemitter=1 1
+p-flexoffset=0.0020000000949949026
+p-flexscale=0.0035000001080334187
+p-life=0.4
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-smoke32_07.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=25
+p-texture=flare-Rainbow_purp_02.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1
+unkDA5F84E3=1

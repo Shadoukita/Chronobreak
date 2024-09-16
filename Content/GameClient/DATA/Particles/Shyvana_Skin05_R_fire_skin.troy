@@ -1,0 +1,15 @@
+[System]
+GroupPart1=base
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[base]
+KeywordsExcluded=ShadowShyvana FrostShyvana
+MaterialOverride1Texture=Shyvana_Skin05_R_Overlay.dds
+e-life=5
+e-rate=1
+p-life=0.05000000074505806
+p-scale=0
+p-texture=missing_instant.dds
+single-particle=1
+

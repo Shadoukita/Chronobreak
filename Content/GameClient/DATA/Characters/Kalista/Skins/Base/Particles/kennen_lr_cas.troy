@@ -1,0 +1,23 @@
+[Flash]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-postoffset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=500
+p-texdiv=1 1
+p-texture=ringflare.tga
+p-xscale1=0 0.1
+p-xscale2=1 1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

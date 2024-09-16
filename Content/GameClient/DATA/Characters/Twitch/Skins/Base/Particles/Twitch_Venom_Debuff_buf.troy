@@ -1,0 +1,128 @@
+[Drag1]
+f-drag=5
+f-pos=0 0 0
+f-radius=1000
+
+[Global_Slow]
+e-life=7
+e-linger=0
+e-rate=30
+e-tilesize=100 0 0
+e-trail-cutoff=1000
+p-life=2
+p-linger=0
+p-offset=0 1 0
+p-quadrot=0 0 0
+p-rgba=color-slowwake.tga
+p-scale=30 0 0
+p-texture=slow-wake.tga
+p-trailmode=1
+p-type=5
+p-xscale=1 0 0
+p-xscale1=0 1 0 0
+p-xscale2=1 3 0 0
+rendermode=1
+
+[Gravity1]
+f-accel=0 -500 0
+f-localspace=0
+
+[Ground_Aura]
+e-life=650
+e-linger=0
+e-rate=10
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-frameRate=0
+p-life=0.75
+p-linger=5
+p-numframes=4
+p-offset=0 5 50
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=Twitch_Venom_Debuff_Aura_A.tga
+p-rotvel=0 60 0
+p-rotvelP1=0 -1 -1 -1
+p-rotvelP2=1 1 1 1
+p-scale=100
+p-scaleP1=0 0
+p-scaleP2=1 1
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Twitch_Venom_Debuff_Aura.tga
+p-type=1
+p-vel=0 0 -20
+p-velXP1=0 0
+p-velXP2=1 1
+p-xscale1=0 0.5
+p-xscale2=0.4 1
+p-xscale3=1 1
+rendermode=0
+
+[System]
+GroupPart1=Ground_Aura
+GroupPart1Type=Simple
+GroupPart2=Venom_Splash
+GroupPart2Type=Simple
+GroupPart3=Global_Slow
+GroupPart3Type=Complex
+SimulateEveryFrame=1
+
+[Venom_Splash]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=2500
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 50
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Gravity1
+field-drag-1=Drag1
+p-bindtoemitter=0.1 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.8
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-numframes=8
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 30
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=Twitch_Venom_Bomb_Splash_A.tga
+p-rotvel=90
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=40
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-shadow=0
+p-startframe=2
+p-texdiv=4 2
+p-texture=Twitch_Venom_Bomb_Splash.tga
+p-type=1
+p-vel=800 800 800
+p-velXP1=0 0 0 0
+p-velXP2=1 1 1 1
+p-velYP1=0 0 0 0
+p-velYP2=1 1 1 1
+p-velZP1=0 0 0 0
+p-velZP2=1 1 1 1
+p-xscale1=0 0.5
+p-xscale2=1 2
+rendermode=0
+

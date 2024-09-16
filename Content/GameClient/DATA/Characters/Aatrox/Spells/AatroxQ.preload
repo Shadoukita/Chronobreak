@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="aatrox_base_q_tar_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="aatrox_base_q_tar_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="aatrox_base_q_cast.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxqanimfix"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxqdescent"}}, 
+}

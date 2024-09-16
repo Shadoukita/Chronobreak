@@ -1,0 +1,50 @@
+[System]
+GroupPart1=hoop
+GroupPart1Importance=High
+GroupPart2=omw
+GroupPart2Importance=High
+GroupPart3Importance=High
+GroupPart4Importance=High
+GroupPart5Importance=High
+SimulateEveryFrame=1
+
+[hoop]
+e-life=6
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-mesh=ui_hoop.sco
+p-meshtex=ui-omwhoop.tga
+p-offset=0 0 0
+p-postoffset=0 10 0
+p-quadrot=0 0 0
+p-rgba=color-r2g.tga
+p-scale=7 10 7
+p-shadow=1
+p-type=3
+rendermode=1
+
+[omw]
+e-life=6
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-mesh=omw.sco
+p-meshtex=ui-omw.tga
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-r2g.tga
+p-rotvel=0 -180 0
+p-scale=10 10 8
+p-shadow=1
+p-type=3
+pass=1
+rendermode=3
+

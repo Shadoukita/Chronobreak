@@ -1,0 +1,54 @@
+[Animated_cracks]
+Particle-Velocity=0 1 0
+Particle-Velocity1=0 0 300 0
+Particle-Velocity2=0.05 0 200 0
+Particle-Velocity3=0.1 0 0 0
+Particle-Velocity4=1 0 0 0
+e-disabled=1
+e-life=1
+e-rate=1
+p-animation=Gnar_Base_R_Cracks.anm
+p-life=1.5
+p-meshtex=GnarBig_Base_R_Cracked.dds
+p-offset=-50 -38 -10
+p-quadrot=0 180 0
+p-scale=35 35 35
+p-skeleton=Gnar_Base_R_Cracks.skl
+p-skin=Gnar_Base_R_Cracks.skn
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=-12
+rendermode=1
+single-particle=1
+
+[Ground_Cracks]
+e-disabled=1
+e-life=1
+e-rate=1
+p-life=1.5
+p-offset=-60 0 0
+p-quadrot=90 -90 90
+p-scale=600 600 0
+p-texture=Gnar_Base_R_Shadow.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.6 0.6 0
+p-xscale2=0.08 0.9 0.9 0
+p-xscale3=0.1 1 1 0
+p-xscale4=1 1 1 0
+pass=-40
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Animated_cracks
+GroupPart2=Ground_Cracks
+SimulateEveryFrame=1
+

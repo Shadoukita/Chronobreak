@@ -1,0 +1,138 @@
+[System]
+GroupPart1=flame_base
+GroupPart2=magic
+GroupPart2Importance=High
+GroupPart3=glow
+GroupPart3Importance=High
+GroupPart4=orange_trail
+GroupPart4Importance=High
+SimulateEveryFrame=1
+
+[drag_05]
+f-drag=3
+f-dragP1=0 0.75
+f-dragP2=1 1.5
+f-radius=1000
+
+[flame_base]
+KeywordsExcluded=ShadowShyvana FrostShyvana
+e-life=0.8
+e-rate=150
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=drag_05
+p-bindtoemitter=1 0.9
+p-life=0.44999998807907104
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=12
+p-offset=10 10 30
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 -30
+p-quadrotXP2=1 30
+p-randomstartframe=1
+p-rotvel=120 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=0.10000000149011612 -0.30000001192092896
+p-rotvelXP3=0.9 0.30000000000000004
+p-rotvelXP4=1 1
+p-scale=16 16 1
+p-scaleXP1=0 1
+p-scaleXP2=1 1.2000000000000002
+p-scaleYP1=0 1
+p-scaleYP2=1 1.2000000000000002
+p-scalebias=1.2000000000000002 1
+p-texdiv=4 4
+p-texture=Shyvana_Skin05_Z_Flame_02.dds
+p-vel=200 200 200
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+
+[glow]
+KeywordsExcluded=ShadowShyvana FrostShyvana
+e-rate=3
+p-bindtoemitter=1 1
+p-life=0.4
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rotvel=100 0 0
+p-rotvelXP1=0 0.5
+p-rotvelXP2=1 -0.5
+p-scale=120 120 1
+p-scale1=0 0.7 0.7 0.7
+p-scale2=0.30000001192092896 1.850000023841858 1.850000023841858 1.850000023841858
+p-scale3=1 0.7000000000000001 0.7000000000000001 0.7000000000000001
+p-texture=Shyvana_Skin05_Z_Flare_01.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+uniformscale=1
+
+[magic]
+e-life=8
+e-rate=23
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0.8
+p-life=0.2
+p-lifeP1=0 0.85
+p-lifeP2=1 1.25
+p-linger=0.5
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 180
+p-scale=1.2000000000000002 1.2000000000000002 1
+p-scaleXP1=0 18
+p-scaleXP2=1 65
+p-scaleYP1=0 18
+p-scaleYP2=1 65
+p-texture=Shyvana_Skin05_Z_Flare_01.dds
+p-vel=80 80 80
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 0.2 0.2 0.2
+
+[orange_trail]
+KeywordsExcluded=ShadowShyvana FrostShyvana
+e-life=0.5
+e-rate=260
+p-bindtoemitter=0 0.4
+p-life=0.4399999976158142
+p-quadrot=0 0 100
+p-scale=15 15 15
+p-startframe=1
+p-texture=trail_blur_01.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.85 0.2 2 0.1
+p-xrgba2=0.1 0.262745 0.262745 0.847059 0.098039
+p-xrgba3=0.3 0.243137 0.243137 0.847059 0.098039
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1

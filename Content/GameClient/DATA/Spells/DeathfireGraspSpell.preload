@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="deathfiregraspspell"}}, 
+{Function=BBPreloadParticle, Params={Name="obj_deathfiregrasp_debuff.troy"}}, 
+}

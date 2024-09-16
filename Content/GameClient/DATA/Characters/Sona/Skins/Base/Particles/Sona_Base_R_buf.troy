@@ -1,0 +1,214 @@
+[CenterGlow_Mesh2]
+KeywordsExcluded=PaxSona
+e-life=1.5
+e-rate=1
+e-rgba=255 255 255 191
+p-bindtoemitter=1 1
+p-life=2
+p-linger=2
+p-local-orient=1
+p-mesh=sona_base_r_buf_ring.scb
+p-meshtex=Sona_Base_R_Tar_Buf_RingLines.dds
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-rotvel=0 -150 0
+p-scale=2 2 2
+p-texdiv=0.5 1
+p-type=3
+p-uvscroll-rgb=0.9 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.6 1 1 1 1
+p-xrgba3=0.999 1 1 1 0
+pass=-20
+rendermode=1
+single-particle=1
+
+[PaxDance]
+KeywordsRequired=PaxSona
+e-life=1
+e-local-orient=0
+e-rate=1
+p-life=2.25
+p-linger=2.25
+p-quadrot=90 0 0
+p-rgba=color-hold.tga
+p-scale=120 120 80
+p-texture=sona_pax_dance2.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=0.25 0.7 0.7 0.7 1
+p-xrgba3=0.75 0.7 0.7 0.7 1
+p-xrgba4=1 0 0 0 1
+pass=10
+single-particle=1
+
+[PaxLights]
+KeywordsRequired=PaxSona
+e-life=1
+e-rate=1
+p-life=2.5
+p-linger=2.5
+p-quadrot=0
+p-rgba=color-spectralbell.tga
+p-rotvel=30
+p-scale=200
+p-simpleorient=2
+p-texture=dancelights.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+single-particle=1
+
+[Paxflashes]
+KeywordsRequired=PaxSona
+e-life=2.25
+e-local-orient=0
+e-rate=3
+p-life=0.30000000000000004
+p-linger=2
+p-numframes=8
+p-quadrot=90 0 0
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-scale=120 120 80
+p-texdiv=2 4
+p-texture=sona_pax_danceflashes.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 0 0 0 1
+pass=10
+
+[System]
+GroupPart1=CenterGlow_Mesh2
+GroupPart2=dancelights
+GroupPart2Type=Simple
+GroupPart3=spotlight
+GroupPart4=PaxDance
+GroupPart5=Paxflashes
+GroupPart6=PaxLights
+GroupPart6Type=Simple
+GroupPart7=sidelights
+GroupPart8=lighton1
+GroupPart9=lighton2
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Sona_SonaCrescendo_hit
+group-scale-cap=-1
+
+[dancelights]
+KeywordsExcluded=PaxSona
+e-disabled=1
+e-life=1
+e-rate=1
+e-rgba=255 231 42 255
+p-life=2.5
+p-linger=0
+p-quadrot=0
+p-rgba=color-bellramp.tga
+p-rotvel=30
+p-scale=150
+p-simpleorient=2
+p-texture=dancelights.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+single-particle=1
+
+[drag]
+f-drag=10
+f-pos=0 1 0
+f-radius=1000
+
+[lighton1]
+e-disabled=1
+e-life=3
+e-rate=1
+p-frameRate=16
+p-life=2.5
+p-linger=0
+p-numframes=16
+p-quadrot=-90 0 0
+p-rgba=color-hold.tga
+p-scale=150 150 0
+p-texdiv=4 4
+p-texture=rotating-glow.dds
+p-type=1
+single-particle=1
+
+[lighton2]
+e-disabled=1
+e-life=3
+e-rate=1
+p-frameRate=16
+p-life=2.5
+p-linger=0
+p-numframes=16
+p-quadrot=-90 180 0
+p-rgba=color-hold.tga
+p-scale=150 150 0
+p-texdiv=4 4
+p-texture=rotating-glow.dds
+p-type=1
+single-particle=1
+
+[noise]
+f-period=0.1
+f-pos=0 1 0
+f-radius=1000
+f-veldelta=5
+
+[sidelights]
+e-disabled=1
+e-life=3
+e-rate=1
+p-life=2.5
+p-linger=0
+p-quadrot=90 0 0
+p-rgba=color-hold.tga
+p-scale=150 150 0
+p-texture=marqueelights.dds
+p-type=1
+single-particle=1
+
+[spotlight]
+KeywordsExcluded=PaxSona
+Particle-Acceleration=100 0 100
+Particle-Acceleration1=0 1 0 -1
+Particle-Acceleration2=0.2 -1 0 1
+Particle-Acceleration3=0.4 1 0 -1
+Particle-Acceleration4=0.6 -1 0 1
+Particle-Acceleration5=0.8 1 0 -1
+Particle-Acceleration6=1 -1 0 1
+Particle-AccelerationXP1=0 -10
+Particle-AccelerationXP2=1 10
+Particle-AccelerationZP1=0 -10
+Particle-AccelerationZP2=1 10
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=1
+e-rgba=255 200 0 128
+field-drag-1=drag
+field-noise-1=noise
+p-drag=1 1 1
+p-life=2.5
+p-linger=2.5
+p-quadrot=90 0 0
+p-rgba=color-eyefade.tga
+p-scale=150 150 0
+p-simpleorient=2
+p-texture=Sona_Base_W_Shield_DarkGlow.dds
+p-type=1
+p-vel=10 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=0.999 1 1 1 0
+single-particle=1
+

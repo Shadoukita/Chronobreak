@@ -1,0 +1,16 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundPersistent=Play_sfx_BattlecastChogath_recall_buffactivate
+SoundsPlayWhileOffScreen=1
+VoiceOverOnCreate=Play_vo_BattlecastChogath_Interactive_Interactive3DReturningToBase
+
+[empty]
+e-life=-1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

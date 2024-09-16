@@ -1,0 +1,25 @@
+[Darius_Blade_buff_base]
+KeywordsRequired=Darius_Base
+MaterialOverride1Texture=darius_W_props_01_base.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=10000
+p-linger=0
+p-rgba=black.tga
+p-texture=black.tga
+
+[System]
+GroupPart1=Darius_Blade_buff_base
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk03F340CA=0
+unk1DE0A0D3=Darius_Emperor
+unk254B5403=10000
+unk3163264E=1
+unk32360F87=darius_W_props_01_base.tga
+unk44810496=1 0
+unk9577EB0E=1 1

@@ -1,0 +1,66 @@
+[System]
+GroupPart1Type=Simple
+GroupPart2=fireball_out
+GroupPart2Type=Complex
+GroupPart3Type=Complex
+group-scale-cap=-1
+
+[fireball_out]
+e-life=0.7000000000000001
+e-linger=0
+e-rate=4
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-mesh=fireball.sco
+p-meshtex=bufsphere.tga
+p-offset=0 50 0
+p-quadrot=90 0 0
+p-scale=8 8 8
+p-type=3
+p-uvscroll-rgb=0 -1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.2 1 1 0
+p-xrgba2=0.5 0.2 1 1 1
+p-xrgba3=1 0.2 1 1 0
+
+[UNKNOWN_HASHES]
+unk021C0832=3
+unk10C09B6C=1 1
+unk2578780B=0 0 0
+unk283EE5D9=0.004999999888241291
+unk2C7BA924=0.004999999888241291
+unk2CD43F3C=1
+unk4239CE72=8 8 8
+unk47778FF5=0 0.9
+unk47778FF6=1 1.0499999523162842
+unk5B9B8F63=0
+unk7161ABFB=0
+unk77F807DD=0 0 0
+unk79D3E6CB=0 50 0
+unk7EFB38F6=0.004999999888241291
+unk801FE9A7=0 0
+unk801FE9A8=1 360
+unk811766FB=1
+unk85FA87B4=100
+unk86AE889D=0 50 0
+unk907F9820=90
+unk921259FF=1
+unk99F84DE2=lines01.tga
+unk9F5DE0E6=1
+unkA558C5E3=1
+unkA83B1E77=255 255 255 100
+unkB2961DA5=fireball.sco
+unkB4417286=0.5
+unkC05944D1=-1
+unkC33F5CB1=corona.tga
+unkCA6A36FE=color-bellcurve.tga
+unkD2C44187=0.004999999888241291
+unkD39FB0B5=8
+unkD3BE0E38=90 0 0
+unkDACDADBE=1
+unkEFBBD5B4=1 1
+unkFD6177E6=0 0.6000000000000001

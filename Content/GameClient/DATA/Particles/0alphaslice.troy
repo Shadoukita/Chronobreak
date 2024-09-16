@@ -1,0 +1,56 @@
+[System]
+GroupPart1=alphaslice
+GroupPart1Type=Simple
+GroupPart2Type=Simple
+
+[alphaslice]
+e-active=0.5
+e-life=10000
+e-local-orient=0
+e-period=2
+e-rate=8
+p-alphaslicerange=0.029999999329447746
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-offset=1 0 1
+p-offsetXP1=0 -30
+p-offsetXP2=1 30
+p-offsetYP1=0 -100
+p-offsetYP2=1 100
+p-offsetZP1=0 -30
+p-offsetZP2=1 30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown32.tga
+p-scale=100
+p-texture=alphaslice.tga
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk0B4077A7=1
+unk0C277014=1 0
+unk15EE239D=0 -100
+unk15EE239E=1 100
+unk166C331E=0 -100
+unk166C331F=1 100
+unk16EA429F=0 -100
+unk16EA42A0=1 100
+unk22EA5F10=0.5 0.1
+unk27C000AD=1 1
+unk2A03BF61=100
+unk2F21F372=alphaslice.tga
+unk3D7880E0=0.029999999329447746
+unk55E57DAD=0.5 0
+unk57212FE8=0 0
+unk57212FE9=1 360
+unk617A6B05=2
+unk6D923D50=10000
+unk7575319C=1 0 1
+unk77A32F7D=color-beacontrail32.tga
+unk8006695B=0
+unk80D8A934=2
+unkD1B13AC5=4

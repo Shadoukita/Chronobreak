@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="wujustyle"}}, 
+{Function=BBPreloadSpell, Params={Name="doublestrikestacks"}}, 
+{Function=BBPreloadSpell, Params={Name="doublestrike"}}, 
+{Function=BBPreloadSpell, Params={Name="alphastrike"}}, 
+{Function=BBPreloadSpell, Params={Name="masteryipassive"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="masteryiwujudeactivated"}}, 
+{Function=BBPreloadSpell, Params={Name="globalruncyclemanager"}}, 
+{Function=BBPreloadSpell, Params={Name="masteryiblademanager"}}, 
+{Function=BBPreloadSpell, Params={Name="masteryitauntmanager"}}, 
+{Function=BBPreloadParticle, Params={Name="masteryi_base_r_onbuffkill.troy"}}, 
+}

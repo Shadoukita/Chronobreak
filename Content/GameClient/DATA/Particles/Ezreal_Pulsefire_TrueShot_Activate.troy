@@ -1,0 +1,54 @@
+[System]
+GroupPart1=streak_1
+SimulateEveryFrame=1
+
+[streak_1]
+KeywordsRequired=CyberEzreal
+e-life=1
+e-rate=8
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5199999809265137
+p-colortype=1 0
+p-life=1
+p-local-orient=1
+p-quadrot=180 0 0
+p-rgba=alpha_20.tga
+p-rotvel=0 0 0
+p-scale=100 50 100
+p-simpleorient=1
+p-texture=ezreal_flare_streak_a01.tga
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 2 0.75 2
+p-xscale3=0.9 0.1 0.1 0.1
+p-xscale4=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk03743AFC=4
+unk10B192BE=ezreal_upgrayddd_cylinder.sco
+unk199F815F=0
+unk1B622494=0
+unk2274BBDF=0 180 90
+unk23D45F64=0 0 0
+unk3445B7A4=0 0 0
+unk60377D4B=3
+unk610D184C=1
+unk71B270E5=1 1
+unk78DDEED8=1
+unk8D5C6B23=0
+unk8FE4A694=1
+unkAFA6C4D8=1
+unkB18503AC=0 0 0
+unkC6D67AFF=0 -0.5
+unkCA8E6AEE=0 0.1 1.1 0.1
+unkCA8E6AEF=1 1 0 1
+unkCBC6048D=0
+unkE0149F99=0.3 0.3 0.3
+unkE415FCCD=1
+unkE8AEFB89=blast_ring_aqua.tga
+unkF02DCF18=4
+unkFA3EC145=alpha_20.tga

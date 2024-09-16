@@ -1,0 +1,36 @@
+[Spit]
+e-alpharef=0
+e-life=1.9000000000000001
+e-rate=5
+e-rate1=0 2
+e-rate2=0.7000000000000001 1
+e-rate3=1 0.5
+e-rgba=255 255 255 185
+e-timeoffset=0.30000000000000004
+p-life=0.30000000000000004
+p-linger=1
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rotvel=100 0 0
+p-scale=1 1 0
+p-scaleXP1=0 12
+p-scaleXP2=1 22
+p-texture=Sion_Base_E_Cas_spit.dds
+p-vel=0 0 -300
+p-worldaccel=0 -2000 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.45098 0.678431 0.678431 0.529397
+p-xrgba3=1 0.164706 0.184314 0.356863 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 0.6000000000000001 0.6000000000000001 0.6000000000000001
+p-xscale3=1 2 2 2
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Spit
+SimulateEveryFrame=1
+

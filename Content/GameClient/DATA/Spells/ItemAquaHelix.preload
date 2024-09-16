@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="akali_shadowswipe_heal.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="athenesunholygrail_manarestore_tar.troy"}}, 
+}

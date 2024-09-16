@@ -1,0 +1,35 @@
+[System]
+GroupPart1=spindown
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Gnar_GnarQCatch_hit
+
+[spindown]
+e-life=1
+e-linger=1
+e-rate=1
+e-rgba=255 255 255 128
+p-bindtoemitter=1 1
+p-drag=0 1 0
+p-life=1
+p-linger=1
+p-mesh=gnar_skin01_q_weapon.scb
+p-meshtex=Gnar_Skin01_Q_Weapon.dds
+p-postoffset=0 120 0
+p-quadrot=90 0 0
+p-type=3
+p-vel=30 -200 0
+p-xquadrot=0 1 0
+p-xquadrot-on=1
+p-xquadrot1=0 0 -40 0
+p-xquadrot2=0.8 0 -2 0
+p-xquadrot3=1 0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,39 @@
+[System]
+GroupPart7=blade-aboriginal
+GroupPart7Type=Complex
+GroupPart8=bladetrail-aboriginal
+GroupPart8Type=Simple
+SimulateEveryFrame=1
+
+[blade-aboriginal]
+p-bindtoemitter=1 1
+p-linger=0
+p-mesh=sivir_aboriginal_weapon.sco
+p-meshtex=sivir_aboriginal_TX_CM.dds
+p-quadrot=0 90 0
+p-rotvel=-1100 0 0
+p-scale=2.4000000000000004 2.4000000000000004 2.4000000000000004
+p-shadow=1
+p-simpleorient=1
+p-type=3
+rendermode=1
+single-particle=1
+
+[bladetrail-aboriginal]
+e-life=10
+e-linger=0
+e-rate=50
+p-bindtoemitter=0.5 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-life=0.5
+p-linger=-1
+p-offset=0 -5 0
+p-rgba=color-rampdown.tga
+p-rotvel=1100
+p-scale=100
+p-simpleorient=2
+p-texture=SivirBlade_boomerang.tga
+p-type=1
+

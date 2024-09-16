@@ -1,0 +1,85 @@
+[OrbitNumbers]
+e-active=2
+e-life=2
+e-local-orient=1
+e-period=2
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=StunAccel
+field-orbit-1=StunOrbit
+p-bindtoemitter=1 1
+p-colorscale=1 0
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-numframes=12
+p-postoffset=30 0 0
+p-postoffsetXP1=0 1
+p-postoffsetXP2=1 3
+p-quadrot=1
+p-quadrotP1=0 -20
+p-quadrotP2=1 20
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=6
+p-scaleP1=0 1
+p-scaleP2=1 3
+p-texdiv=4 4
+p-texture=RomanNumerals.tga
+p-type=0
+p-vel=0 0 -600
+rendermode=0
+
+[Rings]
+e-life=2
+e-rate=4
+p-colorscale=1 0
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-lifeP1=0 1
+p-lifeP3=1 1.5
+p-numframes=1
+p-postoffset=10 10 0
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-rotvel=-360
+p-rotvelP1=0 0.8
+p-rotvelP2=1 1.2000000000000002
+p-scale=100
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-simpleorient=2
+p-startframe=12
+p-texdiv=4 4
+p-texture=RomanNumerals.tga
+p-type=1
+p-vel=0 40 0
+p-xscale=1 1 1
+p-xscale1=0 1
+p-xscale2=1 2
+rendermode=0
+
+[StunAccel]
+f-accel=0 30 0
+f-localspace=0
+
+[StunOrbit]
+f-direction=1 0 0
+f-localspace=1
+
+[System]
+GroupPart1=OrbitNumbers
+GroupPart1Type=Simple
+GroupPart2=Rings
+GroupPart2Type=Simple
+

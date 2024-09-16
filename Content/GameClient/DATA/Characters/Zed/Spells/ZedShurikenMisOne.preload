@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="testcube"}}, 
+{Function=BBPreloadSpell, Params={Name="zedshurikenmarker"}}, 
+{Function=BBPreloadSpell, Params={Name="zedqenergydummy"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_stormninja_q_tar_double.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_stormninja_q_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_q_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_q_tar_double.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="zedshurikenshadowmarker"}}, 
+}

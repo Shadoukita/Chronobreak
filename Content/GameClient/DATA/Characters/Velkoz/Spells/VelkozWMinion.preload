@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="velkoz_base_w_turret_appear.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="velkoz_base_w_turret.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcuberender10vision"}}, 
+{Function=BBPreloadParticle, Params={Name="velkoz_base_w_turret_sound.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="velkoz_base_w_telegraph_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="velkoz_base_w_telegraph_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="velkoz_base_w_explode.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="velkozwdamage"}}, 
+{Function=BBPreloadSpell, Params={Name="velkozwdamagemarker"}}, 
+}

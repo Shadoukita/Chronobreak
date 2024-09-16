@@ -1,0 +1,82 @@
+[System]
+GroupPart1=starswirl
+GroupPart1Type=Simple
+GroupPart2=spiral
+GroupPart2Type=Complex
+
+[spiral]
+e-life=7
+e-rate=4
+e-rgba=176 57 36 100
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=2
+p-linger=2
+p-mesh=helix2.sco
+p-meshtex=LifeTrail.tga
+p-offset=0 150 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rotvel=0 30 0
+p-scale=20 60 20
+p-scaleYP1=0 -1
+p-scaleYP2=0.5 -1
+p-scaleYP3=0.5001000165939331 1
+p-scaleYP4=1 1
+p-startframe=1
+p-type=3
+p-uvscroll-rgb=0 -0.20000000298023224
+p-xrgba1=
+p-xrgba2=
+p-xrgba3=
+p-xrgba4=
+
+[starswirl]
+e-life=6
+e-rate=50
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-attract-1=suck
+field-orbit-1=swirl
+p-bindtoemitter=1 1
+p-colorscale=1 0.6000000000000001
+p-linger=3
+p-offset=1 1200 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-blood32.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1.5
+p-startframe=6
+p-texdiv=2 4
+p-texture=InfernalGuardian02.tga
+p-vel=0 -800 -100
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=0.9 1
+p-xscale4=1 0
+rendermode=1
+
+[suck]
+f-accel=100
+f-pos=0 0 0
+f-radius=1200
+
+[swirl]
+f-direction=0 1 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk3338EECF=1200
+unk551330D7=0 0 0
+unkF3A66671=1

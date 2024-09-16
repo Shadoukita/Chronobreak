@@ -1,0 +1,89 @@
+[System]
+GroupPart1=trail
+GroupPart1Importance=High
+GroupPart2=head
+GroupPart3=toxin
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[head]
+e-local-orient=1
+e-rate=12
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.14
+p-local-orient=1
+p-postoffset=0 -30 -56
+p-quadrot=0 0 90
+p-rotvel=0 0 0
+p-scale=56 44 44
+p-texture=Heimerdinger_Skin05_Q_Turret_Mis_head.dds
+p-type=1
+p-xrgba1=0 0.55 0.35 0.1 1
+p-xrgba2=0.1 0.45 0.45 0.1 1
+p-xrgba3=0.3 0.35 0.35 0.1 1
+p-xrgba4=1 0.35 0.35 0.1 1
+p-xscale1=0 1.25 0.75 0.75
+p-xscale2=1 2 0.2 0.2
+pass=1
+rendermode=4
+
+[toxin]
+e-life=0.35
+e-linger=0
+e-rate=75
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0.995
+p-life=0.225
+p-lifeP1=0 0.5
+p-lifeP2=0.5 0.75
+p-lifeP3=1 1
+p-linger=-1
+p-numframes=9
+p-offset=3 0 3
+p-postoffset=0 0 -55
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_12.tga
+p-scale=30
+p-scaleP1=0 0.65
+p-scaleP2=1 1
+p-texdiv=3 3
+p-texture=Heimerdinger_Skin05_W_Mis_toxin_02.dds
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=0.5 0.7
+p-xscale3=1 1
+rendermode=0
+
+[trail]
+e-local-orient=1
+e-rate=100
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=-1
+p-postoffset=0 0 -55
+p-quadrot=0 0 90
+p-scale=64 16 8
+p-texture=Heimerdinger_Skin05_Q_Turret_mis.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.35 0.85 0.35 0.3
+p-xrgba2=0.1 0.35 0.85 0.35 0.1
+p-xrgba3=0.3 0.35 0.85 0.35 0.1
+p-xrgba4=1 0.35 0.85 0.35 0
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.05 2 1 1
+p-xscale3=1 0.1 0.1 0.1
+rendermode=0
+

@@ -1,0 +1,28 @@
+[System]
+GroupPart1=centipedetrail
+SimulateEveryFrame=1
+group-vis=10000
+
+[centipedetrail]
+e-life=8
+e-linger=8
+e-rate=60
+e-tilesize=200 -1 0
+e-trail-cutoff=400
+p-coloroffset=0 0
+p-colorscale=1 0.05000000074505806
+p-colortype=1 0
+p-flexscale=1
+p-life=3
+p-linger=3
+p-offset=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-scale=1 1 0
+p-shadow=1
+p-texture=centipede-trail.tga
+p-trailmode=0
+p-type=4
+pass=-10
+rendermode=1
+

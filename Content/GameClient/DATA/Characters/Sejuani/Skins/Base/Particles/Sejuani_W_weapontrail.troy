@@ -1,0 +1,23 @@
+[System]
+GroupPart1=WeaponTrail
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=2
+p-linger=1
+p-mesh=0sejuani.sco
+p-meshtex=Sejuani_basicattack_trail_01.tga
+p-quadrot=0 90 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-1 0
+rendermode=4
+single-particle=1
+

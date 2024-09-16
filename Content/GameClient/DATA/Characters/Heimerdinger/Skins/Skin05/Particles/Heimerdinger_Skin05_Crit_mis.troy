@@ -1,0 +1,100 @@
+[System]
+GroupPart1=trail
+GroupPart1Importance=Medium
+GroupPart2=wrench
+GroupPart2Importance=High
+GroupPart3=wrench2
+GroupPart4=trail2
+SimulateEveryFrame=1
+
+[trail]
+e-local-orient=1
+e-rate=120
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0.4
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-numframes=1
+p-quadrot=0 0 90
+p-scale=90 17 17
+p-startframe=1
+p-texdiv=2 2
+p-texture=AirSpiritStreak.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.55 0.35 0.35 0.25
+p-xrgba2=0.1 0.45 0.35 0.35 0.05
+p-xrgba3=0.3 0.35 0.35 0.35 0.05
+p-xrgba4=1 0.35 0.35 0.35 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+
+[trail2]
+e-local-orient=1
+e-rate=120
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0.4
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-numframes=1
+p-quadrot=0 0 -90
+p-scale=90 17 17
+p-startframe=1
+p-texdiv=2 2
+p-texture=AirSpiritStreak.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.55 0.35 0.35 0.25
+p-xrgba2=0.1 0.45 0.35 0.35 0.05
+p-xrgba3=0.3 0.35 0.35 0.35 0.05
+p-xrgba4=1 0.35 0.35 0.35 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+
+[wrench]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=heimerdinger_skin05_aa_mis_02.scb
+p-meshtex=Heimerdinger_Skin05_W_mis_02.dds
+p-postoffset=20 0 0
+p-quadrot=0 0 0
+p-rotvel=1640 0 0
+p-scale=1.6 1.6 1.6
+p-type=3
+rendermode=3
+
+[wrench2]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=heimerdinger_skin05_aa_mis_01.scb
+p-meshtex=Heimerdinger_Skin05_W_mis_02.dds
+p-postoffset=-10 0 0
+p-quadrot=0 0 -50
+p-rotvel=0 0 1040
+p-scale=2.2 2.2 2.2
+p-type=3
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk222B0830=3
+unk25E8CDF4=1.6 1.6 1.6
+unk581BAC64=Heimerdinger_Skin05_W_mis_02.dds
+unk640FE262=1
+unk78F48CF9=0
+unk7C5F1C9A=1
+unk91E16CBA=0 0 20
+unk92B19B09=0 0 0
+unkA60987B2=5
+unkB414DB7C=300 100 1140
+unkB9D12940=1
+unkC567C5E1=1
+unkD2A51DA3=heimerdinger_skin05_aa_mis_01.scb
+unkE8608A72=1

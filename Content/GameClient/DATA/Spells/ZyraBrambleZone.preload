@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="testcube"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimer"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_ult_cas_target_hellvine.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_ult_cas_fire_hellvine.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_ult_cas_target_center.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_r_inner_fire_hellvine.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_r_inner.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_r_cast_green_team.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="zyra_r_cast_red_team.troy"}}, 
+}

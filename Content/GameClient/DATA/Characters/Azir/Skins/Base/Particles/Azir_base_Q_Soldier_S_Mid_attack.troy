@@ -1,0 +1,26 @@
+[System]
+GroupPart1=soldier
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=5000
+
+[soldier]
+e-life=1
+e-linger=0
+e-rate=1
+p-animation=Azir_base_Q_Soldier_Dash.anm
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=12
+p-linger=0
+p-local-orient=1
+p-meshtex=Azir_Base_Z_Soldier_TX_CM.tga
+p-postoffset=0 0 0
+p-scale=1 1 1
+p-shadow=1
+p-skeleton=Azir_base_Q_Sandsoldier_Mid.skl
+p-skin=Azir_base_Q_Sandsoldier_Mid.skn
+p-type=3
+rendermode=1
+single-particle=1
+

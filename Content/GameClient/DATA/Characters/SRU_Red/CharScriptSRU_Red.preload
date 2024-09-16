@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="blessingofthelizardelder"}}, 
+{Function=BBPreloadSpell, Params={Name="npcinitializer"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_redbuff_marker.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="blessingofthelizardelderlines"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_allycas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="smitten_red_regen"}}, 
+}

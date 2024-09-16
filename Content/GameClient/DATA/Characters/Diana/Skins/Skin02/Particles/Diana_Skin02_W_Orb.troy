@@ -1,0 +1,86 @@
+[Orb_Shadow_Skin02]
+e-life=4.5
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0.5
+p-local-orient=1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-scale=50 50 50
+p-texture=Diana_Skin02_Z_Glow.tga
+p-type=1
+p-xquadrot-on=1
+p-xrgba=0.74 0.86 0.635 0.5
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.75 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=-100
+rendermode=2
+single-particle=1
+
+[Orb_Skin02]
+e-life=4.5
+e-linger=0
+e-local-orient=0
+e-rate=2
+e-rgba=170 150 255 255
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=3 1
+p-fresnel=0.01
+p-fresnel-color=0.9 0.8 1 1
+p-life=1
+p-linger=0.15
+p-mesh=Diana_Skin02_W_Orb.scb
+p-meshtex=Diana_Skin02_W_OrbSwirl.tga
+p-postoffset=0 75 0
+p-rgba=diana_skin02_Z_colors_ramp.tga
+p-scale=2 2 2
+p-type=3
+p-uvscroll-rgb=0.4 -0.7
+p-xrgba=0.4 0.4 0.4 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[Orb_Sprite_Skin02]
+e-life=4.5
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0.5
+p-offset=0 0 0
+p-postoffset=0 75 0
+p-scale=25 25 25
+p-texture=Diana_Skin02_W_Flower.tga
+p-type=0
+p-xrgba=0.7 0.5 1 0.75
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.85 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Orb_Skin02
+GroupPart1Importance=High
+GroupPart2=Orb_Sprite_Skin02
+GroupPart2Importance=High
+GroupPart3=Orb_Shadow_Skin02
+GroupPart3Importance=High
+SimulateEveryFrame=1
+

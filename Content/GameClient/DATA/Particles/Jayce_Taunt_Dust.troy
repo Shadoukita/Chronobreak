@@ -1,0 +1,62 @@
+[DirtDrag]
+f-drag=5
+f-pos=0 0 0
+f-radius=2000
+
+[Dust]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=500
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=FlameAccel
+field-drag-1=DirtDrag
+p-bindtoemitter=0 0
+p-frameRate=0
+p-life=3
+p-lifeP1=0 0.25
+p-lifeP2=1 2
+p-numframes=4
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=Color_Dust_Fade.tga
+p-rotvel=1
+p-rotvelP1=0 -20
+p-rotvelP2=1 20
+p-scale=30
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=2 2
+p-texture=Smoke_Clouds_2x2.tga
+p-type=0
+p-vel=1200 250 1200
+p-velXP1=0 -1
+p-velXP2=0.5 -0.30000001192092896
+p-velXP3=0.5099999904632568 0.30000001192092896
+p-velXP4=1 1
+p-velZP1=0 -1
+p-velZP2=0.5 -0.30000001192092896
+p-velZP3=0.5099999904632568 0.30000001192092896
+p-velZP4=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.1 3
+p-xscale3=1 6
+rendermode=1
+
+[FlameAccel]
+f-accel=100 0 -50
+f-localspace=0
+
+[System]
+GroupPart1=Dust
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

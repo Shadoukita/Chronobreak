@@ -1,0 +1,67 @@
+[SlashAdd]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.35
+p-linger=0
+p-local-orient=0
+p-mesh=Rengar_Skin02_Z_WeaponTrail.sco
+p-meshtex=Rengar_Skin02_Z_WeaponTrail.tga
+p-numframes=4
+p-postoffset=-150 120 100
+p-quadrot=5 150 190
+p-scale=300 50 100
+p-shadow=0
+p-simpleorient=1
+p-startframe=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 -2.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1.5 1.5 1.5
+rendermode=4
+single-particle=1
+
+[SlashSkin02]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.35
+p-linger=0
+p-local-orient=0
+p-mesh=Rengar_Skin02_Z_WeaponTrail.sco
+p-meshtex=Rengar_Skin02_Z_WeaponTrail.tga
+p-numframes=4
+p-postoffset=-150 120 100
+p-quadrot=5 150 185
+p-scale=300 50 100
+p-shadow=0
+p-simpleorient=1
+p-startframe=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 -2.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1.5 1.5 1.5
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=SlashSkin02
+GroupPart1Importance=High
+GroupPart2=SlashAdd
+GroupPart2Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk17C47089=1
+unk55D6B314=3
+unkBC186C21=1
+unkE248897C=1

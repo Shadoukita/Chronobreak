@@ -1,0 +1,25 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=WeaponTrail_HeadlessHecarim
+SimulateEveryFrame=1
+
+[WeaponTrail]
+KeywordsExcluded=HeadlessHecarim
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.26
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Hecarim_skin04_crit.tga
+p-quadrot=70 0 0
+p-rgba=color-hecarim_skin04_trail.tga
+p-scale=1.2300000190734863 1.2300000190734863 1.2300000190734863
+p-type=3
+p-uvscroll-rgb=2.8000000000000003 0
+rendermode=0
+single-particle=1
+

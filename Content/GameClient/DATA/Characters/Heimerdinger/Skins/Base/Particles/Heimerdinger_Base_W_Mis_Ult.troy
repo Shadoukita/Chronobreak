@@ -1,0 +1,46 @@
+[System]
+GroupPart1=missle
+GroupPart1Importance=High
+GroupPart4=black_ribbon
+SimulateEveryFrame=1
+
+[black_ribbon]
+e-local-orient=1
+e-rate=100
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0.4
+p-life=0.5
+p-linger=0
+p-postoffset=0 -100 150
+p-quadrot=0 0 90
+p-scale=30 50 30
+p-texture=Heimerdinger_Base_W_Black_Ribbon.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.15 0.35 0.65 0.45
+p-xrgba2=0.1 0.15 0.35 0.55 0.1
+p-xrgba3=0.3 0.15 0.35 0.45 0.1
+p-xrgba4=1 0.35 0.35 0.35 0
+p-xscale1=0 2 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=1
+
+[missle]
+ChildEmitOnDeath=0
+ChildParticleName=Heimerdinger_Base_W_Mis_Ult_Child.troy
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=Heimerdinger_Base_W_Missile.scb
+p-meshtex=Heimerdinger_Base_W_Missile_Txt.dds
+p-postoffset=0 0 130
+p-quadrot=-90 30 0
+p-rotvel=0 0 1440
+p-scale=1 1 1
+p-shadow=1
+p-type=3
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk4D745766=1

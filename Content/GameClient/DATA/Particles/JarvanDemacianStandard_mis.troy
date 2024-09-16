@@ -1,0 +1,135 @@
+[System]
+GroupPart1=Weapon
+GroupPart1Importance=High
+GroupPart2=Weapon_commando
+GroupPart2Importance=High
+GroupPart3=Weapon_monsterhunter
+GroupPart3Importance=High
+GroupPart4=Weapon_Lubu
+GroupPart4Importance=High
+GroupPart5=Weapon_Dragoon
+GroupPart5Importance=High
+GroupPart6=Weapon_Warhero
+GroupPart6Importance=High
+SimulateEveryFrame=1
+
+[Weapon]
+KeywordsRequired=JarvanIV
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=1
+p-linger=0
+p-mesh=jarvan_weapon.sco
+p-meshtex=jarvanIV_base_TX_CM.dds
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-vel=0 4000 0
+rendermode=3
+single-particle=1
+
+[Weapon_Dragoon]
+KeywordsRequired=DragoonJarvanIV
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=1
+p-linger=0
+p-mesh=JarvanIV_dragoon_sword.sco
+p-meshtex=jarvanIV_dragoon_TX_CM.dds
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-vel=0 4000 0
+rendermode=3
+single-particle=1
+
+[Weapon_Lubu]
+KeywordsRequired=LubuJarvanIV
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=1
+p-linger=0
+p-mesh=JarvanIV_Lubu_Weapon.sco
+p-meshtex=jarvanIV_lubu_TX_CM.dds
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-vel=0 4000 0
+rendermode=3
+single-particle=1
+
+[Weapon_Warhero]
+KeywordsRequired=WarHeroJarvanIV
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=1
+p-linger=0
+p-mesh=jarvan_weapon.sco
+p-meshtex=jarvanIV_base_TX_CM.dds
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-vel=0 4000 0
+rendermode=3
+single-particle=1
+
+[Weapon_commando]
+KeywordsRequired=CommandoJarvanIV
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=1
+p-linger=0
+p-mesh=jarvan_commando_weapon.sco
+p-meshtex=Jarvan_Commando.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-vel=0 4000 0
+rendermode=3
+single-particle=1
+
+[Weapon_monsterhunter]
+KeywordsRequired=MonsterHunterJarvanIV
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-life=1
+p-linger=0
+p-mesh=jarvanIV_monsterhunter_weapon.sco
+p-meshtex=Jarvan_MonsterHunter.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-vel=0 4000 0
+rendermode=3
+single-particle=1
+

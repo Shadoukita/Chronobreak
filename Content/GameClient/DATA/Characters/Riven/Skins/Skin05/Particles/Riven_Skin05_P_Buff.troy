@@ -1,0 +1,75 @@
+[System]
+GroupPart1=glow_lunar
+GroupPart1Importance=High
+GroupPart2=blur
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=blur_02
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[blur]
+KeywordsRequired=RivenSkin05
+e-life=-1
+e-linger=0
+e-rate=6
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.35
+p-linger=0
+p-offset=0 0 0
+p-postoffset=3 -9 -2
+p-rotvel=-1250
+p-scale=25
+p-simpleorient=2
+p-texture=Riven_Skin05_P_Swirl.dds
+p-type=1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 0 0 0 1
+p-xrgba3=1 0 0 0 0
+rendermode=4
+
+[blur_02]
+KeywordsRequired=RivenSkin05
+e-life=0.5
+e-linger=0
+e-rate=6
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.15
+p-linger=0
+p-offset=0 0 0
+p-postoffset=3 -9 -2
+p-rotvel=-1250
+p-scale=25
+p-simpleorient=2
+p-texture=Riven_Skin05_P_Swirl.dds
+p-type=1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 0 0 0 1
+p-xrgba3=1 0 0 0 0
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=1 0
+rendermode=4
+
+[glow_lunar]
+KeywordsRequired=RivenSkin05
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2
+p-postoffset=-2 -9 -2
+p-quadrot=90 0 0
+p-rgba=alpha_12.tga
+p-scale=70 70 0
+p-texture=Riven_Skin05_Passive_Glow.dds
+p-type=0
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=0.5 1.1 1.1 1.1
+p-xscale3=1 1 1 1
+rendermode=4
+

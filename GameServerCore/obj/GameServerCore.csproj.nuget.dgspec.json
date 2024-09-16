@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\League Sandbox\\Chronobreak\\GameServerCore\\GameServerCore.csproj": {}
+  },
+  "projects": {
+    "D:\\League Sandbox\\Chronobreak\\GameServerCore\\GameServerCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\League Sandbox\\Chronobreak\\GameServerCore\\GameServerCore.csproj",
+        "projectName": "GameServerCore",
+        "projectPath": "D:\\League Sandbox\\Chronobreak\\GameServerCore\\GameServerCore.csproj",
+        "packagesPath": "C:\\Users\\Shadoukita\\.nuget\\packages\\",
+        "outputPath": "D:\\League Sandbox\\Chronobreak\\GameServerCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shadoukita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\League Sandbox\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+                "projectPath": "D:\\League Sandbox\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj"
+              },
+              "D:\\League Sandbox\\Chronobreak\\QuadTree\\QuadTree.csproj": {
+                "projectPath": "D:\\League Sandbox\\Chronobreak\\QuadTree\\QuadTree.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Crc32.NET": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\League Sandbox\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\League Sandbox\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+        "projectName": "LeaguePackets",
+        "projectPath": "D:\\League Sandbox\\Chronobreak\\LeaguePackets\\LeaguePackets\\LeaguePackets.csproj",
+        "packagesPath": "C:\\Users\\Shadoukita\\.nuget\\packages\\",
+        "outputPath": "D:\\League Sandbox\\Chronobreak\\LeaguePackets\\LeaguePackets\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shadoukita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\League Sandbox\\Chronobreak\\QuadTree\\QuadTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\League Sandbox\\Chronobreak\\QuadTree\\QuadTree.csproj",
+        "projectName": "QuadTree",
+        "projectPath": "D:\\League Sandbox\\Chronobreak\\QuadTree\\QuadTree.csproj",
+        "packagesPath": "C:\\Users\\Shadoukita\\.nuget\\packages\\",
+        "outputPath": "D:\\League Sandbox\\Chronobreak\\QuadTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shadoukita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

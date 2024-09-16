@@ -1,0 +1,40 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=glowcomplex
+SimulateEveryFrame=1
+
+[glow]
+e-life=-1
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 0.8
+p-colortype=1 0
+p-life=0.5
+p-rgba=color-redfade.tga
+p-scale=100
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+
+[glowcomplex]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 0.5
+p-colortype=1 0
+p-life=1
+p-local-orient=1
+p-quadrot=0 90 0
+p-rgba=color-redfade.tga
+p-scale=100 100 0
+p-simpleorient=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=1
+

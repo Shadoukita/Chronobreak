@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="zed_r_dash.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="zedrshadowbuff"}}, 
+{Function=BBPreloadParticle, Params={Name="zed_stormninja_w_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Zed_Base_W_Tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="zedpbaoe"}}, 
+{Function=BBPreloadParticle, Params={Name="Zed_Base_E_cas.troy"}}, 
+}

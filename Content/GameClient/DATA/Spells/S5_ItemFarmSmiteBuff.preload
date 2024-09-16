@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="itemsmiteaoe"}}, 
+{Function=BBPreloadSpell, Params={Name="summonersmite"}}, 
+}

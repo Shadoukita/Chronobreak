@@ -1,0 +1,66 @@
+[Orb3]
+ChildParticleName=Nami_Skin02_E_Counter_Child.troy
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=8
+p-linger=0
+p-offset=-60 20 60
+p-orbitvel=0 1 0
+p-rgba=color-hold.tga
+p-scale=2.2 2.2 2.2
+p-shadow=1
+p-type=0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=orb
+GroupPart1Importance=High
+GroupPart2=orb2
+GroupPart2Importance=High
+GroupPart3=Orb3
+GroupPart3Importance=High
+SimulateEveryFrame=1
+
+[orb]
+ChildParticleName=Nami_Skin02_E_Counter_Child.troy
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=8
+p-linger=0
+p-offset=70 20 0
+p-orbitvel=0 1 0
+p-rgba=color-hold.tga
+p-scale=2.2 2.2 2.2
+p-shadow=1
+p-type=0
+rendermode=4
+single-particle=1
+
+[orb2]
+ChildParticleName=Nami_Skin02_E_Counter_Child.troy
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=8
+p-linger=0
+p-offset=-30 20 -80
+p-orbitvel=0 1 0
+p-rgba=color-hold.tga
+p-scale=2.2 2.2 2.2
+p-shadow=1
+p-type=0
+rendermode=4
+single-particle=1
+

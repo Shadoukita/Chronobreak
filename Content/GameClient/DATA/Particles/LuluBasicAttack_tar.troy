@@ -1,0 +1,53 @@
+[System]
+GroupPart1=frosty_flash_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=frosty_flash_01
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Lulu_LuluPassiveMissile_hit
+
+[frosty_flash_01]
+e-life=0.1
+e-local-orient=0
+e-rate=10
+p-life=0.15000000596046448
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=90
+p-scale=100
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-texture=flare-Rainbow_purp_04.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 0 0 0
+pass=1
+
+[frosty_flash_02]
+e-life=0.1
+e-local-orient=0
+e-rate=5
+p-life=0.1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=90
+p-scale=80
+p-scaleP1=0 0.95
+p-scaleP2=1 1
+p-simpleorient=2
+p-texture=voidslash_02.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 0 0 0
+pass=2
+

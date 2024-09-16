@@ -1,0 +1,99 @@
+[System]
+GroupPart1=blood_tornado
+GroupPart2=radiance
+GroupPart2Type=Simple
+GroupPart3=clouds_suck
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_BloodkingVladimir_Laugh3D_buffactivate
+
+[blood_tornado]
+KeywordsRequired=BloodkingVladimir
+e-life=-1
+e-local-orient=1
+e-rate=2
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=2
+p-mesh=sphere.sco
+p-meshtex=vlad_flame_test_01.tga
+p-offset=0 -25 0
+p-rgba=alpha_21.tga
+p-rotvel=10 0 10
+p-scale=8 6 2
+p-scale1=0 0.1 0.1 0.1
+p-scale2=0.2 1.5 1.5 1.5
+p-scale3=0.9 1 3 1
+p-scale4=1 0 0 0
+p-type=3
+p-uvscroll-rgb=-1 -0.1
+pass=5
+rendermode=1
+uniformscale=1
+
+[clouds_suck]
+KeywordsRequired=BloodkingVladimir
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=100
+e-rate1=0 0.1
+e-rate2=0.5 1
+e-rate3=1 0.5
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.3
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=0
+p-offset=0 -40 0
+p-postoffset=0 -5 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=300
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-simpleorient=2
+p-texture=cloudring.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+
+[radiance]
+KeywordsRequired=BloodkingVladimir
+e-life=0.2
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.5
+p-offset=0 20 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-rgba=alpha_12.tga
+p-rotvel=100
+p-rotvelP1=0 1
+p-rotvelP2=1 -1
+p-scale=60
+p-texture=Flare-Rainbow_red_04.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.3 1.5 1.5 1.5
+p-xscale3=1.1 0.1 0.1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0D8F8D88=1000
+unk3338EECF=1200
+unk551330D7=0 0 0
+unk732D275E=0 0 0
+unkD44CED6A=1
+unkDEAC1F92=400
+unkF3A66671=0

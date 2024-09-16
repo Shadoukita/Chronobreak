@@ -1,0 +1,83 @@
+[System]
+GroupPart1=flare
+GroupPart1Type=Simple
+GroupPart2=bubble
+GroupPart3=flash_anim
+SimulateEveryFrame=1
+
+[bubble]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.25
+p-linger=0
+p-offset=0 100 0
+p-postoffset=0 0 0
+p-rgba=Heimerdinger_Skin05_W_color-firemissile.dds
+p-scale=210 210 210
+p-texture=Heimerdinger_Skin05_Q_Turret_Tar_Bubble.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.4 1 1 1 1
+p-xrgba3=1 1 0.3 0 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+rendermode=0
+single-particle=1
+
+[flare]
+e-life=0.1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.3
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 80 0
+p-rgba=alpha_12.tga
+p-scale=210
+p-texture=Heimerdinger_Skin05_R_MegaTurret_Glow.dds
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 2 2 2
+p-xscale2=1 0.5 0.5 0.5
+pass=100
+rendermode=4
+single-particle=1
+
+[flash_anim]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=3
+p-bindtoemitter=1 1
+p-frameRate=60
+p-life=0.2
+p-linger=0
+p-numframes=12
+p-offset=0 20 0
+p-postoffset=0 70 0
+p-rgba=Heimerdinger_Skin05_W_color-firemissile.dds
+p-scale=170 170 170
+p-startframe=1
+p-texdiv=6 2
+p-texture=Heimerdinger_base_R_Megaturret_Impact_Anim.dds
+p-type=0
+p-xrgba=0 1 0 1
+p-xrgba1=0 0 1 0 1
+p-xrgba2=0.1 0 1 0 1
+p-xrgba3=1 0 0.3 0 0
+p-xscale1=0 0 0 0
+p-xscale2=1 2 2 2
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unkD650CE5F=1

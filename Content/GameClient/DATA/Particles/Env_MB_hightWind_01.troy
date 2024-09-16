@@ -1,0 +1,92 @@
+[Snow]
+e-life=-1
+e-linger=0
+e-rate=50
+e-rotation1=45
+e-rotation1-axis=0 1 0
+field-noise-1=noise
+p-life=4
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 1
+p-linger=2
+p-offset=1200 1200 1200
+p-offsetXP1=0 -1
+p-offsetXP2=1 2.5
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-scale=10 20 0
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-texture=Env_MB_snow_flakes.dds
+p-type=0
+p-vecalign=1
+p-vel=-1220 -150 200
+p-velXP1=0 0.30000000000000004
+p-velXP2=1 1
+p-velYP1=0 0.30000000000000004
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Wind
+GroupPart1Importance=Low
+GroupPart2=Snow
+GroupPart2Importance=Low
+SimulateEveryFrame=1
+group-vis=500
+
+[Wind]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=0.05000000074505806
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=6
+p-lifeP1=0.4 1
+p-lifeP2=1 0.4
+p-linger=2
+p-mesh=Env_MB_highWind_01.sco
+p-meshtex=Env_MB_highWind_01.dds
+p-postoffset=0 0 0
+p-quadrot=0 44 0
+p-scale=15 1 10
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1 1
+p-uvscroll-rgbXP1=0 0.6000000000000001
+p-uvscroll-rgbXP2=1 0.7000000000000001
+p-uvscroll-rgbYP1=0 -0.10000000149011612
+p-uvscroll-rgbYP2=1 0.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 0.7
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+
+[noise]
+f-axisfrac=1 1 0
+f-period=0.5
+f-pos=0 0 0
+f-radius=4000
+f-veldelta=50
+
+[UNKNOWN_HASHES]
+unk79EECBC5=1
+unkDE99CFD8=1

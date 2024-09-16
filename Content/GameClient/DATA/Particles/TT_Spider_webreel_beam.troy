@@ -1,0 +1,20 @@
+[System]
+GroupPart1=ally_link_beam
+SimulateEveryFrame=1
+
+[ally_link_beam]
+e-life=8
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-tilesize=0 350 0
+p-bindtoemitter=1
+p-life=10
+p-linger=0
+p-quadrot=0 0 0
+p-scale=50 1 1
+p-texture=TT_Spider_Web_Beam.tga
+p-type=6
+rendermode=1
+single-particle=1
+

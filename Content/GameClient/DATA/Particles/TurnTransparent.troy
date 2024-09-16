@@ -1,0 +1,19 @@
+[System]
+GroupPart1=Turn_To_Stone
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[Turn_To_Stone]
+MaterialOverride1Priority=2000
+MaterialOverride1Texture=empty32.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.6600000262260437
+p-linger=0
+p-rgba=trans-stone.tga
+p-trans-sample=10
+rendermode=1
+

@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "Karma_W1.dds"
+BuffTextureName = L0_1
+L0_1 = "KarmaSpiritBind"
+BuffName = L0_1
+L0_1 = "global_Watched.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = {}
+L1_1 = "KarmaClassic"
+L0_1[1] = L1_1
+SpellVOOverrideSkins = L0_1

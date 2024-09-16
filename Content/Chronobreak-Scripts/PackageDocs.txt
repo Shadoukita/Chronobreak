@@ -1,0 +1,32 @@
+[Scripts]
+
+Scripts are loaded based on their namespace and inherited class
+Script NameSpaces:
+- AIScripts
+- CharScripts
+- Buffs
+- Spells
+- Talents
+- ItemPassives
+
+LevelScript NameSpaces:
+- MapScripts.Map[MapNumber]
+
+Inherited Classes:
+- CAIScript
+- CCharScript
+- CBufScript
+- CSpellScript
+- CItemScript
+- CTalentScript
+
+Rather than using the direct classes inheritance above Script packages use
+Classes that inherit from the onest listed above that include values useful 
+for scripts
+
+Global.cs Classes:
+- CharScript
+- ItemScript
+- SpellScript
+- BuffScript
+- TalentScript

@@ -1,0 +1,51 @@
+[System]
+GroupPart1=soundWave01
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=soundWave02
+GroupPart2Importance=High
+GroupPart2Type=Complex
+
+[soundWave01]
+KeywordsExcluded=BattlecastChogath
+e-life=0.55
+e-rate=19
+p-colorscale=1
+p-colortype=1
+p-life=0.37
+p-quadrot=90 90 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=230 230 230
+p-texture=sound_waves_styled_01.tga
+p-type=1
+p-uvscroll-rgb=0.8 0
+p-vel=0 200 1600
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 0.6 0.6 0.6
+p-xscale3=1 1 1 1
+rendermode=0
+
+[soundWave02]
+KeywordsExcluded=BattlecastChogath
+e-life=0.55
+e-local-orient=1
+e-rate=19
+p-colorscale=1
+p-colortype=1
+p-frameRate=0
+p-life=0.37
+p-numframes=1
+p-quadrot=90 90 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=100 100 100
+p-startframe=1
+p-texdiv=2 1
+p-texture=sound_waves_styled_01.tga
+p-type=1
+p-uvscroll-rgb=0.8 0
+p-vel=0 200 1000
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 0.6 0.6 0.6
+p-xscale3=1 1 1 1
+rendermode=0
+

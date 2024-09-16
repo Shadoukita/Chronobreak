@@ -1,0 +1,56 @@
+[System]
+GroupPart1=pipesmoke
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[pipesmoke]
+Particle-Velocity=1 1 0
+Particle-Velocity1=0 -50 1 0
+Particle-Velocity2=0.20000000298023224 50 1 0
+Particle-Velocity3=0.4000000059604645 -30 1 0
+Particle-Velocity4=0.6000000238418579 30 1 0
+Particle-Velocity5=0.800000011920929 -10 1 0
+Particle-Velocity6=1 10 1 0
+e-life=15
+e-linger=15
+e-local-orient=0
+e-rate=20
+e-tilesize=10 -1 0
+p-accel=1 1 1
+p-accelXP1=0 -10
+p-accelXP2=1 10
+p-accelYP1=0 50
+p-accelYP2=1 20
+p-accelZP1=0 -10
+p-accelZP2=1 10
+p-bindtoemitter=0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-drag=1 1 1
+p-life=4
+p-linger=4
+p-offset=10 0 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 -30
+p-quadrotXP2=1 30
+p-rgba=color-rampdown32.tga
+p-rotvel=1 0 0
+p-rotvelXP1=0 -100
+p-scale=12 0 0
+p-scale1=0 0 0 0
+p-scale2=0.1 1 0 0
+p-scale3=0.5 0 0 0
+p-scale4=0.9 1 0 0
+p-scale5=1 0 0 0
+p-texture=smoke_trail32.tga
+p-trailmode=1
+p-type=4
+p-vel=0 100 0
+p-xscale1=0 0.5 0 0
+p-xscale2=0.5 1.5 0 0
+p-xscale3=1 2 0 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unkB88C2108=1 100

@@ -1,0 +1,109 @@
+[System]
+GroupPart1=dark_energy_01
+GroupPart1Importance=High
+GroupPart2=dark_energy_03
+GroupPart2Importance=High
+GroupPart3=molten_proj
+GroupPart3Importance=High
+GroupPart4=molten_proj_02
+GroupPart4Importance=High
+GroupPart5=trail
+SimulateEveryFrame=1
+
+[dark_energy_01]
+e-life=1
+e-rate=15
+p-bindtoemitter=1 1
+p-life=0.25
+p-quadrot=360 0 0
+p-rotvel=180 0 0
+p-rotvelXP1=0 1
+p-rotvelXP2=0.5 0
+p-rotvelXP3=1 -1
+p-scale=65 65 65
+p-texture=cast_star_03.dds
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 1 0
+p-xquadrot2=0.5 0 1 -180
+p-xquadrot3=0.5009999871253967 1 -6 1
+p-xquadrot4=1 0 1 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.5 0 1 1
+p-xrgba3=1 0 0 1 0
+
+[dark_energy_03]
+e-life=1
+e-rate=6
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-quadrot=360 0 0
+p-rotvel=360 0 0
+p-rotvelXP1=0 1
+p-rotvelXP2=0.5 0
+p-rotvelXP3=1 -1
+p-scale=40 50 40
+p-texture=dark_energy_01.dds
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 1 0
+p-xquadrot2=0.5 0 1 -180
+p-xquadrot3=0.501 1 180 1
+p-xquadrot4=1 0 1 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.5 0 1 1
+p-xrgba3=1 0 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 1.2 1.2 1.2
+p-xscale2=1 0.2 0.2 0.2
+
+[molten_proj]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=5
+p-linger=0
+p-mesh=veigar_shadow_bolt_proj_01.sco
+p-meshtex=veigar_shadow_bolt_proj_03.dds
+p-rotvel=270 270 270
+p-scale=45 45 45
+p-type=3
+rendermode=1
+
+[molten_proj_02]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=5
+p-linger=0
+p-mesh=fireball.sco
+p-meshtex=veigar_shadow_bolt_proj_07.dds
+p-rotvel=720 720 720
+p-scale=2.25 2.25 2.25
+p-type=3
+
+[trail]
+e-rate=120
+p-bindtoemitter=0 0.4
+p-life=0.5
+p-quadrot=0 0 90
+p-scale=60 13 13
+p-startframe=1
+p-texdiv=2 2
+p-texture=AirSpiritStreak.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.356863 0.647059 0.133333 0.45098
+p-xrgba2=0.1 0.309804 0.647059 0.188235 0.090196
+p-xrgba3=0.3 0.329412 0.54902 0.160784 0.054902
+p-xrgba4=1 0.262745 0.168627 0.447059 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+
+[UNKNOWN_HASHES]
+unk39C420BA=1
+unk697AC349=1
+unk6FDDA8B6=0 350 0

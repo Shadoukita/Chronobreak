@@ -1,0 +1,78 @@
+[SRU_WaterFall_SolidShape]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-uvoffset=1.6 1.6
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-mesh=SRU_Waterfall_PallyBase_Small_01.scb
+p-meshtex=SRU_WaterFall_Test_Small_02.DDS
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.35
+p-xrgba=1 1 1 1
+pass=19
+rendermode=1
+single-particle=1
+
+[SRU_WaterFall_Test_Small]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-uvoffset=1.4000000000000001 1.4000000000000001
+e-uvoffset-mult=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-mesh=SRU_Waterfall_PallyBase_Small_01.scb
+p-meshtex=SRU_WaterFall_Test_Small_01.DDS
+p-meshtex-mult=SRU_WaterFall_Test_Small_Mult_01.DDS
+p-postoffset=1 2 1
+p-scale=1 1 1
+p-shadow=0
+p-texdiv=1 2
+p-type=3
+p-uvscroll-no-alpha=0
+p-uvscroll-rgb=0 -0.44999998807907104
+p-uvscroll-rgb-mult=0 -0.10000000149011612
+pass=20
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=SRU_WaterFall_Test_Small
+GroupPart1Importance=high
+GroupPart2=SRU_WaterFall_SolidShape
+GroupPart2Importance=high
+GroupPart3=SRU_Shadow
+SimulateEveryFrame=1
+group-vis=1500
+
+[UNKNOWN_HASHES]
+unk153DC44C=sphere.sco
+unk221BFCC1=high
+unk55315AD0=sphere.sco
+unk68479DE2=1 50
+unk7E192AC2=SRU_WaterFall_Test_Small_Mult_02.dds
+unk91A1B05E=1 50
+unkA85A7187=0 -50
+unkA9DF547B=color-hold.DDS
+unkAA48B432=1 45 1
+unkCECD950E=0 0 0.5
+unkCECD950F=1 0 1
+unkD1B48403=0 -50

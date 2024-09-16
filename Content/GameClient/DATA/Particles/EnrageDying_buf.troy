@@ -1,0 +1,60 @@
+[System]
+GroupPart1Type=Complex
+GroupPart2=ghostrising
+GroupPart2Type=Simple
+GroupPart3=ghoststreak
+GroupPart3Type=Simple
+
+[ghostrising]
+e-rate=0.5
+e-rotation1=0
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 10
+e-rotation1P2=1 -10
+e-rotation2=0
+e-rotation2-axis=1 0 0
+e-rotation2P1=0 -10
+e-rotation2P2=1 10
+p-bindtoemitter=1 1
+p-life=2
+p-offset=0 200 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-quadrot=0
+p-quadrotXP1=0 -45
+p-quadrotXP2=1 45
+p-rgba=color-bellcurve.tga
+p-scale=80
+p-startframe=1
+p-texdiv=2 1
+p-texture=EnrageGhost.tga
+p-vel=0 25 0
+
+[ghoststreak]
+e-rate=2
+e-rotation1=0
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 10
+e-rotation1P2=1 -10
+e-rotation2=0
+e-rotation2-axis=1 0 0
+e-rotation2P1=0 -10
+e-rotation2P2=1 10
+p-bindtoemitter=1 1
+p-life=2
+p-offset=20 250 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-quadrot=0
+p-quadrotXP1=0 -45
+p-quadrotXP2=1 45
+p-rgba=color-bellcurve.tga
+p-scale=50
+p-texdiv=2 1
+p-texture=EnrageGhost.tga
+p-vel=0 -25 0
+
+[UNKNOWN_HASHES]
+unk228D5643=ghost2.tga
+unk59F72165=ghost2.sco
+unkA97D0BF2=3

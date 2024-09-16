@@ -1,0 +1,54 @@
+[System]
+GroupPart1=WingsFlap
+KeepOrientationAfterSpellCast=1
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+SoundOnCreate=Play_sfx_PantheonSkin06_PantheonRJump_jump
+build-up-time=0.1
+group-scale-cap=300
+group-vis=2000000
+
+[WingsFlap]
+ChildParticleName=Pantheon_Skin06_R_WingAccents_02.troy
+ChildParticleName2=Pantheon_Skin06_R_WingAccents_02.troy
+ChildParticleName3=Pantheon_Skin06_R_WingAccents_02.troy
+ChildParticleName4=Pantheon_Skin06_R_WingAccents_02.troy
+ChildParticleName5=Pantheon_Skin06_R_WingAccents_02.troy
+ChildParticleName6=Pantheon_Skin06_R_WingAccents_02.troy
+ChildSpawnAtBone=L_Wing_FingerC_1
+ChildSpawnAtBone2=R_Wing_FingerC_1
+ChildSpawnAtBone3=L_Wing_FingerB_2
+ChildSpawnAtBone4=R_Wing_FingerB_2
+ChildSpawnAtBone5=L_Wing_FingerA_2
+ChildSpawnAtBone6=R_Wing_FingerA_2
+e-life=2
+e-rate=1
+p-animation=Pantheon_Skin06_R_Wings_flap.anm
+p-flexscale=0.005
+p-life=2
+p-linger=1
+p-local-orient=1
+p-meshtex=Pantheon_Skin06_R_Wings_TX.dds
+p-meshtex-mult=Pantheon_Skin06_R_WingsMult.dds
+p-postoffset=0 20 0
+p-scale=0.8 0.8 0.8
+p-skeleton=Pantheon_Skin06_R_Wings.skl
+p-skin=Pantheon_Skin06_R_Wings.skn
+p-type=3
+p-uvscroll-rgb-mult=0.7000000000000001 0.7000000000000001
+p-xrgba=1 0.466667 0 1
+pass=-100
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0D8F8D88=600
+unk204F9E59=50
+unk2217645F=0.05000000074505806
+unk3338EECF=1200
+unk732D275E=0 600 0
+unkB36541F0=1000
+unkDB7007A7=200 0 0
+unkDEAC1F92=200 0 0
+unkF3A66671=1.3

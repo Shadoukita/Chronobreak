@@ -1,0 +1,32 @@
+[System]
+GroupPart1=streak_1
+SimulateEveryFrame=1
+
+[streak_1]
+KeywordsRequired=CyberEzreal
+e-life=4
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5199999809265137
+p-colortype=1 0
+p-life=1
+p-local-orient=1
+p-offset=1 2 0
+p-quadrot=180 0 0
+p-rgba=alpha_12.tga
+p-rotvel=100 100 0
+p-scale=12 12 12
+p-simpleorient=1
+p-startframe=1
+p-texdiv=3 2
+p-texture=ezreal_pulsefire_handglows.tga
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.2 2 2 2
+p-xscale3=0.9 0.1 0.1 0.1
+p-xscale4=1 0 0 0
+rendermode=0
+

@@ -1,0 +1,33 @@
+[System]
+GroupPart1=blade
+GroupPart1Type=Complex
+GroupPart2=bladetrail
+GroupPart2Type=Complex
+SimulateEveryFrame=1
+
+[blade]
+p-bindtoemitter=1 1
+p-linger=0
+p-mesh=SivirBlade.sco
+p-meshtex=SivirBlade.tga
+p-quadrot=0 90 0
+p-rotvel=720 0 0
+p-scale=5 5 5
+p-simpleorient=1
+p-type=3
+rendermode=1
+
+[bladetrail]
+p-bindtoemitter=1 1
+p-linger=0
+p-mesh=
+p-meshtex=
+p-offset=0 -5 0
+p-quadrot=0 0 90
+p-rgba=
+p-rotvel=0 0 720
+p-scale=80 80 80
+p-simpleorient=2
+p-texture=SivirBlade03.tga
+p-type=1
+

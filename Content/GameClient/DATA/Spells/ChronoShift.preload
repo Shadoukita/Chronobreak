@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="nickoftime_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="chronorevive"}}, 
+}

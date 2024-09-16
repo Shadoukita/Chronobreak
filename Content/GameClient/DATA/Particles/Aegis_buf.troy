@@ -1,0 +1,47 @@
+[System]
+GroupPart1=armorbuf
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=spellresist
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[armorbuf]
+e-rate=0.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=0
+p-offset=0 35 0
+p-quadrot=0
+p-rgba=color-colorbells32.tga
+p-rotvel=120
+p-scale=50
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=shields_buf32.tga
+p-type=1
+rendermode=1
+
+[spellresist]
+e-rate=0.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.8
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=0
+p-offset=0 35 0
+p-quadrot=60
+p-rgba=color-colorbells32.tga
+p-rotvel=120
+p-scale=60
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=shields_buf32.tga
+p-type=1
+rendermode=1
+

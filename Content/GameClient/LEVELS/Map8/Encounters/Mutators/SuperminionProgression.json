@@ -1,0 +1,35 @@
+{
+  "MutatorDefinition": {
+    "Type": "ProgressiveMultiply",
+    "Mutations": [
+      {
+        "Stat": "FlatHPPoolMod",
+        "Value": 8.0,
+        "PerLevelValue": 0.0,
+        "Min": -3.4028234663852886E+38,
+        "Max": 3.4028234663852886E+38
+      },
+      {
+        "Stat": "FlatPhysicalDamageMod",
+        "Value": 1.6,
+        "PerLevelValue": 0.0,
+        "Min": -3.4028234663852886E+38,
+        "Max": 3.4028234663852886E+38
+      },
+      {
+        "Stat": "FlatArmorMod",
+        "Value": 1.2999999523162842,
+        "PerLevelValue": 0.0,
+        "Min": -3.4028234663852886E+38,
+        "Max": 3.4028234663852886E+38
+      },
+      {
+        "Stat": "FlatSpellBlockMod",
+        "Value": 3.0,
+        "PerLevelValue": 0.0,
+        "Min": -3.4028234663852886E+38,
+        "Max": 3.4028234663852886E+38
+      }
+    ]
+  }
+}

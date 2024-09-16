@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="renekton_vg_dominus_idle.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="renektondominus_runewars_transform.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="renektondominus_transform.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="renektondominus_runewars_transform_off.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="renektonincombat"}}, 
+}

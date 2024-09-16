@@ -1,0 +1,96 @@
+[System]
+GroupPart1Type=Simple
+GroupPart2=poofs
+GroupPart2Type=Simple
+
+[orbit1]
+f-direction=0 1 0
+f-localspace=0
+
+[poofs]
+e-life=0.5
+e-local-orient=0
+e-rate=200
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=0
+p-numframes=4
+p-offset=30 200 0
+p-offsetXP1=0 0.1
+p-offsetXP2=1 0.2
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-shen-poof.tga
+p-scale=50
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 1
+p-shadow=0
+p-startframe=0
+p-texdiv=2 2
+p-texture=poof.tga
+p-vel=0 0 500
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale1=0 2
+p-xscale2=0.30000000000000004 1.8
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=1
+
+[slow]
+f-drag=2
+f-pos=0 0 0
+f-radius=10000
+
+[up]
+f-accel=0 300 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk057101D8=2000
+unk16BC4CA4=0 200 0
+unk182B7720=0
+unk1D2311C5=2
+unk2222CB7E=1
+unk2E3E42CA=0.30000000000000004
+unk3A561515=1
+unk44670742=color-rampdown.tga
+unk468A98DC=1
+unk47CC83A2=1
+unk484D3C11=-1
+unk4D9C80F9=4
+unk50BF76E1=0 1 0
+unk65FAD8DC=30
+unk6BADFF6D=flare-sun.tga
+unk78853F55=1 1
+unk7A493CC2=100
+unkA16F6C79=0
+unkA8F72E8F=1 0
+unkAA5FC348=1
+unkB9CCC3F8=1 1
+unkC4232D8A=0
+unkCF6C941F=0
+unkD2D4469D=0 0.9
+unkD2D4469E=1 1
+unkD325998B=0 1
+unkD325998C=1 2
+unkDF774CDA=1
+unkEFE632B1=0 8
+unkEFE632B2=0.5 3
+unkEFE632B3=1 1
+unkF3F0EE63=0 0
+unkF3F0EE64=1 360

@@ -1,0 +1,4 @@
+[System]
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Velkoz_VelkozWTurretSound_buffactivate
+

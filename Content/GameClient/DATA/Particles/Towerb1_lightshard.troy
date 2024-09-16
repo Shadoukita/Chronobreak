@@ -1,0 +1,156 @@
+[System]
+GroupPart1=lightshard1
+GroupPart2=lightshard2
+GroupPart3=lightshard3
+GroupPart4=lightshard4
+GroupPart5=lightshard5
+GroupPart6=lightshard6
+GroupPart7=lightshard7
+SimulateEveryFrame=1
+group-vis=5000
+
+[lightshard1]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=statue_lightshard_01.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+
+[lightshard2]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.9
+p-mesh=statue_lightshard_02.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+
+[lightshard3]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.8
+p-mesh=statue_lightshard_03.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+
+[lightshard4]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.30000000000000004
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.7000000000000001
+p-mesh=statue_lightshard_04.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+
+[lightshard5]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.4
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.6000000000000001
+p-mesh=statue_lightshard_05.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+
+[lightshard6]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-mesh=statue_lightshard_06.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+
+[lightshard7]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.6000000000000001
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-mesh=statue_lightshard_07.sco
+p-meshtex=tower-lightshard.tga
+p-postoffset=0 100 0
+p-quadrot=0 0 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -0.6000000238418579
+rendermode=0
+single-particle=1
+

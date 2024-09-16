@@ -1,0 +1,17 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotamumubuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotezrealbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotluxbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotzyrabuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmalzaharbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmonkeykingbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotblitzcrankbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotziggsbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotfiddlesticksbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotchogathbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotgaliobuff"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganabuff"}}, 
+{Function=BBPreloadParticle, Params={Name="global_bots_idle_nightmare.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_bots_idle_nightmare_avatar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotminionpushbuff"}}, 
+}

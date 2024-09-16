@@ -1,0 +1,11 @@
+D:\League Sandbox\Chronobreak\QuadTree\bin\Debug\net8.0\QuadTree.deps.json
+D:\League Sandbox\Chronobreak\QuadTree\bin\Debug\net8.0\QuadTree.dll
+D:\League Sandbox\Chronobreak\QuadTree\bin\Debug\net8.0\QuadTree.pdb
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\QuadTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\QuadTree.AssemblyInfoInputs.cache
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\QuadTree.AssemblyInfo.cs
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\QuadTree.csproj.CoreCompileInputs.cache
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\QuadTree.dll
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\refint\QuadTree.dll
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\QuadTree.pdb
+D:\League Sandbox\Chronobreak\QuadTree\obj\Debug\net8.0\ref\QuadTree.dll

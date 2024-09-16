@@ -1,0 +1,35 @@
+[System]
+GroupPart1=fluid
+SimulateEveryFrame=1
+group-vis=1000
+
+[fluid]
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1.4000000000000001
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 8 2
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=alpha_12.tga
+p-rotvel=180
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=50 50 50
+p-texture=Flare-Rainbow_purp_02.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1.5 1.5 1.5
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.8 0.8 0.8
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk9DA4A583=1

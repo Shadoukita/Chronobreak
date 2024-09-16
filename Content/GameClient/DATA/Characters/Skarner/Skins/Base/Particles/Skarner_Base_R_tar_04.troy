@@ -1,0 +1,40 @@
+[System]
+GroupPart1=placeholder
+GroupPart1Type=Simple
+GroupPart2=crystal
+GroupPart2Importance=High
+MaterialOverride1Priority=5000
+MaterialOverride1Texture=crystal_overlay_02.tga
+SimulateEveryFrame=1
+
+[crystal]
+e-life=1
+e-linger=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexscale=0.0095
+p-life=2.5
+p-linger=0
+p-mesh=skarner_exoskeleton_bodyspikes.sco
+p-meshtex=crystal_overlay_01.tga
+p-quadrot=0 0 90
+p-rgba=alpha_20.tga
+p-scale=1.5 1.5 1.5
+p-type=3
+p-uvscroll-rgb=0 0
+rendermode=1
+single-particle=1
+
+[placeholder]
+e-life=0.1
+e-linger=0
+e-rate=1
+p-life=3
+p-linger=0
+p-rgba=color-hold.tga
+p-scale=0
+p-texture=missing_instant.tga
+p-type=0
+single-particle=1
+

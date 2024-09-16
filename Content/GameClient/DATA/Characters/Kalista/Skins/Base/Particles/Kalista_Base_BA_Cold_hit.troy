@@ -1,0 +1,21 @@
+[Flash]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=0.30000000000000004
+p-scale=200 50 0
+p-texture=Kalista_Base_BA_flash.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 1 0
+p-xscale2=1 1 0 0
+rendermode=4
+
+[System]
+GroupPart1=Flash
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk2F4567B8=Repulse

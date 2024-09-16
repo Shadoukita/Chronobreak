@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotspiritshacoapplicator"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotspiritshacocooldown"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotspiritshacosource"}}, 
+}

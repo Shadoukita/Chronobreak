@@ -1,0 +1,27 @@
+[System]
+GroupPart1=clamp
+SimulateEveryFrame=1
+
+[clamp]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-uvoffset=-1 0
+p-backfaceon=1
+p-life=10
+p-mesh=cylinder.SCB
+p-meshtex=Amumu_Sadrobot_Thrash.dds
+p-postoffset=0 300 0
+p-quadrot=0 0 0
+p-scale=20 20 20
+p-texture-mode=clamp
+p-type=3
+p-uvscroll-rgb=1 0
+p-uvscroll-rgb-clamp=1
+p-uvscroll-rgbXP1=0 0.5
+p-uvscroll-rgbXP2=1 1
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+rendermode=4
+single-particle=1
+

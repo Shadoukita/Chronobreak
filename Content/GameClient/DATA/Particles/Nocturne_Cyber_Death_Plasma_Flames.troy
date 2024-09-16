@@ -1,0 +1,32 @@
+[System]
+GroupPart1=alphaslice2
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[alphaslice2]
+e-life=1
+e-local-orient=0
+e-rate=4
+p-alphaslicerange=0.019999999552965164
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.1
+p-colortype=1 0
+p-life=1
+p-offset=1 0 1
+p-offsetXP1=0 -10
+p-offsetXP2=1 10
+p-offsetYP1=0 -10
+p-offsetYP2=1 10
+p-offsetZP1=0 -10
+p-offsetZP2=1 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-beacontrail32.tga
+p-scale=80
+p-texture=alphaslice.tga
+p-vel=0 20 0
+rendermode=4
+

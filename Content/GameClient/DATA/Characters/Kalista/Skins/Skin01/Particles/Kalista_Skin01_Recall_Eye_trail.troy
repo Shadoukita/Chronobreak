@@ -1,0 +1,43 @@
+[System]
+GroupPart1=eyetrail
+GroupPart1Importance=High
+GroupPart2=spot
+SimulateEveryFrame=1
+
+[eyetrail]
+KeywordsExcluded=MassacreNocturne GhostNocturne CyberNocturne
+e-life=8
+e-rate=60
+e-rgba=255 0 0 255
+p-drag=1 1 1
+p-life=0.5
+p-quadrot=90 0 0
+p-scale=2 0 0
+p-texture=color-hold.dds
+p-trailmode=1
+p-type=4
+p-vel=0 20 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.01 1 0 0
+p-xscale3=0.95 0.625 0 0
+p-xscale4=1 0.625 0 0
+pass=100
+rendermode=1
+
+[spot]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=8
+p-linger=0
+p-local-orient=1
+p-offset=0 5 0
+p-scale=4 4 0
+p-texture=Kalista_Skin01_Recall_eye.dds
+rendermode=4
+single-particle=1
+

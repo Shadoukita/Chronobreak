@@ -1,0 +1,60 @@
+[System]
+GroupPart1=ring
+GroupPart1Type=Simple
+GroupPart2=rocket_buf
+SimulateEveryFrame=1
+
+[ring]
+KeywordsExcluded=RocketTristana
+e-life=-1
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-life=0.4
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-offset=10 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-chaosshop.tga
+p-rotvel=1
+p-rotvelP1=0 -120
+p-rotvelP2=1 120
+p-scale=12
+p-startframe=3
+p-texdiv=2 2
+p-texture=RapidFire.tga
+p-vel=-200 0 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+
+[rocket_buf]
+KeywordsRequired=RocketTristana
+e-life=-1
+e-local-orient=1
+e-rate=4
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.85
+p-local-orient=1
+p-mesh=Trist_RapidFire_cylinder.sco
+p-meshtex=blast_ring_big_blue.dds
+p-offset=-50 0 0
+p-quadrot=90 90 0
+p-rgba=alpha_20.tga
+p-scale=40 28 40
+p-type=3
+p-uvscroll-rgb=0 1
+p-vel=90 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+rendermode=0
+

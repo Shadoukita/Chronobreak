@@ -1,0 +1,273 @@
+[BlueTrail]
+KeywordsRequired=ZiggsPoolParty
+e-life=1
+e-linger=0
+e-rate=50
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=BlueTrailAccel
+field-drag-1=BlueTrailDrag
+p-bindtoemitter=0 0
+p-life=0.5
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-linger=1
+p-offset=10 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32_03.tga
+p-rotvel=60
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=65
+p-scaleP1=0 0.7
+p-scaleP2=1 1
+p-texture=smoke_blue.tga
+p-vel=40 40 40
+p-velXP1=0 0.6
+p-velXP2=1 1
+p-velYP1=0 0.3
+p-velYP2=1 1
+p-velZP1=0 0.6
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=1 3
+rendermode=1
+
+[BlueTrailAccel]
+f-accel=0 -200 0
+f-localspace=0
+
+[BlueTrailDrag]
+f-drag=1
+f-pos=0 0 0
+f-radius=1000
+
+[BombGlow]
+KeywordsExcluded=ZiggsSnowday
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.5
+p-linger=0
+p-postoffset=20 -18 0
+p-rgba=color-disintegrate.tga
+p-scale=100
+p-simpleorient=2
+p-texture=orbglow.tga
+p-type=0
+rendermode=0
+
+[Dust]
+KeywordsExcluded=ZiggsPoolParty ZiggsSnowday
+e-life=1
+e-local-orient=1
+e-rate=80
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 1
+e-rotation1P2=1 360
+field-drag-1=SmokeDrag
+field-noise-1=SmokeNoise
+p-bindtoemitter=0.5 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1.2000000000000002
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=1.2000000000000002
+p-numframes=2
+p-offset=15 0 0
+p-offsetXP1=0 0.8
+p-offsetXP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-armordillospin.tga
+p-rotvel=50
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=60
+p-scaleP1=0 0.8
+p-scaleP2=1 1.5
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=BuildingSmoke.tga
+p-type=0
+p-vel=10 -80 80
+p-velXP1=0 0
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=1 1.8
+rendermode=1
+
+[FloatyBomb]
+KeywordsRequired=ZiggsPoolParty
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-mesh=Ziggs_Floaty.sco
+p-meshtex=ziggs_balloon.tga
+p-postoffset=0 -18 0
+p-rgba=color-hold.tga
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-type=3
+p-xquadrot=1 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 -4 0
+p-xquadrot2=1 0 -4 0
+rendermode=1
+single-particle=1
+
+[SatchelBomb]
+KeywordsExcluded=ZiggsPoolParty ZiggsSnowday
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-mesh=Ziggs_Satchel.sco
+p-meshtex=ziggs_Satchel.tga
+p-postoffset=0 -18 0
+p-rgba=color-hold.tga
+p-scale=190 190 190
+p-shadow=1
+p-type=3
+p-xquadrot=1 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 -4 0
+p-xquadrot2=1 0 -4 0
+rendermode=1
+single-particle=1
+
+[SmokeDrag]
+f-drag=0.8
+f-pos=0 0 0
+f-radius=1000
+
+[SmokeNoise]
+f-period=0.5
+f-pos=0 300 0
+f-radius=500
+f-veldelta=15
+
+[Snowbomb]
+KeywordsRequired=ZiggsSnowday
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0
+p-meshtex=ziggs_snowman_TX.dds
+p-postoffset=0 -90 0
+p-quadrot=0 180 0
+p-rgba=color-hold.tga
+p-scale=2 2 2
+p-shadow=1
+p-skeleton=ziggs_Snowday_Snowman.skl
+p-skin=ziggs_Snowday_Snowman.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=SatchelBomb
+GroupPart2=BombGlow
+GroupPart2Type=Simple
+GroupPart3=Dust
+GroupPart3Type=Simple
+GroupPart4=FloatyBomb
+GroupPart5=WaterTrail
+GroupPart5Type=Simple
+GroupPart6=WaterSpray
+GroupPart6Type=Simple
+GroupPart7=BlueTrail
+GroupPart7Type=Simple
+GroupPart8=Snowbomb
+SimulateEveryFrame=1
+
+[WaterAccel]
+f-accel=0 -450 0
+f-localspace=0
+
+[WaterSpray]
+KeywordsRequired=ZiggsPoolParty
+e-life=1
+e-linger=0
+e-rate=200
+field-accel-1=WaterAccel
+p-bindtoemitter=0.5 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 3
+p-life=0.6
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-linger=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-waterfade32.tga
+p-scale=45
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-texture=waterdots.tga
+p-type=0
+p-vel=100 200 100
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0.5
+p-xscale2=1 1.8
+pass=100
+rendermode=1
+
+[WaterTrail]
+KeywordsRequired=ZiggsPoolParty
+e-life=1
+e-linger=0
+e-rate=10
+p-bindtoemitter=0 0
+p-distortion-mode=2
+p-distortion-power=0.08
+p-life=0.38
+p-linger=0.38
+p-normal-map=distort-heat.tga
+p-rgba=color-bellcurve32.tga
+p-scale=200
+p-texture=Aura_self.tga
+p-type=0
+p-xscale1=0 0.15
+p-xscale2=0.2 1
+p-xscale3=1 0.2
+rendermode=1
+

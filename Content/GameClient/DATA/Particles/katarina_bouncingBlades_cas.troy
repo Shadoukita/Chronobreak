@@ -1,0 +1,26 @@
+[System]
+GroupPart1=handglow
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+
+[handglow]
+e-life=2
+e-rate=0.1
+p-bindtoemitter=1 1
+p-colorscale=1 0.8
+p-colortype=1 0
+p-frameRate=0
+p-life=0.8
+p-linger=-1
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-fearmonger.tga
+p-scale=60
+p-startframe=0
+p-texdiv=2 2
+p-texture=Glows.tga
+p-type=0
+rendermode=0
+

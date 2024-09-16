@@ -1,0 +1,20 @@
+[Blocks]
+e-life=1
+e-rate=1
+p-animation=Gnar_Skin01_Recall.anm
+p-bindtoemitter=1
+p-life=10
+p-linger=0
+p-meshtex=Gnar_skin01_Recall_Blocks.dds
+p-quadrot=0 180 0
+p-shadow=1
+p-skeleton=Gnar_Skin01_Recall.skl
+p-skin=Gnar_Skin01_Recall.skn
+p-type=3
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=Blocks
+SimulateEveryFrame=1
+

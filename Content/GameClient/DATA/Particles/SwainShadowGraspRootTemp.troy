@@ -1,0 +1,32 @@
+[System]
+GroupPart1=spike_01
+GroupPart1Importance=High
+GroupPart1Type=Complex
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[spike_01]
+e-life=5
+e-linger=0
+e-rate=1
+e-timeoffset=0.15
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-mesh=swain_claw_05.sco
+p-meshtex=talon_bone_09.tga
+p-postoffset=0 60 0
+p-quadrot=0 240 0
+p-scale=28 28 28
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=0.16 1 1 1 1
+p-xrgba4=0.85 1 1 1 1
+p-xrgba5=0.86 1 1 1 0.85
+p-xrgba6=1 1 1 1 1
+rendermode=1
+single-particle=1
+

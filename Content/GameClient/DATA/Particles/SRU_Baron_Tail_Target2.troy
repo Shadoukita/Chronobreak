@@ -1,0 +1,28 @@
+[System]
+GroupPart1=base-proj
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[base-proj]
+e-disabled=1
+e-life=0.1
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-life=1
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 35 0
+p-projection-fading=200
+p-projection-y-range=200
+p-quadrot=0
+p-rgba=SRU_Baron_Avalanche_Fade.tga
+p-rotvel=0 0 0
+p-scale=200 200 0
+p-simpleorient=2
+p-texture=SRU_Baron_Tail_Target.tga
+p-type=0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk24E20A1F=1

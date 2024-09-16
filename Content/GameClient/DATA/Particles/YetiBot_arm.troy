@@ -1,0 +1,61 @@
+[System]
+GroupPart1=lightning1
+GroupPart1Importance=High
+GroupPart2=lightning2
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[lightning1]
+KeywordsRequired=NunuBot
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-colorscale=1 0.5
+p-colortype=1 3
+p-frameRate=60
+p-life=0.25
+p-lifeP1=0 0.5
+p-lifeP2=1 3
+p-local-orient=1
+p-numframes=36
+p-postoffset=0 15 0
+p-quadrot=0 0 0
+p-randomstartframe=1
+p-rgba=color-lightning.tga
+p-scale=10 15 0
+p-startframe=0
+p-texdiv=6 6
+p-texture=plasma-ani.tga
+p-type=1
+p-vel=0 0 0
+rendermode=0
+
+[lightning2]
+KeywordsRequired=NunuBot
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-colorscale=1 0.5
+p-colortype=1 3
+p-frameRate=60
+p-life=0.25
+p-lifeP1=0 0.5
+p-lifeP2=1 3
+p-local-orient=1
+p-numframes=36
+p-postoffset=0 15 0
+p-quadrot=0 90 0
+p-randomstartframe=1
+p-rgba=color-lightning.tga
+p-scale=10 15 0
+p-startframe=0
+p-texdiv=6 6
+p-texture=plasma-ani.tga
+p-type=1
+p-vel=0 0 0
+rendermode=0
+

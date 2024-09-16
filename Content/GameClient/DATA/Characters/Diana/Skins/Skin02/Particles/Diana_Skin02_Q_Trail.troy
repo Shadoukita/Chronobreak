@@ -1,0 +1,166 @@
+[PetalNoise]
+f-period=0.05
+f-pos=0 1 0
+f-radius=500
+f-veldelta=100
+
+[Skin02_EnergyTrail]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=100
+p-colorscale=1 1
+p-colortype=1 1
+p-frameRate=0
+p-life=0.4
+p-lifeP1=0 0.5
+p-lifeP2=1 1.3
+p-linger=1
+p-numframes=4
+p-offset=20 0 0
+p-postoffset=0 30 0
+p-quadrot=0 0 90
+p-randomstartframe=1
+p-rgba=diana_skin02_Z_colors_ramp.tga
+p-scale=50 50 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-startframe=2
+p-texdiv=2 2
+p-texture=Diana_Skin02_Z_EnergyStreak_2x2.tga
+p-type=0
+p-xrgba=1 1 1 0.5
+p-xscale1=0 0.3 1 0
+p-xscale2=0.3 1 1.8 0
+p-xscale3=0.8 1.1 3 0
+pass=-100
+rendermode=4
+
+[Skin02_Filigree]
+e-active=0.9
+e-life=1
+e-local-orient=1
+e-rate=10
+p-colorscale=1 1
+p-colortype=1 1
+p-life=0.5
+p-life1=0.5 1
+p-life2=1 0.75
+p-linger=0.2
+p-numframes=4
+p-offset=-10 0 0
+p-postoffset=0 0 50
+p-quadrot=0 0 0
+p-randomstartframe=1
+p-rgba=diana_skin02_Z_colors_ramp.tga
+p-scale=30 100 10
+p-scale1=0.5 1 1 1
+p-scale2=1 0.3 0.3 1
+p-scaleXP1=0 -0.25
+p-scaleXP2=0.5 -1
+p-scaleXP3=0.50001 0.25
+p-scaleXP4=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1.5
+p-texdiv=4 1
+p-texture=Diana_Skin02_Q_Filigree_4X1.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=0
+
+[Skin02_PetalTrail]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=70
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=StarsDrag
+field-noise-1=PetalNoise
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=3 1
+p-life=1
+p-life1=0 0.2
+p-life2=1 1
+p-linger=0.7
+p-numframes=4
+p-offset=10 5 0
+p-offsetYP1=0 -0.5
+p-offsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=diana_skin02_Z_colors_ramp.tga
+p-rotvel=500 0 0
+p-rotvelXP1=0 0.5
+p-rotvelXP2=1 1
+p-scale=30
+p-scaleP1=0 0.75
+p-scaleP2=1 1
+p-texdiv=2 2
+p-texture=Diana_Skin02_E_Petals_2x2.tga
+p-type=0
+p-vel=0 500 0
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 1.5
+p-xscale2=0.15 1
+p-xscale3=1 0
+rendermode=4
+
+[Skin02_TrailLines]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=80
+e-tilesize=1000 -1 0
+p-colorscale=1 1
+p-colortype=1 1
+p-life=0.4
+p-postoffset=0 50 0
+p-rgba=diana_skin02_Z_colors_ramp.tga
+p-scale=30 10 10
+p-texture=Diana_Skin02_Q_TrailLines.tga
+p-trailmode=0
+p-type=5
+p-xrgba=0.7 0.6 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 0 0
+p-xscale1=0 1 0 0
+p-xscale2=0.75 2 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+
+[StarsDrag]
+f-drag=1.5
+f-pos=0 0 0
+f-radius=2000
+
+[System]
+GroupPart1=Skin02_TrailLines
+GroupPart1Importance=High
+GroupPart2=Skin02_Crescent_Sparkle
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Skin02_Filigree
+GroupPart4=Skin02_EnergyTrail
+GroupPart5=Skin02_PetalTrail
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk983F2803=0 0

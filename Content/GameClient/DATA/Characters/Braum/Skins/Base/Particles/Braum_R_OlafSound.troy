@@ -1,0 +1,13 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+
+[empty]
+e-life=2
+e-rate=1
+p-life=2
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

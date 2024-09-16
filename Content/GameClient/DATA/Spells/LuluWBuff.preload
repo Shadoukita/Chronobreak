@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="lulu_w_buf_01.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadParticle, Params={Name="lulu_w_buf_02.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="lulupassiverun"}}, 
+}

@@ -1,0 +1,221 @@
+[Drag]
+f-drag=4
+f-pos=0 0 0
+f-radius=1000
+
+[Noise]
+f-period=0.2
+f-pos=0 0 0
+f-radius=500
+f-veldelta=50
+
+[SteamAccel]
+f-accel=0 100 0
+f-localspace=0
+
+[System]
+GroupPart1=steam
+GroupPart1Type=Simple
+GroupPart2=fist
+GroupPart3=fist_rust
+GroupPart4=fist_soccer
+GroupPart5=fist_boxer
+GroupPart6=fist_piltover
+MaterialOverride1SubMesh=right_hand
+MaterialOverride1Texture=blank.dds
+SimulateEveryFrame=1
+
+[fist]
+KeywordsRequired=BaseSteamgolem
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=0.2549999952316284
+p-linger=0
+p-mesh=golemfist.sco
+p-meshtex=steamGolem.dds
+p-numframes=1
+p-offset=0 -2 25
+p-quadrot=0 0 -90
+p-rgba=color-hold.tga
+p-scale=1.3 1.3 1.3
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+pass=10
+rendermode=3
+single-particle=1
+
+[fist_boxer]
+KeywordsRequired=BoxerSteamgolem
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=0.2549999952316284
+p-linger=0
+p-mesh=golemglove.sco
+p-meshtex=blitzcrank_boxer_TX_CM.dds
+p-numframes=1
+p-offset=0 -2 0
+p-quadrot=0 0 -90
+p-rgba=color-hold.tga
+p-scale=1.3 1.3 1.3
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+pass=10
+rendermode=3
+single-particle=1
+
+[fist_piltover]
+KeywordsRequired=PiltoverCustomsBlitz
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=0.2549999952316284
+p-linger=0
+p-mesh=blitzcrank_custom_fist.sco
+p-meshtex=piltover_customs_blitzcrank_TX_CM_v04.tga
+p-numframes=1
+p-offset=0 -2 0
+p-quadrot=0 0 -90
+p-rgba=color-hold.tga
+p-scale=1.3 1.3 1.3
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+pass=10
+rendermode=3
+single-particle=1
+
+[fist_rust]
+KeywordsRequired=RustySteamgolem
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=0.2549999952316284
+p-linger=0
+p-mesh=golemfist.sco
+p-meshtex=Blitzcrank_Rusty_TX_CM.dds
+p-numframes=1
+p-offset=0 -2 25
+p-quadrot=0 0 -90
+p-rgba=color-hold.tga
+p-scale=1.3 1.3 1.3
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+pass=10
+rendermode=3
+single-particle=1
+
+[fist_soccer]
+KeywordsRequired=SoccerSteamgolem
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=0.2549999952316284
+p-linger=0
+p-mesh=golemfist.sco
+p-meshtex=blitzcrank_soccer_TX_CM.dds
+p-numframes=1
+p-offset=0 -2 25
+p-quadrot=0 0 -90
+p-rgba=color-hold.tga
+p-scale=1.3 1.3 1.3
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+pass=10
+rendermode=3
+single-particle=1
+
+[steam]
+KeywordsExcluded=iBlitz BlitzcrankSkin07
+e-life=2
+e-linger=0
+e-rate=60
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 3
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-timeoffset=0.30000000000000004
+field-accel-1=SteamAccel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=0.2 0
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-steam.tga
+p-rotvel=1
+p-rotvelP1=0 -120
+p-rotvelP2=1 120
+p-scale=5
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texture=lofog01.tga
+p-vel=0 600 0
+p-velYP1=0 0.8
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 3
+p-xscale3=1 4
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0996293B=3
+unk0A7EB5EC=0
+unk11C9606B=1 1
+unk14C73713=1
+unk19BED1B8=2
+unk25860BE5=0 -1
+unk25860BE6=1 1
+unk26822AE7=0 -1
+unk26822AE8=1 1
+unk3383B2FE=0 0.5 0.5 0.5
+unk3383B2FF=1 3 3 3
+unk3A50EFA9=5 5 5
+unk48F738D8=iBlitz
+unk51A44399=SorakaBA.tga
+unk8B6A03EF=0 0 40
+unk8D74A8BD=3
+unk90EAA0F5=1 1
+unk94EAF54B=1
+unk994B5C81=1
+unk998C7B08=1
+unk9E87354F=0
+unkA049D884=0
+unkA39D6D35=color-sorakabasicattack.tga
+unkA8BC1354=5 10 5
+unkACD2E6EC=2
+unkAF4B7FBA=SorakaBA.tga
+unkBA103EAE=SorakaBA.sco
+unkC9BE89A7=1
+unkDB6A2707=0 0 360
+unkE832C07D=0

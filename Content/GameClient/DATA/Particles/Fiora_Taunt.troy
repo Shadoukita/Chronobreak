@@ -1,0 +1,32 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[WeaponTrail]
+KeywordsExcluded=FioraSchoolTeacher
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-rgba1=1 1 1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.15
+p-linger=0.15
+p-local-orient=1
+p-offset=0 0 0
+p-rotvel=1200
+p-scale=200
+p-simpleorient=1
+p-texture=Fiora_weapontrail.tga
+p-type=1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.3 0.1 0.5 1 0.35
+p-xrgba3=0.8 0 0.2 1 0.35
+p-xrgba4=1 0 0 1 0
+pass=-2
+rendermode=4
+single-particle=1
+

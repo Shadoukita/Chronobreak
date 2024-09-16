@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="temp_kalista_r_tar_area.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="axis_mesh.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="malphite_glacial_unstoppableforce_stun.troy"}}, 
+}

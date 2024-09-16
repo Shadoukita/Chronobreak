@@ -1,0 +1,27 @@
+[FlatShock]
+e-life=0.1
+e-local-orient=0
+e-rate=10
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 3
+p-life=0.30000000000000004
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-incinerate.tga
+p-scale=50
+p-simpleorient=2
+p-startframe=1
+p-texdiv=2 2
+p-texture=Disintegrate.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 3
+
+[System]
+GroupPart1=FlatShock
+GroupPart1Importance=High
+GroupPart1Type=Simple
+

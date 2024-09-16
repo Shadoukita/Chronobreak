@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+
+{Function=BBPreloadParticle, Params={Name="temp_itemragebladeenrage.troy"}}, 
+
+}
+

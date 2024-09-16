@@ -1,0 +1,46 @@
+[Fire_Trail]
+e-beam-segments=800
+e-rate=40
+e-tilesize=300 40 0
+e-trail-cutoff=200
+p-life=0.30000000000000004
+p-scale=50 50 50
+p-scaleXP1=0 1
+p-scaleXP2=1 0.8
+p-texture=Darius_Skin04_W_AxeFlames_03.dds
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb-mult=1.5 0
+p-vel=0 100 -200
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 0.6 0.4 1
+p-xrgba3=1 0.5 0.3 0.2 0
+p-xscale=1 1 1
+p-xscale1=0.1 1 1 1
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=4
+
+[System]
+GroupPart1=trail
+GroupPart2=Fire_Trail
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[trail]
+e-rate=260
+p-bindtoemitter=0 0.4
+p-life=0.5
+p-scale=14 14 14
+p-startframe=1
+p-texture=Darius_Skin04_W_TrailGlow_01.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.95 0 0.05 0.2
+p-xrgba2=0.2 0.95 0 0.05 0.1
+p-xrgba3=0.3 0.95 0 0.05 0.1
+p-xrgba4=1 0.95 0 0.05 0
+p-xscale=1 1 1
+p-xscale1=0.1 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+

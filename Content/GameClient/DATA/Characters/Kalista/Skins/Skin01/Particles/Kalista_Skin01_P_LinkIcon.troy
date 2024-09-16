@@ -1,0 +1,76 @@
+[LinkIcon]
+e-rate=0.5
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-postoffset=0 11 0
+p-quadrot=-90 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rotvel=0 30 0
+p-scale=100 100 100
+p-texture=Kalista_Skin01_P_LinkIcon.dds
+p-type=1
+p-xrgba=1 1 1 0.7499960064888
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 0 0 0.498039 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+rendermode=1
+
+[LinkIcon1]
+e-rate=0.6000000000000001
+p-bindtoemitter=1 1
+p-linger=0
+p-postoffset=0 10 0
+p-quadrot=-90 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rotvel=0 1 0
+p-rotvelYP1=0 30
+p-rotvelYP2=1 45
+p-scale=120 120 120
+p-texture=Kalista_Skin01_Q_hit_circle_tar.dds
+p-type=1
+p-xrgba=1 1 1 0.9000080227851868
+p-xrgba1=0 1 0 0 0
+p-xrgba2=0.4 1 0 0 1
+p-xrgba3=1 0 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.2 0.9 0.9 0.9
+p-xscale3=1 0.5 0.5 0.5
+pass=-1
+rendermode=1
+
+[LinkIcon2]
+e-rate=0.4
+p-bindtoemitter=1 1
+p-flexscale=0.004000000189989805
+p-life=4
+p-linger=0
+p-postoffset=0 125 0
+p-quadrot=-90 0 90
+p-rotvel=0 20 0
+p-scale=200 200 200
+p-texture=Kalista_Skin01_Q_circle.dds
+p-xrgba=0.45098 0 0 0.700008
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.35 1 1 1 1
+p-xrgba3=1 0 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+rendermode=1
+
+[System]
+GroupPart1=LinkIcon
+GroupPart1Importance=High
+GroupPart2=LinkIcon1
+GroupPart2Importance=High
+GroupPart3=LinkIcon2
+GroupPart3Importance=High
+SimulateEveryFrame=1
+

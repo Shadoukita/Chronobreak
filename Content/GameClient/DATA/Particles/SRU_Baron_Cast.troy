@@ -1,0 +1,58 @@
+[Bubbles]
+e-rate=50
+e-shape-name=generic_sphere_emit_inverted.scb
+e-shape-scale=4
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-drag=3 3 3
+p-life=1
+p-lifeP1=0 0.3
+p-lifeP2=0.8 0.4
+p-lifeP3=1 1
+p-linger=0
+p-quadrot=90 0 0
+p-scale=10 50 40
+p-scaleYP1=0 0.3
+p-scaleYP2=0.8 0.4
+p-scaleYP3=1 1
+p-texture=SRU_Baron_Acidball_orb_1.DDS
+p-type=1
+p-vecalign=1
+p-vel=-600 0 0
+p-velXP1=0 0.4
+p-velXP2=0.8 0.5
+p-velXP3=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+
+[System]
+GroupPart1=Bubbles
+GroupPart2=poolbright
+
+[poolbright]
+e-rate=5
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=150 150 200
+p-texture=SRU_Baron_Deathbreath_poolBright.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.6000000000000001 0.6000000000000001 0.6000000000000001
+pass=2
+rendermode=4
+

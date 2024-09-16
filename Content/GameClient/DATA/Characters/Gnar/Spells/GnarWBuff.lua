@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = "Gnar_W.dds"
+BuffTextureName = L0_1
+L0_1 = "GnarWBuff"
+BuffName = L0_1
+L0_1 = "Gnar_Base_W_Buff.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = {}
+L1_1 = "VarusAscended"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

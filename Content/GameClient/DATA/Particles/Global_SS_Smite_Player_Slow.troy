@@ -1,0 +1,90 @@
+[FallingDust]
+e-life=-1
+e-rate=10
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.009999999776482582
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=2
+p-offset=0 150 0
+p-offsetYP1=0 0.7
+p-offsetYP2=1 1
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rotvel=0 200 0
+p-rotvelYP1=0 1
+p-rotvelYP2=0.5 0.5
+p-scale=50 60 50
+p-texdiv=2 1
+p-texture=Global_SS_Smite_Player_Slow_Wisps.dds
+p-type=1
+p-vel=0 -200 0
+p-velYP1=0 0.25
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+rendermode=1
+
+[GroundDust]
+e-alpharef=64
+e-life=-1
+e-rate=20
+p-flexoffset=0.004999999888241291
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=2
+p-offset=0 0 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-scale=100 100 100
+p-texdiv=2 1
+p-texture=Global_SS_Smite_Player_Slow_Wisps.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1 1 1
+rendermode=1
+
+[System]
+GroupPart1=trail
+GroupPart2=FallingDust
+GroupPart3=GroundDust
+SimulateEveryFrame=1
+
+[trail]
+e-life=-1
+e-rate=30
+e-tilesize=100 0 0
+e-trail-cutoff=1000
+p-life=2
+p-offset=0 1 0
+p-rgba=color-slowwake_blue.dds
+p-scale=30 0 0
+p-texture=slow-wake.dds
+p-trailmode=1
+p-type=5
+p-xrgba=1 1 1 0.75
+p-xscale=1 0 0
+p-xscale1=0 1 0 0
+p-xscale2=1 3 0 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unkB14EE2C1=1
+unkE1D4E921=1

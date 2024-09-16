@@ -1,0 +1,24 @@
+[System]
+GroupPart1=trail
+GroupPart1Type=Complex
+
+[trail]
+e-life=7
+e-linger=0
+e-rate=30
+e-tilesize=100 0 0
+e-trail-cutoff=1000
+p-life=2
+p-linger=0
+p-offset=0 1 0
+p-quadrot=0 0 0
+p-rgba=color-slowwake.tga
+p-scale=30 0 0
+p-texture=slow-wake.tga
+p-trailmode=1
+p-type=5
+p-xscale=1 0 0
+p-xscale1=0 1 0 0
+p-xscale2=1 3 0 0
+rendermode=1
+

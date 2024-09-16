@@ -1,0 +1,22 @@
+[MeshFire_01]
+e-life=0.1
+e-rate=1
+e-uvoffset=0 -0.5
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1.5
+p-mesh=global_item_sunfirecape_ground_sphere.scb
+p-meshtex=Global_Item_SunfireCape_MeshFlame.dds
+p-offset=0 10 0
+p-scale=1.5 1.5 1.5
+p-texdiv=0.5 2
+p-type=3
+p-uvscroll-rgb=0.5 -0.5
+pass=5
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=MeshFire_01
+SimulateEveryFrame=1
+

@@ -1,0 +1,25 @@
+[System]
+GroupPart1=mesh_scale
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[mesh_scale]
+KeywordsRequired=Immortal_Jax
+e-life=0.1
+e-rate=9
+p-life=0.6
+p-local-orient=1
+p-postoffset=0 -10 0
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-simpleorient=3
+p-texture=ghost_overlay_03.tga
+p-type=11
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1.2 1.2 1.2
+p-xscale3=1 1.4000000000000001 1.4000000000000001 1.4000000000000001
+rendermode=0
+

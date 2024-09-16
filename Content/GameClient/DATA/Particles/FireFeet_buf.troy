@@ -1,0 +1,75 @@
+[Flame]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=100
+e-rotation1=45
+e-rotation1-axis=0 0 1
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-drag-1=FlameDrag
+p-colorscale=1 0.2
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.003000000026077032
+p-frameRate=0
+p-life=2
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=4
+p-offset=20 0 0
+p-offsetXP1=0 0.5
+p-offsetXP2=1 1
+p-postoffset=0 -20 0
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-flame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=8
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-scalebias=1.2000000000000002 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=blackfire32.tga
+p-type=0
+p-vel=0 0 40
+p-velZP1=0 1
+p-velZP2=1 2
+p-xscale=1
+p-xscale1=0 0.2
+p-xscale2=0.4 1.5
+p-xscale3=0.6000000000000001 2
+p-xscale4=1 0.1
+rendermode=1
+
+[FlameDrag]
+f-drag=0.2
+f-pos=0 1 0
+f-radius=1000
+
+[System]
+GroupPart1=Flame
+GroupPart1Type=Simple
+
+[UNKNOWN_HASHES]
+unk1A45CC5C=100
+unk1E0E56D5=200
+unk2FE53305=100
+unk4007CC17=0
+unk40B9B2C5=50
+unk88F7EECB=0.5
+unk909C498A=0 50 0
+unk9CC5F545=0 1 0
+unk9E2B8451=0 50 0
+unkB381534C=0 200 0
+unkE2FAA3D5=0

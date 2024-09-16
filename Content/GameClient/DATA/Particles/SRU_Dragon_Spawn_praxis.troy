@@ -1,0 +1,132 @@
+[Praxis]
+e-life=1
+e-rate=1
+e-timeoffset=0.1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=1
+p-life=0.6000000000000001
+p-mesh=sru_clouds.scb
+p-meshtex=SRU_clouds.dds
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=5 5 5
+p-type=3
+p-uvscroll-rgb=1.2000000476837158 -1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.3 1 1 1 0.3
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1 1 1
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[System]
+GroupPart1=Praxis
+GroupPart2=ring
+GroupPart3=water
+GroupPart4=waterRing
+GroupPart5=waterRing_Fast
+SimulateEveryFrame=1
+
+[ring]
+e-life=1.350000023841858
+e-rate=1
+e-timeoffset=0.3499999940395355
+e-uvoffset=0 0.6
+p-life=0.6000000000000001
+p-mesh=sru_ringclouds.scb
+p-meshtex=SRU_clouds.dds
+p-scale=4 4 4
+p-texdiv=0.5 1
+p-type=3
+p-uvscroll-rgb=-0.9 0
+p-xrgba=1 1 1 0.5000079870223999
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.3 1 0.3
+p-xscale2=1 1 0 1
+rendermode=1
+single-particle=1
+
+[water]
+e-disabled=1
+e-life=1.4000000000000001
+e-rate=1
+e-timeoffset=0.4
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-life=1
+p-mesh=sru_waterburst.scb
+p-meshtex=SRU_waterBurst.dds
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=2 2 2
+p-type=3
+p-uvscroll-rgb=0 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.4 1 1 1 0.6
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.8 0 0
+p-xscale2=1 1 1 1
+rendermode=1
+single-particle=1
+uniformscale=1
+
+[waterRing]
+e-life=1
+e-rate=2
+p-life=0.25
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=800 800 800
+p-texture=SRU_waterRing.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.6 1 1 1 0.3
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=4
+single-particle=1
+
+[waterRing_Fast]
+e-life=0.2
+e-rate=17
+p-life=0.2
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=500 500 500
+p-texture=SRU_waterRing_fast.dds
+p-type=1
+p-xrgba=1 1 1 0.5750060081481934
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+rendermode=4
+

@@ -1,0 +1,17 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntBreakShields = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = false
+CastingBreaksStealth = L0_1
+L0_1 = true
+IsDamagingSpell = L0_1
+L0_1 = "NikoE.dds"
+BuffTextureName = L0_1
+L0_1 = "NikoDreamCatcher"
+BuffName = L0_1
+L0_1 = "niko_dreamCatcher_impact_debuf.troy"
+AutoBuffActivateEffect = L0_1

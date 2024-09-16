@@ -1,0 +1,106 @@
+{
+	"champion": "Malzahar",
+	"title": "MalzaharSR",
+	"type": "riot",
+	"map": "SR",
+	"mode": "CLASSIC",
+	"priority": false,
+	"blocks": [{
+		"type": "starting",
+		"items": [{
+			"id": "1056",
+			"count": 1
+		},
+		{
+			"id": "2003",
+			"count": 2
+		},
+		{
+			"id": "3340",
+			"count": 1
+		}]
+	},
+	{
+		"type": "essential",
+		"items": [{
+			"id": "3020",
+			"count": 1
+		},
+		{
+			"id": "3027",
+			"count": 1
+		},
+		{
+			"id": "3151",
+			"count": 1
+		}]
+	},
+	{
+		"type": "offensive",
+		"items": [{
+			"id": "3128",
+			"count": 1
+		},
+		{
+			"id": "3135",
+			"count": 1
+		},
+		{
+			"id": "3089",
+			"count": 1
+		}]
+	},
+	{
+		"type": "defensive",
+		"items": [{
+			"id": "3116",
+			"count": 1
+		},
+		{
+			"id": "3157",
+			"count": 1
+		},
+		{
+			"id": "3102",
+			"count": 1
+		}]
+	},
+	{
+		"type": "consumables",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "2003",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "hp pots"
+		},
+		{
+			"id": "2004",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "mp pots"
+		},
+		{
+			"id": "2044",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "green ward"
+		},
+		{
+			"id": "2043",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "pink ward"
+		},
+		{
+			"id": "2139",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "AP elixir"
+		}]
+	}]
+}

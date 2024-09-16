@@ -1,0 +1,73 @@
+[System]
+GroupPart1=shield
+GroupPart2=rainbow
+GroupPart3=rays
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[rainbow]
+e-active=1
+e-local-orient=0
+e-period=10
+e-rate=1
+p-bindtoemitter=1 0
+p-colorscale=1 0
+p-flexscale=0.006000000052154064
+p-life=1
+p-linger=1
+p-mesh=fireball.sco
+p-meshtex=ring05.dds
+p-offset=0 93 0
+p-quadrot=0 90 0
+p-rgba=color-bellramp.tga
+p-scale=13 13 13
+p-texdiv=1 6
+p-type=3
+p-uvscroll-rgb=0 1
+
+[rays]
+e-rate=7
+p-bindtoemitter=1 1
+p-flexscale=0.006000000052154064
+p-life=0.5
+p-postoffset=0 100 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-bellcurve5.tga
+p-rotvel=110
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=110
+p-texture=bigradialhalo.dds
+
+[shield]
+e-rate=15
+e-rate1=0 1
+e-rate2=0.7000000000000001 0.5
+e-rate3=1 0
+p-bindtoemitter=1 1
+p-flexscale=0.006000000052154064
+p-life=0.6000000000000001
+p-lifeP1=0 1
+p-lifeP2=0.5 1
+p-lifeP3=1 2
+p-mesh=magicball.sco
+p-meshtex=relic_shield.dds
+p-postoffset=0 93 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rgba=color-bellcurve5.tga
+p-rotvel=0 110 100
+p-rotvelYP1=0 0.2
+p-rotvelYP2=1 1
+p-rotvelZP1=0 0.2
+p-rotvelZP2=1 1
+p-scale=8.5 8.5 8.5
+p-type=3
+

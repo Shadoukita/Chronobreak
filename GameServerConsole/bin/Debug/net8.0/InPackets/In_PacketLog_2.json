@@ -1,0 +1,2106 @@
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_QueryStatusReq, LeaguePackets",
+    "ID": 20,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_QueryStatusReq, LeaguePackets",
+    "ID": 20,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_QueryStatusReq, LeaguePackets",
+    "ID": 20,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SynchVersionC2S, LeaguePackets",
+    "ID": 189,
+    "ClientID": 0,
+    "Version": "Version 4.20.0.315 [PUBLIC]",
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.LoadScreen.RequestJoinTeam, LeaguePackets",
+    "ID": 100,
+    "ClientID": 0,
+    "NetTeamID": 100,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Ping_Load_Info, LeaguePackets",
+    "ID": 22,
+    "ConnectionInfo": {
+      "ClientID": 0,
+      "PlayerID": -1,
+      "Percentage": 0.0,
+      "ETA": 4.145,
+      "Count": 0,
+      "Ping": 198,
+      "Ready": false
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Ping_Load_Info, LeaguePackets",
+    "ID": 22,
+    "ConnectionInfo": {
+      "ClientID": 0,
+      "PlayerID": -1,
+      "Percentage": 33.325592,
+      "ETA": 2.8700001,
+      "Count": 10,
+      "Ping": 153,
+      "Ready": false
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Ping_Load_Info, LeaguePackets",
+    "ID": 22,
+    "ConnectionInfo": {
+      "ClientID": 0,
+      "PlayerID": -1,
+      "Percentage": 74.05945,
+      "ETA": 1.1170001,
+      "Count": 21,
+      "Ping": 91,
+      "Ready": false
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_CharSelected, LeaguePackets",
+    "ID": 190,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Ping_Load_Info, LeaguePackets",
+    "ID": 22,
+    "ConnectionInfo": {
+      "ClientID": 0,
+      "PlayerID": -1,
+      "Percentage": 100.0,
+      "ETA": 0.0,
+      "Count": 25,
+      "Ping": 55,
+      "Ready": true
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Ping_Load_Info, LeaguePackets",
+    "ID": 22,
+    "ConnectionInfo": {
+      "ClientID": 0,
+      "PlayerID": -1,
+      "Percentage": 100.0,
+      "ETA": 0.0,
+      "Count": 26,
+      "Ping": 49,
+      "Ready": true
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Ping_Load_Info, LeaguePackets",
+    "ID": 22,
+    "ConnectionInfo": {
+      "ClientID": 0,
+      "PlayerID": -1,
+      "Percentage": 100.0,
+      "ETA": 0.0,
+      "Count": 27,
+      "Ping": 43,
+      "Ready": true
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2772671,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_ClientReady, LeaguePackets",
+    "ID": 82,
+    "TipConfig": {
+      "TipID": 0,
+      "ColorID": 0,
+      "DurationID": 0,
+      "Flags": 3
+    },
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 519.5576,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_StatsUpdateReq, LeaguePackets",
+    "ID": 86,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_LockCamera_Server, LeaguePackets",
+    "ID": 129,
+    "Locked": false,
+    "ClientID": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SynchSimTimeC2S, LeaguePackets",
+    "ID": 8,
+    "TimeLastServer": 0.0,
+    "TimeLastClient": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_UpdateGameOptions, LeaguePackets",
+    "ID": 71,
+    "AutoAttackEnabled": true,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774281,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2774453,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.52045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server, LeaguePackets",
+    "ID": 46,
+    "CameraPosition": {
+      "X": 300.0,
+      "Y": 1492.2676,
+      "Z": -706.54724
+    },
+    "CameraDirection": {
+      "X": 0.0,
+      "Y": -0.82903755,
+      "Z": 0.5591929
+    },
+    "ClientID": 0,
+    "SyncID": 1,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 993.1543,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server, LeaguePackets",
+    "ID": 46,
+    "CameraPosition": {
+      "X": 516.2335,
+      "Y": 1492.2676,
+      "Z": -706.54724
+    },
+    "CameraDirection": {
+      "X": 0.0,
+      "Y": -0.82903755,
+      "Z": 0.5591929
+    },
+    "ClientID": 0,
+    "SyncID": 2,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1097.1537,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server, LeaguePackets",
+    "ID": 46,
+    "CameraPosition": {
+      "X": 840.584,
+      "Y": 1492.2676,
+      "Z": -706.54724
+    },
+    "CameraDirection": {
+      "X": 0.0,
+      "Y": -0.82903755,
+      "Z": 0.5591929
+    },
+    "ClientID": 0,
+    "SyncID": 3,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1528.7542,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_LockCamera_Server, LeaguePackets",
+    "ID": 129,
+    "Locked": true,
+    "ClientID": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1571.0172,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 1106.5186,
+      "Y": 604.0246
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -3477,
+          "Y": -3474
+        },
+        {
+          "X": -2942,
+          "Y": -3309
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1625.4021,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2775812,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1871.0088,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 5,
+    "IsSummonerSpellBook": true,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 1602.4852,
+      "Y": 475.6457
+    },
+    "EndPosition": {
+      "X": 1602.4852,
+      "Y": 475.6457
+    },
+    "TargetNetID": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1909.2356,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2776093,
+    "TeleportCount": 1,
+    "SenderNetID": 0,
+    "ExtraBytes": "PwAAQAE="
+  }
+}
+{
+  "Time": 2072.9346,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 5,
+    "IsSummonerSpellBook": true,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 1835.8755,
+      "Y": 527.00006
+    },
+    "EndPosition": {
+      "X": 1835.8755,
+      "Y": 527.00006
+    },
+    "TargetNetID": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2095.2512,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2776281,
+    "TeleportCount": 1,
+    "SenderNetID": 0,
+    "ExtraBytes": "PwAAQAI="
+  }
+}
+{
+  "Time": 2216.9648,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 5,
+    "IsSummonerSpellBook": true,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2221.2195,
+      "Y": 573.90845
+    },
+    "EndPosition": {
+      "X": 2221.2195,
+      "Y": 573.90845
+    },
+    "TargetNetID": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2237.1072,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2776421,
+    "TeleportCount": 1,
+    "SenderNetID": 0,
+    "ExtraBytes": "PwAAQAM="
+  }
+}
+{
+  "Time": 2359.3042,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 5,
+    "IsSummonerSpellBook": true,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2518.915,
+      "Y": 581.20593
+    },
+    "EndPosition": {
+      "X": 2518.915,
+      "Y": 581.20593
+    },
+    "TargetNetID": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2379.1465,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2776562,
+    "TeleportCount": 1,
+    "SenderNetID": 0,
+    "ExtraBytes": "PwAAQAQ="
+  }
+}
+{
+  "Time": 2441.4492,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2906.2725,
+      "Y": 621.99207
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2634,
+          "Y": -3362
+        },
+        {
+          "X": -2042,
+          "Y": -3300
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2462.6086,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2776656,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2871.5115,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_LockCamera_Server, LeaguePackets",
+    "ID": 129,
+    "Locked": false,
+    "ClientID": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2871.5115,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server, LeaguePackets",
+    "ID": 46,
+    "CameraPosition": {
+      "X": 1862.373,
+      "Y": 1492.2676,
+      "Z": -492.87408
+    },
+    "CameraDirection": {
+      "X": 0.0,
+      "Y": -0.82903755,
+      "Z": 0.5591929
+    },
+    "ClientID": 0,
+    "SyncID": 4,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 3953.442,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SynchSimTimeC2S, LeaguePackets",
+    "ID": 8,
+    "TimeLastServer": 3.9333684,
+    "TimeLastClient": 3.9333684,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 5485.353,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2380.5063,
+      "Y": 449.3867
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2119,
+          "Y": -3308
+        },
+        {
+          "X": -2305,
+          "Y": -3386
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 5507.1523,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2779687,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 5710.2095,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2055.391,
+      "Y": 502.47726
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2143,
+          "Y": -3320
+        },
+        {
+          "X": -2467,
+          "Y": -3360
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 5732.3975,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2779921,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 5918.241,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2120.1726,
+      "Y": 538.31384
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2182,
+          "Y": -3326
+        },
+        {
+          "X": -2435,
+          "Y": -3342
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 5939.2505,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2780125,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9482.179,
+  "Packet": {
+    "$type": "LeaguePackets.LoadScreen.Chat, LeaguePackets",
+    "ID": 104,
+    "ClientID": 0,
+    "NetID": 0,
+    "Localized": false,
+    "ChatType": 1,
+    "Params": "",
+    "Message": "!spawn champchaos darius",
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9703.316,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2783703,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9703.316,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2783796,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9703.316,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2783890,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10025.37,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2784203,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10168.011,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 974.3696,
+      "Y": 5.0385437
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2435,
+          "Y": -3342
+        },
+        {
+          "X": -2947,
+          "Y": -3429
+        },
+        {
+          "X": -2972,
+          "Y": -3454
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10432.014,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_UpgradeSpellReq, LeaguePackets",
+    "ID": 57,
+    "Slot": 2,
+    "IsEvolve": false,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10454.885,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication_Acc, LeaguePackets",
+    "ID": 168,
+    "SyncID": 2784640,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10720.653,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 1271.0227,
+      "Y": 390.4034
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2435,
+          "Y": -3342
+        },
+        {
+          "X": -2859,
+          "Y": -3416
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10742.753,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2784921,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10905.931,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 1325.6709,
+      "Y": 440.47073
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2489,
+          "Y": -3372
+        },
+        {
+          "X": -2832,
+          "Y": -3391
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10925.902,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2785109,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 11602.566,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 11602.566,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SendSelectedObjID, LeaguePackets",
+    "ID": 175,
+    "ClientID": 0,
+    "SelectedNetID": 1073741938,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12066.074,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12254.988,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 10,
+    "Position": {
+      "X": 1716.8776,
+      "Y": 489.86523
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2495,
+          "Y": -3374
+        },
+        {
+          "X": -2832,
+          "Y": -3391
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12276.874,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2786468,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12419.436,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2461.5781,
+      "Y": 699.87573
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2728,
+          "Y": -3386
+        },
+        {
+          "X": -2264,
+          "Y": -3261
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12439.905,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2786625,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12892.015,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13041.188,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 10,
+    "Position": {
+      "X": 1744.103,
+      "Y": 507.18167
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2727,
+          "Y": -3386
+        },
+        {
+          "X": -2264,
+          "Y": -3261
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13062.121,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2787250,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13266.207,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13499.795,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13954.29,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SynchSimTimeC2S, LeaguePackets",
+    "ID": 8,
+    "TimeLastServer": 13.933636,
+    "TimeLastClient": 13.933636,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13954.29,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 1773.8661,
+      "Y": 804.2936
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2624,
+          "Y": -3358
+        },
+        {
+          "X": -2608,
+          "Y": -3209
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13976.839,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2788156,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14322.431,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14533.102,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14764.787,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14952.3545,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15160.915,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2470.1445,
+      "Y": 1218.1475
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2608,
+          "Y": -3209
+        },
+        {
+          "X": -2260,
+          "Y": -3002
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15182.821,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2789375,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15306.042,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_LockCamera_Server, LeaguePackets",
+    "ID": 129,
+    "Locked": true,
+    "ClientID": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15508.88,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2483.4993,
+      "Y": 860.56055
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2563,
+          "Y": -3182
+        },
+        {
+          "X": -2253,
+          "Y": -3181
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15530.047,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2789718,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15775.191,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15948.486,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16097.463,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16327.262,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2720.152,
+      "Y": 1044.979
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2420,
+          "Y": -3179
+        },
+        {
+          "X": -2135,
+          "Y": -3089
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16347.928,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2790531,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16919.988,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17110.262,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17279.295,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17405.998,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 2,
+    "Position": {
+      "X": 2562.0798,
+      "Y": 624.02466
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2243,
+          "Y": -3123
+        },
+        {
+          "X": -2214,
+          "Y": -3299
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17427.668,
+  "Packet": {
+    "$type": "LeaguePackets.Game.Waypoint_Acc, LeaguePackets",
+    "ID": 119,
+    "SyncID": 2791609,
+    "TeleportCount": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17674.531,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17888.61,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18076.281,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18243.633,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18455.002,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18643.807,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18854.06,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18854.06,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_IssueOrderReq, LeaguePackets",
+    "ID": 114,
+    "OrderType": 10,
+    "Position": {
+      "X": 2562.0798,
+      "Y": 624.02466
+    },
+    "TargetNetID": 0,
+    "MovementData": {
+      "Type": 2,
+      "TeleportNetID": 1073741887,
+      "HasTeleportID": false,
+      "TeleportID": 0,
+      "Waypoints": [
+        {
+          "X": -2238,
+          "Y": -3122
+        },
+        {
+          "X": -2214,
+          "Y": -3299
+        }
+      ],
+      "SyncID": 0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19064.303,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19253.645,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19442.906,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19611.965,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellReq, LeaguePackets",
+    "ID": 154,
+    "Slot": 2,
+    "IsSummonerSpellBook": false,
+    "IsHudClickCast": false,
+    "Position": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "EndPosition": {
+      "X": 2167.0,
+      "Y": 585.0
+    },
+    "TargetNetID": 1073741938,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19739.45,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_LockCamera_Server, LeaguePackets",
+    "ID": 129,
+    "Locked": false,
+    "ClientID": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19739.45,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server, LeaguePackets",
+    "ID": 46,
+    "CameraPosition": {
+      "X": 2562.0798,
+      "Y": 1492.2676,
+      "Z": -382.52258
+    },
+    "CameraDirection": {
+      "X": 0.0,
+      "Y": -0.82903755,
+      "Z": 0.5591929
+    },
+    "ClientID": 0,
+    "SyncID": 5,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 21435.928,
+  "Packet": {
+    "$type": "LeaguePackets.Game.C2S_Exit, LeaguePackets",
+    "ID": 143,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}

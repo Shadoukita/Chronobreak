@@ -1,0 +1,85 @@
+[System]
+GroupPart1=flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=flames
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[drag_05]
+f-drag=3
+f-dragP1=0 0.75
+f-dragP2=1 1.5
+f-pos=0 0 0
+f-radius=1000
+
+[flames]
+e-life=0.15
+e-rate=250
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=drag_05
+p-colorscale=1 0.2
+p-colortype=1 0
+p-flexoffset=0.005
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=12
+p-offset=15 7.5 15
+p-postoffset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-addflame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=16
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-scalebias=1.2000000000000002 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=flames03.tga
+p-vel=250 250 250
+p-velXP1=0 1.5
+p-velXP2=1 0.6700000166893005
+rendermode=0
+
+[flash]
+e-life=0.1
+e-linger=0
+e-rate=10
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.1
+p-linger=0
+p-postoffset=0 0 0
+p-quadrot=360 0 0
+p-rotvel=180 0 0
+p-rotvelP1=0 1
+p-rotvelP2=0.5 0
+p-rotvelP3=1 -1
+p-scale=185 185 185
+p-texture=Flare-Rainbow_orange_08.tga
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 1 0
+p-xquadrot2=0.5 0 1 -180
+p-xquadrot3=0.5 1 -6
+p-xquadrot4=1 0 1 0
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=0
+

@@ -1,0 +1,54 @@
+[System]
+GroupPart1=bullet
+GroupPart2=glow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[bullet]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=120
+p-bindtoemitter=1
+p-bindtoemitter1=0 0.4
+p-bindtoemitter2=1 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.44999998807907104
+p-linger=0.44999998807907104
+p-mesh=twospheres.sco
+p-meshtex=color-hold.tga
+p-quadrot=0 1 0
+p-quadrot1=0 0 0 0
+p-quadrot2=1 0 -1600 0
+p-rgba=color-lichbullet.tga
+p-rotvel=0 240 0
+p-scale=3 5 3
+p-shadow=1
+p-texture=color-hold.tga
+p-type=3
+p-xscale1=0 1.3 1 1.3
+p-xscale2=0.009999999776482582 1 1 1
+p-xscale3=1 0.1 1 0.1
+rendermode=0
+
+[glow]
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0 0.6
+p-colortype=1 0
+p-frameRate=0
+p-life=5
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-rgba=color-chaosspawn.tga
+p-scale=100
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,25 @@
+local L0_1, L1_1, L2_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+CastingBreaksStealth = L0_1
+L0_1 = true
+IsDamagingSpell = L0_1
+L0_1 = "Quinn_E.dds"
+BuffTextureName = L0_1
+L0_1 = "QuinnE"
+BuffName = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1
+L0_1 = {}
+L1_1 = "PhoenixQuinn"
+L2_1 = "QuinnValor_Phoenix"
+L0_1[1] = L1_1
+L0_1[2] = L2_1
+SpellFXOverrideSkins = L0_1
+L0_1 = ""
+AutoBuffActivateEvent = L0_1

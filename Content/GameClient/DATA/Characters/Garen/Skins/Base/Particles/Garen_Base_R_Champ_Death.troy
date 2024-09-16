@@ -1,0 +1,34 @@
+[System]
+GroupPart1=distort
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[distort]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-distortion-power=0.4
+p-frameRate=0
+p-life=1
+p-linger=0
+p-normal-map=distort-test.tga
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=color-rampdown32.tga
+p-scale=7500
+p-startframe=0
+p-texture=Aura_Self.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 2
+pass=1000
+rendermode=1
+single-particle=1
+

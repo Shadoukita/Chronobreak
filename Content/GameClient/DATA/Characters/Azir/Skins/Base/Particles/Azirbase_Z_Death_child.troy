@@ -1,0 +1,28 @@
+[MeshAnim]
+e-alpharef=100
+e-life=1
+e-linger=0
+e-rate=1
+p-animation=Azir_Death.anm
+p-backfaceon=1
+p-life=6
+p-linger=0
+p-meshtex=Azir_base_TX_CM.tga
+p-meshtex-mult=Azir_Base_Z_Death_transition.tga
+p-scale=0.85 0.85 0.85
+p-skeleton=Azir.skl
+p-skin=Azir.skn
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0.35 1 1 1 1
+p-xrgba2=0.7 1 1 1 0.75
+p-xrgba3=1 1 1 1 0.35
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=MeshAnim
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+

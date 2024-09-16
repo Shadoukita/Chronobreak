@@ -1,0 +1,12 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="annie_skin05_r_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="annie_skin02_r_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="annie_skin09_r_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="annie_r_cas.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="annietibbers"}}, 
+{Function=BBPreloadSpell, Params={Name="infernalguardian"}}, 
+{Function=BBPreloadSpell, Params={Name="infernalguardianguide"}}, 
+{Function=BBPreloadSpell, Params={Name="infernalguardianburning"}}, 
+{Function=BBPreloadSpell, Params={Name="infernalguardiantimer"}}, 
+{Function=BBPreloadSpell, Params={Name="pyromania"}}, 
+}

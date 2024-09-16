@@ -1,0 +1,125 @@
+[Flame]
+e-active=-1
+e-linger=2
+e-local-orient=0
+e-period=-1
+e-rate=100
+e-rate1=0 1
+e-rate2=0.30000000000000004 1
+e-rate3=0.7000000000000001 0.6000000000000001
+e-rate4=1 0.30000000000000004
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=FlameAccel
+field-attract-1=FlameAttract
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-fixedorbit=1
+p-life=2
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=2
+p-offset=20 0 0
+p-postoffset=0 0 0
+p-postoffsetYP1=0 0.30000000000000004
+p-postoffsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-Firehalo.tga
+p-rotvel=360
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.8999999761581421 -0.30000001192092896
+p-rotvelP4=1 1
+p-scale=5
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-startframe=3
+p-texdiv=2 3
+p-texture=Reckoning02.tga
+p-vel=50 0 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xscale=1
+p-xscale1=0 1 0 0
+p-xscale2=0.4 1.5 0 0
+p-xscale3=0.4444443881511688 3.131258964538574 0 0
+p-xscale4=0.525925874710083 3.336667060852051 0 0
+p-xscale5=0.559259295463562 3.2234439849853516 0 0
+p-xscale6=0.6000000238418579 3.725369930267334 0 0
+p-xscale7=0.6074075102806091 3.8166298866271973 0 0
+p-xscale8=1 0.5 0 0
+
+[FlameAccel]
+f-accel=0 20 0
+f-localspace=0
+
+[FlameAttract]
+f-accel=50
+f-pos=0 300 0
+f-radius=600
+
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2Type=Simple
+GroupPart3=Flame
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-rate=25
+e-rgba=255 255 255 150
+p-bindtoemitter=1
+p-life=1
+p-linger=0.5
+p-offset=0 40 0
+p-quadrot=10
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-scale=30
+p-simpleorient=2
+p-texdiv=2 2
+p-texture=Halo01.tga
+p-type=1
+p-vel=0 10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+
+[orbit]
+f-direction=0 1 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk1A45CC5C=100
+unk1B10C91A=0 0.5
+unk1B10C91B=1 1
+unk1F9A0260=0 0
+unk1F9A0261=1 360
+unk2ED3830B=1
+unk34F35B25=1 0
+unk39498524=20 40 0
+unk40B9B2C5=50
+unk740857BC=1
+unk88F7EECB=0.5
+unk9009061F=1
+unk909C498A=0 100 0
+unk913344C7=0 148 0 0 255
+unkA256D23B=2 2
+unkB2B2028D=0.5
+unkB3EA81EA=Halo01.tga
+unkBE3A09D9=10
+unkC89ADCB7=1
+unkC8DAC705=color-rampdown.tga
+unkCB7A0CF8=0 0
+unkCB7A0CF9=1 360
+unkD21040BC=200
+unkFCF48B88=2

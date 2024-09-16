@@ -1,0 +1,26 @@
+[System]
+GroupPart1=WolfDen_Whisps
+SimulateEveryFrame=1
+
+[WolfDen_Whisps]
+e-local-orient=0
+e-rate=0.1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=7.800000000000001
+p-linger=0
+p-mesh=SRU_WolfDen_Bluside_Whisps_01.sco
+p-meshtex=SRU_WolfDen_Blueside_whisps_01.DDS
+p-type=3
+p-uvscroll-rgb=-0.14 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk081E2702=sphere.sco
+unk8A1429DC=1
+unk8EC0DA45=color-hold.DDS

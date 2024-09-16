@@ -1,0 +1,23 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = false
+CastingBreaksStealth = L0_1
+L0_1 = "Evelynn_Drink.dds"
+BuffTextureName = L0_1
+L0_1 = "Malice And Spite"
+BuffName = L0_1
+L0_1 = "evelyn_maliceSpite_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "l_hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "evelyn_maliceSpite_buf.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "r_hand"
+AutoBuffActivateAttachBoneName2 = L0_1
+L0_1 = "evelyn_maliceSpite_speed_buf.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = ""
+AutoBuffActivateAttachBoneName3 = L0_1

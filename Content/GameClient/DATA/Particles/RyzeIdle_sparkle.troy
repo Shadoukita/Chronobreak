@@ -1,0 +1,48 @@
+[System]
+GroupPart1=sparkle
+GroupPart1Type=Simple
+GroupPart2=glow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=-1
+e-linger=0
+e-rate=0.5
+p-bindtoemitter=1 1
+p-coloroffset=0 0.8
+p-colorscale=0.1 0.1
+p-colortype=1 3
+p-frameRate=0
+p-life=2
+p-quadrot=1
+p-rgba=color-blue.tga
+p-rotvel=-60
+p-scale=40
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+
+[sparkle]
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0 0.4
+p-colorscale=1 0.4
+p-colortype=1 3
+p-life=1
+p-offset=0 10 0
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-beacontrail.tga
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texdiv=1 1
+p-texture=FX_SparkCluster01.tga
+p-type=0
+rendermode=0
+

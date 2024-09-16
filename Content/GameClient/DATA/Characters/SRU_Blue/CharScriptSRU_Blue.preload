@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="crestoftheancientgolem"}}, 
+{Function=BBPreloadSpell, Params={Name="npcinitializer"}}, 
+{Function=BBPreloadSpell, Params={Name="srublueeemanager"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_bluebuff_marker.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="crestoftheancientgolemlines"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_allycas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="smitten_blue_regen"}}, 
+}

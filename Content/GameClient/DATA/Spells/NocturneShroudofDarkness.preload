@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="nocturne_shroud_deactivatetrigger.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="unlockanimation"}}, 
+{Function=BBPreloadSpell, Params={Name="nocturneshroudofdarknessbuff"}}, 
+}

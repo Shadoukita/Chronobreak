@@ -1,0 +1,49 @@
+[AOE]
+KeywordsExcluded=AzirSkin01
+e-life=4
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=Azir_base_R_hitarea.sco
+p-meshtex=Azir_base_R_hitarea.tga
+p-offset=0 10 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellcurve32.tga
+p-scale=65 65 65
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.699999988079071
+pass=1
+rendermode=4
+
+[AOE_skin01]
+KeywordsRequired=AzirSkin01
+e-life=4
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=Azir_base_R_hitarea.sco
+p-meshtex=Azir_skin01_R_hitarea.tga
+p-offset=0 10 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellcurve32.tga
+p-scale=65 65 65
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.699999988079071
+pass=1
+rendermode=4
+
+[System]
+GroupPart1=AOE
+GroupPart1Importance=High
+GroupPart2=AOE_skin01
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

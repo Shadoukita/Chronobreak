@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="shyvana_flamebreath_dragon_burn_shadow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="shyvana_flamebreath_tar_shadow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="shyvana_flamebreath_indicator_shadow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Shyvana_Base_flameBreath_dragon_burn.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="shyvana_frostShyvana_Base_flameBreath_tar_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Shyvana_Base_flameBreath_indicator.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Shyvana_Base_flameBreath_tar_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="shyvana_flamebreath_reignite_shadow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Shyvana_Base_flameBreath_reignite.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="shyvanafireballparticle"}}, 
+{Function=BBPreloadSpell, Params={Name="shyvanafireballmissile"}}, 
+}

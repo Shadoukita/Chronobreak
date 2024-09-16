@@ -1,0 +1,23 @@
+[System]
+GroupPart1=WeaponTrail
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.18
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_2.sco
+p-meshtex=Katarina_WeaponTrail.tga
+p-quadrot=0 290 10
+p-rgba=alpha_16.tga
+p-scale=0.76 0.76 0.76
+p-type=3
+p-uvscroll-rgb=-2.5 0
+rendermode=0
+single-particle=1
+

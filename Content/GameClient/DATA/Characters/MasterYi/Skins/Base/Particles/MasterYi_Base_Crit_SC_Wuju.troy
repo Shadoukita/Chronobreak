@@ -1,0 +1,48 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=WeaponTrail_Council
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_MasterYi_MasterYiBasicAttack_basic2wuju
+
+[WeaponTrail]
+KeywordsExcluded=CouncilMasterYi
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.15
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=MasterYi_Blue_WeaponTrail_Crit.dds
+p-postoffset=0 50 -45
+p-quadrot=0 0 100
+p-rgba=color-rampdown.tga
+p-scale=0.7 1 0.7
+p-type=3
+p-uvscroll-rgb=-2.799999952316284 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_Council]
+KeywordsRequired=CouncilMasterYi
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.15
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=MasterYi_Skin02_Red_WeaponTrail_Crit.dds
+p-postoffset=0 50 -45
+p-quadrot=0 0 100
+p-rgba=color-rampdown.tga
+p-scale=0.7 1 0.7
+p-type=3
+p-uvscroll-rgb=-2.799999952316284 0
+rendermode=0
+single-particle=1
+

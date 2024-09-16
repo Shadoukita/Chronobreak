@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = true
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "2041_Crystalline_Flask.dds"
+BuffTextureName = L0_1
+L0_1 = "ItemCrystalFlask"
+BuffName = L0_1
+L0_1 = "GLOBAL_Item_ManaPotion.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "GLOBAL_Item_HealthPotion.troy"
+AutoBuffActivateEffect2 = L0_1

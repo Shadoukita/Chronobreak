@@ -1,0 +1,32 @@
+[System]
+GroupPart1=animated_mesh
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=10000
+
+[animated_mesh]
+e-life=1
+e-linger=0
+e-rate=1
+p-animation=Lissandra_Skin02_ULT_Enemy_Down.anm
+p-backfaceon=0
+p-bindtoemitter=0 0
+p-flexscale=0.005
+p-life=0.8
+p-linger=-1
+p-meshtex=lissandra_skin02_Renemy_TX_CM.dds
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-reflection-fresnel=0.6000000000000001
+p-reflection-fresnel-color=1 1 1
+p-reflection-map=Lissandra_CubeMap.dds
+p-reflection-opacity-direct=0.7
+p-reflection-opacity-glancing=0.2
+p-scale=1 1 1
+p-skeleton=Lissandra_Skin02_ULT_Enemy.skl
+p-skin=Lissandra_Skin02_ULT_Enemy.skn
+p-type=3
+pass=100
+rendermode=1
+single-particle=1
+

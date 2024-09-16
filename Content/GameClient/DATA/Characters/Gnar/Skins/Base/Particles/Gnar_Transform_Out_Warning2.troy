@@ -1,0 +1,72 @@
+[Avatar]
+e-life=-0.75
+e-rate=2
+e-timeoffset=0.25
+p-alphaslicerange=0.05000000074505806
+p-backfaceon=1
+p-colortype=1 3
+p-life=1
+p-linger=0
+p-local-orient=1
+p-rgba=Gnar_Base_P_Change_Blue_rgba.dds
+p-scale=1.1
+p-simpleorient=3
+p-texture=Gnar_Base_P_Pop_slice.dds
+p-type=11
+rendermode=4
+
+[Flares]
+e-disabled=1
+e-rate=40
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-numframes=4
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=100 100 100
+p-texdiv=4 1
+p-texture=Gnar_Base_P_Out_Flares.dds
+p-type=2
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 2 0
+
+[System]
+GroupPart1=Flares
+GroupPart2=spark_VG
+GroupPart2Type=Simple
+GroupPart3=Avatar
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[spark_VG]
+e-disabled=1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-quadrot=1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=180
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-texture=Gnar_Base_P_Out_FlareRing.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 1.3
+
+[UNKNOWN_HASHES]
+unk2F68C7F1=1
+unkE09ECEE3=0

@@ -1,0 +1,29 @@
+[System]
+GroupPart7=scorched_earth
+GroupPart7Importance=Medium
+GroupPart7Type=Simple
+
+[scorched_earth]
+e-life=-1
+e-local-orient=0
+e-rate=4
+e-timeoffset=0.11999999731779099
+p-bindtoemitter=0 0
+p-coloroffset=0 1
+p-colorscale=1 1
+p-colortype=1 2
+p-life=0.9
+p-offset=0 0 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-scale=230 0 0
+p-simpleorient=2
+p-texture=scorched_earth_01.tga
+p-type=7
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 0
+p-xquadrot2=0.5 0 180 0
+p-xquadrot3=1 0 360 0
+

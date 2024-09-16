@@ -1,0 +1,21 @@
+[MushMush]
+e-rate=0.1
+p-animation=MushroomBuff.anm
+p-bindtoemitter=1 0
+p-fresnel=0.75
+p-fresnel-color=0 0.5 1 1
+p-life=10
+p-linger=0
+p-meshtex=MushroomBuff.dds
+p-offset=0 0 100
+p-quadrot=92 0 0
+p-skeleton=MushroomBuff.skl
+p-skin=MushroomBuff.skn
+p-type=3
+pass=1
+rendermode=1
+
+[System]
+GroupPart1=MushMush
+SimulateEveryFrame=1
+

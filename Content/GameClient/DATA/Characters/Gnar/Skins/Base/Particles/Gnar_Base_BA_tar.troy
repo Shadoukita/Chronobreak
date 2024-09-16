@@ -1,0 +1,67 @@
+[Hit]
+e-life=1
+e-rate=1
+e-rateP1=0 1
+e-rateP2=1 2.9000000000000004
+flag-disable-z=1
+p-flexscale=0.004999999888241291
+p-frameRate=60
+p-life=0.25
+p-linger=0.25
+p-numframes=16
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Gnar_Base_BA_Hit_rgba.dds
+p-scale=60 60 0
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1
+p-texdiv=4 4
+p-texture=Gnar_Base_BA_Hit.dds
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0
+p-xscale2=0.2 1 1 0
+p-xscale3=1 2 2 0
+single-particle=1
+
+[Spike]
+e-life=1
+e-rate=8
+e-rateP1=0 0.2
+e-rateP2=1 1
+flag-disable-z=1
+p-flexscale=0.004999999888241291
+p-life=0.25
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.25
+p-numframes=4
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=Gnar_Base_BA_Hit_rgba.dds
+p-scale=50 50 10
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-texdiv=2 2
+p-texture=Gnar_Base_BA_Hit_Spike.dds
+p-type=2
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1 2 2
+p-xscale3=1 1 2 3
+single-particle=1
+
+[System]
+GroupPart1=Hit
+GroupPart2=Spike
+SimulateEveryFrame=1
+group-scale-cap=400
+

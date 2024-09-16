@@ -1,0 +1,27 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Aatrox_SunderingStrikes.dds"
+BuffTextureName = L0_1
+L0_1 = "Wuju Style"
+BuffName = L0_1
+L0_1 = "Wujustyle_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "weaponstreak"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "MasterYi_Tribal_Wuju_Sword_Yellow.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "buffbone_cstm_weapon_1"
+AutoBuffActivateAttachBoneName2 = L0_1
+L0_1 = "MasterYi_Tribal_Wuju_Sword_2nd_Yellow.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = "buffbone_cstm_weapon_2"
+AutoBuffActivateAttachBoneName3 = L0_1
+L0_1 = "MasterYi_Tribal_Wuju_Sword_3rd_Yellow.troy"
+AutoBuffActivateEffect4 = L0_1
+L0_1 = "buffbone_cstm_weapon_3"
+AutoBuffActivateAttachBoneName4 = L0_1
+L0_1 = true
+NonDispellable = L0_1

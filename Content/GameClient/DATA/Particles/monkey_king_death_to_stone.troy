@@ -1,0 +1,55 @@
+[System]
+GroupPart1=Turn_To_Stone_base
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Turn_To_Stone_fire
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Turn_To_Stone_lord
+GroupPart3Importance=High
+GroupPart3Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Turn_To_Stone_base]
+KeywordsRequired=BaseMonkeyKing
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=monkeyking_base_stone_03.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=90
+p-linger=90
+p-rgba=trans-mkdeath_02.tga
+p-trans-sample=64
+rendermode=1
+
+[Turn_To_Stone_fire]
+KeywordsRequired=FireMonkeyKing
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=monkeyking_fire_stone.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=90
+p-linger=90
+p-rgba=trans-mkdeath_02.tga
+p-trans-sample=64
+rendermode=1
+
+[Turn_To_Stone_lord]
+KeywordsRequired=LordMonkeyKing
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=monkeyking_lord_stone.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=90
+p-linger=90
+p-rgba=trans-mkdeath_02.tga
+p-trans-sample=64
+rendermode=1
+

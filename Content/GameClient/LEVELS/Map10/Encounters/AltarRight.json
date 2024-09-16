@@ -1,0 +1,17 @@
+{"EncounterDefinition": {
+"BonusValue": 12,
+"SquadAI": "Guard",
+"MonsterGroups":
+[
+	{
+		"Monsters":
+		[
+			{
+				"SkinName": "TT_Buffplat_R",
+				"Value": 1,
+				"Count": 1
+			}
+		]
+	}
+]
+}} 

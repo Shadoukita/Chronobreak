@@ -1,0 +1,96 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=daggers_koreanShaco
+GroupPart2Type=Complex
+GroupPart4=daggers
+GroupPart4Type=Complex
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Shaco_HallucinateFull_nova
+
+[daggers]
+KeywordsExcluded=KoreanShaco
+e-life=0.30000000000000004
+e-linger=0
+e-local-orient=0
+e-rate=300
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.44999998807907104
+p-mesh=JesterDagger.sco
+p-meshtex=JesterDagger.tga
+p-numframes=1
+p-postoffset=0 100 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 -10
+p-quadrotYP2=1 10
+p-rgba=color-daggerfade32.tga
+p-rotvel=0 0 0
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-startframe=0
+p-texdiv=1 1
+p-texture=JesterDagger.tga
+p-type=3
+p-vecalign=1
+p-vel=400 0 0
+p-velXP1=0 0.9
+p-velXP2=1 1.1
+rendermode=1
+
+[daggers_koreanShaco]
+KeywordsRequired=KoreanShaco
+e-life=0.1
+e-linger=0
+e-local-orient=0
+e-rate=500
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-mesh=weapon_fan_02.sco
+p-meshtex=shaco_korean_props_01.tga
+p-numframes=1
+p-postoffset=0 100 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 -10
+p-quadrotYP2=1 10
+p-rgba=color-daggerfade32.tga
+p-scale=1.350000023841858 1.350000023841858 1.350000023841858
+p-shadow=1
+p-startframe=0
+p-texdiv=1 1
+p-texture=shaco_korean_props_01.tga
+p-type=3
+p-vecalign=1
+p-vel=700 0 0
+p-velXP1=0 0.9
+p-velXP2=1 1.1
+rendermode=1
+
+[flash]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-postoffset=0 100 0
+p-quadrot=20
+p-rgba=color-rampdown.tga
+p-scale=400
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=jesterflash.tga
+p-type=1
+p-xscale1=0 0.5
+p-xscale2=0.2 1
+p-xscale3=1 0
+single-particle=1
+

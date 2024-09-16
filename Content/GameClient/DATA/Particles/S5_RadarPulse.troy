@@ -1,0 +1,53 @@
+[PersistantRing]
+e-life=2
+e-linger=0
+e-local-orient=0
+e-rate=0.25
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=90
+p-linger=0.15000000596046448
+p-quadrot=90 0 0
+p-rgba=TEMP_OracleElixirRing.tga
+p-scale=1800 1800 0
+p-texture=ring_highres.tga
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.024000000208616257 0 0 0
+p-xscale3=0.02500000037252903 1 1 1
+p-xscale4=1 1 1 1
+rendermode=0
+teamcolor-correction=1
+
+[Ring]
+e-life=2
+e-linger=0
+e-local-orient=0
+e-rate=0.25
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=2.5
+p-linger=0.15000000596046448
+p-quadrot=90 0 0
+p-rgba=TEMP_OracleElixirRing.tga
+p-scale=1800 1800 0
+p-texture=ring_highres.tga
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.1 0.7000000000000001 0.7000000000000001 0.7000000000000001
+p-xscale3=0.9 1 1 1
+p-xscale4=1 1 1 1
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=Ring
+GroupPart1Importance=High
+GroupPart2=PersistantRing
+GroupPart2Importance=High
+SimulateEveryFrame=1
+group-vis=1000
+
+[UNKNOWN_HASHES]
+unk891C6052=1
+unkF81153C5=1

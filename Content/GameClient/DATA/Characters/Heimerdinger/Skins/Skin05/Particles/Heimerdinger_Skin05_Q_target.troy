@@ -1,0 +1,25 @@
+[HexNut]
+e-life=-1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=Heimerdinger_Base_Q_Target_HexNut.sco
+p-postoffset=0 100 0
+p-rgba=Heimerdinger_Base_Q_Target_HexNut_Ramp.dds
+p-rotvel=200 0 0
+p-scale=8 8 8
+p-simpleorient=0
+p-texture=Heimerdinger_Skin05_Q_Target_HexNut.dds
+p-type=3
+p-xscale1=0 1 1 1
+p-xscale2=1 0.35 0.35 0.35
+rendermode=1
+
+[System]
+GroupPart1=HexNut
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

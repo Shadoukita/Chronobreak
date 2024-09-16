@@ -1,0 +1,42 @@
+[System]
+GroupPart1=teamglow
+GroupPart1Importance=High
+GroupPart2=teamglow1
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[teamglow]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-colorscale=0.5 0.2
+p-colortype=0 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-offset=0 10 0
+p-rgba=color-teams32.tga
+p-scale=80 80 0
+p-texture=darkfuzz.dds
+pass=-1
+single-particle=1
+teamcolor-correction=1
+
+[teamglow1]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-colorscale=0.15000000596046448 0.15000000596046448
+p-colortype=0 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-offset=0 10 0
+p-rgba=color-teams32.tga
+p-rotvel=400 0 0
+p-scale=45 45 50
+p-texture=armordebuff.dds
+pass=-1
+single-particle=1
+teamcolor-correction=1
+

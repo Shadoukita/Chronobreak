@@ -1,0 +1,165 @@
+[BaseKogMawMaterialOverride]
+KeywordsRequired=BaseKogMaw
+MaterialOverride1Texture=KogMawDeathskin.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[CatKogMawMaterialOverride]
+KeywordsRequired=CaterpillarKogMaw
+MaterialOverride1Texture=KogMawDeathskin_cat.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[DeepSeaKogMawMaterialOverride]
+KeywordsRequired=BaseKogMaw
+MaterialOverride1Texture=kogmaw_deepsea_death.dds
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[Drag]
+f-drag=0.30000000000000004
+f-pos=0 0 0
+f-radius=1000
+
+[DragonKogMawMaterialOverride]
+KeywordsRequired=NewYearDragonKogMaw
+MaterialOverride1Texture=KogMawDeathSkin_dragon.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[FossilKogMawMaterialOverride]
+KeywordsRequired=FossilKogMaw
+MaterialOverride1Texture=kogmaw_fossil_dead.dds
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[FrogKogMawMaterialOverride]
+KeywordsRequired=PoisonFrogKogMaw
+MaterialOverride1Texture=KogMawDeathskin_frog.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[Gravity]
+f-accel=0 -1000 0
+f-localspace=0
+
+[ReindeerKogMawMaterialOverride]
+KeywordsRequired=ReindeerKogMaw
+MaterialOverride1Texture=kogmaw_rudolph_death.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[Spray]
+KeywordsRequired=KogMaw_Dead
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=1000
+e-rate1=0 1
+e-rate2=0.5 0.5
+e-rate3=1 0.2
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 10
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Gravity
+field-drag-1=Drag
+p-bindtoemitter=0.1 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=2
+p-lifeP1=0 0.1
+p-lifeP2=0.9 0.2
+p-lifeP3=1 0.5
+p-numframes=4
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-buildingsmoke.tga
+p-rotvel=1
+p-rotvelP1=0 -360
+p-rotvelP2=1 360
+p-scale=5
+p-scaleP1=0 0.3
+p-scaleP2=1 3
+p-shadow=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=purpleslimedrops32.tga
+p-type=0
+p-vel=0 1 0
+p-velYP1=0 50
+p-velYP2=1 600
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=1
+
+[System]
+GroupPart1=BaseKogMawMaterialOverride
+GroupPart1Type=Simple
+GroupPart2=CatKogMawMaterialOverride
+GroupPart2Type=Simple
+GroupPart3=FrogKogMawMaterialOverride
+GroupPart3Type=Simple
+GroupPart4=Spray
+GroupPart4Type=Simple
+GroupPart5=ReindeerKogMawMaterialOverride
+GroupPart5Type=Simple
+GroupPart6=DragonKogMawMaterialOverride
+GroupPart6Type=Simple
+GroupPart7=DeepSeaKogMawMaterialOverride
+GroupPart7Type=Simple
+GroupPart8=FossilKogMawMaterialOverride
+GroupPart8Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

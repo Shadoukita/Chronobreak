@@ -1,0 +1,51 @@
+[GotRock]
+e-life=1
+e-linger=1
+e-rate=40
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=1.5
+p-linger=1.5
+p-mesh=gnarbig_base_q_rock.scb
+p-meshtex=GnarBig_Base_Q_Rock.dds
+p-offset=80 1 0
+p-offsetXP1=0 0.5
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 100
+p-orbitvel=0 10 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rotvel=1 1 0
+p-rotvelXP1=0 -720
+p-rotvelXP2=1 720
+p-rotvelYP1=0 -720
+p-rotvelYP2=1 720
+p-scale=0.30000000000000004 0.30000000000000004 0.30000000000000004
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-scaleYP1=0 0.2
+p-scaleYP2=1 1
+p-scaleZP1=0 0.2
+p-scaleZP2=1 1
+p-shadow=1
+p-type=3
+p-vel=-10 -100 0
+p-velYP1=0 0.5
+p-velYP2=1 1.5
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=1
+
+[System]
+GroupPart1=GotRock
+PersistThruDeath=1
+SimulateEveryFrame=1
+

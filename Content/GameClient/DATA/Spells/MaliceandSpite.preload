@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="evelynnunlockanimation"}}, 
+{Function=BBPreloadSpell, Params={Name="maliceandspite"}}, 
+}

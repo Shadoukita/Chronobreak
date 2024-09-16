@@ -1,0 +1,97 @@
+[Flame_Phoenix]
+KeywordsRequired=PhoenixQuinn
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=200
+field-drag-1=PhoenixDrag
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-frameRate=0
+p-life=0.3
+p-lifeP1=0 0.3
+p-lifeP2=1 1
+p-linger=0
+p-numframes=4
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=color-addflame.tga
+p-scale=35 35 0
+p-texdiv=2 2
+p-texture=flames01.tga
+p-type=0
+p-vel=100 0 100
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xrgba=1 1 1 0.5
+p-xscale1=0 1 1 0
+p-xscale2=1 0.5 0.5 0
+rendermode=4
+
+[PhoenixDrag]
+f-drag=1
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=Trail
+GroupPart2=Trail_Phoenix
+GroupPart3=Flame_Phoenix
+SimulateEveryFrame=1
+
+[Trail]
+KeywordsExcluded=PhoenixQuinn
+e-life=1
+e-linger=0
+e-rate=60
+e-tilesize=10 0 0
+e-timeoffset=0.05000000074505806
+p-life=0.3
+p-linger=0
+p-offset=0 0 -100
+p-scale=25 0 0
+p-texture=Quin_R_Proj_Trail.tga
+p-trailmode=1
+p-type=5
+p-xrgba=0.6 0.6 1 0.35
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.3 1 1 1 0.25
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0.2 0 0
+pass=35
+rendermode=0
+
+[Trail_Phoenix]
+KeywordsRequired=PhoenixQuinn
+e-life=1
+e-linger=0
+e-rate=60
+e-tilesize=1000 0 0
+e-timeoffset=0.05000000074505806
+p-life=0.3
+p-linger=0
+p-offset=0 0 -100
+p-quadrot=90 0 0
+p-scale=25 0 0
+p-texture=Brandfiretrail.tga
+p-trailmode=1
+p-type=5
+p-xrgba=1 0.6 0.6 0.35
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.3 1 1 1 0.25
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0.2 0 0
+pass=35
+rendermode=0
+

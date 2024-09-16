@@ -1,0 +1,104 @@
+[BlackHole]
+e-life=-1
+e-local-orient=0
+e-rate=5
+e-timeoffset=0
+p-bindtoemitter=1
+p-life=0.5
+p-quadrot=90 1 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-scale=150 150 0
+p-texture=SRU_Dragon_BA1_blackHole.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 0 0 0 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.15000000596046448 1 1 1
+p-xscale3=1 1 1 1
+pass=-10
+rendermode=1
+single-particle=0
+
+[CenterFlare]
+e-life=-1
+e-local-orient=0
+e-rate=8
+p-bindtoemitter=1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-quadrot=90 1 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-scale=180 180 0
+p-texture=SRU_Dragon_BA1_centerFlare.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 1 0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+pass=3
+rendermode=4
+single-particle=0
+
+[Flames4x4]
+e-life=-1
+e-rate=30
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-frameRate=32
+p-life=0.5
+p-numframes=16
+p-offset=80 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=0 15 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rotvel=100 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=95 95 95
+p-scaleXP1=0 -0.4000000059604645
+p-scaleXP2=0.5 -1
+p-scaleXP3=0.5001000165939331 1
+p-scaleXP4=1 0.4
+p-startframe=0
+p-texdiv=4 4
+p-texture=SRU_Dragon_BA1_Flames_4x4.tga
+p-type=0
+p-vel=30 0 0
+p-worldaccel=0 200 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 0 0 1
+p-xscale1=0 0.6 0.1 0.6
+p-xscale2=0.4 0.8 1.2000000000000002 0.8
+p-xscale3=1 1 1.1 1
+pass=3
+rendermode=4
+single-particle=0
+uniformscale=1
+
+[System]
+GroupPart1=Flames4x4
+GroupPart2=CenterFlare
+GroupPart3=BlackHole
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk8B77EEB8=color-hold.tga
+unkA090ADD7=0 0
+unkA090ADD8=1 1

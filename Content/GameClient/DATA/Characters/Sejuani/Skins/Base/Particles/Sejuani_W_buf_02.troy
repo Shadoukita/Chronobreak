@@ -1,0 +1,82 @@
+[Flash_02_Skin04]
+KeywordsRequired=SejuaniSkin04
+e-life=5
+e-linger=0
+e-rate=6
+p-bindtoemitter=1 1
+p-life=0.1
+p-postoffset=15 -55 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-scale=150
+p-texture=sejuani_skin04_E_red_flash.tga
+p-type=0
+p-vel=-300 0 0
+p-xscale1=0 0.8
+p-xscale2=1 1
+pass=0
+rendermode=0
+
+[Ground_Glow]
+KeywordsExcluded=SejuaniSkin04
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-postoffset=0 -90 0
+p-rgba=color-rampdown.tga
+p-scale=150
+p-simpleorient=2
+p-texture=ahrifirelight.tga
+p-type=1
+rendermode=0
+
+[Swirl]
+KeywordsExcluded=SejuaniSkin04
+e-life=-1
+e-local-orient=0
+e-rate=4
+field-accel-1=SwirlAccel
+p-backfaceon=1
+p-bindtoemitter=1
+p-colortype=1 3
+p-life=0.7
+p-linger=0
+p-mesh=magicball.sco
+p-meshtex=Sejuani_swirl.tga
+p-postoffset=0 -60 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rgba=color-bellcurve2.tga
+p-scale=4 3.5 2
+p-type=3
+p-uvscroll-rgb=2.7 0
+p-vel=0 1 0
+p-velYP1=0 0.1
+p-velYP2=1 10
+rendermode=0
+
+[SwirlAccel]
+f-accel=0 150 0
+f-localspace=0
+
+[System]
+GroupPart1=Swirl
+GroupPart2=Ground_Glow
+GroupPart2Type=Simple
+GroupPart3=Flash_02_Skin04
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

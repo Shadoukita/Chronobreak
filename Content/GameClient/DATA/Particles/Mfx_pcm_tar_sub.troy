@@ -1,0 +1,28 @@
+[System]
+GroupPart2=blastring
+
+[blastring]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=218 153 255 255
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.30000000000000004
+p-offset=0 0 0
+p-quadrot=0 1 0
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=70 70 70
+p-texture=Mfx_hiteffect.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0.4
+p-xrgba2=0.5 1 0 0.8 0.4
+p-xrgba3=1 1 0 0.8 0
+p-xscale1=0 0.1
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+

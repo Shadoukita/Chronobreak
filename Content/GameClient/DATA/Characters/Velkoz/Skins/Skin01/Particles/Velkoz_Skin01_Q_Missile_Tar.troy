@@ -1,0 +1,59 @@
+[System]
+GroupPart1=clone
+GroupPart1Type=Simple
+GroupPart2=glow
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_VelkozSkin01_VelkozQMissiletar_hit
+build-up-time=0.5
+
+[clone]
+e-life=0.2
+e-local-orient=1
+e-rate=200
+p-alphaslicerange=0.05000000074505806
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-life1=0 1.3
+p-life2=1 1
+p-local-orient=1
+p-offset=0 1 0
+p-offset1=0 0 0 0
+p-offset2=1 0 -50 0
+p-rgba=Velkoz_Skin01_Q_tar_rgba.dds
+p-scale=1
+p-scale1=0 1
+p-scale2=1 1.2000000000000002
+p-simpleorient=3
+p-texture=Velkoz_Skin01_Q_tar.dds
+p-type=11
+p-xscale1=0 1
+p-xscale2=1 1.3
+pass=100
+rendermode=4
+
+[glow]
+e-disabled=1
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.8
+p-linger=0
+p-offset=0 100 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=300 300 0
+p-texture=Velkoz_Base_Q_Void_Glow.tga
+p-type=0
+p-xscale1=0 1 1 0
+p-xscale2=0.5 1 1 0
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+

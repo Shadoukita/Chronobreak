@@ -1,0 +1,47 @@
+[End]
+e-life=0.5
+e-local-orient=1
+e-rate=100
+p-bindtoemitter=1
+p-life=0.5
+p-local-orient=1
+p-offset=0 2 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-scale=80 80 80
+p-texture=Azir_Base_Q_End.tga
+p-type=1
+p-xquadrot-on=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=2000
+rendermode=1
+
+[System]
+GroupPart1=End
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk044E25BF=1 1
+unk18948873=875 0 0
+unk54729F4A=0 30 0
+unk59CC3D73=2
+unk5CF386C8=0 0.66
+unk5CF386C9=1 0.66
+unk65E40FBE=7
+unk6943DFC9=1
+unk6E3B7A6E=2
+unk6FF501EB=ability_indicator_p-rgba.tga
+unk792A7BA2=1
+unk8DF63986=0 0 0
+unk9A4E63A9=1
+unkC7EDE726=1 0
+unkCE02A6BF=1
+unkCFD3AC7E=1 0.4
+unkD5EDBDF1=1
+unkD8BB5384=team_ring_green_02.tga
+unkEE81DF33=1
+unkF428AD0A=0 10 0

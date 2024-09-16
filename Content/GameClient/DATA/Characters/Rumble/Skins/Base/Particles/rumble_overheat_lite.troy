@@ -1,0 +1,26 @@
+[System]
+GroupPart1=warning_light
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[warning_light]
+KeywordsExcluded=RumbleSkin03
+e-life=10
+e-linger=0
+e-rate=3
+p-bindtoemitter=0 0
+p-colorscale=0.5 1
+p-colortype=0 0
+p-life=0.25
+p-linger=0
+p-local-orient=1
+p-postoffset=0 40 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=alpha_12.tga
+p-scale=650
+p-simpleorient=2
+p-texture=red-light.tga
+p-type=1
+rendermode=0
+

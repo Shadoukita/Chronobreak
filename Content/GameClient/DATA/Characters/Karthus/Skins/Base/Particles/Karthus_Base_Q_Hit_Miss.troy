@@ -1,0 +1,6 @@
+[System]
+GroupPart1=KarthusHitSound
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+

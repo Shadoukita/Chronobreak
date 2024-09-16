@@ -1,0 +1,21 @@
+[GlowBot1]
+e-rate=0.15000000596046448
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=8
+p-linger=0
+p-mesh=sru_raptornest_glow_02.scb
+p-meshtex=SRU_RaptorNest_Glow_1.dds
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=GlowBot1
+
+[UNKNOWN_HASHES]
+unk6EA07DD0=color-hold.DDS
+unkC4D6BB37=sphere.sco

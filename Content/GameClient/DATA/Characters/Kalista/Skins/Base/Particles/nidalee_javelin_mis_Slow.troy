@@ -1,0 +1,20 @@
+[Javelin_skin02]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-mesh=Nidalee_Javelin2012.sco
+p-meshtex=Thresh_Base_Ghost.dds
+p-offset=0 -70 -10
+p-quadrot=0 -90 0
+p-rotvel=0 -360 0
+p-scale=1.2000000000000002 1.1 0.4
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=Javelin_skin02
+SimulateEveryFrame=1
+

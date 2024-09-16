@@ -1,0 +1,38 @@
+[System]
+GroupPart1=runeTimeGlow
+GroupPart2=pulseTimer
+SimulateWhileOffScreen=1
+
+[pulseTimer]
+e-local-orient=0
+e-rate=0.4
+e-rgba=255 255 255 128
+p-bindtoemitter=1 1
+p-life=7
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-mesh=sruap_order_inhibitor_respawn_base.scb
+p-meshtex=SRUAP_Order_Inhibitor_RuneCountdown.dds
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.391705 0.806452 0.806452 1 0.275
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=0.619816 0.806452 0.806452 1 0.325
+p-xrgba5=1 0 0 1 0
+rendermode=4
+
+[runeTimeGlow]
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=320
+p-linger=0
+p-mesh=sruap_order_inhibitor_respawn_base.scb
+p-meshtex=SRUAP_Order_Inhibitor_RuneCountdown_glow.dds
+p-type=3
+p-uvscroll-rgb=0.00168 0
+rendermode=4
+single-particle=1
+

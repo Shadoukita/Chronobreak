@@ -1,0 +1,37 @@
+[Head]
+e-life=-1
+e-linger=0
+e-rate=0.5
+e-uvoffset=0 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.0026000000070780516
+p-life=2
+p-linger=0
+p-local-orient=1
+p-mesh=Lissandra_Skin02_Passive_Helmet.scb
+p-meshtex=Lissandra_Skin02_Passive_Head_Sheen.dds
+p-offset=0 20 -9
+p-scale=1.149999976158142 1.2000000476837158 1.2999999523162842
+p-type=3
+p-uvscroll-rgb=0 0.6000000000000001
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Head
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-scale-cap=-1
+group-vis=10000
+
+[UNKNOWN_HASHES]
+unk7A0CE688=0

@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "StormShield.dds"
+BuffTextureName = L0_1
+L0_1 = "OdinCenterRelic"
+BuffName = L0_1
+L0_1 = "PotionofBrilliance_itm.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+NonDispellable = L0_1

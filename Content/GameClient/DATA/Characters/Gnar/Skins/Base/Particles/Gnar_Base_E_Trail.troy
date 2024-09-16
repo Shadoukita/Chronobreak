@@ -1,0 +1,31 @@
+[System]
+GroupPart1=Trail
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Trail]
+e-life=3
+e-linger=3
+e-rate=60
+e-tilesize=1000 0 0
+e-trail-cutoff=1000
+p-life=0.30000000000000004
+p-local-orient=1
+p-scale=50 0 0
+p-texture=Gnar_Base_E_Trail.dds
+p-texture-mode=clamp
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb-clamp=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=0.9 1 1 1 0
+p-xrgba5=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+

@@ -1,0 +1,14 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundOnCreate=Play_sfx_Fiora_Death3D_cast
+
+[empty]
+e-life=1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

@@ -1,0 +1,57 @@
+[Shield]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=2
+e-timeoffset=0.05000000074505806
+p-bindtoemitter=1
+p-flexscale=0.004999999888241291
+p-life=3
+p-linger=0.5
+p-offset=0 50 -50
+p-scale=120 120 120
+p-texture=SRU_RegenTowerShield_Shield.dds
+p-type=0
+p-xrgba=1 0.8 1 0.5
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 0 0 0 0
+p-xscale1=0.2 0.8 0.8 0
+p-xscale2=1 1.1 1.1 0
+rendermode=4
+
+[Swirls]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=2
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1
+p-flexscale=0.004999999888241291
+p-life=3.5
+p-linger=0.5
+p-offset=0 50 -50
+p-scale=120 120 120
+p-texdiv=2 2
+p-texture=SRU_RegenTowerShield_Avatar.dds
+p-texture-mult=SRU_RegenTowerShield_Glow.dds
+p-type=0
+p-uvscroll-rgb=0.15 0.2
+p-xrgba=1 0.8 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.6 1 1 1 1
+p-xrgba3=1 0 0 0 0
+p-xscale1=0.2 0.8 0.8 0
+p-xscale2=1 1.1 1.1 0
+pass=1
+rendermode=4
+
+[System]
+GroupPart1=Shield
+GroupPart1Importance=High
+GroupPart2=Swirls
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

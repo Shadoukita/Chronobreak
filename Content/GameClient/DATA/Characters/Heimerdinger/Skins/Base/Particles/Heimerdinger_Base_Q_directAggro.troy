@@ -1,0 +1,80 @@
+[Left]
+e-life=10
+e-linger=0
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=1
+p-linger=0
+p-offset=-40 200 0
+p-quadrot=-35 0 0
+p-rgba=alpha_20.tga
+p-scale=28 35 0
+p-texture=Heimerdinger_Base_Q_directAggro_Taunt.dds
+p-type=0
+p-xscale1=0 1 0.5 0
+p-xscale2=0.25 1.600000023841858 1.600000023841858 0
+p-xscale3=0.5 0.9 0.9 0
+p-xscale4=0.75 1.399999976158142 1.399999976158142 0
+p-xscale5=1 1 1 0
+pass=25
+rendermode=1
+
+[Middle]
+e-life=10
+e-linger=0
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=1
+p-linger=0
+p-offset=-5 230 0
+p-rgba=alpha_20.tga
+p-scale=42 42 0
+p-texture=Heimerdinger_Base_Q_directAggro_Taunt.dds
+p-type=0
+p-xscale1=0 1 0.5 0
+p-xscale2=0.25 1.600000023841858 1.600000023841858 0
+p-xscale3=0.5 0.9 0.9 0
+p-xscale4=0.75 1.399999976158142 1.399999976158142 0
+p-xscale5=1 1 1 0
+pass=25
+rendermode=1
+
+[Right]
+e-life=10
+e-linger=0
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=1
+p-linger=0
+p-offset=40 200 0
+p-quadrot=35 0 0
+p-rgba=alpha_20.tga
+p-scale=28 35 0
+p-texture=Heimerdinger_Base_Q_directAggro_Taunt.dds
+p-type=0
+p-xscale1=0 1 0.5 0
+p-xscale2=0.25 1.600000023841858 1.600000023841858 0
+p-xscale3=0.5 0.9 0.9 0
+p-xscale4=0.75 1.399999976158142 1.399999976158142 0
+p-xscale5=1 1 1 0
+pass=25
+rendermode=1
+
+[System]
+GroupPart1=Middle
+GroupPart2=Left
+GroupPart3=Right
+SimulateEveryFrame=1
+

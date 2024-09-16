@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="odin_healthpackheal.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="summoner_mana.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="s5_statecheck"}}, 
+{Function=BBPreloadParticle, Params={Name="s5_radarpulse.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="s5_riversigilsight.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="s5_fakeeyes"}}, 
+}

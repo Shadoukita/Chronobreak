@@ -1,0 +1,52 @@
+[System]
+GroupPart1=glacial_glow
+GroupPart1Type=Simple
+GroupPart2=streak_1
+SimulateEveryFrame=1
+
+[glacial_glow]
+KeywordsRequired=GlacialMalphite
+e-life=0.2
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.5
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bluehit_frost_2.tga
+p-scale=70
+p-texture=Flare-Omnimax.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.1 5
+p-xscale3=1 0
+rendermode=0
+
+[streak_1]
+e-life=0.1
+e-rate=8
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5199999809265137
+p-colortype=1 0
+p-life=0.1
+p-local-orient=1
+p-quadrot=180 0 0
+p-rgba=alpha_20.tga
+p-rotvel=0 0 0
+p-scale=50 25 50
+p-simpleorient=1
+p-texture=Aura_Flares.tga
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 5 5 5
+p-xscale3=0.9 0.1 0.1 0.1
+p-xscale4=1 0 0 0
+rendermode=0
+

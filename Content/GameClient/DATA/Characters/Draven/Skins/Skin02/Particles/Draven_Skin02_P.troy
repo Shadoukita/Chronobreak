@@ -1,0 +1,97 @@
+[FocusCone]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=2.5
+p-linger=0
+p-quadrot=-90 0 0
+p-rgba=Draven_Skin02_P_Focuscone_RGB.tga
+p-scale=175 1000 0
+p-texture=Draven_Skin02_Sunfocus.tga
+p-type=2
+rendermode=0
+single-particle=1
+
+[Gold]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=55
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-mesh=Draven_Skin02_Coin.SCB
+p-meshtex=Draven_Skin02_Coin.tga
+p-offset=110 600 0
+p-offsetXP1=0 0.5
+p-offsetXP2=1 1
+p-offsetYP1=0 0.5
+p-offsetYP2=1 1
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rgba=Draven_Skin02_color-goldcoin.tga
+p-rotvel=10 1 1
+p-rotvelXP1=0 -100
+p-rotvelXP2=0.5 -80
+p-rotvelXP3=0.5009999871253967 80
+p-rotvelXP4=1 100
+p-rotvelYP1=0 -100
+p-rotvelYP2=0.5 -100
+p-rotvelYP3=0.5009999871253967 100
+p-rotvelYP4=1 100
+p-rotvelZP1=0 -100
+p-rotvelZP2=0.5 -100
+p-rotvelZP3=0.5009999871253967 100
+p-rotvelZP4=1 100
+p-scale=1.4000000000000001 1.4000000000000001 1.4000000000000001
+p-type=3
+p-vel=0 -150 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-worldaccel=0 -650 0
+rendermode=1
+
+[Light]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=2.5
+p-linger=0
+p-rgba=Draven_Skin02_P_Light_RGB.tga
+p-scale=110
+p-simpleorient=2
+p-texture=Draven_Skin02_P_Light.tga
+p-type=0
+pass=-100
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Gold
+GroupPart2=FocusCone
+GroupPart2Importance=High
+GroupPart3=Light
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Draven_DravenNewPassive_buffactivate
+

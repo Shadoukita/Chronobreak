@@ -1,0 +1,73 @@
+[System]
+GroupPart1=lightning
+GroupPart1Type=Simple
+GroupPart2=distort
+GroupPart2Importance=Low
+SimulateEveryFrame=1
+
+[distort]
+e-life=8
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.5
+p-colortype=1 0
+p-distortion-mode=2
+p-distortion-power=0.009999999776482582
+p-frameRate=0
+p-life=2
+p-linger=2
+p-mesh=eyeBall.sco
+p-meshtex=color-hold.tga
+p-normal-map=distort-ripples.tga
+p-numframes=1
+p-offset=0 80 0
+p-quadrot=70 0 0
+p-rgba=color-bellramp32.tga
+p-scale=12 15 12
+p-startframe=0
+p-type=3
+rendermode=1
+
+[lightning]
+e-local-orient=0
+e-rate=100
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.1
+p-frameRate=9
+p-life=0.1
+p-lifeP1=0 1
+p-lifeP2=1 4
+p-numframes=4
+p-offset=0.5 7 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-lightning.tga
+p-scale=60
+p-scale1=0 1
+p-scale2=1 0.5
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-simpleorient=2
+p-startframe=0
+p-texdiv=3 3
+p-texture=multilightning2.tga
+p-type=1
+p-xscale1=0 1
+p-xscale2=1 1.2000000000000002
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkC4C8E680=1

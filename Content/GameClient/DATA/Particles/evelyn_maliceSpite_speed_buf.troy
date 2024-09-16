@@ -1,0 +1,30 @@
+[System]
+GroupPart1=evelyn_speed_buf
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[evelyn_speed_buf]
+e-life=15
+e-linger=0
+e-local-orient=1
+e-rate=8
+e-timeoffset=0.35
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.55
+p-offset=0 0 0
+p-postoffset=0 25 0
+p-quadrot=45
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-rotvel=270
+p-scale=130 0 0
+p-simpleorient=2
+p-texture=evelyn_speed_indicator.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.3
+p-xscale2=1 1
+rendermode=0
+

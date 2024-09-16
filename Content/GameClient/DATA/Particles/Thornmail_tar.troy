@@ -1,0 +1,105 @@
+[System]
+GroupPart1=blastring
+GroupPart2=star
+GroupPart3=star2
+GroupPart6=ghosts
+
+[blastring]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.1
+p-bindtoemitter=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=0.2
+p-local-orient=1
+p-offset=0 120 20
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=130 130 130
+p-texture=Global_Item_Thornmail_BlastRing.tga
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.23999999463558197 0.23999999463558197 0.23999999463558197
+p-xscale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+pass=-20
+rendermode=4
+
+[ghosts]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=2
+e-uvoffset=0.8 0
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.006000000052154064
+p-life=0.4
+p-mesh=lifeaura.sco
+p-meshtex=Global_Item_Thornmail_MeshWipe.tga
+p-offset=0 0 80
+p-offsetYP1=0 0.1
+p-offsetYP2=1 0.3
+p-postoffset=0 120 0
+p-quadrot=0 0 80
+p-scale=10 5 10
+p-type=3
+p-uvscroll-rgb=2 1
+p-xrgba=0.7 0.5 1 1
+rendermode=0
+single-particle=1
+
+[star]
+e-life=1
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.17499999701976776
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=0.15000000596046448
+p-offset=0 120 20
+p-quadrot=45 0 0
+p-rotvel=100 0 360
+p-scale=120 120 120
+p-startframe=1
+p-texture=Global_Item_Thornmail_Flare01.tga
+p-xrgba=0.7 0.5 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.75 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.2234439849853516 1.2234439849853516 1.2234439849853516
+single-particle=1
+
+[star2]
+e-life=1
+e-local-orient=1
+e-rate=2
+e-timeoffset=0.17499999701976776
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=0.15000000596046448
+p-offset=0 120 20
+p-quadrot=-45 0 0
+p-rotvel=100 0 360
+p-scale=110 110 110
+p-startframe=1
+p-texture=Global_Item_Thornmail_Flare01.tga
+p-xrgba=0.7 0.5 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.2234439849853516 1.2234439849853516 1.2234439849853516
+single-particle=1
+

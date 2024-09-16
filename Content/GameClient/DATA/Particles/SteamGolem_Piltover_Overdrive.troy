@@ -1,0 +1,121 @@
+[FlameAccel]
+f-accel=0 200 0
+f-localspace=0
+
+[FlameAttract]
+f-accel=100
+f-pos=0 200 0
+f-radius=200
+
+[FlameDrag]
+f-drag=0.1
+f-radius=200
+
+[FlameOrbit]
+f-direction=0 1 0
+f-localspace=0
+
+[System]
+GroupPart1=firey
+GroupPart1Type=Simple
+GroupPart2=start
+GroupPart2Type=Simple
+
+[firey]
+KeywordsRequired=PiltoverCustomsBlitz
+e-life=-1
+e-rate=20
+e-rateP1=0 0.5
+e-rateP2=1 1
+e-rateP3=0 0.2
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 30
+e-rotation1P2=1 40
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=FlameAccel
+field-attract-1=FlameAttract
+field-drag-1=FlameDrag
+field-orbit-1=FlameOrbit
+p-bindtoemitter=0.5 0
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=0
+p-life=0.75
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=12
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-exhaustflame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=12 12 12
+p-scaleP1=0 1
+p-scaleP2=1 0.5
+p-startframe=0
+p-texdiv=4 4
+p-texture=flames03.tga
+p-type=0
+p-vel=0 150 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xscale=1
+p-xscale1=0 0.2
+p-xscale2=0.2 1.5
+p-xscale3=0.6000000000000001 2
+p-xscale4=1 0.1
+rendermode=0
+
+[start]
+KeywordsRequired=PiltoverCustomsBlitz
+e-life=0.15
+e-local-orient=1
+e-rate=15
+field-drag-1=FlameDrag
+p-bindtoemitter=0.8 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=120
+p-life=0.55
+p-lifeP1=0 0.4
+p-lifeP2=1 0.7000000000000001
+p-numframes=64
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-exhaustflame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=10
+p-scaleP1=0 1
+p-scaleP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=8 8
+p-texture=billowingcloud2.tga
+p-type=0
+p-vel=0 200 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xscale1=0 1
+p-xscale2=0.4 10
+p-xscale3=1 10
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk1A45CC5C=100
+unk40B9B2C5=50
+unk88F7EECB=0.5
+unk909C498A=0 50 0

@@ -1,0 +1,69 @@
+[System]
+GroupPart1=beam
+GroupPart1Importance=High
+GroupPart2=swirl
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=5000
+
+[beam]
+KeywordsExcluded=VelkozSkin01
+e-life=2.6
+e-linger=0
+e-rate=3
+e-rgba=255 255 255 255
+e-tilesize=0 -1 1
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=2.6
+p-linger=0
+p-mesh=Velkoz_Base_R_Beam.sco
+p-meshtex=Velkoz_Base_R_Beam.tga
+p-scale=80 1 1
+p-scale1=0 0.7 1 1
+p-scale2=1 1.2000000000000002 1 1
+p-type=6
+p-uvscroll-rgb=0 -1
+p-uvscroll-rgbYP1=0 2
+p-uvscroll-rgbYP2=1 3
+p-xrgba1=0 1 1 1 0.3
+p-xrgba2=0.5 1 1 1 1
+p-xscale1=0 0.7 1 1
+p-xscale2=1 2 1 1
+pass=1000
+rendermode=0
+single-particle=1
+
+[swirl]
+KeywordsExcluded=VelkozSkin01
+e-life=2.6
+e-linger=0
+e-rate=10
+e-tilesize=0 -1 1
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-mesh=Velkoz_Base_R_Beam_swirl.sco
+p-meshtex=Velkoz_Base_R_Beam_swirl.tga
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=50 50 50
+p-scale1=0 0.7 0.7 0.7
+p-scale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-scaleXP1=0 0.1
+p-scaleXP2=0.8 0.30000000000000004
+p-scaleXP3=1 1
+p-type=6
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1
+p-uvscroll-rgbYP1=0 1
+p-uvscroll-rgbYP2=1 1
+pass=1
+rendermode=4
+

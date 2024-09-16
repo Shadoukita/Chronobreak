@@ -1,0 +1,35 @@
+[System]
+GroupPart1=gem_sparkle
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[gem_sparkle]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=3
+p-linger=0
+p-mesh=shard.sco
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-eyefade32.tga
+p-scale=0.2 0.2 0.2
+p-simpleorient=1
+p-texture=quartz32.tga
+p-type=3
+p-xscale1=0 1
+p-xscale2=0.019999999552965164 1.100000023841858
+p-xscale3=0.03999999910593033 0.800000011920929
+p-xscale4=0.07999999821186066 1
+p-xscale5=1 1
+pass=100
+rendermode=1
+single-particle=1
+

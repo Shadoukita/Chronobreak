@@ -1,0 +1,26 @@
+[System]
+GroupPart1=Veins_Add
+GroupPart1Importance=High
+
+[Veins_Add]
+e-life=1
+e-rate=1.5
+e-rgba=25 170 200 100
+p-bindtoemitter=1
+p-life=9
+p-linger=0
+p-local-orient=1
+p-meshtex=Azir_Base_W_Avatar_Pulse.dds
+p-simpleorient=3
+p-texdiv=0.5 1
+p-type=11
+p-uvscroll-rgb=0.05 0.05
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.015 1 1 1 1
+p-xrgba3=0.975 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1.024999976158142 1.024999976158142 1.024999976158142
+pass=10
+rendermode=4
+

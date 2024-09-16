@@ -1,0 +1,47 @@
+[System]
+GroupPart1=resonance1
+GroupPart1Type=Complex
+GroupPart2=resonance2
+GroupPart2Type=Complex
+
+[resonance1]
+e-linger=10000
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=1 0
+p-life=10000
+p-linger=10000
+p-offset=0 1 0
+p-quadrot=-90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-hold.tga
+p-rotvel=0 8 0
+p-scale=200 200 200
+p-startframe=0
+p-texdiv=1 1
+p-texture=resonance.tga
+p-type=1
+single-particle=1
+
+[resonance2]
+e-linger=10000
+e-rate=1
+p-bindtoemitter=1 1
+p-colortype=1 0
+p-life=10000
+p-linger=10000
+p-offset=0 1 0
+p-quadrot=-90 1 0
+p-quadrotYP1=0 0
+p-rgba=color-hold.tga
+p-rotvel=0 -8 0
+p-scale=200 200 200
+p-startframe=0
+p-texdiv=1 1
+p-texture=resonance.tga
+p-type=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk8B41397F=1 360

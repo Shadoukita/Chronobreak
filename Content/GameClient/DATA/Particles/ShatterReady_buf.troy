@@ -1,0 +1,45 @@
+[System]
+GroupPart1=ready1
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[ready1]
+e-life=100000
+e-linger=0
+e-local-orient=0
+e-rate=0.8
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=4
+p-linger=1
+p-mesh=CrystalShield2.sco
+p-meshtex=quartz32.tga
+p-numframes=1
+p-offset=0 -1 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-crystal32.tga
+p-rotvelYP1=0 -1
+p-rotvelYP2=0.5 -1
+p-rotvelYP3=0.5099999904632568 1
+p-rotvelYP4=1 1
+p-scale=0.30000000000000004 0.6000000000000001 0.30000000000000004
+p-shadow=1
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-vel=0 20 0
+p-worldaccel=0 10 0
+p-worldaccel1=0 0 1 0
+p-worldaccel2=0.5 0 -3 0
+p-xscale1=0 0.95 0.5 0.95
+p-xscale2=0.20000000298023224 0.9900000095367432 2 0.9900000095367432
+p-xscale3=0.30000000000000004 1 2.2 1
+p-xscale4=1 1 2.2 1
+rendermode=1
+

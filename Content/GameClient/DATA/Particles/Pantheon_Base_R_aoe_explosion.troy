@@ -1,0 +1,205 @@
+[DirtBits]
+e-life=1.0700000524520874
+e-local-orient=0
+e-rate=100
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 -20
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity
+field-drag-1=Drag
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-numframes=4
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 200
+p-quadrot=0
+p-randomstartframe=1
+p-rgba=color-hold.dds
+p-rotvel=0
+p-scale=3
+p-scaleP1=0 0.5
+p-scaleP2=0.9 1
+p-scaleP3=1 3
+p-texdiv=2 2
+p-texture=dirtbits.dds
+p-vel=0 600 0
+p-velYP1=0 0.1
+p-velYP2=0.9 1
+p-velYP3=1 1.2000000000000002
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.9 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+
+[Drag]
+f-drag=0.30000000000000004
+f-radius=1000
+
+[Dust]
+e-life=0.7699999809265137
+e-local-orient=0
+e-rate=50
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 3
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-drag-1=SmokeDrag
+flag-disable-z=1
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=0.9 1
+p-lifeP3=1 2
+p-offset=100 0 0
+p-offsetXP1=0 0.3
+p-offsetXP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-dust32.dds
+p-rotvel=0
+p-scale=40
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texture=smoke08.dds
+p-vel=200 0 0
+p-velXP1=0 0.2
+p-velXP2=1 2
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.1 2 2 2
+p-xscale3=1 3 3 3
+rendermode=1
+
+[Flat]
+e-disabled=1
+e-life=2
+e-local-orient=0
+e-rate=3
+e-timeoffset=0.4699999988079071
+p-colorscale=1 0.2
+p-life=0.6000000000000001
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=0 5 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-sunfiresparks.dds
+p-scale=30 1 1
+p-simpleorient=2
+p-texture=Slam.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.30000000000000004 6 6 6
+p-xscale3=1 8 8 8
+single-particle=1
+
+[SmokeDrag]
+f-drag=2
+f-radius=1000
+
+[System]
+GroupPart1=cracks
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=DirtBits
+GroupPart2Type=Simple
+GroupPart3=Dust
+GroupPart3Type=Simple
+GroupPart4=shockwave
+GroupPart4Importance=High
+GroupPart5=shockwaveedge
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=Flat
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Pantheon_PantheonR_land
+
+[cracks]
+e-life=2.1
+e-rate=1
+e-timeoffset=0.1
+p-life=1.2000000000000002
+p-projection-fading=100
+p-projection-y-range=50
+p-quadrot=0
+p-rgba=color-cardmasterteleport.dds
+p-rotvel=0
+p-scale=200
+p-simpleorient=2
+p-texture=groundcrack.dds
+p-type=7
+p-xquadrot=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1
+rendermode=2
+single-particle=1
+
+[gravity]
+f-accel=0 -1000 0
+
+[shockwave]
+e-disabled=1
+e-life=1.1
+e-rate=1
+e-timeoffset=0.1
+e-uvoffset=0 0.8
+p-life=1
+p-meshtex=shockwavetrailred.dds
+p-offset=0 150 0
+p-rgba=color-shockwaveyellow.dds
+p-scale=10 10 10
+p-type=3
+p-uvscroll-rgb=0 -0.2
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.1 3 3 3
+p-xscale3=0.2 5 5 5
+p-xscale4=1 8 8 8
+single-particle=1
+
+[shockwaveedge]
+e-life=1.1
+e-rate=2
+e-timeoffset=0.1
+p-life=0.6000000000000001
+p-offset=0 150 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.dds
+p-rotvel=0
+p-scale=100
+p-simpleorient=2
+p-texture=ShockwaveEdge.dds
+p-type=1
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.1 3 3 3
+p-xscale3=0.2 5 5 5
+p-xscale4=1 8 8 8
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk1BA0911A=0 -1000 0

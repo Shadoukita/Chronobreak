@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="rengar_base_r_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarpassivebuff"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarr"}}, 
+}

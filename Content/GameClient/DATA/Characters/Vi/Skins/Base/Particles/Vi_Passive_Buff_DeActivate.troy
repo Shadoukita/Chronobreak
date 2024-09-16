@@ -1,0 +1,178 @@
+[System]
+GroupPart1=sphereBreak
+GroupPart1Type=Complex
+GroupPart2=sparks1
+GroupPart2Type=Simple
+GroupPart3=flash
+GroupPart3Type=Simple
+GroupPart4=flash_racer
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[drag]
+f-drag=5
+f-pos=0 0 0
+f-radius=1000
+
+[flash]
+KeywordsRequired=VI
+e-life=0.1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.25
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 -10 0
+p-rgba=alpha_12.tga
+p-scale=184
+p-texture=Flare-Rainbow_orange_04.dds
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.1 2 2 2
+p-xscale3=0.3 1 1 1
+pass=-100
+rendermode=4
+single-particle=1
+
+[flash_racer]
+KeywordsRequired=VIRacer
+e-life=0.1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.25
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 -10 0
+p-rgba=alpha_12.tga
+p-scale=100
+p-texture=Vi_Racer_Anime_Impact.dds
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.7 2 2 2
+p-xscale3=1 1 1 1
+pass=-100
+rendermode=4
+single-particle=1
+
+[noise]
+f-period=0.1
+f-pos=0 1 0
+f-radius=1000
+f-veldelta=100
+
+[sparks1]
+e-life=0.1
+e-linger=0
+e-rate=30
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-drag-1=drag
+field-noise-1=noise
+field-orbit-1=swirl
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=0.8 1
+p-lifeP3=1 2
+p-numframes=4
+p-offset=0 0 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-randomstartframe=1
+p-rgba=color-hotsparks.tga
+p-scale=5q
+p-startframe=0
+p-texdiv=2 2
+p-texture=sparks-orange.tga
+p-type=0
+p-vel=900 -10 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+single-particle=1
+
+[sphereBreak]
+ChildEmitOnDeath=0
+ChildParticleName=Vi_Passive_DeActivate_Child.troy
+e-life=0.2
+e-linger=0.2
+e-rate=100
+e-rgba=255 255 255 255
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=1 0 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-drag=2 2 2
+p-life=0.8
+p-linger=0.2
+p-mesh=Janna_E_Shield_Break.sco
+p-meshtex=Vi_Pass_DeBuff_squigeles.tga
+p-numframes=1
+p-offset=50 0 50
+p-postoffset=0 20 0
+p-quadrot=0 220 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rotvel=90 90 90
+p-rotvelXP1=0 0
+p-rotvelXP2=1 1
+p-rotvelYP1=0 0
+p-rotvelYP2=1 1
+p-rotvelZP1=0 0
+p-rotvelZP2=1 1
+p-scale=30 30 30
+p-startframe=0
+p-texdiv=6 6
+p-type=3
+p-uvscroll-rgb=0 -3
+p-vel=0 300 0
+p-worldaccel=0 -50 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+single-particle=1
+
+[swirl]
+f-direction=0 1 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk44BC65BB=1
+unk7E98E49D=1

@@ -1,0 +1,112 @@
+[Justicarglow]
+KeywordsRequired=SyndraJusticar
+e-life=5.5
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-flexoffset=0.002
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=1
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-bellcurve.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=80
+p-texture=flare-sun_30.tga
+p-vel=0 0 0
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 1 0 0 1
+p-xrgba3=1 0.8 0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=0
+
+[Justicarmagic]
+KeywordsRequired=SyndraJusticar
+e-life=5.5
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=1
+p-quadrot=360 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rgba=color-bellcurve.tga
+p-scale=140 140 150
+p-texture=darksov_justicar_ball.tga
+p-vel=0 0 0
+p-xrgba=0.9 0.7 0.2 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=0
+
+[System]
+GroupPart1=magic
+GroupPart2=glow
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Justicarmagic
+GroupPart4=Justicarglow
+GroupPart4Importance=High
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[glow]
+KeywordsExcluded=SyndraJusticar
+e-life=5.5
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-flexoffset=0.002
+p-flexscale=0.0035000001080334187
+p-life=1
+p-linger=1
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-bellcurve.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=150
+p-texture=flare-sun_red.tga
+p-vel=0 0 0
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=0
+
+[magic]
+KeywordsExcluded=SyndraJusticar
+e-life=5.5
+e-linger=0
+e-rate=15
+p-bindtoemitter=1 1
+p-life=1
+p-linger=1
+p-quadrot=360 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rgba=color-bellcurve32.tga
+p-scale=150 150 150
+p-texture=morgana_blackthorn_rot_energy.tga
+p-vel=0 0 0
+p-xrgba1=0 0 0 0 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1
+unkE0DCC5C9=1

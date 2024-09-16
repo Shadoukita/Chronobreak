@@ -1,0 +1,91 @@
+[System]
+GroupPart1=starswirl
+GroupPart1Type=Simple
+GroupPart2=shafts
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[shafts]
+e-life=0.5
+e-linger=1
+e-rate=50
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-orbit-1=swirl
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-colortype=1 3
+p-life=1
+p-linger=1
+p-offset=40 0 0
+p-quadrot=0
+p-rgba=color-EternalThirst.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=10
+p-scalebias=1 3
+p-simpleorient=3
+p-texture=Nasus_Base_P_Heal_Vert.dds
+p-type=1
+p-vel=0 300 -200
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.0037037041038274765 0 0 0
+p-xscale3=0.24799999594688416 2.6245310306549072 0 0
+p-xscale4=0.5109999775886536 5.449999809265137 0 0
+p-xscale5=1 0 0 0
+
+[starswirl]
+e-life=0.4
+e-linger=1
+e-rate=50
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-orbit-1=swirl
+p-bindtoemitter=1 1
+p-life=1
+p-linger=1
+p-offset=40 0 0
+p-quadrot=1
+p-rgba=EternalThirst_buf__starswirl__p-rgba.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=5
+p-texture=Nasus_Base_P_Lifesteal.dds
+p-vel=0 300 -200
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.07729630172252655 5.190036773681641 0 0
+p-xscale3=0.24799999594688416 5.857999801635742 0 0
+p-xscale4=1 0 0 0
+rendermode=4
+
+[swirl]
+f-direction=0 1 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk5A138708=0 255 255 255 0
+unk5A138709=1 255 255 255 0
+unk5A148747=0 253 253 255 254
+unk5A148748=1 0 0 255 255
+unk5A158786=0 255 255 255 0
+unk5A158787=1 255 255 255 0
+unk5A1687C5=0 0 0 0 255
+unk5A1687C6=0.4627115 255 255 255 255
+unk5A1687C7=1 0 0 0 255
+unk80BEF05B=0 0 0 255 255
+unk80BEF05C=0.3923526 98 195 255 255
+unk80BEF05D=0.8693333 0 0 255 255
+unk80BEF05E=1 0 0 0 255
+unk80BFF09A=0 140 0 255 255
+unk80BFF09B=0.175506 255 255 255 0
+unk80BFF09C=1 255 255 255 0

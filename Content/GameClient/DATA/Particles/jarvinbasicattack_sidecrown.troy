@@ -1,0 +1,69 @@
+[System]
+GroupPart1=crown
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[crown]
+e-life=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.05000000074505806
+p-backfaceon=1
+p-bindtoemitter=0
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-mesh=saucer5.sco
+p-meshtex=cylinder01.tga
+p-numframes=1
+p-offset=50 100 -215
+p-quadrot=0 0 -90
+p-rgba=color-lensbell.tga
+p-rotvel=0 70 0
+p-scale=10 10 30
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 0
+p-vel=-1000 0 400
+p-xscale1=0 0 0 0
+p-xscale2=0.1 0.2 0.5 0.2
+p-xscale3=1 0.30000000000000004 3 0.30000000000000004
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk02259F35=1
+unk045145D4=0 0.9
+unk045145D5=1 1.1
+unk07475BE5=0
+unk216331E8=0 0
+unk216331E9=0.2 7
+unk216331EA=1 0.1
+unk3F0DB74E=2
+unk5D2FC393=13
+unk63103A53=2
+unk6CEE595E=1 0.3499999940395355
+unk6F280C9E=1
+unk7938FECB=color-levelup.tga
+unk794982D9=1
+unk7A898701=2 4
+unk826E7882=1
+unk88FA0246=1 0
+unk93E25C94=0 1.2
+unk93E25C95=1 0.8
+unk95D88682=6
+unk9D2AFEA4=levelup02.tga
+unkA4EB20DF=1 1
+unkAF6F67D6=0
+unkD3F3C21A=0 0
+unkD3F3C21B=1 360
+unkDDBF0991=1
+unkDF31BAD1=1
+unkF11CFC13=0
+unkF18D4C2A=0 2 0
+unkFCDA7852=linger=0

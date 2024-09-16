@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="kalistaexpunge"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistaexpungewrapper"}}, 
+{Function=BBPreloadSpell, Params={Name="unlockanimation"}}, 
+}

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kalistaallyarrow.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+}

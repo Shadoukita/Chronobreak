@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="kalistapbondingrootally"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistapaltarallyroot"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistapinvocation"}}, 
+}

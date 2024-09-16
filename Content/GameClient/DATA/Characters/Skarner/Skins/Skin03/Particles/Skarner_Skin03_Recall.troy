@@ -1,0 +1,20 @@
+[System]
+GroupPart1=refresh
+SimulateEveryFrame=1
+
+[refresh]
+e-life=0.15000000596046448
+e-rate=1
+p-animation=skarner_skin03_recall_hook.anm
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-meshtex=Skarner_Skin03_recall_hook_02.dds
+p-shadow=1
+p-skeleton=Skarner_Skin03_Recall.skl
+p-skin=Skarner_Skin03_Recall.skn
+p-type=3
+p-uvscroll-no-alpha=1
+rendermode=1
+single-particle=1
+

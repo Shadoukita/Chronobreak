@@ -1,0 +1,68 @@
+[System]
+GroupPart1=arrowBase
+GroupPart1Importance=High
+GroupPart2=arrowSkin1
+GroupPart2Importance=High
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+
+[arrowBase]
+KeywordsExcluded=SyndraJusticar
+e-life=1
+e-linger=0
+e-rate=-1
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 0.2
+p-colortype=0 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=orbarrow.sco
+p-meshtex=orbarrow32.tga
+p-offset=0 -50 -125
+p-orbitvel=0 0 0
+p-postoffset=0 100 0
+p-quadrot=0 180 0
+p-rgba=Syndra_Arrow.tga
+p-scale=1.5 3 1.5
+p-shadow=1
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=0 0
+rendermode=3
+single-particle=1
+teamcolor-correction=1
+
+[arrowSkin1]
+KeywordsRequired=SyndraJusticar
+e-life=1
+e-linger=0
+e-rate=-1
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 0.2
+p-colortype=0 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=orbarrow.sco
+p-meshtex=orbarrow32.tga
+p-offset=0 -50 -125
+p-orbitvel=0 0 0
+p-postoffset=0 100 0
+p-quadrot=0 180 0
+p-rgba=Syndra_ArrowSkin1.tga
+p-scale=1.5 3 1.5
+p-shadow=1
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=0 0
+p-xrgba=1 1 1 0.5
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+
+[UNKNOWN_HASHES]
+unk4720C5B0=1
+unkAB2A26E1=1

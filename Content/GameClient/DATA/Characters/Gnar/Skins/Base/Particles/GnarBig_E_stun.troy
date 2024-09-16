@@ -1,0 +1,103 @@
+[System]
+GroupPart1=blastring
+GroupPart1Type=Simple
+GroupPart2=star
+GroupPart2Type=Simple
+GroupPart3=star2
+GroupPart3Type=Simple
+GroupPart4=outerring
+GroupPart4Type=Simple
+GroupPart5=innerring
+GroupPart5Type=Simple
+SoundOnCreate=Play_sfx_Amumu_BandageToss_hit
+
+[blastring]
+e-life=1
+e-rate=1
+p-life=0.5
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_red_rgba.tga
+p-scale=180
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.0010000467300415
+
+[innerring]
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_red_rgba.tga
+p-scale=130
+p-startframe=3
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.0010000467300415
+
+[outerring]
+e-life=1
+e-rate=1
+p-life=0.5
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_red_rgba.tga
+p-scale=90
+p-startframe=4
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.1863700151443481
+
+[star]
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_red_rgba.tga
+p-scale=150
+p-startframe=1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.2234439849853516
+
+[star2]
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=-45
+p-rgba=globalhit_red_rgba.tga
+p-scale=120
+p-startframe=1
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.2234439849853516
+
+[UNKNOWN_HASHES]
+unk3AE55274=0 60 165 183 255
+unk3AE55275=0.92 0 0 0 255
+unk492ADD6E=0 60 165 183 255
+unk492ADD6F=0.92 0 0 0 255
+unk7D642E82=0 60 165 183 255
+unk7D642E83=0.92 0 0 0 255
+unkA57D1169=0 255 255 255 255
+unkA57D116A=0.92 0 0 0 255
+unkEEB21C8C=0 60 165 183 255
+unkEEB21C8D=0.92 0 0 0 255

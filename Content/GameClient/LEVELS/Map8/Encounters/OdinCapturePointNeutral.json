@@ -1,0 +1,19 @@
+{"EncounterDefinition": {
+"BonusValue": 12,
+"SquadAI": "Guard",
+"MonsterGroups":
+[
+	{
+		"Monsters":
+		[
+			{
+				"SkinName": "OdinNeutralGuardian",
+				"Value": 1,
+				"Count": 1,
+				"BehaviorTreeAI": 1,
+				"Targetable": 0
+			}
+		]
+	}
+]
+}} 

@@ -1,0 +1,51 @@
+[System]
+GroupPart1=bang
+GroupPart1Type=Simple
+GroupPart2=ring
+GroupPart2Type=Simple
+
+[bang]
+e-life=0.5
+e-linger=0.5
+e-rate=4
+p-bindtoemitter=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=0.5
+p-linger=0
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 45
+p-rgba=color-bellcurve.tga
+p-scale=140
+p-startframe=3
+p-texdiv=2 3
+p-texture=icearrow03.tga
+p-xscale1=0 0
+p-xscale2=1 2
+
+[ring]
+e-life=0.5
+e-linger=0
+e-rate=16
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=0.4
+p-linger=0
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 45
+p-rgba=color-orangemissile.tga
+p-scale=120
+p-startframe=0
+p-texdiv=1 1
+p-texture=saucer01.tga
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 2.5 1 1
+

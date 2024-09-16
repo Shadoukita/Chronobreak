@@ -1,0 +1,25 @@
+[System]
+GroupPart1=trail
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[trail]
+e-life=4
+e-rate=100
+e-tilesize=100 0 0
+p-bindtoemitter=0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-life=0.5
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=color-rainbowbell.tga
+p-scale=10 0 1
+p-texture=color-hold.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 1 0
+p-xscale2=1 0 0 0
+rendermode=0
+

@@ -1,0 +1,42 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=glow_Arctic
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[glow]
+KeywordsExcluded=VarusSkin03
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=8
+p-linger=0
+p-postoffset=0 10 0
+p-rgba=Varus_Passive_Buff_Min_RGB.tga
+p-scale=80
+p-texture=glow-soft.tga
+p-type=0
+rendermode=0
+single-particle=1
+
+[glow_Arctic]
+KeywordsRequired=VarusSkin03
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=8
+p-linger=0
+p-postoffset=0 10 0
+p-rgba=Varus_Arctic_Passive_Buff_Min_RGB.tga
+p-scale=90
+p-texture=glow-soft.tga
+p-type=0
+rendermode=0
+single-particle=1
+

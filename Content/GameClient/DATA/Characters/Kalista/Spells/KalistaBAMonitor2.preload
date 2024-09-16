@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="jinx_w_beampurple.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_Kalista_ba_bufferx.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="jinx_w_beamblue.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_Kalista_ba_bufferxred.troy"}}, 
+}

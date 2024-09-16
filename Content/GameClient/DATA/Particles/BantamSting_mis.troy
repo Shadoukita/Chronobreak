@@ -1,0 +1,59 @@
+[System]
+GroupPart1=followsparksdark
+GroupPart1Type=Simple
+GroupPart2=dart
+GroupPart2Type=complex
+SimulateEveryFrame=1
+
+[dart]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=blowDart1.sco
+p-meshtex=blowDart04.tga
+p-quadrot=90 0 0
+p-scale=10 10 10
+p-type=3
+rendermode=1
+
+[followsparksdark]
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0.7000000000000001 0
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-life=0.5
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=-1
+p-offset=5 5 5
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-quadrot=1
+p-rgba=color-darkmissile.tga
+p-scale=5
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 1
+p-texture=Bubble01.tga
+p-vel=0 -50 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+
+[UNKNOWN_HASHES]
+unk38936470=1

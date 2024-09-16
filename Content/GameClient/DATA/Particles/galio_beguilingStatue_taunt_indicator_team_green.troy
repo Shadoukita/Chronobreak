@@ -1,0 +1,160 @@
+[CommandoMaterialOverride]
+KeywordsRequired=CommandoGalio
+MaterialOverride1BlendMode=3
+MaterialOverride1Texture=galio_armor_commando_05.dds
+e-life=0
+e-rate=0
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[DefaultMaterialOverride]
+KeywordsRequired=BaseGalio
+MaterialOverride1BlendMode=3
+MaterialOverride1Texture=galio_armor_05.tga
+e-life=0
+e-rate=0
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[EnchantedMaterialOverride]
+KeywordsRequired=EnchantedGalio
+MaterialOverride1BlendMode=3
+MaterialOverride1Texture=galio_armor_enchanted_05.dds
+e-life=0
+e-rate=0
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[HextechMaterialOverride]
+KeywordsRequired=HextechGalio
+MaterialOverride1BlendMode=3
+MaterialOverride1Texture=galio_armor_hextech_05.dds
+e-life=0
+e-rate=0
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[System]
+GroupPart1=siren
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=siren_range
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=border
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=pulse
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=DefaultMaterialOverride
+GroupPart5Type=Simple
+GroupPart6=EnchantedMaterialOverride
+GroupPart6Type=Simple
+GroupPart7=HextechMaterialOverride
+GroupPart7Type=Simple
+GroupPart8=CommandoMaterialOverride
+GroupPart8Type=Simple
+
+[border]
+e-life=1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=10
+p-linger=0
+p-postoffset=0 30 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rotvel=360 0 0
+p-scale=560
+p-simpleorient=2
+p-texture=team_ring_green_02.tga
+p-type=1
+rendermode=1
+teamcolor-correction=1
+
+[pulse]
+KeywordsExcluded=GatekeeperGalio
+e-life=7
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-linger=0
+p-postoffset=0 45 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_03.tga
+p-rotvel=360 0 0
+p-scale=35
+p-simpleorient=2
+p-texture=blast_ring_02.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+
+[siren]
+KeywordsExcluded=GatekeeperGalio
+e-life=3
+e-linger=0
+e-rate=8
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.4
+p-linger=0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_03.tga
+p-rotvel=360 0 0
+p-scale=10
+p-simpleorient=2
+p-texture=blast_ring_02.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+
+[siren_range]
+KeywordsExcluded=GatekeeperGalio
+e-life=3
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=2
+p-linger=0
+p-rgba=alpha_03.tga
+p-scale=10
+p-simpleorient=2
+p-texture=blast_ring_02.tga
+p-type=0
+p-xscale=1
+

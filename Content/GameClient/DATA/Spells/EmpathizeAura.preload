@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Morgana_Skin05_idle1_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Morgana_Base_Idle2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Morgana_Base_Idle.troy"}}, 
+}

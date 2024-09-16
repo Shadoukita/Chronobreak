@@ -1,0 +1,40 @@
+[System]
+GroupPart1=shieldhit
+SoundOnCreate=Play_sfx_Blitzcrank_ManaBarrier_Hit
+group-scale-cap=-1
+
+[shieldhit]
+e-active=0.5
+e-life=100000
+e-linger=0
+e-local-orient=0
+e-uvoffset=1 0.2
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 0.5
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=1
+p-mesh=steamgolemshield.sco
+p-meshtex=steamgolemshield.tga
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=0 70 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotXP2=1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-hold.tga
+p-scale=10 10 10
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0.20000000298023224 -0.5
+rendermode=0
+

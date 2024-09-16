@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Caitlyn_Headshot2.dds"
+BuffTextureName = L0_1
+L0_1 = "CaitlynHeadshotReady"
+BuffName = L0_1
+L0_1 = {}
+L1_1 = "CaitlynSkin06"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

@@ -1,0 +1,16 @@
+[System]
+GroupPart1=base
+GroupPart1Type=Simple
+
+[base]
+e-life=-1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=1
+p-offset=0 10 0
+p-scale=100
+p-simpleorient=2
+p-texture=Black.tga
+p-type=1
+single-particle=1
+

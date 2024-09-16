@@ -1,0 +1,105 @@
+[Drag]
+f-drag=0.15000000596046448
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=rocks
+GroupPart1Importance=Medium
+GroupPart1Type=Simple
+GroupPart2=dust_01
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Nautilus_NautilusAnchorDragMissile_dirt_slide
+
+[dust_01]
+e-life=0.45
+e-linger=0
+e-local-orient=0
+e-rate=320
+e-rotation1=360
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=360
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+field-drag-1=SmokeDrag
+p-bindtoemitter=0.65 0
+p-life=0.45
+p-lifeP1=0 0.9
+p-lifeP2=1 1.1
+p-postoffset=130 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32.tga
+p-rotvel=1
+p-rotvelP1=0 -60
+p-rotvelP2=1 60
+p-scale=22
+p-scaleP1=0 1
+p-scaleP2=1 1.8
+p-texture=sand_04.tga
+p-type=0
+p-vel=100 290 100
+p-velYP1=0 0.35
+p-velYP2=1 1.1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 2
+rendermode=1
+
+[gravity_02]
+f-accel=0 -4950 0
+f-localspace=0
+
+[rocks]
+e-life=0.9
+e-linger=0
+e-local-orient=0
+e-rate=60
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 -10
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity_02
+field-drag-1=Drag
+p-bindtoemitter=0.8 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.3
+p-linger=-1
+p-numframes=4
+p-offset=1 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 50
+p-postoffset=110 0 0
+p-randomstartframe=1
+p-scale=6
+p-scaleP1=0 0.75
+p-scaleP2=0.9 1.5
+p-scaleP3=1 1.75
+p-startframe=0
+p-texdiv=2 2
+p-texture=DirtBits_earthy.tga
+p-type=0
+p-vel=2 1225 2
+p-velYP1=0 0.75
+p-velYP2=0.9 1
+p-velYP3=1 1.25
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.9 1
+p-xscale3=1 0
+rendermode=1
+

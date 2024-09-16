@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="tt_spiderbosssingedorder"}}, 
+{Function=BBPreloadSpell, Params={Name="tt_spiderbosssingedchaos"}}, 
+{Function=BBPreloadSpell, Params={Name="resistantskin"}}, 
+{Function=BBPreloadSpell, Params={Name="monsterminiondamageamp"}}, 
+{Function=BBPreloadSpell, Params={Name="baroncorruption"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_baron_death.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="barondamage"}}, 
+{Function=BBPreloadSpell, Params={Name="baronattackstop"}}, 
+}

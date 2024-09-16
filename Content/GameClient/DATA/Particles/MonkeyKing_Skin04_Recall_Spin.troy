@@ -1,0 +1,52 @@
+[Arc]
+e-life=2.4000000000000004
+e-linger=0.5
+e-local-orient=0
+e-rate=20
+e-timeoffset=0.4
+p-backfaceon=1
+p-colortype=1 3
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.8
+p-lifeP1=0 0.75
+p-lifeP2=1 1
+p-linger=1
+p-mesh=MonkeyKing_Skin04_Recall_Spin_Arc.scb
+p-meshtex=MonkeyKing_Skin04_Recall_Spin_Arc.dds
+p-numframes=4
+p-offset=0 1 0
+p-offsetYP1=0 20
+p-offsetYP2=1 30
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=MonkeyKing_Skin04_Recall_Spin_Arc_Color.dds
+p-rotvel=0 600 0
+p-rotvelYP1=0 0.5
+p-rotvelYP2=1 2
+p-scale=1.5 1.5 1.5
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1
+p-scaleYP1=0 0.7
+p-scaleYP2=1 1
+p-scaleZP1=0 0.7
+p-scaleZP2=1 1
+p-texdiv=1 4
+p-type=3
+p-vel=0 1 0
+p-velYP1=0 -400
+p-velYP2=1 -350
+p-xrgba=1 1 1 0.700007975101471
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 1
+pass=100
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=Arc
+SimulateEveryFrame=1
+

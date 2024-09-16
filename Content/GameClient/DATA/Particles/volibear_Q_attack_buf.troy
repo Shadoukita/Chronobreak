@@ -1,0 +1,262 @@
+[System]
+GroupPart1=bracer_storm_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=glow
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=flat
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=flat_02
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=leaves
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=bracer_storm_01
+GroupPart6Importance=High
+GroupPart6Type=Simple
+GroupPart7=bracer_storm_03
+GroupPart7Importance=High
+GroupPart7Type=Simple
+GroupPart8=leaves2
+GroupPart8Importance=High
+GroupPart8Type=Simple
+SimulateEveryFrame=1
+
+[bracer_storm_01]
+KeywordsExcluded=VolibearRunewars
+e-life=4
+e-rate=4
+e-rgba=255 215 215 255
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.8
+p-linger=0
+p-postoffset=0 -30 0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=alpha_03.tga
+p-rotvel=-900
+p-scale=67
+p-simpleorient=2
+p-texture=volibear_storm_01.dds
+p-type=1
+p-vel=0 100 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 0 0 0 0.5
+p-xrgba3=1 0 0 0 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0.1
+
+[bracer_storm_02]
+KeywordsExcluded=VolibearRunewars
+e-life=4
+e-rate=17
+e-rgba=255 215 215 255
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.8
+p-linger=0
+p-postoffset=0 -30 0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=alpha_03.tga
+p-rotvel=-900
+p-scale=55
+p-simpleorient=2
+p-texture=volibear_storm_01.dds
+p-type=1
+p-vel=0 100 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 0 0 0 0.5
+p-xrgba3=1 0 0 0 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0.1
+
+[bracer_storm_03]
+KeywordsExcluded=VolibearRunewars
+e-life=4
+e-rate=12
+e-rgba=255 215 215 255
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.7000000000000001
+p-linger=0
+p-postoffset=0 -20 0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=alpha_03.tga
+p-rotvel=-800
+p-scale=60
+p-simpleorient=2
+p-texture=volibear_storm_02.dds
+p-type=1
+p-vel=0 60 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 0 0 0 0.5
+p-xrgba3=1 0 0 0 0
+p-xscale=1
+p-xscale1=0 0.7
+p-xscale2=0.5 0.4
+p-xscale3=1 0.2
+
+[flat]
+KeywordsExcluded=VolibearRunewars
+e-life=0.25
+e-local-orient=0
+e-rate=2
+e-timeoffset=0.15000000596046448
+p-life=0.1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=90
+p-scale=495
+p-texture=Flare-sun_28.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+
+[flat_02]
+KeywordsExcluded=VolibearRunewars
+e-life=0.25
+e-local-orient=0
+e-rate=2
+e-timeoffset=0.15000000596046448
+p-life=0.25
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=90
+p-scale=460
+p-texture=Flare-sun_28.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 0.5
+p-xscale3=1 1
+
+[glow]
+KeywordsExcluded=VolibearRunewars
+e-life=4
+e-rate=7
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 -20 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=87
+p-texture=Flare-sun_28.dds
+
+[leaves]
+KeywordsExcluded=VolibearRunewars
+e-life=4
+e-local-orient=0
+e-rate=12
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-life=0.75
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-offset=2 12 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.15000000596046448
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 -40 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=9.5
+p-scaleP1=0 0.45
+p-scaleP2=1 1.1
+p-texture=leaf_01.dds
+p-vel=0 80 620
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 1.5
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=1
+
+[leaves2]
+KeywordsExcluded=VolibearRunewars
+e-life=4
+e-local-orient=0
+e-rate=16
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-life=0.75
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-offset=2 12 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.15000000596046448
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 -40 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=18
+p-scaleP1=0 0.45
+p-scaleP2=1 1.1
+p-texture=leaf_08.dds
+p-vel=0 80 620
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 1.5
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=1
+
+[orbit1]
+f-direction=0 1 0
+
+[slow]
+f-drag=1
+f-radius=10000
+
+[up]
+f-accel=0 100 0
+
+[UNKNOWN_HASHES]
+unk3BB7F51A=1 1
+unk9BD31F60=1
+unkDAAC5B09=1 1

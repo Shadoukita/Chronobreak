@@ -1,0 +1,43 @@
+[System]
+GroupPart1=axe_glow
+GroupPart1Importance=High
+
+[axe_glow]
+e-life=6
+e-linger=-1
+e-local-orient=1
+e-rate=6
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=40
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-offset=0 0 0
+p-scale=160 0.9 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=lightning_03.tga
+p-type=6
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0866505E=6
+unk103F0573=0 600
+unk16AD9146=150 1.100000023841858 1
+unk3C0E5836=1
+unk5C8EC892=1
+unk62CCE4A0=0
+unk6C9344B7=0 1
+unk7AEFFAF2=0
+unk7CB29E27=0
+unk8524D8F7=0 0 0
+unk8C44CFE0=6
+unk9562B144=1
+unk985CA22B=10000
+unkA26D9458=alpha_08.tga
+unkABA30E0F=1
+unkB2B722D7=sword_glow_04.tga
+unkE2DAE0EF=0.2
+unkEE32260E=1 1

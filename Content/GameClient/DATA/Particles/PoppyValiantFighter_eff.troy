@@ -1,0 +1,57 @@
+[System]
+GroupPart1=hiteffect
+GroupPart1Type=Simple
+GroupPart2=hiteffect2
+GroupPart2Type=Simple
+
+[hiteffect]
+e-life=0.30000000000000004
+e-rate=5
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.2
+p-linger=0
+p-offset=0 80 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-poppyvaliantfighter.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.30000000000000004 0
+p-rotvel3=0.6499999761581421 0
+p-rotvel4=1 0
+p-scale=14
+p-startframe=1
+p-texdiv=2 1
+p-texture=FeelNoPain01.tga
+p-xscale=1
+p-xscale1=0 10
+p-xscale2=0.5 10
+p-xscale3=1 10
+
+[hiteffect2]
+e-life=0.30000000000000004
+e-rate=20
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=0.30000000000000004
+p-linger=0
+p-offset=0 80 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-poppyvaliantfighter.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.30000000000000004 0
+p-rotvel3=0.6499999761581421 0
+p-rotvel4=1 0
+p-scale=14
+p-texdiv=2 1
+p-texture=FeelNoPain01.tga
+p-xscale=1
+p-xscale1=0 10
+p-xscale2=0.5 10
+p-xscale3=1 10
+

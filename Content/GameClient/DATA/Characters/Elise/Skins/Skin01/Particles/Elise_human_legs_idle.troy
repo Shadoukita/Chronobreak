@@ -1,0 +1,143 @@
+[Glow]
+KeywordsRequired=EliseLotusFlower
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=10
+field-accel-1=GlowAccel
+field-drag-1=GlowDrag
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-AhriDash.tga
+p-scale=30
+p-scale1=0 1
+p-scale2=1 0.3
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-texture=greenglow.tga
+p-type=0
+p-vel=60 0 0
+p-velXP1=0 -0.3
+p-velXP2=1 1.3
+rendermode=0
+
+[GlowAccel]
+f-accel=0 -10 0
+f-localspace=1
+
+[GlowDrag]
+f-drag=0.3
+f-pos=0 0 0
+f-radius=300
+
+[ShadowAccel]
+f-accel=140 -50 0
+f-localspace=1
+
+[ShadowAlphaAccel]
+f-accel=120 -50 0
+f-localspace=1
+
+[ShadowDrag]
+f-drag=1
+f-pos=0 0 0
+f-radius=300
+
+[Shadow_Add]
+KeywordsRequired=EliseLotusFlower
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=10
+field-accel-1=ShadowAccel
+field-drag-1=ShadowDrag
+p-accel=140 -50 0
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0.4
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=1 1 1
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-linger=1
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-Elise_bluetrail.tga
+p-rotvel=10
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=15 15 0
+p-scaleXP1=0 0.4
+p-scaleXP2=1 1
+p-startframe=8
+p-texdiv=4 4
+p-texture=hecarimflame.tga
+p-type=0
+p-xscale1=0 0.7 0.7 0
+p-xscale2=1 2 2 0
+rendermode=4
+uniformscale=1
+
+[Shadow_Alpha]
+KeywordsRequired=EliseLotusFlower
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=10
+field-accel-1=ShadowAlphaAccel
+field-drag-1=ShadowDrag
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1.5
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-linger=1.5
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-Elise_bluestrands.tga
+p-rotvel=30
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=15
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-startframe=8
+p-texdiv=4 4
+p-texture=hecarimflame.tga
+p-type=0
+p-xscale1=0 0.3
+p-xscale2=1 1.5
+rendermode=1
+
+[System]
+GroupPart1=Shadow_Add
+GroupPart2=Shadow_Alpha
+GroupPart2Type=Simple
+GroupPart3=Glow
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

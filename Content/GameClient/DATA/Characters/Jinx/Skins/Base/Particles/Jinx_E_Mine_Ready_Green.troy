@@ -1,0 +1,73 @@
+[Glow]
+e-life=5
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 20 0
+p-quadrot=90 0 0
+p-scale=80 80 80
+p-simpleorient=2
+p-texture=flashgreen.tga
+p-type=1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 1 1 1 0.8
+p-xrgba3=1 0 0 0 0
+p-xscale1=0 0.3 0.3 0.5
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.3 0.3 0.5
+rendermode=0
+teamcolor-correction=1
+
+[Pulse]
+e-life=5
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 20 0
+p-quadrot=90 0 0
+p-scale=115 115 115
+p-texture=shockwave_simple_01.tga
+p-type=1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0 1 0 0.7
+p-xrgba3=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=0
+teamcolor-correction=1
+
+[Start]
+e-life=5
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.2
+p-offset=1 1 1
+p-postoffset=0 20 0
+p-rgba=Jinx_E_Team_RGB.tga
+p-scale=115
+p-simpleorient=2
+p-texture=glow-soft.tga
+p-xscale1=0 1.25 1.25 1.25
+p-xscale2=1 1 1 1
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[System]
+GroupPart1=Glow
+GroupPart1Importance=High
+GroupPart2=Start
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Pulse
+GroupPart3Importance=High
+SimulateEveryFrame=1
+

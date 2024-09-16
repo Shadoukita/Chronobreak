@@ -1,0 +1,124 @@
+[System]
+GroupPart1=trail
+GroupPart1Importance=Medium
+GroupPart1Type=Complex
+GroupPart2=magic_Immortal
+GroupPart2Type=Simple
+GroupPart3=trail2
+GroupPart3Importance=Medium
+GroupPart3Type=Complex
+GroupPart4=magic_Immortal2
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[magic_Immortal]
+KeywordsRequired=Immortal_Jax
+e-life=0.35
+e-rate=30
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0 0
+p-life=0.30000000000000004
+p-lifeP1=0 0.6000000000000001
+p-lifeP2=1 1.25
+p-linger=0.5
+p-postoffset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 180
+p-rgba=color-rampdown.tga
+p-scale=1
+p-scaleP1=0 18
+p-scaleP2=1 55
+p-texture=flare-Rainbow_purp_01.tga
+p-type=0
+p-vel=150 150 150
+p-xscale=1 1 1
+p-xscale1=0 0
+p-xscale2=0.7000000000000001 0.8
+p-xscale3=1 0.2
+
+[magic_Immortal2]
+KeywordsRequired=Immortal_Jax
+e-life=0.05
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0 0
+p-life=0.5
+p-lifeP1=0 0.6000000000000001
+p-lifeP2=1 1.25
+p-linger=0.5
+p-postoffset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 180
+p-rgba=color-rampdown.tga
+p-scale=1
+p-scaleP1=0 18
+p-scaleP2=1 55
+p-texture=flare-Rainbow_purp_01.tga
+p-type=0
+p-vel=150 150 150
+p-xscale=1 1 1
+p-xscale1=0 0
+p-xscale2=0.7000000000000001 0.8
+p-xscale3=1 0.2
+
+[trail]
+KeywordsRequired=Immortal_Jax
+e-life=0.5
+e-linger=0
+e-rate=100
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0
+p-life=0.35
+p-linger=-1
+p-quadrot=0 0 0
+p-scale=60 60 60
+p-texture=streak_01.tga
+p-type=0
+p-vel=0 0 0
+p-xrgba1=0 0.35 0 0.35 0
+p-xrgba2=0.5 0.35 0 0.35 1
+p-xrgba3=1 0.35 0 0.35 0
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.3 1 1 1
+p-xscale3=1 0.1 0.1 0.1
+rendermode=0
+
+[trail2]
+KeywordsRequired=Immortal_Jax
+e-life=0.5
+e-linger=0
+e-rate=500
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0
+p-life=0.45
+p-linger=-1
+p-quadrot=0 0 0
+p-scale=7 7 7
+p-texture=streak_01.tga
+p-type=0
+p-vel=0 0 0
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.5 0.2 0.2 1 1
+p-xrgba3=1 0.2 0.2 1 0
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.1 0.1 0.1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk3CE8EEF0=1
+unkCC57E20A=1

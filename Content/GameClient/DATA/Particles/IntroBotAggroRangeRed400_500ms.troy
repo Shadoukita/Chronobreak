@@ -1,0 +1,64 @@
+[OuterRing]
+e-disabled=1
+e-life=9.5
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-offset=0 25 0
+p-quadrot=90 0 0
+p-scale=400 400 400
+p-simpleorient=2
+p-texture=IntroBotAggroRing.dds
+p-type=1
+p-xrgba=0.8196079730987549 0.67843097448349 0.2549020051956177 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=innerRing
+GroupPart1Importance=High
+GroupPart2=fullInnerRing
+GroupPart2Importance=High
+GroupPart3=OuterRing
+GroupPart3Importance=High
+
+[fullInnerRing]
+e-life=8
+e-rate=1
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-offset=0 25 0
+p-quadrot=90 0 0
+p-scale=400 400 400
+p-simpleorient=2
+p-texture=IntroBotAggroRingFull.dds
+p-type=1
+p-xrgba=1 0.2627449929714203 0.2627449929714203 1
+rendermode=1
+single-particle=1
+
+[innerRing]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-offset=0 25 0
+p-quadrot=90 0 0
+p-scale=400 400 400
+p-simpleorient=2
+p-texture=IntroBotAggroRing.dds
+p-type=1
+p-xrgba=1 0.2588239908218384 0.2588239908218384 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.99 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=1
+single-particle=1
+

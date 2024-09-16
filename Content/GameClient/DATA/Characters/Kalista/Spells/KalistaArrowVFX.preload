@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Kalistaallyarrow.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="direction-arrow.troy"}}, 
+}

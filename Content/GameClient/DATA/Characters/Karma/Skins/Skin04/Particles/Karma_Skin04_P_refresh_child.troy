@@ -1,0 +1,132 @@
+[Skin04_trail]
+e-rate=120
+p-bindtoemitter=0 0.4
+p-life=0.8
+p-scale=60 3 3
+p-startframe=1
+p-texdiv=2 2
+p-texture=AirSpiritStreak.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.447059 0.329412 0.05098 0.247105
+p-xrgba2=0.1 0.447059 0.337255 0.054902 0.297993
+p-xrgba3=0.6 0.447059 0.337255 0.086275 0.098039
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+
+[System]
+GroupPart1=sparkle
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=flash_center
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Skin04_trail
+GroupPart3Importance=High
+GroupPart4=white_trail
+GroupPart4Importance=High
+GroupPart5=lotus_geo
+GroupPart5Importance=High
+GroupPart6=lotus_geo1
+GroupPart6Importance=High
+SimulateEveryFrame=1
+
+[flash_center]
+e-life=1
+e-local-orient=0
+e-rate=10
+e-timeoffset=0.25
+p-life=0.15000000596046448
+p-quadrot=45
+p-rgba=alpha_12.tga
+p-rotvel=0
+p-scale=10
+p-simpleorient=2
+p-texture=Karma_Skin04_Q_flash_02.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 0 0 0
+
+[lotus_geo]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=5
+p-linger=0
+p-mesh=karma_Skin04_p_geo.scb
+p-meshtex=Karma_Skin04_P_props_02.tga
+p-rotvel=0 450 0
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-type=3
+p-uvscroll-no-alpha=1
+pass=100
+
+[lotus_geo1]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=5
+p-linger=0
+p-mesh=karma_Skin04_p_geo.scb
+p-meshtex=Karma_Skin04_P_props_02.tga
+p-rotvel=0 450 0
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-type=3
+p-uvscroll-no-alpha=1
+pass=100
+rendermode=3
+
+[sparkle]
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0.15 0
+p-colorscale=0.5 0.5
+p-colortype=1 3
+p-life=0.25
+p-linger=0
+p-quadrot=0
+p-rgba=Karma_Skin04_Q_color_11.dds
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=25
+p-scaleP1=0 0.7
+p-scaleP2=1 0.3499999940395355
+p-texture=Nidalee_Glowspecks.dds
+p-xquadrot=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.6 0.8 0.580392 0.062745 1
+p-xrgba3=0.8 0 0.4 0 0
+p-xscale=1.350000023841858
+p-xscale1=0 1.2 1.2 1.2
+p-xscale2=0.4 0.8 0.8 0.8
+p-xscale3=1 0 0 0
+
+[white_trail]
+e-rate=120
+p-bindtoemitter=0 0.4
+p-life=0.8
+p-scale=60 3 3
+p-startframe=1
+p-texdiv=2 2
+p-texture=AirSpiritStreak.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.098039 0.098039 0.098039 0.2392
+p-xrgba2=0.1 0.098039 0.098039 0.098039 0.094102
+p-xrgba3=0.3 0.1 0.1 0.1 0.1
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+
+[UNKNOWN_HASHES]
+unk3ACC6F72=1
+unk4D0E0961=1

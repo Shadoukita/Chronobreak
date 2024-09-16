@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="missfortunescattershotslow"}}, 
+{Function=BBPreloadParticle, Params={Name="MissFortune_Base_E_Unit_Tar.troy"}}, 
+}

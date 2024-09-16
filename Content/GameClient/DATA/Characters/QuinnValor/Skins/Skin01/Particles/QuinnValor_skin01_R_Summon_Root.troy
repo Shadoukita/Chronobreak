@@ -1,0 +1,22 @@
+[Phoenix_Streak]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-uvoffset=0 -0.1
+p-life=0.6499999761581421
+p-linger=0
+p-mesh=QuinnValor_Swoop_In.sco
+p-meshtex=0annie01.tga
+p-postoffset=0 140 -60
+p-quadrot=0 -80 -20
+p-scale=400 700 400
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -1.100000023841858
+rendermode=4
+
+[System]
+GroupPart1=Phoenix_Streak
+SimulateEveryFrame=1
+

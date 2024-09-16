@@ -1,0 +1,75 @@
+[System]
+GroupPart1=circleflares
+GroupPart1Type=Simple
+GroupPart2=arm
+SimulateEveryFrame=1
+
+[arm]
+e-life=-1
+e-rate=17
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-frameRate=1
+p-life=1.1
+p-local-orient=1
+p-mesh=Vi_Arm_Cylnder.sco
+p-meshtex=Void_FG_Lightning.tga
+p-numframes=4
+p-offset=0 0 0
+p-postoffset=0 5 0
+p-quadrot=0 0 90
+p-rgba=alpha_12.tga
+p-rotvel=120 0 0
+p-rotvelXP1=0 2
+p-rotvelXP2=1 -2
+p-scale=0.01 0.01 0.01
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-uvscroll-rgb=-1 1
+p-uvscroll-rgbXP1=0 -0.1
+p-uvscroll-rgbXP2=1 2
+p-uvscroll-rgbYP1=0 -1
+p-uvscroll-rgbYP2=1 1
+p-vel=60 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.6 1.2 1.2 1.2
+p-xscale3=1 0.5 0.4 0.5
+pass=1000
+rendermode=4
+
+[circleflares]
+e-life=1
+e-linger=0
+e-rate=2
+e-rate1=0 0.5
+e-rate2=1 1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-life1=0 1
+p-life2=1 0.2
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=60
+p-scale1=0 1.5
+p-scale2=1 1
+p-texture=waypoint_ring_05.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0.1
+rendermode=4
+

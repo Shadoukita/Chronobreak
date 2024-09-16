@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="yorickphspectral.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yorick_spectralghoul_death.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickspectralghoul"}}, 
+{Function=BBPreloadCharacter, Params={Name="yorickspectralghoul"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickspectrallogic"}}, 
+{Function=BBPreloadSpell, Params={Name="yorickactivespectral"}}, 
+}

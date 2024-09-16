@@ -1,0 +1,21 @@
+[System]
+GroupPart1=weaponglow
+SimulateEveryFrame=1
+
+[weaponglow]
+e-life=100000
+e-local-orient=1
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-local-orient=1
+p-offset=45 -36 2
+p-quadrot=-55 80 0
+p-rgba=color-bellramp.tga
+p-scale=25 50 0
+p-texture=reaperweaponglow.tga
+p-type=1
+rendermode=0
+

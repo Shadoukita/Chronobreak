@@ -1,0 +1,24 @@
+[System]
+GroupPart1=disc
+GroupPart1Importance=High
+SimulateEveryFrame=1
+group-vis=1500
+
+[disc]
+e-alpharef=0
+e-life=-1
+e-rate=1
+p-life=-1
+p-linger=0
+p-offset=0 20 0
+p-postoffset=0 0 0
+p-quadrot=90 0 0
+p-rotvel=0 5 0
+p-scale=910 910 910
+p-texture=towerRange_Proximity_Min.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.75
+rendermode=4
+single-particle=1
+

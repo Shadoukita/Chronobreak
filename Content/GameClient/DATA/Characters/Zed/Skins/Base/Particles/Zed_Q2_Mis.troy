@@ -1,0 +1,206 @@
+[Skin02Blade1]
+ChildParticleName=Zed_Q_Mis_Trail.troy
+KeywordsIncluded=ZedSkin02 ZedShadowSkin02
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-mesh=Zed_Skin02_Q_Shuriken.sco
+p-meshtex=Zed_Skin02_Z_Colormap.tga
+p-postoffset=20 0 70
+p-quadrot=180 0 0
+p-rotvel=0 0 640
+p-scale=1.5 1 1.5
+p-shadow=1
+p-type=3
+rendermode=3
+uniformscale=1
+
+[Skin02Blade2]
+ChildParticleName=Zed_Q_Mis_Trail.troy
+KeywordsIncluded=ZedSkin02 ZedShadowSkin02
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-mesh=Zed_Skin02_Q_Shuriken.sco
+p-meshtex=Zed_Skin02_Z_Colormap.tga
+p-postoffset=-20 -30 70
+p-quadrot=180 0 0
+p-rotvel=0 0 -640
+p-scale=1.5 1 1.5
+p-shadow=1
+p-type=3
+rendermode=3
+uniformscale=1
+
+[StormGlow]
+KeywordsIncluded=ZedStormNinja ZedShadowStormNinja
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-postoffset=-20 -30 110
+p-quadrot=0 0 0
+p-scale=120 120 50
+p-texture=ball32_02.tga
+p-type=1
+p-xrgba=0 0.3 1 0.4
+rendermode=4
+uniformscale=1
+
+[StormGlow2]
+KeywordsIncluded=ZedStormNinja ZedShadowStormNinja
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-postoffset=20 0 70
+p-quadrot=0 0 0
+p-scale=120 120 50
+p-texture=ball32_02.tga
+p-type=1
+p-xrgba=0 0.3 1 0.4
+rendermode=4
+uniformscale=1
+
+[Stormblade]
+ChildParticleName=Zed_Q_Mis_Trail.troy
+KeywordsIncluded=ZedStormNinja ZedShadowStormNinja
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-mesh=Zed_Skn1_Shuriken.sco
+p-meshtex=Zed_Skn1_Shuriken_TX.tga
+p-postoffset=-20 -30 70
+p-quadrot=180 0 0
+p-rotvel=0 0 640
+p-scale=4 4 4
+p-shadow=1
+p-type=3
+rendermode=3
+uniformscale=1
+
+[Stormblade2]
+ChildParticleName=Zed_Q_Mis_Trail.troy
+KeywordsIncluded=ZedStormNinja ZedShadowStormNinja
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-mesh=Zed_Skn1_Shuriken.sco
+p-meshtex=Zed_Skn1_Shuriken_TX.tga
+p-postoffset=20 0 70
+p-quadrot=180 0 0
+p-rotvel=0 0 -640
+p-scale=4 4 4
+p-shadow=1
+p-type=3
+rendermode=3
+uniformscale=1
+
+[System]
+GroupPart1=blade
+GroupPart2=blade2
+GroupPart3=Stormblade
+GroupPart4=Stormblade2
+GroupPart5=StormGlow
+GroupPart6=StormGlow2
+GroupPart7=Skin02Blade1
+GroupPart8=Skin02Blade2
+SimulateEveryFrame=1
+
+[blade]
+ChildParticleName=Zed_Q_Mis_Trail.troy
+KeywordsExcluded=ZedStormNinja ZedShadowStormNinja ZedSkin02 ZedShadowSkin02
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-mesh=Zed_Shuriken.sco
+p-meshtex=Zed_Shuriken_TX.tga
+p-postoffset=-20 -30 70
+p-quadrot=0 0 0
+p-rotvel=0 0 1040
+p-scale=7 7 7
+p-shadow=1
+p-type=3
+rendermode=3
+uniformscale=1
+
+[blade2]
+ChildParticleName=Zed_Q_Mis_Trail.troy
+KeywordsExcluded=ZedStormNinja ZedShadowStormNinja ZedSkin02 ZedShadowSkin02
+e-rate=1
+p-bindtoemitter=1
+p-life=0.6
+p-linger=0
+p-mesh=Zed_Shuriken.sco
+p-meshtex=Zed_Shuriken_TX.tga
+p-postoffset=20 0 70
+p-quadrot=0 0 0
+p-rotvel=0 0 -1040
+p-scale=7 7 7
+p-shadow=1
+p-type=3
+rendermode=3
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk019539A9=50 0 0
+unk02A599CD=0 0 0
+unk074C32A6=0 0
+unk074C32A7=1 360
+unk15BFEB07=0 0 1240
+unk1BA0AC36=0 50 0
+unk24453F94=0 -25 0
+unk26871598=Zed_shadowwisps.tga
+unk352CB550=0 -1
+unk352CB551=1 1
+unk35B189D3=0.9
+unk37F4730D=4 4
+unk3A4A2BA9=70 70 50
+unk4059B3A0=0 0.4
+unk4059B3A1=1 1
+unk40D7C321=0 0.7
+unk40D7C322=1 1
+unk49F02B22=1
+unk4B8DED3B=1
+unk514D48A0=0 0.7000000000000001
+unk514D48A1=1 1.5
+unk593E70B7=2 2 2
+unk5F9F7115=2 2 2
+unk65CC7965=1
+unk676BDCF5=0
+unk71E397BC=0 500 0
+unk9DD6AEDC=1
+unk9E509EDC=1
+unkA6F5323A=1
+unkA714467A=1
+unkA80D1487=120 120 30
+unkAA853FEF=0 0 0
+unkAABF48DC=0 0.2 0.2 0.2
+unkAABF48DD=1 1 1 1
+unkB87B8549=0 0 0 0.6
+unkC59B6319=0 0 0
+unkC674EB26=2
+unkC90B6C5F=0.7
+unkCADE6431=1
+unkCBE6847D=1
+unkCE66BBBA=Zed_Q_BlurAdd.tga
+unkCEE725F6=15 0 0
+unkCF608F9A=0 400 0
+unkCF6C6CBD=0.2
+unkD3A12081=0
+unkD5233EAA=2
+unkD5BAA21F=1
+unkDA9F9C84=1
+unkDF3430D7=color-rampdown32_03.tga
+unkDFCF4F29=0 1 0
+unkE5953135=color-rampdown32.tga
+unkE869AA8E=150
+unkEAFD7C29=16
+unkEECAAAEC=20
+unkFFD97E86=0 0.8 0 0 0.8
+unkFFD97E87=1 0 0 0 0.4

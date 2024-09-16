@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Regeneration_Sigil.dds"
+BuffTextureName = L0_1
+L0_1 = "RegenerationAura"
+BuffName = L0_1
+L0_1 = "regen_rune_new_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1
+L0_1 = true
+Nondispellable = L0_1

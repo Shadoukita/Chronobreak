@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="ireliaionianduelist"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="ireliaidleparticle"}}, 
+{Function=BBPreloadSpell, Params={Name="ireliahitenstyle"}}, 
+}

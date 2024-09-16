@@ -1,0 +1,54 @@
+[System]
+GroupPart1=ping
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ping_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[ping]
+e-life=0.3
+e-linger=0
+e-local-orient=1
+e-rate=15
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.25
+p-offset=0 0 0
+p-postoffset=0 45 0
+p-quadrot=45
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-scale=140 0 0
+p-simpleorient=2
+p-texture=katarina_speed_indicator_01.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.3
+p-xscale2=1 1
+rendermode=0
+
+[ping_02]
+e-life=0.3
+e-linger=0
+e-local-orient=1
+e-rate=15
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.25
+p-offset=0 0 0
+p-postoffset=0 95 0
+p-quadrot=45
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-scale=100 0 0
+p-simpleorient=2
+p-texture=katarina_speed_indicator_01.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.3
+p-xscale2=1 1
+rendermode=0
+

@@ -1,0 +1,49 @@
+[System]
+GroupPart1=whitesparks
+
+[whitesparks]
+e-local-orient=0
+e-rate=3
+e-rgba=255 255 255 204
+e-rotation1=-40
+e-rotation1-axis=0 360 0
+e-shape-scale=0.6000000000000001
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=2
+p-lifeP1=0 0.75
+p-lifeP2=1 2
+p-linger=0
+p-offset=15 0 0
+p-offsetXP1=0 -0.5
+p-offsetXP2=1 -1.5
+p-postoffset=40 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=50 50 50
+p-scaleXP1=0 0.8
+p-scaleXP2=1 0.9
+p-scaleYP1=0 0.8
+p-scaleYP2=1 0.9
+p-scaleZP1=0 0.8
+p-scaleZP2=1 0.9
+p-texture=SRU_Chaos_Shopkeeper_Blade_Glow.dds
+p-vel=20 0 0
+p-velXP1=0 -0.7
+p-velXP2=1 -1
+p-xrgba=1 1 1 0.17999500036239624
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.7 1 1 1 0.8
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 1 1 1
+pass=10
+

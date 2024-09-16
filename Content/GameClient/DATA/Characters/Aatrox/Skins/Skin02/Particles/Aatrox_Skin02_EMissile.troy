@@ -1,0 +1,114 @@
+[System]
+GroupPart1=sword
+GroupPart2=sword_dark
+GroupPart3=distort
+GroupPart4=sword1
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=500
+
+[distort]
+KeywordsExcluded=Aatroxskin01
+e-disabled=1
+e-life=0.5
+e-rate=1
+p-distortion-power=2
+p-life=0.5
+p-linger=1
+p-local-orient=1
+p-normal-map=Aatrox_E_distort_normal.tga
+p-postoffset=0 0 100
+p-quadrot=0 0 90
+p-quadrotZP1=0 1
+p-quadrotZP2=1 0
+p-rgba=Color_Aatrox_E_shock.tga
+p-scale=200 200 0
+p-texture=Color_Aatrox_E_ground_trench.tga
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 1.2 1.2 1.2
+p-xscale2=1 0 0 0
+rendermode=1
+single-particle=1
+
+[sword]
+e-life=1
+e-rate=1
+p-colortype=1 3
+p-life=0.30000000000000004
+p-lifeP1=0 0.5
+p-lifeP2=0.8 0.8
+p-lifeP3=1 1.2000000000000002
+p-offset=10 0 125
+p-quadrot=0 90 90
+p-rgba=Color_Aatrox_E_sword.tga
+p-scale=300 400 400
+p-texture=Aatrox_Skin02_E_sword.dds
+p-type=1
+p-xrgba=1 1 1 0.75
+p-xscale=1 1 1
+p-xscale1=0 0.5 1 1
+p-xscale2=0.2 2 1 1
+p-xscale3=0.8 2.2 1 1
+p-xscale4=1 1 1 1
+rendermode=4
+single-particle=1
+
+[sword1]
+e-disabled=1
+e-life=0.15000000596046448
+e-rate=30
+e-rgba=255 255 255 128
+p-life=0.4
+p-lifeP1=0 0.9
+p-lifeP2=1 1.2000000000000002
+p-offset=10 0 125
+p-quadrot=1 1 90
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=500 200 400
+p-scaleXP1=0 1
+p-scaleXP2=1 1.3
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.2000000000000002
+p-texture=Aatrox_Skin02_E_Scroll_01.dds
+p-type=1
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 2
+p-vel=0 500 0
+p-velYP1=0 0.95
+p-velYP2=1 1.5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0.654902 0.258824 1
+p-xrgba2=0.6 1 0.666667 0 0.902007
+p-xrgba3=1 1 0.454902 0.137255 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1 1 1
+p-xscale3=1 1 0 1
+rendermode=4
+
+[sword_dark]
+KeywordsExcluded=Aatroxskin01
+e-life=0.949999988079071
+e-rate=1
+p-colortype=1 3
+p-life=0.8
+p-lifeP1=0 0.5
+p-lifeP2=1 1.2000000000000002
+p-offset=10 90 125
+p-quadrot=0 90 90
+p-rgba=Color_Aatrox_E_sword.tga
+p-scale=300 400 400
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.2000000000000002
+p-texture=Aatrox_Skin02_E_sword.dds
+p-type=1
+p-xrgba=1 1 1 0.75
+p-xscale=1 1 1
+p-xscale1=0 0.5 1 1
+p-xscale2=0.30000000000000004 2 1 1
+p-xscale3=1 2.2 1 1
+rendermode=2
+single-particle=1
+

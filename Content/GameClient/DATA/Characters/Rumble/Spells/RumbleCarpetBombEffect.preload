@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="rumblecarpetbombslow"}}, 
+{Function=BBPreloadSpell, Params={Name="rumblecarpetbombburnorder"}}, 
+{Function=BBPreloadSpell, Params={Name="rumblecarpetbombburndest"}}, 
+}

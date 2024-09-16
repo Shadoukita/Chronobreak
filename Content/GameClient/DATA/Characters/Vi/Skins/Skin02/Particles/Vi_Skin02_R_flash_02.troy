@@ -1,0 +1,21 @@
+[System]
+GroupPart1=blue
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[blue]
+e-life=10
+e-linger=1.25
+e-rate=4
+p-bindtoemitter=1 1
+p-life=0.1
+p-linger=0
+p-rgba=alpha_12.tga
+p-scale=450
+p-texture=Vi_Skin02_R_flash_blue.tga
+p-type=0
+p-xscale1=0 0.2
+p-xscale2=1 1
+pass=0
+rendermode=0
+

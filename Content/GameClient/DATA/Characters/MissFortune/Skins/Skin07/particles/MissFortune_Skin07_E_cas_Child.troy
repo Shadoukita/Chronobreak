@@ -1,0 +1,63 @@
+[Dust]
+e-life=1
+e-linger=1
+e-local-orient=1
+e-rate=100
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0.4 0
+p-life=0.8
+p-lifeP1=0 0.1
+p-lifeP2=0.9 0.5
+p-lifeP3=1 1
+p-linger=1
+p-offset=1 1 15
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=MissFortune_Skin07_Pixel_Blend.dds
+p-type=0
+p-vel=100 100 0
+p-velXP1=0 0
+p-velXP2=1 1
+p-velYP1=0 1
+p-velYP2=1 0
+p-xscale1=0 1
+p-xscale2=0.8 1
+p-xscale3=1 0
+pass=10
+rendermode=1
+
+[System]
+GroupPart1=Dust
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Trail
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[Trail]
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 255 60
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-scale=40 400 80
+p-texture=MissFortune_Skin07_E_cas_Child_Trail.dds
+p-type=1
+p-xscale1=0 0.4 0.4 0.4
+p-xscale2=0.2 1 1 1
+p-xscale3=1 1 1 1
+pass=-20
+rendermode=4
+single-particle=1
+

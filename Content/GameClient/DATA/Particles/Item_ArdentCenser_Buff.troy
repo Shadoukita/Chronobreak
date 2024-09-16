@@ -1,0 +1,90 @@
+[Flash]
+e-life=1
+e-linger=0
+e-rate=3
+e-timeoffset=0.2
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-scale=75
+p-texture=Item_ArdentCenser_Buff_Glow.dds
+p-type=0
+p-xscale1=0 0.2
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+
+[Glow]
+e-life=6
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.3
+p-linger=0.3
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=Item_ArdentCenser_Buff_Glow_Ramp.dds
+p-scale=65
+p-texture=Item_ArdentCenser_Buff_Glow.dds
+p-type=0
+p-xscale1=0 0.1
+p-xscale2=1 1
+rendermode=0
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Glow
+GroupPart2Type=Simple
+GroupPart3=Tendrils
+GroupPart4=Trail
+
+[Tendrils]
+e-life=0.25
+e-linger=1
+e-local-orient=0
+e-rate=30
+e-rgba=255 255 255 255
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexscale=0.007499999832361937
+p-life=0.5
+p-linger=1
+p-mesh=Item_ArdentCenser_Buff_Tendrils.sco
+p-meshtex=Item_ArdentCenser_Buff_Tendrils.dds
+p-meshtex-mult=Item_ArdentCenser_Buff_Tendrils_Alpha.dds
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=1.5 1.5 1.5
+p-scaleXP1=0 0.4 1 0.4
+p-scaleXP2=1 1.2000000000000002 3 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=-1 0
+p-xrgba1=0 0.5 0.8 1 0
+p-xrgba2=0.35 1 1 1 0.75
+p-xrgba3=0.6 1 1 1 0.75
+p-xrgba4=1 0.5 0.8 1 0
+p-xscale1=0 1 1.149999976158142 1
+p-xscale2=1 0.8 0.5 0.8
+rendermode=4
+
+[Trail]
+e-life=14
+e-local-orient=1
+e-rate=120
+e-tilesize=100 0 0
+p-life=0.2
+p-linger=2
+p-scale=10 0 0
+p-texture=Item_ArdentCenser_Buff_Trail.dds
+p-trailmode=1
+p-type=4
+p-xscale1=0 1 0 0
+p-xscale2=1 0 0 0
+rendermode=0
+

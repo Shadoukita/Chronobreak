@@ -1,0 +1,17 @@
+[Projected]
+p-life=-1
+p-local-orient=1
+p-projection-fading=100
+p-projection-y-range=50
+p-rotvel=10
+p-scale=500 0 0
+p-texture=Chicken_buf.DDS
+p-type=7
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Projected
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

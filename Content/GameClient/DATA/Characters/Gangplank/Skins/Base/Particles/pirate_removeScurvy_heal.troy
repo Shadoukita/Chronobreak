@@ -1,0 +1,70 @@
+[System]
+GroupPart1=heal
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=pirate_speed_buf
+SimulateEveryFrame=1
+
+[heal]
+e-life=12
+e-linger=1
+e-rate=32
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0.30000000000000004
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.6000000000000001
+p-offset=17 17 17
+p-quadrot=1
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-rotvel=0
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=44
+p-simpleorient=2
+p-texture=Gangplank_Base_W_heal.dds
+p-type=1
+p-vel=0 290 0
+p-velYP1=0 0.26
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+
+[pirate_speed_buf]
+e-disabled=1
+e-life=12.8
+e-rate=15
+e-timeoffset=0.6000000000000001
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.550000011920929
+p-offset=0 10 0
+p-postoffset=10 22 30
+p-quadrot=45 0 0
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-rotvel=270 0 0
+p-scale=200 0 0
+p-simpleorient=2
+p-texture=gangplank_speed_indicator.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1 1 1
+
+[UNKNOWN_HASHES]
+unk97E397BD=0 300 0
+unkC6E3C88D=0 255 255 255 0
+unkC6E3C88E=1 255 255 255 0
+unkC6E4C8CC=0 253 253 255 254
+unkC6E4C8CD=1 0 0 255 255
+unkC6E5C90B=0 255 255 255 0
+unkC6E5C90C=1 255 255 255 0
+unkC6E6C94A=0 0 0 0 255
+unkC6E6C94B=0.46 255 255 255 255
+unkC6E6C94C=1 0 0 0 255

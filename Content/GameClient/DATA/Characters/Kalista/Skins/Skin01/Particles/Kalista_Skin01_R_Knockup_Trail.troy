@@ -1,0 +1,81 @@
+[Impact_Flash]
+e-life=0.15000000596046448
+e-rate=5
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=0.15000000596046448
+p-linger=0.15000000596046448
+p-quadrot=90 90 0
+p-rgba=Kalista_Base_Q_Mis_Glow_Color.dds
+p-scale=80 80 1
+p-texture=Kalista_Skin01_R_Flash.dds
+p-type=1
+p-xrgba=0.49411800503730774 1 0.7215690016746521 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0
+p-xscale2=0.2 2 1.5 0
+p-xscale3=1 2.5 0.5 0
+rendermode=4
+single-particle=1
+uniformscale=1
+
+[Shockwavetemp]
+e-life=1
+e-rate=1
+e-uvoffset=0 0.25
+p-backfaceon=1
+p-drag=0 0 5
+p-life=0.2800000011920929
+p-linger=0.30000000000000004
+p-mesh=Kalista_skin01_R_tar_shockwave.scb
+p-meshtex=Kalista_Skin01_R_Hit_Shockwave.dds
+p-quadrot=0 180 0
+p-quadrotZP1=0 -1.7
+p-quadrotZP2=1 1.7000000000000002
+p-scale=0.6000000000000001 0.6000000000000001 0.6000000000000001
+p-type=3
+p-uvscroll-rgb=0 1.5
+p-uvscroll-rgb-clamp=1
+p-vel=0 0 -300
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 2
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Trail
+GroupPart2=Impact_Flash
+GroupPart3=Shockwavetemp
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Trail]
+e-life=3
+e-linger=3
+e-rate=60
+e-tilesize=1000 0 0
+e-trail-cutoff=1000
+p-life=0.30000000000000004
+p-local-orient=1
+p-scale=50 0 0
+p-texture=Kalista_Base_R_Knockup_Trail.dds
+p-texture-mode=clamp
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb-clamp=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=0.9 1 1 1 0
+p-xrgba5=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+

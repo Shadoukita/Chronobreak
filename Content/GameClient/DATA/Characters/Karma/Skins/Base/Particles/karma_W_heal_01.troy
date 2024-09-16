@@ -1,0 +1,40 @@
+[System]
+GroupPart1=heal
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[heal]
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=2
+p-offset=0 20 10
+p-postoffset=0 100 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=13 37 13
+p-scaleYP1=0 1
+p-scaleYP2=1 10
+p-startframe=0
+p-texdiv=2 1
+p-texture=lifetap_ghost_green_03.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 0.3499999940395355 0 1
+p-xscale2=1 1 2.2 1
+
+[UNKNOWN_HASHES]
+unkAC135C4D=1

@@ -1,0 +1,52 @@
+[System]
+GroupPart1=sparks
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[sparks]
+KeywordsRequired=CyberEzreal
+e-life=1.0499999523162842
+e-linger=0
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=60
+p-life=0.2
+p-linger=0
+p-numframes=16
+p-rgba=color-base32.tga
+p-scale=28
+p-startframe=0
+p-texdiv=4 4
+p-texture=BurningFuse.tga
+p-type=0
+p-vel=40 20 0
+p-xquadrot=1
+p-xquadrot-on=1
+p-xquadrot1=0 0
+p-xquadrot2=0.1 0
+p-xquadrot3=0.10999999940395355 30
+p-xquadrot4=0.20000000298023224 30
+p-xquadrot5=0.20999999344348907 140
+p-xquadrot6=0.30000001192092896 140
+p-xquadrot7=0.3100000023841858 60
+p-xquadrot8=0.4000000059604645 60
+p-xquadrot9=0.4099999964237213 240
+p-xscale1=0 1
+p-xscale2=1 1.5
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkCD747A48=0.5 240
+unkCD747A49=0.5099999904632568 90
+unkCD747A4A=0.6000000238418579 90
+unkCD747A4B=0.6100000143051147 30
+unkCD747A4C=0.699999988079071 30
+unkCD747A4D=0.7099999785423279 290
+unkCD747A4E=0.800000011920929 290
+unkCD747A4F=0.8100000023841858 10
+unkCD747A50=0.9 10
+unkCD747A51=0.9100000262260437 310
+unkCD757A87=1 310

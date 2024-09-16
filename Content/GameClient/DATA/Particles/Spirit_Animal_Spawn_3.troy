@@ -1,0 +1,48 @@
+[HealSwirls]
+KeywordsExcluded=HeadhunterNidalee
+e-life=0.2
+e-linger=1
+e-rate=70
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+flag-disable-z=1
+p-alphaslicerange=0.15000000596046448
+p-bindtoemitter=1 0
+p-coloroffset=0.35 0
+p-life=1
+p-lifeP1=0 0.3
+p-lifeP2=1 1.6
+p-numframes=4
+p-offset=50 0 0
+p-postoffset=0 150 0
+p-quadrot=0 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-rampdown32.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=110 -150 120
+p-scaleXP1=0 -1
+p-scaleXP2=0.5099899768829346 -1
+p-scaleXP3=0.5099999904632568 1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1
+p-texdiv=2 2
+p-texture=Spirit_Animal_Spawn_shapes.dds
+p-xrgba=1 1 0 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.4 0 1 1 1
+rendermode=4
+
+[System]
+GroupPart1=HealSwirls
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk9E91EB29=0 300 0
+unkB432C432=0
+unkFD617960=100

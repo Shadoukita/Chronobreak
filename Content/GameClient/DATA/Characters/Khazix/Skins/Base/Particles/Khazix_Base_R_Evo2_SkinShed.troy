@@ -1,0 +1,28 @@
+[Evo_Geo]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+p-animation=Khazix_Base_R_Evo2.anm
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-life=1.5
+p-linger=10
+p-local-orient=0
+p-meshtex=Khazix_Base_R_Shed.tga
+p-scale=1.149999976158142 1.149999976158142 1.149999976158142
+p-skeleton=Khazix_Base_R_Evo2.skl
+p-skin=Khazix_Base_R_Evo2.skn
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=1000
+rendermode=1
+
+[System]
+GroupPart1=Evo_Geo
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+

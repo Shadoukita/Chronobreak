@@ -1,0 +1,21 @@
+[System]
+GroupPart1=Ward_Eye
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Ward_Eye]
+e-life=-1
+e-rate=4
+p-bindtoemitter=1 1
+p-life=2
+p-postoffset=0 50 0
+p-rgba=color-bellcurve4.tga
+p-scale=25 25 25
+p-texture=Ward_Pink_Eye.tga
+p-type=0
+p-xrgba=0.4 0.4 1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkECA34E0C=0 1 1 1 1
+unkECA34E0D=1 2 2 2 2

@@ -1,0 +1,24 @@
+[System]
+GroupPart1=circular_glow
+SimulateEveryFrame=1
+
+[circular_glow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 0.5
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-quadrot=0 90 0
+p-rgba=color-redfade.tga
+p-scale=80 80 80
+p-simpleorient=1
+p-startframe=0
+p-texdiv=1 1
+p-texture=Darius_Skin04_W_AxeGlow_02.dds
+p-type=1
+

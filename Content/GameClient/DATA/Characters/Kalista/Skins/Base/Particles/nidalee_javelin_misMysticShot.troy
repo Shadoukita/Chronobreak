@@ -1,0 +1,58 @@
+[Javelin_skin02]
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-mesh=Nidalee_Javelin2012.sco
+p-meshtex=fire-sphere32.tga
+p-offset=40 0 -100
+p-quadrot=0 0 0
+p-rotvel=0 0 0
+p-scale=1.2000000000000002 1.1 0.4
+p-scale1=0 1 1 1
+p-scale2=1 1 1 1
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=Javelin_skin02
+GroupPart2=partball_frost
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[partball_frost]
+e-life=10000
+e-linger=0
+e-local-orient=1
+e-rate=200
+field-accel-1=Accel
+field-drag-1=Drag
+p-bindtoemitter=0 0
+p-colorscale=1 0.2
+p-colortype=1 0
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=0.949999988079071 1
+p-lifeP3=1 1.5
+p-numframes=12
+p-offset=40 0 -100
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-addflame.tga
+p-scale=20
+p-scaleP1=0 1
+p-scaleP2=0.8999999761581421 0.75
+p-scaleP3=1 0
+p-startframe=0
+p-texdiv=4 4
+p-texture=bearfire_frost.tga
+p-xscale1=0 0.4
+p-xscale2=0.2 1
+p-xscale3=0.8 0.2
+p-xscale4=1 0.1
+rendermode=0
+

@@ -1,0 +1,17 @@
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\GameServerCore.deps.json
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\GameServerCore.dll
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\GameServerCore.pdb
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\LeaguePackets.dll
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\QuadTree.dll
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\LeaguePackets.pdb
+D:\League Sandbox\Chronobreak\GameServerCore\bin\Debug\net8.0\QuadTree.pdb
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.csproj.AssemblyReference.cache
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.AssemblyInfoInputs.cache
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.AssemblyInfo.cs
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.csproj.CoreCompileInputs.cache
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServ.82C32588.Up2Date
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.dll
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\refint\GameServerCore.dll
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\GameServerCore.pdb
+D:\League Sandbox\Chronobreak\GameServerCore\obj\Debug\net8.0\ref\GameServerCore.dll

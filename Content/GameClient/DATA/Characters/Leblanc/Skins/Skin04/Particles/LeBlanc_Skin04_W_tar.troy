@@ -1,0 +1,27 @@
+[System]
+GroupPart1=inner_ring1
+GroupPart1Importance=High
+
+[inner_ring1]
+e-life=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.30000000000000004
+p-linger=0
+p-offset=0 10 0
+p-quadrot=90 0 0
+p-rgba=alpha_03.tga
+p-rotvel=0 -40 0
+p-scale=100 100 0
+p-simpleorient=2
+p-texture=LeBlanc_Skin04_Z_Reticle.dds
+p-type=1
+p-xrgba=0 0.372549 0.533333 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1.5 1.5 1
+single-particle=1
+

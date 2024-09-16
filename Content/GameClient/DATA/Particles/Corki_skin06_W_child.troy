@@ -1,0 +1,88 @@
+[Red_Trail]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=40
+e-tilesize=1000 0 0
+e-timeoffset=0.1
+e-trail-cutoff=1000
+p-colorscale=1 1
+p-life=0.5
+p-linger=0.1
+p-quadrot=0 90 90
+p-rgba=color-bombground.tga
+p-scale=30 0 0
+p-texture=corki_skin06_trail.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=0.2 0
+p-uvscroll-rgbXP1=0 0.3
+p-uvscroll-rgbXP2=1 1.5
+p-xrgba1=0 1 0 0 1
+p-xrgba2=1 0 0 0 0
+rendermode=4
+
+[Sparkle]
+e-life=2
+e-linger=0
+e-rate=10
+p-bindtoemitter=0
+p-colortype=1 3
+p-life=0.4
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.5
+p-offset=0 1 0
+p-rgba=color-rampdown.tga
+p-scale=15 15 0
+p-scaleXP1=0 0.5
+p-scaleXP2=0.9 1
+p-scaleXP3=1 4
+p-texture=Gold_Spark.tga
+p-type=0
+p-vel=50 50 50
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0.3 0.3 0
+rendermode=0
+uniformscale=1
+
+[System]
+GroupPart1=Sparkle
+GroupPart2=Trail
+GroupPart3=Red_Trail
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_FireworksCorki_Valkyrie_firework
+
+[Trail]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=40
+e-tilesize=1000 0 0
+e-trail-cutoff=1000
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.1
+p-rgba=color-bombground.tga
+p-scale=35 0 0
+p-texture=corki_skin06_trail.tga
+p-trailmode=1
+p-type=5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0.7 0.7 0.5
+p-xrgba2=1 0 0 0 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk2F9EA094=1

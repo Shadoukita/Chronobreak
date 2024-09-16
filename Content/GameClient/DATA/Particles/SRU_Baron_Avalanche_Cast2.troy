@@ -1,0 +1,26 @@
+[System]
+GroupPart1=warnindicator
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[warnindicator]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=30
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=5
+p-linger=0
+p-offset=0 10 0
+p-postoffset=0 30 0
+p-rgba=SRU_Baron_Avalanche_Fade.dds
+p-scale=600 0 0
+p-simpleorient=2
+p-texture=SRU_Baron_WarnRing.DDS
+p-type=1
+p-vel=0 0 0
+rendermode=1
+

@@ -1,0 +1,87 @@
+[SlashAdd]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.35
+p-linger=0
+p-local-orient=0
+p-mesh=Rengar_Attack_01_Geo.sco
+p-meshtex=Rengar_Attack_Slashes.tga
+p-numframes=4
+p-postoffset=0 50 120
+p-quadrot=220 0 -90
+p-scale=300 50 100
+p-shadow=0
+p-simpleorient=1
+p-startframe=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 -2.5
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 0 1
+p-xscale=1 1 1
+rendermode=0
+single-particle=1
+
+[SlashBase]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.4
+p-linger=0
+p-local-orient=0
+p-mesh=Rengar_Attack_01_Geo.sco
+p-meshtex=Rengar_Attack_Slashes.tga
+p-numframes=4
+p-postoffset=0 50 120
+p-quadrot=220 0 -90
+p-scale=300 50 100
+p-shadow=0
+p-simpleorient=1
+p-startframe=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 -2.5
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=SlashBase
+GroupPart1Importance=High
+GroupPart2=SlashAdd
+GroupPart2Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk0BAF18EE=50
+unk16289AF3=0 0 0
+unk17C47089=1
+unk18F3C8AD=200 200 200
+unk3C62C47D=0
+unk4121354A=1
+unk43614080=0
+unk55774EB9=1
+unk55D6B314=3
+unk55E7DDD3=1
+unk618F2104=-1
+unk6BA01331=color-bellcurve.tga
+unk74D58CE8=1
+unk8212E4AA=xen_ult_swing_geo.sco
+unk89316790=0 0 0
+unkA41DEA79=0
+unkBD96E50F=1
+unkBE424A02=0 1 1 1
+unkBE424A03=1 1.5 1.5 1.5
+unkC28E7FB4=1
+unkD198CF37=3
+unkDA0A379B=1
+unkDC62DA9D=XenZiou_Ult_Slash.tga
+unkF710F4EB=0 -2.5

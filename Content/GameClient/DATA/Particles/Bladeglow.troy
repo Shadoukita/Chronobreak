@@ -1,0 +1,60 @@
+[System]
+GroupPart1=spiralblade-glow-blue
+GroupPart2=spiralblade-glow-purple
+GroupPart3=spiralblade-glow-red
+SimulateEveryFrame=1
+
+[spiralblade-glow-blue]
+KeywordsRequired=BaseSivir
+e-rate=1
+e-rgba=0 146 255 150
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-offset=5 0 0
+p-quadrot=0 0 -105
+p-scale=40 40 40
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+
+[spiralblade-glow-purple]
+KeywordsRequired=WarriorSivir
+e-disabled=1
+e-rate=1
+e-rgba=114 59 163 150
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-offset=5 0 0
+p-quadrot=0 0 -105
+p-scale=40 40 40
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+
+[spiralblade-glow-red]
+KeywordsRequired=RedSivir
+e-disabled=1
+e-rate=1
+e-rgba=164 55 55 150
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-offset=5 0 0
+p-quadrot=0 0 -105
+p-scale=40 40 40
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+
+[UNKNOWN_HASHES]
+unk2FC537CD=1
+unk3469744A=1
+unkBCA6F10C=1

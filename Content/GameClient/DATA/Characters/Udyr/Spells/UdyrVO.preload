@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_dragon.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_spider.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_baron.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_neutral.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_ward.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_respawn.troy"}}, 
+}

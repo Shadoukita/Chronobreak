@@ -1,0 +1,73 @@
+[Black_mark]
+e-life=1
+e-rate=1
+e-rgba=255 255 255 168
+flag-disable-z=1
+p-life=1
+p-linger=0
+p-mesh=sion_base_q_cas_charge.scb
+p-meshtex=Sion_Base_Q_Hit_groundalpha.dds
+p-offset=0 20 0
+p-scale=1.2000000000000002 1 1.6
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.4
+p-uvscroll-rgb-clamp=1
+p-xrgba=0 0 0 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=2 2 2
+rendermode=1
+single-particle=1
+
+[Burnup]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=1
+p-linger=0
+p-mesh=sion_base_q_cas_charge.scb
+p-meshtex=Sion_Base_Q_Hit2_charged.dds
+p-offset=0 20 0
+p-scale=1.2000000000000002 1 1.6
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.4
+p-xscale=2 2 2
+rendermode=4
+single-particle=1
+
+[Red_reveal]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=1
+p-linger=0
+p-mesh=sion_base_q_cas_charge.scb
+p-meshtex=Sion_Base_Q_Hit2_groundcracks.dds
+p-meshtex-mult=Sion_Base_Q_Hit2_scortch.dds
+p-offset=0 20 0
+p-scale=1.2000000000000002 1 1.6
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.4
+p-uvscroll-rgb-clamp=1
+p-xrgba=0.568627 0 0 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=2 2 2
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Burnup
+GroupPart1Importance=High
+GroupPart2=Red_reveal
+GroupPart2Importance=High
+GroupPart3=Black_mark
+GroupPart3Importance=High
+SoundPersistent=Play_sfx_Sion_SionQ_outline
+group-vis=500
+

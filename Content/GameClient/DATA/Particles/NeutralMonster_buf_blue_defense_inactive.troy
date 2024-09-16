@@ -1,0 +1,30 @@
+[System]
+GroupPart1=ground_indicator
+GroupPart1Importance=High
+GroupPart1Type=Simple
+group-scale-cap=-1
+
+[ground_indicator]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.004999999888241291
+p-life=0.7000000000000001
+p-linger=0
+p-offset=0 10 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=70 70 0
+p-simpleorient=2
+p-texture=ring_blue_04.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1.5
+p-xscale2=1 0.4
+
+[UNKNOWN_HASHES]
+unkFABF2A9D=90

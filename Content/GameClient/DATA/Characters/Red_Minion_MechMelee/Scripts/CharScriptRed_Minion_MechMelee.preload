@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="feelnopain_eff.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="turretshield"}}, 
+{Function=BBPreloadSpell, Params={Name="superminionbuff_red"}}, 
+{Function=BBPreloadSpell, Params={Name="superminionbuff_blue"}}, 
+{Function=BBPreloadSpell, Params={Name="structuredamagereduction"}}, 
+}

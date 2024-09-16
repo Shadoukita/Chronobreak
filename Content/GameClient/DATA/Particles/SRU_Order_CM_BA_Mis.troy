@@ -1,0 +1,49 @@
+[LightStreakHIGH]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0.009999999776482582
+p-local-orient=1
+p-quadrot=0 0 90
+p-scale=40 40 20
+p-texture=SRU_Order_CM_BA_mis_tex.dds
+p-type=1
+pass=500
+rendermode=1
+
+[MoteStreak]
+e-rate=30
+p-drag=2 2 2
+p-dragYP1=0 0
+p-dragYP2=1 1
+p-life=0.5
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-linger=1
+p-quadrot=0 90 90
+p-scale=20 40 10
+p-scaleXP1=0 0.5
+p-scaleXP2=0.8 0.5
+p-scaleXP3=1 1
+p-texture=SRU_Order_CM_BA_mis_tex.dds
+p-type=1
+p-vecalign=1
+p-vel=10 150 0
+p-velYP1=0 -1
+p-velYP2=0.5 -0.30000001192092896
+p-velYP3=0.5099999904632568 0.30000001192092896
+p-velYP4=1 1
+p-xrgba=1 1 1 0.5750060081481934
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=4
+
+[System]
+GroupPart1=MoteStreak
+GroupPart2=LightStreakHIGH
+SimulateEveryFrame=1
+

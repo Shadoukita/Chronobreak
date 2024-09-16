@@ -1,0 +1,35 @@
+[System]
+GroupPart1=fluid
+SimulateEveryFrame=1
+group-vis=1000
+
+[fluid]
+e-life=1
+e-rate=1
+fluid-params=fluidfield
+p-bindtoemitter=1 1
+p-life=-1
+p-postoffset=0 -64 0
+p-quadrot=0 0 90
+p-rotvel=0 0 0
+p-scale=128 256 0
+p-type=1
+p-vel=0 0 0
+rendermode=1
+single-particle=1
+
+[fluidfield]
+f-buoyancy=0.2
+f-diffusion=0.1
+f-initdensity=blank.tga
+f-life=-1
+f-rate=1
+f-rendersize=64
+f-viscosity=0.1
+
+[UNKNOWN_HASHES]
+unk075339FE=0 0 0
+unk3A58DE4E=0.10000000149011612 -4
+unk6701DAB6=0.1
+unkB4BEB88D=1
+unkD1C77C06=0.5 0.2

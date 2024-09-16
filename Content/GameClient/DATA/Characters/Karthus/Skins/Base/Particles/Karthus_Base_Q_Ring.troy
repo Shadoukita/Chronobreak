@@ -1,0 +1,47 @@
+[System]
+GroupPart2=rings_mesh
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Karthus_KarthusLayWasteSoundDummy_buffactivate
+
+[rings_mesh]
+e-life=1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=karthus_base_e_defile_ring.sco
+p-meshtex=Karthus_Base_Q_Ring_Blue.dds
+p-postoffset=0 10 0
+p-quadrot=0 90 0
+p-rotvel=0 100 0
+p-scale=20 20 20
+p-type=3
+p-uvscroll-no-alpha=0
+p-uvscroll-rgb=0.01 0.01
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk044E25BF=1 1
+unk18948873=200
+unk26D6C0BD=100
+unk3D220E71=1
+unk54729F4A=0 10 0
+unk59CC3D73=1
+unk65E40FBE=1
+unk6E3B7A6E=2
+unk792A7BA2=2
+unk85C6FBFA=0
+unk860005EB=100
+unkA2BDEFA5=0.01 0.01
+unkB4D9D7B9=90
+unkD5EDBDF1=1
+unkE9F3CF05=0
+unkEBB6723A=0
+unkEE81DF33=4

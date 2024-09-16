@@ -1,0 +1,55 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=0.1
+e-linger=1
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.375
+p-linger=0
+p-local-orient=0
+p-offset=0 0 0
+p-postoffset=10 0 0
+p-quadrot=83
+p-rgba=Rumble_Skin03_flare_rgba_02.tga
+p-rotvel=50
+p-scale=120
+p-texture=Rumble_Skin03_recall_flare.tga
+p-vel=-25 100 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.75 9 0.75
+p-xscale3=1 0 0 0
+pass=100
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk002E4888=Rumble_Skin03_flare_rgba_02.tga
+unk052316DC=83
+unk0963C23F=10
+unk14B72A67=10 16 0
+unk23A40B08=100
+unk290492A7=Rumble_Skin03_flare_08.tga
+unk2FA78062=1 1
+unk5E707BA9=-30 55 0
+unk63942BC6=1 1 1
+unk9BD31F60=1
+unkA1C2C2DA=1
+unkAD3CC5EB=0 0 0 0
+unkAD3CC5EC=0.5 0.75 9 0.75
+unkAD3CC5ED=1 0 0 0
+unkB3399722=1
+unkB3BC301B=0
+unkB4FC3A57=0
+unkBD6E7527=0 0 0
+unkC83AAC66=1
+unkDD49E916=120
+unkEA058410=0.4
+unkEFAB68D0=0
+unkF01C88DA=50
+unkF61D565B=0.1

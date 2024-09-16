@@ -1,0 +1,74 @@
+[System]
+GroupPart1=centerglow
+GroupPart2=sparkleorbs
+SimulateEveryFrame=1
+
+[centerglow]
+e-rate=7
+p-bindtoemitter=1 0
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-postoffset=90 0 40
+p-quadrot=1 1 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rotvel=-150 0 0
+p-rotvelXP1=0 -0.3
+p-rotvelXP2=1 1
+p-scale=70 70 0
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-texture=SRU_WJungle_BlueCenterGlow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.25
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.8 0.8 0
+p-xscale2=1 1 1 0
+pass=4
+rendermode=4
+uniformscale=1
+
+[sparkleorbs]
+e-rate=3
+e-rateP1=0 0.25
+e-rateP2=1 1
+field-orbit-1=oribt
+p-drag=0 0.3 0
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=1 3
+p-numframes=8
+p-offset=30 1 30
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-postoffset=100 0 40
+p-randomstartframe=1
+p-rgba=color-bellcurve4.tga
+p-rotvel=90 0 0
+p-scale=2 2 2
+p-scaleXP1=0 1
+p-scaleXP2=1 5
+p-startframe=1
+p-texture=SRU_Bluebuff_sparkleorbs.dds
+p-vel=0 20 90
+p-velXP1=-1 -1
+p-velXP2=1 1
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+pass=50
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unkB48B02D4=0 90
+unkB48B02D5=1 90
+unkC7B80093=90

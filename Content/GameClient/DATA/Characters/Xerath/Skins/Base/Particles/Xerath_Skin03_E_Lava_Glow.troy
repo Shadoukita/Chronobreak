@@ -1,0 +1,28 @@
+[Skin03LavaGlow]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 255
+p-bindtoemitter=1
+p-life=0.5
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=60 60 0
+p-texture=Xerath_Skin03_E_Lava_Glow.dds
+p-type=0
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.1 1 1 1 0.5
+p-xrgba3=1 1 0.7 0 0
+p-xscale1=0 0.7 0.7 0
+p-xscale2=1 1 1 0
+pass=1
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Skin03LavaGlow
+PersistThruDeath=1
+SimulateEveryFrame=1
+

@@ -1,0 +1,90 @@
+[System]
+GroupPart1=obelisk_green_enter
+GroupPart2=obelisk_sand
+GroupPart3=obelisk_green_enter_skin01
+SimulateEveryFrame=1
+group-vis=5000
+
+[obelisk_green_enter]
+KeywordsExcluded=AzirSkin01
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=Azir_base_R_Obelisk_Enter.anm
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=2
+p-linger=0
+p-meshtex=Azir_Base_Z_Soldier_TX_CM.tga
+p-offset=0 0 0
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=Azir_base_R_Obelisk.skl
+p-skin=Azir_base_R_Obelisk.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[obelisk_green_enter_skin01]
+KeywordsRequired=AzirSkin01
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=Azir_Skin01_Spell4_Obelisk_Enter.anm
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=2
+p-linger=0
+p-meshtex=Azir_Skin01_Abilities_TX_CM.tga
+p-offset=0 0 0
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=Azir_Skin01_R_Obelisk.skl
+p-skin=Azir_Skin01_R_Obelisk.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[obelisk_sand]
+KeywordsExcluded=AzirSkin01
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=Azir_base_R_Obelisk_Enter.anm
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=2
+p-linger=0
+p-meshtex=Azir_base_R_obelisk_sand.tga
+p-offset=0 5 0
+p-scale=1 1 1
+p-skeleton=Azir_base_R_Obelisk_Sand.skl
+p-skin=Azir_base_R_Obelisk_Sand.skn
+p-type=3
+pass=100
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk045C792D=1
+unk17A2E511=1
+unk2347F632=AzirSkin01
+unk2ED3AB38=0
+unk3EF37BE3=Azir_Skin01_R_Obelisk.skn
+unk6E203610=1
+unk6FBFF6DA=100
+unk74662760=3
+unk7B6E79A2=1
+unk81A57AC4=1 1 1
+unk8DE3E55E=Azir_Skin01_Spell4_Obelisk_Enter.anm
+unk92F9E129=0
+unkA6F41EC2=1
+unkAEAEF134=Azir_skin01_R_obelisk_sand.tga
+unkB77070F4=0
+unkB9331429=0
+unkC1A54EF9=0 5 0
+unkEC64F373=Azir_Skin01_R_Obelisk.skl
+unkF844A6E2=2

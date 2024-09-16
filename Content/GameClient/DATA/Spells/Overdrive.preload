@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="steamgolem_piltover_overdrive.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="overdrive_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="steamgolem_piltover_overdrive_tires.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="overdrive_buf_blitzcrank_skin07.troy"}}, 
+}

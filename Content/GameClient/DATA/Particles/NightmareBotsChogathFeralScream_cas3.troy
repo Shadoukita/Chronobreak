@@ -1,0 +1,44 @@
+[System]
+GroupPart1=soundWave01
+GroupPart1Importance=High
+GroupPart2=soundWave02
+GroupPart2Importance=High
+group-vis=1200
+
+[soundWave01]
+KeywordsExcluded=BattlecastChogath
+e-life=0.550000011920929
+e-rate=19
+p-colortype=1 1
+p-life=0.25999999046325684
+p-quadrot=90 90 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=230 500 230
+p-texture=sound_waves_styled_01.dds
+p-type=1
+p-uvscroll-rgb=0.8 0
+p-vel=0 200 3500
+p-xscale=1.4000000000000001 1 1
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 0.6000000000000001 0.6000000000000001 0.6000000000000001
+p-xscale3=1 1 1 1
+
+[soundWave02]
+KeywordsExcluded=BattlecastChogath
+e-life=0.550000011920929
+e-rate=19
+p-colortype=1 1
+p-life=0.25999999046325684
+p-quadrot=90 90 0
+p-rgba=AlphaStrike_Slash__slash__p-rgba.tga
+p-scale=250 350 250
+p-startframe=1
+p-texture=sound_waves_styled_01.dds
+p-type=1
+p-uvscroll-rgb=0.8 0
+p-vel=0 200 3000
+p-xscale=1 1 1
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 0.6000000000000001 0.6000000000000001 0.6000000000000001
+p-xscale3=1 1 1 1
+

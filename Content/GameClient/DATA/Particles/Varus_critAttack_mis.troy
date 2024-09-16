@@ -1,0 +1,97 @@
+[System]
+GroupPart1=bolt
+GroupPart2=trail
+GroupPart4=boltglow
+SimulateEveryFrame=1
+
+[bolt]
+e-rate=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=5
+p-linger=0
+p-mesh=varus_arrow.sco
+p-meshtex=color-hold.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 720 0
+p-scale=50 50 50
+p-shadow=1
+p-type=3
+rendermode=3
+
+[boltglow]
+e-rate=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=5
+p-linger=0
+p-offset=0 2 0
+p-postoffset=0 0 0
+p-quadrot=0 15 0
+p-rgba=color-hold.tga
+p-scale=12 50 0
+p-texture=varus_arrow_flat.tga
+p-type=1
+rendermode=1
+
+[trail]
+e-life=4
+e-local-orient=1
+e-rate=120
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-rgba=color-rampdown.tga
+p-scale=10 0 0
+p-texture=smoke_fade_01.tga
+p-trailmode=0
+p-type=5
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk03339B2A=2 2
+unk14E1F9CC=4
+unk1B144A8F=0 1
+unk1B144A90=0.7000000000000001 2
+unk1B144A91=1 3
+unk1C8C70BD=0 0.5
+unk1C8C70BE=0.9 1
+unk1C8C70BF=1 1.5
+unk2808D3CE=1
+unk2F4D78F0=0 1 0
+unk3AFE3587=0 1 1 0
+unk3AFE3588=1 0.5 0.5 0
+unk441D8643=0
+unk532EF4BB=varuscurls2.tga
+unk539AB029=0.05999999865889549
+unk560F937A=1
+unk63DFA487=1 1
+unk7671152A=50 200 0
+unk8FF1700E=0
+unk97B895F6=0 0
+unk9A264E13=0 0 0
+unk9BB65CDD=1 3
+unkA5798476=1
+unkB22D8BBC=3
+unkB382C537=0 0.4
+unkB382C538=1 0
+unkD9EE12FC=1
+unkDCDD0AFE=1
+unkE605E547=0.30000000000000004
+unkE6379B49=0 0
+unkE6379B4A=1 360
+unkE6B5AACA=0 0
+unkE6B5AACB=1 360
+unkE733BA4B=0 0
+unkE733BA4C=1 360
+unkF016D774=color-reddown32.tga
+unkF94C512B=100

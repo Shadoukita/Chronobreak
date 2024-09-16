@@ -1,0 +1,74 @@
+[System]
+GroupPart1=rays
+GroupPart1Type=Complex
+GroupPart2=glow
+GroupPart2Type=Simple
+SoundPersistent=Play_sfx_BloodkingVladimir_Joke3D_buffactivate
+
+[glow]
+KeywordsRequired=BloodkingVladimir
+e-life=0.6
+e-linger=0
+e-rate=15
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=1 10 1
+p-postoffset=-1 10 -1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 1
+p-rotvelP2=1 -1
+p-scale=30
+p-texture=Flare-Rainbow_purp_01.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.3 2 2 2
+p-xscale3=0.8 0.1 0.1 0.1
+rendermode=0
+
+[rays]
+KeywordsRequired=BloodkingVladimir
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=60
+p-bindtoemitter=1
+p-colortype=1 0
+p-life=1
+p-life1=0 1.5
+p-life2=1 0.1
+p-linger=1
+p-offset=0 40 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 -90
+p-quadrotXP2=1 90
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-rampup.tga
+p-scale=6 12 0
+p-scale1=0 0.5 1 0.5
+p-scale2=1 1 1.2000000000000002 1
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.2
+p-scaleYP2=0.30000000000000004 1.4000000000000001
+p-texdiv=1 1
+p-texture=Vlad_BloodKing_Joke_Ray.tga
+p-type=2
+p-xscale1=0 1 1 0
+p-xscale2=0.5 4 4 4
+p-xscale3=1 0 3 0
+pass=100
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk7206B4AC=0 2
+unk7206B4AD=1 0.2
+unk9BD31F60=1

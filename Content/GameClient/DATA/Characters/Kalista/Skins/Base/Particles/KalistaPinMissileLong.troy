@@ -1,0 +1,117 @@
+[System]
+GroupPart1=bolt
+GroupPart2=trail
+GroupPart3=bolt_amber
+GroupPart4=trail_amber
+GroupPart5=bolt_Ascended
+GroupPart6=trail_Ascended
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[bolt]
+e-rate=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=varus_arrow.sco
+p-meshtex=varus_arrow_glow.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-scale=40 40 40
+p-shadow=1
+p-type=3
+rendermode=1
+
+[bolt_Ascended]
+KeywordsRequired=varusAscended
+e-rate=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=Varus_Asc_Q_Arrow.sco
+p-meshtex=Varus_Asc_Q_Arrow.tga
+p-quadrot=90 90 0
+p-rotvel=0 0 150
+p-scale=40 40 40
+p-shadow=1
+p-type=3
+p-xrgba=0.8 0.8 0.4 1
+rendermode=0
+
+[bolt_amber]
+KeywordsRequired=VarusDarkCrystal
+e-rate=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-mesh=varus_arrow.sco
+p-meshtex=varus_arrow_glow_amber.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-scale=40 40 40
+p-shadow=1
+p-type=3
+rendermode=1
+
+[trail]
+e-life=1
+e-local-orient=1
+e-rate=120
+e-trail-cutoff=500
+p-bindtoemitter=0
+p-coloroffset=0.7000000000000001 0
+p-colorscale=0.30000000000000004 0
+p-colortype=1 0
+p-life=0.25
+p-rgba=color-rainbowbell.tga
+p-scale=2 0 0
+p-texture=smoke_fade_01.tga
+p-trailmode=0
+p-type=5
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[trail_Ascended]
+KeywordsRequired=varusAscended
+e-life=4
+e-local-orient=1
+e-rate=120
+p-bindtoemitter=0 0
+p-life=0.5
+p-rgba=color-Bellcurve4.tga
+p-scale=5 0 0
+p-texture=smoke_fade_01.tga
+p-trailmode=0
+p-type=5
+p-xrgba=0.8 0.8 0.4 0.2
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[trail_amber]
+KeywordsRequired=VarusDarkCrystal
+e-life=1
+e-local-orient=1
+e-rate=120
+e-trail-cutoff=500
+p-bindtoemitter=0
+p-coloroffset=0.7000000000000001 0
+p-colorscale=0.30000001192092896 0.9200000166893005
+p-colortype=1 0
+p-life=0.25
+p-rgba=color-rainbowbell.tga
+p-scale=2 0 0
+p-texture=smoke_fade_01.tga
+p-trailmode=0
+p-type=5
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+

@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "AkaliTwinDisciplines.dds"
+BuffTextureName = L0_1
+L0_1 = "AkaliTwinDmg"
+BuffName = L0_1
+L0_1 = "akali_twinDisciplines_DMG_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "L_hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1
+L0_1 = true
+Nondispellable = L0_1

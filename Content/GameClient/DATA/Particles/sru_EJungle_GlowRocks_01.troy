@@ -1,0 +1,99 @@
+[GlowRocks2]
+e-local-orient=0
+e-rate=0.1
+e-rateP1=0 1
+e-rateP2=1 3
+e-uvoffset-mult=0 1
+e-uvoffset-multYP1=0 0
+e-uvoffset-multYP2=1 0.4
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=3
+p-lifeP1=0 1
+p-lifeP2=1 1.3
+p-linger=0
+p-mesh=sru_ejungle_glowrocks_01.scb
+p-meshtex=SRU_EastJungle_GlowRocks_NextTOWolves_01.DDS
+p-meshtex-mult=SRU_EastJungle_GlowRocks_NextTOWolves_Mult_01.dds
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.1
+p-uvscroll-rgb-mult=0 0.1
+p-uvscroll-rgb-multYP1=0 1
+p-uvscroll-rgb-multYP2=1 3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[LightCone]
+e-local-orient=0
+e-rate=0.07000000029802322
+p-bindtoemitter=1 0
+p-life=15
+p-linger=1
+p-mesh=sru_ejungle_glowcone_01.scb
+p-meshtex=SRU_EastJungle_SoftCone_Rocks_01.dds
+p-meshtex-mult=SRU_EastJungle_SoftCone_Rocks_Mult_01.dds
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.06
+p-uvscroll-rgb-mult=0.009999999776482582 -0.009999999776482582
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.6 1 1 1 0.956893
+p-xrgba4=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=eastjungle_magicMotes_01
+GroupPart2=LightCone
+GroupPart2Importance=Low
+GroupPart3=GlowRocks2
+GroupPart3Importance=Low
+SimulateEveryFrame=1
+group-vis=50
+
+[eastjungle_magicMotes_01]
+e-rate=1
+e-shape-name=sru_ejungle_glowrocks_01.scb
+p-drag=1 5 1
+p-dragYP1=0 0.2
+p-dragYP2=1 0.4
+p-life=2
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-numframes=2
+p-randomstartframe=1
+p-scale=26 26 26
+p-scaleXP1=0 0.3
+p-scaleXP2=1 1
+p-texdiv=2 1
+p-texture=SRU_EastJungle_MagicMotes_01.DDS
+p-vel=80 60 80
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.2 0.2 1 1 0.5
+p-xrgba3=0.5 0.6 1 1 0.5
+p-xrgba4=0.8 0.6 0.8 1 1
+p-xrgba5=1 0 0.5 1 0
+rendermode=4
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk162A61EF=0.009999999776482582 4 0.009999999776482582
+unk58D94881=0 1
+unk58D94882=1 0.4
+unk777F22B1=sphere.sco
+unkA434D1D6=color-hold.DDS
+unkB137CE2E=color-hold.DDS
+unkCA3A4E68=-1
+unkDD8D2B17=0 50 0
+unkE9988C97=-1
+unkF0D5DD67=0 1
+unkF0D5DD68=1 1
+unkF6D5E459=sphere.sco

@@ -1,0 +1,65 @@
+[System]
+GroupPart1=beam1
+GroupPart2=beam2
+SoundOnCreate=Play_sfx_Env_ShrineTurretAttack_cast
+SoundPersistent=Play_sfx_Env_ShrineTurretAttack_hit
+build-up-time=1
+group-vis=5000
+
+[beam1]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=8
+e-tilesize=0 2000 0
+p-bindtoemitter=1
+p-colorscale=1 0.9900000095367432
+p-colortype=1 0
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-numframes=2
+p-offset=0 0 0
+p-rgba=color-rainbowbell.tga
+p-scale=20 0 0
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-startframe=1
+p-texdiv=2 1
+p-texture=nexus_ray.tga
+p-type=6
+p-uvscroll-rgb=0.5 0
+p-xscale1=0 1 0 0
+p-xscale2=1 2 0 0
+rendermode=0
+
+[beam2]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=10
+e-tilesize=0 2000 0
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 -0.20000000298023224
+e-uvoffsetYP2=1 0.2
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.8
+p-linger=0
+p-numframes=2
+p-offset=0 0 0
+p-rgba=color-holyfervor.tga
+p-scale=8 1 1
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-startframe=0
+p-texdiv=4 1
+p-texture=drawabead05.tga
+p-type=6
+p-uvscroll-rgb=-0.30000001192092896 0
+rendermode=0
+

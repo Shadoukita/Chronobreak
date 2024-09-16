@@ -1,0 +1,78 @@
+[Flash]
+e-life=2
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0
+p-colortype=1 0
+p-life=0.2
+p-postoffset=0 50 0
+p-rgba=color-rampdown.tga
+p-scale=100
+p-scalebias=1 0.5
+p-texdiv=1 1
+p-texture=ringflare.tga
+p-xscale1=0 5
+p-xscale2=1 0.5
+
+[System]
+GroupPart1=lightning
+GroupPart2=Flash
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[lightning]
+e-life=0.5
+e-linger=0
+e-local-orient=0
+e-rate=40
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.6
+p-lifeP1=0 0.4
+p-lifeP2=0.9 1
+p-lifeP3=1 1.25
+p-linger=0
+p-numframes=4
+p-offset=0 80 0
+p-orbitvel=0 1 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rgba=color-flicker.tga
+p-rotvel=30 30 30
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=70 130 0
+p-scaleYP1=0 0.4
+p-scaleYP2=0.9 0.6000000000000001
+p-scaleYP3=1 1.25
+p-startframe=1
+p-texdiv=2 2
+p-texture=Kennen_Base_Z_Bolts.tga
+p-type=0
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.5 0.5 1 1 1
+p-xrgba4=1 0 0 1 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 0.9 1
+p-xscale3=1 0.5 1.1 1
+pass=2
+rendermode=0
+single-particle=0
+
+[UNKNOWN_HASHES]
+unk0A9A88E3=40

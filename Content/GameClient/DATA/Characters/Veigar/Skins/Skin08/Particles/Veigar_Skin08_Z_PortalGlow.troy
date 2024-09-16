@@ -1,0 +1,64 @@
+[SquareGlow]
+e-life=2
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=3.3000000000000003
+p-linger=0
+p-offset=1 1 1
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=0 0 90
+p-quadrotXP1=0 0
+p-quadrotXP2=0.25 0
+p-quadrotXP3=0.2501 90
+p-quadrotXP4=0.5 90
+p-quadrotXP5=0.5001 180
+p-quadrotXP6=0.75 180
+p-quadrotXP7=0.7501 270
+p-quadrotYP1=0 0
+p-quadrotYP2=0.25 0
+p-quadrotYP3=0.2501 90
+p-quadrotYP4=0.5 90
+p-quadrotYP5=0.5001 180
+p-quadrotYP6=0.75 180
+p-quadrotYP7=0.7501 270
+p-quadrotZP1=0 0
+p-quadrotZP2=0.25 0
+p-quadrotZP3=0.2501 90
+p-quadrotZP4=0.5 90
+p-quadrotZP5=0.5001 180
+p-quadrotZP6=0.75 180
+p-quadrotZP7=0.7501 270
+p-rgba=Veigar_Skin08_Z_FlickerColor.dds
+p-rotvel=0 0 0
+p-rotvelXP1=0 1
+p-rotvelXP2=0.5 0
+p-rotvelXP3=1 -1
+p-scale=110 100 0
+p-texture=Veigar_Skin08_Z_PixelPortalGlow.dds
+p-type=1
+p-xrgba=0 1 0.031373 0.616007
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.133333 1 0 1
+p-xrgba3=0.8 0 0.184314 0.027451 1
+p-xrgba4=1 0 0 0 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.8 1 1 1
+p-xscale3=1 0 0 0
+pass=1
+single-particle=1
+teamcolor-correction=1
+
+[System]
+GroupPart1=SquareGlow
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[UNKNOWN_HASHES]
+unkA62E7232=1

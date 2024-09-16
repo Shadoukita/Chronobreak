@@ -1,0 +1,135 @@
+[Skin02WeaponTrailLeft]
+KeywordsRequired=EliseSkin02
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Elise_Skin02_Z_trail.tga
+p-offset=-50 0 0
+p-quadrot=0 -30 90
+p-scale=0.6 0.6 0.6
+p-type=3
+p-uvscroll-rgb=4.5 0
+p-xrgba1=0 1 1 1 1
+rendermode=1
+single-particle=1
+
+[Skin02WeaponTrailRight]
+KeywordsRequired=EliseSkin02
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Elise_Skin02_Z_trail.tga
+p-offset=50 0 0
+p-quadrot=0 -20 90
+p-scale=0.6 0.6 0.6
+p-type=3
+p-uvscroll-rgb=4.5 0
+p-xrgba1=0 1 1 1 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=WeaponTrail_Right
+GroupPart2=WeaponTrail_Left
+GroupPart3=WeaponTrailRight_Lotus
+GroupPart4=WeaponTrailLeft_Lotus
+GroupPart5=Skin02WeaponTrailRight
+GroupPart6=Skin02WeaponTrailLeft
+SimulateEveryFrame=1
+
+[WeaponTrailLeft_Lotus]
+KeywordsRequired=EliseLotusFlower
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Elise_LotusFlower_WTrail.tga
+p-offset=-50 0 0
+p-quadrot=0 -30 90
+p-rgba=alpha_14.tga
+p-scale=0.6 0.6 0.6
+p-type=3
+p-uvscroll-rgb=4.5 0
+rendermode=1
+single-particle=1
+
+[WeaponTrailRight_Lotus]
+KeywordsRequired=EliseLotusFlower
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Elise_LotusFlower_WTrail.tga
+p-offset=50 0 0
+p-quadrot=0 -20 90
+p-rgba=alpha_14.tga
+p-scale=0.6 0.6 0.6
+p-type=3
+p-uvscroll-rgb=4.5 0
+rendermode=1
+single-particle=1
+
+[WeaponTrail_Left]
+KeywordsExcluded=EliseLotusFlower EliseSkin02
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Elise_Qtrail.tga
+p-offset=-50 0 0
+p-quadrot=0 -30 90
+p-rgba=alpha_14.tga
+p-scale=0.6 0.6 0.6
+p-type=3
+p-uvscroll-rgb=4.5 0
+rendermode=1
+single-particle=1
+
+[WeaponTrail_Right]
+KeywordsExcluded=EliseLotusFlower EliseSkin02
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Elise_Qtrail.tga
+p-offset=50 0 0
+p-quadrot=0 -20 90
+p-rgba=alpha_14.tga
+p-scale=0.6 0.6 0.6
+p-type=3
+p-uvscroll-rgb=4.5 0
+rendermode=1
+single-particle=1
+

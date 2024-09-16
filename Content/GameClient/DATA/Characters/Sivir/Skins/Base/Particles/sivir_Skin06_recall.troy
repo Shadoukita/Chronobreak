@@ -1,0 +1,146 @@
+[System]
+GroupPart1=snowflake_skin06
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ice_sparkle
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[attraction_03]
+f-accel=200
+f-pos=0 0 0
+f-radius=700
+
+[drag]
+f-drag=1
+f-dragP1=0 0.953000009059906
+f-dragP2=1 1.0751479864120483
+f-pos=0 0 0
+f-radius=800
+
+[ice_sparkle]
+KeywordsExcluded=BlackIceAnivia
+e-life=6
+e-linger=0
+e-rate=15
+e-rotation1=360
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-timeoffset=-5
+field-attract-1=attraction_03
+field-drag-1=drag
+p-bindtoemitter=1 0
+p-life=2.5
+p-lifeP1=0 0.41600000858306885
+p-lifeP2=1 1.1122219562530518
+p-linger=0
+p-offset=55 230 55
+p-postoffset=0 330 0
+p-rotvel=180
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=25
+p-scaleXP1=0 0.4
+p-scaleXP2=0.8 1
+p-texture=Ashe_Freljord_Sparkle.tga
+p-vel=-30 -200 0
+p-velXP1=0 1.1
+p-velXP2=1 0.7699999809265137
+p-velYP1=0 2
+p-velYP2=1 0.6000000000000001
+p-xscale1=0 0 0 0
+p-xscale2=0.3 0 0 0
+p-xscale3=0.5 1 1 1
+p-xscale4=0.6 1.4 1.4 1.4
+p-xscale5=0.7 0.8 0.8 0.8
+p-xscale6=1 0 0 0
+rendermode=0
+
+[snow_orbit]
+f-direction=0 1 0
+f-localspace=1
+
+[snowflake_skin06]
+KeywordsExcluded=BlackIceAnivia
+e-life=6
+e-linger=0
+e-local-orient=1
+e-rate=18
+e-rotation1=360
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-timeoffset=-6
+field-orbit-1=snow_orbit
+p-bindtoemitter=1 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-offset=50 190 50
+p-postoffset=0 310 0
+p-quadrot=1
+p-quadrotP1=0 290
+p-quadrotP2=0.5 290
+p-quadrotP3=0.5 -290
+p-quadrotP4=1 -290
+p-rgba=color-smoke32_07.tga
+p-rotvel=1
+p-rotvelP1=0 75
+p-rotvelP2=0.5 75
+p-rotvelP3=0.5 -75
+p-rotvelP4=1 -75
+p-scale=10
+p-scaleP1=0 0.25
+p-scaleP2=1 1.75
+p-texture=Sivir_Skin06_snow_02.tga
+p-type=0
+p-vel=35 -240 0
+p-velXP1=0 2
+p-velXP2=1 0.6000000000000001
+p-velYP1=0 2
+p-velYP2=1 0.6000000000000001
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk03F73D20=0
+unk1543C863=0 255 0
+unk2F11CF62=1
+unk3EC8A03D=BlackIceAnivia
+unk3F2F67A3=0 0
+unk3F2F67A4=1 1
+unk4452A6B4=0
+unk45883E2D=0 75
+unk45883E2E=0.5 75
+unk45883E2F=0.5 -75
+unk45883E30=1 -75
+unk461549E9=0
+unk4E8784B9=50 190 50
+unk54E7AEC5=0 0.25
+unk54E7AEC6=1 1.75
+unk5FCF67EC=0 1 0
+unk66D28AB1=-6
+unk732EFE97=0 -240 0
+unk8135986C=1
+unk832F67F9=0 310 0
+unk87D5BCA2=2
+unk8F839CE2=360
+unk93ED8EED=6
+unk9B8902B7=1 0
+unk9DFE811A=color-smoke32_07.tga
+unkA733FAD1=18
+unkBFFA1263=0 2
+unkBFFA1264=1 0.6000000000000001
+unkC3D01050=1 0
+unkC9DFEBCA=1
+unkCC4940F8=1
+unkE1041272=snow_orbit
+unkE682C28B=0 290
+unkE682C28C=0.5 290
+unkE682C28D=0.5 -290
+unkE682C28E=1 -290
+unkEC19D504=10
+unkEDC16795=Sivir_Skin06_R_alliesbuff_flash_03.tga
+unkFE90752D=1 0.4

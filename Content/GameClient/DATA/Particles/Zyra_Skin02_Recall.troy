@@ -1,0 +1,30 @@
+[RecallGeo]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.15
+p-animation=zyra_Skin02_Recall_Roots.anm
+p-backfaceon=1
+p-bindtoemitter=0
+p-life=9
+p-linger=0
+p-local-orient=0
+p-meshtex=zyra_skin02_ult.tga
+p-postoffset=0 0 0
+p-quadrot=0 180 0
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-skeleton=zyra_Skin02_R_Vines.skl
+p-skin=zyra_Skin02_R_Vines.skn
+p-type=3
+p-xrgba=1 1 1 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=RecallGeo
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+group-vis=5000
+

@@ -1,0 +1,73 @@
+[System]
+GroupPart1=timer
+GroupPart2=spark
+SimulateEveryFrame=1
+
+[spark]
+e-life=7.75
+e-local-orient=0
+e-rate=7
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation11=0 100
+e-rotation12=1 460
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.4
+p-linger=0
+p-offset=90 0 0
+p-offsetXP1=0 0.99
+p-offsetXP2=1 1.0299999713897705
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-scale=50 50 50
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1
+p-scaleYP1=0 0.7
+p-scaleYP2=1 1
+p-texture=Nautilus_Base_solar_tag.dds
+p-vel=10 10 10
+p-velXP1=0 -0.5
+p-velXP2=1 0.5
+p-velZP1=0 -0.5
+p-velZP2=1 0.5
+p-worldaccel=0 50 0
+p-xrgba=1 0.7000000000000001 0.5 1
+p-xrgba1=0 1 1 1 0.4
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.7000000000000001 0.7000000000000001 0.7000000000000001
+pass=10
+uniformscale=1
+
+[timer]
+e-life=0.1
+e-local-orient=0
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-colortype=3 3
+p-life=7.75
+p-mesh=Nautilus_Base_Passive_timer_mesh.sco
+p-meshtex=Nautilus_Base_Passive_timer_ring.dds
+p-quadrot=90 0 180
+p-scale=20 20 0
+p-type=3
+p-uvscroll-rgb=0.06 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.009999999776482582 1.2000000476837158 1.2000000476837158 1.2000000476837158
+p-xscale3=0.019999999552965164 0.800000011920929 0.800000011920929 0.800000011920929
+p-xscale4=0.029999999329447746 1 1 1
+p-xscale5=1 1 1 1
+rendermode=4
+single-particle=1
+

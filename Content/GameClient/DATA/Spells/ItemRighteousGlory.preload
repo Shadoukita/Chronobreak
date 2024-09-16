@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="shurelyasspell"}}, 
+{Function=BBPreloadSpell, Params={Name="itemrighteousgloryspeed"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_allycas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="itemrighteousglory"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_preaoe.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_aoe.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="slow"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_tar.troy"}}, 
+}

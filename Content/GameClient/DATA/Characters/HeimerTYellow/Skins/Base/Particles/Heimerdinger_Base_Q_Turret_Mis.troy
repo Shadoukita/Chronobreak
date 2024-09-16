@@ -1,0 +1,50 @@
+[System]
+GroupPart1=trail
+GroupPart1Importance=High
+GroupPart2=head
+SimulateEveryFrame=1
+
+[head]
+e-local-orient=1
+e-rate=12
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.14
+p-local-orient=1
+p-postoffset=0 -40 -52
+p-quadrot=0 0 90
+p-rotvel=0 0 0
+p-scale=70 55 55
+p-texture=Heimerdinger_Base_Q_Turret_Mis_head.dds
+p-type=1
+p-xrgba1=0 0.55 0.35 0.35 1
+p-xrgba2=0.1 0.45 0.45 0.35 1
+p-xrgba3=0.3 0.35 0.35 0.35 1
+p-xrgba4=1 0.35 0.35 0.35 1
+p-xscale1=0 1.25 0.75 0.75
+p-xscale2=1 2 0.2 0.2
+pass=1
+rendermode=4
+
+[trail]
+e-local-orient=1
+e-rate=100
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=-1
+p-postoffset=0 0 -55
+p-quadrot=0 0 90
+p-scale=80 20 10
+p-texture=Heimerdinger_Base_Q_Turret_mis.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba1=0 0.55 0.35 0.35 0.3
+p-xrgba2=0.1 0.45 0.45 0.35 0.1
+p-xrgba3=0.3 0.35 0.35 0.35 0.1
+p-xrgba4=1 0.35 0.35 0.35 0
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.05 2 1 1
+p-xscale3=1 0.1 0.1 0.1
+rendermode=0
+

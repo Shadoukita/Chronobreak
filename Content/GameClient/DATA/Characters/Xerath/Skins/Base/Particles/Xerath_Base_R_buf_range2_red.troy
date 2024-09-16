@@ -1,0 +1,57 @@
+[System]
+GroupPart1=teamcircle-red
+GroupPart1Type=Simple
+GroupPart2=teamcircle-red-hold
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+group-vis=10000
+
+[teamcircle-red]
+e-life=1
+e-rate=1
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.4 0.30000000000000004
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-offset=0 100 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=4200
+p-simpleorient=2
+p-texture=team_ring_red_02.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 1
+pass=1
+rendermode=4
+single-particle=1
+
+[teamcircle-red-hold]
+e-life=-1
+e-rate=1
+e-timeoffset=1
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.4 0.30000000000000004
+p-colortype=1 0
+p-life=60
+p-linger=0
+p-offset=0 100 0
+p-postoffset=0 0 0
+p-projection-fading=400
+p-projection-y-range=400
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=4200
+p-simpleorient=2
+p-texture=team_ring_red_02.dds
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 1
+pass=1
+rendermode=4
+single-particle=1
+

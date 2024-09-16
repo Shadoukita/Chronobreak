@@ -1,0 +1,52 @@
+[System]
+GroupPart1=flames_Goth
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[flames_Goth]
+e-life=1
+e-linger=0
+e-rate=25
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 -20
+e-rotation1P2=1 90
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=0 0
+p-life=0.5
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-offset=20 0 0
+p-offsetXP1=0 0.8
+p-offsetXP2=1 1
+p-postoffset=0 50 0
+p-scale=20 25 0
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 2
+p-texture=Annie_Idle_Fire_Goth.tga
+p-type=0
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1 0
+p-vel=250 0 0
+p-velXP1=0 0.30000000000000004
+p-velXP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=0.2 1 1 1 0.25
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 1
+rendermode=0
+single-particle=1
+

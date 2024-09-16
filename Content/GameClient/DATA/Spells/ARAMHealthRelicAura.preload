@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="aram_health_relic.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="odinshieldrelicbuffheal"}}, 
+}

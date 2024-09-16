@@ -1,0 +1,177 @@
+[LightProj]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.7000000000000001
+p-colortype=1 0
+p-life=16
+p-linger=0
+p-offset=0 1 0
+p-projection-fading=100
+p-projection-y-range=250
+p-rgba=color-plateau-ramp-red.tga
+p-scale=100
+p-simpleorient=2
+p-texture=thresh_glow_grey.tga
+p-type=7
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[Skin02Glow1]
+KeywordsRequired=ThreshSkin02
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.25
+p-colortype=1 0
+p-life=14
+p-linger=0
+p-quadrot=0
+p-rgba=color-plateau-ramp.tga
+p-rotvel=10
+p-scale=70
+p-texture=Thresh_Skin02_Z_Soul02.tga
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[Skin02Glow2]
+KeywordsRequired=ThreshSkin02
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.25
+p-colortype=1 0
+p-life=14
+p-linger=0
+p-quadrot=0
+p-rgba=color-plateau-ramp.tga
+p-rotvel=-10
+p-scale=70
+p-texture=Thresh_Skin02_Z_Soul02.tga
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[Skin02LightProj]
+KeywordsRequired=ThreshSkin02
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.7000000000000001
+p-colortype=1 0
+p-life=14
+p-linger=0
+p-offset=0 1 0
+p-projection-fading=100
+p-projection-y-range=250
+p-rgba=color-plateau-ramp.tga
+p-scale=100
+p-simpleorient=2
+p-texture=Thresh_Skin02_P_Headglow.tga
+p-type=7
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[SoulGlow1]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.25
+p-colortype=1 0
+p-life=16
+p-linger=0
+p-quadrot=0
+p-rgba=color-plateau-ramp-red.tga
+p-rotvel=10
+p-scale=80
+p-texture=Thresh_Soul_grey.tga
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[SoulGlow2]
+KeywordsExcluded=ThreshSkin02
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.25
+p-colortype=1 0
+p-life=16
+p-linger=0
+p-quadrot=0
+p-rgba=color-plateau-ramp-red.tga
+p-rotvel=-10
+p-scale=80
+p-texture=Thresh_Soul_grey.tga
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[SoulMist]
+e-life=14
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 0.7000000000000001
+p-colortype=1 0
+p-life=1.5
+p-linger=1.5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bell-red.tga
+p-scale=80
+p-texture=circle-mist.tga
+p-xscale1=0 0.5
+p-xscale2=1 2
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart2=LightProj
+GroupPart2Type=Simple
+GroupPart3=SoulGlow1
+GroupPart3Type=Simple
+GroupPart4=SoulGlow2
+GroupPart4Type=Simple
+GroupPart5=SoulMist
+GroupPart5Type=Simple
+GroupPart6=Skin02LightProj
+GroupPart6Type=Simple
+GroupPart7=Skin02Glow1
+GroupPart7Type=Simple
+GroupPart8=Skin02Glow2
+GroupPart8Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk05E8137C=1
+unk14DC8FB0=1
+unk20F461FB=20
+unk343ACDDF=30
+unk371D2673=20 255 200 100
+unk39229CC2=1
+unk73D5C576=3 0 0
+unk7F52D470=0
+unk8E0A9C8E=800 -1 0
+unk90FE102E=4
+unk9C04D2C2=0
+unk9DC775F7=1
+unkA639B0C7=0 0 0
+unkAC4693EF=0 1
+unkAC4693F0=1 0
+unkAEA83F07=color-hold.tga
+unkB36CE035=0
+unkC30157F9=0 1 1 1 0
+unkC30157FA=0.2 1 1 1 1
+unkC30157FB=1 0 0 1 0
+unkD8E7C47A=0 0 0

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Shyvana_Base_W_Burnout.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="corki_phosphorous_bomb_tar.troy"}}, 
+}

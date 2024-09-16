@@ -1,0 +1,40 @@
+[Redglow]
+KeywordsExcluded=VarusAscended
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-postoffset=0 10 0
+p-rgba=Varus_Passive_Buff_RGB.tga
+p-scale=30
+p-texture=glow-soft.tga
+p-type=0
+rendermode=0
+
+[Redglow_Asc]
+KeywordsRequired=VarusAscended
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-postoffset=0 10 0
+p-rgba=Varus_Passive_Buff_Asc_RGB.tga
+p-scale=30
+p-texture=glow-soft.tga
+p-type=0
+rendermode=0
+
+[System]
+GroupPart1=Redglow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Redglow_Asc
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

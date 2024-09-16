@@ -1,0 +1,37 @@
+[System]
+GroupPart1=rays
+GroupPart1Type=simple
+
+[rays]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=100
+p-bindtoemitter=1
+p-colorscale=1 0.8
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-offset=0 -10 0
+p-postoffset=0 100 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rgba=color-bloodlust.tga
+p-scale=20 200 0
+p-startframe=2
+p-texdiv=2 2
+p-texture=angerwaves.tga
+p-type=2
+p-xscale1=0 1 0 0
+p-xscale2=0.4 1 1 0
+p-xscale3=1 6 0.30000001192092896 1000
+rendermode=0
+

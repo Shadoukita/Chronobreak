@@ -1,0 +1,66 @@
+[System]
+GroupPart1=trail
+GroupPart2=spark
+SimulateEveryFrame=1
+
+[spark]
+e-life=4.650000095367432
+e-linger=1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.5
+p-lifeP1=0 1
+p-lifeP2=0.85 2
+p-lifeP3=1 3
+p-linger=1
+p-numframes=4
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 180
+p-randomstartframe=1
+p-scale=100 100 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-texdiv=2 2
+p-texture=Braum_Base_Q_End_spark_mis.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0.1 0.1 1 0
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 2 2 1
+pass=-10
+rendermode=4
+single-particle=0
+uniformscale=1
+
+[trail]
+e-life=5
+e-rate=10
+e-tilesize=5000 -1 0
+p-bindtoemitter=0
+p-colortype=1 0
+p-life=0.75
+p-linger=8
+p-offset=0 0 0
+p-rgba=Braum_Base_E_shield_RGBA.dds
+p-rotvel=0 0 0
+p-scale=30 1 0
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1
+p-texture=Braum_Base_W_Ice_shard_trail.dds
+p-trailmode=0
+p-type=5
+p-uvscroll-rgb=-1 0
+p-xrgba=1 1 1 0.25
+p-xscale=1 1 1
+p-xscale1=0 2 2 2
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=0.6000000000000001 1 1 1
+p-xscale4=1 0 0 0
+rendermode=0
+

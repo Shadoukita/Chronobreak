@@ -1,0 +1,40 @@
+[CannonBall]
+e-life=1
+e-rate=2
+e-rgba=255 251 255 255
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-offset=0 0 0
+p-quadrot=45
+p-scale=20 20 20
+p-texture=SRU_Minion_CanM_Cannonball.dds
+p-xrgba=1 1 1 1
+rendermode=1
+single-particle=1
+
+[Glow]
+e-life=1
+e-rate=2
+p-bindtoemitter=1 0
+p-life=0.5
+p-linger=0
+p-offset=0 0 0
+p-scale=60 60 60
+p-texture=Glow-Soft.tga
+p-type=0
+p-xrgba=1 0.5 0.25 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.8 0.8 0
+p-xscale2=0.5 1 1 0
+p-xscale3=1 0 0 1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=CannonBall
+GroupPart2=Glow
+SimulateEveryFrame=1
+

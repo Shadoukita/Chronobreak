@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="morgana_skin05_r_mis.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_skin05_r_tar_timer.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_base_r_beam.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_blackthorn_soulshackle_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_blackthorn_morgana_base_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soulshackle_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_base_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_base_r_indicator_ring.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_base_r_tar_explode.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="soulshacklesowner"}}, 
+{Function=BBPreloadSpell, Params={Name="soulshackles"}}, 
+{Function=BBPreloadSpell, Params={Name="slow"}}, 
+}

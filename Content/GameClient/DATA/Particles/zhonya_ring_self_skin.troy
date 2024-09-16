@@ -1,0 +1,48 @@
+[System]
+GroupPart1=placeholder
+GroupPart1Type=Simple
+GroupPart2=spike_ring
+GroupPart2Importance=High
+MaterialOverride1BlendMode=3
+MaterialOverride1Priority=2500
+MaterialOverride1Texture=gold_overlay_01.tga
+
+[placeholder]
+e-life=0.1
+e-linger=0
+e-rate=1
+p-life=0.05
+p-linger=0
+p-rgba=color-hold.tga
+p-scale=0
+p-texture=missing_instant.tga
+p-type=0
+single-particle=1
+
+[spike_ring]
+e-life=5
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-flexscale=0.0035
+p-life=5
+p-linger=0
+p-mesh=ring_02.sco
+p-meshtex=gold_overlay_01.tga
+p-offset=0 0 0
+p-postoffset=0 50 0
+p-quadrot=0 0 0
+p-rotvel=420 0 420
+p-scale=125 125 125
+p-type=3
+p-uvscroll-rgb=0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5BD5BD81=0

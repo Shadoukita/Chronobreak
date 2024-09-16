@@ -1,0 +1,119 @@
+[Cyber_Eyes_Ring]
+e-life=1
+e-rate=3
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-rampdown32.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=38
+p-texture=Nocturne_Cyber_Eye_Ring.dds
+p-vel=0 20 0
+p-xquadrot=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1
+pass=100
+
+[FlameAttract]
+f-accel=100 0 0
+f-pos=20 30 20
+f-radius=200
+
+[FlameOrbit]
+f-direction=0 1 0
+
+[System]
+GroupPart1=passiveready1_cyber
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=passiveready2_cyber
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Cyber_Eyes_Ring
+GroupPart3Type=Simple
+GroupPart4=sparks
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[passiveready1_cyber]
+e-life=1
+e-rate=3
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=alpha_12.tga
+p-rotvel=90
+p-scale=60
+p-texture=Nocturne_Cyber_Passive.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0 0 0
+rendermode=4
+
+[passiveready2_cyber]
+e-life=1
+e-rate=3
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-quadrot=0
+p-rgba=alpha_12.tga
+p-rotvel=-90
+p-scale=60
+p-texture=Nocturne_Cyber_Tail_Glow.dds
+p-xquadrot=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 0.5
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 2 2 2
+rendermode=4
+
+[sparks]
+e-life=1
+e-rate=30
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-attract-1=FlameAttract
+field-orbit-1=FlameOrbit
+p-bindtoemitter=1 1
+p-colorscale=0.5 1
+p-colortype=1 3
+p-life=4
+p-lifeP1=0 0.2
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-offset=40 0 0
+p-offsetXP1=0 0.8
+p-offsetXP2=1 1
+p-rgba=color-flamejump-blue.tga
+p-scale=3.6500000953674316
+p-texture=pink_sparks.dds
+p-vel=-10 0 10
+p-velXP1=0 1
+p-velXP2=1 3
+p-velYP1=0 1
+p-velYP2=1 3
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=1 0 0 0
+pass=100
+rendermode=2
+
+[UNKNOWN_HASHES]
+unk229D2006=1

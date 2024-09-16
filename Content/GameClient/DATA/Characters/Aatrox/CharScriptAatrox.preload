@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="aatroxpassive"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxruncyclemanager"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxvotrigger"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxwlife"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxwparticler"}}, 
+{Function=BBPreloadSpell, Params={Name="aatroxwparticle"}}, 
+}

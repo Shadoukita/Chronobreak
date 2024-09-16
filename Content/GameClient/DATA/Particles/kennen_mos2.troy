@@ -1,0 +1,205 @@
+[System]
+GroupPart1=mos1
+GroupPart1Importance=High
+GroupPart2=mos2
+GroupPart2Importance=High
+GroupPart3=mos3
+GroupPart3Importance=High
+GroupPart4=lightning
+GroupPart5=lightningglow1
+GroupPart6=lightningglow2
+GroupPart7=projected1
+GroupPart7Importance=Low
+GroupPart8=projected2
+GroupPart8Importance=Low
+SimulateEveryFrame=1
+
+[lightning]
+e-life=1
+e-local-orient=0
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 -120
+e-rotation1P2=0.5 -120
+e-rotation1P3=0.5001 120
+e-rotation1P4=1 120
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-numframes=4
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-postoffset=0 50 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-rotvel=6000 7000 8000
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=60 60 0
+p-scaleYP1=0 0.2
+p-scaleYP2=0.8 0.4
+p-scaleYP3=1 0.6000000000000001
+p-startframe=1
+p-texdiv=2 2
+p-texture=lightning02.dds
+p-type=2
+single-particle=1
+
+[lightningglow1]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+p-bindtoemitter=1 1
+p-colorscale=1 0.1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-postoffset=0 50 0
+p-rgba=color-lightning.tga
+p-scale=50 50 50
+p-texture=glow_02.dds
+single-particle=1
+
+[lightningglow2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+p-bindtoemitter=1 1
+p-colorscale=1 0.1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-postoffset=0 50 0
+p-rgba=color-lightning.tga
+p-scale=50 50 50
+p-texture=glow_02.dds
+single-particle=1
+
+[mos1]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-mesh=eyeball.sco
+p-meshtex=mos-sphere.dds
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-postoffset=0 50 0
+p-rgba=color-hold.tga
+p-shadow=1
+p-startframe=3
+p-texdiv=4 1
+p-type=3
+single-particle=1
+
+[mos2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-mesh=eyeball.sco
+p-meshtex=mos-sphere.dds
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-postoffset=0 50 0
+p-rgba=color-hold.tga
+p-startframe=3
+p-texdiv=4 1
+p-type=3
+single-particle=1
+
+[mos3]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-mesh=eyeball.sco
+p-meshtex=mos-sphere.dds
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-postoffset=0 50 0
+p-rgba=color-hold.tga
+p-startframe=3
+p-texdiv=4 1
+p-type=3
+single-particle=1
+
+[projected1]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+p-bindtoemitter=1 1
+p-colorscale=0.25 1
+p-colortype=0 1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-bluedisc.tga
+p-scale=50 50 50
+p-texture=fuzzyshadow.dds
+p-type=7
+single-particle=1
+
+[projected2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+p-bindtoemitter=1 1
+p-colorscale=0.25 1
+p-colortype=0 1
+p-flexoffset=0.004999999888241291
+p-life=12
+p-linger=0
+p-offset=80 50 0
+p-orbitvel=0 1 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-bluedisc.tga
+p-scale=50 50 50
+p-texture=fuzzyshadow.dds
+p-type=7
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0A19F10C=4
+unk0A9A88E3=40
+unk58C32ECD=4
+unkBB70B34B=4

@@ -1,0 +1,30 @@
+[SoundBlast1]
+e-life=0.2
+e-linger=10
+e-local-orient=1
+e-rate=15
+p-bindtoemitter=1 0
+p-drag=5 5 5
+p-life=0.3
+p-linger=2
+p-mesh=Chogath_Battlecast_Soundring.sco
+p-meshtex=color-hold.tga
+p-offset=0 0 0
+p-quadrot=90 40 0
+p-rgba=Chogath_Distortion_Waves_Color_Add.tga
+p-rotvel=0 0 0
+p-scale=100 200 100
+p-type=3
+p-vel=-400 0 -1000
+p-xrgba=0.8 0.8 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.3 4 4 4
+p-xscale3=1 7 7 7
+pass=-1
+rendermode=0
+
+[System]
+GroupPart1=SoundBlast1
+GroupPart1Importance=High
+SimulateEveryFrame=1
+

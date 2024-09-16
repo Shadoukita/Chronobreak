@@ -1,0 +1,62 @@
+[Flame]
+e-life=-1
+e-local-orient=1
+e-rate=20
+flag-disable-z=0
+p-bindtoemitter=1 1
+p-drag=2 1 4
+p-flexoffset=0.004999999888241291
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=0.9 1.2
+p-lifeP3=1 2.2
+p-linger=0
+p-offset=30 80 30
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-orbitvel=0 0 0
+p-postoffset=0 30 0
+p-rgba=color-hold.tga
+p-scale=50 50 0
+p-scaleXP1=0 0.4
+p-scaleXP2=0.9 0.7
+p-scaleXP3=1 1
+p-texture=SRU_Dragon_sparks.dds
+p-type=0
+p-vecalign=1
+p-vel=0 160 -20
+p-velXP1=0 0
+p-velXP2=1 1
+p-velYP1=0 1
+p-velYP2=1 1
+p-velZP1=0 0.3
+p-velZP2=1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 0.5 0 1
+p-xrgba3=1 1 0 0 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=0.4 0.3 0.3 0.3
+p-xscale4=0.6 0.6 0.6 0.6
+p-xscale5=0.8 0.1 0.1 0.1
+p-xscale6=0.9 0.3 0.3 0.3
+p-xscale7=1 0 0 0
+
+[System]
+GroupPart1=Flame
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk1A45CC5C=100
+unk1E0E56D5=400
+unk2FE53305=400
+unk4007CC17=0
+unk40B9B2C5=50
+unk88F7EECB=0.5
+unk909C498A=0 100 0
+unk9E2B8451=0 300 0
+unkB381534C=0 400 0

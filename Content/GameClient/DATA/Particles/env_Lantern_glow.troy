@@ -1,0 +1,48 @@
+[Glow]
+e-life=-1
+e-linger=0
+e-rate=4
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.5
+p-colortype=1 3
+p-life=1
+p-offset=0 -30 0
+p-rgba=color-bellramp.tga
+p-scale=100
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-texture=orange-light.tga
+p-type=0
+rendermode=0
+
+[LightProj]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=14
+p-linger=0
+p-local-orient=1
+p-offset=0 1 0
+p-projection-fading=600
+p-projection-y-range=800
+p-rgba=spike_test.tga
+p-scale=1650
+p-texture=orange-light.tga
+p-type=7
+rendermode=0
+
+[System]
+GroupPart1=Glow
+GroupPart1Type=Simple
+GroupPart2=LightProj
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+group-vis=5000
+

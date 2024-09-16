@@ -1,0 +1,84 @@
+[System]
+GroupPart1=starswirl
+GroupPart1Type=Simple
+GroupPart2=spiral
+GroupPart2Type=Complex
+
+[spiral]
+e-life=8
+e-linger=0
+e-local-orient=1
+e-rate=4
+e-rgba=140 255 80 100
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=2
+p-linger=2
+p-mesh=helix2.sco
+p-meshtex=LifeTrail.tga
+p-offset=0 150 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rotvel=0 30 0
+p-scale=20 60 20
+p-scaleYP1=0 -1
+p-scaleYP2=0.5 -1
+p-scaleYP3=0.5001000165939331 1
+p-scaleYP4=1 1
+p-startframe=1
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 0.2
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=0
+
+[starswirl]
+e-life=8
+e-linger=0
+e-rate=50
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-attract-1=suck
+field-orbit-1=swirl
+p-bindtoemitter=1 0
+p-colorscale=1 0.6000000000000001
+p-colortype=1 0
+p-frameRate=0
+p-life=3
+p-linger=3
+p-numframes=1
+p-offset=1 0 0
+p-quadrot=1
+p-rgba=color-bellcurve.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=5
+p-scaleP1=0 0.5
+p-scaleP2=1 1.5
+p-startframe=2
+p-texdiv=2 2
+p-texture=shopfx2.tga
+p-vel=0 300 -100
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=0.9 1
+p-xscale4=1 0
+
+[suck]
+f-accel=100
+f-pos=0 1200 0
+f-radius=1200
+
+[swirl]
+f-direction=0 1 0
+f-localspace=0
+

@@ -1,0 +1,65 @@
+[System]
+GroupPart1=dots
+GroupPart1Type=Simple
+
+[dots]
+KeywordsExcluded=JannaForecast
+e-life=0.7000000000000001
+e-linger=0.7000000000000001
+e-local-orient=1
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 0.30000000000000004
+p-colortype=1 0
+p-life=0.30000000000000004
+p-linger=0
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-jannawcast.tga
+p-rotvel=1
+p-rotvelP1=0 -45
+p-rotvelP2=1 45
+p-scale=40
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-startframe=2
+p-texdiv=2 2
+p-texture=JannaWCast.tga
+p-type=1
+p-xscale1=0 0.5
+p-xscale2=0.5 1
+p-xscale3=1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0839B3C7=color-jannawcast.tga
+unk0D03C81E=0 0
+unk0D03C81F=1 360
+unk116F2D7E=16
+unk32E9B26A=JannaForecast
+unk354552E1=0.7000000000000001
+unk3707F616=0.5
+unk3F7A30E6=0 0 0
+unk43584D97=50
+unk4CCD0DD8=0 0.8
+unk4CCD0DD9=1 1.2000000000000002
+unk67E6A2E3=1 1
+unk69DEF9EC=0 1
+unk69DEF9ED=0.5 1.2000000000000002
+unk69DEF9EE=1 0.25
+unk6E326FCD=1
+unk72284499=1
+unk7DE3D45A=1 0.8
+unk8F97350F=0
+unkA60DA3DA=0 -180
+unkA60DA3DB=1 180
+unkA6CE017E=3
+unkA8877DFD=2 2
+unkB005D9A5=1
+unkC1C54ADD=1
+unkC20A084A=1 0
+unkE5A6C6A8=JannaWCast.tga
+unkF210EF4F=0.5
+unkFE28C19A=0.7000000000000001

@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "SadMummy_AuraofDespair.dds"
+BuffTextureName = L0_1
+L0_1 = "AuraofDespair"
+BuffName = L0_1
+L0_1 = "Despair_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "Despairpool_tar.troy"
+AutoBuffActivateEffect2 = L0_1

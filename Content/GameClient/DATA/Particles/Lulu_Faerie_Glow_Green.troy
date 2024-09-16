@@ -1,0 +1,30 @@
+[System]
+GroupPart1=teamglow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[teamglow]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=0.5 0.2
+p-colortype=0 0
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-offset=0 10 0
+p-postoffset=0 12 12
+p-rgba=color-greenflame.tga
+p-scale=100 100 0
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+pass=-1
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+

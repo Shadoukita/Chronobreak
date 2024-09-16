@@ -1,0 +1,52 @@
+[System]
+GroupPart1=teamcircle-green
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[teamcircle-green]
+e-life=100
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.4 0.30000000000000004
+p-colortype=1 0
+p-life=100
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=color-teams32.tga
+p-rotvel=60
+p-scale=1200
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=fivedotcircle32.tga
+p-type=1
+pass=-10
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk00F42076=1
+unk0F0DC4C5=0 0.66
+unk0F0DC4C6=1 0.66
+unk2BF941C8=0
+unk2DBBE4FD=0
+unk362E1FCD=0 10 0
+unk4BB734F0=600 0 0
+unk60109483=0 0 0
+unk6945A1B6=2
+unk70D26F0D=0 30 0
+unk755D7401=50
+unk7F6E662E=ability_indicator_p-rgba.tga
+unk88A3DFE5=2
+unk8AA264C9=1
+unk8AD59181=team_ring_green_02.tga
+unk934EF6A3=1 0
+unk94B1FE0C=1
+unk99A998B1=2
+unkD2AA983C=1 1
+unkDC53D66C=1
+unkE5672234=1
+unkEC337C41=1 0.4

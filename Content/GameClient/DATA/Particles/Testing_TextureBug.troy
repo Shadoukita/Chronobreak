@@ -1,0 +1,28 @@
+[System]
+GroupPart1=Testing_TextureBug
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Testing_TextureBug]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=Testing_TextureBug.scb
+p-meshtex=Testing_TextureBug.DDS
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=0
+p-uvscroll-rgb=0.01899999938905239 0.05999999865889549
+p-xrgba=1 1 1 1
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk1A97771F=color-hold.DDS
+unk33E226A8=sphere.sco

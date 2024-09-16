@@ -1,0 +1,14 @@
+[FadeAway]
+MaterialOverride1Texture=Kalista_Skin01_Death_Fade.dds
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-life=90
+p-linger=90
+p-rgba=Kalista_Base_Death_Fade_rgba.dds
+p-trans-sample=129
+rendermode=1
+
+[System]
+GroupPart1=FadeAway
+SimulateEveryFrame=1
+

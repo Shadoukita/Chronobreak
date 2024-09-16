@@ -1,0 +1,30 @@
+[System]
+GroupPart1=WeaponTrail
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=Nasus_Base_AA_Weapon_Trail.dds
+p-postoffset=-100 180 30
+p-quadrot=-40 -140 -10
+p-rgba=color-rampdown.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-1.7999999523162842 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.5 1 1 1 0
+p-xrgba4=0.95 1 1 1 0
+p-xrgba5=1 0 0 0
+rendermode=4
+single-particle=1
+

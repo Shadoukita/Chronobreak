@@ -1,0 +1,61 @@
+[System]
+GroupPart1=rings
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=rune_ground_indicator_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[rings]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=3
+e-timeoffset=0.35
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-flexscale=0.525
+p-life=0.8
+p-linger=0
+p-postoffset=0 50 0
+p-rgba=color-slowwake_slow_fade_02.tga
+p-scale=0.9 0 0
+p-simpleorient=2
+p-startframe=1
+p-texture=slow_lines_02.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 2
+p-xrgba3=1 1 1 1 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0.6
+rendermode=1
+
+[rune_ground_indicator_02]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=4
+e-timeoffset=0.3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.525
+p-life=0.7
+p-linger=0
+p-postoffset=0 10 0
+p-rgba=color-slowwake_slow_fade.tga
+p-scale=0.7 0
+p-simpleorient=2
+p-texture=ring_slow_01.tga
+p-type=1
+p-vel=0 100 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0.9
+p-xscale3=1 0.5
+

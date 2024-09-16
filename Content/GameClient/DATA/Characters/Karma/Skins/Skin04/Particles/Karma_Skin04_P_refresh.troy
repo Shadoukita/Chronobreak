@@ -1,0 +1,24 @@
+[System]
+GroupPart1=refresh
+SimulateEveryFrame=1
+
+[refresh]
+ChildParticleName=Karma_Skin04_P_refresh_child.troy
+ChildSpawnAtBone=joint1
+e-life=15
+e-rate=1
+e-timeoffset=0.07500000298023224
+p-animation=Karma_W_refresh_03.anm
+p-bindtoemitter=1 1
+p-life=0.6499999761581421
+p-linger=0
+p-postoffset=0 -100 0
+p-rgba=vis_off.tga
+p-scale=0.9 1 0.9
+p-shadow=1
+p-skeleton=Karma_W_refresh_02.skl
+p-skin=Karma_W_refresh_02.skn
+p-type=3
+rendermode=1
+single-particle=1
+

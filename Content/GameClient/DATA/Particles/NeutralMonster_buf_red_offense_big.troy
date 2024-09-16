@@ -1,0 +1,74 @@
+[System]
+GroupPart1=stone-buff
+GroupPart2=card-ground
+SimulateEveryFrame=1
+
+[card-ground]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-flexscale=0.004999999888241291
+p-life=-1
+p-linger=0
+p-offset=0 0 0
+p-quadrot=90 0 90
+p-rgba=color-hold.tga
+p-rotvel=0 20 0
+p-scale=105 105 0
+p-texture=buff-red-card-ground.tga
+p-type=1
+rendermode=0
+single-particle=1
+
+[stone-buff]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004000000189989805
+p-life=10000
+p-linger=0
+p-mesh=buff_stone_blue.sco
+p-meshtex=buff-stone-red.tga
+p-offset=0 10 0
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 70 0
+p-scale=6 6 6
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0833F805=1 1
+unk0F7A6DAD=0.5
+unk1B74A20E=0 5 10 0
+unk1B74A20F=0.30000001192092896 5 50 40
+unk1B74A210=0.5 5 10 70
+unk1B74A211=1 5 10 72
+unk1B923FF8=1
+unk25A33225=color-white-red-down.tga
+unk2ED8ABDC=100
+unk35C9EBFB=0 0
+unk35C9EBFC=1 360
+unk3792D884=0 0 0
+unk4107E0B7=1
+unk55707342=0 0.9
+unk55707343=1 1
+unk6819823F=0
+unk724E6044=0 0 0
+unk735AF2FF=0 1 0
+unk8B9BEE2B=2
+unk973C6ECA=TeamMarker01.tga
+unk9FAD7205=9 9 9
+unkB2F3E5B8=1 0.8
+unkC409BF6C=1 0
+unkD5E89FB8=1
+unkEB8D956D=0
+unkFEAC66B9=1 1 1

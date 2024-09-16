@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Smite_Blue.dds"
+BuffTextureName = L0_1
+L0_1 = "ItemSmiteSlow"
+BuffName = L0_1
+L0_1 = "Global_SS_Smite_Player_Slow.troy"
+AutoBuffActivateEffect = L0_1

@@ -1,0 +1,66 @@
+[Spew]
+e-life=1
+e-linger=0
+e-rate=15
+e-rgba=255 255 255 255
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 1
+e-uvoffset-multXP2=1 0
+e-uvoffset-multYP1=0 1
+e-uvoffset-multYP2=1 0
+p-bindtoemitter=0 0
+p-drag=4 4 4
+p-life=1.2000000000000002
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-offset=100 0 0
+p-postoffset=0 20 0
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-scale=220 220 200
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.5
+p-scaleZP1=0 0.8
+p-scaleZP2=1 1
+p-shadow=0
+p-texture=SRU_Baron_Spawn_smoke.tga
+p-texture-mult=SRU_Baron_Spawn_smoke_mult.tga
+p-type=0
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.30000000000000004
+p-uvscroll-rgb-mult=0 0.30000000000000004
+p-vecalign=1
+p-vel=400 400 0
+p-velXP1=0 0.6000000000000001
+p-velXP2=1 1
+p-velYP1=0 0.6000000000000001
+p-velYP2=1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.6 0 0 0 0.3
+p-xrgba4=1 0 0 0 0
+p-xscale1=0 0.6 0.1 0.6
+p-xscale2=0.4 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+pass=2
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Spew
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk5A02E2CD=0 1 1 1 1
+unk5A02E2CE=1 1 1 1 1

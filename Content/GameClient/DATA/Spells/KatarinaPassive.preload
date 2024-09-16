@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="katarina_spell_refresh_indicator.troy"}}, 
+}

@@ -1,0 +1,54 @@
+[System]
+GroupPart1=fire
+SimulateEveryFrame=1
+group-vis=5000
+
+[fire]
+e-life=1
+e-linger=1
+e-rate=4
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-accel=0 105 0
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=2
+p-offset=0 0 0
+p-offsetXP1=0 1
+p-offsetXP2=1 -1
+p-postoffset=0 0 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=80 120 80
+p-texture=Karthus_Base_Z_Soul_Fire.dds
+p-type=0
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1
+p-uvscroll-rgbXP1=0 1
+p-uvscroll-rgbXP2=1 0.2
+p-uvscroll-rgbYP1=0 1
+p-uvscroll-rgbYP2=1 0.2
+p-vel=0 40 0
+p-velXP1=0 1
+p-velXP2=1 -1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 0.5
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0.5 1 0.5
+pass=100
+rendermode=4
+

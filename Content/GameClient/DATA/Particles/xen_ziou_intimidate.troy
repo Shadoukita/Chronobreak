@@ -1,0 +1,116 @@
+[Icon]
+e-rate=2
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.5
+p-linger=0
+p-offset=0 405 0
+p-scale=25 50 0
+p-texture=XenZiou_Intimidate.dds
+pass=1
+rendermode=1
+
+[IconGeo]
+e-disabled=1
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 0
+p-life=0.5
+p-linger=0
+p-mesh=XenZiou_Intimidate_Geo.sco
+p-meshtex=XenZiou_Intimidate.dds
+p-postoffset=0 405 0
+p-quadrot=45 0 0
+p-scale=20 20 20
+p-shadow=1
+p-type=3
+rendermode=3
+
+[IconGeoGlow]
+e-disabled=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 0
+p-life=0.5
+p-linger=0
+p-mesh=XenZiou_Intimidate_Geo.sco
+p-meshtex=XenZiou_Intimidate.dds
+p-postoffset=0 405 0
+p-quadrot=45 0 0
+p-rgba=color-bellcurve.dds
+p-scale=21 21 21
+p-shadow=1
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 5
+
+[IconGlow]
+e-rate=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 405 0
+p-scale=26 52 0
+p-texture=XenZiou_Intimidate.dds
+pass=5
+
+[Spin]
+e-disabled=1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-postoffset=0 405 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-bellcurve.dds
+p-rotvel=90 0 0
+p-scale=11 11 0
+p-texture=XenZiou_Shockwave.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+pass=10
+
+[SpinOuter]
+e-rate=10
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.5
+p-linger=0
+p-offset=0 405 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-bellcurve.dds
+p-rotvel=90 0 0
+p-scale=50 50 0
+p-texture=XenZiou_Shockwave.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+
+[System]
+GroupPart1=Icon
+GroupPart1Importance=High
+GroupPart2=IconGlow
+GroupPart2Importance=High
+GroupPart3=SpinOuter
+GroupPart3Importance=High
+GroupPart4=IconGeo
+GroupPart5=IconGeoGlow
+GroupPart6=Spin
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk2EB18B6A=1
+unk33F63B76=1
+unk76D004EA=1
+unk7DBF7A20=1
+unk91C84DE9=1
+unkAD3D4B73=1
+unkC39015D3=50
+unkD49E57F7=1

@@ -1,0 +1,89 @@
+[Flash]
+e-life=0.5
+e-linger=1
+e-local-orient=0
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.25
+p-lifeP1=0 0.25
+p-lifeP2=1 4
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=40 40 40
+p-scaleP1=0 0 0 0
+p-scaleP2=0.1 2 2 2
+p-startframe=1
+p-texdiv=1 1
+p-texture=Flare-Omnimax.tga
+p-type=0
+p-xscale3=1 0 0 0
+pass=10
+rendermode=0
+
+[System]
+GroupPart1=streak_1
+GroupPart2=streak_2
+GroupPart3=Flash
+SimulateEveryFrame=1
+
+[streak_1]
+e-life=3
+e-rate=40
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5199999809265137
+p-colortype=1 0
+p-life=0.5
+p-local-orient=1
+p-offset=1 2 0
+p-quadrot=180 0 0
+p-rgba=alpha_12.tga
+p-rotvel=0 0 0
+p-scale=230 30 230
+p-simpleorient=1
+p-startframe=1
+p-texdiv=3 2
+p-texture=ezreal_pulsefire_handglows.tga
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.2 2 2 2
+p-xscale3=0.9 0.1 0.1 0.1
+p-xscale4=1 0 0 0
+rendermode=0
+
+[streak_2]
+e-life=4
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.5199999809265137
+p-colortype=1 0
+p-life=1
+p-local-orient=1
+p-offset=1 2 0
+p-quadrot=90 0 0
+p-rgba=alpha_12.tga
+p-rotvel=0 0 0
+p-scale=120 20 120
+p-simpleorient=1
+p-texture=ezreal_pulsefire_flare_a01.tga
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 3 2 3
+p-xscale3=1 4 3 4
+rendermode=0
+

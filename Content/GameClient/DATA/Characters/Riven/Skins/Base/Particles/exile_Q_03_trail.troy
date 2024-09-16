@@ -1,0 +1,33 @@
+[System]
+GroupPart1=green
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[green]
+KeywordsExcluded=Season2Riven RivenSKin05
+e-life=0.4
+e-rate=50
+p-frameRate=0
+p-life=0.75
+p-offset=10 10 10
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=30
+p-texture=Flare-Rainbow_green_03.tga
+p-vel=0 100 0
+p-xscale=1
+p-xscale1=0 2.1502959728240967
+p-xscale2=0.2555555999279022 0.4448888897895813
+p-xscale3=0.6110000014305115 0
+

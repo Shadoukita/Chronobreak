@@ -1,0 +1,47 @@
+[System]
+GroupPart1=cooldown
+GroupPart2=sheen
+
+[cooldown]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-mesh=cooldown.sco
+p-meshtex=Cooldown-disc.tga
+p-offset=0 -12 0
+p-quadrot=0 0 0
+p-rgba=color-cooldown.tga
+p-scale=8 8 8
+p-texdiv=1 1
+p-type=3
+p-vel=0 16 0
+rendermode=0
+single-particle=1
+
+[sheen]
+e-life=2
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.9
+e-uvoffset=0 0.2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.4
+p-linger=0
+p-mesh=shieldball.sco
+p-meshtex=EyeoftheStormswipe.tga
+p-offset=0 20 0
+p-quadrot=0 80 0
+p-scale=120 10 120
+p-type=3
+p-uvscroll-rgb=0 -1.7999999523162842
+single-particle=1
+

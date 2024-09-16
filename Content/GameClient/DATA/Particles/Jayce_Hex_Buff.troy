@@ -1,0 +1,59 @@
+[System]
+GroupPart1=Vents
+GroupPart2=Vents_SENT
+SimulateEveryFrame=1
+
+[Vents]
+KeywordsExcluded=Jayce_Sentinel
+e-life=0.1
+e-local-orient=1
+e-rate=60
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=10
+p-life=0.1
+p-local-orient=1
+p-mesh=Jayce_Hyper_Charge_Blasts.sco
+p-meshtex=Jayce_Hammer_Burst.tga
+p-numframes=8
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=100 100 100
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 1 2 3
+p-xscale2=1 1.5 1 1
+rendermode=0
+
+[Vents_SENT]
+KeywordsIncluded=Jayce_Sentinel
+e-life=0.1
+e-local-orient=1
+e-rate=60
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=10
+p-life=0.1
+p-local-orient=1
+p-mesh=Jayce_Hyper_Charge_Blasts.sco
+p-meshtex=Jayce_Hammer_Burst.tga
+p-numframes=8
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=100 100 100
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 1 2 3
+p-xscale2=1 1.5 1 1
+rendermode=0
+

@@ -1,0 +1,17 @@
+[Base_Alpha]
+MaterialOverride1BlendMode=1
+MaterialOverride1Texture=Khazix_Base_Z_Black_RGB.tga
+e-life=1.25
+e-linger=0
+e-rate=1
+p-life=0.05
+p-rgba=Khazix_Base_Z_White_RGB.tga
+p-scale=0
+p-texture=Khazix_Base_R_Evo2_Empty.tga
+p-type=0
+single-particle=1
+
+[System]
+GroupPart1=Base_Alpha
+SimulateEveryFrame=1
+

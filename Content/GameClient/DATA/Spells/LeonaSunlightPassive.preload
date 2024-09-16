@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="leonasolarbarriertracker"}}, 
+{Function=BBPreloadSpell, Params={Name="leonasunlight"}}, 
+}

@@ -1,0 +1,72 @@
+[System]
+GroupPart1=cannon_ball
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=tail_01
+GroupPart2Importance=High
+GroupPart2Type=simple
+GroupPart3=tail_02
+GroupPart3Importance=High
+GroupPart3Type=complex
+SimulateEveryFrame=1
+
+[cannon_ball]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.2
+p-life=0.35
+p-linger=0
+p-mesh=sphere.sco
+p-meshtex=rumble_incoming_mis_cannon_ball.tga
+p-postoffset=0 1000 0
+p-scale=3.2 3.2 3.2
+p-type=3
+p-vel=0 -4300 0
+rendermode=3
+single-particle=1
+
+[tail_01]
+e-life=2.6500000953674316
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.22499999403953552
+p-life=0.2
+p-linger=0
+p-postoffset=0 1000 0
+p-quadrot=180 90 90
+p-rgba=color-hold.tga
+p-scale=70 60 60
+p-scalebias=1 3
+p-simpleorient=3
+p-texture=missile_trail_01.tga
+p-type=1
+p-vel=0 -4300 0
+rendermode=0
+single-particle=1
+
+[tail_02]
+e-life=2.6500000953674316
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.23199999332427979
+p-life=0.2
+p-linger=0
+p-postoffset=0 1000 0
+p-quadrot=180 0 90
+p-rgba=color-hold.tga
+p-scale=100 40 40
+p-scalebias=1 3
+p-simpleorient=3
+p-texture=missile_trail_01.tga
+p-type=1
+p-vel=0 -4300 0
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5402498B=0.4 0
+unk611DDC4A=0.4 0

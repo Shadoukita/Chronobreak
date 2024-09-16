@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="leona_solarbarrier2_buf.troy"}}, 
+}

@@ -1,0 +1,59 @@
+[System]
+GroupPart1=circle
+GroupPart1Importance=NotWhenHigh
+GroupPart1Type=Simple
+GroupPart2=circle-proj
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[circle]
+e-life=2.4000000000000004
+e-linger=1
+e-rate=4
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=4
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=color-rampup.tga
+p-rotvel=-170
+p-scale=53
+p-scalebias=-1 1
+p-simpleorient=2
+p-texture=blast_ring_12.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 20 0 0
+p-xscale2=1 0 0 0
+
+[circle-proj]
+e-life=2.4000000000000004
+e-linger=1
+e-rate=4
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=4
+p-projection-fading=100
+p-projection-y-range=100
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=color-rampup.tga
+p-rotvel=-170
+p-scale=53
+p-scalebias=-1 1
+p-simpleorient=2
+p-texture=blast_ring_12.tga
+p-type=7
+p-xscale=1
+p-xscale1=0 20 0 0
+p-xscale2=1 0 0 0
+

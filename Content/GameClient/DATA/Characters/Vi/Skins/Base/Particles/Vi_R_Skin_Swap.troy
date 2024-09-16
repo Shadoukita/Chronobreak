@@ -1,0 +1,47 @@
+[System]
+GroupPart1=speed_lines
+GroupPart1Type=Simple
+GroupPart2=speed_lines_racer
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[speed_lines]
+KeywordsExcluded=ViRacer
+e-life=1
+e-linger=0
+e-rate=5
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.5099999904632568
+p-colortype=1 0
+p-life=0.25
+p-linger=0
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=1.0499999523162842
+p-simpleorient=3
+p-texture=Vi_R_Run_SpeedLines_Blue.dds
+p-type=11
+p-uvscroll-rgb=0 1
+p-vel=0 0 -900
+rendermode=4
+
+[speed_lines_racer]
+KeywordsRequired=ViRacer
+e-life=1
+e-linger=0
+e-rate=5
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.5099999904632568
+p-colortype=1 0
+p-life=0.25
+p-linger=0
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=1.0499999523162842
+p-simpleorient=3
+p-texture=Vi_Racer_R_Run_SpeedLines_Purp.dds
+p-type=11
+p-uvscroll-rgb=0 1
+p-vel=0 0 -900
+rendermode=0
+

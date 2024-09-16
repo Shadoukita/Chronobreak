@@ -1,0 +1,29 @@
+[Decal]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=0 0
+p-frameRate=0
+p-life=3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=8
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-randomstartframe=1
+p-rgba=Zac_SKN1_Shadow_RGBA.tga
+p-scale=20
+p-simpleorient=2
+p-startframe=0
+p-texdiv=4 2
+p-texture=Zac_SKN1_Shadow.tga
+p-type=0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Decal
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

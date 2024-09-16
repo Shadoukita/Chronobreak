@@ -1,0 +1,110 @@
+[System]
+GroupPart1=axe
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=sparkle_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=axe_bro
+GroupPart3Importance=High
+GroupPart3Type=Complex
+GroupPart4=axe_PentakillOlaf
+GroupPart4Importance=High
+GroupPart4Type=Complex
+SimulateEveryFrame=1
+
+[axe]
+KeywordsRequired=BaseOlaf
+e-life=-1
+e-linger=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=olaf_axe_01.sco
+p-meshtex=olaf_axe_11.tga
+p-offset=-20 0 0
+p-quadrot=-110 100 80
+p-scale=2.3000000000000003 2.3000000000000003 2.3000000000000003
+p-type=3
+rendermode=1
+single-particle=1
+
+[axe_PentakillOlaf]
+KeywordsRequired=PentakillOlaf
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=olaf_pentakill_axe_01.sco
+p-meshtex=olaf_pentakill_props_02.tga
+p-quadrot=-110 100 80
+p-scale=2.4000000000000004 2.4000000000000004 2.4000000000000004
+p-type=3
+rendermode=1
+single-particle=1
+
+[axe_bro]
+KeywordsRequired=BroOlaf
+e-life=-1
+e-linger=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=OlafAxe_bro.sco
+p-meshtex=olaf_brolaff_axe.dds
+p-offset=-20 0 0
+p-quadrot=-110 100 80
+p-scale=2.3000000000000003 2.3000000000000003 2.3000000000000003
+p-type=3
+rendermode=1
+single-particle=1
+
+[sparkle_02]
+e-life=0.5
+e-linger=0
+e-rate=12
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.75
+p-quadrot=0
+p-rgba=alpha_03.tga
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 0.7000000000000001
+p-scaleP2=1 0.3499999940395355
+p-shadow=0
+p-texture=flare-Rainbow_blue_01.tga
+p-vel=0 0 50
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk4FB2AFC9=0 0 0 0 255
+unk4FB2AFCA=0.12 255 255 255 255
+unk4FB2AFCB=0.24 211 255 212 255
+unk4FB2AFCC=0.35 166 255 154 255
+unk4FB2AFCD=0.72 0 255 0 255
+unk4FB2AFCE=1 0 0 0 255
+unk9E0CD15C=0
+unkDC533A95=0
+unkFFAF761C=0

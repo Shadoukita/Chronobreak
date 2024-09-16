@@ -1,0 +1,80 @@
+[Skin02Streak]
+KeywordsRequired=ThreshSkin02
+e-life=0.1
+e-linger=0
+e-rate=20
+e-uvoffset=1 1
+e-uvoffset1=0 -0.4 1
+e-uvoffset2=1 -0.2 1
+e-uvoffsetYP1=0 0.15
+e-uvoffsetYP2=1 -0.05
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.1
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-local-orient=1
+p-mesh=Thresh_ba2_torus.sco
+p-meshtex=Thresh_Skin02_BA_Trail_01.tga
+p-offset=80 60 140
+p-quadrot=0 0 0
+p-scale=1.2000000000000002 0.5 1.2000000000000002
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1.25 0
+p-xrgba1=0 1 1 1 0.7
+p-xrgba2=1 0 0.2 1 0
+rendermode=4
+single-particle=0
+
+[System]
+GroupPart1=WeaponStreak
+GroupPart2=UnderseaStreak
+GroupPart3=Skin02Streak
+SimulateEveryFrame=1
+
+[UnderseaStreak]
+KeywordsRequired=ThreshUndersea
+e-life=1
+e-linger=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0
+p-local-orient=1
+p-mesh=Thresh_ba2_torus.sco
+p-meshtex=Thresh_ba_trail32_04.dds
+p-offset=80 60 140
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1.7000000000000002 0.5 1.2000000000000002
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1.8 0
+rendermode=4
+single-particle=1
+
+[WeaponStreak]
+KeywordsExcluded=ThreshUndersea ThreshSkin02
+e-life=1
+e-linger=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.5
+p-linger=0
+p-local-orient=1
+p-mesh=Thresh_ba2_torus.sco
+p-meshtex=Thresh_ba_trail32_03.tga
+p-offset=80 60 140
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1.2000000000000002 0.5 1.2000000000000002
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1.8 0
+rendermode=4
+single-particle=1
+

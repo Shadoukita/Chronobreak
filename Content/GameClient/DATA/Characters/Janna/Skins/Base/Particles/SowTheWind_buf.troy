@@ -1,0 +1,149 @@
+[Bird_Base]
+KeywordsExcluded=FrostqueenJanna warhero JannaForecast JannaSkin06
+SoundOnCreate=Play_sfx_Janna_SowTheWindCastMarker_cast
+e-local-orient=0
+e-rate=1
+p-animation=Janna_WarHero_Bird_Flying.anm
+p-bindtoemitter=1 0
+p-life=10000
+p-linger=0
+p-meshtex=janna_bird_base.dds
+p-offset=70 70 0
+p-orbitvel=0 -3 0
+p-postoffset=0 180 0
+p-scale=0.6499999761581421 0.44999998807907104 0.6499999761581421
+p-shadow=1
+p-skeleton=Janna_WarHero_Bird.skl
+p-skin=Janna_WarHero_Bird.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[Bird_Feathers]
+KeywordsExcluded=FrostqueenJanna JannaForecast
+e-life=0.2
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-accel=0 -100 0
+p-accelYP1=0 0.25
+p-accelYP2=1 1
+p-drag=2 2 2
+p-life=2
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-mesh=Janna_W_Feathers.sco
+p-meshtex=Janna_W_Bird_Feathers.dds
+p-numframes=16
+p-offset=100 0 0
+p-postoffset=0 270 0
+p-randomstartframe=1
+p-rgba=Color_FadeDown.tga
+p-rotvel=180 180 180
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=50 50 50
+p-texdiv=4 4
+p-type=3
+p-vel=0 -50 0
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+
+[Bird_Warhero]
+KeywordsRequired=Warhero
+e-local-orient=0
+e-rate=1
+p-animation=Janna_WarHero_Bird_Flying.anm
+p-bindtoemitter=1 0
+p-life=10000
+p-linger=0
+p-meshtex=Janna_WarHero_Bird.dds
+p-offset=70 70 0
+p-orbitvel=0 -3 0
+p-postoffset=0 180 0
+p-scale=0.6499999761581421 0.6499999761581421 0.6499999761581421
+p-shadow=1
+p-skeleton=Janna_WarHero_Bird.skl
+p-skin=Janna_WarHero_Bird.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[Bird_fnatic]
+KeywordsRequired=JannaSkin06
+SoundOnCreate=Play_sfx_Janna_SowTheWindCastMarker_cast
+e-local-orient=0
+e-rate=1
+p-animation=Janna_WarHero_Bird_Flying.anm
+p-bindtoemitter=1 0
+p-life=10000
+p-linger=0
+p-meshtex=janna_skin06_W_bird.dds
+p-offset=70 70 0
+p-orbitvel=0 -3 0
+p-postoffset=0 180 0
+p-scale=0.6499999761581421 0.44999998807907104 0.6499999761581421
+p-shadow=1
+p-skeleton=Janna_WarHero_Bird.skl
+p-skin=Janna_WarHero_Bird.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[CloudBuddyParent]
+ChildParticleName=Janna_skn5_Familiar.troy
+KeywordsRequired=JannaForecast
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 0
+p-life=10000
+p-linger=0
+p-offset=100 0 0
+p-orbitvel=0 -2 0
+p-postoffset=0 280 0
+p-quadrot=0 180 0
+p-rotvel=0 114.65 0
+p-scale=0 0 0
+p-shadow=1
+p-texture=empty32.dds
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Bird_Feathers
+GroupPart2=Bird_Base
+GroupPart3=airelemental_frost
+GroupPart4=Bird_Warhero
+GroupPart5=CloudBuddyParent
+GroupPart6=Bird_fnatic
+SimulateEveryFrame=1
+
+[airelemental_frost]
+KeywordsRequired=FrostqueenJanna
+e-local-orient=0
+e-rate=1
+p-animation=Janna_PET_Bird_Frostqueen_Flying.anm
+p-bindtoemitter=1 0
+p-life=10000
+p-linger=0
+p-meshtex=jana_crossfire_bird.dds
+p-offset=70 70 0
+p-orbitvel=0 -3 0
+p-postoffset=0 180 0
+p-scale=0.6499999761581421 0.6499999761581421 0.6499999761581421
+p-shadow=1
+p-skeleton=Janna_PET_Bird_Frostqueen.skl
+p-skin=Janna_PET_Bird_Frostqueen.skn
+p-type=3
+rendermode=1
+single-particle=1
+

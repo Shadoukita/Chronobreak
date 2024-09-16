@@ -1,0 +1,28 @@
+[System]
+GroupPart1=axe_glow
+GroupPart1Importance=High
+PersistThruDeath=1
+
+[axe_glow]
+e-life=10000
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=40
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-offset=0 0 0
+p-scale=470 1.7999999523162842 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=lightning_03.tga
+p-type=6
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk6C9344B7=0.2 0

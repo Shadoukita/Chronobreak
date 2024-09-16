@@ -1,0 +1,79 @@
+[System]
+GroupPart1=flat2
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=sparkle_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=soundWave01
+SimulateEveryFrame=1
+
+[flat2]
+e-life=0.30000000000000004
+e-local-orient=0
+e-rate=10
+p-life=0.25
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90
+p-scale=320
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-simpleorient=2
+p-texture=LeeSin_Base_R_Glow_01.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 0.5 0.5 0.5
+p-xscale3=1 0 0 0
+rendermode=4
+
+[soundWave01]
+e-disabled=1
+e-life=0.6499999761581421
+e-rate=20
+p-colortype=1 1
+p-life=0.44999998807907104
+p-quadrot=90 0 0
+p-rgba=alpha_12.tga
+p-texture=sonic_flare_01.dds
+p-type=1
+p-vel=0 0 1300
+p-xscale=1 1 1
+p-xscale1=0 0.15 0.15 0.15
+p-xscale2=0.5 0.6000000000000001 0.6000000000000001 0.6000000000000001
+p-xscale3=1 1 1 1.2000000000000002
+
+[sparkle_02]
+e-life=0.30000000000000004
+e-rate=24
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-colorscale=1 0.4
+p-life=0.5
+p-quadrot=0
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 0.7
+p-scaleP2=1 0.3499999940395355
+p-texture=LeeSin_Base_R_Glow_01.dds
+p-vel=0 0 50
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1.2 1.2 1.2
+p-xscale2=0.4 0.8 0.8 0.8
+p-xscale3=1 0 0 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk4FB2AFC9=0 0 0 0 255
+unk4FB2AFCA=0.12 255 255 255 255
+unk4FB2AFCB=0.24 211 255 212 255
+unk4FB2AFCC=0.35 166 255 154 255
+unk4FB2AFCD=0.72 0 255 0 255
+unk4FB2AFCE=1 0 0 0 255

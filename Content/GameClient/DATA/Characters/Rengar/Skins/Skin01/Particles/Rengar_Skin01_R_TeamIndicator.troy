@@ -1,0 +1,47 @@
+[Eye]
+e-life=0.2
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1
+p-offset=0 240 0
+p-scale=150
+p-texture=Rengar_Skin01_R_TeamIndicator.tga
+p-type=0
+pass=50
+rendermode=1
+single-particle=1
+
+[Eye_Glow]
+e-life=1
+e-rate=8
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1
+p-offset=0 240 0
+p-quadrot=10
+p-quadrotP1=0 -1
+p-quadrotP2=1 1
+p-rgba=Rengar_Skin01_W_Heal_Spark_RGBA.tga
+p-rotvel=1
+p-rotvelP1=0 30
+p-rotvelP2=1 70
+p-scale=150
+p-texture=Rengar_Skin01_R_TeamIndicator_Glow.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 1
+pass=50
+rendermode=0
+
+[System]
+GroupPart1=Eye
+GroupPart1Type=Simple
+GroupPart2=Eye_Glow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+

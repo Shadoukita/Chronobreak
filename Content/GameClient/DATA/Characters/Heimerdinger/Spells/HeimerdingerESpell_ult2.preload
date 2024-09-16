@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="heimerdinger_base_e_explosion_ult.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="heimerdingeremarker"}}, 
+{Function=BBPreloadParticle, Params={Name="heimerdinger_base_e_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="heimerdingerespell_ult"}}, 
+{Function=BBPreloadSpell, Params={Name="heimerdingerturretlockon"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcuberender"}}, 
+{Function=BBPreloadSpell, Params={Name="heimerdingerespell_ult3"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimer"}}, 
+}

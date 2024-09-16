@@ -1,0 +1,32 @@
+[System]
+GroupPart3=hand_glow
+GroupPart3Importance=High
+GroupPart3Type=Simple
+
+[hand_glow]
+e-life=-1
+e-rate=9
+p-bindtoemitter=1 1
+p-life=0.35
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-smoke32_07.tga
+p-rotvel=220
+p-rotvelP1=0 1
+p-rotvelP2=1 -1
+p-scale=58
+p-texture=red_attack_buf_01.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.4 0.4 0.4
+p-xscale3=1 0.8 0.8 0.8
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk71AA3830=1

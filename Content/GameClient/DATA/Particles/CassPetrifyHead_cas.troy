@@ -1,0 +1,28 @@
+[Cass_Head]
+KeywordsIncluded=GreekCassiopeia
+e-life=1
+e-local-orient=1
+e-rate=0.5
+p-backfaceon=1
+p-bindtoemitter=0
+p-drag=0 0 1.75
+p-life=1
+p-mesh=Cass_Greek_head.sco
+p-meshtex=Cass_Greek_Face.tga
+p-quadrot=-25 0 0
+p-rgba=Cass_Greek_ULT_Color.tga
+p-scale=1 1 1
+p-type=3
+p-vel=0 0 1000
+p-xscale1=0 1 1 1
+p-xscale2=0.30000000000000004 3 3 3
+p-xscale3=1 4 4 4
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Cass_Head
+KeepOrientationAfterSpellCast=1
+PersistThruDeath=1
+SimulateEveryFrame=1
+

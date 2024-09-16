@@ -1,0 +1,125 @@
+[System]
+GroupPart1=purp_flare
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=purp_flare_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=purp_flare_03
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=purp_flare_04
+GroupPart4Importance=High
+GroupPart4Type=Simple
+
+[purp_flare]
+e-life=0.25
+e-life-scale=0
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-accel=0 0 0
+p-bindtoemitter=1 1
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-life=0.35
+p-linger=0
+p-numframes=1
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 0
+p-rgba=color-Darkmissile.tga
+p-scale=100
+p-scaleP1=0 0.75
+p-scaleP2=1 1.2000000000000002
+p-startframe=4
+p-texdiv=2 3
+p-texture=Disintegrate06.tga
+p-vel=0 0 0
+p-xscale=1
+p-xscaleP1=0 0.3
+p-xscaleP2=1 1
+rendermode=0
+
+[purp_flare_02]
+e-life=0.25
+e-life-scale=0
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-accel=0 0 0
+p-bindtoemitter=1 1
+p-life=0.35
+p-linger=0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 0
+p-scale=60
+p-texture=cast_star_01.tga
+p-vel=0 0 0
+p-xscale=1
+p-xscaleP1=0 0.3
+p-xscaleP2=1 1
+rendermode=0
+
+[purp_flare_03]
+e-life=0.25
+e-life-scale=0
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-accel=0 0 0
+p-bindtoemitter=1 1
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-life=0.35
+p-linger=0
+p-numframes=1
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 0
+p-rgba=color-Darkmissile.tga
+p-scale=100
+p-scaleP1=0 0.75
+p-scaleP2=1 1.2000000000000002
+p-startframe=4
+p-texdiv=2 3
+p-texture=Disintegrate06.tga
+p-vel=0 0 0
+p-xscale=1
+p-xscaleP1=0 0.3
+p-xscaleP2=1 1
+rendermode=0
+
+[purp_flare_04]
+e-life=0.25
+e-life-scale=0
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-accel=0 0 0
+p-bindtoemitter=1 1
+p-life=0.35
+p-linger=0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 0
+p-scale=60
+p-texture=cast_star_01.tga
+p-vel=0 0 0
+p-xscale=1
+p-xscaleP1=0 0.3
+p-xscaleP2=1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0411E554=0 0 0
+unk52BB2315=0 0 0
+unkA16460D6=0 0 0
+unkFD2EDB93=0 0 0

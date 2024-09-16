@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="jackintheboxpoof.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="itemdisableshacobox"}}, 
+{Function=BBPreloadSpell, Params={Name="stealth"}}, 
+{Function=BBPreloadSpell, Params={Name="jackintheboxdamagesensor"}}, 
+{Function=BBPreloadSpell, Params={Name="endkill"}}, 
+{Function=BBPreloadSpell, Params={Name="shacoboxslow"}}, 
+{Function=BBPreloadSpell, Params={Name="shacoboxsnare"}}, 
+{Function=BBPreloadSpell, Params={Name="jackintheboxsoftlock"}}, 
+{Function=BBPreloadSpell, Params={Name="jackintheboxinternal"}}, 
+}

@@ -1,0 +1,29 @@
+[System]
+GroupPart1=xmaslights
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[xmaslights]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=2
+p-life=1
+p-mesh=xmaslights.sco
+p-numframes=16
+p-postoffset=0 140 0
+p-quadrot=0 0 0
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-scale=0.9
+p-shadow=0
+p-simpleorient=1
+p-startframe=0
+p-texdiv=1 16
+p-texture=treelights.tga
+p-type=3
+rendermode=0
+

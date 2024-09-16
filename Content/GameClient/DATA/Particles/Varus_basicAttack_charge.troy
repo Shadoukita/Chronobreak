@@ -1,0 +1,88 @@
+[Arctic_Mesh]
+KeywordsRequired=VarusSkin03
+e-life=1
+e-linger=0
+e-rate=30
+p-bindtoemitter=1
+p-life=0.05
+p-local-orient=1
+p-mesh=Varus_Skin03_Z_ArrowCharge.scb
+p-meshtex=Varus_Skin03_Z_Meshes.dds
+p-quadrot=0 0 90
+p-scale=0.5 0.5 0.5
+p-shadow=1
+p-type=6
+pass=1
+rendermode=1
+
+[Ascended_Mesh]
+KeywordsRequired=VarusAscended
+e-life=1
+e-linger=0
+e-rate=30
+p-bindtoemitter=1
+p-life=0.05
+p-local-orient=1
+p-mesh=varus_arrow_beam.sco
+p-meshtex=Varus_Asc_Q_Arrow.tga
+p-scale=60 60 60
+p-shadow=1
+p-type=6
+p-xrgba=0.8 0.8 0.4 1
+pass=1
+rendermode=0
+
+[System]
+GroupPart1=boltchargemesh
+GroupPart2=boltchargemesh_amber
+GroupPart3=Ascended_Mesh
+GroupPart4=Arctic_Mesh
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[boltchargemesh]
+KeywordsRequired=varusbase
+e-life=1
+e-linger=0
+e-rate=30
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.05
+p-local-orient=1
+p-mesh=varus_arrow_beam.sco
+p-meshtex=varus_arrow_glow.tga
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0
+p-scale=60 60 60
+p-shadow=1
+p-type=6
+pass=1
+rendermode=1
+
+[boltchargemesh_amber]
+KeywordsRequired=VarusDarkCrystal
+e-life=1
+e-linger=0
+e-rate=30
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.06
+p-local-orient=1
+p-mesh=varus_arrow_beam.sco
+p-meshtex=varus_arrow_glow_amber.tga
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0
+p-scale=60 60 60
+p-shadow=1
+p-type=6
+pass=1
+rendermode=1
+

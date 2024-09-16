@@ -1,0 +1,134 @@
+[Attract1]
+f-accel=100
+f-pos=500 200 -400
+f-radius=200
+
+[Attract2]
+f-accel=100
+f-pos=-200 200 200
+f-radius=200
+
+[Drag]
+f-drag=0.1
+f-pos=0 500 0
+f-radius=10000
+
+[Noise]
+f-period=2
+f-pos=0 1 0
+f-radius=10000
+f-veldelta=60
+
+[System]
+GroupPart1=leaves
+GroupPart1Type=Simple
+GroupPart2=curving_leaves
+GroupPart2Type=Simple
+build-up-time=10
+
+[curving_leaves]
+e-active=3
+e-life=-1
+e-local-orient=1
+e-period=10
+e-rate=5
+e-rate1=1
+e-rate2=2
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 60
+field-attract-1=Attract1
+field-attract-2=Attract2
+field-drag-1=Drag
+field-noise-1=Noise
+p-backfaceon=1
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=3 3
+p-frameRate=0
+p-life=3
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-mesh=mundopaper1.sco
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=80
+p-quadrot=1
+p-quadrot1=0 0
+p-quadrot2=1 360
+p-rgba=color-fall-leaves.tga
+p-rotvel=1
+p-rotvelP1=0 -180
+p-rotvelP2=1 180
+p-scale=6
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-startframe=0
+p-texdiv=0.25 1
+p-texture=leaf32.tga
+p-type=3
+p-uvscroll-rgb=0 0.30000000000000004
+p-vel=300 0 0
+p-velXP1=0 -1
+p-velXP2=0.5 -0.5
+p-velXP3=0.5099999904632568 0.5
+p-velXP4=1 1
+p-xscale1=0 1
+p-xscale2=0.9 1
+p-xscale3=1 0
+rendermode=1
+
+[leaves]
+e-active=3
+e-life=-1
+e-period=10
+e-rate=5
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 60
+field-attract-1=Attract1
+field-attract-2=Attract2
+field-drag-1=Drag
+field-noise-1=Noise
+p-colorscale=1 1
+p-colortype=3 3
+p-frameRate=0
+p-life=3
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=4
+p-offset=0 0 0
+p-postoffset=80
+p-quadrot=1
+p-quadrot1=0 0
+p-quadrot2=1 360
+p-randomstartframe=1
+p-rgba=color-fall-leaves.tga
+p-rotvel=1
+p-rotvelP1=0 -180
+p-rotvelP2=1 180
+p-scale=6
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-shadow=1
+p-startframe=1
+p-texdiv=2 2
+p-texture=fall-leaves.tga
+p-vel=300 0 0
+p-velXP1=0 -1
+p-velXP2=0.5 -0.5
+p-velXP3=0.5099999904632568 0.5
+p-velXP4=1 1
+p-xscale1=0 1
+p-xscale2=0.9 1
+p-xscale3=1 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk79318A4C=0 0
+unk79318A4D=1 1
+unkD7E20E5F=0 0
+unkD7E20E60=1 1
+unkE2BA93A1=0 90 0

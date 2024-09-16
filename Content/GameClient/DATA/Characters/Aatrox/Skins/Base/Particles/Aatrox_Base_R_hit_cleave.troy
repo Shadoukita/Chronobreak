@@ -1,0 +1,133 @@
+[System]
+GroupPart1=nova
+GroupPart2=nova_spark
+GroupPart3=nova_center
+GroupPart4=nova_dark
+GroupPart5=nova_black
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[nova]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-life=0.4
+p-mesh=Aatrox_R_hit_cleave.sco
+p-meshtex=Aatrox_R_hit_cleave.tga
+p-offset=0 70 0
+p-postoffset=0 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rgba=Color_Aatrox_W_blood.tga
+p-scale=6 6 6
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -3
+pass=5
+rendermode=4
+single-particle=1
+
+[nova_black]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-colortype=1 0
+p-life=0.4
+p-offset=0 5 0
+p-postoffset=0 0 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rgba=Color_Aatrox_W_blood.tga
+p-scale=350 350 350
+p-texture=Aatrox_W_land_shock.tga
+p-type=1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.4 0.9 0.9 0.9
+p-xscale3=1 1 1 1
+pass=-10
+rendermode=2
+single-particle=1
+
+[nova_center]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-colortype=1 0
+p-life=0.2
+p-offset=0 5 0
+p-postoffset=0 0 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rgba=Color_Aatrox_W_impact_shock.tga
+p-scale=200 200 200
+p-texture=Aatrox_R_explosion_fireRing.tga
+p-type=1
+p-xrgba=1 1 1 0.5
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.5 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+pass=5
+rendermode=4
+single-particle=1
+
+[nova_dark]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-colortype=1 0
+p-life=0.4
+p-offset=0 5 0
+p-postoffset=0 0 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rgba=Color_Aatrox_W_impact_shock.tga
+p-scale=340 340 340
+p-texture=Aatrox_R_hit_cleave_black.tga
+p-type=1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.5 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+pass=-5
+rendermode=1
+single-particle=1
+
+[nova_spark]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-timeoffset=0
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-offset=0 5 0
+p-postoffset=0 0 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rgba=Color_Aatrox_W_blood.tga
+p-scale=350 350 350
+p-texture=Aatrox_R_hit_cleave_spark.tga
+p-type=1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.5 0.9 0.9 0.9
+p-xscale3=1 1 1 1
+pass=-5
+rendermode=4
+single-particle=1
+

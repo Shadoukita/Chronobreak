@@ -1,0 +1,51 @@
+[System]
+GroupPart1=flash
+SimulateEveryFrame=1
+
+[flash]
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=6
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.15
+p-local-orient=1
+p-offset=1 1 1
+p-offsetXP1=0 -20
+p-offsetXP2=1 20
+p-offsetYP1=0 -20
+p-offsetYP2=1 20
+p-offsetZP1=0 -20
+p-offsetZP2=1 20
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Color_yasuo_w_windwall_dust.dds
+p-scale=60 190 100
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1
+p-scaleYP1=0 0.7
+p-scaleYP2=1 1.2000000000000002
+p-texdiv=1 1
+p-texture=Yasuo_basic_attack_impact_slash.dds
+p-type=0
+p-vel=200 200 200
+p-xscale1=0 0 0.5 0
+p-xscale2=0.35 1 0.75 1
+p-xscale3=0.75 0.1 1.5 1
+p-xscale4=1 0 1.5 1
+pass=0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unkF17FC89D=0 1
+unkF17FC89E=1 -1
+unkF1FDD81E=0 1
+unkF1FDD81F=1 -1
+unkF27BE79F=0 1
+unkF27BE7A0=1 -1

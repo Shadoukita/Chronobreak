@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="galio_concussiveblast_mis_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="galio_concussiveblast_unit_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="galio_concussiveblast_unit_tar_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="galio_gatekeeper_concussiveblast_mis_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="galio_gatekeeper_concussiveblast_unit_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="galio_gatekeeper_concussiveblast_unit_tar_02.troy"}}, 
+}

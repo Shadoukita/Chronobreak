@@ -1,0 +1,44 @@
+[System]
+GroupPart1=bear_mesh
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SpiritUdyr_Dance3D_bear
+
+[bear_mesh]
+ChildEmitOnDeath=0
+ChildParticleName=Udyr_Spirit_Bear_Activation_Child_Trails.troy
+ChildParticleName2=Udyr_Spirit_Bear_Arms_Pet.troy
+ChildParticleName3=Udyr_Spirit_Bear_Pet_Eyes.troy
+ChildParticleName4=Udyr_Spirit_Bear_Pet_Eyes.troy
+ChildParticleName5=Udyr_Spirit_Bear_Arms_Pet.troy
+ChildSpawnAtBone2=L_Hand
+ChildSpawnAtBone3=BUFFBONE_CSTM_R_EYE
+ChildSpawnAtBone4=BUFFBONE_CSTM_L_EYE
+ChildSpawnAtBone5=R_Hand
+KeywordsRequired=SpiritUdyr
+e-life=1
+e-local-orient=0
+e-rate=1
+p-animation=udyr_spirit_PET_bear_Dance.anm
+p-bindtoemitter=1 1
+p-life=1.2000000000000002
+p-linger=1
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_bear_TX_CM.dds
+p-postoffset=0 220 0
+p-quadrot=0 0 0
+p-rotvel=0 -2 0
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_bear.skl
+p-skin=udyr_spirit_PET_bear.skn
+p-texture=udyr_spirit_PET_bear_TX_CM.dds
+p-type=3
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.85 1 1 1 0.5
+p-xrgba4=1 0 0.2 0.5 0
+pass=1000
+rendermode=1
+single-particle=1
+

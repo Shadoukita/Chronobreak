@@ -1,0 +1,34 @@
+[System]
+GroupPart1=blue_light
+GroupPart2=white_light
+
+[blue_light]
+e-life=-0.8999999761581421
+e-rate=5
+e-timeoffset=0.1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.9
+p-life=0.1
+p-linger=0
+p-offset=-10 0 0
+p-quadrot=1 0 0
+p-scale=72 72 1
+p-texture=Kayle_Skin07_E_Light_glow.dds
+p-xrgba=0 0.098039 1 1
+pass=-1
+
+[white_light]
+e-life=-0.8999999761581421
+e-rate=5
+e-timeoffset=0.1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.9
+p-life=0.1
+p-linger=0
+p-offset=-10 0 0
+p-quadrot=1 0 0
+p-scale=20 20 1
+p-texture=Kayle_Skin07_E_Light_glow.dds
+

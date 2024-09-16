@@ -1,0 +1,26 @@
+[System]
+GroupPart1=staff_glow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[staff_glow]
+KeywordsExcluded=SteellegionGaren
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.2
+p-bindtoemitter=1
+p-life=3
+p-linger=0
+p-offset=0 0 0
+p-rgba=alpha_08.tga
+p-scale=600 1.2999999523162842 1
+p-texdiv=1 1
+p-texture=sword_glow_01.tga
+p-type=6
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk22F1FA6A=0 600

@@ -1,0 +1,53 @@
+[3rdFace]
+e-life=0.1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 255
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=15
+p-life=0.2666659951210022
+p-local-orient=1
+p-mesh=missfortune_skin07_3rdface.scb
+p-meshtex=MissFortune_Skin07_BA_Crit_cas_3rdFace.dds
+p-numframes=4
+p-offset=0 5 0
+p-scale=3 3 3
+p-texdiv=2 2
+p-type=3
+p-xrgba1=0.6 1 1 1 1
+p-xrgba2=1 1 0.1 1 1
+pass=0
+rendermode=4
+single-particle=1
+
+[Muzzle]
+e-life=0.1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 255
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=15
+p-life=0.2666659951210022
+p-local-orient=1
+p-mesh=missfortune_skin07_xmesh.scb
+p-meshtex=MissFortune_Skin07_BA_Crit_cas_Muzzle.dds
+p-numframes=4
+p-offset=0 10 0
+p-scale=3 3 3
+p-texdiv=2 2
+p-type=3
+p-xrgba1=0.6 1 1 1 1
+p-xrgba2=1 1 0.1 1 1
+pass=50
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart2=Muzzle
+GroupPart2Importance=High
+GroupPart3=3rdFace
+GroupPart3Importance=High
+SimulateEveryFrame=1
+

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Ashe_Base_E_tar_01.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Ashe_Base_E_tar_02.troy"}}, 
+}

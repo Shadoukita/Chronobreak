@@ -1,0 +1,17 @@
+[System]
+GroupPart1=bullet
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[bullet]
+KeywordsExcluded=RocketTristana
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-offset=0 0 60
+p-rgba=color-white32.tga
+p-scale=7
+p-texture=CannonBall.tga
+rendermode=1
+

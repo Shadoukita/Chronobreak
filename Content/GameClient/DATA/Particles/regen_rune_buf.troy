@@ -1,0 +1,53 @@
+[System]
+GroupPart1=regen_runes
+GroupPart1Importance=High
+GroupPart1Type=Complex
+GroupPart2=rune_ground_indicator_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[regen_runes]
+e-life=-1
+e-linger=0
+e-rate=1
+e-timeoffset=0.1
+p-bindtoemitter=1
+p-life=10000
+p-linger=0
+p-mesh=gen_rune_03.sco
+p-meshtex=rune_regen_01.tga
+p-offset=0 0 0
+p-postoffset=0 120 0
+p-quadrot=0 45 0
+p-rotvel=0 175 0
+p-scale=9.5 9.5 9.5
+p-type=3
+p-uvscroll-rgb=0 0
+rendermode=3
+single-particle=1
+
+[rune_ground_indicator_02]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.7
+p-linger=0
+p-offset=0 10 0
+p-postoffset=0 0 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=75 75 0
+p-simpleorient=2
+p-texture=ring_green_04.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=1 0.5
+
+[UNKNOWN_HASHES]
+unkD0B59053=1

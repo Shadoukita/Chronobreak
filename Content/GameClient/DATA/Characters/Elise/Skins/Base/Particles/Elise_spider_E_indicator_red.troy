@@ -1,0 +1,27 @@
+[Ring]
+e-life=6
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-offset=0 40 0
+p-rgba=color-darksmoke_02.tga
+p-scale=1275
+p-simpleorient=2
+p-texture=team_ring_red_02.tga
+p-type=1
+p-xscale1=0 0.66
+p-xscale2=1 0.66
+rendermode=1
+teamcolor-correction=1
+
+[System]
+GroupPart1=Ring
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+group-vis=2000
+

@@ -1,0 +1,36 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flash]
+e-life=1
+e-linger=0
+e-rate=1
+e-rotation1=360
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=0 360
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-offset=15 15 15
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hit-hot.tga
+p-scale=100
+p-texture=Mfx_pow.dds
+p-type=0
+p-xscale1=0 0.2
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="brandpassive"}}, 
+{Function=BBPreloadSpell, Params={Name="brandpassivesound"}}, 
+{Function=BBPreloadSpell, Params={Name="brandpassiverunspeed"}}, 
+{Function=BBPreloadSpell, Params={Name="brandzombieresurrection"}}, 
+}

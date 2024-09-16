@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="yorickravenousprimarytarget"}}, 
+{Function=BBPreloadSpell, Params={Name="globaldrain"}}, 
+{Function=BBPreloadParticle, Params={Name="yorick_ravenousghoul_activeheal.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="yorick_ravenousghoul_cas_tar.troy"}}, 
+}

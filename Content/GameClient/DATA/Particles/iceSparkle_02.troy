@@ -1,0 +1,36 @@
+[System]
+GroupPart1=bowsparkle_02
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[bowsparkle_02]
+e-local-orient=1
+e-rate=1
+e-rateP1=0 1
+e-rateP2=0.3 3
+e-rateP3=1 1.5
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=1
+p-offset=0 10 0
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=36
+p-scaleP1=0 0.25
+p-scaleP2=0.6 0.7
+p-scaleP3=1 1.2000000000000002
+p-texture=blue_mana_buf_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk8360D38B=1

@@ -1,0 +1,47 @@
+[S05_SparkTrail]
+KeywordsRequired=NewYearDragonKogMaw
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=600
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0.1 0
+p-colortype=1 3
+p-frameRate=30
+p-life=0.8
+p-lifeP1=0 0.1
+p-lifeP2=0.9 0.5
+p-lifeP3=1 1
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=KogMaw_Skin05_Q_Mis_SparkColor.dds
+p-scale=8
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=KogMaw_Skin05_Q_Mis_Sparks.dds
+p-type=0
+p-vel=50 50 50
+p-velXP1=0 0
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 0
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale2=0.8 1
+p-xscale3=1 0
+rendermode=0
+
+[System]
+GroupPart3=S05_SparkTrail
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

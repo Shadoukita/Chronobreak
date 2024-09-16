@@ -1,0 +1,47 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=stars
+GroupPart2Type=Simple
+
+[glow]
+e-rate=2
+p-bindtoemitter=1 1
+p-flexoffset=0.1
+p-flexscale=0.1
+p-life=2
+p-linger=0
+p-offset=0 0 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-rgba=color-clockface.tga
+p-scale=6
+p-texdiv=2 1
+p-texture=PotionGlow01.tga
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.260519027709961 0 0
+
+[stars]
+e-rate=10
+p-bindtoemitter=0.5 0
+p-flexoffset=0.1
+p-life=1.5
+p-linger=0
+p-offset=1 5 1
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-rgba=color-clockface.tga
+p-scale=20
+p-startframe=1
+p-texdiv=2 1
+p-texture=PotionGlow01.tga
+p-vel=0 100 0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.8166300058364868 0 0
+

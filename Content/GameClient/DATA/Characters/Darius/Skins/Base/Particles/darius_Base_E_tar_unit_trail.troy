@@ -1,0 +1,58 @@
+[System]
+GroupPart1=trail
+GroupPart1Importance=Medium
+GroupPart1Type=Complex
+GroupPart2=trail_01
+GroupPart2Importance=Low
+GroupPart2Type=Complex
+GroupPart3Type=Complex
+SimulateEveryFrame=1
+
+[trail]
+e-life=0.2
+e-linger=0
+e-rate=260
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0.4
+p-frameRate=0
+p-life=0.5
+p-linger=-1
+p-numframes=1
+p-scale=14 14 14
+p-startframe=1
+p-texdiv=1 1
+p-texture=trail_blur_01.tga
+p-type=0
+p-vel=0 0 0
+p-xrgba1=0 0.95 0 0.05 0.2
+p-xrgba2=0.2 0.95 0 0.05 0.1
+p-xrgba3=0.3 0.95 0 0.05 0.1
+p-xrgba4=1 0.95 0 0.05 0
+p-xscale1=0.1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+
+[trail_01]
+e-life=0.2
+e-linger=0
+e-rate=240
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0.4
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-numframes=1
+p-scale=14 14 14
+p-startframe=1
+p-texdiv=1 1
+p-texture=trail_blur_01.tga
+p-type=0
+p-vel=0 0 0
+p-xrgba1=0 0.95 0 0.05 0.2
+p-xrgba2=0.2 0.95 0 0.05 0.1
+p-xrgba3=0.3 0.95 0 0.05 0.1
+p-xrgba4=1 0.95 0 0.05 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=0
+

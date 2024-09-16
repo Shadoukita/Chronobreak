@@ -1,0 +1,65 @@
+[Glow1]
+e-life=0.2
+e-linger=1
+e-local-orient=1
+e-rate=10
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.45
+p-linger=0
+p-quadrot=-15 360 0
+p-rgba=color_tt_fire_o2r.tga
+p-scale=100 75 75
+p-texture=Jayce_Hit_Flash.tga
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 1 1 1
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+pass=30
+rendermode=0
+single-particle=1
+
+[Glow2]
+e-life=0.2
+e-linger=1
+e-local-orient=1
+e-rate=10
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.45
+p-linger=0
+p-quadrot=-95 360 0
+p-rgba=color_tt_fire_o2r.tga
+p-scale=100 25 75
+p-texture=Jayce_Hit_Flash.tga
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 1 1 1
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+pass=30
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=TextureSwap
+GroupPart1Type=Simple
+GroupPart2=Glow1
+GroupPart3=Glow2
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[TextureSwap]
+MaterialOverride1Priority=1
+MaterialOverride1Texture=SRU_Baron_Tell.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.7000000000000001
+p-linger=4000000000
+p-rgba=color-rampdown.tga
+p-trans-sample=20
+rendermode=0
+single-particle=1
+

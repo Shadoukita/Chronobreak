@@ -1,0 +1,39 @@
+[System]
+GroupPart1=bolt
+GroupPart2=trail
+SimulateEveryFrame=1
+
+[bolt]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-local-orient=1
+p-mesh=crossbow_arrow_01.sco
+p-meshtex=vayne_props_01.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-scale=1.5 1.5 1.5
+p-shadow=1
+p-type=3
+rendermode=1
+
+[trail]
+e-life=4
+e-local-orient=1
+e-rate=120
+p-bindtoemitter=0 0
+p-coloroffset=0.7000000000000001 0
+p-colorscale=0.30000000000000004 0
+p-colortype=1 0
+p-life=0.5
+p-rgba=color-lensbell.tga
+p-scale=5 0 0
+p-texture=smoke_fade_01.tga
+p-trailmode=0
+p-type=5
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+

@@ -1,0 +1,245 @@
+[BloodDrag]
+f-drag=2
+f-pos=0 0 0
+f-radius=1000
+
+[CustomAccelField-1]
+f-accel=0 -3000 0
+f-localspace=0
+
+[Rise]
+f-accel=0 400 0
+f-localspace=0
+
+[SparksDrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=2000
+
+[System]
+GroupPart1=bullet
+GroupPart1Type=Simple
+GroupPart2=smoke
+GroupPart2Type=Simple
+GroupPart3=followsparks
+GroupPart3Type=Simple
+GroupPart4=blood
+GroupPart4Type=Simple
+GroupPart5=rocket_mesh
+GroupPart6=flames
+GroupPart7=distortion
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+
+[blood]
+ExcludeAttachmentType=turret nexus inhibitor
+e-linger=0.5
+e-rate=100
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 10
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-rotation3=50
+e-rotation3-axis=1 0 0
+e-timeoffset=0.4
+field-accel-1=CustomAccelField-1
+field-drag-1=BloodDrag
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-frameRate=4
+p-life=0.5
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=-1
+p-numframes=4
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-blood32.tga
+p-scale=1.5
+p-scaleP1=0 0.4
+p-scaleP2=1 1.2000000000000002
+p-texdiv=2 2
+p-texture=bloodgoop.tga
+p-vel=0 1200 0
+p-velYP1=0 0.2
+p-velYP2=1 1.3
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=1 60
+rendermode=1
+
+[bullet]
+KeywordsExcluded=RocketTristana
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-rgba=color-white32.tga
+p-scale=40
+p-texture=CannonBall.tga
+rendermode=1
+
+[distortion]
+e-life=1
+e-local-orient=0
+e-rate=100
+flag-disable-z=1
+p-bindtoemitter=0 0
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.7000000000000001 1
+p-colortype=1 0
+p-distortion-mode=2
+p-distortion-power=0.30000000000000004
+p-life=0.85
+p-normal-map=distortion_soundwaves_01.tga
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=alpha_20.tga
+p-scale=60 0 0
+p-simpleorient=2
+p-texture=Aura_Self_02.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0.25
+rendermode=1
+
+[flames]
+KeywordsRequired=RocketTristana
+e-life=2
+e-rate=300
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-drag=1 1 1
+p-life=0.15000000596046448
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 1
+p-linger=-1
+p-numframes=12
+p-offset=20 0 0
+p-offsetXP1=0 0.1
+p-offsetXP2=1 1
+p-randomstartframe=1
+p-rgba=color-summonerdot.tga
+p-scale=20 20 200
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-startframe=0
+p-texdiv=4 4
+p-texture=summoner_dot.tga
+p-vecalign=1
+p-vel=0 100 0
+p-velYP1=0 0.1
+p-velYP2=1 1
+p-worldaccel=0 100 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 2 1
+p-xscale3=0.8 1 1 1
+p-xscale4=1 0 0 0
+
+[followsparks]
+e-rate=400
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Rise
+field-drag-1=SparksDrag
+p-bindtoemitter=0.6000000000000001 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-life=1
+p-lifeP1=0 0.2
+p-lifeP2=0.8 0.4
+p-lifeP3=1 1
+p-linger=-1
+p-numframes=4
+p-offset=15 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-sparks.tga
+p-scale=30
+p-scaleP1=0 0.1
+p-scaleP2=1 1
+p-startframe=2
+p-texdiv=2 3
+p-texture=fireball_hit.tga
+p-vel=0 100 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=0.8 1
+p-xscale4=1 0
+
+[rocket_mesh]
+KeywordsRequired=RocketTristana
+e-life=8
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 1
+p-flexoffset=0.004999999888241291
+p-life=3
+p-linger=0
+p-local-orient=1
+p-mesh=Trist_Rocket.sco
+p-meshtex=trist_rocket_texture.tga
+p-offset=0 80 0
+p-rgba=color-hold.tga
+p-scale=3 3 3
+p-type=3
+rendermode=3
+
+[smoke]
+e-rate=120
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-life=1.5
+p-lifeP1=0 0.8
+p-lifeP2=1 1.4000000000000001
+p-linger=-1
+p-numframes=4
+p-offset=5 50 5
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-smokedark.tga
+p-scale=40
+p-scaleP1=0 0.6000000000000001
+p-scaleP2=1 1.4000000000000001
+p-texdiv=2 2
+p-texture=smokepuffs.tga
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 1.5
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk267CF285=0 -400 0
+unk2714941E=0

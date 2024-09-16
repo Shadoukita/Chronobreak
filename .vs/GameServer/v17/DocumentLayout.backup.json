@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\League Sandbox\\Chronobreak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|d:\\league sandbox\\chronobreak\\content\\chronobreak-scripts\\characters\\katarina\\katarinapackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|solutionrelative:content\\chronobreak-scripts\\characters\\katarina\\katarinapackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|d:\\league sandbox\\chronobreak\\content\\chronobreak-scripts\\characters\\katarina\\spells\\katarinae.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|solutionrelative:content\\chronobreak-scripts\\characters\\katarina\\spells\\katarinae.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|d:\\league sandbox\\chronobreak\\content\\chronobreak-scripts\\characters\\velkoz\\spells\\q\\velkozq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|solutionrelative:content\\chronobreak-scripts\\characters\\velkoz\\spells\\q\\velkozq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|d:\\league sandbox\\chronobreak\\content\\chronobreak-scripts\\characters\\velkoz\\spells\\e\\velkoze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8637E2DB-2A64-4A4B-853C-F62C852B2F23}|Content\\Chronobreak-Scripts\\Chronobreak-Scripts.csproj|solutionrelative:content\\chronobreak-scripts\\characters\\velkoz\\spells\\e\\velkoze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1435461-2E4E-4413-BB74-E76E543D1AA0}|ScriptPackage-Template\\ScriptPackage-Template.csproj|d:\\league sandbox\\chronobreak\\scriptpackage-template\\scripts\\characters\\templatecharacter\\charscripttemplatecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1435461-2E4E-4413-BB74-E76E543D1AA0}|ScriptPackage-Template\\ScriptPackage-Template.csproj|solutionrelative:scriptpackage-template\\scripts\\characters\\templatecharacter\\charscripttemplatecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KatarinaPackage.cs",
+              "DocumentMoniker": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Katarina\\KatarinaPackage.cs",
+              "RelativeDocumentMoniker": "Content\\Chronobreak-Scripts\\Characters\\Katarina\\KatarinaPackage.cs",
+              "ToolTip": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Katarina\\KatarinaPackage.cs",
+              "RelativeToolTip": "Content\\Chronobreak-Scripts\\Characters\\Katarina\\KatarinaPackage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:39:37.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KatarinaE.cs",
+              "DocumentMoniker": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Katarina\\Spells\\KatarinaE.cs",
+              "RelativeDocumentMoniker": "Content\\Chronobreak-Scripts\\Characters\\Katarina\\Spells\\KatarinaE.cs",
+              "ToolTip": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Katarina\\Spells\\KatarinaE.cs",
+              "RelativeToolTip": "Content\\Chronobreak-Scripts\\Characters\\Katarina\\Spells\\KatarinaE.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:39:02.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VelkozQ.cs",
+              "DocumentMoniker": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\Q\\VelkozQ.cs",
+              "RelativeDocumentMoniker": "Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\Q\\VelkozQ.cs",
+              "ToolTip": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\Q\\VelkozQ.cs",
+              "RelativeToolTip": "Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\Q\\VelkozQ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:37:43.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VelkozE.cs",
+              "DocumentMoniker": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\E\\VelkozE.cs",
+              "RelativeDocumentMoniker": "Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\E\\VelkozE.cs",
+              "ToolTip": "D:\\League Sandbox\\Chronobreak\\Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\E\\VelkozE.cs",
+              "RelativeToolTip": "Content\\Chronobreak-Scripts\\Characters\\Velkoz\\Spells\\E\\VelkozE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:35:33.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CharScriptTemplateCharacter.cs",
+              "DocumentMoniker": "D:\\League Sandbox\\Chronobreak\\ScriptPackage-Template\\Scripts\\Characters\\TemplateCharacter\\CharScriptTemplateCharacter.cs",
+              "RelativeDocumentMoniker": "ScriptPackage-Template\\Scripts\\Characters\\TemplateCharacter\\CharScriptTemplateCharacter.cs",
+              "ToolTip": "D:\\League Sandbox\\Chronobreak\\ScriptPackage-Template\\Scripts\\Characters\\TemplateCharacter\\CharScriptTemplateCharacter.cs",
+              "RelativeToolTip": "ScriptPackage-Template\\Scripts\\Characters\\TemplateCharacter\\CharScriptTemplateCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:27:24.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

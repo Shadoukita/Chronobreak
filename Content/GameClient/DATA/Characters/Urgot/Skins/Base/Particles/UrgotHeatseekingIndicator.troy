@@ -1,0 +1,54 @@
+[System]
+GroupPart1=ring
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[ring]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=color-orbitrunes.tga
+p-rotvel=360
+p-scale=300 0 0
+p-simpleorient=2
+p-texture=UrgotRadar.tga
+p-type=7
+p-vel=0 0 0
+p-xscale1=0 0.9
+p-xscale2=1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk2BABB490=0
+unk2D6E57C5=0
+unk35E09295=0 0 0
+unk44A54889=1
+unk4CDE2709=0.5 1
+unk4E539028=90 90 0
+unk57E50BBB=2 0 0
+unk5923C4D4=1
+unk59E878FC=1
+unk5B6519DB=1 0
+unk6EC003FD=0 1 1 0
+unk6EC003FE=1 0.8 0.8 0
+unk70DCB3F4=0.5 0
+unkB8B05676=-100
+unkC6A654EE=-90 0 0
+unkCD09AF3E=1
+unkD17D19D5=0 0 0
+unkDDC6F87E=1
+unkE9DECAC9=1
+unkEA87D0B9=Urgotlinemissilereticle.tga
+unkF1728374=1
+unkF3EFBCF6=color-eyefade32.tga
+unkFD2536AD=1

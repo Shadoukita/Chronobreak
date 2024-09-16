@@ -1,0 +1,25 @@
+[System]
+GroupPart1=ray
+SimulateEveryFrame=1
+group-vis=5000
+
+[ray]
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=16
+p-bindtoemitter=1
+p-life=0.25
+p-linger=0
+p-local-orient=1
+p-offset=0 0 0
+p-quadrot=90 -90 0
+p-rgba=color-bellcurve.tga
+p-scale=1000 80 0
+p-texture=xerathshaft.tga
+p-type=1
+p-xscale1=0 0.2 1 0
+p-xscale2=1 2 1 0
+pass=1
+rendermode=0
+

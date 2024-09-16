@@ -1,0 +1,48 @@
+[System]
+GroupPart1=overhead_symbol
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=overhead_symbol_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[overhead_symbol]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=5
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-linger=0
+p-postoffset=0 420 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=40 40 0
+p-texture=arrow_indicator_03.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=1 0.44999998807907104
+rendermode=0
+
+[overhead_symbol_02]
+e-life=10
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-postoffset=0 420 0
+p-rgba=whitebox.tga
+p-rotvel=40 0 0
+p-scale=35 35 0
+p-simpleorient=0
+p-texture=gear_05.tga
+p-type=0
+rendermode=1
+single-particle=1
+

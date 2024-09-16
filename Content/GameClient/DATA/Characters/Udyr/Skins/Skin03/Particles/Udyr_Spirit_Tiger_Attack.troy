@@ -1,0 +1,133 @@
+[Distort]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-distortion-mode=2
+p-distortion-power=0.09
+p-life=0.8
+p-linger=0.35
+p-normal-map=distort-heat.dds
+p-rgba=color-bellcurve32.dds
+p-scale=320
+p-texture=Aura_self.dds
+p-type=0
+p-vel=0 -20 100
+p-xscale1=0 0
+p-xscale2=1 3
+rendermode=1
+single-particle=1
+
+[FlameAccel_Wraith]
+f-accel=-10 300 0
+f-localspace=1
+
+[FlameDrag_Wraith]
+f-drag=1
+f-pos=2 2 2
+f-radius=100
+
+[System]
+GroupPart1=tiger_mesh
+GroupPart2=Distort
+GroupPart2Type=Simple
+GroupPart3=lightning
+GroupPart3Type=Simple
+GroupPart4=glow_flash
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[flame_orbit]
+f-direction=0 0.6 0
+f-localspace=1
+
+[glow_flash]
+e-life=0.15
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.35
+p-offset=0 0 0
+p-rgba=alpha_12.dds
+p-scale=150
+p-simpleorient=2
+p-texture=Udyr_Spirit_Tiger_Glow.dds
+p-type=0
+pass=-100
+rendermode=4
+single-particle=1
+
+[lightning]
+KeywordsRequired=SpiritUdyr
+e-life=0.1
+e-linger=1
+e-local-orient=0
+e-rate=50
+e-rateP1=0 1
+e-rateP2=1 0
+e-rotation1=1
+e-rotation1-axis=0 1 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=FlameAccel_Wraith
+field-drag-1=FlameDrag_Wraith
+field-orbit-1=flame_orbit
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 2
+p-frameRate=0
+p-life=0.1
+p-lifeP1=0 0.5
+p-lifeP2=0.7 1
+p-lifeP3=1 0
+p-linger=0.3
+p-numframes=8
+p-offset=10 100 10
+p-postoffset=-5 0 -5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=Udyr_Spirit_Tiger_Fog_ColorMap.dds
+p-rotvel=30
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=180
+p-texdiv=1 8
+p-texture=Jayce_Lightning_Sparks.dds
+p-type=0
+p-vel=0 10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 0.5
+p-xrgba3=1 0 0 0 0
+p-xscale3=1 1.5
+pass=-100
+rendermode=0
+
+[tiger_mesh]
+ChildEmitOnDeath=0
+ChildParticleName=Udyr_Spirit_Tiger_Activation_Child.troy
+KeywordsRequired=SpiritUdyr
+e-life=1
+e-local-orient=1
+e-rate=1
+p-animation=udyr_spirit_PET_tiger_attack.anm
+p-bindtoemitter=0.85 0.85
+p-life=0.4
+p-local-orient=1
+p-meshtex=udyr_spirit_PET_tiger_TX_CM.dds
+p-postoffset=0 150 -30
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_tiger.skl
+p-skin=udyr_spirit_PET_tiger.skn
+p-texture=udyr_spirit_PET_tiger_TX_CM.dds
+p-type=3
+p-vel=0 0 230
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.8 1 1 1 0.6
+p-xrgba3=1 0 0 0 0
+rendermode=1
+single-particle=1
+

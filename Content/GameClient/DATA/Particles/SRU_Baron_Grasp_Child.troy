@@ -1,0 +1,24 @@
+[System]
+GroupPart1=glow
+SimulateEveryFrame=1
+
+[glow]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1.5
+p-linger=2
+p-offset=0 0 -200
+p-quadrot=90 0 0
+p-scale=180 280 180
+p-simpleorient=2
+p-texture=SRU_Baron_Grasp_Glow.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=40
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,60 @@
+[System]
+GroupPart1=slice
+GroupPart1Type=Simple
+GroupPart2=slice2
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[slice]
+e-life=1
+e-rate=4
+p-alphaslicerange=0.07
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.550000011920929
+p-colortype=1 0
+p-life=2
+p-local-orient=1
+p-rgba=color-beacontrail32.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=Garen_SteelLegion_Electric_Slice.tga
+p-type=11
+p-uvmode=1
+p-uvscroll-rgb=-0.5 -0.1
+rendermode=4
+
+[slice2]
+e-life=1
+e-rate=4
+p-alphaslicerange=0.02
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.550000011920929
+p-colortype=1 0
+p-life=2
+p-local-orient=1
+p-rgba=color-beacontrail32.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=Garen_SteelLegion_Electric_Slice.tga
+p-type=11
+p-uvscroll-rgb=0.5 0.5
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk1546402B=2
+unk215E1276=1.5
+unk21F0485A=0
+unk2B6F04A3=alpha_20.tga
+unk34A47E5A=3
+unk3E5333BB=1.0299999713897705
+unk5748DACC=Garen_SteelLegion_Electric_Slice.tga
+unk8A3BF636=1
+unk9167C0A9=11
+unk9411AFFE=0
+unk9A9E29EB=0
+unk9ED96245=distort-heat-trail.dds
+unkA3B20D26=3
+unkD4621C84=1
+unkDE544884=1
+unkE6C7E75D=1
+unkF08AC4EC=1

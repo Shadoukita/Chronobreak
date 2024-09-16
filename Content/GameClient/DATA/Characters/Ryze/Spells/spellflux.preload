@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="spellflux_tar2.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="spellfluxmissile"}}, 
+{Function=BBPreloadParticle, Params={Name="desperatepower_aoe.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="manaleach_tar.troy"}}, 
+}

@@ -1,0 +1,31 @@
+[GlowRocks2]
+e-local-orient=0
+e-rate=0.1
+p-bindtoemitter=1 0
+p-life=5
+p-linger=0
+p-mesh=SRU_EastJungle_GlowRocks_NextTOWolves_02.scb
+p-meshtex=SRU_EastJungle_GlowRocks_NextTOWolves_01.DDS
+p-meshtex-mult=SRU_EastJungle_GlowRocks_NextTOWolves_Mult_01.dds
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb-mult=0 0.3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=GlowRocks2
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=50
+
+[UNKNOWN_HASHES]
+unk163564F2=0 0.1
+unk58D94881=0 1
+unk58D94882=1 0.4
+unk777F22B1=sphere.sco
+unkA434D1D6=color-hold.DDS
+unkDD8D2B17=0 50 0

@@ -1,0 +1,73 @@
+[Pebbles]
+e-life=-1
+e-rate=15
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 0.25
+p-drag=1 0 1
+p-flexoffset=0.004999999888241291
+p-life=1
+p-numframes=16
+p-offset=20 0 0
+p-offsetXP1=0 0.8
+p-offsetXP2=1 1
+p-orbitvel=0 3 0
+p-orbitvelYP1=0 0.5
+p-orbitvelYP2=1 1
+p-postoffset=0 0 0
+p-randomstartframe=1
+p-rotvel=1 0 0
+p-rotvelXP1=0 0.35
+p-rotvelXP2=1 1
+p-scale=7 7 7
+p-scaleXP1=0 0.75
+p-scaleXP2=1 1
+p-texdiv=4 4
+p-texture=SRU_JungleBuff_Krug_Pebbles_4x4.dds
+p-type=0
+p-vel=0 0 0
+p-velXP1=0 0.35
+p-velXP2=1 1.5
+p-xrgba=0.8 0.8 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 2 2 2
+p-xscale3=1 0.5 0.5 0.5
+pass=10
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Pebbles
+GroupPart2=nova
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[nova]
+e-life=-1
+e-local-orient=0
+e-rate=5
+e-rgba=100 100 255 200
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=0 0 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=100 100 0
+p-texture=SRU_JungleBuff_Krug_Nova.dds
+p-type=1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.5 1 1 1 0.55
+p-xrgba4=1 0.5 0.5 1 0
+p-xscale1=0 0.2 0.2 0
+p-xscale2=1 1 1 0
+pass=0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk14F295C2=1

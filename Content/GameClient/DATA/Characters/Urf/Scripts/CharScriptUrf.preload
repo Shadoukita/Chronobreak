@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="halloweenurfcd"}}, 
+{Function=BBPreloadSpell, Params={Name="eternalthirsticon"}}, 
+{Function=BBPreloadSpell, Params={Name="halloweenurfwarwick"}}, 
+{Function=BBPreloadSpell, Params={Name="halloweenurfappear"}}, 
+}

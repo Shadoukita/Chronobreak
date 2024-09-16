@@ -1,0 +1,97 @@
+[Drag]
+f-drag=0.30000000000000004
+f-pos=0 500 0
+f-radius=1000
+
+[Noise1]
+f-period=0.25
+f-pos=0 1 0
+f-radius=2000
+f-veldelta=20
+
+[Noise2]
+f-period=2
+f-pos=0 1 0
+f-radius=2000
+f-veldelta=50
+
+[System]
+GroupPart1=firefly1
+GroupPart1Type=Simple
+GroupPart2=firefly2
+GroupPart2Type=Simple
+build-up-time=10
+
+[firefly1]
+e-life=-1
+e-rate=2
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=Drag
+field-noise-1=Noise1
+field-noise-2=Noise2
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=40
+p-life=10
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=2
+p-offset=1 1 0
+p-offsetXP1=0 50
+p-offsetXP2=1 500
+p-offsetYP1=0 0
+p-offsetYP2=1 50
+p-rgba=color-firefly.tga
+p-scale=8
+p-scaleP1=0 0.8
+p-scaleP2=1 1.5
+p-startframe=0
+p-texdiv=2 2
+p-texture=firefly01.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=0.8 1
+p-xscale4=1 0
+rendermode=1
+
+[firefly2]
+e-life=-1
+e-rate=2
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=Drag
+field-noise-1=Noise1
+field-noise-2=Noise2
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=40
+p-life=10
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=2
+p-offset=1 1 0
+p-offsetXP1=0 50
+p-offsetXP2=1 500
+p-offsetYP1=0 0
+p-offsetYP2=1 50
+p-rgba=color-firefly.tga
+p-scale=8
+p-scaleP1=0 0.8
+p-scaleP2=1 1.5
+p-scalebias=-1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=firefly01.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=0.8 1
+p-xscale4=1 0
+rendermode=1
+

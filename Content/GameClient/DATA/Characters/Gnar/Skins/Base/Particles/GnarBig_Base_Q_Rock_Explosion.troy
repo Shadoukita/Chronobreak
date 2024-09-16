@@ -1,0 +1,63 @@
+[Flat]
+e-life=1
+e-local-orient=0
+e-rate=2
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-mesh=GnarBig_Base_Q_Shock.scb
+p-meshtex=GnarBig_Base_Q_Hit_Shock.tga
+p-offset=0 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=GnarBig_Base_Q_Hit_Shock_rgba.dds
+p-scale=4 4 4
+p-texdiv=0.5 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1.5
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=0.30000000000000004 0.9 0.9 0.9
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Flat
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk0A91428B=0
+unk0F14626A=prismaticflash.tga
+unk1A25EE6C=600 750 600
+unk21986457=1
+unk26F36D78=0 0
+unk26F36D79=1 360
+unk48EAA69F=0
+unk4AAD49D4=0.3
+unk531F84A4=0 100 0
+unk5D5289CD=0
+unk61A5F4A5=0 0.5
+unk763AA99A=0 0.5
+unk763AA99B=1 1
+unk8E6FC20D=0.3
+unk916C2A59=50
+unk9A879458=1
+unkA4988685=color-firemissile.tga
+unkABDC7D37=1
+unkADCE003C=250
+unkB7E1E30C=1 3
+unkC41402CD=0 -1
+unkC41402CE=1 1
+unkC492124E=0 -0.5
+unkC492124F=1 1
+unkC51021CF=0 -1
+unkC51021D0=1 1
+unkD585A74E=0 0.5
+unkD585A74F=1 1
+unkD8C4AA18=1 0.5
+unkDB5BB063=0
+unkE34AD1D7=0 1 0
+unkE8C47BA5=1 0

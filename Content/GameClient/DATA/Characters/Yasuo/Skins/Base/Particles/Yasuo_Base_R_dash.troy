@@ -1,0 +1,58 @@
+[System]
+GroupPart1=smoke_fill
+GroupPart1Importance=High
+GroupPart2=smoke_shape
+SimulateEveryFrame=1
+
+[smoke_fill]
+e-life=0.55
+e-linger=0
+e-local-orient=1
+e-rate=100
+p-bindtoemitter=0 0
+p-life=0.2
+p-linger=1
+p-local-orient=1
+p-rgba=Color_Yasuo_base_R_dash_smoke.dds
+p-scale=80 80 80
+p-scale1=0 0 0 0
+p-scale2=0.1 1.2 1.2 1.2
+p-scale3=1 0 0 0
+p-texdiv=1 1
+p-texture=Yasuo_base_R_dash_smoke_fill.dds
+p-type=0
+p-xrgba=1 1 1 0.2
+rendermode=1
+uniformscale=1
+
+[smoke_shape]
+e-life=0.45
+e-rate=300
+p-bindtoemitter=0
+p-drag=2 2 2
+p-life=0.8
+p-lifeP1=0 0.7000000000000001
+p-lifeP2=1 1.5
+p-linger=1
+p-numframes=16
+p-randomstartframe=0
+p-rgba=Color_Yasuo_base_R_dash_smoke.dds
+p-rotvel=0 0 100
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=180 180 180
+p-texdiv=4 4
+p-texture=Yasuo_passive_smoke.dds
+p-type=0
+p-vel=100 200 0
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-xrgba=0 0 0 0.3
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 1 1 1
+p-xscale3=1 2 2 2
+pass=-1
+rendermode=4
+

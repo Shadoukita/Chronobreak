@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="lrallystart.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarally"}}, 
+}

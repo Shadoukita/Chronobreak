@@ -1,0 +1,37 @@
+[System]
+GroupPart1=flat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flat]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.01
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.3
+p-numframes=1
+p-offset=15 60 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-rotvel=0
+p-scale=120
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=Flare-Sun_08.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+single-particle=1
+

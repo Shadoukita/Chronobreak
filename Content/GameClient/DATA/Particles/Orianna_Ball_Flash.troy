@@ -1,0 +1,84 @@
+[Flash]
+e-life=0.1
+e-rate=50
+e-timeoffset=0.05000000074505806
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.2
+p-postoffset=0 130 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=24
+p-scaleP1=0 3.5
+p-scaleP2=1 5
+p-texture=bigglow.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 0.5
+p-xscale3=1 1
+rendermode=0
+
+[Flash_02]
+e-life=0.1
+e-rate=50
+e-timeoffset=0.05000000074505806
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.2
+p-postoffset=0 130 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=30
+p-scaleP1=0 3.5
+p-scaleP2=1 5
+p-texture=bigglow.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 1.5
+p-xscale2=0.5 0.75
+p-xscale3=1 0
+rendermode=0
+
+[Flash_core]
+e-life=0.1
+e-rate=60
+e-timeoffset=0.05000000074505806
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.18000000715255737
+p-postoffset=0 130 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=6
+p-scaleP1=0 3.5
+p-scaleP2=1 5
+p-texture=bigglow.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 1.5
+p-xscale2=0.5 0.75
+p-xscale3=1 0
+rendermode=0
+
+[System]
+GroupPart2=Flash_core
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Flash
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=Flash_02
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SoundOnCreate=Play_sfx_OrianaBallFlash_buffactivate
+

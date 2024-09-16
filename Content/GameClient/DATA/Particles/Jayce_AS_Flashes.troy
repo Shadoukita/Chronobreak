@@ -1,0 +1,84 @@
+[Attack_Speed_Flash_01]
+KeywordsExcluded=Jayce_Sentinel Jayce_Gentlemanw
+e-life=4
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-frameRate=35
+p-life=0.5
+p-local-orient=0
+p-numframes=16
+p-randomstartframe=1
+p-scale=20 20 20
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-scaleZP1=0 1
+p-scaleZP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Jayce_Hammer_Burst.tga
+p-type=0
+pass=1
+rendermode=0
+
+[Attack_Speed_Flash_01_GENT]
+KeywordsRequired=Jayce_Gentleman
+e-life=4
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-frameRate=35
+p-life=0.5
+p-local-orient=0
+p-numframes=16
+p-randomstartframe=1
+p-scale=20 20 20
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-scaleZP1=0 1
+p-scaleZP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Jayce_Hammer_Burst.tga
+p-type=0
+pass=1
+rendermode=0
+
+[Attack_Speed_Flash_01_SENT]
+KeywordsRequired=Jayce_Sentinel
+e-life=4
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-frameRate=35
+p-life=0.5
+p-local-orient=0
+p-numframes=16
+p-randomstartframe=1
+p-scale=20 20 20
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-scaleZP1=0 1
+p-scaleZP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Jayce_Hammer_Burst.tga
+p-type=0
+pass=1
+rendermode=2
+
+[System]
+GroupPart1=Attack_Speed_Flash_01
+GroupPart1Type=Complex
+GroupPart2=Attack_Speed_Flash_01_SENT
+GroupPart2Type=Complex
+GroupPart3=Attack_Speed_Flash_01_GENT
+GroupPart3Type=Complex
+SimulateEveryFrame=1
+

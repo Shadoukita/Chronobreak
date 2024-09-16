@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="s5_summonersmitequick"}}, 
+{Function=BBPreloadSpell, Params={Name="itempoachersknifespeed"}}, 
+{Function=BBPreloadSpell, Params={Name="summonersmite"}}, 
+}

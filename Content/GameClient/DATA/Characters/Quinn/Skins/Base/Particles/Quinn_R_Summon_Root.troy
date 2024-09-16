@@ -1,0 +1,46 @@
+[Phoenix_Streak]
+KeywordsIncluded=QuinnValor_Phoenix
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-uvoffset=0 -0.1
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-life=0.6499999761581421
+p-linger=0
+p-mesh=QuinnValor_Swoop_In.sco
+p-meshtex=Quinn_Valor_skin01_Swoop.tga
+p-postoffset=0 140 -60
+p-quadrot=0 -80 -20
+p-scale=400 700 400
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -1.100000023841858
+rendermode=4
+
+[System]
+GroupPart1=Valor_Streak
+GroupPart2=Phoenix_Streak
+SimulateEveryFrame=1
+
+[Valor_Streak]
+KeywordsExcluded=QuinnValor_Phoenix
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-uvoffset=0 -0.1
+p-life=0.6499999761581421
+p-linger=0
+p-mesh=QuinnValor_Swoop_In.sco
+p-meshtex=Quinn_Valor_Swoop.tga
+p-postoffset=0 140 -60
+p-quadrot=0 -80 -20
+p-scale=400 700 400
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -1.100000023841858
+rendermode=4
+

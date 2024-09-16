@@ -1,0 +1,42 @@
+[System]
+GroupPart1=Waterfall_plane1
+SimulateEveryFrame=1
+
+[Waterfall_plane1]
+e-rate=0.019999999552965164
+e-uvoffset=1 1
+e-uvoffsetXP1=0 -0.1
+e-uvoffsetXP2=1 1.5
+e-uvoffsetYP1=0 -0.1
+e-uvoffsetYP2=1 1.5
+p-bindtoemitter=1 0
+p-life=100
+p-linger=0
+p-mesh=SRU_Peref_Clouds_04.scb
+p-meshtex=SRU_Peref_clouds_03.dds
+p-offset=0 1 0
+p-quadrot=0 -35 0
+p-scale=2 2 2
+p-texdiv=0.6000000000000001 0.8
+p-type=3
+p-uvscroll-rgb=-0.02 0
+p-vel=0 0 0
+p-velYP1=0 5
+p-velYP2=0.10000000149011612 -5
+p-velYP3=0.2 5
+p-velYP4=0.30000001192092896 -5
+p-velYP5=0.4 5
+p-velYP6=0.5 -5
+p-velYP7=0.6000000000000001 5
+p-velYP8=0.699999988079071 -5
+p-velYP9=0.8 5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0E98B3AE=0.8999999761581421 -5
+unk0E98B3AF=1 5

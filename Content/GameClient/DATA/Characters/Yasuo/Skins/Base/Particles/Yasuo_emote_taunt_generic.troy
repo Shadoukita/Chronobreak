@@ -1,0 +1,13 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundsPlayWhileOffScreen=1
+VoiceOverPersistent=Play_vo_Yasuo_taunt3Dgeneric
+
+[empty]
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.dds
+

@@ -1,0 +1,20 @@
+[System]
+GroupPart1=ice_break
+SimulateEveryFrame=1
+
+[ice_break]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-animation=Env_Chain_Ice_Break.anm
+p-bindtoemitter=1 1
+p-life=10
+p-local-orient=0
+p-meshtex=FJ_AP_ChainsIce.dds
+p-scale=1000 1000 1000
+p-skeleton=FJ_AP_CHAINSICE.skl
+p-skin=FJ_AP_CHAINSICE.skn
+p-type=3
+pass=1000
+rendermode=1
+

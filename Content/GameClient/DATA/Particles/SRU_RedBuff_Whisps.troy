@@ -1,0 +1,107 @@
+[ManaSnowNoise]
+f-axisfrac=1 1 0
+f-period=0.5
+f-radius=4000
+f-veldelta=50
+
+[SRU_RedBuff]
+e-disabled=1
+e-local-orient=0
+e-rate=0.4
+e-uvoffset=1 0
+e-uvoffsetYP1=0 1
+e-uvoffsetYP2=1 0
+p-bindtoemitter=1 1
+p-life=1.7000000000000002
+p-mesh=SRU_RedBuff_Whisps.sco
+p-meshtex=SRU_RedBuff_Whisps_01.DDS
+p-offset=80 -90 80
+p-offsetXP1=0 0.5
+p-offsetXP2=1 1
+p-offsetZP1=0 0.5
+p-offsetZP2=1 1
+p-quadrot=50 40 0
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-scale=0.1 0.1 0.1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1.3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.7 0
+p-uvscroll-rgbXP1=0 0.3
+p-uvscroll-rgbXP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[SRU_RedBuff2]
+e-disabled=1
+e-local-orient=0
+e-rate=0.4
+e-uvoffset=1 0
+e-uvoffsetYP1=0 1
+e-uvoffsetYP2=1 0
+p-bindtoemitter=1 1
+p-life=1.7000000000000002
+p-lifeP1=0 1
+p-lifeP2=1 0.8
+p-mesh=SRU_RedBuff_Whisps_02.sco
+p-meshtex=SRU_RedBuff_Whisps_01.DDS
+p-scale=0.1 0.1 0.1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1.3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.7 0
+p-uvscroll-rgbXP1=0 0.3
+p-uvscroll-rgbXP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[SRU_RedFireFlies]
+e-rate=3
+e-rotation1=300
+e-rotation1-axis=0 1 0
+field-noise-1=ManaSnowNoise
+p-life=5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=25 100 25
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.DDS
+p-scale=12 12 12
+p-texdiv=2 1
+p-texture=SRU_RedBuff_FireFlies_01.DDS
+p-vel=100 -100 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.2 0.2 1 1 1
+p-xrgba3=0.5 0.6 1 1 1
+p-xrgba4=0.8 1 1 1 1
+p-xrgba5=1 0 0 1 0
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=SRU_RedBuff
+GroupPart2=SRU_RedFireFlies
+GroupPart3=SRU_RedBuff2
+SimulateEveryFrame=1
+

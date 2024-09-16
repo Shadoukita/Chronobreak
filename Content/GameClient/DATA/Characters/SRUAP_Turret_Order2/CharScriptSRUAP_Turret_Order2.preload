@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="s5_turretdamagebonus"}}, 
+{Function=BBPreloadSpell, Params={Name="turretpackage"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_orderturret1_break1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_orderturret1_break2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_orderturret1_break3.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_order_turret_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_orderturret_onhit_dust.troy"}}, 
+}

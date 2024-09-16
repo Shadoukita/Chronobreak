@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="rengartrophystacks"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarupdatetrophycharges"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy1.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarhatredready"}}, 
+{Function=BBPreloadSpell, Params={Name="rengarhatredunready"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="rengar_vo_trophy3.troy"}}, 
+}

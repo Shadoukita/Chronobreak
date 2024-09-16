@@ -1,0 +1,45 @@
+[Cover]
+e-life=1
+e-linger=1
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.3
+p-offset=0 150 0
+p-quadrot=0 0 90
+p-rgba=Jayce_Color_Fade2.tga
+p-scale=350 85 350
+p-texture=Jayce_Hit_Flash.tga
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.4 5 1 5
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Valor_Streak
+GroupPart2=Cover
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Valor_Streak]
+e-life=1
+e-local-orient=1
+e-rate=5
+e-uvoffset=0 -0.1
+p-backfaceon=1
+p-life=0.6499999761581421
+p-linger=0
+p-mesh=QuinnValor_Swoop_Out.sco
+p-meshtex=Quinn_Valor_Swoop.tga
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-scale=700 700 700
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1.5
+rendermode=4
+single-particle=1
+

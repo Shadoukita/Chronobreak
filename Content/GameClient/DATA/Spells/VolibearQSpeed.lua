@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "VolibearQ.dds"
+BuffTextureName = L0_1
+L0_1 = "VolibearQSpeed"
+BuffName = L0_1
+L0_1 = ""
+AutoBuffActivateEffect = L0_1
+L0_1 = ""
+AutoBuffActivateEffect2 = L0_1

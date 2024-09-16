@@ -1,0 +1,44 @@
+[Leaves]
+e-rate=4
+e-rotation1=45
+e-rotation1-axis=0 1 0
+p-life=3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-offset=100 100 100
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rotvel=150 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=0.5 -0.800000011920929
+p-rotvelXP3=0.5099999904632568 0.800000011920929
+p-rotvelXP4=1 1
+p-scale=25 25 25
+p-texdiv=2 2
+p-texture=SRU_NJungle_Leaves.dds
+p-vel=100 0 0
+p-velXP1=0 0.2
+p-velXP2=1 1
+p-worldaccel=0 -150 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.8 0.8 0.8
+rendermode=1
+
+[System]
+GroupPart1=Leaves
+SimulateEveryFrame=1
+

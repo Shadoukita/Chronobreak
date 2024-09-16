@@ -1,0 +1,30 @@
+[System]
+GroupPart1=x
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ring
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SoundPersistent=Play_sfx_Gangplank_CannonBarrage_area
+
+[ring]
+e-life=7
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-offset=0 10 0
+p-postoffset=0 30 0
+p-rgba=ability_indicator_p-rgba.tga
+p-scale=1100 0 0
+p-simpleorient=2
+p-texture=team_ring_green_02.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.66
+p-xscale2=1 0.66
+rendermode=1
+

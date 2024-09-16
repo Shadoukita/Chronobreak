@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="evelynn_redeye.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="shadowwalkrevealedwarning"}}, 
+{Function=BBPreloadParticle, Params={Name="evelynn_yelloweye.troy"}}, 
+}

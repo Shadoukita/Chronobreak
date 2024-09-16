@@ -1,0 +1,47 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=WeaponTrail_Council
+SimulateEveryFrame=1
+
+[WeaponTrail]
+KeywordsExcluded=CouncilMasterYi
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.19
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=MasterYi_Wuju_SC_WeaponTrail_2.dds
+p-postoffset=0 -40 -20
+p-quadrot=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-3.0999999046325684 0
+rendermode=4
+single-particle=1
+
+[WeaponTrail_Council]
+KeywordsRequired=CouncilMasterYi
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.19
+p-linger=0
+p-mesh=Hecarim_WeaponTrail_1.sco
+p-meshtex=MasterYi_Skin02_Red_WeaponTrail_2.dds
+p-postoffset=0 -40 -20
+p-quadrot=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=-3.0999999046325684 0
+rendermode=4
+single-particle=1
+

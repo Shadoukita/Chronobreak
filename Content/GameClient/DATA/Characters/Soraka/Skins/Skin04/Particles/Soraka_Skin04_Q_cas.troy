@@ -1,0 +1,50 @@
+[Flash]
+e-life=0.1
+e-rate=10
+e-rateP1=0 0.5
+e-rateP2=1 1
+p-life=0.1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=alpha_12.tga
+p-scale=120 120 120
+p-texture=Soraka_Skin04_Q_Glow.dds
+p-xrgba=1 1 1 0.8
+pass=100
+
+[Muzzle_Flash]
+e-life=0.1
+e-rate=10
+e-rateP1=0 0
+e-rateP2=0.009999999776482582 1
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-linger=0
+p-numframes=4
+p-postoffset=0 100 0
+p-quadrot=180 0 -180
+p-randomstartframe=1
+p-rgba=Twitch_Base_Z_Poision_Smoke_Colormap.tga
+p-scale=60 60 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-texdiv=2 2
+p-texture=Soraka_Skin04_Q_Muzzle_Flash.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 1
+pass=40
+
+[System]
+GroupPart1=Muzzle_Flash
+GroupPart1Importance=High
+GroupPart2=Flash
+SimulateEveryFrame=1
+

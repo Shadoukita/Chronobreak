@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "Twitch_Q_Buff.dds"
+BuffTextureName = L0_1
+L0_1 = "TwitchAmbushBuff"
+BuffName = L0_1
+L0_1 = "Twitch_Base_Q_Buff_Hands.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "R_Hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "Twitch_Base_Q_Buff_Hands.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "L_Hand"
+AutoBuffActivateAttachBoneName2 = L0_1

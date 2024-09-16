@@ -1,0 +1,16 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SimulateWhileOffScreen=1
+SoundsPlayWhileOffScreen=1
+VoiceOverOnCreate=Play_vo_Trundle_TrundlePainTrydamere_cast
+
+[empty]
+e-life=1
+e-rate=1
+p-life=0
+p-rgba=black.dds
+p-scale=0
+p-texture=black.dds
+rendermode=0
+

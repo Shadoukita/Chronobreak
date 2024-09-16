@@ -1,0 +1,25 @@
+[System]
+GroupPart1=WeaponTrail_small
+SimulateEveryFrame=1
+
+[WeaponTrail_small]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.08
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Nocturne_Cyber_Attack_Trail.tga
+p-postoffset=0 0 -60
+p-quadrot=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=2 0
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "22.dds"
+BuffTextureName = L0_1
+L0_1 = "TalonShadowAssaultMisBuff"
+BuffName = L0_1
+L0_1 = ""
+AutoBuffActivateEffect = L0_1
+L0_1 = ""
+AutoBuffActivateAttachBoneName = L0_1

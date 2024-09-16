@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "VolibearPassive.dds"
+BuffTextureName = L0_1
+L0_1 = "VolibearPassiveHeal"
+BuffName = L0_1
+L0_1 = "volibear_passive_heal.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+NonDispellable = L0_1

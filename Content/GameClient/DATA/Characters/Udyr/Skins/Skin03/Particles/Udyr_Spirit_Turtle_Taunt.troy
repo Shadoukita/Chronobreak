@@ -1,0 +1,35 @@
+[System]
+GroupPart1=turtle_mesh
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_SpiritUdyr_Taunt3D_turtletaunt
+
+[turtle_mesh]
+ChildEmitOnDeath=0
+ChildParticleName=Udyr_Spirit_Turtle_Activation_Child_Trails.troy
+KeywordsRequired=SpiritUdyr
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=udyr_spirit_PET_turtle_Taunt.anm
+p-bindtoemitter=0.85 0.85
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=2.5
+p-linger=0
+p-local-orient=1
+p-meshtex=Uddyr_Spirit_PET_Turtle_Taunt_TX_CM.dds
+p-postoffset=0 230 0
+p-scale=1 1 1
+p-skeleton=udyr_spirit_PET_turtle.skl
+p-skin=udyr_spirit_PET_turtle.skn
+p-type=3
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 0 1 0 0
+pass=-100
+rendermode=1
+single-particle=1
+

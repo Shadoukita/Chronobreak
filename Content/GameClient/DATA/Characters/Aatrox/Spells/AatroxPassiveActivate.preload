@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+
+{Function=BBPreloadSpell, Params={Name="aatroxpassiveready"}}, 
+
+}
+

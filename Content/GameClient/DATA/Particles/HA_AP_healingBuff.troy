@@ -1,0 +1,126 @@
+[SmokeWisp]
+e-life=-1
+e-rate=3
+e-rgba=255 255 255 180
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 0
+e-uvoffset-multXP2=1 1
+e-uvoffset-multYP1=0 0
+e-uvoffset-multYP2=1 1
+p-backfaceon=1
+p-life=4
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-linger=2
+p-offset=0 -450 0
+p-quadrot=-90 0 40
+p-quadrotZP1=0 -1
+p-quadrotZP2=1 1
+p-scale=300 300 600
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.9
+p-scaleYP2=1 1
+p-scaleZP1=0 0.6000000000000001
+p-scaleZP2=1 1
+p-shadow=0
+p-texture=HA_AP_wisp.dds
+p-texture-mult=HA_AP_wisp_mult.dds
+p-type=2
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.1
+p-uvscroll-rgb-mult=0 -0.05000000074505806
+p-uvscroll-rgb-multXP1=0 0
+p-uvscroll-rgb-multXP2=1 1
+p-uvscroll-rgb-multYP1=0 0
+p-uvscroll-rgb-multYP2=1 1
+p-vel=0 100 0
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=1 0.3 0.5 1 0
+p-xscale1=0 0.6 0.6 0.6
+p-xscale2=0.5 0.5 0.8 0.5
+p-xscale3=1 0.4 1 0.4
+pass=0
+rendermode=4
+
+[System]
+GroupPart1=healthIcon
+GroupPart2=healthGlow
+GroupPart3=baseGlow
+GroupPart4=SmokeWisp
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_OdinHealthPack_buffactivate
+SoundPersistent=Play_sfx_OdinHealthPack_loop
+
+[baseGlow]
+e-life=-1
+e-rate=3.5
+p-life=1.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-offset=0 0 0
+p-quadrot=90 45 0
+p-scale=70 70 0
+p-texture=HA_AP_baseGlow.dds
+p-type=1
+p-vecalign=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 0 0 0
+p-xscale1=0 0.8 0.8 0
+p-xscale2=1 1.2 1.2 0
+pass=0
+rendermode=4
+
+[healthGlow]
+e-life=-1
+e-rate=1
+p-life=1.5
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 105 0
+p-quadrot=0 0 0
+p-scale=70 70 0
+p-texture=HA_AP_healthGlow.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.6 0.6 0
+p-xscale2=1 1 1 0
+pass=0
+rendermode=0
+
+[healthIcon]
+e-life=-1
+e-rate=1
+p-animation=HA_healingIcon_idle.anm
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=25000
+p-linger=0
+p-meshtex=HA_AP_healthIcon_diff.dds
+p-offset=0 0 0
+p-postoffset=0 85 0
+p-quadrot=0 0 0
+p-rotvel=0 -100 0
+p-scale=40 49 40
+p-skeleton=HA_AP_healingIcon.skl
+p-skin=HA_AP_healingIcon.skn
+p-type=3
+p-xrgba=1 1 1 1
+pass=1
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk8AA264C9=1

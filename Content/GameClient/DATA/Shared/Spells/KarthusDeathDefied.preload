@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="karthus_base_p_death_fade.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+}

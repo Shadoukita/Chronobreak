@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="shen_shadowdash_mis.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="shenshadowdashcooldown"}}, 
+{Function=BBPreloadParticle, Params={Name="shen_shadowdash_unit_impact.troy"}}, 
+}

@@ -1,0 +1,25 @@
+local L0_1, L1_1, L2_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+CastingBreaksStealth = L0_1
+L0_1 = true
+IsDamagingSpell = L0_1
+L0_1 = 5
+ChannelDuration = L0_1
+L0_1 = "Fiddlesticks_ConjureScarecrow.dds"
+BuffTextureName = L0_1
+L0_1 = "Drain"
+BuffName = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1
+L0_1 = {}
+L1_1 = "SurprisePartyFiddlesticks"
+L2_1 = "CandyCaneFiddlesticks"
+L0_1[1] = L1_1
+L0_1[2] = L2_1
+SpellFXOverrideSkins = L0_1

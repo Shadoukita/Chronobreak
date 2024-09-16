@@ -1,0 +1,104 @@
+[System]
+GroupPart1=border
+GroupPart1Importance=NotWhenHigh
+GroupPart1Type=Simple
+GroupPart2=border-proj
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+GroupPart3=border-atom
+GroupPart3Importance=NotWhenHigh
+GroupPart3Type=Simple
+GroupPart4=border-atom-proj
+GroupPart4Importance=Low
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[border]
+KeywordsExcluded=ZombieBrand
+e-life=1
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.009999999776482582 0.5099999904632568
+p-colortype=0 0
+p-life=10
+p-linger=0
+p-postoffset=0 5 0
+p-rgba=color-team-shaded.tga
+p-scale=250
+p-simpleorient=2
+p-texture=fire-ring-marker.tga
+p-type=0
+rendermode=0
+teamcolor-correction=1
+
+[border-atom]
+KeywordsRequired=ZombieBrand
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.009999999776482582 0.5099999904632568
+p-colortype=0 0
+p-life=10
+p-linger=0
+p-postoffset=0 5 0
+p-rgba=color-team-shaded.tga
+p-scale=250
+p-simpleorient=2
+p-texture=fire-ring-marker_atom.tga
+p-type=0
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[border-atom-proj]
+KeywordsRequired=ZombieBrand
+SoundOnCreate=Play_sfx_ZombieBrand_BrandFissure_buffactivate
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.009999999776482582 0.5099999904632568
+p-colortype=0 0
+p-life=10
+p-linger=0
+p-postoffset=0 5 0
+p-projection-fading=200
+p-projection-y-range=200
+p-rgba=color-team-shaded.tga
+p-scale=250
+p-simpleorient=2
+p-texture=fire-ring-marker_atom.tga
+p-type=7
+rendermode=0
+single-particle=1
+teamcolor-correction=1
+
+[border-proj]
+KeywordsExcluded=ZombieBrand
+SoundOnCreate=Play_sfx_Brand_BrandFissure_buffactivate
+e-life=1
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.009999999776482582 0.5099999904632568
+p-colortype=0 0
+p-life=10
+p-linger=0
+p-postoffset=0 5 0
+p-projection-fading=200
+p-projection-y-range=200
+p-rgba=color-team-shaded.tga
+p-scale=250
+p-simpleorient=2
+p-texture=fire-ring-marker.tga
+p-type=7
+rendermode=0
+teamcolor-correction=1
+

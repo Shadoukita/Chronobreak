@@ -1,0 +1,62 @@
+[System]
+GroupPart1=flash
+GroupPart2=praxis
+SimulateEveryFrame=1
+
+[flash]
+KeywordsExcluded=Yasuoskin01
+e-life=0.1
+e-rate=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.1899999976158142
+p-linger=1
+p-offset=0 200 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-scale=140 140 140
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1.1
+p-texture=Sion_Base_BA_Tar_Flash.dds
+p-vel=0 0 0
+p-velZP1=0 0
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.5 1.1 1.1 1.1
+p-xscale3=1 0.2 0.2 0.2
+pass=20
+uniformscale=1
+
+[praxis]
+e-alpharef=0
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=0.15000000596046448
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-local-orient=1
+p-offset=0 200 0
+p-quadrot=0 1 0
+p-scale=50 100 0
+p-texture=Sion_Base_BA_Tar_cresent.dds
+p-vecalign=1
+p-vel=20 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 1 0 0.847105
+p-xrgba3=0.5 1 1 0 0.627497
+p-xrgba4=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0.4 0.4 0.4
+p-xscale2=0.30000000000000004 0.9 0.9 0.9
+p-xscale3=1 2 2 2
+single-particle=1
+

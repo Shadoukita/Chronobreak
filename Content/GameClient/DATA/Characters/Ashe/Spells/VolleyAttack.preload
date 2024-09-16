@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="ashe_base_w_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="volleyattack"}}, 
+{Function=BBPreloadSpell, Params={Name="frostarrow"}}, 
+}

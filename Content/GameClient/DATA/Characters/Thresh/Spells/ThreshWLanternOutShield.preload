@@ -1,0 +1,15 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="threshlantern"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimer"}}, 
+{Function=BBPreloadSpell, Params={Name="threshwzonebuff"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_thresh_wring.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="orianaballindicatorfar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_thresh_windicatorfar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="orianaballindicatormedium.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_thresh_windicatormedium.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="orianaballindicatornear.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_thresh_windicatornear.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="caitlyn_laser_beam_01.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="threshwlanternreturn"}}, 
+{Function=BBPreloadSpell, Params={Name="threshpassivesoulsgain"}}, 
+}

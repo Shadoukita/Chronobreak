@@ -1,0 +1,45 @@
+[System]
+GroupPart1=ghost_mesh
+SimulateEveryFrame=1
+group-vis=10000
+
+[ghost_mesh]
+Particle-Acceleration=100 0 0
+Particle-AccelerationXP1=0 -1
+Particle-AccelerationXP2=1 1
+e-life=-1
+e-local-orient=1
+e-rate=0.1
+e-rateP1=0 6
+e-rateP2=0.009999999776482582 0
+e-rateP3=1 0
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-drag=1 0 1
+p-life=8
+p-mesh=ghost_mesh.sco
+p-meshtex=ghost-mesh.tga
+p-numframes=2
+p-quadrot=0 0 0
+p-randomstartframe=1
+p-rgba=color-bellcurve4.tga
+p-scale=1 1.4000000000000001 1
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texdiv=2 1
+p-type=3
+p-uvscroll-rgb=1 0.1
+p-uvscroll-rgbXP1=0 -0.019999999552965164
+p-uvscroll-rgbXP2=1 0.019999999552965164
+p-vel=5 50 0
+p-velXP1=0 -1
+p-velXP2=1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1 1 1
+p-xscale3=0.7000000000000001 2 0.8 1
+p-xscale4=1 4 0.4 1
+rendermode=0
+

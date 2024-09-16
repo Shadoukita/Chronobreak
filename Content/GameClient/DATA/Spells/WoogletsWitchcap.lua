@@ -1,0 +1,17 @@
+local L0_1, L1_1
+L0_1 = "3090_Wooglets_Witchcap.dds"
+BuffTextureName = L0_1
+L0_1 = "WoogletsWitchcap"
+BuffName = L0_1
+L0_1 = "zhonyas_cylinder.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "zhonya_ring_self_skin.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateAttachBoneName3 = L0_1
+L0_1 = "zhonyas_ring_activate.troy"
+AutoBuffActivateEffect4 = L0_1
+L0_1 = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateAttachBoneName4 = L0_1
+L0_1 = true
+NonDispellable = L0_1

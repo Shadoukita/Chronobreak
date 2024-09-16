@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "BlindMonkPassive.dds"
+BuffTextureName = L0_1
+L0_1 = "BlindMonkFlurry"
+BuffName = L0_1
+L0_1 = "blindMonk_passive_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "L_hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "blindMonk_passive_buf.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "R_hand"
+AutoBuffActivateAttachBoneName2 = L0_1

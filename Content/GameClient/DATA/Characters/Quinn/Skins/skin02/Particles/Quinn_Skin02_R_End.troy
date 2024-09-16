@@ -1,0 +1,26 @@
+[System]
+GroupPart1=Valor
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[Valor]
+KeywordsExcluded=PhoenixQuinn
+e-life=1
+e-linger=0
+e-rate=1
+p-animation=Quinn_Skin02_R_End_Valor.anm
+p-bindtoemitter=1
+p-life=1
+p-linger=1
+p-meshtex=Quinn_Skin02_Valor.dds
+p-quadrot=0 180 0
+p-scale=1.7000000000000002 1.7000000000000002 1.7000000000000002
+p-skeleton=Quinn_Skin02_Valor.skl
+p-skin=Quinn_Skin02_Valor.skn
+p-type=3
+rendermode=3
+single-particle=1
+

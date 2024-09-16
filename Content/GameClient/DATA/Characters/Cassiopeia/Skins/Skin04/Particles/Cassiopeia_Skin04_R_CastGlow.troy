@@ -1,0 +1,22 @@
+[HornGlow]
+KeywordsRequired=LunarRevelCassiopeia
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Cassiopeia_Skin04_R_castglow.tga
+MaterialOverrideTransMap=Cassiopeia_Skin04_R_castglow_Map.tga
+e-life=1
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-rgba=Cassiopeia_Skin04_R_color-castglow.tga
+p-trans-sample=50
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart2=HornGlow
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

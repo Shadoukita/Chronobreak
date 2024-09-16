@@ -1,0 +1,17 @@
+[Reticle01]
+e-rate=1
+p-bindtoemitter=1 1
+p-flexoffset=0.009999999776482582
+p-flexscale=0.009999999776482582
+p-life=1000
+p-offset=0 100 0
+p-rgba=color-reticle1.tga
+p-scale=60
+p-simpleorient=2
+p-texture=ultimate reticule02.tga
+single-particle=1
+
+[System]
+GroupPart1=Reticle01
+GroupPart1Type=Simple
+

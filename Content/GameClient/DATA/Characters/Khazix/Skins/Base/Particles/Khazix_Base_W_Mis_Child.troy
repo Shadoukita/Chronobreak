@@ -1,0 +1,97 @@
+[System]
+GroupPart1=trail
+GroupPart2=trail_add
+GroupPart3=Void_FG_Lightning
+SimulateEveryFrame=1
+
+[Void_FG_Lightning]
+e-life=1
+e-rate=160
+e-rateP1=0 1
+e-rateP2=1 2
+flag-disable-z=1
+p-frameRate=0
+p-life=0.25
+p-lifeP1=0 0.25
+p-lifeP2=1 1
+p-numframes=8
+p-postoffset=0 -30 0
+p-randomstartframe=1
+p-rgba=Khazix_Base_Z_VoidLightning_RGB.tga
+p-scale=15 100 0
+p-startframe=0
+p-texdiv=2 2
+p-texture=Khazix_Base_Z_VoidLightning.tga
+p-type=0
+p-vecalign=1
+p-vel=0 100 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+pass=10
+rendermode=4
+
+[trail]
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+p-frameRate=0
+p-life=0.30000000000000004
+p-numframes=1
+p-scale=10 0 0
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-startframe=0
+p-texdiv=0.6 0.3
+p-texture=Khazix_Base_Z_Void.tga
+p-trailmode=1
+p-type=5
+p-uvmode=1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=3
+rendermode=1
+
+[trail_add]
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+p-frameRate=0
+p-life=0.30000000000000004
+p-numframes=1
+p-rgba=Khazix_Base_Z_Rampdown_Quick_RGB.tga
+p-scale=10 0 0
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-startframe=0
+p-texdiv=0.6 0.3
+p-texture=Khazix_Base_Z_Void.tga
+p-trailmode=1
+p-type=5
+p-uvmode=1
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=5
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk132C78A3=5
+unk2520A7E5=1
+unk2828B084=0
+unk33D87003=10 0 0
+unk37653E52=Khazix_Base_Z_Void.tga
+unk4B21799D=2
+unk5488EA00=1
+unk68D7DD2D=1
+unk7ADEE7E3=1
+unk941F6954=0
+unk970AF825=0.30000000000000004
+unkA322CA70=4
+unkAD33BC9D=Khazix_Base_Z_Rampdown_Quick_RGB.tga
+unkB6693654=60
+unkBB9D7196=0 1 0 0
+unkBB9D7197=0.5 1 0 0
+unkBB9D7198=1 0 0 0
+unkCA5E7BD3=0.6 0.3
+unkE5B67A41=12 0 0

@@ -1,0 +1,51 @@
+[Basic]
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-life=1
+p-scale=10 10 0
+p-texture=disc32.DDS
+p-vel=0 200 0
+rendermode=1
+
+[Starburst]
+e-linger=-1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=1
+p-mesh=sphere_02.sco
+p-meshtex=GnarBig_Base_Q_Rock.dds
+p-scale=100 100 100
+p-type=3
+rendermode=1
+
+[System]
+GroupPart1=Starburst
+GroupPart2=Temp_Mesh
+GroupPart3=Basic
+
+[Temp_Mesh]
+e-rate=1
+p-life=1
+p-mesh=sphere.sco
+p-meshtex=checkers.dds
+p-scale=5 5 5
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+

@@ -1,0 +1,15 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SoundPersistent=Play_sfx_SRU_Baron_spawn_out_cast_vox
+SoundsPlayWhileOffScreen=1
+
+[empty]
+e-life=-6
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

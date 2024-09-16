@@ -1,0 +1,46 @@
+[LeftTusk_Trail]
+KeywordsExcluded=SejuaniSkin04
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0.2
+p-mesh=Sejuani_Q_boar_trail.sco
+p-meshtex=Sejuani_basicattack_trail_01.tga
+p-offset=50 0 0
+p-quadrot=0 180 0
+p-rgba=color-sejuani_basicattack_trail_01.tga
+p-scale=0.8 0.8 0.8
+p-type=3
+p-uvscroll-rgb=-2.700000047683716 0
+rendermode=4
+single-particle=1
+
+[RightTusk_Trail]
+KeywordsExcluded=SejuaniSkin04
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.2
+p-linger=0.2
+p-mesh=Sejuani_Q_boar_trail.sco
+p-meshtex=Sejuani_basicattack_trail_01.tga
+p-quadrot=0 180 0
+p-rgba=color-sejuani_basicattack_trail_01.tga
+p-scale=0.8 0.8 0.8
+p-type=3
+p-uvscroll-rgb=-2.700000047683716 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=RightTusk_Trail
+GroupPart2=LeftTusk_Trail
+SimulateEveryFrame=1
+

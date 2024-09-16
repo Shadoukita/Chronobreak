@@ -1,0 +1,26 @@
+[Green_Ring]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.30000000000000004
+p-colortype=1 0
+p-life=8
+p-linger=0
+p-rgba=color-intofocus32.tga
+p-scale=280 0 0
+p-simpleorient=2
+p-texture=team_ring_green_defocus_single.tga
+p-type=1
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+
+[System]
+GroupPart1=Green_Ring
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

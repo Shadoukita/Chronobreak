@@ -1,0 +1,19 @@
+[MyTrail]
+e-rate=50
+e-tilesize=100 0 0
+p-colortype=1 0
+p-life=0.1
+p-rgba=color-embers.tga
+p-scale=30 30 30
+p-texture=DeathCard.tga
+p-type=5
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+
+[System]
+GroupPart1=MyTrail
+GroupPart1Type=Complex
+
+[UNKNOWN_HASHES]
+unkD49949AE=color-white32.tga

@@ -1,0 +1,36 @@
+[System]
+GroupPart1=whitesparks
+
+[whitesparks]
+e-rate=3
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=2
+p-lifeP1=0 1
+p-lifeP2=1 1.25
+p-linger=0
+p-offset=15 15 15
+p-rgba=color-hold.tga
+p-scale=50 50 50
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1.1
+p-scaleYP1=0 0.9
+p-scaleYP2=1 1.1
+p-texture=SRU_Chaos_Shopkeeper_Staff_Glow.dds
+p-vel=0 20 0
+p-velYP1=0 -0.5
+p-velYP2=1 1
+p-xrgba=1 1 1 0.6000000000000001
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 0.690196
+p-xrgba3=0.5 1 1 1 0.6
+p-xrgba4=0.8 1 1 1 0.097993
+p-xrgba5=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.7 0.7 0.7
+p-xscale2=0.8 1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-xscale3=1 1.5 1.5 1.5
+rendermode=1
+

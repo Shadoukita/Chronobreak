@@ -1,0 +1,50 @@
+[System]
+GroupPart2=VoidBladeglow
+
+[VoidBladeglow]
+e-life=0.30000000000000004
+e-linger=0
+e-local-orient=1
+e-rate=120
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-local-orient=1
+p-numframes=1
+p-offset=47 4 6
+p-quadrot=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=70 70 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=voidblade_glow.tga
+p-type=1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk022FF7BB=90 0 0
+unk041F0975=0 120 0
+unk079F2E3C=0.5
+unk11B02069=color-lineardown.tga
+unk12662327=1 1 1
+unk1AE59A20=60
+unk26117386=cannibalblade.tga
+unk620B8E83=0.5
+unk63CE31B8=0
+unk6C406C88=50 0 0
+unk77A8DC6F=4
+unk7BCC69C1=0 0
+unk8D302628=1 0
+unk9A232DFC=1 1
+unk9EEE803B=0 0 0
+unkAA49A6CA=0 0 0 0
+unkAA49A6CB=0.1 1 1 1
+unkAA49A6CC=1 0 0 0
+unkAB7005FC=1
+unkBFEE8247=1
+unkF9689223=1 -0.5
+unkFACA22C1=0
+unkFB875BF1=0.4

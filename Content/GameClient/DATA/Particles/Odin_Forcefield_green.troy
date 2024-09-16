@@ -1,0 +1,168 @@
+[System]
+GroupPart1=distort-light
+GroupPart2=distort-light2
+GroupPart3=distort
+GroupPart4=fadetop
+GroupPart5=topcap
+GroupPart5Type=Simple
+GroupPart6=crown
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Env_Map8_Barrier_loop
+
+[crown]
+e-life=121
+e-local-orient=0
+e-rate=5
+e-timeoffset=120
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-backfaceon=1
+p-bindtoemitter=0
+p-colorscale=1 0.1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=1
+p-mesh=saucer6.sco
+p-meshtex=cylinder07.tga
+p-numframes=1
+p-offset=0 -300 0
+p-quadrot=0 0 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellramp.tga
+p-rotvel=0 0 0
+p-scale=60 30 60
+p-startframe=0
+p-texdiv=0.25 1
+p-type=3
+p-uvscroll-rgb=0 0
+pass=1
+rendermode=0
+
+[distort]
+e-life=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 0
+p-distortion-mode=1
+p-distortion-power=0.019999999552965164
+p-life=1000000
+p-linger=0
+p-mesh=forcefield.sco
+p-meshtex=color-hold.tga
+p-normal-map=normal-lines.tga
+p-offset=0 90 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=0.8 0.5 0.8
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 0.1
+pass=0
+rendermode=1
+
+[distort-light]
+e-life=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=0
+p-colorscale=0.1 0.4
+p-colortype=0 0
+p-life=1000000
+p-linger=0
+p-mesh=forcefield.sco
+p-meshtex=shieldgrid.tga
+p-offset=0 90 0
+p-quadrot=0 0 0
+p-rgba=color-lensbell.tga
+p-scale=0.8 0.5 0.8
+p-texdiv=0.44999998807907104 1
+p-type=3
+p-uvscroll-rgb=0.02500000037252903 2
+pass=-1
+rendermode=0
+
+[distort-light2]
+e-life=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=0
+p-colorscale=0.1 0.4
+p-colortype=0 0
+p-life=1000000
+p-linger=0
+p-mesh=forcefield.sco
+p-meshtex=shieldgrid.tga
+p-offset=0 90 0
+p-quadrot=0 0 0
+p-rgba=color-lensbell.tga
+p-scale=0.8 0.5 0.8
+p-texdiv=0.44999998807907104 1
+p-type=3
+p-uvscroll-rgb=-0.02500000037252903 2
+pass=-1
+rendermode=0
+
+[fadetop]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-uvoffset=0 0.3700000047683716
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=0
+p-colorscale=0.05000000074505806 0.4000000059604645
+p-colortype=0 0
+p-life=1000000
+p-linger=0
+p-mesh=forcefield.sco
+p-meshtex=shield_beam_03.tga
+p-offset=0 90 0
+p-quadrot=0 0 0
+p-rgba=color-lensbell.tga
+p-scale=0.8 0.5 0.8
+p-texdiv=1 2
+p-type=3
+p-uvscroll-rgb=0 0
+pass=-1
+rendermode=0
+
+[topcap]
+e-life=1000000
+e-local-orient=0
+e-rate=4
+flag-disable-z=1
+p-bindtoemitter=0
+p-colorscale=1 0.5
+p-colortype=1 0
+p-life=1
+p-linger=0
+p-offset=0 200 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hymnofvalor.tga
+p-scale=500
+p-simpleorient=2
+p-texture=resonance.tga
+p-type=1
+pass=0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0353E8AF=linger=0
+unk791DF874=linger=0
+unk90DB28F8=linger=0
+unkBE0AB0F9=linger=0
+unkFCDA7852=linger=121
+unkFE848BE6=linger=0

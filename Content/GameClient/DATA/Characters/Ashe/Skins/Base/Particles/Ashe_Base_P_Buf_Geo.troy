@@ -1,0 +1,50 @@
+[Flash_Out]
+e-life=1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1.0 1.0
+p-life=0.4
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0.0 0.0
+p-quadrotP2=1.0 360.0
+p-rgba="color-rampdown.tga"
+p-scale=100
+p-texture="prismaticflash.tga"
+p-type=0
+p-xscale1=0.0 0.4
+p-xscale2=0.8 1.1
+p-xscale3=1.0 3.5
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart2="Flash_Out"
+GroupPart2Type="Simple"
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk0D94613C=1
+unk1F3B92AE=100
+unk560798B6=0.7
+unk5CC72CD9=0.0 1.0
+unk621F6B01=-1
+unk692FB8C8=0
+unk6AF25BFD=0
+unk6C305D2E="alpha_20_03.tga"
+unk7565D6E5=5
+unk814778C1=1
+unk82A32EA7="Ashe_Base_P_Buf_Geo.scb"
+unk8672FDF0=1.0 1.0 1.0
+unk95C5F50C=0
+unk96750DC5=0.0 1.0 1.0 1.0
+unk96750DC6=1.0 1.2000000000000002 1.2000000000000002 1.2000000000000002
+unk9C5F1776=1
+unkB4959E60="Ashe_Base_P_Buf_Geo.tga"
+unkC0A635A1=0.0 0.0
+unkC0A635A2=1.0 1.0
+unkCF4004E8=1.0 -0.3
+unkD2291934=3
+unkEE5B5EB6=-1.0 180.0 2.0
+unkF5CAB977=0.0 0.6
+unkF5CAB978=1.0 1.2000000000000002

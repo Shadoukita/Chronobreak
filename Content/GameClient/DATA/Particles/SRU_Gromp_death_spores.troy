@@ -1,0 +1,125 @@
+[Meshspores2]
+e-disabled=1
+e-life=1
+e-linger=1
+e-rate=1
+p-life=3
+p-linger=1
+p-mesh=SRU_Gromp_death_spores_mesh.scb
+p-offset=0 100 0
+p-rgba=SRU_Gromp_Death_spores_alpha.dds
+p-scale=200
+p-texture=SRU_Gromp_death_sporeTex_front2.dds
+p-type=0
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.06
+pass=27
+rendermode=4
+
+[SparkNoise]
+f-period=0.1
+f-pos=0 0 0
+f-radius=1000
+f-veldelta=40
+
+[System]
+GroupPart1=dust
+GroupPart1Type=Simple
+GroupPart2=smoke
+GroupPart3=Cloudmesh
+GroupPart4=downspores
+GroupPart5=mesh
+GroupPart6=Meshspores
+GroupPart6Type=Simple
+GroupPart7=Meshspores2
+GroupPart7Type=Simple
+GroupPart8=shadowsmoke
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[downspores]
+e-life=0.25
+e-linger=0
+e-rate=40
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 -25
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-noise-1=SparkNoise
+p-drag=2 3 2
+p-life=7
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve4.tga
+p-rotvel=1
+p-rotvelP1=0 -20
+p-rotvelP2=1 20
+p-scale=12 12 12
+p-scaleXP1=0 2
+p-scaleXP2=0.8 0.2
+p-shadow=0
+p-texture=SRU_Bluebuff_sparkleorbs.dds
+p-type=0
+p-vel=0 1 0
+p-vel1=0 0 1000 0
+p-vel2=0.30000001192092896 0 -800 0
+p-vel3=1 0 -8000 0
+p-worldaccel=0 -10 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=40
+rendermode=0
+single-particle=1
+uniformscale=1
+
+[smoke]
+e-life=0.25
+e-rate=5
+p-life=6
+p-lifeP1=0 0.65
+p-lifeP2=1 1
+p-numframes=4
+p-offset=20 5 20
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0.25
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-postoffset=0 100 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-scale=190 190 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-texdiv=2 2
+p-texture=SRU_Gromp_Death_smoke_puffs.dds
+p-type=0
+p-xquadrot-on=1
+p-xrgba=0.5 0.5 0.8 0.4
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.1 1 1 1 0.8
+p-xrgba3=0.55 1 1 1 0
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 0 0 0
+p-xscale2=0.02 1 1 0
+p-xscale3=1 0.7 0.7 0.7
+pass=-30
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk637DF2F5=0 1 1 1 0.9
+unk637DF2F6=1 1 1 1 1

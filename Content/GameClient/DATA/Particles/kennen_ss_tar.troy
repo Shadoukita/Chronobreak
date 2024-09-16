@@ -1,0 +1,124 @@
+[System]
+GroupPart1=bits
+GroupPart1Type=Simple
+GroupPart2=flash
+GroupPart2Type=Simple
+GroupPart3=lightning
+GroupPart4=glow
+PersistThruDeath=1
+SoundOnCreate=Play_sfx_Kennen_KennenShurikenStorm_hit
+
+[bits]
+e-life=1
+e-local-orient=0
+e-rate=40
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 90
+e-rotation1P2=1 70
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity
+field-drag-1=drag
+p-colortype=1 3
+p-life=0.6000000000000001
+p-lifeP1=0 0.2
+p-lifeP2=1 1.5
+p-linger=2
+p-postoffset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-lightning.tga
+p-rotvel=0
+p-scale=15
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-texture=zapspark.dds
+p-vel=600 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+single-particle=1
+
+[drag]
+f-drag=0.5
+f-radius=500
+
+[flash]
+e-life=1
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.0020000000949949026
+p-life=0.4
+p-offset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-scale=100
+p-texture=flare-omnimax.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 2 2 2
+p-xscale2=1 0 0 0
+single-particle=1
+
+[glow]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 0
+p-life=0.5
+p-linger=0
+p-offset=0 200 0
+p-quadrot=0 0 90
+p-rgba=color-rampdown.tga
+p-scale=1000 40 0
+p-texture=zapglow.dds
+p-type=1
+single-particle=1
+
+[gravity]
+f-accel=0 -800 0
+f-radius=200
+
+[lightning]
+e-life=0.1
+e-local-orient=0
+e-rate=40
+e-uvoffset=0 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1 0
+p-colortype=1 3
+p-life=0.1
+p-lifeP1=0 0.2
+p-lifeP2=1 3
+p-linger=0
+p-offset=0 500 0
+p-quadrot=0 0 90
+p-rgba=color-lightning.tga
+p-scale=1000 20 0
+p-scaleXP1=0 -1.2
+p-scaleXP2=0.5 -1
+p-scaleXP3=0.5099999904632568 1
+p-scaleXP4=1 1.2000000000000002
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texdiv=1 0.5
+p-texture=lightningbolt.dds
+p-type=1
+p-uvscroll-rgb=0 -0.025
+p-xscale=1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=1 1 1 0
+

@@ -1,0 +1,102 @@
+[System]
+GroupPart1=sparkBehind
+GroupPart2=trail1
+GroupPart2Importance=High
+GroupPart3=misGeo
+GroupPart3Importance=High
+GroupPart4=bigBright
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Env_map11_ChaosTurretMinionBasicAttack_missilelaunch
+
+[bigBright]
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=100 100 300
+p-texture=SRU_chaos_brightSparks.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=2
+rendermode=4
+single-particle=1
+
+[misGeo]
+e-local-orient=0
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0.15000000596046448
+p-local-orient=1
+p-mesh=sru_chaos_turret_ba_mis.scb
+p-meshtex=SRU_Chaos_crystalTex.dds
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.30000000000000004 0.5 0.30000000000000004
+rendermode=4
+
+[sparkBehind]
+e-rate=80
+p-life=0.30000000000000004
+p-linger=0.5
+p-offset=0 30 0
+p-quadrot=360 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rgba=color-hold.dds
+p-scale=80 80 80
+p-texture=SRU_Chaos_Sparks_behind.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=-10
+rendermode=1
+uniformscale=1
+
+[trail1]
+e-local-orient=0
+e-rate=100
+e-tilesize=100 0 0
+e-trail-cutoff=1000
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-local-orient=1
+p-scale=50 50 50
+p-texdiv=6 1
+p-texture=SRU_Chaos_trail.dds
+p-trailmode=1
+p-type=4
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.3 1 0.25 0.25 0.2
+p-xrgba4=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0 0 0
+pass=1
+rendermode=4
+

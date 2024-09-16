@@ -1,0 +1,136 @@
+[System]
+GroupPart1=gem
+GroupPart2=gem_hot1
+GroupPart3=gem_hot2
+GroupPart4=gem_hot3
+GroupPart5=gem_hot4
+GroupPart6=gem_hot5
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Env_Map8_EOG_buffacitvateglobal
+SoundPersistent=Play_sfx_Env_Map8_EOG_buffactivatelocal
+SoundsPlayWhileOffScreen=1
+group-vis=8000
+
+[gem]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 255
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=4.2
+p-linger=-1
+p-local-orient=1
+p-mesh=crystal_shattered_hollow.sco
+p-meshtex=Dominion_Crystal_black32.tga
+p-offset=0 0 0
+p-scale=1 1 1
+p-type=3
+p-xscale1=0 1 1 1
+p-xscale2=0.9800000190734863 1 1 1
+p-xscale3=1 2 2 2
+pass=0
+rendermode=1
+single-particle=1
+
+[gem_hot1]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=0 100 255 60
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=4
+p-linger=-1
+p-local-orient=1
+p-mesh=crystal_shattered.sco
+p-meshtex=color-hold.tga
+p-offset=0 0 0
+p-scale=0.7000000000000001 0.7000000000000001 0.7000000000000001
+p-type=3
+pass=-3
+rendermode=0
+single-particle=1
+
+[gem_hot2]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=0 255 255 60
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=4
+p-linger=-1
+p-local-orient=1
+p-mesh=crystal_shattered.sco
+p-meshtex=color-hold.tga
+p-offset=0 0 0
+p-scale=0.6000000000000001 0.6000000000000001 0.6000000000000001
+p-type=3
+pass=-3
+rendermode=0
+single-particle=1
+
+[gem_hot3]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=100 255 255 60
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1
+p-linger=-1
+p-local-orient=1
+p-mesh=crystal_shattered.sco
+p-meshtex=color-hold.tga
+p-offset=0 0 0
+p-scale=0.5 0.5 0.5
+p-type=3
+pass=-3
+rendermode=0
+single-particle=1
+
+[gem_hot4]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=200 255 255 60
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=4
+p-linger=-1
+p-local-orient=1
+p-mesh=crystal_shattered.sco
+p-meshtex=color-hold.tga
+p-offset=0 0 0
+p-scale=0.4 0.4 0.4
+p-type=3
+pass=-3
+rendermode=0
+single-particle=1
+
+[gem_hot5]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 255 60
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=4
+p-linger=-1
+p-local-orient=1
+p-mesh=crystal_shattered.sco
+p-meshtex=color-hold.tga
+p-offset=0 0 0
+p-scale=0.30000000000000004 0.30000000000000004 0.30000000000000004
+p-type=3
+pass=-3
+rendermode=0
+single-particle=1
+

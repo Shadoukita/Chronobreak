@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+IsDamagingSpell = L0_1
+L0_1 = "Vladimir_Transfusion.dds"
+BuffTextureName = L0_1
+L0_1 = "Iceblast"
+BuffName = L0_1
+L0_1 = "summoner_battlecry.troy"
+AutoBuffActivateEffect = L0_1

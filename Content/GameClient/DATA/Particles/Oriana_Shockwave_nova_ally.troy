@@ -1,0 +1,93 @@
+[System]
+GroupPart1=distort
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+GroupPart2=flash
+GroupPart2Type=Simple
+GroupPart3=shockwave
+GroupPart3Importance=NotWhenHigh
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_OrianaDetonateCommand_hit
+
+[distort]
+e-life=0.30000000000000004
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-distortion-mode=2
+p-distortion-power=0.1
+p-flexoffset=0.004999999888241291
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-normal-map=distort-wave.tga
+p-numframes=1
+p-offset=0 150 0
+p-quadrot=90
+p-rgba=color-distortbell32.tga
+p-scale=700
+p-simpleorient=2
+p-startframe=0
+p-texture=Aura_Self.tga
+p-type=1
+p-xscale1=0 1
+p-xscale2=0.5 0
+p-xscale3=1 1
+pass=-10
+rendermode=1
+
+[flash]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=1
+p-linger=0
+p-offset=0 150 0
+p-rgba=color-eyefade.tga
+p-scale=200
+p-simpleorient=2
+p-texture=shadow_step_02.tga
+p-type=1
+p-xscale1=0 4
+p-xscale2=0.2 0.2
+p-xscale3=1 0
+pass=1
+rendermode=0
+single-particle=1
+
+[shockwave]
+e-life=0.30000000000000004
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-flexoffset=0.004999999888241291
+p-life=0.5
+p-offset=0 150 0
+p-postoffset=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=300 0 0
+p-simpleorient=2
+p-texture=shockWave.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 0
+p-xscale3=1 1
+rendermode=0
+

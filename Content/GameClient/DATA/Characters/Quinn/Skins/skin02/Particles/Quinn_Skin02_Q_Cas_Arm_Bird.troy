@@ -1,0 +1,28 @@
+[System]
+GroupPart1=Valor
+GroupPart1Importance=High
+GroupPart1Type=complex
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[Valor]
+e-life=0.75
+e-linger=0
+e-rate=1
+p-animation=Quinn_Skin02_Q_Cas_Arm_Bird_Valor.anm
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.265
+p-linger=0.1
+p-meshtex=Quinn_Skin02_Valor.dds
+p-quadrot=0 180 0
+p-scale=1.7000000000000002 1.7000000000000002 1.7000000000000002
+p-skeleton=Quinn_Skin02_Valor.skl
+p-skin=Quinn_Skin02_Valor.skn
+p-type=3
+rendermode=3
+single-particle=1
+uniformscale=1
+

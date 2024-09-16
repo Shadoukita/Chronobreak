@@ -1,0 +1,61 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=bubble
+GroupPart2Type=Simple
+GroupPart3=hit
+SimulateEveryFrame=1
+
+[bubble]
+e-life=0.1
+e-rate=1
+p-life=0.14000000059604645
+p-offset=0 70 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=25
+p-texture=MasterYi_Base_Z_Fade_Bubble.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 2
+p-xscale3=1 5
+
+[flash]
+e-life=0.2
+e-rate=1
+p-life=0.18000000715255737
+p-offset=0 50 0
+p-quadrot=90
+p-rgba=color-rampdown.tga
+p-scale=45
+p-texture=MasterYi_Base_Z_Hit_Flash.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 4
+p-xscale3=1 1
+
+[hit]
+e-life=0.2
+e-linger=1
+e-local-orient=1
+e-rate=3
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-postoffset=0 100 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 90
+p-rgba=color-bubblerupples.tga
+p-scale=240 80 240
+p-texture=MasterYi_Base_X_hit_flare.dds
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=0.8 2 0.1 2
+p-xscale4=1 1 0 1
+pass=30
+rendermode=4
+single-particle=0
+

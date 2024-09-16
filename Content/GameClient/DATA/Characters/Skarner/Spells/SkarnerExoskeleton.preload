@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_body.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_buf_r_arm.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_buf_l_arm.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_buf_tail.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_body_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_skin03_w_cas_exhaust_r.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_skin03_w_cas_exhaust_l.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_skin03_w_cas_01.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_shatter.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_w_buff_lines.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="unlockanimation"}}, 
+{Function=BBPreloadSpell, Params={Name="skarnerexoskeleton"}}, 
+}

@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="itemglacialspike"}}, 
+{Function=BBPreloadParticle, Params={Name="glacialspike_buf.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="itemglacialspikeslow"}}, 
+}

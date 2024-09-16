@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="xerath_e_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="xerath_barrage_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="xerath_magechains_consume.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="xerathmagechainsroot"}}, 
+}

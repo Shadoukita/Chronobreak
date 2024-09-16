@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="lifeaura.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="guardianangel_tar.troy"}}, 
+}

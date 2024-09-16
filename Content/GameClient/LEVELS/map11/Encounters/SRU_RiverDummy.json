@@ -1,0 +1,18 @@
+{"EncounterDefinition": {
+"BonusValue": 12,
+"SquadAI": "Guard",
+"MonsterGroups":
+[
+	{
+		"Monsters":
+		[
+			{
+				"SkinName": "SRU_RiverDummy",
+				"Value": 1,
+				"Count": 1,
+				"Targetable": 0
+			}
+		]
+	}
+]
+}} 

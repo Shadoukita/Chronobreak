@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sru_razorbeak_idle_n2a_sound.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_raptor_buff.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="trinketorblvl1audio.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="birdeyes.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="item_danger_alert.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_raptor_alert.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_razorbeak_idle_spawn_sound.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="oracleelixirsight"}}, 
+}

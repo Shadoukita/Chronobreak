@@ -1,0 +1,89 @@
+[MagiMotesNoise_02]
+f-axisfrac=1 1 1
+f-period=0.5
+f-radius=500
+f-veldelta=10
+
+[System]
+GroupPart1=eastjungle_magicMotes_02
+GroupPart2=runeBinding
+SimulateEveryFrame=1
+group-vis=50
+
+[eastjungle_magicMotes_02]
+e-rate=2
+e-rateP1=0 1
+e-shape-name=sru_pallybase_blockermotes_01.scb
+field-noise-1=MagiMotesNoise_02
+p-drag=0.009999999776482582 3.5 0.009999999776482582
+p-dragYP1=0 1
+p-dragYP2=1 0.8
+p-life=2.5
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-numframes=2
+p-offset=25 100 25
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.DDS
+p-scale=12 12 12
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-texdiv=2 1
+p-texture=SRU_EJungle_MagicMotes_01.DDS
+p-vel=10 150 10
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.2 0.298039 1 0.286275 1
+p-xrgba3=0.5 0.580392 1 0.513725 1
+p-xrgba4=0.8 1 0.933333 0.164706 1
+p-xrgba5=1 0 0 1 0
+rendermode=4
+uniformscale=1
+
+[runeBinding]
+e-rate=0.07999999821186066
+e-uvoffset=1 0
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 0
+e-uvoffset-multXP2=1 1
+e-uvoffset-multYP1=0 0
+e-uvoffset-multYP2=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1 0
+p-life=30
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-mesh=SRU_Order_BlockerSwirl_01.scb
+p-meshtex=SRU_Order_runeBinding.dds
+p-meshtex-mult=SRU_Order_sparklesMult.dds
+p-offset=0 50 0
+p-quadrot=25 25 0
+p-quadrotXP1=0 -0.2
+p-quadrotXP2=1 0.2
+p-quadrotYP1=0 -0.2
+p-quadrotYP2=1 0.2
+p-scale=1 1 1
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-texdiv-mult=0.5 1
+p-type=3
+p-uvscroll-rgb=0.015 0
+p-uvscroll-rgb-mult=-0.05 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.243137 0.67451 0.517647 0
+p-xrgba2=0.5 0.486275 1 0.607843 0.666667
+p-xrgba3=1 0.956863 1 0.078431 0
+pass=4
+rendermode=4
+uniformscale=1
+

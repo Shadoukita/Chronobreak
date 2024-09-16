@@ -1,0 +1,17 @@
+[Eyes_To_White]
+MaterialOverride1Priority=2000
+MaterialOverride1Texture=Gnar_Skin01_P_Eyes_White.dds
+e-life=1
+p-colortype=0 0
+p-life=4.1000000000000005
+p-linger=4.1000000000000005
+p-rgba=Gnar_Base_P_Fur_Trans_rgba.tga
+rendermode=1
+
+[System]
+GroupPart1=Eyes_To_White
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Rengar_RengarR_buffactivateheartbeat
+

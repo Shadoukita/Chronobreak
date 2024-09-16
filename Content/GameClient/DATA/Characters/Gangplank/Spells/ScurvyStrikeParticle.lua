@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Pirate_GrogSoakedBlade.dds"
+BuffTextureName = L0_1
+L0_1 = "ScurvyStrike"
+BuffName = L0_1
+L0_1 = "Global_Slow.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = ""
+AutoBuffActivateAttachBoneName = L0_1

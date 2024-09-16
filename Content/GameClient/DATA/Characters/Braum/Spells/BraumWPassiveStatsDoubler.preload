@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="braum_base_w_shield_buf.troy"}}, 
+}

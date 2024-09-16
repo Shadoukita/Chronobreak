@@ -1,0 +1,213 @@
+[Mist]
+e-life=0.15000000596046448
+e-local-orient=0
+e-rate=240
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=-0.5
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.3499999940395355
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-offset=260 270 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.25
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 -10 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=MonkeyKing_Skin04_Idle_Cloud_Mist_Ramp.dds
+p-scale=30
+p-scaleP1=0 0.3
+p-scaleP2=1 1.3
+p-texdiv=2 2
+p-texture=MonkeyKing_Skin04_Idle_Cloud_Mist.dds
+p-vel=0 0 500
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xrgba=1 1 1 0.5000079870223999
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 2
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+pass=10
+rendermode=1
+
+[Staff]
+e-life=0.2750000059604645
+e-rate=2.75
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.25
+p-postoffset=0 130 0
+p-rgba=MonkeyKing_Skin04_W_Death_Team_ID_Staff_Ramp.dds
+p-rotvel=-1020
+p-scale=135
+p-simpleorient=2
+p-texture=MonkeyKing_Skin04_W_Death_Team_ID_red_Staff.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 1.2
+p-xscale2=0.5 0.8
+p-xscale3=1 0.2
+rendermode=1
+
+[System]
+GroupPart1=flat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Mist
+GroupPart2Type=Simple
+GroupPart3=poof_magic
+GroupPart3Type=Simple
+GroupPart4=flat_02
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=Staff
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=monkey_face_02
+GroupPart6Importance=High
+GroupPart6Type=Simple
+GroupPart7=monkey_face
+GroupPart7Importance=High
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+
+[flat]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-life=0.25
+p-postoffset=0 130 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-scale=40
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-texture=Flare-Rainbow_white_05.dds
+p-xscale=1
+p-xscale1=0 8
+p-xscale2=0.5 3
+p-xscale3=1 1
+single-particle=1
+
+[flat_02]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.5
+p-life=0.25
+p-postoffset=0 130 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-scale=30
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-texture=MonkeyKing_skin04_Flare.dds
+p-xscale=1
+p-xscale1=0 8
+p-xscale2=0.5 3
+p-xscale3=1 1
+single-particle=1
+
+[monkey_face]
+e-life=0.1
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-life=0.5600000023841858
+p-postoffset=0 130 0
+p-rgba=alpha_20_05.tga
+p-scale=120
+p-texture=MonkeyKing_Skin04_W_Death_Team_ID_Red_Face.dds
+p-xscale=1
+p-xscale1=0 0.35
+p-xscale2=0.5 0.6000000000000001
+p-xscale3=1 1.1
+pass=15
+rendermode=1
+single-particle=1
+
+[monkey_face_02]
+e-life=0.1
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-life=0.5600000023841858
+p-postoffset=0 130 0
+p-rgba=alpha_20_05.tga
+p-scale=120
+p-texture=MonkeyKing_Skin04_W_Death_Team_ID_Red_Face.dds
+p-xscale=1
+p-xscale1=0 1.3
+p-xscale2=0.5 0.6499999761581421
+p-xscale3=1 0.30000000000000004
+pass=15
+rendermode=1
+single-particle=1
+
+[orbit1]
+f-direction=0 1 0
+
+[poof_magic]
+e-life=0.25
+e-local-orient=0
+e-rate=140
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=-0.5
+field-accel-1=up
+field-drag-1=slow
+field-orbit-1=orbit1
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-offset=260 270 0
+p-offsetXP1=0 0
+p-offsetXP2=1 0.25
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 -10 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=30
+p-scaleP1=0 0.85
+p-scaleP2=1 1.1
+p-texture=MonkeyKing_skin04_Flare.dds
+p-vel=0 0 500
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 2
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+
+[slow]
+f-drag=2
+f-radius=10000
+
+[up]
+f-accel=0 100 0
+

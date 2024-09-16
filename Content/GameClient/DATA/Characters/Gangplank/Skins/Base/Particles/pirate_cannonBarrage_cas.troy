@@ -1,0 +1,30 @@
+[System]
+GroupPart1=flare
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SoundOnCreate=Play_sfx_Gangplank_CannonBarrage_flare
+
+[flare]
+e-life=5
+e-rate=4
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-life=0.25
+p-linger=1
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 180
+p-quadrotP2=1 360
+p-rgba=color-smack.tga
+p-scale=170
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=Flare-Sun_red.tga
+p-type=1
+p-vel=0 4000 0
+p-xscale=1
+p-xscale1=0 3
+p-xscale2=0.3 0.5
+p-xscale3=1 2
+

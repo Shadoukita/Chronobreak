@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="rumbleflamethrowereffect"}}, 
+{Function=BBPreloadSpell, Params={Name="rumbleoverheat"}}, 
+{Function=BBPreloadSpell, Params={Name="rumbleflamethrowerbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="rumbleflamethrower"}}, 
+{Function=BBPreloadSpell, Params={Name="rumbleheatdelay"}}, 
+{Function=BBPreloadSpell, Params={Name="rumbleflamethrowerdummyspelldz"}}, 
+{Function=BBPreloadSpell, Params={Name="rumbleflamethrowerdummyspell"}}, 
+}

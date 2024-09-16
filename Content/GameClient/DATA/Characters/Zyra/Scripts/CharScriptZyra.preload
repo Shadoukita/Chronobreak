@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="zyragraspingroots"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="zyrapheromone"}}, 
+{Function=BBPreloadSpell, Params={Name="zyrapassivedeathdisplay"}}, 
+{Function=BBPreloadSpell, Params={Name="zyrapassivedeathready"}}, 
+{Function=BBPreloadSpell, Params={Name="zyrapqueenofthornsready"}}, 
+{Function=BBPreloadSpell, Params={Name="zyrarecalloverridebuff"}}, 
+{Function=BBPreloadSpell, Params={Name="zyrahiddengoodies"}}, 
+}

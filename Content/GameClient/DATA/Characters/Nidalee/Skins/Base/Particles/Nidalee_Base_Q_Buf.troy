@@ -1,0 +1,96 @@
+[MagicSwirls]
+KeywordsExcluded=HeadhunterNidalee
+e-alpharef=0
+e-local-orient=0
+e-rate=3
+e-rotation1-axis=0 0 1
+flag-disable-z=1
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=0
+p-numframes=4
+p-postoffset=0 140 0
+p-quadrot=0 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 10
+p-randomstartframe=1
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=100 50 70
+p-scaleXP1=0 1
+p-scaleXP2=0.5099899768829346 0.6000000238418579
+p-scaleXP3=0.5099999904632568 0.800000011920929
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1
+p-texdiv=2 2
+p-texture=nidalee_base_Q_mark_swirls.dds
+p-worldaccel=0 40 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 0 0 1
+p-xrgba3=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 1 4 1
+rendermode=1
+
+[System]
+GroupPart1=claw_buf
+GroupPart1Importance=High
+GroupPart2=glow
+GroupPart2Importance=High
+GroupPart3=MagicSwirls
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+SoundPersistent=Play_sfx_Nidalee_JavelinToss_markloop
+
+[claw_buf]
+e-alpharef=0
+e-local-orient=0
+e-rate=0.5
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 140 0
+p-scale=50 50 1
+p-texture=Nidalee_Base_Q_Mark.dds
+p-xrgba=1 0.992156982421875 0.8274509906768799 1
+p-xrgba1=0 1 0.956863 0.701961 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 0.956863 0.701961 1
+p-xscale=1 1 1
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.8 0.8 0.8
+pass=400
+rendermode=1
+
+[glow]
+e-alpharef=0
+e-local-orient=0
+e-rate=0.5
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 140 0
+p-scale=60 60 1
+p-texture=Nidalee_Base_Q_Mark_glow.dds
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.5
+p-xrgba=1 0.992156982421875 0.8274509906768799 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0.8 0.8 0.8
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.8 0.8 0.8
+pass=399
+rendermode=1
+

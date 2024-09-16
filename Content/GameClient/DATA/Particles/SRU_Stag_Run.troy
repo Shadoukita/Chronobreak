@@ -1,0 +1,24 @@
+[SRU_Stag_Run]
+e-life=5
+e-local-orient=1
+e-rate=0.009999999776482582
+p-animation=SRU_Stag_run.anm
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-meshtex=checkers.dds
+p-quadrot=0.0 -10.0 0.0.
+p-skeleton=SRU_Stag_run.skl
+p-skin=SRU_Stag_run.skn
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=SRU_Stag_Run
+group-vis=550
+

@@ -1,0 +1,34 @@
+[Spotlight]
+e-life=3.75
+e-rate=1
+e-rgba=255 255 255 128
+e-timeoffset=2.75
+p-bindtoemitter=1 1
+p-life=20
+p-linger=1
+p-local-orient=1
+p-mesh=kayle_skin07_recall_spotlight.scb
+p-meshtex=Kayle_Skin07_Recall_Spotlight.dds
+p-scale=0.75 2 0.75
+p-type=3
+single-particle=1
+
+[Spotlight1]
+e-life=3.75
+e-rate=1
+e-rgba=255 255 255 128
+e-timeoffset=2.75
+p-bindtoemitter=1 1
+p-life=20
+p-linger=1
+p-local-orient=1
+p-mesh=kayle_skin07_recall_spotlight.scb
+p-meshtex=Kayle_Skin07_Recall_Spotlight.dds
+p-scale=0.75 0.75 0.75
+p-type=3
+single-particle=1
+
+[System]
+GroupPart1=Spotlight
+GroupPart2=Spotlight1
+

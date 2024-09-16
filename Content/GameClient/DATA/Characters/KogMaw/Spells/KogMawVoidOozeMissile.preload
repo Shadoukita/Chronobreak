@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_e_zone_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_e_zone_red.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kogmawvoidoozeslow"}}, 
+{Function=BBPreloadSpell, Params={Name="kogmawvoidoozemissile"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_e_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kogmawvoidoozeprotect"}}, 
+}

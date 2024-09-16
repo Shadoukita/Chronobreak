@@ -1,0 +1,24 @@
+[System]
+GroupPart1=WeaponGlow_HeadlessHecarim
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[WeaponGlow_HeadlessHecarim]
+KeywordsRequired=HeadlessHecarim
+e-life=100
+e-linger=0
+e-rate=3
+p-life=0.35
+p-local-orient=1
+p-rgba=alpha_12.tga
+p-scale=1 1 1
+p-simpleorient=3
+p-texture=hecarim_headless_weapon_props_02.tga
+p-type=11
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1.025 1.025 1.025
+p-xscale3=1 1.0499999523162842 1.0499999523162842 1.0499999523162842
+rendermode=0
+

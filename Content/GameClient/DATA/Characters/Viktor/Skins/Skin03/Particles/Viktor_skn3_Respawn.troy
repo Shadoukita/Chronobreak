@@ -1,0 +1,25 @@
+[Platform]
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-animation=Viktor_skn3_respawn.anm
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=10
+p-linger=0
+p-local-orient=1
+p-meshtex=Viktor_skn3_spawn_TX.tga
+p-offset=0 0 0
+p-quadrot=0 180 0
+p-scale=1 1 1
+p-skeleton=Viktor_skn3_respawn.skl
+p-skin=Viktor_skn3_respawn.skn
+p-type=3
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=Platform
+SimulateEveryFrame=1
+

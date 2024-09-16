@@ -1,0 +1,31 @@
+[System]
+GroupPart1=Wind
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+
+[Wind]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=0.05000000074505806
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=4
+p-lifeP1=0.4 1
+p-lifeP2=1 0.4
+p-linger=0
+p-mesh=Env_MB_bridgeWind_SE_02.sco
+p-meshtex=Env_MB_bridgeWind_SE_02.dds
+p-postoffset=0 50 0
+p-scale=7 3 5
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.8500000238418579 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+

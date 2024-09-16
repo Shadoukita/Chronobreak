@@ -1,0 +1,33 @@
+[FocusCone]
+e-life=0.2
+e-linger=0
+e-rate=16
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.25
+p-linger=1
+p-offset=0 0 0
+p-quadrot=-90 0 0
+p-rgba=alpha_20.tga
+p-scale=1130 1130 0
+p-startframe=0
+p-texdiv=1 1
+p-texture=Vi_SpeedLines.dds
+p-type=2
+p-uvscroll-rgb=0 -1
+p-vel=0 500 0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 0.1 1 0
+p-xscale3=1 0.2 1 0
+pass=-100
+rendermode=0
+
+[System]
+GroupPart1=FocusCone
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Vi_ViRDunkTarget_spin
+group-vis=5000
+

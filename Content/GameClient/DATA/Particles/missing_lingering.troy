@@ -1,0 +1,24 @@
+[System]
+GroupPart1=missing
+GroupPart1Type=Simple
+
+[missing]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=60
+p-linger=0
+p-mesh=geosphere.sco
+p-meshtex=missing.tga
+p-numframes=1
+p-rgba=color-hold.tga
+p-scale=6
+p-startframe=0
+p-texdiv=1 1
+p-texture=missing.tga
+p-type=3
+rendermode=1
+single-particle=1
+

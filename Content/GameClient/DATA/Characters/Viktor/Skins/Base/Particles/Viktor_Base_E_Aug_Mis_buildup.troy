@@ -1,0 +1,68 @@
+[System]
+GroupPart1=glowbits
+GroupPart1Importance=High
+GroupPart2=makerGlowbits
+GroupPart2Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[glowbits]
+KeywordsExcluded=MakerViktor
+e-life=2
+e-rate=16
+p-colorscale=1 0.1
+p-life=1
+p-linger=4
+p-quadrot=0 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=35 35 1
+p-simpleorient=2
+p-texture=Viktor_Base_E_Aug_Buildup_Glow.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.247105
+p-xrgba3=0.25 1 1 1 0.497993
+p-xrgba4=0.3 1 1 1 0.749004
+p-xrgba5=0.4 1 1 1 1
+p-xrgba6=0.5 1 1 1 0.247105
+p-xrgba7=0.6 1 1 1 0.097993
+p-xrgba8=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 1
+p-xscale2=0.4 2 2 1
+p-xscale3=1 0.5 0.5 1
+pass=1
+rendermode=4
+
+[makerGlowbits]
+KeywordsRequired=MakerViktor
+e-life=2
+e-rate=16
+p-colorscale=1 0.1
+p-life=1
+p-linger=4
+p-quadrot=0 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=35 35 1
+p-simpleorient=2
+p-texture=Viktor_Skin03_E_Aug_Buildup_Glow.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.247105
+p-xrgba3=0.25 1 1 1 0.497993
+p-xrgba4=0.3 1 1 1 0.749004
+p-xrgba5=0.4 1 1 1 1
+p-xrgba6=0.5 1 1 1 0.247105
+p-xrgba7=0.6 1 1 1 0.097993
+p-xrgba8=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 1
+p-xscale2=0.4 2 2 1
+p-xscale3=1 0.5 0.5 1
+pass=1
+rendermode=4
+

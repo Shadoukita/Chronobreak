@@ -1,0 +1,102 @@
+[System]
+GroupPart1=star
+GroupPart1Type=Simple
+GroupPart2=spark
+GroupPart2Type=Simple
+GroupPart3=eye
+GroupPart3Type=Simple
+GroupPart4Type=Simple
+
+[eye]
+e-life=-1
+e-linger=1
+e-rate=5
+p-bindtoemitter=0 0
+p-frameRate=0
+p-life=1
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=20
+p-simpleorient=2
+p-texture=DestinyIris02.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0.8159999847412109
+p-xscale2=1 20
+
+[spark]
+e-life=-1
+e-rate=10
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-frameRate=0
+p-life=1
+p-quadrot=180
+p-rgba=color-clockface-red.tga
+p-rotvel=50
+p-rotvelP1=0 1
+p-rotvelP2=0.5 1
+p-rotvelP3=0.5099999904632568 -1
+p-rotvelP4=1 -1
+p-scale=100
+p-texdiv=2 2
+p-texture=Destiny_Cas01.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=1 0
+
+[star]
+e-life=-1
+e-linger=1
+e-rate=10
+p-bindtoemitter=0 0
+p-frameRate=0
+p-life=1
+p-rgba=DestinyHands_cas__star__p-rgba.tga
+p-rotvel=90
+p-scale=50
+p-simpleorient=2
+p-startframe=1
+p-texture=DestinyIris.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0.8159999847412109
+p-xscale2=1 20
+
+[UNKNOWN_HASHES]
+unk018F3B91=1
+unk0DA70DDC=-1
+unk17B80009=color-bellcurve.tga
+unk20ED79C0=5
+unk2DF16B21=0 0
+unk2FC08FDB=0
+unk5986BC8C=2
+unk5AD13418=0
+unk5D9B7F2A=0 0.8159999847412109
+unk5D9B7F2B=1 20
+unk5FAF11D5=20
+unk653AD2C5=0 -1
+unk653AD2C6=1 1
+unk65B8E246=0 -1
+unk65B8E247=1 1
+unk68B41846=0 -1
+unk68B41847=1 1
+unk693227C7=0 -1
+unk693227C8=1 1
+unk7D642E82=0 255 255 255 255
+unk7D642E83=0.2933333 177 25 22 255
+unk7D642E84=0.5973333 0 0 0 255
+unk7DB0BC0F=1
+unk81FBD3E8=0 100 0
+unkA33832C7=1
+unkAF3E2474=0 0 0
+unkB8155E33=0 0 0
+unkD591AD86=0 -1
+unkD591AD87=1 1
+unkD60FBD07=0 -1
+unkD60FBD08=1 1
+unkD9634BE6=DestinyIris02.tga
+unkF2DD9E23=1
+unkFB4FD8F3=0 0 0

@@ -1,0 +1,29 @@
+[System]
+GroupPart3=gem
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_OdinCenterRelic_bluebuffactivate
+SoundPersistent=Play_sfx_OdinCenterRelic_blueloop
+
+[gem]
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=0.3499999940395355 0.699999988079071
+p-colortype=0 0
+p-life=1000000
+p-linger=0
+p-mesh=prism.sco
+p-meshtex=prism-green.tga
+p-offset=0 1 0
+p-offset_flex0=0 250 0
+p-postoffset=0 -100 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-scale=0.25 0.5 0.25
+p-type=3
+pass=4
+rendermode=1
+single-particle=1
+

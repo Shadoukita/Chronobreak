@@ -1,0 +1,31 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+
+[glow]
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=20
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=1
+p-offset=80 1 0
+p-offsetYP1=0 -30
+p-offsetYP2=1 60
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=150
+p-scaleP1=0 0.9
+p-scaleP2=1 1.2000000000000002
+p-startframe=4
+p-texdiv=2 3
+p-texture=DestroyedBuilding_Chaos01.tga
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=1 0
+

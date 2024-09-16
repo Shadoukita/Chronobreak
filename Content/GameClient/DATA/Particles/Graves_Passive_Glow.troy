@@ -1,0 +1,37 @@
+[System]
+GroupPart1=speed
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=gold_dust
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[speed]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 1
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.75
+p-linger=0
+p-offset=99 -10 0
+p-postoffset=0 0 0
+p-rgba=alpha_12.tga
+p-scale=100 100 0
+p-simpleorient=2
+p-texture=ring_gold_01.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1
+p-xscale1=0 0.75
+p-xscale2=1 1.75
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk77AB5EC6=1

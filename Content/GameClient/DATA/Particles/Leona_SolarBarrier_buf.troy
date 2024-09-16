@@ -1,0 +1,140 @@
+[System]
+GroupPart1=new-sun
+GroupPart2=solartag
+GroupPart2Type=Simple
+GroupPart3=solarcorona
+GroupPart3Type=Simple
+GroupPart4=sun
+GroupPart5=moon
+GroupPart6=sphereon
+GroupPart7=spherestatic
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[moon]
+e-disabled=1
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-distortion-mode=2
+p-distortion-power=0.05000000074505806
+p-linger=0
+p-normal-map=distort-hollowsphere.tga
+p-offset=0 70 0
+p-rgba=color-hold.tga
+p-scale=200 0 0
+p-texture=disc32.dds
+pass=100
+rendermode=1
+single-particle=1
+
+[new-sun]
+e-life=1
+e-rate=1
+e-uvoffset=0 0.1
+p-bindtoemitter=1 0
+p-offset=0 70 0
+p-rgba=color-rampdown32.tga
+p-scale=245 245 0
+p-texture=sundisc32.dds
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.025
+pass=1
+rendermode=4
+single-particle=1
+
+[solarcorona]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=3.5
+p-offset=0 70 0
+p-rgba=color-solar-corona.tga
+p-scale=200
+p-texture=solar-corona.dds
+pass=1
+single-particle=1
+
+[solartag]
+e-life=3
+e-rate=1
+e-timeoffset=1.2000000000000002
+p-bindtoemitter=1 1
+p-life=2
+p-offset=0 70 0
+p-rgba=color-bellcurve.tga
+p-scale=140
+p-texture=eclipse-bead.dds
+pass=1
+single-particle=1
+
+[sphereon]
+e-disabled=1
+e-life=1
+e-rate=1
+e-uvoffset=0 0.2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-mesh=shieldball.sco
+p-meshtex=shieldswipe.dds
+p-quadrot=0 -90 0
+p-scale=100 100 100
+p-type=3
+p-uvscroll-rgb=0 -2
+p-xrgba=1 1 1 1
+p-xrgba1=0.999 1 1 1 1
+p-xrgba2=0.9991 1 1 1 1
+p-xrgba3=1 1 1 1 1
+single-particle=1
+
+[spherestatic]
+e-disabled=1
+e-life=25000
+e-rate=3
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1 0
+p-life=25000
+p-linger=0
+p-local-orient=1
+p-mesh=magicball.sco
+p-meshtex=vertlines.dds
+p-quadrot=1 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=9 9 9
+p-type=3
+p-uvscroll-rgb=0 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 1 0.25 1
+p-xrgba2=0.05 0 1 0.25 1
+p-xrgba3=0.08 0 1 0.25 1
+p-xrgba4=0.8 0 1 0.25 1
+p-xrgba5=1 0 1 0.25 1
+single-particle=1
+
+[sun]
+e-disabled=1
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-offset=0 70 0
+p-rgba=color-eclipse32.tga
+p-scale=100 0 0
+p-texture=eclipse-sun.dds
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5B0A7290=10
+unk638F0DBF=1
+unk714F4E03=1

@@ -1,0 +1,43 @@
+{"MutatorDefinition": {
+"Type": "StatGraph",
+"MutatedData":
+[
+	{
+		"MutationIndex": 0,
+		"Mutation":
+		[
+			{
+				"Stat": "FlatHPPoolMod",
+				"Value": 12,
+				"PerLevelValue": 3
+			},
+			{
+				"Stat": "PercentCooldownMod",
+				"Value": 5,
+				"PerLevelValue": 0
+			}
+		]
+	},
+	{
+		"MutationIndex": 1,
+		"Mutation":
+		[
+			{
+				"Stat": "FlatHPPoolMod",
+				"Value": 24,
+				"PerLevelValue": 3
+			},
+			{
+				"Stat": "PercentCooldownMod",
+				"Value": 15,
+				"PerLevelValue": 0
+			},
+			{
+				"Stat": "FlatDodgeMod",
+				"Value": 0,
+				"PerLevelValue": 14
+			}
+		]
+	}
+]
+}} 

@@ -1,0 +1,177 @@
+[Attract1]
+f-accel=400
+f-pos=0 201 0
+f-radius=1000
+
+[Attract2]
+f-accel=400
+f-pos=0 100 0
+f-radius=1000
+
+[Drag]
+f-drag=0.1
+f-pos=0 500 0
+f-radius=10000
+
+[LillyDrag]
+f-drag=1
+f-pos=0 500 0
+f-radius=10000
+
+[LillyNoise]
+f-axisfrac=1 0 1
+f-period=0.30000000000000004
+f-pos=0 1 0
+f-radius=10000
+f-veldelta=3
+
+[Noise]
+f-period=2
+f-pos=0 1 0
+f-radius=10000
+f-veldelta=70
+
+[System]
+GroupPart1=Waterbugs1
+GroupPart1Type=Simple
+GroupPart2=Waterbugs2
+GroupPart2Type=Simple
+GroupPart3=lotus
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+build-up-time=10
+
+[Waterbugs1]
+e-life=-1
+e-rate=5
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-attract-1=Attract1
+field-drag-1=Drag
+field-noise-1=Noise
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=30
+p-life=5
+p-lifeP1=0 1
+p-lifeP2=0.9 1
+p-lifeP3=1 2
+p-numframes=2
+p-offset=0 100 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 200 0
+p-quadrot=0 0 1
+p-rgba=color-waterbug.tga
+p-scale=5
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=waterbugs.tga
+p-vel=300 0 0
+p-velXP1=0 -1
+p-velXP2=0.5 -0.699999988079071
+p-velXP3=0.5099999904632568 0.699999988079071
+p-velXP4=1 1
+rendermode=1
+
+[Waterbugs2]
+e-life=-1
+e-rate=2
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-attract-1=Attract2
+field-drag-1=Drag
+field-noise-1=Noise
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=30
+p-life=5
+p-lifeP1=0 1
+p-lifeP2=0.9 1
+p-lifeP3=1 2
+p-numframes=2
+p-offset=0 100 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 200 0
+p-quadrot=0 0 1
+p-rgba=color-waterbug.tga
+p-scale=10
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=2
+p-texdiv=2 2
+p-texture=waterbugs.tga
+p-vel=300 0 0
+p-velXP1=0 -1
+p-velXP2=0.5 -0.699999988079071
+p-velXP3=0.5099999904632568 0.699999988079071
+p-velXP4=1 1
+rendermode=1
+
+[lotus]
+e-life=-1
+e-local-orient=0
+e-rate=0.05000000074505806
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=LillyDrag
+field-noise-1=LillyNoise
+flag-disable-z=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=100
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-numframes=4
+p-offset=100 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-eyefade32.tga
+p-rotvel=1
+p-rotvelP1=0 -10
+p-rotvelYP2=1 10
+p-scale=30
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.2000000000000002
+p-shadow=1
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=death-lotuses.tga
+p-type=1
+p-vecalign=1
+p-vel=10 0 0
+p-velXP1=0 0
+p-velXP2=1 1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=0.8 1
+p-xscale4=1 0
+pass=100
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0AC964C1=0 90 0
+unk349E7640=0 90 0

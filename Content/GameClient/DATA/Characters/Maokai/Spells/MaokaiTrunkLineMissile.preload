@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="maokaitrunkline"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_q_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="slow"}}, 
+}

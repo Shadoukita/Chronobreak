@@ -1,0 +1,86 @@
+[Cockpit]
+KeywordsRequired=UFOCorki
+e-life=-1
+e-local-orient=1
+e-rate=90
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.029999999329447746
+p-linger=0
+p-mesh=fireball.sco
+p-numframes=1
+p-offset=-35 20 0
+p-quadrot=0
+p-rgba=color-hold.tga
+p-scale=6
+p-simpleorient=3
+p-startframe=0
+p-texture=domeshine.tga
+p-type=3
+pass=1000
+rendermode=0
+
+[System]
+GroupPart2=levitate
+GroupPart2Type=Simple
+GroupPart3=Cockpit
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[levitate]
+KeywordsRequired=UFOCorki
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=6
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=1
+p-offset=0 -30 0
+p-rgba=color-rampdown.tga
+p-scale=70
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ufo-exhaust.tga
+p-type=1
+p-vel=0 -100 0
+p-xscale1=0 1
+p-xscale2=1 1.3
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk04304430=0
+unk14731349=UFOCorki
+unk1CCF0DF7=1
+unk24BE9384=1 1
+unk299D6939=0
+unk38217C0B=0
+unk39E41F40=0
+unk3C696339=1 0
+unk40A28800=0 200 0
+unk42565A10=0 -30 0
+unk47371B42=0 1
+unk47371B43=1 1.3
+unk4DA8C0A8=0
+unk56E67B8F=1
+unk57824CA0=1
+unkA0AD8D79=1
+unkAB63A727=1 1
+unkAC1FA3CF=1
+unkACC55FC4=-1
+unkB1173E74=3
+unkB6D651F1=color-rampdown.tga
+unkC00BCBA8=6
+unkC2FEE7FE=rune_target_02.tga
+unkDA0D39ED=70
+unkDDBADEA0=1 0
+unkFD926639=0 0

@@ -1,0 +1,28 @@
+[System]
+GroupPart1=godRays
+SimulateEveryFrame=1
+group-vis=5000
+
+[godRays]
+e-life=-1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=HA_AP_godRays_01.sco
+p-meshtex=HA_AP_godRays_diff.dds
+p-meshtex-mult=HA_AP_godRays_diff.dds
+p-offset=0 0 0
+p-postoffset=-5500 -14000 18000
+p-quadrot=0 90 0
+p-scale=6500 6500 6500
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.009999999776482582 0
+p-uvscroll-rgb-mult=0 0
+p-xrgba=1 1 1 1
+pass=1
+rendermode=4
+single-particle=1
+

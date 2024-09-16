@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="s5_statecheck"}}, 
+{Function=BBPreloadSpell, Params={Name="srturretsecondaryshielderbuff"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_regentowershield_timer.troy"}}, 
+}

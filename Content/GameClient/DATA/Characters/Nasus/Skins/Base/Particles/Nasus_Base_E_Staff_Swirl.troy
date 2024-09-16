@@ -1,0 +1,33 @@
+[System]
+GroupPart2=trail
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Nasus_NasusE_cast
+
+[trail]
+e-life=0.6
+e-linger=0.4
+e-local-orient=1
+e-rate=100
+e-rgba=255 255 255 255
+e-tilesize=100 0 0
+e-timeoffset=0.2
+e-trail-cutoff=10000
+p-backfaceon=1
+p-life=0.5
+p-linger=1
+p-scale=40 0 0
+p-texture=Nasus_Base_E_Staff_Trail.dds
+p-trailmode=1
+p-type=5
+p-vel=-100 0 0
+p-worldaccel=0 0 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.6 0 0 1 0.3
+p-xrgba4=1 0 0 1 0
+p-xscale1=0 1 0 0
+p-xscale2=0.5 0.30000000000000004 0 0
+p-xscale3=1 0 0 0
+pass=0
+rendermode=4
+

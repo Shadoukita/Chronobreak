@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Mordekaiser_COTG.dds"
+BuffTextureName = L0_1
+L0_1 = "MordekaiserCOTGDot"
+BuffName = L0_1
+L0_1 = "mordekeiser_cotg_tar.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1
+L0_1 = true
+NonDispellable = L0_1

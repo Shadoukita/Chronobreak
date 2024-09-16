@@ -1,0 +1,26 @@
+[Streaks2]
+e-rate=0.1
+p-bindtoemitter=1 1
+p-life=10.5
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_BaronPit_RiverStreaks_01.scb
+p-meshtex=SRU_River_Ripples_01.DDS
+p-meshtex-mult=SRU_River_Ripples_Mult_01.DDS
+p-type=3
+p-uvscroll-rgb=0 -0.15
+p-uvscroll-rgb-mult=-0.009999999776482582 -0.10000000149011612
+p-uvscroll-rgbYP1=0 0.7
+p-uvscroll-rgbYP2=1 1.5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.7 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=Streaks2
+SimulateEveryFrame=1
+group-vis=650
+

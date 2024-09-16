@@ -1,0 +1,25 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[flash]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.25
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-scale=160
+p-texture=Twitch_Skin04_E_Tar_Flash.dds
+p-type=0
+p-xscale1=0 0.55
+p-xscale2=1 1
+rendermode=4
+single-particle=1
+

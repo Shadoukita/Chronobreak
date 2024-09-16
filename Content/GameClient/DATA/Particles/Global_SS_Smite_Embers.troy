@@ -1,0 +1,71 @@
+[Embers]
+e-life=1
+e-linger=0
+e-rate=50
+field-drag-1=drag
+field-noise-1=noise
+p-frameRate=0
+p-life=0.75
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-linger=0
+p-numframes=4
+p-offset=1 1 1
+p-offsetXP1=0 -20
+p-offsetXP2=1 20
+p-offsetYP1=0 -10
+p-offsetYP2=1 10
+p-offsetZP1=0 -20
+p-offsetZP2=1 20
+p-quadrot=90 1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rotvel=10 0 0
+p-rotvelXP1=0 -50
+p-rotvelXP2=1 50
+p-scale=20 20 20
+p-scaleP1=0 0.5 0.5 0.5
+p-scaleP2=1 1.5 1.5 1.5
+p-startframe=0
+p-texdiv=2 2
+p-texture=Global_SS_Smite_4x4_Embers.tga
+p-type=0
+p-vel=150 150 150
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=0.5 1
+p-velYP3=1 4
+p-velZP1=0 -1
+p-velZP2=1 1
+p-worldaccel=0 100 0
+p-worldaccelYP1=0 0
+p-worldaccelYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Embers
+SimulateEveryFrame=1
+
+[drag]
+f-drag=1.5
+f-pos=0 0 0
+f-radius=1000
+
+[noise]
+f-period=0.30000000000000004
+f-pos=0 1 0
+f-radius=1000
+f-veldelta=100
+
+[UNKNOWN_HASHES]
+unk0DFBCA0D=0 1 0
+unk9402010D=0

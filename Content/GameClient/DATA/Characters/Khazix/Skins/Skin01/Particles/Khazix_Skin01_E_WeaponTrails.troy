@@ -1,0 +1,100 @@
+[Droid_trail_L]
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+e-timeoffset=0.2
+p-life=0.5
+p-postoffset=-120 40 0
+p-rgba=Khazix_Skin01_Z_Missile_RGB.tga
+p-scale=10 0 0
+p-texture=Khazix_Skin01_Z_White_RGB.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=30
+rendermode=0
+
+[Droid_trail_R]
+e-life=4
+e-rate=60
+e-tilesize=10 0 0
+e-timeoffset=0.2
+p-life=0.5
+p-postoffset=120 40 0
+p-rgba=Khazix_Skin01_Z_Missile_RGB.tga
+p-scale=10 0 0
+p-texture=Khazix_Skin01_Z_White_RGB.tga
+p-trailmode=1
+p-type=5
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=30
+rendermode=0
+
+[Rocket_Glow_L]
+e-life=-1
+e-rate=30
+e-rateP1=0 1
+e-rateP2=1 3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=30
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-postoffset=30 80 -50
+p-randomstartframe=1
+p-rgba=Khazix_Skin01_Z_Bellcurve_RGBA.tga
+p-scale=150 25 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Khazix_Skin01_Z_MissileTrail.tga
+p-type=0
+p-vec-velocity-minscale=1.3
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=0
+
+[Rocket_Glow_R]
+e-life=-1
+e-rate=30
+e-rateP1=0 1
+e-rateP2=1 3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=30
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-postoffset=-30 80 -50
+p-randomstartframe=1
+p-rgba=Khazix_Base_Z_Bellcurve_RGBA.tga
+p-scale=150 25 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=Khazix_Skin01_Z_MissileTrail.tga
+p-type=0
+p-vec-velocity-minscale=1.3
+p-vec-velocity-scale=0.00800000037997961
+p-vecalign=1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=0
+
+[System]
+GroupPart1=Droid_trail_R
+GroupPart2=Droid_trail_L
+GroupPart3=Rocket_Glow_R
+GroupPart4=Rocket_Glow_L
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Khazix_KhazixE_missilelaunch
+

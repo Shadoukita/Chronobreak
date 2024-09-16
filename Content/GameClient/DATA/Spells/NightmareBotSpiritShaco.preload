@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="shaco"}}, 
+{Function=BBPreloadSpell, Params={Name="nightmarebotspiritshacosource"}}, 
+}

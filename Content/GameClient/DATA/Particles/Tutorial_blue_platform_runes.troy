@@ -1,0 +1,28 @@
+[System]
+GroupPart1=blue_platform
+GroupPart1Importance=High
+SimulateEveryFrame=1
+group-vis=100000
+
+[blue_platform]
+e-life=-1
+e-local-orient=0
+e-rate=0.25
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-life=4
+p-mesh=Tutorial_blue_platform_runes.sco
+p-meshtex=rune_platform_tutorial32.tga
+p-offset=-3 -30 -5
+p-quadrot=0 0 0
+p-scale=1 1 1
+p-type=3
+p-xrgba1=0 0.8 1 1 1 1
+p-xrgba2=0.2 0.4 1 1 1
+p-xrgba3=0.4 0 1 1 1
+p-xrgba4=0.6 0 1 1 1
+p-xrgba5=0.8 0.4 1 1 1 1
+p-xrgba6=1 0.8 1 1 1 1
+pass=-100
+rendermode=1
+

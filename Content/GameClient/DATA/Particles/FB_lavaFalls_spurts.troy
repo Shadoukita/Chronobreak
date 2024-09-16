@@ -1,0 +1,43 @@
+[System]
+GroupPart1=lavaSpurt
+SimulateEveryFrame=1
+
+[lavaSpurt]
+e-life=-1
+e-rate=40
+e-rateP1=0 1
+e-rateP2=1 2
+e-rotation1=65
+e-rotation1-axis=0 1 0
+p-accel=0 -500 0
+p-bindtoemitter=0 0
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=8
+p-offset=0 0 550
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-randomstartframe=1
+p-scale=80 80 0
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1
+p-scaleYP1=0 0.2
+p-scaleYP2=1 1
+p-texdiv=4 2
+p-texture=FB_lavaFalls_spurt.dds
+p-vecalign=1
+p-vel=200 0 0
+p-velYP1=0 0.2
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 2 2 0
+p-xscale2=0.6000000000000001 3 3 0
+p-xscale3=1 4 8 0
+pass=3
+rendermode=2
+uniformscale=1
+

@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "YorickOmenOfDeath.dds"
+BuffTextureName = L0_1
+L0_1 = "YorickOmenPreDeath"
+BuffName = L0_1
+L0_1 = "yorick_ult_revive_tar.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1
+L0_1 = true
+NonDispellable = L0_1

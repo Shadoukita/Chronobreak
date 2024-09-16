@@ -1,0 +1,20 @@
+[System]
+GroupPart1=lightning
+GroupPart1Importance=High
+
+[lightning]
+KeywordsExcluded=VolibearRunewars
+e-life=0.30000000000000004
+e-linger=-1
+e-rate=6
+e-timeoffset=0.1
+p-bindtoemitter=1 0
+p-frameRate=40
+p-life=0.1
+p-linger=0
+p-numframes=4
+p-scale=335 0.8999999761581421 1
+p-texdiv=2 2
+p-texture=lightning_volibear_04.dds
+p-type=6
+

@@ -1,0 +1,309 @@
+[System]
+GroupPart1=dot1
+GroupPart10=dot10
+GroupPart10Importance=Medium
+GroupPart10Type=Simple
+GroupPart11=dot11
+GroupPart11Importance=Medium
+GroupPart11Type=Simple
+GroupPart12=dot12
+GroupPart12Importance=Medium
+GroupPart12Type=Simple
+GroupPart13=dot13
+GroupPart13Importance=Low
+GroupPart13Type=Simple
+GroupPart14=dot14
+GroupPart14Importance=Low
+GroupPart14Type=Simple
+GroupPart15=dot15
+GroupPart15Importance=Low
+GroupPart15Type=Simple
+GroupPart16=dot16
+GroupPart16Importance=Low
+GroupPart16Type=Simple
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=dot2
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=dot3
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=dot4
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=dot5
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=dot6
+GroupPart6Importance=High
+GroupPart6Type=Simple
+GroupPart7=dot7
+GroupPart7Importance=High
+GroupPart7Type=Simple
+GroupPart8=dot8
+GroupPart8Importance=High
+GroupPart8Type=Simple
+GroupPart9=dot9
+GroupPart9Importance=Medium
+GroupPart9Type=Simple
+
+[dot1]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-400 0 400
+p-scale=40
+p-startframe=0
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot10]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-200 0 -200
+p-scale=20
+p-startframe=9
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot11]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-400 0 -400
+p-scale=20
+p-startframe=10
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot12]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-200 0 -400
+p-rgba=color-hold.tga
+p-scale=20
+p-startframe=11
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot13]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=200 0 -200
+p-scale=20
+p-startframe=12
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot14]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=400 0 -200
+p-scale=20
+p-startframe=13
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot15]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=200 0 -400
+p-scale=20
+p-startframe=14
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot16]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=400 0 -400
+p-scale=20
+p-startframe=15
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot2]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-200 0 400
+p-scale=40
+p-startframe=1
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot3]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-400 0 200
+p-scale=40
+p-startframe=2
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot4]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-200 0 200
+p-rgba=color-hold.tga
+p-scale=40
+p-startframe=3
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot5]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=200 0 400
+p-scale=40
+p-startframe=4
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot6]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=400 0 400
+p-scale=40
+p-startframe=5
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot7]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=200 0 200
+p-scale=40
+p-startframe=6
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot8]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=400 0 200
+p-rgba=color-hold.tga
+p-scale=40
+p-startframe=7
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+
+[dot9]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=100000
+p-linger=100000
+p-numframes=16
+p-offset=-400 0 -200
+p-scale=20
+p-startframe=8
+p-texdiv=4 4
+p-texture=16test.tga
+rendermode=1
+single-particle=1
+

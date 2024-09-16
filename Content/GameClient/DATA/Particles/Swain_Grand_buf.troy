@@ -1,0 +1,144 @@
+[FlameAccel]
+f-accel=0 150 0
+f-localspace=0
+
+[FlameAttract]
+f-accel=100
+f-pos=0 60 0
+f-radius=200
+
+[FlameDrag]
+f-drag=0.1
+f-pos=0 280 0
+f-radius=300
+
+[ShadowFlame_2]
+e-life=1
+e-rate=42
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 30
+e-rotation1P2=1 40
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=FlameAccel
+field-attract-1=FlameAttract
+field-drag-1=FlameDrag
+p-bindtoemitter=0.95
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=0
+p-life=1.25
+p-lifeP1=0 1
+p-lifeP2=0.8999999761581421 0.44999998807907104
+p-lifeP3=1 0.1
+p-numframes=12
+p-offset=12 12 12
+p-offsetXP1=0 0.1
+p-offsetXP2=1 1
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=alpha_04.tga
+p-rotvel=40
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=22
+p-scaleP1=0 1.1
+p-scaleP2=1 0.2
+p-scalebias=1.2000000000000002 1
+p-startframe=0
+p-texdiv=4 4
+p-texture=swain_grand_green_licks.tga
+p-type=0
+p-vel=50 0 50
+p-velYP1=0 0
+p-velYP2=1 1.5
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 1
+p-xscale3=0.7000000000000001 2
+p-xscale4=1 3
+pass=-200
+rendermode=4
+
+[System]
+GroupPart1Type=Simple
+GroupPart2=fireball_out
+GroupPart2Type=Complex
+GroupPart3Type=Complex
+GroupPart4=ShadowFlame_2
+GroupPart4Type=Simple
+group-scale-cap=-1
+
+[fireball_out]
+e-life=0.7000000000000001
+e-linger=0
+e-rate=3
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=1
+p-linger=0
+p-mesh=fireball.sco
+p-meshtex=swain_grand_buf.tga
+p-offset=0 50 0
+p-quadrot=90 0 0
+p-scale=8 8 8
+p-type=3
+p-uvscroll-rgb=0 -1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.2 1 1 0
+p-xrgba2=0.5 0.2 1 1 1
+p-xrgba3=1 0.2 1 1 0
+
+[UNKNOWN_HASHES]
+unk021C0832=3
+unk10C09B6C=1 1
+unk1A45CC5C=100
+unk2578780B=0 0 0
+unk283EE5D9=0.004999999888241291
+unk2C7BA924=0.004999999888241291
+unk2CD43F3C=1
+unk40B9B2C5=50
+unk4239CE72=8 8 8
+unk47778FF5=0 0.9
+unk47778FF6=1 1.0499999523162842
+unk5B9B8F63=0
+unk7161ABFB=0
+unk77F807DD=0 0 0
+unk79D3E6CB=0 50 0
+unk7EFB38F6=0.004999999888241291
+unk801FE9A7=0 0
+unk801FE9A8=1 360
+unk811766FB=1
+unk85FA87B4=100
+unk86AE889D=0 50 0
+unk88F7EECB=0.5
+unk907F9820=90
+unk909C498A=0 0 0
+unk921259FF=1
+unk99F84DE2=lines01.tga
+unk9CC5F545=0.5 0 0.5
+unk9F5DE0E6=1
+unkA558C5E3=1
+unkA83B1E77=255 255 255 100
+unkB2961DA5=fireball.sco
+unkB4417286=0.5
+unkC05944D1=-1
+unkC33F5CB1=corona.tga
+unkCA6A36FE=color-bellcurve.tga
+unkD2C44187=0.004999999888241291
+unkD39FB0B5=8
+unkD3BE0E38=90 0 0
+unkDACDADBE=1
+unkE2FAA3D5=0
+unkEFBBD5B4=1 1
+unkFD6177E6=0 0.6000000000000001

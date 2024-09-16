@@ -1,0 +1,44 @@
+[System]
+GroupPart1=Twister
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Twister]
+e-life=1
+e-local-orient=0
+e-rate=15
+p-bindtoemitter=1 0
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-offset=0 1 0
+p-offsetYP1=0 -10
+p-offsetYP2=1 10
+p-quadrot=90 1 90
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rotvel=0 1 0
+p-rotvelYP1=0 1000
+p-rotvelYP2=1 3000
+p-scale=100 100 0
+p-scaleXP1=0 0.3
+p-scaleXP2=1 1
+p-texture=Gnar_Base_P_Twister.dds
+p-type=1
+p-vel=0 200 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0.501961 0 0
+p-xrgba2=0.2 1 0.501961 0 1
+p-xrgba3=0.5 0.831373 0.27451 0 1
+p-xrgba4=0.8 1 0.34902 0.34902 1
+p-xrgba5=1 1 0.34902 0.34902 0
+p-xscale=1 1 0
+p-xscale1=0 1 1 0
+p-xscale2=1 2 2 0
+rendermode=1
+single-particle=1
+uniformscale=1
+

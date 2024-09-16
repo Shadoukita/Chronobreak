@@ -1,0 +1,55 @@
+[Accel]
+f-accel=0 50 0
+f-localspace=0
+
+[Drag]
+f-drag=4
+f-pos=0 -20 0
+f-radius=1000
+
+[Noise]
+f-period=0.4
+f-pos=0 0 0
+f-radius=500
+f-veldelta=5
+
+[System]
+GroupPart1=smoke
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[smoke]
+e-active=0.8
+e-life=-1
+e-period=3
+e-rate=50
+field-accel-1=Accel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=0.2 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1.7000000000000002
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Gragas_Skin04_Idle_Smoke_RGBA.tga
+p-rotvel=1
+p-rotvelP1=0 -120
+p-rotvelP2=1 120
+p-scale=2
+p-scaleP1=0 1
+p-scaleP2=1 1.5
+p-texture=Gragas_Skin04_Idle_Smoke.tga
+p-vel=2 200 2
+p-velYP1=0 1
+p-velYP2=0.5 0.1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 2
+p-xscale3=1 1
+rendermode=1
+

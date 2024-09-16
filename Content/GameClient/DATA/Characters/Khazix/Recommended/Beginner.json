@@ -1,0 +1,15 @@
+{
+	"champion":"Khazix",
+	"title":"Beginner",
+	"type":"riot",
+	"map":"SR",
+	"mode":"INTRO",
+	"priority":false,
+	"blocks": [
+		{"type":"beginner_Starter","maxSummonerLevel":4,"items":[{"id":"1055","count":1}]},
+		{"type":"beginner_Starter","minSummonerLevel":5,"items":[{"id":"1055","count":1},{"id":"2003","count":1}]},
+		{"type":"beginner_Advanced","recMath":true,"items":[{"id":"1028","count":1},{"id":"1036","count":1},{"id":"3044","count":1}]},
+		{"type":"beginner_MovementSpeed","recMath":true,"items":[{"id":"1001","count":1},{"id":"1029","count":1},{"id":"3047","count":1}]},
+		{"type":"beginner_LegendaryItem","recMath":true,"items":[{"id":"3044","count":1},{"id":"3057","count":1},{"id":"3086","count":1},{"id":"3078","count":1}]},
+		{"type":"beginner_MoreLegendaryItems","items":[{"id":"3004","count":1},{"id":"3071","count":1},{"id":"3022","count":1},{"id":"3035","count":1}]}
+]}

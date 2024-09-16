@@ -1,0 +1,72 @@
+[System]
+GroupPart1=shaft_glow
+GroupPart1Importance=High
+GroupPart2=shaft_glow_Darius_ZaunKnight
+GroupPart2Importance=High
+GroupPart3=shaft_glow_Darius_NorseKing
+GroupPart3Importance=High
+SimulateEveryFrame=1
+
+[shaft_glow]
+KeywordsExcluded=Darius_ZaunKnight Darius_NorseKing
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-frameRate=0
+p-life=4
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-scale=68 1.7999999523162842 2.700000047683716
+p-startframe=0
+p-texdiv=1 1
+p-texture=staff_glow.tga
+p-type=6
+rendermode=0
+
+[shaft_glow_Darius_NorseKing]
+KeywordsRequired=Darius_NorseKing
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-frameRate=0
+p-life=4
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=100 0 0
+p-scale=145 1.399999976158142 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=darius_norse_W_staff_glow.tga
+p-type=6
+rendermode=0
+
+[shaft_glow_Darius_ZaunKnight]
+KeywordsRequired=Darius_ZaunKnight
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-frameRate=0
+p-life=4
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-postoffset=100 0 0
+p-scale=145 1.399999976158142 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=staff_glow_04.tga
+p-type=6
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk33E6C984=0 600
+unk6BECD209=0 600
+unk7980EF5C=0 600

@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = false
+DoesntBreakShields = L0_1
+L0_1 = "AlZahar_MaleficVisions.dds"
+BuffTextureName = L0_1
+L0_1 = "AlZaharMaleficVisions"
+BuffName = L0_1
+L0_1 = "AlzaharMaleficVisions_tar.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_Buffbone_Glb_Head_Loc"
+AutoBuffActivateAttachBoneName = L0_1

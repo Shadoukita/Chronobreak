@@ -1,0 +1,67 @@
+[System]
+GroupPart3=overhead_flash
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[overhead_flash]
+e-life=5
+e-linger=0
+e-local-orient=0
+e-rate=12
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.25
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=40 0 0
+p-scale=130 130 0
+p-scaleP1=0 0.5
+p-scaleP2=1 1.2000000000000002
+p-texture=DEFUNCTKarmaSharpFlash06.tga
+p-type=0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk017AA1C0=1 1
+unk050AE079=0
+unk098EEE9E=1 2
+unk0BF2C231=1
+unk19FA3840=0 0.9
+unk2B6871F2=1
+unk2EB696FC=displace_05.tga
+unk3A4E8A72=1
+unk3C9ECFBD=1 0.1
+unk5254B537=1 1
+unk53CA6FB0=1
+unk576B0427=1 2
+unk5ACF79BB=0
+unk5B982D8D=0
+unk5D5AD0C2=0
+unk5F625737=0 0.9
+unk63D079B6=1
+unk65CD0B92=0 10 0
+unk6CC92105=displace_05.tga
+unk7BB35388=1
+unk88E95FFB=0.6
+unk95013246=5
+unk9F122473=alpha_03.tga
+unkA8479E2A=4
+unkAF49F251=1
+unkB2EECA40=0 0.7
+unkB2EECA41=1 1.4000000000000001
+unkC0959144=0
+unkC2583479=0
+unkC3A34674=75 75 0
+unkCACA6F49=0 10 0
+unkD34807EB=85 85 0
+unkD7A8EF32=10
+unkE3C0C17D=-1
+unkF7072D61=1
+unkFDEC8306=1 0.1

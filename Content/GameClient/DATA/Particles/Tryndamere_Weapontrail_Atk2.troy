@@ -1,0 +1,79 @@
+[System]
+GroupPart1=trail
+GroupPart1Type=Complex
+GroupPart2=trail2
+SimulateEveryFrame=1
+
+[trail]
+KeywordsExcluded=TryndamereSultan
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+e-uvoffset=-0.1 0
+p-backfaceon=1
+p-bindtoemitter=0
+p-colortype=1 3
+p-life=0.15
+p-linger=12
+p-mesh=hecarim_qtrail.sco
+p-meshtex=tryndamere_base_WeaponTrail.tga
+p-offset=0 0 0
+p-postoffset=-5 -30 40
+p-quadrot=0 5 -75
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-scale=1.5 1 1.7000000000000002
+p-type=3
+p-uvscroll-rgb=2.8000000000000003 0
+pass=-100
+rendermode=1
+single-particle=1
+
+[trail2]
+KeywordsRequired=TryndamereSultan
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+e-uvoffset=-0.1 0
+p-backfaceon=1
+p-bindtoemitter=0
+p-colortype=1 3
+p-life=0.15
+p-linger=12
+p-mesh=hecarim_qtrail.sco
+p-meshtex=tryndamere_WeaponTrail_1.tga
+p-offset=0 0 0
+p-postoffset=-5 -30 40
+p-quadrot=0 5 -75
+p-rgba=color-rampdown.tga
+p-rotvel=0 0 0
+p-scale=1.5 1 1.7000000000000002
+p-type=3
+p-uvscroll-rgb=2.8000000000000003 0
+pass=-100
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk12201972=0 0 0
+unk187D280F=color-white32.tga
+unk18E43033=0.30000000000000004 1
+unk3BBF6126=4
+unk8597BC5E=1 1 1
+unk9CB55B53=0 1 1 1
+unk9CB55B54=1 0 0 0
+unkAF82F54A=0.7000000000000001 0
+unkBF9DE0A8=0.30000000000000004
+unkCA60B27E=0 30 0
+unkCBB5B2F3=4
+unkD5C6A520=color-bluehit.tga
+unkDE9364ED=0 0 1 0
+unkDE9364EE=1 1 1 1
+unkDEFC1ED7=120
+unkDF7205BF=0 0 0
+unkE0782631=1 0
+unkF49BAC44=6000 30 0

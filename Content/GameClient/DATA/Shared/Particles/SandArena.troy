@@ -1,0 +1,41 @@
+[System]
+GroupPart1=Wind_Swirl
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Wind_Swirl]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=8
+e-rgba=255 255 255 255
+p-backfaceon=1
+p-bindtoemitter=0
+p-life=4
+p-mesh=SandArena_base_R_wind_swirl.sco
+p-meshtex=SandArena_base_R_wind_swirl.tga
+p-offset=0 -200 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=5 5 5
+p-scaleXP1=0 0.7000000000000001
+p-scaleXP2=0.30000000000000004 0.9
+p-scaleXP3=1 1
+p-scaleZP1=0 0.5
+p-scaleZP2=0.30000000000000004 0.8
+p-scaleZP3=1 1
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.1
+p-uvscroll-rgbYP1=0 0.25
+p-uvscroll-rgbYP2=1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=1
+rendermode=4
+uniformscale=1
+

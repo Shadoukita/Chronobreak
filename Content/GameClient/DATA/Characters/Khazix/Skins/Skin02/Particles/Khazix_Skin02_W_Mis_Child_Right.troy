@@ -1,0 +1,47 @@
+[Attract_R]
+f-accel=600 0 0
+f-radius=5000
+
+[SandTrail]
+e-life=4
+e-rate=60
+e-tilesize=410 0 0
+e-trail-cutoff=1000
+field-accel-1=Attract_R
+field-attract-1=Attract_R
+p-bindtoemitter=0.1 0
+p-life=0.30000000000000004
+p-offset=10 75 0
+p-scale=55 0 0
+p-texture=Khazix_Skin02_W_Mis_Child_Right.dds
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=-0.5 0
+p-vel=0 0 0
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 0.537255 1 0.592157 1
+p-xrgba3=0.175 1 1 0.627451 1
+p-xrgba4=0.25 1 1 1 1
+p-xrgba5=0.7 1 1 1 1
+p-xrgba6=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.15000000596046448 1 1 1
+p-xscale3=0.3499999940395355 0.8500000238418579 0.8500000238418579 0.8500000238418579
+p-xscale4=1 0 0 0
+pass=-20
+rendermode=1
+
+[System]
+GroupPart1=SandTrail
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk61F15B3A=1

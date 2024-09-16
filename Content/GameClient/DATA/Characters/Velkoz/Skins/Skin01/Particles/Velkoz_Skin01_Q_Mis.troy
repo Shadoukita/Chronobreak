@@ -1,0 +1,52 @@
+[Rocket_Mesh_01]
+ChildEmitOnDeath=0
+ChildParticleName=Velkoz_Skin01_Q_Mis_Rocket01_Child.troy
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=0.8
+p-linger=0
+p-mesh=Velkoz_Skin01_Q_Mis_Mesh_02.scb
+p-meshtex=Velkoz_Skin01_Rocket_CM_TX.dds
+p-offset=-30 -40 50
+p-orbitvel=0 15 0
+p-rotvel=0 500 0
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-shadow=1
+p-type=3
+p-vel=0 0 -60
+p-xrgba=1 1 1 1
+pass=2
+rendermode=5
+single-particle=1
+
+[Rocket_Mesh_02]
+ChildEmitOnDeath=0
+ChildParticleName=Velkoz_Skin01_Q_Mis_Rocket02_Child.troy
+SoundOnCreate=Play_sfx_VelkozSkin01_VelkozQMis_missilelaunch
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=0.8
+p-linger=0
+p-mesh=Velkoz_Skin01_Q_Mis_Mesh_02.scb
+p-meshtex=Velkoz_Skin01_Rocket_CM_TX.dds
+p-offset=30 -40 -50
+p-orbitvel=0 15 0
+p-rotvel=0 500 0
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-shadow=1
+p-type=3
+p-vel=0 0 60
+p-xrgba=1 1 1 1
+pass=2
+rendermode=5
+single-particle=1
+
+[System]
+GroupPart3=Rocket_Mesh_01
+GroupPart4=Rocket_Mesh_02
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=5000
+

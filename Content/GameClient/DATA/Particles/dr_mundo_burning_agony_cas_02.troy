@@ -1,0 +1,180 @@
+[FlameAccel]
+f-accel=0 50 0
+f-localspace=0
+
+[Flames]
+e-life=-1
+e-local-orient=0
+e-rate=120
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 -360
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 -360
+e-rotation2P2=1 360
+field-accel-1=FlameAccel
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=10
+p-life=0.4300000071525574
+p-numframes=10
+p-offset=75 80 75
+p-postoffset=0 0 40
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-rgba=color-billow.tga
+p-scale=50
+p-scaleP1=0 0.4
+p-scaleP2=1 1.2000000000000002
+p-scalebias=1 1.3
+p-startframe=0
+p-texdiv=5 5
+p-texture=firebillow.tga
+p-type=0
+p-vel=0 100 0
+p-velZP1=0 1
+p-velZP2=1 2
+p-xscale=1
+p-xscale1=0 2.75
+p-xscale2=0.4 2.5
+p-xscale3=0.7000000000000001 2
+p-xscale4=1 0.2
+rendermode=0
+
+[SmokeDrag3]
+f-drag=3.5
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=scorched_earth
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=flame_ball_02
+GroupPart2Importance=High
+GroupPart3=flame_ball_01
+GroupPart3Importance=High
+GroupPart4=Flames
+GroupPart4Importance=Low
+GroupPart4Type=Simple
+GroupPart5=smoke
+GroupPart5Importance=Low
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+
+[flame_ball_01]
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=1
+p-postoffset=0 60 0
+p-quadrot=90 0 90
+p-rotvel=0 -350 0
+p-scale=230 230 230
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=fireball06.tga
+p-type=1
+rendermode=0
+
+[flame_ball_02]
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-numframes=1
+p-postoffset=0 60 0
+p-quadrot=90 0 90
+p-rotvel=0 -460 0
+p-scale=110 110 110
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=fireball07.tga
+p-type=1
+rendermode=0
+
+[scorched_earth]
+e-life=-1
+e-local-orient=0
+e-rate=6
+p-bindtoemitter=0 0
+p-coloroffset=0 1
+p-colorscale=1 1
+p-colortype=1 2
+p-life=0.75
+p-offset=0 0 0
+p-rgba=slow_fade_in_out_p-rgba_02.tga
+p-scale=420 0 0
+p-simpleorient=2
+p-texture=scorched_earth_01.tga
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 0
+p-xquadrot2=0.5 0 180 0
+p-xquadrot3=1 0 360 0
+
+[smoke]
+e-life=-1
+e-local-orient=0
+e-rate=60
+e-rotation1=360
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=360
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+field-drag-1=SmokeDrag3
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=1.149999976158142
+p-lifeP1=0 0.75
+p-lifeP2=0.800000011920929 0.75
+p-lifeP3=1 1
+p-offset=20 170 20
+p-postoffset=0 -15 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32_02.tga
+p-rotvel=1
+p-rotvelP1=0 -60
+p-rotvelP2=1 60
+p-scale=75
+p-scaleP1=0 1.4
+p-scaleP2=1 2
+p-texture=Smoke_02.tga
+p-type=0
+p-vel=10 10 10
+p-velYP1=0 0.35
+p-velYP2=1 1.1
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.5 0.75
+p-xscale3=1 1
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk1A45CC5C=100
+unk40B9B2C5=50
+unk88F7EECB=0.5
+unk909C498A=0 50 0

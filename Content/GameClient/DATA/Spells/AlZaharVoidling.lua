@@ -1,0 +1,15 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntBreakShields = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+CastingBreaksStealth = L0_1
+L0_1 = false
+IsDamagingSpell = L0_1
+L0_1 = "AlZahar_SummonVoidling.dds"
+BuffTextureName = L0_1
+L0_1 = "AlZaharVoidling"
+BuffName = L0_1

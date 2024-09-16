@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="alzaharrecentvis"}}, 
+{Function=BBPreloadSpell, Params={Name="alzaharmaleficvisions"}}, 
+{Function=BBPreloadSpell, Params={Name="alzaharsummonvoidling"}}, 
+{Function=BBPreloadSpell, Params={Name="alzaharvoidlingcount"}}, 
+}

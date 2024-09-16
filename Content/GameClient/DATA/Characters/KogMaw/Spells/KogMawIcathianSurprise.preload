@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="kogmawicathiansurprisesound"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_p_proc.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_p_backbeam.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="unlockanimation"}}, 
+{Function=BBPreloadSpell, Params={Name="untargetable"}}, 
+{Function=BBPreloadCharacter, Params={Name="kogmawdead"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_skin08_p_aoe_explosion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_skin08_p_idle.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_p_aoe_explosion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kogmaw_base_p_idle.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kogmawicathiansurprise"}}, 
+}

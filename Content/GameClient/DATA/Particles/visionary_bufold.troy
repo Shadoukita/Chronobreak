@@ -1,0 +1,25 @@
+[System]
+GroupPart1=ring
+GroupPart1Type=Simple
+
+[ring]
+e-life=-1
+e-period=-1
+e-rate=100
+p-bindtoemitter=1 1
+p-life=5
+p-life1=0 1
+p-life2=0.2070000022649765 0.8899999856948853
+p-life3=1 0.6668888926506042
+p-linger=1
+p-rgba=color-bellcurve-Blue.tga
+p-scale=250
+p-simpleorient=2
+p-texture=AbsoluteZero05.tga
+p-type=1
+p-vel=0 200 0
+p-xscale=1
+p-xscale1=0 1.7424440383911133 0 0
+p-xscale2=0.1289999932050705 1.1859999895095825 0 0
+p-xscale3=1 0.37074071168899536 0 0
+

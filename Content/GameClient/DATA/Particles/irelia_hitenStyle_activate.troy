@@ -1,0 +1,108 @@
+[AviatorIreliaMaterialOverride]
+KeywordsRequired=AviatorIrelia
+MaterialOverride1Texture=irelia_pilot_activate_TX_CM.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[BaseIreliaMaterialOverride]
+KeywordsRequired=BaseIrelia
+MaterialOverride1Texture=irelia_base_activate_TX_CM.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[CyberBladeIreliaMaterialOverride]
+KeywordsRequired=CyberBladeIrelia
+MaterialOverride1Texture=irelia_cyber_blade_TX_CM_W.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[NightbladeIreliaMaterialOverride]
+KeywordsRequired=NightbladeIrelia
+MaterialOverride1Texture=irelia_shadow_activate_TX_CM.tga
+e-life=1
+e-rate=1
+p-life=5
+p-linger=5
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+
+[System]
+GroupPart1=cast_flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=BaseIreliaMaterialOverride
+GroupPart2Type=Simple
+GroupPart3=NightbladeIreliaMaterialOverride
+GroupPart3Type=Simple
+GroupPart4=AviatorIreliaMaterialOverride
+GroupPart4Type=Simple
+GroupPart5=CyberBladeIreliaMaterialOverride
+GroupPart5Type=Simple
+GroupPart6=cast_FROST
+GroupPart6Importance=High
+GroupPart6Type=Simple
+
+[cast_FROST]
+KeywordsRequired=FrostBladeIrelia
+e-life=0.2
+e-linger=0
+e-rate=5
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.4
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=360 0 0
+p-scale=15
+p-type=0
+p-xscale=1
+p-xscale1=0 10 0 0
+p-xscale2=0.5 5 0 0
+p-xscale3=1 0 0 0
+
+[cast_flash]
+KeywordsExcluded=FrostBladeIrelia
+e-life=0.2
+e-linger=0
+e-rate=5
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.4
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=360 0 0
+p-scale=15
+p-type=0
+p-xscale=1
+p-xscale1=0 10 0 0
+p-xscale2=0.5 5 0 0
+p-xscale3=1 0 0 0
+

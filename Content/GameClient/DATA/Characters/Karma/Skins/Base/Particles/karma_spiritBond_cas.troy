@@ -1,0 +1,79 @@
+[System]
+GroupPart1=magic
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=magic_lunar
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[magic]
+KeywordsExcluded=KarmaLunar
+e-life=0.35
+e-linger=0
+e-rate=25
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.65
+p-quadrot=0
+p-rgba=alpha_03.tga
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 0.7000000000000001
+p-scaleP2=1 0.3499999940395355
+p-shadow=0
+p-texture=flare-Rainbow_purp_02.tga
+p-vel=0 0 70
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[magic_lunar]
+KeywordsRequired=KarmaLunar
+e-life=0.35
+e-linger=0
+e-rate=25
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.65
+p-quadrot=0
+p-rgba=alpha_03.tga
+p-rotvel=190
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 0.7000000000000001
+p-scaleP2=1 0.3499999940395355
+p-shadow=0
+p-texture=flare-Rainbow_purp_01.tga
+p-vel=0 0 70
+p-xscale=1
+p-xscale1=0 1.2000000000000002
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk02ABBCE7=0 0 0 0 255
+unk02ABBCE8=0.12 255 255 255 255
+unk02ABBCE9=0.24 211 255 212 255
+unk02ABBCEA=0.35 166 255 154 255
+unk02ABBCEB=0.72 0 255 0 255
+unk02ABBCEC=1 0 0 0 255
+unk710AA050=0 0 0 0 255
+unk710AA051=0.12 255 255 255 255
+unk710AA052=0.24 211 212 255 255
+unk710AA053=0.35 166 154 255 255
+unk710AA054=0.72 0 0 255 255
+unk710AA055=1 0 0 0 255

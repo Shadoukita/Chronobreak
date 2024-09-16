@@ -1,0 +1,156 @@
+[System]
+GroupPart1=hourglass1
+GroupPart1Type=Simple
+GroupPart2=hourglass2
+GroupPart2Type=Simple
+GroupPart3=hourglass3
+GroupPart3Type=Simple
+GroupPart4=glow1
+GroupPart4Type=Simple
+GroupPart5=glow2
+GroupPart5Type=Simple
+GroupPart6=glow3
+GroupPart6Type=Simple
+GroupPart7Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[glow1]
+e-life=1
+e-local-orient=0
+e-rate=1
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.800000011920929 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=100 0 0
+p-rgba=color-beacontrail.tga
+p-scale=150
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.800000011920929 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=100 0 0
+p-rgba=color-beacontrail.tga
+p-scale=150
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[glow3]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+field-orbit-1=orbit
+p-bindtoemitter=1 1
+p-colorscale=0.800000011920929 0.03999999910593033
+p-colortype=0 0
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-offset=100 0 0
+p-rgba=color-beacontrail.tga
+p-scale=150
+p-texture=fuzzyshad.dds
+p-vel=0 0 -50
+single-particle=1
+
+[hourglass1]
+e-life=1
+e-local-orient=0
+e-rate=1
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=100 0 0
+p-rgba=color-hold.tga
+p-rotvel=-60
+p-scale=4.5
+p-shadow=1
+p-simpleorient=1
+p-texdiv=4 1
+p-texture=hourglass.dds
+p-type=3
+p-uvscroll-rgb=-0.6 0
+p-vel=0 0 -50
+rendermode=3
+single-particle=1
+
+[hourglass2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=120
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=100 0 0
+p-rgba=color-hold.tga
+p-rotvel=-60
+p-scale=4.5
+p-shadow=1
+p-simpleorient=1
+p-texture=hourglass.dds
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=3
+single-particle=1
+
+[hourglass3]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rotation1=-120
+field-orbit-1=orbit
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=15
+p-linger=0
+p-mesh=hourglass.sco
+p-offset=100 0 0
+p-rgba=color-hold.tga
+p-rotvel=-60
+p-scale=4.5
+p-shadow=1
+p-simpleorient=1
+p-texture=hourglass.dds
+p-type=3
+p-uvscroll-rgb=-0.3 0
+p-vel=0 0 -50
+rendermode=3
+single-particle=1
+
+[orbit]
+f-direction=0 1 0
+
+[UNKNOWN_HASHES]
+unk03FAA51C=200
+unk081DE2FE=3000 0 0
+unk2C121B9F=1000 0 0
+unkA5BCE0CA=0 250.1 0

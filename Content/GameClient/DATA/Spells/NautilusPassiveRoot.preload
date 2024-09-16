@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="nautilus_base_passive_lv16.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadParticle, Params={Name="nautilus_base_passive_lv11.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nautilus_base_passive_lv6.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nautilus_base_passive_lv1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nautilus_astro_passive_root.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nautilus_passive_root_02.troy"}}, 
+}

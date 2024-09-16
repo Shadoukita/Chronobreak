@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_gromp.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_gromp_attacker_hit.troy"}}, 
+}

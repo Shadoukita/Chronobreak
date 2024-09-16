@@ -1,0 +1,115 @@
+[System]
+GroupPart1=Vents
+GroupPart2=Vents_SENT
+GroupPart3=Vents_Particles_SENT
+GroupPart4=Vents_GENT
+SimulateEveryFrame=1
+
+[Vents]
+KeywordsExcluded=Jayce_Sentinel Jayce_Gentleman
+e-life=-1
+e-local-orient=1
+e-rate=30
+e-rateP1=0 0
+e-rateP2=1 2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=10
+p-life=0.25
+p-local-orient=1
+p-mesh=Jayce_Hyper_Charge_Blasts.sco
+p-meshtex=Jayce_Hammer_Burst.tga
+p-numframes=8
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=100 100 200
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=0
+
+[Vents_GENT]
+KeywordsRequired=Jayce_Gentleman
+e-life=-1
+e-local-orient=1
+e-rate=30
+e-rateP1=0 0
+e-rateP2=1 2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=10
+p-life=0.25
+p-local-orient=1
+p-mesh=Jayce_Hyper_Charge_Blasts.sco
+p-meshtex=Jayce_Hammer_Burst.tga
+p-numframes=8
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-scale=100 100 200
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=0
+
+[Vents_Particles_SENT]
+KeywordsRequired=Jayce_Sentinel
+e-life=-1
+e-local-orient=1
+e-rate=30
+e-rateP1=0 0
+e-rateP2=1 2
+p-bindtoemitter=1 1
+p-life=0.25
+p-local-orient=1
+p-mesh=Jayce_Lightning_Flat_UV_UP_SENT.sco
+p-meshtex=Jayce_Plasma_Beam_SENT.tga
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-rgba=Jayce_Color_Fade_Range1.tga
+p-scale=50 50 50
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 -5
+rendermode=0
+
+[Vents_SENT]
+KeywordsRequired=Jayce_Sentinel
+e-life=-1
+e-local-orient=1
+e-rate=30
+e-rateP1=0 0
+e-rateP2=1 2
+p-bindtoemitter=1 1
+p-frameRate=10
+p-life=0.25
+p-local-orient=1
+p-mesh=Jayce_Hyper_Charge_Blasts.sco
+p-meshtex=Jayce_Hammer_Burst.tga
+p-numframes=8
+p-quadrot=0 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-randomstartframe=1
+p-rgba=Jayce_Color_Fade_Range1.tga
+p-scale=100 100 200
+p-startframe=0
+p-texdiv=2 2
+p-type=3
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=0
+

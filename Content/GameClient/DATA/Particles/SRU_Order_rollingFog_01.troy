@@ -1,0 +1,55 @@
+[SteamBot]
+Particle-Velocity=-5 1 -15
+Particle-Velocity1=0 1 1 1
+Particle-Velocity2=0.5 1 70 1
+Particle-Velocity3=1 1 1 1
+e-alpharef=0
+e-rate=3
+e-shape-name=sru_order_rollingfog_01.scb
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=2 2
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=2 2
+p-bindtoemitter=1 0
+p-drag=0 1 0
+p-life=8
+p-linger=0
+p-offset=0 0 0
+p-offsetXP1=0 5
+p-offsetXP2=1 -6
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rotvel=15 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=29 29 29
+p-scaleXP1=0 2
+p-scaleXP2=0.30000000000000004 2
+p-scaleXP3=1 2.5
+p-texture=SRU_Order_RollingFog_01.dds
+p-texture-mult=SRU_Order_RollingFog_Mult_01.dds
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb-mult=-0.10000000149011612 0.10000000149011612
+p-xquadrot=0 0 0
+p-xquadrot-on=1
+p-xquadrot1=0 1 0 0
+p-xquadrot2=1 360 0 360
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.196078 0.560784 0.188235 0
+p-xrgba2=0.4 0.27451 0.658824 0.627451 0.764706
+p-xrgba3=1 0.309804 0.52549 0.231373 0
+p-xscale=1 1 1
+p-xscale1=0 1.5 1.5 1.5
+p-xscale2=0.6000000000000001 1.5 1.5 1.5
+p-xscale3=1 2 2 2
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=SteamBot
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=580
+

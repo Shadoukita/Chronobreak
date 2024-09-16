@@ -1,0 +1,62 @@
+[System]
+GroupPart1=flare
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+GroupPart2=swirls
+GroupPart2Importance=Low
+SimulateEveryFrame=1
+
+[flare]
+KeywordsRequired=BloodkingVladimir
+e-life=-1
+e-linger=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=-2 8 4
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 1
+p-rotvelP2=1 -1
+p-scale=20
+p-texture=Flare-Rainbow_red_04.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.3 1.5 1.5 1.5
+p-xscale3=1.1 0.1 0.1
+rendermode=0
+
+[swirls]
+KeywordsRequired=BloodkingVladimir
+e-life=-1
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=2
+p-mesh=sphere.sco
+p-meshtex=vlad_flame_test_01.tga
+p-rgba=alpha_20.tga
+p-rotvel=0 90 0
+p-scale=1.5 1.5 1.5
+p-type=3
+p-uvscroll-rgb=1 1
+p-vel=0 0 0
+p-xscale=1 1 1
+p-xscale1=0 1 0.5 0.5
+p-xscale2=1 1.5 1.5 1.5
+pass=5
+rendermode=1
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unkAFCED110=1 0.5 1
+unkAFCED111=1 0 0
+unkD650CE5F=1

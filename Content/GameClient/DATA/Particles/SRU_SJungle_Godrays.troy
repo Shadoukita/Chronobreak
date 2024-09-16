@@ -1,0 +1,32 @@
+[Godray]
+e-rate=0.30000000000000004
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 0
+p-bindtoemitter=1 1
+p-life=10
+p-local-orient=1
+p-mesh=SRU_NJungle_godRay.scb
+p-meshtex=SRU_NJungle_GodRays.dds
+p-offset=600 1 600
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-type=3
+p-uvscroll-rgb=0.25 0
+p-uvscroll-rgbXP1=0 -0.05
+p-uvscroll-rgbXP2=1 0.05000000074505806
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=100
+rendermode=4
+
+[System]
+GroupPart1=Godray
+group-vis=400
+

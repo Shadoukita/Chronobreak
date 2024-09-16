@@ -1,0 +1,12 @@
+[Blasthole]
+SoundOnCreate=Play_sfx_HeimerTYellow_HeimerTYellowBasicAttack_hit
+e-life=0.5
+e-rate=1
+p-life=0.5
+
+[System]
+GroupPart8=Blasthole
+GroupPart8Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

@@ -1,0 +1,35 @@
+[Glow1]
+e-life=-1
+p-scale=40 40 40
+p-texture=SRU_YellowGlow_01.dds
+p-type=0
+rendermode=4
+
+[System]
+GroupPart1=Glow1
+GroupPart1Importance=high
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[UNKNOWN_HASHES]
+unk04981D9C=0 0.1 0.7 1 0.2
+unk04981D9D=1e-06 0.1 0.7 1 1
+unk04981D9E=0.4 0 0.1 0.2 1
+unk04981D9F=1 0 0.2 0.2 0
+unk10EF2276=2000
+unk2BFC3751=5
+unk5018C45F=0
+unk74846659=0 0 0
+unk77C79929=0
+unk9865E224=SRU_PallyBase_MagicTrail.DDS
+unkA81AF893=4
+unkAFDAB6D3=0.5
+unkBBF2891E=11
+unkBF846713=40 0 0
+unkC6037B4B=SRU_PallyBase_Trail_color_rampdown32_03.dds
+unkCF38F502=40
+unkCFF2D7D5=1 1 1 1
+unkDD9B9865=0
+unkDF5E3B9A=2
+unkE0D0C4D2=1
+unkE7D0766A=0 0 0

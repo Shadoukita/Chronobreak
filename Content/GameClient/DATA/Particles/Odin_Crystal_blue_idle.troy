@@ -1,0 +1,64 @@
+[System]
+GroupPart1=gem_inside
+GroupPart2=gem_sparkle
+GroupPart3=gem
+SimulateEveryFrame=1
+group-vis=10000
+
+[gem]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 250
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1000000
+p-linger=-1
+p-mesh=Nexus_Crystal.sco
+p-meshtex=Dominion_Crystal_blue32.tga
+p-offset=0 0 0
+p-rotvel=0 3 0
+p-scale=1 1 1
+p-type=3
+pass=2
+rendermode=1
+single-particle=1
+
+[gem_inside]
+e-life=-1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 120
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1000000
+p-linger=-1
+p-mesh=Nexus_Crystal.sco
+p-meshtex=Dominion_Crystal_blue_in32.tga
+p-offset=0 0 0
+p-rotvel=0 3 0
+p-scale=0.9900000095367432 0.9900000095367432 0.9900000095367432
+p-type=3
+pass=0
+rendermode=0
+single-particle=1
+
+[gem_sparkle]
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 250
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=1000000
+p-linger=-1
+p-mesh=Nexus_Gem_Sparkle.sco
+p-meshtex=Nexus_Gem_Sparkle.tga
+p-offset=0 0 0
+p-scale=12 8 12
+p-type=3
+p-uvscroll-rgb=1 0.5
+pass=100
+rendermode=0
+single-particle=1
+

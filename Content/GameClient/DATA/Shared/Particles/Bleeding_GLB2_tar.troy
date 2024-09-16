@@ -1,0 +1,87 @@
+[CustomAccelField-1]
+f-accel=0 -2000 0
+f-localspace=0
+
+[System]
+GroupPart1=blood
+GroupPart1Type=Simple
+GroupPart2Type=Simple
+GroupPart3Type=Simple
+GroupPart4Type=Simple
+GroupPart5=goop
+GroupPart5Type=Simple
+
+[blood]
+ExcludeAttachmentType=turret nexus inhibitor
+e-rate=5
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 20
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=CustomAccelField-1
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-frameRate=4
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.5
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-postoffset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-blood32_2.tga
+p-scale=30
+p-scaleP1=0 0.4
+p-scaleP2=1 1.2000000000000002
+p-texdiv=2 2
+p-texture=bloodgoop.tga
+p-vel=0 600 0
+p-velYP1=0 0.7000000000000001
+p-velYP2=1 1.3
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 3
+rendermode=1
+
+[goop]
+Emitter-BirthRotationalAcceleration=0 0 0
+Particle-Acceleration=0 0 0
+Particle-Drag=0 0 0
+Particle-Velocity=0 0 0
+e-life=10000000
+e-rate=300
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-frameRate=4
+p-life=0.5
+p-linger=1
+p-quadrot=0 0 0
+p-quadrot1=0 0 0 0
+p-quadrot2=1 0 0 0
+p-rotvel=0 0 0
+p-rotvel1=0 0 0 0
+p-rotvel2=1 0 0 0
+p-scale=79 15 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Relentlessassault02.tga
+p-type=2
+p-vel=0 40 0
+p-xscale=1 1 1
+p-xscale1=0 10 0 0
+p-xscale2=0.2 15 0 0
+p-xscale3=1 15 0 0
+rendermode=1
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unkB67DBA12=1
+unkE6F17046=0 50 0
+unkFEDC61C2=78.88890075683594

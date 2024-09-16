@@ -1,0 +1,8294 @@
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.KeyCheckPacket, LeaguePackets",
+    "Action": 0,
+    "ClientID": 0,
+    "PlayerID": 1,
+    "VersionNumber": 42000315,
+    "CheckSum": 17737349412413205014,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_QueryStatusAns, LeaguePackets",
+    "ID": 136,
+    "Response": true,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_QueryStatusAns, LeaguePackets",
+    "ID": 136,
+    "Response": true,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_QueryStatusAns, LeaguePackets",
+    "ID": 136,
+    "Response": true,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_QueryStatusAns, LeaguePackets",
+    "ID": 136,
+    "Response": true,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SynchVersionS2C, LeaguePackets",
+    "ID": 84,
+    "VersionMatches": true,
+    "WriteToClientFile": false,
+    "MatchedGame": true,
+    "DradisInit": false,
+    "MapToLoad": 1,
+    "PlayerInfo": [
+      {
+        "PlayerID": 1,
+        "SummonorLevel": 1,
+        "SummonorSpell1": 56930076,
+        "SummonorSpell2": 105475752,
+        "Bitfield": 0,
+        "TeamId": 100,
+        "BotName": "",
+        "BotSkinName": "",
+        "EloRanking": "DIAMOND",
+        "BotSkinID": 0,
+        "BotDifficulty": 0,
+        "ProfileIconId": 0,
+        "AllyBadgeID": 0,
+        "EnemyBadgeID": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "VersionString": "Version 4.20.0.315 [PUBLIC]",
+    "MapMode": "CLASSIC",
+    "PlatformID": "NA1",
+    "Mutators": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "MutatorsNum": 0,
+    "OrderRankedTeamName": "",
+    "OrderRankedTeamTag": "",
+    "ChaosRankedTeamName": "",
+    "ChaosRankedTeamTag": "",
+    "MetricsServerWebAddress": "",
+    "MetricsServerWebPath": "",
+    "MetricsServerPort": 0,
+    "DradisProdAddress": "",
+    "DradisProdResource": "",
+    "DradisProdPort": 0,
+    "DradisTestAddress": "",
+    "DradisTestResource": "",
+    "DradisTestPort": 0,
+    "TipConfig": {
+      "TipID": 0,
+      "ColorID": 0,
+      "DurationID": 0,
+      "Flags": 3
+    },
+    "GameFeatures": 650107986,
+    "DisabledItems": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "EnabledDradisMessages": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.LoadScreen.TeamRosterUpdate, LeaguePackets",
+    "ID": 103,
+    "TeamSizeOrder": 6,
+    "TeamSizeChaos": 6,
+    "OrderMembers": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ChaosMembers": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "TeamSizeOrderCurrent": 1,
+    "TeamSIzeChaosCurrent": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.LoadScreen.RequestRename, LeaguePackets",
+    "ID": 102,
+    "PlayerID": 1,
+    "SkinID": 0,
+    "PlayerName": "Shadoukita",
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.LoadScreen.RequestReskin, LeaguePackets",
+    "ID": 101,
+    "PlayerID": 1,
+    "SkinID": 0,
+    "SkinName": "Katarina",
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_StartSpawn, LeaguePackets",
+    "ID": 98,
+    "BotCountOrder": 0,
+    "BotCountChaos": 0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741825,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12511.773,
+      "Y": 12776.93
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": false,
+    "RevealStealth": false,
+    "BaseRadius": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741826,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12451.053,
+      "Y": 13217.543
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": false,
+    "RevealStealth": false,
+    "BaseRadius": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741827,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 13062.497,
+      "Y": 12760.784
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": false,
+    "RevealStealth": false,
+    "BaseRadius": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741828,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1418.3712,
+      "Y": 1686.3744
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": false,
+    "RevealStealth": false,
+    "BaseRadius": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741829,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 917.7307,
+      "Y": 1720.3619
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": false,
+    "RevealStealth": false,
+    "BaseRadius": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741830,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1487.0898,
+      "Y": 1302.0952
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": false,
+    "RevealStealth": false,
+    "BaseRadius": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741833,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1131.728,
+      "Y": 1426.2878
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": false,
+    "BaseRadius": 1350.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 0,
+    "BubbleNetID": 1073741834,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12760.906,
+      "Y": 13026.066
+    },
+    "TimeToLive": 0.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": false,
+    "BaseRadius": 1350.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SpawnLevelPropS2C, LeaguePackets",
+    "ID": 208,
+    "NetID": 1073741835,
+    "NetNodeID": 64,
+    "SkinID": 0,
+    "Position": {
+      "X": 12465.0,
+      "Y": 101.0,
+      "Z": 101.0
+    },
+    "FacingDirection": {
+      "X": 0.0,
+      "Y": 66.0,
+      "Z": 0.0
+    },
+    "PositionOffset": {
+      "X": -33.3334,
+      "Y": 122.2222,
+      "Z": -133.3333
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "TeamID": 100,
+    "SkillLevel": 0,
+    "Rank": 0,
+    "Type": 2,
+    "Name": "LevelProp_Yonkey",
+    "PropName": "Yonkey",
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SpawnLevelPropS2C, LeaguePackets",
+    "ID": 208,
+    "NetID": 1073741836,
+    "NetNodeID": 64,
+    "SkinID": 0,
+    "Position": {
+      "X": -76.0,
+      "Y": 94.0,
+      "Z": 94.0
+    },
+    "FacingDirection": {
+      "X": 0.0,
+      "Y": 30.0,
+      "Z": 0.0
+    },
+    "PositionOffset": {
+      "X": 0.0,
+      "Y": -11.1111,
+      "Z": -22.2222
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "TeamID": 100,
+    "SkillLevel": 0,
+    "Rank": 0,
+    "Type": 2,
+    "Name": "LevelProp_Yonkey1",
+    "PropName": "Yonkey",
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SpawnLevelPropS2C, LeaguePackets",
+    "ID": 208,
+    "NetID": 1073741837,
+    "NetNodeID": 64,
+    "SkinID": 0,
+    "Position": {
+      "X": 13374.17,
+      "Y": 194.9741,
+      "Z": 194.9741
+    },
+    "FacingDirection": {
+      "X": 0.0,
+      "Y": 224.0,
+      "Z": 0.0
+    },
+    "PositionOffset": {
+      "X": 0.0,
+      "Y": 33.3333,
+      "Z": -44.4445
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "TeamID": 100,
+    "SkillLevel": 0,
+    "Rank": 0,
+    "Type": 2,
+    "Name": "LevelProp_ShopMale",
+    "PropName": "ShopMale",
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SpawnLevelPropS2C, LeaguePackets",
+    "ID": 208,
+    "NetID": 1073741838,
+    "NetNodeID": 64,
+    "SkinID": 0,
+    "Position": {
+      "X": -99.5613,
+      "Y": 191.4039,
+      "Z": 191.4039
+    },
+    "FacingDirection": {
+      "X": 0.0,
+      "Y": 158.0,
+      "Z": 0.0
+    },
+    "PositionOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "TeamID": 100,
+    "SkillLevel": 0,
+    "Rank": 0,
+    "Type": 2,
+    "Name": "LevelProp_ShopMale1",
+    "PropName": "ShopMale",
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741839,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_R_03_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741839,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741839,
+    "BubbleNetID": 1073741840,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 10097.618,
+      "Y": 808.733
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741841,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_R_02_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741841,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741841,
+    "BubbleNetID": 1073741842,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 6512.5273,
+      "Y": 1262.6146
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741843,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_07_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741843,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741843,
+    "BubbleNetID": 1073741844,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 3747.2551,
+      "Y": 1041.044
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741845,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_R_03_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741845,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741845,
+    "BubbleNetID": 1073741846,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 13459.614,
+      "Y": 4284.2393
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741847,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_R_02_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741847,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741847,
+    "BubbleNetID": 1073741848,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12920.789,
+      "Y": 8005.292
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741849,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_R_01_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741849,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741849,
+    "BubbleNetID": 1073741850,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 13205.825,
+      "Y": 10474.619
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741851,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_05_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741851,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741851,
+    "BubbleNetID": 1073741852,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 5448.357,
+      "Y": 6169.1
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741853,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_04_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741853,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741853,
+    "BubbleNetID": 1073741854,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 4656.9976,
+      "Y": 4591.909
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741855,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_03_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741855,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741855,
+    "BubbleNetID": 1073741856,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 3233.9941,
+      "Y": 3447.2422
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741857,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_01_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741857,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741857,
+    "BubbleNetID": 1073741858,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1341.6326,
+      "Y": 2029.9843
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741859,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_02_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741859,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741859,
+    "BubbleNetID": 1073741860,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1768.1917,
+      "Y": 1589.4655
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741861,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_C_05_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741861,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741861,
+    "BubbleNetID": 1073741862,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 8548.805,
+      "Y": 8289.496
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741863,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_C_04_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741863,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741863,
+    "BubbleNetID": 1073741864,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 9361.072,
+      "Y": 9892.624
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741865,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_C_03_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741865,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741865,
+    "BubbleNetID": 1073741866,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 10743.581,
+      "Y": 11010.0625
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741867,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_C_01_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741867,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741867,
+    "BubbleNetID": 1073741868,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12662.488,
+      "Y": 12442.701
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741869,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_C_02_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741869,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741869,
+    "BubbleNetID": 1073741870,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12118.146,
+      "Y": 12876.629
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741871,
+    "NetNodeID": 64,
+    "Name": "Turret_OrderTurretShrine_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 25165824,
+    "SenderNetID": 1073741871,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741871,
+    "BubbleNetID": 1073741872,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": -236.0471,
+      "Y": -53.3227
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741873,
+    "NetNodeID": 64,
+    "Name": "Turret_ChaosTurretShrine_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 25165824,
+    "SenderNetID": 1073741873,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741873,
+    "BubbleNetID": 1073741874,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 14157.025,
+      "Y": 14456.353
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741875,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_L_03_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741875,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741875,
+    "BubbleNetID": 1073741876,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 574.655,
+      "Y": 10220.471
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741877,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_L_02_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741877,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741877,
+    "BubbleNetID": 1073741878,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1106.2634,
+      "Y": 6465.2524
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741879,
+    "NetNodeID": 64,
+    "Name": "Turret_T1_C_06_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741879,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741879,
+    "BubbleNetID": 1073741880,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 802.8104,
+      "Y": 4052.3604
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741881,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_L_03_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741881,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741881,
+    "BubbleNetID": 1073741882,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 3911.6753,
+      "Y": 13654.815
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741883,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_L_02_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741883,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741883,
+    "BubbleNetID": 1073741884,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 7536.5234,
+      "Y": 13190.815
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateTurret, LeaguePackets",
+    "ID": 157,
+    "NetID": 1073741885,
+    "NetNodeID": 64,
+    "Name": "Turret_T2_L_01_A",
+    "IsTargetable": false,
+    "IsTargetableToTeamSpellFlags": 33554432,
+    "SenderNetID": 1073741885,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": -2,
+    "ClientID": 0,
+    "UnitNetID": 1073741885,
+    "BubbleNetID": 1073741886,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 10261.9,
+      "Y": 13465.911
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 88.4,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": true,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_CreateHero, LeaguePackets",
+    "ID": 76,
+    "NetID": 1073741887,
+    "ClientID": 0,
+    "NetNodeID": 0,
+    "SkillLevel": 0,
+    "TeamIsOrder": true,
+    "IsBot": false,
+    "BotRank": 0,
+    "SpawnPositionIndex": 0,
+    "SkinID": 0,
+    "Name": "Shadoukita",
+    "Skin": "Katarina",
+    "DeathDurationRemaining": 0.0,
+    "TimeSinceDeath": 0.0,
+    "CreateHeroDeath": 0,
+    "Unknown1": false,
+    "Unknown2": false,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AvatarInfo_Server, LeaguePackets",
+    "ID": 42,
+    "ItemIDs": [
+      0,
+      5245,
+      5245,
+      5245,
+      5245,
+      5245,
+      5245,
+      5245,
+      5245,
+      5245,
+      5317,
+      5317,
+      5317,
+      5317,
+      5317,
+      5317,
+      5317,
+      5317,
+      5317,
+      5289,
+      5289,
+      5289,
+      5289,
+      5289,
+      5289,
+      5289,
+      5289,
+      5289,
+      5335,
+      5335
+    ],
+    "SummonerIDs": [
+      56930076,
+      105475752
+    ],
+    "SummonerIDs2": [
+      56930076,
+      105475752
+    ],
+    "Talents": [
+      {
+        "Hash": 226369,
+        "Level": 1
+      },
+      {
+        "Hash": 226370,
+        "Level": 3
+      },
+      {
+        "Hash": 226372,
+        "Level": 1
+      },
+      {
+        "Hash": 226386,
+        "Level": 3
+      },
+      {
+        "Hash": 226388,
+        "Level": 1
+      },
+      {
+        "Hash": 226402,
+        "Level": 1
+      },
+      {
+        "Hash": 226404,
+        "Level": 3
+      },
+      {
+        "Hash": 226418,
+        "Level": 3
+      },
+      {
+        "Hash": 226433,
+        "Level": 1
+      },
+      {
+        "Hash": 226434,
+        "Level": 3
+      },
+      {
+        "Hash": 226450,
+        "Level": 1
+      },
+      {
+        "Hash": 226625,
+        "Level": 2
+      },
+      {
+        "Hash": 226627,
+        "Level": 2
+      },
+      {
+        "Hash": 226641,
+        "Level": 1
+      },
+      {
+        "Hash": 226642,
+        "Level": 3
+      },
+      {
+        "Hash": 226658,
+        "Level": 1
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      }
+    ],
+    "Level": 0,
+    "WardSkin": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 4,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 5,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 45,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 46,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 47,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 48,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 49,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 50,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 51,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 52,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 53,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 54,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 55,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 56,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 57,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 58,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 59,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_SetSpellLevel, LeaguePackets",
+    "ID": 91,
+    "SpellSlot": 60,
+    "SpellLevel": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": -198.3232,
+        "Y": 1076.3777
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4279289563,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 100000000.0,
+    "Health": 100000000.0,
+    "SenderNetID": 4279289563,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 13218.115,
+        "Y": 11165.5205
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4280724495,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 4000.0,
+    "Health": 4000.0,
+    "SenderNetID": 4280724495,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4280724495,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 2797.134,
+        "Y": 2971.4402
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4283048177,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 4000.0,
+    "Health": 4000.0,
+    "SenderNetID": 4283048177,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4283048177,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 10968.153,
+        "Y": 13425.929
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4284978128,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 4000.0,
+    "Health": 4000.0,
+    "SenderNetID": 4284978128,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4284978128,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 3045.516,
+        "Y": 1025.7213
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4287824865,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 4000.0,
+    "Health": 4000.0,
+    "SenderNetID": 4287824865,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4287824865,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 13337.529,
+        "Y": 14601.383
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4289074958,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 100000000.0,
+    "Health": 100000000.0,
+    "SenderNetID": 4289074958,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 848.6174,
+        "Y": 3349.9915
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4291968062,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 4000.0,
+    "Health": 4000.0,
+    "SenderNetID": 4291968062,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4291968062,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 12760.906,
+        "Y": 13026.066
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4293929999,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 5500.0,
+    "Health": 5500.0,
+    "SenderNetID": 4293929999,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4293929999,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 1131.728,
+        "Y": 1426.2878
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4294540725,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 5500.0,
+    "Health": 5500.0,
+    "SenderNetID": 4294540725,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4294540725,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 11247.938,
+        "Y": 11461.466
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2617812
+    },
+    "SenderNetID": 4294938399,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 4000.0,
+    "Health": 4000.0,
+    "SenderNetID": 4294938399,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2617812,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4294938399,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_EndSpawn, LeaguePackets",
+    "ID": 17,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.S2C_StartGame, LeaguePackets",
+    "ID": 92,
+    "EnablePause": true,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SynchSimTimeS2C, LeaguePackets",
+    "ID": 193,
+    "SynchTime": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 0.0,
+  "Packet": {
+    "$type": "LeaguePackets.Game.SyncMissionStartTimeS2C, LeaguePackets",
+    "ID": 194,
+    "StartTime": 0.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 10097.618,
+        "Y": 808.733
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741839,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741839,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741839,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAABhDAABrQwCAiUMAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 6512.5273,
+        "Y": 1262.6146
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741841,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741841,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741841,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAACpDAABrQwCAiUMAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 3747.2551,
+        "Y": 1041.044
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741843,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741843,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741843,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAAD5DAAByQwCAiUMAAIA/AAAAAAAAAAAAAAAAAABAQA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 5448.357,
+        "Y": 6169.1
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741851,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741851,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741851,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAABhDAABrQwCAiUMAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 4656.9976,
+        "Y": 4591.909
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741853,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741853,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741853,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAACpDAABrQwCAiUMAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 3233.9941,
+        "Y": 3447.2422
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741855,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741855,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741855,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAAD5DAAByQwCAiUMAAIA/AAAAAAAAAAAAAAAAAABAQA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 1341.6326,
+        "Y": 2029.9843
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741857,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741857,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741857,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAADRDAABwQwCAiUMAAIA/AAAAAAAAAAAAAAAAAADAQA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 1768.1917,
+        "Y": 1589.4655
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741859,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741859,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741859,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAADRDAABwQwCAiUMAAIA/AAAAAAAAAAAAAAAAAADAQA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": -236.0471,
+        "Y": -53.3227
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741871,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 9999.0,
+    "Health": 9999.0,
+    "SenderNetID": 1073741871,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741871,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAwHlEAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "ADwcRgA8HEYAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 574.655,
+        "Y": 10220.471
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741875,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741875,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741875,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAABhDAABrQwCAiUMAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 1106.2634,
+        "Y": 6465.2524
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741877,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741877,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741877,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAACpDAABrQwCAiUMAAIA/AAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": false,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 802.8104,
+        "Y": 4052.3604
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619390
+    },
+    "SenderNetID": 1073741879,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 1300.0,
+    "Health": 1300.0,
+    "SenderNetID": 1073741879,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619390,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741879,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 32767,
+            "Item2": "AAAAAAAAAACLIAABAAEAAD5DAAByQwCAiUMAAIA/AAAAAAAAAAAAAAAAAABAQA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 63,
+            "Item2": "AICiRACAokQAAAAAAAAAAAAAAAAAAIA/"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgBA="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [],
+    "Items": [
+      {
+        "ItemID": 2001,
+        "Slot": 7,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 14,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 15,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 16,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 17,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 18,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 19,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 20,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 21,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5245,
+        "Slot": 22,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 23,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 24,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 25,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 26,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 27,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 28,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 29,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 30,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5317,
+        "Slot": 31,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 32,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 33,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 34,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 35,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 36,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 37,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 38,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 39,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5289,
+        "Slot": 40,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5335,
+        "Slot": 41,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5335,
+        "Slot": 42,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      },
+      {
+        "ItemID": 5335,
+        "Slot": 43,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      }
+    ],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": true,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 35.9028,
+        "Y": 273.55188
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2619406
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 559.4,
+    "Health": 559.4,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619406,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741887,
+        "Data": [
+          {
+            "Item1": 268435455,
+            "Item2": "AIDtQwCA7UPAfwCwBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          },
+          {
+            "Item1": 2147483647,
+            "Item2": "h6CABAAAAAAAAGhCAAAAAAAAAAAAAAAAAAAQQgAAMELNzMw/AAAAAAAA+kIAAHBBAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 15,
+            "Item2": "AAAAAAAAAADNzMw/AAAAAA=="
+          },
+          {
+            "Item1": 126751,
+            "Item2": "AMALRAAAAAAAwAtEAAAAAAAAAAAAAAAAAAAAAACArEMAAIA/AQABgICAEA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 29.9236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619406,
+    "ReplicationData": [
+      {
+        "UnitNetID": 4280724495,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AAB6RQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4283048177,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AAB6RQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4284978128,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AAB6RQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4287824865,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AAB6RQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4291968062,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AAB6RQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4293929999,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AOCrRQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4294540725,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AOCrRQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 4294938399,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AAB6RQE="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 3,
+            "Item2": "AICAgAw="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741839,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741841,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741843,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741851,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741853,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741855,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741857,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741859,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741871,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741875,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741877,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 150.108,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_InstantStop_Attack, LeaguePackets",
+    "ID": 52,
+    "MissileNetID": 0,
+    "KeepAnimating": false,
+    "DestroyMissile": true,
+    "OverrideVisibility": true,
+    "IsSummonerSpell": false,
+    "ForceDoClient": false,
+    "SenderNetID": 1073741879,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741839,
+    "BubbleNetID": 1073741902,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 10097.618,
+      "Y": 808.733
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741841,
+    "BubbleNetID": 1073741903,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 6512.5273,
+      "Y": 1262.6146
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741843,
+    "BubbleNetID": 1073741904,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 3747.2551,
+      "Y": 1041.044
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741845,
+    "BubbleNetID": 1073741905,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 13459.614,
+      "Y": 4284.2393
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741849,
+    "BubbleNetID": 1073741906,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 13205.825,
+      "Y": 10474.619
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741851,
+    "BubbleNetID": 1073741907,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 5448.357,
+      "Y": 6169.1
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741853,
+    "BubbleNetID": 1073741908,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 4656.9976,
+      "Y": 4591.909
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741855,
+    "BubbleNetID": 1073741909,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 3233.9941,
+      "Y": 3447.2422
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741857,
+    "BubbleNetID": 1073741910,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1341.6326,
+      "Y": 2029.9843
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 1000.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741859,
+    "BubbleNetID": 1073741911,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1768.1917,
+      "Y": 1589.4655
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 1000.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741861,
+    "BubbleNetID": 1073741912,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 8548.805,
+      "Y": 8289.496
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741865,
+    "BubbleNetID": 1073741913,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 10743.581,
+      "Y": 11010.0625
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741867,
+    "BubbleNetID": 1073741914,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12662.488,
+      "Y": 12442.701
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 1000.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741869,
+    "BubbleNetID": 1073741915,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 12118.146,
+      "Y": 12876.629
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 1000.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741873,
+    "BubbleNetID": 1073741916,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 14157.025,
+      "Y": 14456.353
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 1600.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741875,
+    "BubbleNetID": 1073741917,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 574.655,
+      "Y": 10220.471
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741877,
+    "BubbleNetID": 1073741918,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 1106.2634,
+      "Y": 6465.2524
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 100,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741879,
+    "BubbleNetID": 1073741919,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 802.8104,
+      "Y": 4052.3604
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741881,
+    "BubbleNetID": 1073741920,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 3911.6753,
+      "Y": 13654.815
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AddRegion, LeaguePackets",
+    "ID": 35,
+    "TeamID": 200,
+    "RegionType": 0,
+    "ClientID": 0,
+    "UnitNetID": 1073741885,
+    "BubbleNetID": 1073741921,
+    "VisionTargetNetID": 0,
+    "Position": {
+      "X": 10261.9,
+      "Y": 13465.911
+    },
+    "TimeToLive": 25000.0,
+    "ColisionRadius": 0.0,
+    "GrassRadius": 0.0,
+    "SizeMultiplier": 1.0,
+    "SizeAdditive": 0.0,
+    "HasCollision": false,
+    "GrantVision": true,
+    "RevealStealth": true,
+    "BaseRadius": 800.0,
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 250.3685,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2619609,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741839,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 2816,
+            "Item2": "AABsQwAAikMAAMBA"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741841,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741843,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741851,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 2816,
+            "Item2": "AABsQwAAikMAAMBA"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741853,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741855,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741857,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 2816,
+            "Item2": "AAByQwAAikMAAMBA"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741859,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 2816,
+            "Item2": "AAByQwAAikMAAMBA"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741871,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741875,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 2816,
+            "Item2": "AABsQwAAikMAAMBA"
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741877,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741879,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 16,
+            "Item2": "AADcQg=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 600.8982,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server_Acknologment, LeaguePackets",
+    "ID": 44,
+    "SyncID": 1,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 1885.8301,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2621234,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -3472,
+            "Y": -3474
+          },
+          {
+            "X": -3043,
+            "Y": -3422
+          }
+        ],
+        "SyncID": 2621234
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2072.9941,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2621421,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -3440,
+            "Y": -3470
+          },
+          {
+            "X": -3015,
+            "Y": -3373
+          }
+        ],
+        "SyncID": 2621421
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2705.832,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_UpgradeSpellAns, LeaguePackets",
+    "ID": 21,
+    "Slot": 2,
+    "SpellLevel": 1,
+    "SkillPoints": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2705.832,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_UpgradeSpellAns, LeaguePackets",
+    "ID": 21,
+    "Slot": 2,
+    "SpellLevel": 1,
+    "SkillPoints": 0,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2708.3264,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2622062,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741887,
+        "Data": [
+          {
+            "Item1": 4,
+            "Item2": "xH8="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 2893.6533,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2622250,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -3302,
+            "Y": -3438
+          },
+          {
+            "X": -2811,
+            "Y": -3288
+          }
+        ],
+        "SyncID": 2622250
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 3081.4429,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2622437,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -3271,
+            "Y": -3429
+          },
+          {
+            "X": -2760,
+            "Y": -3318
+          }
+        ],
+        "SyncID": 2622437
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 3634.659,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2622984,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 105475752,
+      "SpellNetID": 1073741922,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 1630.2488,
+        "Y": 0.0,
+        "Z": 639.90967
+      },
+      "TargetPositionEnd": {
+        "X": 1630.2488,
+        "Y": 0.0,
+        "Z": 639.90967
+      },
+      "Targets": [],
+      "DesignerCastTime": 0.5,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.5,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 5,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 634.39813,
+        "Y": 173.26714,
+        "Z": 404.94418
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 3654.2236,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2623000,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": true,
+        "TeleportID": 1,
+        "Waypoints": [
+          {
+            "X": -2983,
+            "Y": -3363
+          }
+        ],
+        "SyncID": 2623000
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 3861.3706,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2623218,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2983,
+            "Y": -3363
+          },
+          {
+            "X": -2592,
+            "Y": -3299
+          }
+        ],
+        "SyncID": 2623218
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 4087.2964,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2623437,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 105475752,
+      "SpellNetID": 1073741926,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 1868.5729,
+        "Y": 0.0,
+        "Z": 620.544
+      },
+      "TargetPositionEnd": {
+        "X": 1868.5729,
+        "Y": 0.0,
+        "Z": 620.544
+      },
+      "Targets": [],
+      "DesignerCastTime": 0.5,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.5,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 5,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1100.8647,
+        "Y": 110.82285,
+        "Z": 509.41235
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 4088.298,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2623437,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": true,
+        "TeleportID": 2,
+        "Waypoints": [
+          {
+            "X": -2747,
+            "Y": -3328
+          }
+        ],
+        "SyncID": 2623437
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 4335.5454,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2623687,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2747,
+            "Y": -3328
+          },
+          {
+            "X": -2403,
+            "Y": -3316
+          }
+        ],
+        "SyncID": 2623687
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 4498.9297,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server_Acknologment, LeaguePackets",
+    "ID": 44,
+    "SyncID": 2,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9408.962,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterVisibilityClient, LeaguePackets",
+    "ID": 186,
+    "Packets": [
+      {
+        "$type": "LeaguePackets.Game.S2C_CreateHero, LeaguePackets",
+        "ID": 76,
+        "NetID": 1073741930,
+        "ClientID": -1,
+        "NetNodeID": 0,
+        "SkillLevel": 0,
+        "TeamIsOrder": false,
+        "IsBot": true,
+        "BotRank": 0,
+        "SpawnPositionIndex": 0,
+        "SkinID": 0,
+        "Name": "darius Bot",
+        "Skin": "darius",
+        "DeathDurationRemaining": 0.0,
+        "TimeSinceDeath": 0.0,
+        "CreateHeroDeath": 0,
+        "Unknown1": false,
+        "Unknown2": false,
+        "SenderNetID": 0,
+        "ExtraBytes": ""
+      }
+    ],
+    "Items": [
+      {
+        "ItemID": 2001,
+        "Slot": 7,
+        "ItemsInSlot": 1,
+        "SpellCharges": 0
+      }
+    ],
+    "ShieldValues": null,
+    "CharacterDataStack": [],
+    "LookAtNetID": 0,
+    "LookAtType": 0,
+    "LookAtPosition": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "BuffCount": [],
+    "IsHero": true,
+    "MovementData": {
+      "$type": "LeaguePackets.Game.Common.MovementDataStop, LeaguePackets",
+      "Type": 3,
+      "Position": {
+        "X": 2194.7039,
+        "Y": 599.72327
+      },
+      "Forward": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "SyncID": 2628765
+    },
+    "SenderNetID": 1073741930,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9408.962,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnEnterLocalVisibilityClient, LeaguePackets",
+    "ID": 174,
+    "Packets": [],
+    "MaxHealth": 10000.0,
+    "Health": 10000.0,
+    "SenderNetID": 1073741930,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9408.962,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2628765,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741930,
+        "Data": [
+          {
+            "Item1": 268435455,
+            "Item2": "AIDtQwCA7UPAfwCwBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          },
+          {
+            "Item1": 2147483647,
+            "Item2": "h6CABAAAAAAAAGhCAAAAAAAAAAAAAAAAAAAAQgAABEJmZgZAMzOzPwAA+kIAAAAAAAAAAAAAAAAAAAAAAAAAAFyPgj8AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+          },
+          {
+            "Item1": 15,
+            "Item2": "AAAAAAAAAABmZgZAMzOzPw=="
+          },
+          {
+            "Item1": 126751,
+            "Item2": "AEAcRgAAkUMAQBxGAACRQwAAAAAAAAAAAAAAAAAAqkMAAIA/AgABgICAEA=="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9408.962,
+  "Packet": {
+    "$type": "LeaguePackets.Game.AvatarInfo_Server, LeaguePackets",
+    "ID": 42,
+    "ItemIDs": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "SummonerIDs": [
+      56930076,
+      105475752
+    ],
+    "SummonerIDs2": [
+      56930076,
+      105475752
+    ],
+    "Talents": [
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      },
+      {
+        "Hash": 0,
+        "Level": 0
+      }
+    ],
+    "Level": 0,
+    "WardSkin": 0,
+    "SenderNetID": 1073741930,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9480.339,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2628828,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2418,
+            "Y": -3332
+          },
+          {
+            "X": -2403,
+            "Y": -3316
+          }
+        ],
+        "SyncID": 2628828
+      },
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741930,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2390,
+            "Y": -3303
+          }
+        ],
+        "SyncID": 2628828
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 9581.465,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2628937,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2431,
+            "Y": -3344
+          },
+          {
+            "X": -2403,
+            "Y": -3316
+          }
+        ],
+        "SyncID": 2628937
+      },
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741930,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2380,
+            "Y": -3293
+          }
+        ],
+        "SyncID": 2628937
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10000.02,
+  "Packet": {
+    "$type": "LeaguePackets.Game.OnReplication, LeaguePackets",
+    "ID": 196,
+    "SyncID": 2629359,
+    "ReplicationData": [
+      {
+        "UnitNetID": 1073741839,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 20,
+            "Item2": "i6CABAA="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 1,
+            "Item2": "AQ=="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741851,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 20,
+            "Item2": "i6CABAA="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 1,
+            "Item2": "AQ=="
+          }
+        ]
+      },
+      {
+        "UnitNetID": 1073741875,
+        "Data": [
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 20,
+            "Item2": "i6CABAA="
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 0,
+            "Item2": ""
+          },
+          {
+            "Item1": 1,
+            "Item2": "AQ=="
+          }
+        ]
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10050.867,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2629406,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2431,
+            "Y": -3344
+          },
+          {
+            "X": -3021,
+            "Y": -3266
+          }
+        ],
+        "SyncID": 2629406
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 10830.65,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2630187,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741931,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1861.5281,
+        "Y": 109.67369,
+        "Z": 569.3444
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 11297.776,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2630656,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741933,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1701.7765,
+        "Y": 109.86201,
+        "Z": 590.59814
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 11451.0625,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2630796,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2670,
+            "Y": -3312
+          }
+        ],
+        "SyncID": 2630796
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 11676.905,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2631031,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741935,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1649.8784,
+        "Y": 109.929886,
+        "Z": 597.5027
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12101.643,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2631453,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2670,
+            "Y": -3312
+          },
+          {
+            "X": -2473,
+            "Y": -3265
+          }
+        ],
+        "SyncID": 2631453
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12407.459,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2631765,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2619,
+            "Y": -3300
+          }
+        ],
+        "SyncID": 2631765
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12696.7705,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2632046,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741937,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1752.6418,
+        "Y": 109.757034,
+        "Z": 622.06165
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 12931.241,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2632281,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741939,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1752.6418,
+        "Y": 109.757034,
+        "Z": 622.06165
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13167.881,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2632515,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741941,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1752.6418,
+        "Y": 109.757034,
+        "Z": 622.06165
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13448.37,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2632796,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2619,
+            "Y": -3300
+          },
+          {
+            "X": -2167,
+            "Y": -3280
+          }
+        ],
+        "SyncID": 2632796
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13674.063,
+  "Packet": {
+    "$type": "LeaguePackets.Game.WaypointGroup, LeaguePackets",
+    "ID": 97,
+    "SyncID": 2633031,
+    "Movements": [
+      {
+        "Type": 2,
+        "TeleportNetID": 1073741887,
+        "HasTeleportID": false,
+        "TeleportID": 0,
+        "Waypoints": [
+          {
+            "X": -2580,
+            "Y": -3298
+          }
+        ],
+        "SyncID": 2633031
+      }
+    ],
+    "SenderNetID": 0,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 13838.1045,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2633187,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741943,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14090.719,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2633437,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741945,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14303.594,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2633656,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741947,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14514.082,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2633859,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741949,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14708.336,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2634062,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741951,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 14924.8,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2634281,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741953,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15141.461,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2634500,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741955,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 15640.711,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2635000,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741957,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16020.512,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2635375,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741959,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16566.105,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2635921,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741961,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 16963.469,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2636312,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741963,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17134.469,
+  "Packet": {
+    "$type": "LeaguePackets.Game.World_SendCamera_Server_Acknologment, LeaguePackets",
+    "ID": 44,
+    "SyncID": 3,
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 17522.693,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2636875,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741965,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18047.227,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2637406,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741967,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18612.111,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2637968,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741969,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 18971.041,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2638328,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741971,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}
+{
+  "Time": 19207.719,
+  "Packet": {
+    "$type": "LeaguePackets.Game.NPC_CastSpellAns, LeaguePackets",
+    "ID": 181,
+    "CasterPositionSyncID": 2638562,
+    "Unknown1": false,
+    "CastInfo": {
+      "SpellHash": 176723445,
+      "SpellNetID": 1073741973,
+      "SpellLevel": 1,
+      "AttackSpeedModifier": 1.0,
+      "CasterNetID": 1073741887,
+      "SpellChainOwnerNetID": 1073741887,
+      "PackageHash": 1223268252,
+      "MissileNetID": 0,
+      "TargetPosition": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "TargetPositionEnd": {
+        "X": 2231.3232,
+        "Y": 109.04785,
+        "Z": 636.34094
+      },
+      "Targets": [
+        {
+          "UnitNetID": 1073741930,
+          "HitResult": 0
+        }
+      ],
+      "DesignerCastTime": 0.25,
+      "ExtraCastTime": 0.0,
+      "DesignerTotalTime": 0.25,
+      "Cooldown": 0.01,
+      "StartCastTime": 0.0,
+      "IsAutoAttack": false,
+      "IsSecondAutoAttack": false,
+      "IsForceCastingOrChannel": false,
+      "IsOverrideCastPosition": false,
+      "IsClickCasted": false,
+      "SpellSlot": 2,
+      "ManaCost": 0.0,
+      "SpellCastLaunchPosition": {
+        "X": 1830.4844,
+        "Y": 109.65111,
+        "Z": 625.451
+      },
+      "AmmoUsed": 0,
+      "AmmoRechargeTime": 0.0
+    },
+    "SenderNetID": 1073741887,
+    "ExtraBytes": ""
+  }
+}

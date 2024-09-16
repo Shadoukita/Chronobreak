@@ -1,0 +1,36 @@
+[System]
+GroupPart1=lavaFalls
+SimulateEveryFrame=1
+build-up-time=3
+group-vis=10000
+
+[lavaFalls]
+e-life=-1
+e-local-orient=0
+e-rate=-1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=1
+p-mesh=FB_lavaBase_01.sco
+p-meshtex=FB_lavaBase_01.dds
+p-postoffset=0 -150 0
+p-scale=1 1 1
+p-shadow=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.009999999776482582 -0.05000000074505806
+p-uvscroll-rgbXP1=0 -1
+p-uvscroll-rgbXP2=1 1
+p-uvscroll-rgbYP1=0 0.1
+p-uvscroll-rgbYP2=1 3
+pass=2
+rendermode=1
+single-particle=0
+

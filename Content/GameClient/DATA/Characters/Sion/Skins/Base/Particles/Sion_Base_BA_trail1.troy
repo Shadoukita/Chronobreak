@@ -1,0 +1,24 @@
+[System]
+GroupPart1=weapontrail
+SimulateEveryFrame=1
+group-vis=3000
+
+[weapontrail]
+e-life=1
+e-rate=1
+p-backfaceon=1
+p-life=0.2
+p-linger=0.2
+p-mesh=Sion_Base_BA_trail1.scb
+p-meshtex=Sion_Base_BA_Trail_tex.dds
+p-scale=1.0499999523162842 1.0499999523162842 1.0499999523162842
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=0 -2.6
+p-uvscroll-rgb-clamp=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.490196 0.443137 0.494118 1
+p-xrgba2=1 1 0.027451 0.172549 1
+rendermode=1
+single-particle=1
+

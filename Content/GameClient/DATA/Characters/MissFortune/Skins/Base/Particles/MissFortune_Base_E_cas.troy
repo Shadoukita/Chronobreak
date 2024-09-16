@@ -1,0 +1,54 @@
+[System]
+GroupPart1=flare
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=musketball
+GroupPart2Importance=Medium
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[flare]
+e-life=0.2
+e-rate=4
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=1
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 180
+p-quadrotP2=1 360
+p-scale=30
+p-startframe=0
+p-texdiv=1 1
+p-texture=MissFortune_Base_E_OrangeFlare01.dds
+p-type=1
+p-vel=0 4000 0
+p-xscale=1
+p-xscale1=0 3
+p-xscale2=0.3 0.5
+p-xscale3=1 2
+
+[musketball]
+e-life=0.2
+e-rate=4
+e-timeoffset=0.1
+p-bindtoemitter=1 1
+p-life=3
+p-linger=1
+p-offset=0 50 0
+p-rotvel=180
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=18
+p-scaleP1=0 1.25
+p-scaleP2=1 0.7
+p-texture=MissFortune_Base_E_MusketBall.dds
+p-vel=0 4000 0
+p-xscale=1
+p-xscale1=0 0.75
+p-xscale2=0.5 1.7
+p-xscale3=1 0.15
+pass=1
+rendermode=3
+

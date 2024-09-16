@@ -1,0 +1,27 @@
+[System]
+GroupPart1=crown
+GroupPart2Type=Complex
+SimulateWhileOffScreen=1
+
+[crown]
+e-life=-1
+e-rate=2
+e-rgba=138 0 189 100
+e-rgba1=1 1 1
+p-life=2
+p-mesh=Saucer6.sco
+p-meshtex=cylinder06.tga
+p-postoffset=0 35 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rotvel=0 1 0
+p-rotvelYP1=0 -10
+p-rotvelYP2=1 10
+p-scale=8 8 8
+p-type=3
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.3
+p-xrgba3=1 1 1 1 0
+rendermode=0
+

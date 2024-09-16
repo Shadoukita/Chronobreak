@@ -1,0 +1,32 @@
+[System]
+GroupPart1=shield_ball
+GroupPart1Importance=High
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[shield_ball]
+e-life=0.75
+e-linger=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=0.25
+p-mesh=sphere_01.sco
+p-meshtex=ghost_overlay_14.tga
+p-postoffset=0 115 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-scale=8.5 8.5 8.5
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=0
+single-particle=1
+

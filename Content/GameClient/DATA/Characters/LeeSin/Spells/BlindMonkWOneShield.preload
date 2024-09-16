@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="blindmonk_w_shield_self_deactivate.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="blindmonk_w_shield_block.troy"}}, 
+}

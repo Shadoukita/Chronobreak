@@ -1,0 +1,25 @@
+[System]
+GroupPart1=Testing_AlplhaVertexColor
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Testing_AlplhaVertexColor]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=-1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-lifeP1=0 1
+p-lifeP2=1 0.4
+p-linger=0
+p-mesh=Testing_AlplhaVertexColor.scb
+p-meshtex=SR2_WolfDen_CloudGroundCover_01.dds
+p-scale=0.5 0.5 0.5
+p-shadow=0
+p-type=3
+p-uvscroll-rgb=1
+rendermode=1
+single-particle=0
+

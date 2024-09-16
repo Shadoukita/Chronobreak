@@ -1,0 +1,45 @@
+[SmokeRing]
+e-life=0.05000000074505806
+e-linger=10
+e-local-orient=1
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-drag=3 3 3
+p-flexscale=0.004999999888241291
+p-life=2.4000000000000004
+p-linger=2
+p-mesh=Chogath_Battlecast_Joke_Smoke.sco
+p-meshtex=Chogath_Battlecast_Joke_Smoke.tga
+p-offset=-50 0 0
+p-quadrot=0 0 90
+p-quadrotZP1=0 -1
+p-quadrotZP2=0.5 -1
+p-quadrotZP3=0.501 1
+p-quadrotZP4=1 1
+p-rgba=color-hold.tga
+p-rotvel=300 0 0
+p-rotvelXP1=0 1
+p-rotvelXP2=1 -1
+p-scale=10 10 10
+p-type=3
+p-vel=-400 0 0
+p-velXP1=0 0.9
+p-velXP2=1 1
+p-xrgba=1 1 1 0.25
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.95 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=0.3 7 7 7
+p-xscale3=0.95 10 10 10
+p-xscale4=1 25 2 25
+pass=-1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=SmokeRing
+GroupPart1Importance=High
+SimulateEveryFrame=1
+

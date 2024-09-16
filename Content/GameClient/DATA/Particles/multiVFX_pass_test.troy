@@ -1,0 +1,23 @@
+[System]
+GroupPart1=multiVFX
+SimulateEveryFrame=1
+
+[multiVFX]
+e-life=1
+e-rate=1
+e-rgba=255 255 255 255
+p-life=0.30000000000000004
+p-mesh=multiVFX_pass_test.sco
+p-meshtex=multiVFX_pass_test.dds
+p-meshtex-mult=multiVFX_pass_test_mult.dds
+p-postoffset=0 0 0
+p-scale=5 5 5
+p-type=3
+p-uvscroll-rgb=0 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 1
+pass=1
+rendermode=1
+single-particle=1
+

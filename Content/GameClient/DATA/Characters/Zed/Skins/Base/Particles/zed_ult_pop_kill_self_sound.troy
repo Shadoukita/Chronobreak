@@ -1,0 +1,4 @@
+[System]
+PersistThruDeath=1
+SoundOnCreate=Play_sfx_Zed_ZedUltExecute_buffdeactivate
+

@@ -1,0 +1,12 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="sorakaepacify"}}, 
+{Function=BBPreloadSpell, Params={Name="sorakaemana"}}, 
+{Function=BBPreloadSpell, Params={Name="sorakaesnare"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_resolution.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_beam.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_rune.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_rune_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_ring_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="soraka_base_e_ring_red.troy"}}, 
+}

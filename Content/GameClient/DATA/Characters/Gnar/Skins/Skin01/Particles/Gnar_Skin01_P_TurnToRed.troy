@@ -1,0 +1,39 @@
+[System]
+GroupPart1=Turn_To_Red
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Teeth
+SimulateEveryFrame=1
+
+[Teeth]
+e-alpharef=20
+e-disabled=1
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=16
+p-linger=0
+p-local-orient=1
+p-mesh=gnar_skin01_p_teeth.scb
+p-meshtex=Gnar_Skin01_P_Teeth.dds
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=3
+single-particle=1
+
+[Turn_To_Red]
+MaterialOverride1Priority=2500
+MaterialOverride1Texture=Gnar_Skin01_Fur_red.dds
+MaterialOverrideTransMap=Gnar_Skin01_P_Trans.dds
+MaterialOverrideTransSource=1
+e-life=1
+p-life=-1
+p-linger=0
+p-rgba=Gnar_Skin01_P_Fur_MOTrans_rgba.dds
+p-scale=0
+p-xscale=1
+rendermode=1
+

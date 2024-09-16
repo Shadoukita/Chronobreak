@@ -1,0 +1,32 @@
+[System]
+GroupPart1=yikes
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[yikes]
+e-life=0.25
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.5
+p-linger=0
+p-numframes=1
+p-offset=20 80 0
+p-rgba=color-eyefade32.tga
+p-scale=30
+p-startframe=0
+p-texdiv=1 1
+p-texture=turreticon.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.1 1.1
+p-xscale3=0.2 0.9
+p-xscale4=0.30000000000000004 1
+p-xscale5=1 1
+pass=1
+rendermode=1
+

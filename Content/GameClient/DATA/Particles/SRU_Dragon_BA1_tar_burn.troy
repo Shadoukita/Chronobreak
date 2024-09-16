@@ -1,0 +1,47 @@
+[Circle]
+e-life=-1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=-1
+p-linger=0
+p-scale=50 50 50
+p-texture=SRU_Dragon_TempCircle.dds
+p-type=0
+p-xrgba=1 1 1 1
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Circle
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk1702292D=0 0 1
+unk2D2E8A6C=0 1 0
+unk41ABE7D8=0 1 1 1
+unk41ABE7D9=1 0 0 0
+unk58B51063=0.5
+unk64CCE2AE=-1
+unk77400A3A=0 50 0
+unk78134E92=15
+unk90615A61=1
+unk90615A62=1
+unk98F1C223=4
+unkA62D73BF=0 0.5
+unkA62D73C0=1 1
+unkA6D07183=20 20 20
+unkB73EE245=1 1 1 1
+unkBD73B494=SRU_Dragon_TempCircle.dds
+unkD3C229F5=0
+unkD4D690E1=0
+unkD584CD2A=0
+unkDDF707FA=180 0 0
+unkF18855A2=0 -90
+unkF18855A3=1 90
+unkF2066523=0 0
+unkF2066524=1 360
+unkFABEAF2C=0 1 1 1 0
+unkFABEAF2D=0.1 1 1 1 1
+unkFABEAF2E=1 1 1 1 0
+unkFC13EECF=1

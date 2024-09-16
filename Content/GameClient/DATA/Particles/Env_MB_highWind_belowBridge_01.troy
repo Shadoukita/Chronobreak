@@ -1,0 +1,62 @@
+[System]
+GroupPart1=Wind
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+group-vis=6000
+
+[Wind]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=0.2
+e-uvoffset=2 2
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=13
+p-lifeP1=0 1
+p-lifeP2=1 0.4
+p-linger=0
+p-mesh=Env_MB_highWind_01.sco
+p-meshtex=Env_MB_highWind_01.dds
+p-postoffset=1 1 1
+p-postoffsetXP1=0 -4000
+p-postoffsetXP2=1 1000
+p-postoffsetYP1=0 -4500
+p-postoffsetYP2=1 -20000
+p-postoffsetZP1=0 1000
+p-postoffsetZP2=1 100
+p-quadrot=1 54 0
+p-scale=60 25 50
+p-scaleXP1=0 0.8
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 1.3
+p-scaleZP1=0 1
+p-scaleZP2=1 1.2000000000000002
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.30000000000000004 0.30000000000000004
+p-uvscroll-rgb-mult=0.1 0.1
+p-uvscroll-rgb-multXP1=0 0.6000000000000001
+p-uvscroll-rgb-multXP2=1 1.5
+p-uvscroll-rgb-multYP1=0 -0.10000000149011612
+p-uvscroll-rgb-multYP2=1 0.1
+p-uvscroll-rgbXP1=0 0.6000000000000001
+p-uvscroll-rgbXP2=1 1.5
+p-uvscroll-rgbYP1=0 -0.10000000149011612
+p-uvscroll-rgbYP2=1 0.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+
+[UNKNOWN_HASHES]
+unkA2512274=0 0.1
+unkA2512275=1 1

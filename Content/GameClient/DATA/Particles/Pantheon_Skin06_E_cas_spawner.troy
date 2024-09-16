@@ -1,0 +1,40 @@
+[BurstLine]
+ChildParticleName=Pantheon_Skin06_E_cas_child.troy
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-colortype=1
+p-drag=3 3 3
+p-life=0.2
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=0 230 0
+p-offsetXP1=0.007000000216066837 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=0 0 0
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=0 0 0
+p-texture=Pantheon_Skin06_Z_Streak.tga
+p-type=1
+p-vel=0 0 0
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba1=0 1 1 0 1
+p-xrgba2=0.3 1 0.7 0 0.5
+p-xrgba3=1 1 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 2 2 2
+p-xscale2=1 0 4 4
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=BurstLine
+SimulateEveryFrame=1
+group-vis=1000
+

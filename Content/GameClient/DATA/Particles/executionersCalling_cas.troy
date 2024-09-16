@@ -1,0 +1,72 @@
+[Flash_02]
+e-life=0.05999999865889549
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.07999999821186066
+p-numframes=1
+p-offset=0 30 0
+p-projection-fading=100
+p-projection-y-range=50
+p-quadrot=1
+p-rgba=color-rampdown.tga
+p-scale=200
+p-startframe=0
+p-texture=shadow_step_poison_01.tga
+p-type=7
+rendermode=0
+
+[System]
+GroupPart1=Flash_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=symbol_01
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=symbol_03
+GroupPart3Importance=High
+GroupPart3Type=Simple
+
+[symbol_01]
+e-life=0.3
+e-linger=0
+e-local-orient=1
+e-rate=7
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.15
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=80 80 0
+p-simpleorient=2
+p-texture=rune_ring_poison_01.tga
+p-type=7
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=1 1.5
+rendermode=0
+
+[symbol_03]
+e-life=0.3
+e-linger=0
+e-local-orient=1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.35
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=70 70 0
+p-simpleorient=2
+p-texture=ring_poison_01.tga
+p-type=7
+

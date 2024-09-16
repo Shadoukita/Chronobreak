@@ -1,0 +1,80 @@
+[System]
+GroupPart1=heal
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=heal_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[heal]
+e-life=0.3
+e-linger=0
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.55
+p-linger=1
+p-offset=27 30 27
+p-postoffset=0 80 0
+p-scale=43
+p-texture=green_buf_02.tga
+p-type=1
+p-vel=0 320 0
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.9 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[heal_02]
+e-life=0.3
+e-linger=0
+e-rate=15
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.55
+p-linger=0
+p-offset=15 15 15
+p-postoffset=0 80 0
+p-scale=53
+p-texture=green_buf_02.tga
+p-type=1
+p-vel=0 320 0
+p-velYP1=0 0.25999999046325684
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 0.9 0 0
+p-xscale3=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk03268250=0 1 1 1 0
+unk03268251=0.3 1 1 1 1
+unk03268252=0.7 1 1 1 1
+unk03268253=1 1 1 1 0
+unk1832395E=0 180 0
+unk190CEED1=0 325 0
+unk34BE435D=1
+unk36EBFB0E=1
+unk447D6E4F=olaf_rune_shield_06.tga
+unk4F253587=0.5
+unk5629BFB9=0 0
+unk5B3D07D2=0.35
+unk6E8373B6=1
+unk718D955F=6 6 6
+unk7BC0CB78=olaf_rune_shield_02.sco
+unk7E432EA5=0 45 0
+unk81FC0621=1 1 1 1
+unkCB46B605=3
+unkD65A4347=3
+unkDC29FD19=0
+unkDDECA04E=-1
+unkE65EDB1E=0 0 0
+unkFBEA5AAB=1

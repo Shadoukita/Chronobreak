@@ -1,0 +1,24 @@
+[System]
+GroupPart1=direction-arrow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[direction-arrow]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=-1
+p-local-orient=1
+p-offset=0 0 -100
+p-quadrot=-90 0 0
+p-rgba=color-hold.tga
+p-scale=60
+p-shadow=1
+p-simpleorient=2
+p-texture=direction-arrow.tga
+p-type=1
+rendermode=1
+single-particle=1
+

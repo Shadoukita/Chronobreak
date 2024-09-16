@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="udyr"}}, 
+{Function=BBPreloadCharacter, Params={Name="udyrturtleult"}}, 
+{Function=BBPreloadCharacter, Params={Name="udyrturtle"}}, 
+{Function=BBPreloadParticle, Params={Name="udyr_spiritguard_audio_turtle.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="udyrturtleattackult"}}, 
+{Function=BBPreloadParticle, Params={Name="turtlepelt.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="turtlestance.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="udyrturtleactivation"}}, 
+}

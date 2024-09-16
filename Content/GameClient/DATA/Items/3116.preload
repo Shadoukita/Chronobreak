@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="internal_35slow"}}, 
+{Function=BBPreloadSpell, Params={Name="itemslow"}}, 
+{Function=BBPreloadSpell, Params={Name="internal_15slow"}}, 
+}

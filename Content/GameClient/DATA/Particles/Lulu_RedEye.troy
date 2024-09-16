@@ -1,0 +1,115 @@
+[Eye]
+e-life=10000
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=-1
+p-linger=0
+p-postoffset=0 100 0
+p-quadrot=180 0 0
+p-scale=23 23 0
+p-texture=Evelynn_RedEye.tga
+p-type=0
+rendermode=1
+single-particle=1
+
+[Flash]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=4
+p-bindtoemitter=1 1
+p-life=0.3
+p-linger=0
+p-postoffset=1 101 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-bellcurve.tga
+p-scale=110
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-texture=flare-Rainbow_red_04.tga
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.1 1
+p-xscale3=1 0
+rendermode=0
+single-particle=1
+
+[Glow]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=6
+p-bindtoemitter=1 1
+p-life=0.3
+p-linger=0
+p-postoffset=1 101 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-bellcurve.tga
+p-rotvel=100
+p-rotvelP1=0 -0.7
+p-rotvelP2=1 0.7
+p-scale=90
+p-scale1=0 0.7
+p-scale2=0.3 1.85
+p-scale3=1 0.7
+p-texture=flare-Rainbow_red_04.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0.1
+pass=1
+rendermode=0
+
+[Sparkle]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=15
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=1 1 1
+p-offsetXP1=0 0
+p-offsetXP2=1 22
+p-offsetYP1=0 0
+p-offsetYP2=1 15
+p-offsetZP1=0 0
+p-offsetZP2=1 22
+p-postoffset=0 93 0
+p-rgba=color-bellcurve.tga
+p-scale=25
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=Flare-Rainbow_red_04.tga
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0.1
+rendermode=0
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Eye
+GroupPart3=Glow
+GroupPart3Type=Simple
+GroupPart4=Sparkle
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk7E98E49D=1
+unk9BD31F60=1

@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Crab_Circle_0.dds"
+BuffTextureName = L0_1
+L0_1 = "Sru_CrabSpeedBoost"
+BuffName = L0_1
+L0_1 = "SRU_Crab_SpeedBuff.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "SRU_CrabSpeedBoost_Audio.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1

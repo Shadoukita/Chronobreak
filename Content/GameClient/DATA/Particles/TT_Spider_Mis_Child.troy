@@ -1,0 +1,32 @@
+[System]
+GroupPart1=WebTrail
+SimulateEveryFrame=1
+
+[WebTrail]
+e-life=0.75
+e-local-orient=1
+e-rate=100
+e-tilesize=10 0 0
+p-drag=1 1 1
+p-life=1
+p-linger=5
+p-rgba=color-bellcurve4.tga
+p-scale=20 0 0
+p-texture=TF_Card_Trail.tga
+p-trailmode=1
+p-type=5
+p-vel=0.5 10 0.5
+p-velXP1=0 -20
+p-velXP2=0.2 -10
+p-velXP3=0.8 10
+p-velXP4=1 20
+p-velYP1=0 1
+p-velYP2=1 -1
+p-velZP1=0 -20
+p-velZP2=0.2 -10
+p-velZP3=0.8 10
+p-velZP4=1 20
+p-xscale1=0 0.2 0 0
+p-xscale2=1 0.8 0 0
+rendermode=0
+

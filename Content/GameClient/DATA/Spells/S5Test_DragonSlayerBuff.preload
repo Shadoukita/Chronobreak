@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="s5test_dragonslayerbuffinternal"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_dragon_buff_lvl01.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_dragon_buff_lvl03.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="s5_aspectofthedragon"}}, 
+{Function=BBPreloadParticle, Params={Name="enrage_buf.troy"}}, 
+}

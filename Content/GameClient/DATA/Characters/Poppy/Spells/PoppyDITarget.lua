@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Poppy_DiplomaticImmunity.dds"
+BuffTextureName = L0_1
+L0_1 = "PoppyDITarget"
+BuffName = L0_1
+L0_1 = "DiplomaticImmunity_tar.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+NonDispellable = L0_1

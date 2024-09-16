@@ -1,0 +1,56 @@
+[System]
+GroupPart4=spike_01
+GroupPart4Importance=High
+GroupPart4Type=Complex
+GroupPart5=spike_02
+GroupPart5Importance=High
+GroupPart5Type=Complex
+GroupPart6=spike_03
+GroupPart6Importance=High
+GroupPart6Type=Complex
+SimulateEveryFrame=1
+
+[spike_02]
+e-life=0.5
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1
+p-colortype=1
+p-frameRate=0
+p-life=0.75
+p-linger=1
+p-mesh=talon_test.sco
+p-meshtex=fang_spike_red_05.tga
+p-numframes=1
+p-offset=0 0 0
+p-scale=0.1 0.1 0.1
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-vel=0 400 0
+p-worldaccel=0 -1500 0
+rendermode=1
+
+[spike_03]
+e-life=0.5
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1
+p-colortype=1
+p-frameRate=0
+p-life=0.75
+p-linger=1
+p-mesh=talon_test.sco
+p-meshtex=fang_spike_red_05.tga
+p-numframes=1
+p-offset=0 0 0
+p-scale=0.1 0.1 0.1
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-vel=0 400 0
+p-worldaccel=0 -1500 0
+rendermode=1
+

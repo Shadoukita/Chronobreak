@@ -1,0 +1,31 @@
+[System]
+GroupPart1=teamcircle-red
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+group-vis=10000
+
+[teamcircle-red]
+e-life=1
+e-rate=0.5
+p-colortype=1 0
+p-life=1
+p-linger=0.5
+p-offset=0 200 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-scale=2200
+p-simpleorient=2
+p-texture=blurwave.dds
+p-type=0
+p-xrgba=0 1 0 0.5
+p-xrgba1=0 0 1 0 0.5
+p-xrgba2=0.5 0 1 0 0.75
+p-xrgba3=1 0 1 0 0.2
+p-xscale1=0 0.2
+p-xscale2=1 1
+pass=1
+rendermode=4
+single-particle=0
+

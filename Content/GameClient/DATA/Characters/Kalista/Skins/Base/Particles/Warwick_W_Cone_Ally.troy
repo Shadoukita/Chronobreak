@@ -1,0 +1,24 @@
+[System]
+GroupPart1=Warning_Reticle
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[Warning_Reticle]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=500
+p-linger=0
+p-local-orient=1
+p-offset=0 100 350
+p-quadrot=90 -90 0
+p-scale=400 350 100
+p-texture=Kalista_Base_W_ViewCone.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0.14
+rendermode=4
+single-particle=1
+

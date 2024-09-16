@@ -1,0 +1,23 @@
+[System]
+GroupPart1=silver-ring
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[silver-ring]
+e-life=25000
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=4
+p-linger=0
+p-offset=0 1 0
+p-rgba=color-hold.tga
+p-scale=125
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=Skarner_Energized.tga
+p-type=1
+rendermode=1
+

@@ -1,0 +1,23 @@
+[Ribbon_Left]
+e-rate=500
+e-tilesize=600 0 0
+p-life=0.30000000000000004
+p-scale=30 1 1
+p-texture=Caitlyn_Skin06_Z_Smoketrail_01.dds
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=-3 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 0.6 0.3 0.2
+p-xrgba4=1 1 0.4 0.2 0
+p-xscale=1 1 1
+p-xscale1=0 0 1 1
+p-xscale2=1 1 1 1
+rendermode=4
+
+[System]
+GroupPart1=Ribbon_Left
+SimulateEveryFrame=1
+

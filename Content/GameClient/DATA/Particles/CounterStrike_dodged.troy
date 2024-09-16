@@ -1,0 +1,54 @@
+[System]
+GroupPart1=ready1
+
+[ready1]
+e-life=1000
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-linger=0
+p-mesh=sphere_01.sco
+p-meshtex=streak_01.tga
+p-numframes=1
+p-offset=0 70 0
+p-quadrot=0 50 0
+p-rgba=color-rainbowbell.tga
+p-rotvel=0 0 0
+p-scale=8 4 8
+p-startframe=1
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0BDC5A4A=0
+unk1F057A72=3
+unk26788BA2=SlowDot.tga
+unk27564CBE=0 0 0
+unk3F5E2BE5=1 0
+unk45566A26=1 0
+unk5971793B=0
+unk5DB58622=1 3
+unk603E4BF8=0 110 -40
+unk65D39175=0
+unk7933977F=1 0.4
+unk82554B7E=1 1
+unk90797AB4=0
+unkA21DC4A3=1
+unkA2E3F9F4=1
+unkAEFBCC3F=1000
+unkB889C8D4=1
+unkB90CBE6C=color-blueflame.tga
+unkC2423823=2
+unkCF7F8FE5=magicball.sco
+unkD1ECEC32=8 8 8
+unkEA735B06=0
+unkEC35FE3B=0
+unkF4A8390B=0 70 0

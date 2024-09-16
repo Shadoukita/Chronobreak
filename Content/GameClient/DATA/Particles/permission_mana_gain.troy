@@ -1,0 +1,33 @@
+[System]
+GroupPart1=mana_gain
+GroupPart1Importance=Medium
+GroupPart1Type=Simple
+
+[mana_gain]
+e-life=1
+e-linger=1
+e-rate=32
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0.35
+p-bindtoemitter=1 1
+p-life=0.45
+p-offset=24 24 24
+p-postoffset=0 -10 0
+p-quadrot=1
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=70
+p-texture=blue_mana_buf_01.tga
+p-vel=0 550 0
+p-velYP1=0 0.3499999940395355
+p-velYP2=1 1.149999976158142
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.7 1 0 0
+p-xscale3=1 0 0 0
+
+[UNKNOWN_HASHES]
+unk4E17E7CE=0 300 0

@@ -1,0 +1,29 @@
+[GlowBot]
+e-rate=0.15000000596046448
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=8
+p-linger=0
+p-mesh=SRU_Wjungle_Magic_GlowBot_01.scb
+p-meshtex=SRU_Wjungle_Magic_GlowBot_01.DDS
+p-meshtex-mult=SRU_Wjungle_Magic_GlowBot_Mult_01.dds
+p-type=3
+p-uvscroll-rgb=-0.05 0
+p-uvscroll-rgb-mult=-0.15000000596046448 0.029999999329447746
+p-uvscroll-rgb-multXP1=0 1
+p-uvscroll-rgb-multXP2=1 1.4000000000000001
+p-uvscroll-rgb-multYP1=-1 1.399999976158142
+p-uvscroll-rgb-multYP2=0 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=GlowBot
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk1E90023A=sphere.sco
+unk9F20E90D=color-hold.DDS

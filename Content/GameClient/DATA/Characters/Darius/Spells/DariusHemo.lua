@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = true
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Darius_Icon_Hemorrhage.dds"
+BuffTextureName = L0_1
+L0_1 = "DariusHemo"
+BuffName = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1

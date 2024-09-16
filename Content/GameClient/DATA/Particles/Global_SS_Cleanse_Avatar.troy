@@ -1,0 +1,41 @@
+[Avatar]
+e-life=0.4
+e-linger=0
+e-local-orient=1
+e-rate=7
+e-timeoffset=0.1
+p-alphaslicerange=0.15000000596046448
+p-colorscale=1 1
+p-colortype=1 1
+p-life=0.35
+p-linger=0.4
+p-local-orient=1
+p-rgba=global_ss_cleanse_color-slice.tga
+p-scale=1
+p-simpleorient=3
+p-texture=global_ss_cleanse_alphaslice.tga
+p-type=11
+p-vel=10 -200 10
+p-vel1=0 1 1 1
+p-vel2=0.25 2 1 2
+p-vel3=1 5 1 5
+p-velXP1=0 2
+p-velXP2=0.5 2
+p-velXP3=0.500001 -2
+p-velXP4=1 -2
+p-velYP1=0 1
+p-velYP2=1 0.5
+p-velZP1=0 -1.5
+p-velZP2=0.2 -1
+p-velZP3=0.200001 -3
+p-velZP4=1 -5
+p-xscale1=0 1
+p-xscale2=1 1.850000023841858
+rendermode=4
+
+[System]
+GroupPart1=Avatar
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

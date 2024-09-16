@@ -1,0 +1,31 @@
+[Aqua]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.4
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=250
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=Heimerdinger_Skin05_R_MegaTurret_Mis_Rings_03.dds
+p-type=1
+p-xscale1=0 1
+p-xscale2=0.30000000000000004 0.8
+p-xscale3=1 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Aqua
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

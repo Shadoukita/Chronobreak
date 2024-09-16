@@ -1,0 +1,29 @@
+[System]
+GroupPart1=arm
+SimulateEveryFrame=1
+
+[arm]
+e-life=0.1
+e-rate=5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.3
+p-local-orient=1
+p-mesh=FioraShield.sco
+p-meshtex=Vi_SpeedCloud.tga
+p-offset=0 0 0
+p-postoffset=20 0 0
+p-quadrot=0 0 90
+p-rgba=alpha_12.tga
+p-scale=3 3 3
+p-simpleorient=2
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -1
+p-vel=20 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 2 1
+p-xscale3=1 2 2
+pass=100
+rendermode=4
+

@@ -1,0 +1,57 @@
+[Spike_L]
+ChildEmitOnDeath=0
+ChildParticleName=Khazix_Base_W_Mis_Child.troy
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-life=5
+p-linger=0
+p-mesh=Khazix_Base_W_Spike.sco
+p-meshtex=Khazix_Base_W_Spike.tga
+p-offset=-35 0 0
+p-orbitvel=0 10 0
+p-quadrot=0 360 0
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-rotvel=0 900 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=60 60 60
+p-shadow=1
+p-type=3
+pass=100
+rendermode=1
+
+[Spike_R]
+ChildEmitOnDeath=0
+ChildParticleName=Khazix_Base_W_Mis_Child.troy
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-fixedorbit=1
+p-life=5
+p-linger=0
+p-mesh=Khazix_Base_W_Spike.sco
+p-meshtex=Khazix_Base_W_Spike.tga
+p-offset=35 0 0
+p-orbitvel=0 10 0
+p-quadrot=0 360 0
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-rotvel=0 900 0
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-scale=60 60 60
+p-shadow=1
+p-type=3
+pass=100
+rendermode=1
+
+[System]
+GroupPart1=Spike_L
+GroupPart2=Spike_R
+SimulateEveryFrame=1
+

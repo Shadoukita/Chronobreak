@@ -1,0 +1,49 @@
+[System]
+GroupPart1=disc_ani
+GroupPart2=disc_fade
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[disc_ani]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.25
+p-linger=0
+p-mesh=Gnar_Base_P_Chalkline.scb
+p-meshtex=Gnar_Base_P_Chalkline.dds
+p-meshtex-mult=Gnar_Base_P_Chalkline_mult.dds
+p-quadrot=0 180 0
+p-type=3
+p-uvscroll-rgb-mult=-2 0
+pass=1
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+
+[disc_fade]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-uvoffset-mult=0.5 0
+p-bindtoemitter=1 1
+p-life=5
+p-linger=0
+p-mesh=Gnar_Base_P_Chalkline.scb
+p-meshtex=Gnar_Base_P_Chalkline.dds
+p-meshtex-mult=Gnar_Base_P_Chalkline_mult.dds
+p-quadrot=0 180 0
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.049 1 1 1 0
+p-xrgba3=0.05 1 1 1 1
+p-xrgba4=0.9 1 1 1 1
+p-xrgba5=1 1 1 1 0
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+
+[UNKNOWN_HASHES]
+unkE6662A8D=1

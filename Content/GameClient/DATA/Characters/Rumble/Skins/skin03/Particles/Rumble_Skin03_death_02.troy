@@ -1,0 +1,63 @@
+[Dust]
+e-life=0.15
+e-local-orient=1
+e-rate=150
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 1
+e-rotation1P2=1 360
+field-drag-1=SmokeDrag
+field-noise-1=SmokeNoise
+p-bindtoemitter=0.75 0
+p-colorscale=1 1
+p-colortype=1 1
+p-life=0.9
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=1.2000000000000002
+p-offset=40 0 0
+p-offsetXP1=0 0.35
+p-offsetXP2=1 1
+p-postoffset=80 5 35
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_20_08.dds
+p-rotvel=10
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=30
+p-scaleP1=0 0.8
+p-scaleP2=1 1.5
+p-simpleorient=2
+p-texture=Rumble_Skin03_R_smoke_09.dds
+p-type=0
+p-vel=100 30 100
+p-velXP1=0 0
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 2
+p-velZP1=0 -1
+p-velZP2=1 2
+p-xscale1=0 1
+p-xscale2=1 1.8
+pass=50
+rendermode=1
+
+[SmokeDrag]
+f-drag=0.8
+f-pos=0 0 0
+f-radius=1000
+
+[SmokeNoise]
+f-period=0.5
+f-pos=0 300 0
+f-radius=500
+f-veldelta=15
+
+[System]
+GroupPart1=Dust
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

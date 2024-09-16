@@ -1,0 +1,93 @@
+[System]
+GroupPart3=activate
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=activate_02
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart6=flat_02
+GroupPart6Importance=High
+GroupPart6Type=Simple
+SimulateEveryFrame=1
+
+[activate]
+e-life=0.05
+e-linger=-1
+e-rate=20
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.45
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=380 0 0
+p-rotvelP1=0 -1
+p-rotvelP2=0.5 -1
+p-rotvelP3=0.5 1
+p-rotvelP4=1 1
+p-scale=15
+p-texture=teal_attack_buf_11.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 25 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 0 0 0
+
+[activate_02]
+e-life=0.05
+e-linger=-1
+e-rate=20
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.45
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=380 0 0
+p-rotvelP1=0 -1
+p-rotvelP2=0.5 -1
+p-rotvelP3=0.5 1
+p-rotvelP4=1 1
+p-scale=11
+p-texture=teal_attack_buf_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 25 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 0 0 0
+
+[flat_02]
+KeywordsExcluded=FrostBladeIrelia
+e-life=0.15
+e-linger=0
+e-local-orient=0
+e-rate=3
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.15000000596046448
+p-linger=0
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90 90 0
+p-scale=440
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=shadow_step_28.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+

@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "RengarQ.dds"
+BuffTextureName = L0_1
+L0_1 = "RengarQBuff"
+BuffName = L0_1
+L0_1 = "Rengar_Base_Q_Buf_AttackSpeed.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "R_Hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "Rengar_Base_Q_Buf_AttackSpeed.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "L_Hand"
+AutoBuffActivateAttachBoneName2 = L0_1

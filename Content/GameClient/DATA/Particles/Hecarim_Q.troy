@@ -1,0 +1,164 @@
+[Distort]
+e-life=1
+e-linger=1
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.3
+p-bindtoemitter=1 1
+p-distortion-mode=2
+p-distortion-power=0.09
+p-life=0.35
+p-linger=0.35
+p-normal-map=distort-heat.tga
+p-rgba=color-bellcurve32.tga
+p-scale=420
+p-texture=Aura_self.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=1 3
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=WeaponTrail_small
+GroupPart2=Distort
+GroupPart2Type=Simple
+GroupPart3=WeaponTrail_large
+GroupPart4=WeaponTrail_small_HeadlessHecarim
+GroupPart5=WeaponTrail_large_HeadlessHecarim
+GroupPart6=WeaponTrailSmall_Arcade
+GroupPart7=WeaponTrailLarge_Arcade
+SimulateEveryFrame=1
+
+[WeaponTrailLarge_Arcade]
+KeywordsRequired=HecarimArcade
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Hecarim_skin04_Q_trail.tga
+p-quadrot=170 0 -10
+p-rgba=color-hecarim_skin04_basictrail.tga
+p-scale=1.6 1.6 1.6
+p-type=3
+p-uvscroll-rgb=4 0
+rendermode=0
+single-particle=1
+
+[WeaponTrailSmall_Arcade]
+KeywordsRequired=HecarimArcade
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.3
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.25
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Hecarim_skin04_trail.tga
+p-quadrot=0 0 -10
+p-rgba=color-hecarim_skin04_basictrail.tga
+p-scale=1.3 1.3 1.3
+p-type=3
+p-uvscroll-rgb=2.7 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_large]
+KeywordsExcluded=HeadlessHecarim HecarimArcade
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Hecarim_WeaponTrail_Q.tga
+p-quadrot=170 0 -10
+p-rgba=color-rampdown.tga
+p-scale=1.6 1.6 1.6
+p-type=3
+p-uvscroll-rgb=4 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_large_HeadlessHecarim]
+KeywordsRequired=HeadlessHecarim
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.3
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Hecarim_WeaponTrail_Q_headless.tga
+p-quadrot=170 0 -10
+p-rgba=color-rampdown.tga
+p-scale=1.6 1.6 1.6
+p-type=3
+p-uvscroll-rgb=4 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_small]
+KeywordsExcluded=HeadlessHecarim HecarimArcade
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.3
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.25
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Hecarim_WeaponTrail_Q2.tga
+p-quadrot=0 0 -10
+p-rgba=color-rampdown.tga
+p-scale=1.3 1.3 1.3
+p-type=3
+p-uvscroll-rgb=2.7 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_small_HeadlessHecarim]
+KeywordsRequired=HeadlessHecarim
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.3
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.25
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=Hecarim_WeaponTrail_Q2_headless.tga
+p-quadrot=0 0 -10
+p-rgba=color-rampdown.tga
+p-scale=1.3 1.3 1.3
+p-type=3
+p-uvscroll-rgb=2.7 0
+rendermode=0
+single-particle=1
+

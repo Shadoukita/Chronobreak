@@ -1,0 +1,131 @@
+[Crown1]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-rgba=100 255 255 200
+e-rgba1=1 1 1
+p-life=1.4000000000000001
+p-mesh=Saucer7.sco
+p-meshtex=cylinder05.tga
+p-postoffset=0 200 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=16 4 16
+p-type=3
+p-xrgba1=0 0.1 0.1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=0.75 0.3 0.5 1 0.6
+p-xrgba4=1 0 0 1 0
+p-xscale1=0 1.1 0.1 1.1
+p-xscale2=1 0.5 12 0.5
+rendermode=0
+
+[Crown2]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-rgba=100 255 255 200
+e-rgba1=1 1 1
+p-life=1.4000000000000001
+p-mesh=Saucer7.sco
+p-meshtex=cylinder05.tga
+p-postoffset=0 200 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=12 4 12
+p-type=3
+p-xrgba1=0 0.1 0.1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=0.75 0.3 0.5 1 0.6
+p-xrgba4=1 0 0 1 0
+p-xscale1=0 1.1 0.1 1.1
+p-xscale2=1 0.5 12 0.5
+rendermode=0
+
+[Crown3]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-rgba=100 255 255 200
+e-rgba1=1 1 1
+p-life=1.4000000000000001
+p-mesh=Saucer7.sco
+p-meshtex=cylinder05.tga
+p-postoffset=0 200 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=8 4 8
+p-type=3
+p-xrgba1=0 0.1 0.1 1 0
+p-xrgba2=0.25 1 1 1 1
+p-xrgba3=0.75 0.3 0.5 1 0.6
+p-xrgba4=1 0 0 1 0
+p-xscale1=0 1.1 0.1 1.1
+p-xscale2=1 0.5 12 0.5
+rendermode=0
+
+[System]
+GroupPart1=Crown1
+GroupPart1Type=Complex
+GroupPart2=Crown2
+GroupPart2Type=Complex
+GroupPart3=Crown3
+GroupPart3Type=Complex
+GroupPart4=flash1
+GroupPart4Type=Simple
+GroupPart5=flash2
+GroupPart5Type=Simple
+SoundOnCreate=Play_sfx_Anivia_Rebirth_cast
+
+[flash1]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=0 0
+p-life=1.6
+p-postoffset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-rotvel=40
+p-scale=300
+p-simpleorient=2
+p-startframe=2
+p-texdiv=2 2
+p-texture=ShopFX.tga
+p-type=1
+p-xscale1=0 0.5
+p-xscale2=0.2 1
+p-xscale3=1 0
+single-particle=1
+
+[flash2]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=0 0
+p-life=1.6
+p-postoffset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-rotvel=-40
+p-scale=300
+p-simpleorient=2
+p-startframe=2
+p-texdiv=2 2
+p-texture=ShopFX.tga
+p-type=1
+p-xscale1=0 0.5
+p-xscale2=0.2 1
+p-xscale3=1 0
+single-particle=1
+

@@ -1,0 +1,36 @@
+[System]
+GroupPart1=Wind
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+
+[Wind]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=0.15
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=12
+p-lifeP1=0 1
+p-lifeP2=1 0.4
+p-linger=0
+p-mesh=SRU_Mana_WaftingMana_Geo_01.sco
+p-meshtex=SRU_Mana_Drift_UpWard_01.DDS
+p-meshtex-mult=SRU_Mana_Drift_UpWard_Mult_01.dds
+p-postoffset=0 50 0
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.4 0
+p-uvscroll-rgb-mult=0.2 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 0.7
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+
+[UNKNOWN_HASHES]
+unk2B3E333C=color-hold.DDS
+unk8C612488=sphere.sco

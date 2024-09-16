@@ -1,0 +1,33 @@
+[System]
+GroupPart1=bladetrail
+GroupPart10=blade_pax
+GroupPart1Type=Simple
+GroupPart2=aboriginal_bladetrail
+GroupPart2Type=Simple
+GroupPart3=blade-blue
+GroupPart4=blade-purple
+GroupPart5=blade-red
+GroupPart6=blade-aboriginal
+GroupPart7=blade-freljord
+GroupPart8=freljord_bladetrail
+GroupPart8Type=Simple
+GroupPart9=pax_bradetrail
+GroupPart9Type=Simple
+SimulateEveryFrame=1
+
+[blade-blue]
+KeywordsRequired=BaseSivir
+p-bindtoemitter=1 1
+p-linger=0
+p-quadrot=0 0 0
+p-rotvel=0 0 -720
+p-scale=65 65 65
+p-shadow=1
+p-simpleorient=1
+p-texture=sivir_weapon_base_BA.dds
+p-type=1
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk24E20A1F=1

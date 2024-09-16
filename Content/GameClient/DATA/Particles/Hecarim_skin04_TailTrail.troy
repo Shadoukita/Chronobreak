@@ -1,0 +1,111 @@
+[FlameAccel]
+f-accel=-300 20 0
+f-localspace=1
+
+[FlameAccel2]
+f-accel=-100 10 0
+f-localspace=1
+
+[FlameBody_Arcade]
+KeywordsRequired=HecarimArcade
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=20
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=FlameAccel2
+field-drag-1=FlameDrag
+p-bindtoemitter=1 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=0.9
+p-linger=1
+p-numframes=8
+p-offset=0 3 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-hecarim_skin04_flame.tga
+p-rotvel=10
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=55
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=4 2
+p-texture=hecarim_skin04_flame.tga
+p-type=0
+p-vel=-100 20 5
+p-velYP1=0 -0.5
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0.3
+p-xscale2=1 1
+pass=100
+rendermode=4
+
+[FlameDrag]
+f-drag=0.3
+f-pos=0 0 0
+f-radius=300
+
+[Pixel]
+KeywordsRequired=HecarimArcade
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=15
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=FlameAccel
+field-drag-1=FlameDrag
+p-bindtoemitter=1 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=12
+p-life=0.6
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-linger=1
+p-numframes=8
+p-offset=0 10 0
+p-randomstartframe=1
+p-rgba=color-hecarim_skin04_flame.tga
+p-rotvel=10
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=40
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 4
+p-texture=hecarim_skn4_sparkle.tga
+p-type=0
+p-vel=-100 30 5
+p-velYP1=0 -0.2
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0.5
+p-xscale2=1 1
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Pixel
+GroupPart1Type=Simple
+GroupPart2=FlameBody_Arcade
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+

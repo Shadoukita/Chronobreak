@@ -1,0 +1,30 @@
+[System]
+GroupPart1=smokehead
+SimulateEveryFrame=1
+group-vis=10000
+
+[smokehead]
+ChildEmitOnDeath=0
+ChildParticleName=env_wispy_trail.troy
+Particle-Acceleration=200 0 10
+Particle-AccelerationXP1=0 -2
+Particle-AccelerationXP2=1 2
+Particle-AccelerationZP1=0 -1
+e-life=-1
+e-local-orient=1
+e-rate=0.5
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=0 0
+p-drag=1 0 1
+p-life=16
+p-quadrot=0 0 0
+p-rgba=color-rampup.tga
+p-scale=10 10 0
+p-texture=sona_pax_pixel.tga
+p-type=0
+p-vel=20 40 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0C453985=1 -2

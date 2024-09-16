@@ -1,0 +1,77 @@
+[LockFlash]
+e-life=1
+e-linger=1
+e-rate=3
+p-bindtoemitter=1
+p-life=0.5
+p-offset=0 50 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-scale=300 300 400
+p-texture=SRU_JungleBuff_Wolf_flash_core.dds
+p-type=1
+p-xquadrot-on=1
+p-xrgba=0.35 0.8 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 0 0
+p-xscale1=0.2 1 1 0
+p-xscale2=1 0.2 0.2 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=LockFlash
+GroupPart2=burstsparkle
+SimulateEveryFrame=1
+
+[burstsparkle]
+e-life=1
+e-linger=0
+e-rate=20
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 180
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-timeoffset=0.1
+p-bindtoemitter=1 0.5
+p-drag=2 3 2
+p-life=1.25
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-numframes=4
+p-offset=250 0 0
+p-postoffset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve4.tga
+p-rotvel=1
+p-rotvelP1=0 -20
+p-rotvelP2=1 20
+p-scale=50 50 50
+p-scaleXP1=0 2
+p-scaleXP2=1 1
+p-shadow=0
+p-texdiv=2 2
+p-texture=SRU_JungleBuff_Wolf_Marker_2x2.dds
+p-type=0
+p-vel=-1000 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-worldaccel=0 -10 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=40
+rendermode=4
+single-particle=1
+uniformscale=1
+

@@ -1,0 +1,31 @@
+[System]
+GroupPart1=teamcircle-red
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SimulateOncePerFrame=1
+SoundOnCreate=Play_sfx_NasusSkin05_NasusE_boom
+
+[teamcircle-red]
+e-life=4.25
+e-linger=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.4 0.6000000000000001
+p-colortype=1 0
+p-life=4.25
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-rgba=color-teams32.tga
+p-scale=405
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=Nasus_Skin05_E_Tar_Red.dds
+p-type=1
+pass=50
+rendermode=1
+single-particle=1
+teamcolor-correction=1
+

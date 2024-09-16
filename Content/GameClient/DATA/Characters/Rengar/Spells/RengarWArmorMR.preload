@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Rengar_Base_W_Max_Buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Rengar_Base_W_Buf.troy"}}, 
+}

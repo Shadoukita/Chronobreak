@@ -1,0 +1,106 @@
+[Marker]
+e-life=4.5
+e-linger=0
+e-local-orient=1
+e-rate=40
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-accel=-200 0 0
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-drag=1 1 1
+p-flexoffset=0.004999999888241291
+p-frameRate=0
+p-life=0.8
+p-linger=0
+p-mesh=Global_SS_Smite_Duel_Challenged.sco
+p-meshtex=Global_SS_Smite_Duel_Challenged.tga
+p-numframes=1
+p-offset=70 0 0
+p-postoffset=0 10 0
+p-scale=55 15 15
+p-startframe=0
+p-texdiv=3 3
+p-type=3
+p-uvscroll-rgb=0.1 0.1
+p-vecalign=1
+p-vel=-70 0 0
+p-velXP1=0 0.9
+p-velXP2=1 1
+p-xrgba=1 1 1 0.25
+p-xscale1=0 1 1 0
+p-xscale2=0.2 1 1 3
+p-xscale3=0.5 1 1 1
+p-xscale4=1 1 0 0
+pass=100
+rendermode=1
+
+[Ring_ally]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1
+p-colorscale=0.01 0.3
+p-flexscale=0.004999999888241291
+p-life=5
+p-linger=0
+p-mesh=Shared_AoERing.scb
+p-meshtex=Global_SS_Smite_Duel_Challenged.dds
+p-offset=0 0 0
+p-scale=0.1 0.1 0.1
+p-texdiv=2 2
+p-type=3
+p-uvscroll-rgb=0.5 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Ring_ally
+GroupPart2=Marker
+GroupPart3=groundglow
+SimulateEveryFrame=1
+
+[groundglow]
+e-life=1
+e-local-orient=0
+e-rate=2
+e-rgba=10 215 255 255
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=5
+p-quadrot=-90 360 90
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-scale=135 135 100
+p-texture=bigglow.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 0.5 0.25 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=0.30000000000000004 1 1 0
+p-xscale3=1 1 1 0
+pass=3
+rendermode=2
+single-particle=1
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk20307A8F=1
+unk9014DA42=1
+unkD9062CDC=1

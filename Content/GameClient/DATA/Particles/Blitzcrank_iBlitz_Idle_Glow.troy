@@ -1,0 +1,54 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=low
+GroupPart2=glow2
+SimulateEveryFrame=1
+
+[glow]
+KeywordsRequired=iBlitz
+e-life=-1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-postoffset=0 0 -2
+p-quadrot=0 180 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 10
+p-scale=30 30 30
+p-simpleorient=2
+p-texture=crystal_inner_glow_blue.dds
+p-type=1
+p-vel=0 0 3
+rendermode=0
+
+[glow2]
+KeywordsRequired=iBlitz
+e-life=-1
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-postoffset=0 0 -10
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 1
+p-rotvelP2=1 -1
+p-scale=35 35 35
+p-texture=Blitzcrank_iBlitz_Chest_Glow.dds
+p-type=0
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 1 1
+p-xscale3=0.8500000238418579 1 1 1
+pass=-100
+rendermode=4
+
+[UNKNOWN_HASHES]
+unkBE7C263B=1
+unkDA5F84E3=1

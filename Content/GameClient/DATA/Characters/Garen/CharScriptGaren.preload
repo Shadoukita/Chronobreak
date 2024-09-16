@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="garenrprecast"}}, 
+{Function=BBPreloadSpell, Params={Name="garenpassiveheal"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="garenpassive"}}, 
+{Function=BBPreloadSpell, Params={Name="garenruncyclemanager"}}, 
+{Function=BBPreloadSpell, Params={Name="garenwpassive"}}, 
+{Function=BBPreloadParticle, Params={Name="garen_base_interactive3_sound.troy"}}, 
+}

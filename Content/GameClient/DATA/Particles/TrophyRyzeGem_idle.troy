@@ -1,0 +1,66 @@
+[System]
+GroupPart1=gemglow
+GroupPart1Type=Simple
+GroupPart2=glowring
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[gemglow]
+KeywordsRequired=TrophyRyze
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=5
+e-rotation1=60
+e-rotation1-axis=0 1 0
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.4
+p-colorscale=1 0.2
+p-colortype=1 3
+p-life=2
+p-numframes=4
+p-offset=1 1 1
+p-offsetXP1=0 -3
+p-offsetXP2=0.5 -2
+p-offsetXP3=0.5099999904632568 2
+p-offsetXP4=1 3
+p-offsetYP1=0 -2
+p-offsetYP2=1 3
+p-offsetZP1=0 -3
+p-offsetZP2=0.5 -2
+p-offsetZP3=0.5099999904632568 2
+p-offsetZP4=1 3
+p-quadrot=0 0 0
+p-rgba=color-lensbell.tga
+p-scale=5
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+rendermode=0
+
+[glowring]
+KeywordsRequired=TrophyRyze
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=0.5 0.4
+p-colortype=0 0
+p-life=0.5
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=0 0 0
+p-rgba=color-rainbowbell.tga
+p-scale=40
+p-startframe=0
+p-texdiv=1 1
+p-texture=glow-soft.tga
+p-type=0
+rendermode=0
+

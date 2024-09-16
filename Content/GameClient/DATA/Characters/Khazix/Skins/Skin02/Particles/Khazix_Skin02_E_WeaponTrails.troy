@@ -1,0 +1,117 @@
+[System]
+GroupPart1=trail_1
+GroupPart2=trail_2
+GroupPart3=trail_3
+GroupPart4=trail_4
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_KhazixSkin02_KhazixE_missilelaunch
+
+[trail_1]
+e-life=1
+e-local-orient=0
+e-rate=150
+e-tilesize=500 0 0
+e-timeoffset=0.1
+flag-disable-z=1
+p-accel=0 0 -200
+p-drag=1 1 1
+p-life=0.8
+p-local-orient=0
+p-postoffset=0 10 0
+p-rgba=Khazix_Skin02_E_WeaponTrails_Trail_ramp.tga
+p-scale=30 0 0
+p-scale1=0 0 0 0
+p-scale2=0.2 1 0 0
+p-scale3=1 1 0 0
+p-texture=Khazix_Skin02_E_WeaponTrails_Trail.dds
+p-trailmode=1
+p-type=5
+p-vel=0 0 200
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+rendermode=1
+
+[trail_2]
+e-life=1
+e-local-orient=0
+e-rate=150
+e-tilesize=500 0 0
+e-timeoffset=0.1
+flag-disable-z=1
+p-accel=0 0 200
+p-drag=1 1 1
+p-life=0.8
+p-local-orient=0
+p-postoffset=0 10 0
+p-rgba=Khazix_Skin02_E_WeaponTrails_Trail_ramp.tga
+p-scale=30 0 0
+p-scale1=0 0 0 0
+p-scale2=0.2 1 0 0
+p-scale3=1 1 0 0
+p-texture=Khazix_Skin02_E_WeaponTrails_Trail.dds
+p-trailmode=1
+p-type=5
+p-vel=0 0 -200
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+rendermode=1
+
+[trail_3]
+e-life=1
+e-local-orient=0
+e-rate=150
+e-tilesize=500 0 0
+e-timeoffset=0.1
+flag-disable-z=1
+p-accel=200 0 0
+p-drag=1 1 1
+p-life=0.8
+p-local-orient=0
+p-postoffset=0 10 0
+p-rgba=Khazix_Skin02_E_WeaponTrails_Trail_ramp.tga
+p-scale=30 0 0
+p-scale1=0 0 0 0
+p-scale2=0.2 1 0 0
+p-scale3=1 1 0 0
+p-texture=Khazix_Skin02_E_WeaponTrails_Trail.dds
+p-trailmode=1
+p-type=5
+p-vel=-200 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+rendermode=1
+
+[trail_4]
+e-life=1
+e-local-orient=0
+e-rate=150
+e-tilesize=500 0 0
+e-timeoffset=0.1
+flag-disable-z=1
+p-accel=-200 0 0
+p-drag=1 1 1
+p-life=0.5
+p-local-orient=0
+p-postoffset=0 10 0
+p-rgba=Khazix_Skin02_E_WeaponTrails_Trail_ramp.tga
+p-scale=30 0 0
+p-scale1=0 0 0 0
+p-scale2=0.2 1 0 0
+p-scale3=1 1 0 0
+p-texture=Khazix_Skin02_E_WeaponTrails_Trail.dds
+p-trailmode=1
+p-type=5
+p-vel=200 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk23634F06=0 0
+unk742AFB87=0 0
+unk81D3F604=0 0
+unkD29BA285=0 0

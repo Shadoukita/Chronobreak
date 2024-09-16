@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="irelia_ult_magic_resist.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="irelia_ult_dagger_active_04.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="ireliaidleparticle"}}, 
+{Function=BBPreloadSpell, Params={Name="ireliatranscendentblades"}}, 
+{Function=BBPreloadSpell, Params={Name="ireliatranscendentbladesspell"}}, 
+{Function=BBPreloadSpell, Params={Name="unlockanimation"}}, 
+}

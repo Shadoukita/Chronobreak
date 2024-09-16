@@ -1,0 +1,34 @@
+[System]
+GroupPart1=reticle-proj
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[reticle-proj]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 11
+p-frameRate=0
+p-life=4.25
+p-linger=0
+p-numframes=1
+p-offset=0 90 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-rotvel=-250
+p-scale=180
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ShockwaveEdge-red.tga
+p-type=1
+p-xscale1=0 1 1 1
+p-xscale2=0.25 1 1 1
+p-xscale3=0.9 1 1 1
+p-xscale4=1 1.5 1.5 1.5
+rendermode=0
+single-particle=1
+

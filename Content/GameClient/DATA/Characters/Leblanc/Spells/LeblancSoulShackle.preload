@@ -1,0 +1,12 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="leblanc_base_e_chain.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_shackle_self_idle.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_e_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_e_tar_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_e_indicator.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancchaosorbproc"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancchaosorbmproc"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancsoulshacklenet"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancsoulshackle"}}, 
+{Function=BBPreloadSpell, Params={Name="slow"}}, 
+}

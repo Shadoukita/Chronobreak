@@ -1,0 +1,47 @@
+[System]
+GroupPart1=WaterCausticx
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+
+[WaterCausticx]
+e-rate=1
+e-rotation1=41
+e-rotation1-axis=0 1 0
+p-bindtoemitter=1 0
+p-drag=1 0 1
+p-linger=0
+p-local-orient=1
+p-mesh=SRU_river_watercaustics_01.scb
+p-meshtex=SRU_River_WaterCaustics_01.DDS
+p-meshtex-mult=SRU_River_WaterCaustics_01_Mult.DDS
+p-offset=120 1 120
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=0 -15 0
+p-scale=1 1 2
+p-texture-mode=warp
+p-type=3
+p-uvscroll-rgb=-0.10000000149011612 -0.10000000149011612
+p-uvscroll-rgb-mult=-0.07999999821186066 -0.18000000715255737
+p-uvscroll-rgb-multYP1=0 1.5
+p-uvscroll-rgb-multYP2=1 2
+p-vel=50 0 -25
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.6 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk10E4DE7E=-0.07999999821186066 -0.18000000715255737
+unk1E6D6749=0 0.5
+unk51EE294A=color-hold.DDS
+unk943ECD5B=14
+unkA57CB43D=sphere.sco
+unkC1DE926D=50 0 0
+unkE581CFBC=0 1
+unkE581CFBD=1 2
+unkF29D2F8C=0 0.5
+unkF29D2F8D=1 1

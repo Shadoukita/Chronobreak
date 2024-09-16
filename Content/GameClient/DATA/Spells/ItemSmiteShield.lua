@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Shen_Feint.dds"
+BuffTextureName = L0_1
+L0_1 = "ItemSmiteShield"
+BuffName = L0_1
+L0_1 = "Global_SS_Smite_Duel_Shield.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_BUFFBONE_GLB_CHEST_LOC"
+AutoBuffActivateAttachBoneName = L0_1

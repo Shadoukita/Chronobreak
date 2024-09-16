@@ -1,0 +1,19 @@
+{"EncounterDefinition": {
+"BonusValue": 12,
+"SquadAI": "Guard",
+"MonsterGroups":
+[
+	{
+		"Monsters":
+		[
+			{
+				"SkinName": "AscWarpIcon",
+				"Value": 1,
+				"Count": 1,
+				"Targetable": 0,
+				"MinimapIcon": "NeutralPointOrder"
+			}
+		]
+	}
+]
+}} 

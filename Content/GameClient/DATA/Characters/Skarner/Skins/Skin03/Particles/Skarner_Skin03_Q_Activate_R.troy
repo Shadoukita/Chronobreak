@@ -1,0 +1,100 @@
+[System]
+GroupPart1=sparkle
+GroupPart1Type=Simple
+GroupPart2=glow
+GroupPart2Type=Simple
+GroupPart3=flare
+GroupPart3Type=Simple
+GroupPart4=crystal
+GroupPart5=flare1
+GroupPart5Type=Simple
+SimulateEveryFrame=1
+
+[crystal]
+e-disabled=1
+e-rate=6
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-local-orient=1
+p-mesh=skarner_crystal_slash_arm.sco
+p-meshtex=dark_energy_01.dds
+p-offset=4 20 0
+p-quadrot=-90 -90 0
+p-rgba=alpha_20.tga
+p-scale=1.649999976158142 1.850000023841858 1.649999976158142
+p-type=3
+p-uvscroll-rgb=-1.850000023841858 -0.6299999952316284
+
+[flare]
+e-disabled=1
+e-rate=7
+p-bindtoemitter=1 1
+p-life=0.5
+p-quadrot=20
+p-quadrot1=0 0
+p-quadrot2=1 -15
+p-rgba=alpha_02.tga
+p-scale=10
+p-texture=Skarner_Skin03_Q_glow_03.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 12.5
+p-xscale3=1 25
+
+[flare1]
+e-disabled=1
+e-rate=12
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.5
+p-quadrot=20
+p-quadrot1=0 0
+p-quadrot2=1 -15
+p-rgba=Skarner_Skin03_E_color_02.dds
+p-scale=12
+p-texture=Skarner_Skin03_E_glow.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 12.5
+p-xscale3=1 25
+
+[glow]
+e-disabled=1
+e-rate=15
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-life=0.550000011920929
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Skarner_Skin03_Q_color_02.tga
+p-scale=130
+p-startframe=2
+p-texdiv=2 2
+p-texture=Skarner_Skin03_Q_glow_04.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.2 0.7000000000000001
+p-xscale3=1 0.1
+
+[sparkle]
+e-disabled=1
+e-rate=2
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-quadrot=20
+p-quadrot1=0 0
+p-quadrot2=1 -15
+p-rgba=alpha_02.tga
+p-rotvel=270
+p-rotvelP1=0 -1
+p-rotvelP2=0.5 -1
+p-rotvelP3=0.5099999904632568 1
+p-rotvelP4=1 1
+p-scale=8
+p-texture=blue_buf_05.dds
+

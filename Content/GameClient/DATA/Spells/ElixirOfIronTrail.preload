@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="global_item_elixirofiron_trail.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="elixirofirontrailbuff"}}, 
+}

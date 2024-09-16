@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="netherblade"}}, 
+{Function=BBPreloadParticle, Params={Name="kassadin_base_w_buf.troy"}}, 
+}

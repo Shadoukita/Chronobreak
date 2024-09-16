@@ -1,0 +1,42 @@
+[System]
+GroupPart1=trail
+GroupPart1Type=Complex
+
+[trail]
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=3000
+e-tilesize=2000 0 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-life=0.2
+p-offset=0 0 0
+p-quadrot=-50 0 0
+p-rgba=color-hold.tga
+p-rotvel=0 0 0
+p-scale=150 0 0
+p-texture=trail_weaponstreak1.tga
+p-trailmode=0
+p-type=4
+
+[UNKNOWN_HASHES]
+unk12201972=0 0 0
+unk187D280F=color-white32.tga
+unk18E43033=0.30000000000000004 1
+unk3BBF6126=4
+unk8597BC5E=1 1 1
+unk9CB55B53=0 1 1 1
+unk9CB55B54=1 0 0 0
+unkAF82F54A=0.7000000000000001 0
+unkBF9DE0A8=0.30000000000000004
+unkCA60B27E=0 30 0
+unkCBB5B2F3=4
+unkD5C6A520=color-bluehit.tga
+unkDE9364ED=0 0 1 0
+unkDE9364EE=1 1 1 1
+unkDEFC1ED7=120
+unkDF7205BF=0 0 0
+unkE0782631=1 0
+unkF49BAC44=6000 30 0

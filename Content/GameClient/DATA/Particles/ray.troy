@@ -1,0 +1,23 @@
+[System]
+GroupPart1=ray
+
+[ray]
+e-local-orient=1
+e-rate=1
+e-rgba=255 255 0 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.5
+p-quadrot=-90 0 0
+p-scale=30 100 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Purify01.tga
+p-type=2
+p-xrgba1=0 0 0 1 0
+p-xrgba2=1 0 0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 4 4 4
+
+[UNKNOWN_HASHES]
+unkF5B5FB83=30

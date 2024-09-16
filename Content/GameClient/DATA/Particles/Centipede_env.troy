@@ -1,0 +1,33 @@
+[System]
+GroupPart1=centipede
+SimulateEveryFrame=1
+build-up-time=10
+
+[centipede]
+e-life=-1
+e-rate=1
+e-rateP1=0 0.2
+e-rateP2=1 0.1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.5
+p-colorscale=1 1
+p-colortype=1 3
+p-life=8
+p-mesh=centipedepath.sco
+p-meshtex=centipede_scroll.tga
+p-numframes=4
+p-offset=0 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=color-centipede.tga
+p-scale=12 12 12
+p-shadow=1
+p-startframe=0
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 0.019999999552965164
+rendermode=1
+

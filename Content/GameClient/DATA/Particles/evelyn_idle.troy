@@ -1,0 +1,135 @@
+[FlameAccel]
+f-accel=0 30 0
+f-localspace=0
+
+[FlameAccel2]
+f-accel=0 55 0
+f-localspace=0
+
+[FlameAdditive]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=15
+field-accel-1=FlameAccel
+field-drag-1=FlameDrag
+field-orbit-1=FlameOrbit
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1.5
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-linger=1.5
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-Firehalo.tga
+p-rotvel=50
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=17
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-startframe=8
+p-texdiv=4 4
+p-texture=hecarimflame.tga
+p-type=0
+p-vel=10 0 0
+p-xscale1=0 0.5
+p-xscale2=0.8 1
+p-xscale3=1 0.3
+rendermode=4
+
+[FlameAlpha]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=20
+field-accel-1=FlameAccel2
+field-drag-1=FlameDrag
+field-orbit-1=FlameOrbit
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1.2000000000000002
+p-lifeP1=0 0.5
+p-lifeP2=0.9 0.8
+p-lifeP3=1 1
+p-linger=1.2000000000000002
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=8
+p-rgba=color-darksmoke02.tga
+p-rotvel=40
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=18
+p-scaleP1=0 0.4
+p-scaleP2=1 1
+p-startframe=8
+p-texdiv=4 4
+p-texture=hecarimflame.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+pass=10
+rendermode=1
+
+[FlameDrag]
+f-drag=0.3
+f-pos=0 0 0
+f-radius=500
+
+[FlameOrbit]
+f-direction=0 1 0
+f-localspace=0
+
+[Swirl]
+e-life=-1
+e-local-orient=0
+e-rate=3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.7
+p-linger=0
+p-mesh=magicball.sco
+p-meshtex=Evelynn_BloodBall.tga
+p-quadrot=360 360 360
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 1
+p-rgba=alpha_20.tga
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=1 0
+p-vel=0 20 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1.3 1.3 1.3
+rendermode=1
+
+[System]
+GroupPart1=Swirl
+GroupPart2=FlameAdditive
+GroupPart2Type=Simple
+GroupPart3=FlameAlpha
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

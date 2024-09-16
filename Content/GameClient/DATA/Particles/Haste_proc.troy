@@ -1,0 +1,39 @@
+[Swirl]
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.1
+p-colortype=1 0
+p-flexscale=0.004999999888241291
+p-life=2
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=1
+p-rgba=color-orderboom.tga
+p-scale=140
+p-simpleorient=2
+p-texture=Swirl6.tga
+p-type=1
+p-xquadrot=-4
+p-xquadrot-on=1
+p-xquadrot1=0 200
+p-xquadrot2=0.10000000149011612 240
+p-xquadrot3=0.20000000298023224 260
+p-xquadrot4=0.30000001192092896 272
+p-xquadrot5=0.4000000059604645 277
+p-xquadrot6=0.5 279
+p-xquadrot7=0.6000000238418579 281
+p-xquadrot8=1 290
+p-xscale1=0 1
+p-xscale2=0.2 0.6000000000000001
+p-xscale3=0.30000000000000004 0.5
+p-xscale4=0.4000000059604645 0.44999998807907104
+p-xscale5=1 0.44999998807907104
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Swirl
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

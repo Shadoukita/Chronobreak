@@ -1,0 +1,22 @@
+[System]
+GroupPart1=beamGlow
+SimulateEveryFrame=1
+
+[beamGlow]
+e-life=3
+e-linger=0.25
+e-rate=1
+e-tilesize=0 500 0
+p-bindtoemitter=1 0
+p-life=242
+p-linger=0.25
+p-scale=50 1 1
+p-texture=Temp_Kalista_P_BeamGlow.dds
+p-type=6
+p-uvscroll-rgb=-0.3 0
+pass=1
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0BF58896=0.1 0.1 0.1 0.1

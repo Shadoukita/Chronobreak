@@ -1,0 +1,60 @@
+[System]
+GroupPart1=circle
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=circle_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Olaf_OlafAxeThrow_land
+
+[circle]
+e-local-orient=0
+e-rate=1.5
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=0.7
+p-linger=0
+p-numframes=1
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=alpha_02.tga
+p-scale=45
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ring_red.tga
+p-type=7
+p-xscale1=0 0.1
+p-xscale2=1 1.8
+rendermode=0
+teamcolor-correction=1
+
+[circle_02]
+e-local-orient=0
+e-rate=1.5
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=0.6
+p-linger=0
+p-numframes=1
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=alpha_03.tga
+p-scale=40
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ring_red.tga
+p-type=7
+p-xscale1=0 1
+p-xscale2=1 0.1
+rendermode=0
+teamcolor-correction=1
+

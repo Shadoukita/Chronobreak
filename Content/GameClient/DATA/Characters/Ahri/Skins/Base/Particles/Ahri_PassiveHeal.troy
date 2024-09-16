@@ -1,0 +1,141 @@
+[BigRay]
+e-life=1
+e-local-orient=0
+e-rate=5
+e-rgba=255 255 0 255
+e-rgba1=1 1 1
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.5
+p-linger=0.5
+p-offset=20 0 0
+p-offsetXP1=0 1
+p-offsetXP2=1 -1
+p-quadrot=-90 0 0
+p-scale=300 100 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Purify01.tga
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.1 0.1 0.8 0.07 0.1
+p-xrgba3=0.34 0.3 0.9 0.2 0.3
+p-xrgba4=0.5 0.4 1 1 0.4
+p-xrgba5=0.68 0.28 0.96 0.26 0.3
+p-xrgba6=0.88 0.1 0.9 0.09 0.1
+p-xrgba7=1 0 0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 4 4 4
+rendermode=0
+
+[Cylinder]
+e-life=1
+e-local-orient=0
+e-rate=10
+p-bindtoemitter=1 1
+p-life=1
+p-mesh=Saucer8.sco
+p-meshtex=Wish_Cylinder.tga
+p-offset=0 50 0
+p-offsetYP1=0 1
+p-offsetYP2=1 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=wish_tar__mesh__p-rgba.tga
+p-rotvel=-100 0 0
+p-scale=100 100 100
+p-simpleorient=2
+p-startframe=1
+p-texdiv=2 2
+p-texture=Purify01.tga
+p-type=1
+p-vel=0 100 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5255184769630432 1 1
+rendermode=0
+
+[LittleRay]
+e-life=1
+e-local-orient=0
+e-rate=5
+e-rgba=255 255 0 255
+e-rgba1=1 1 1
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.5
+p-linger=0.5
+p-offset=10 0 0
+p-offsetXP1=0 1
+p-offsetXP2=1 -1
+p-quadrot=-90 0 0
+p-scale=100 100 0
+p-startframe=2
+p-texdiv=2 2
+p-texture=Purify01.tga
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 0
+p-xrgba2=0.1 0.1 0.8 0.07 0.1
+p-xrgba3=0.34 0.3 0.9 0.2 0.3
+p-xrgba4=0.5 0.4 1 1 0.4
+p-xrgba5=0.68 0.28 0.96 0.26 0.3
+p-xrgba6=0.88 0.1 0.9 0.09 0.1
+p-xrgba7=1 0 0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 4 4 4
+rendermode=0
+
+[Stars]
+e-life=1
+e-local-orient=0
+e-rate=6
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-orbit-1=Stars_Swirl
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1.5
+p-offset=50 1 0
+p-offsetXP1=0 0
+p-offsetXP2=0.9 1
+p-offsetXP3=1 2
+p-offsetYP1=0 0
+p-offsetYP2=1 100
+p-rgba=Wish_tar__starTrailSPI3__p-rgba.tga
+p-scale=6
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=ball01.tga
+p-type=0
+p-vel=0 100 100
+p-velYP1=0 0.2
+p-velYP2=1 1.2000000000000002
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=0.8 1
+p-xscale4=1 0.4
+rendermode=0
+
+[Stars_Swirl]
+f-direction=0 1 0
+f-localspace=0
+
+[System]
+GroupPart1=Stars
+GroupPart1Type=Simple
+GroupPart2=Cylinder
+GroupPart2Type=Simple
+GroupPart3=LittleRay
+GroupPart4=BigRay
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk4584D10D=100
+unkCBCC4DB8=1.5
+unkF7C979E3=300

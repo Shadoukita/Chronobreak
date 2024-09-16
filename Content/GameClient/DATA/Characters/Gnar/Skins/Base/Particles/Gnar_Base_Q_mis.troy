@@ -1,0 +1,72 @@
+[System]
+GroupPart1=boomerang
+GroupPart2=trail
+GroupPart3=trail_distort
+GroupPart4=blur
+SimulateEveryFrame=1
+
+[blur]
+e-rgba=255 255 255 151
+p-bindtoemitter=1 1
+p-linger=0
+p-quadrot=0 0 -70
+p-rotvel=0 0 -1200
+p-scale=75 75 1
+p-simpleorient=2
+p-texture=Gnar_Base_Q_Weapon_Blur.dds
+p-type=1
+rendermode=1
+single-particle=1
+
+[boomerang]
+p-bindtoemitter=1 1
+p-linger=0
+p-mesh=gnar_base_q_weapon.scb
+p-meshtex=Gnar_Base_Q_Weapon.dds
+p-rotvel=0 0 -1200
+p-shadow=1
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 1 1 0.5
+rendermode=1
+single-particle=1
+
+[trail]
+e-life=3
+e-rate=30
+e-rgba=255 255 255 50
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-mesh=gnar_base_q_weapon.scb
+p-meshtex=Gnar_Base_Q_Weapon.dds
+p-quadrot=0 0 1
+p-quadrot1=0 0 0 0
+p-quadrot2=1 0 0 -3600
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[trail_distort]
+e-life=4
+e-local-orient=0
+e-rate=60
+p-distortion-mode=2
+p-distortion-power=0.019999999552965164
+p-life=0.5
+p-normal-map=Gnar_Base_Q_Quad_dist.dds
+p-quadrot=90 0 1
+p-quadrot1=0 1 0 0
+p-quadrot2=1 1 0 2000
+p-rgba=Gnar_Base_Q_Quad_rgba.dds
+p-scale=60 60 0
+p-texture=color-hold.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=1 2 2 0
+rendermode=1
+

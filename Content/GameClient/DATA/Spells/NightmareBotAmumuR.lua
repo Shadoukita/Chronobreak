@@ -1,0 +1,15 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "SadMummy_BandAidThingy.dds"
+BuffTextureName = L0_1
+L0_1 = "CurseoftheSadMummy"
+BuffName = L0_1
+L0_1 = "game_floatingtext_Snared"
+PopupMessage1 = L0_1
+L0_1 = {}
+L1_1 = "BadrobotAmumu"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

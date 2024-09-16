@@ -1,0 +1,9 @@
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net8.0\LeaguePackets.deps.json
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net8.0\LeaguePackets.dll
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\bin\Debug\net8.0\LeaguePackets.pdb
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net8.0\LeaguePackets.GeneratedMSBuildEditorConfig.editorconfig
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net8.0\LeaguePackets.csproj.CoreCompileInputs.cache
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net8.0\LeaguePackets.dll
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net8.0\refint\LeaguePackets.dll
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net8.0\LeaguePackets.pdb
+D:\League Sandbox\Chronobreak\LeaguePackets\LeaguePackets\obj\Debug\net8.0\ref\LeaguePackets.dll

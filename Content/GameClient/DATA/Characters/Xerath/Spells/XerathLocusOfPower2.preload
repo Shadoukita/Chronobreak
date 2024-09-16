@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="xerathlocusofpower2"}}, 
+{Function=BBPreloadSpell, Params={Name="xerathrsoftlock"}}, 
+{Function=BBPreloadSpell, Params={Name="xerathrshots"}}, 
+{Function=BBPreloadParticle, Params={Name="xerath_darkiron_magmadrip.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="xerathrmissilewrapper"}}, 
+}

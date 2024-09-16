@@ -1,0 +1,21 @@
+[Ring]
+e-life=100000
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=0.75
+p-linger=0.5
+p-quadrot=90 0 0
+p-rgba=Urgot_QLockOn_Ring.tga
+p-scale=1260 1260 0
+p-texture=ring_highres.tga
+p-type=1
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=Ring
+GroupPart1Importance=High
+SimulateEveryFrame=0
+

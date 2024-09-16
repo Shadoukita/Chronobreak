@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "OriannaCommandDissonance.dds"
+BuffTextureName = L0_1
+L0_1 = "OrianaDissonanceAlly"
+BuffName = L0_1
+L0_1 = "GLOBAL_HASTE.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = ""
+AutoBuffActivateAttachBoneName = L0_1

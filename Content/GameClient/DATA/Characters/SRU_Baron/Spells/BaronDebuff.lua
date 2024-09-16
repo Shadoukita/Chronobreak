@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Baron_Debuff1.dds"
+BuffTextureName = L0_1
+L0_1 = "BaronDebuff"
+BuffName = L0_1
+L0_1 = "SRU_baron_debuff.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1

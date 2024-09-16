@@ -1,0 +1,33 @@
+[SlashBase]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.3
+p-linger=0
+p-local-orient=0
+p-mesh=TF_Attack_01.sco
+p-meshtex=Khazix_Droid_Q_Slashes.tga
+p-numframes=4
+p-postoffset=20 120 80
+p-quadrot=-10 30 0
+p-rgba=color-bellcurve4.tga
+p-scale=0.9 0.9 -0.9
+p-shadow=0
+p-simpleorient=1
+p-startframe=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 -2
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=SlashBase
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk4121354A=2
+unk55E7DDD3=1

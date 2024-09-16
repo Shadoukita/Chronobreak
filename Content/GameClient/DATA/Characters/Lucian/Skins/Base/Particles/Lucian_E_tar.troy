@@ -1,0 +1,67 @@
+[System]
+GroupPart1=Type11
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[Type11]
+e-life=0.25
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-life=0.75
+p-local-orient=1
+p-rgba=Lucian_E_RGB.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=whitesquare.tga
+p-type=11
+pass=100
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk035C1647=ball01.tga
+unk0C23B0C6=1
+unk1D513CB6=3
+unk20CF4870=0.5
+unk23337CB4=1
+unk267CF285=0 -200 0
+unk2714941E=0
+unk2CE71ABB=1
+unk2ED4CD30=0
+unk36F80CE8=Lucian_E_RGB.tga
+unk402D869F=50
+unk44CCA6B2=0 50
+unk44CCA6B3=1 200
+unk55422C31=0 0.5
+unk55422C32=0.9 2
+unk55422C33=1 4
+unk55A3942D=0 0 0
+unk5DB62455=0 0
+unk5DB62456=1 360
+unk60D2D0BA=0 1 0
+unk62ACEBF9=2000
+unk6A825D77=0 0.5
+unk6A825D78=1 3
+unk730F9F49=0 0 -3
+unk7A84D89B=8
+unk7E4E1294=1
+unk8278B162=Gravity
+unk85E11562=SparksDrag
+unk8794498B=0 2
+unk8794498C=0.2 1
+unk8794498D=0.8 1
+unk8794498E=1 1
+unk941A2BF2=0 -1
+unk941A2BF3=1 1
+unk94983B73=0 0
+unk94983B74=1 1
+unk95164AF4=0 -1
+unk95164AF5=1 1
+unk9CF0C8EE=0
+unkC3B78FE0=0.004999999888241291
+unkC8A72B82=0
+unkCA69CEB7=4
+unkD2DC0987=10 100 10
+unkEA5F9402=0 0

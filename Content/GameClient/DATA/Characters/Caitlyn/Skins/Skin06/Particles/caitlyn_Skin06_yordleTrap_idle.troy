@@ -1,0 +1,31 @@
+[System]
+GroupPart1=hand_glow_stage_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[hand_glow_stage_01]
+e-life=100000
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-life=0.35
+p-linger=-1
+p-offset=1 1 1
+p-postoffset=0 15 0
+p-rotvel=90
+p-rotvelP1=0 0
+p-rotvelP2=1 1
+p-scale=80
+p-scale1=0 0.7
+p-scale2=0.30000001192092896 1.4500000476837158
+p-scale3=1 0.7
+p-simpleorient=2
+p-texture=Flare-Sun_green.tga
+p-vel=0 -15 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+rendermode=0
+

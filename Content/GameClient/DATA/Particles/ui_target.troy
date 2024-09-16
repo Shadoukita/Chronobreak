@@ -1,0 +1,25 @@
+[System]
+GroupPart1=target
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[target]
+e-life=6
+e-linger=0
+e-rate=2
+flag-brighter-in-fow=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-mesh=ui_crosshair.sco
+p-meshtex=ui-crosshair.tga
+p-offset=0 0 0
+p-postoffset=0 15 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=7 10 7
+p-shadow=1
+p-type=3
+rendermode=3
+

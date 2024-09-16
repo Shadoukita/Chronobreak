@@ -1,0 +1,47 @@
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=WeaponTrail_Skin04
+SimulateEveryFrame=1
+
+[WeaponTrail]
+KeywordsExcluded=SejuaniSkin04
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0.3
+p-mesh=Sejuani_BasicAttack_02.sco
+p-meshtex=Sejuani_basicattack_trail_01.tga
+p-offset=0 -150 0
+p-quadrot=0 180 0
+p-rgba=color-sejuani_basicattack_trail_01.tga
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=-2 0
+rendermode=0
+single-particle=1
+
+[WeaponTrail_Skin04]
+KeywordsRequired=SejuaniSkin04
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.3
+p-linger=0.3
+p-mesh=Sejuani_BasicAttack_02.sco
+p-meshtex=Sejuani_BasicAttack_trail_skin04.tga
+p-offset=0 -150 0
+p-quadrot=0 180 0
+p-rgba=color-Sejuani_BasicAttack_trail_skin04.tga
+p-scale=1.1 1.1 1.1
+p-type=3
+p-uvscroll-rgb=-2 0
+rendermode=0
+single-particle=1
+

@@ -1,0 +1,102 @@
+[Droid_Arrow_Outer]
+e-life=-1
+e-local-orient=1
+e-rate=0.25
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-postoffset=0 40 0
+p-quadrot=45 0 0
+p-rgba=Khazix_Skin01_Z_Rampdown_Quick_RGB.tga
+p-scale=100 100 100
+p-texture=Khazix_Skin01_Q_Marker_Arrows.tga
+p-type=0
+p-xrgba=0.5 0.25 0 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=100
+rendermode=0
+
+[Droid_Arrows]
+e-life=-1
+e-local-orient=1
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-postoffset=0 40 0
+p-rgba=Khazix_Skin01_Z_Rampdown_Quick_RGB.tga
+p-scale=100 100 100
+p-texture=Khazix_Skin01_Q_Marker_Arrows.tga
+p-type=0
+p-xrgba=1 0 0 1
+pass=100
+rendermode=0
+
+[Droid_Arrows_Inner]
+e-life=-1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.25
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-postoffset=0 40 0
+p-rgba=Khazix_Skin01_Z_Rampdown_Quick_RGB.tga
+p-scale=60 60 60
+p-texture=Khazix_Skin01_Q_Marker_Arrows.tga
+p-type=0
+p-xrgba=1 0 0 1
+pass=100
+rendermode=0
+
+[Droid_Marker]
+e-life=-1
+e-rate=3
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-postoffset=0 40 0
+p-rgba=Khazix_Skin01_Z_Rampdown_Quick_RGB.tga
+p-scale=70 70 70
+p-texture=Khazix_Skin01_Q_Marker.tga
+p-type=0
+p-xrgba=1 0 0 1
+pass=100
+rendermode=0
+
+[Droid_Text]
+e-life=-1
+e-local-orient=0
+e-rate=3
+e-timeoffset=0.25
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-postoffset=70 115 0
+p-rgba=Khazix_Skin01_Z_Rampdown_Quick_RGB.tga
+p-scale=40 40 40
+p-texture=Khazix_Skin01_Q_Marker_Text.tga
+p-type=0
+p-xrgba=1 0.5 0 1
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Droid_Marker
+GroupPart2=Droid_Arrows
+GroupPart3=Droid_Arrows_Inner
+GroupPart4=Droid_Arrow_Outer
+GroupPart5=Droid_Text
+SimulateEveryFrame=1
+

@@ -1,0 +1,37 @@
+[System]
+GroupPart1=flat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=poofs_03
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[flat]
+e-life=0.1
+e-linger=0
+e-local-orient=0
+e-rate=35
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.1
+p-numframes=1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=90 90 0
+p-scale=340
+p-scaleP1=0 0.9
+p-scaleP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-Rainbow_blue_01.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=0.5 0.5
+p-xscale3=1 0
+rendermode=0
+

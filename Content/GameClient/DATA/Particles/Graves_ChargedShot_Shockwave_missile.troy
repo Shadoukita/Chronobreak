@@ -1,0 +1,204 @@
+[Accel]
+f-accel=200 700 0
+f-localspace=0
+
+[Drag]
+f-drag=4
+f-pos=40 15 40
+f-radius=1000
+
+[Noise]
+f-period=0.5
+f-pos=10 1000 10
+f-radius=1000
+f-veldelta=50
+
+[System]
+GroupPart1=lines
+GroupPart1Importance=Medium
+GroupPart2=spark_trail
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+GroupPart3=smoke
+GroupPart3Type=Simple
+GroupPart4=linesvert
+GroupPart5=linesvert_dist
+GroupPart5Importance=High
+SimulateEveryFrame=1
+
+[lines]
+KeywordsExcluded=GravesSkin05
+e-life=0.1
+e-rate=60
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.15
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-numframes=2
+p-offset=20 0 0
+p-postoffset=-40 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 180
+p-rgba=color-bellcurve.tga
+p-scale=12 25 12
+p-scaleYP1=0 1
+p-scaleYP2=1 13
+p-startframe=0
+p-texdiv=2 1
+p-texture=Graves_ChargedShot_rainbow_mis.tga
+p-type=1
+p-vel=0 0 50
+p-xscale1=0 0.3499999940395355 0 1
+p-xscale2=1 1 2.2 1
+
+[linesvert]
+e-life=0.25
+e-rate=80
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-numframes=2
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=90 0 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 180
+p-rgba=color-bellcurve.tga
+p-scale=16 14 16
+p-scaleYP1=0 0.1
+p-scaleYP2=1 15
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 1
+p-texture=Graves_ChargedShot_rainbow_mis.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 0.15000000596046448 2 1
+p-xscale2=1 1 0.1 1
+
+[linesvert_dist]
+e-life=1.5
+e-rate=40
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+p-colorscale=1 1
+p-colortype=1 0
+p-distortion-power=0.019999999552965164
+p-life=1
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-normal-map=distortion_soundwaves_01.tga
+p-numframes=2
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=90 0 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 180
+p-rgba=color-bellcurve.tga
+p-scale=12 11 12
+p-scaleYP1=0 0.1
+p-scaleYP2=1 15
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 1
+p-texture=Graves_ChargedShot_rainbow_mis.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 0.15000000596046448 2 1
+p-xscale2=1 1 0.1 1
+
+[smoke]
+e-life=0.8
+e-rate=100
+field-accel-1=Accel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=0.1 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1.4000000000000001
+p-lifeP1=0 0.4
+p-lifeP2=1 0.85
+p-offset=10 10 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-buildingsmoke.tga
+p-rotvel=1
+p-rotvelP1=0 -120
+p-rotvelP2=1 120
+p-scale=3.5
+p-scaleP1=0 0.2
+p-scaleP2=1 2.5
+p-texture=LoFog02.tga
+p-vel=0 350 0
+p-velYP1=0 0.8
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 3
+p-xscale3=1 4
+rendermode=1
+
+[spark_trail]
+KeywordsExcluded=GravesSkin05
+e-life=0.1
+e-rate=300
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0.7000000000000001 0
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-drag=2 2 2
+p-life=0.1
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=1
+p-offset=15 15 15
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-postoffset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-firemissile.tga
+p-scale=8
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 1
+p-startframe=4
+p-texdiv=2 3
+p-texture=disintegrate02.tga
+p-vel=0 20 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+
+[UNKNOWN_HASHES]
+unk3D617F3A=1
+unk95469975=1
+unkDBED5B04=1

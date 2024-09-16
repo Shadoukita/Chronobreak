@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="viktor_skin03_q_aug_mis.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="viktor_skin03_q_aug_hit.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="viktor_base_q_aug_mis.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="viktor_base_q_aug_hit.troy"}}, 
+}

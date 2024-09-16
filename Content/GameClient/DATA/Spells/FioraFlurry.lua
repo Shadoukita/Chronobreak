@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Fiora_BurstofSpeed.dds"
+BuffTextureName = L0_1
+L0_1 = "FioraFlurry"
+BuffName = L0_1
+L0_1 = "Fiora_Flurry_AS.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = 3
+SpellToggleSlot = L0_1

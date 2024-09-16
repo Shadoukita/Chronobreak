@@ -1,0 +1,48 @@
+[Additive]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=0
+p-offset=0 15 0
+p-rgba=Kalista_Base_P_Reticle_rgba.dds
+p-scale=100
+p-texture=Kalista_Base_P_Reticle.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0.1
+pass=100
+
+[Alpha]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=0
+p-offset=0 15 0
+p-rgba=Kalista_Base_P_Reticle_rgba.dds
+p-scale=100
+p-texture=Kalista_Base_P_Reticle_Alpha.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0.1
+pass=200
+rendermode=1
+
+[System]
+GroupPart1=Additive
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Alpha
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+

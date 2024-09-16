@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Odin_Lightbringer.dds"
+BuffTextureName = L0_1
+L0_1 = "OdinLightbringer"
+BuffName = L0_1
+L0_1 = "tt_Watched.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "C_BUFFBONE_GLB_HEAD_LOC"
+AutoBuffActivateAttachBoneName = L0_1

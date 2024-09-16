@@ -1,0 +1,48 @@
+[System]
+GroupPart1=littleray
+GroupPart2=glow
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=1000000
+e-rate=10
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.03999999910593033 1
+p-colortype=3 0
+p-life=0.1
+p-rgba=color-rampdown.dds
+p-scale=100
+p-texture=purple_turret_crystal_glow.dds
+
+[littleray]
+e-disabled=1
+e-life=1000000
+e-local-orient=0
+e-rate=100
+e-rgba=255 255 255 100
+p-bindtoemitter=1 0
+p-life=0.5
+p-linger=0
+p-postoffset=0 10 -5
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=10 100 0
+p-texture=ball03.dds
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.5 0 0.5 0
+p-xrgba2=0.5 1 0 1 0.75
+p-xrgba3=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+

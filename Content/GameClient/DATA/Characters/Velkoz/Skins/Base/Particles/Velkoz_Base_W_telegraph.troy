@@ -1,0 +1,32 @@
+[System]
+GroupPart1=Warning_Reticle
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[Warning_Reticle]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0.5 0
+p-colorscale=0.5 0.2
+p-colortype=1 0
+p-life=0.30000000000000004
+p-linger=0
+p-offset=-10 0 580
+p-projection-fading=50
+p-projection-y-range=100
+p-rgba=Velkoz_Base_Z_teamhardbell_rgba.tga
+p-scale=200 0 500
+p-texture=Velkoz_Base_W_Reticle.tga
+p-type=7
+p-xscale1=0 0.30000000000000004 1 1
+p-xscale2=0.2 0.9 1 1
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+

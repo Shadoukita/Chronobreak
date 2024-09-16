@@ -1,0 +1,26 @@
+[System]
+GroupPart1=arrow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+
+[arrow]
+e-life=5
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=0.5
+p-linger=0
+p-mesh=arrow_directional.sco
+p-meshtex=arrow_directional_red.tga
+p-offset=0 0 0
+p-orbitvel=0 0 180
+p-postoffset=0 25 0
+p-quadrot=-90 0 0
+p-scale=35 35 35
+p-shadow=1
+p-type=3
+p-uvscroll-rgb=0 0
+rendermode=3
+single-particle=1
+

@@ -1,0 +1,45 @@
+[System]
+GroupPart1=luxdebuff1
+GroupPart1Type=Simple
+GroupPart2=luxdebuff2
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[luxdebuff1]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=6
+p-linger=0
+p-offset=0 0 0
+p-quadrot=0
+p-rgba=color-eyefade.tga
+p-rotvel=-10
+p-scale=60
+p-texture=starburst-spectral.tga
+p-type=0
+pass=1
+rendermode=0
+single-particle=1
+
+[luxdebuff2]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=6
+p-linger=0
+p-offset=0 0 0
+p-quadrot=20
+p-rgba=color-eyefade.tga
+p-rotvel=10
+p-scale=60
+p-texture=starburst-spectral.tga
+p-type=0
+pass=1
+rendermode=0
+single-particle=1
+

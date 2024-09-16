@@ -1,0 +1,31 @@
+[System]
+GroupPart1=shield_blink
+SimulateEveryFrame=1
+
+[shield_blink]
+e-life=4.25
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.1
+p-life=0.4
+p-linger=0
+p-mesh=Braum_Base_E_shield_inchant_ini.scb
+p-meshtex=Braum_Base_BA_Flash_tar.dds
+p-postoffset=7 175 80
+p-quadrot=1 90 1
+p-scale=1.5 1.5 1.5
+p-type=3
+p-uvscroll-rgb=0 1.6
+p-vel=0 0 0
+p-xrgba=1 1 1 0.6
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=11
+rendermode=4
+single-particle=1
+

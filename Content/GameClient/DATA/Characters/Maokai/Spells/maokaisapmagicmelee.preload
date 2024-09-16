@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="maokaipassivehitsound"}}, 
+{Function=BBPreloadParticle, Params={Name="global_heal.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaipassiveswingsound"}}, 
+}

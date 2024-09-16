@@ -1,0 +1,56 @@
+[System]
+GroupPart1=cylinder1
+GroupPart1Importance=High
+GroupPart2=ground1
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=ground2
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[cylinder1]
+e-life=6
+e-local-orient=0
+e-rate=3
+e-uvoffset=1 0.5
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=3 0
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.2
+p-lifeP2=0.30000000000000004 0.8
+p-lifeP3=1 1.2000000000000002
+p-linger=0
+p-local-orient=0
+p-mesh=saucer9.sco
+p-meshtex=lightning-ring.tga
+p-numframes=10
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-redhot.tga
+p-rotvel=0 1 0
+p-rotvelYP1=0 5
+p-rotvelYP2=1 10
+p-scale=35 35 35
+p-scaleXP1=0 1
+p-scaleXP2=1 1
+p-scaleYP1=0 1
+p-scaleYP2=1 1
+p-startframe=0
+p-texdiv=0.5 2
+p-type=3
+p-uvscroll-rgb=-0.05000000074505806 0.03999999910593033
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkBC954356=linger=0

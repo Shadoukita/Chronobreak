@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="urgotdeathparticle"}}, 
+{Function=BBPreloadSpell, Params={Name="urgotentropypassive"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+}

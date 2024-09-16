@@ -1,0 +1,28 @@
+[System]
+GroupPart1=ambientGlow1
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SRU_SpritWolf_orbmagic_loop
+
+[ambientGlow1]
+e-local-orient=0
+e-rate=0.05000000074505806
+e-shape-name=sru_pallybase_nexus_crystalemitter.scb
+e-shape-scale=0.7000000000000001
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=18
+p-linger=0.5
+p-quadrot=0 0 90
+p-scale=200 200 200
+p-texture=Spirit_Animal_ambientGlow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=0.85 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=1
+rendermode=4
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk8AA264C9=1

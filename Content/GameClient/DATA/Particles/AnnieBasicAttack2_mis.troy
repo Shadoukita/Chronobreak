@@ -1,0 +1,38 @@
+[System]
+GroupPart1=bolts
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[bolts]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=120
+p-colorscale=1 0.2
+p-life=0.5
+p-linger=-1
+p-offset=5 5 5
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-billow.tga
+p-scale=40
+p-scale1=0 0
+p-scale2=0.05000000074505806 0
+p-scale3=0.050999999046325684 1
+p-scale4=1 1
+p-startframe=4
+p-texdiv=2 3
+p-texture=disintegrate02.tga
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=0.30000000000000004 1.3
+p-xscale3=0.5 0.5
+p-xscale4=1 0.5
+

@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="MonkeyKing_Base_W_Cas_team_ID_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="MonkeyKing_Base_W_Cas_team_ID_red.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="MonkeyKing_Base_W_death_team_ID_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="MonkeyKing_Base_W_death_team_ID_red.troy"}}, 
+}

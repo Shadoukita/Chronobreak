@@ -1,0 +1,20 @@
+[System]
+GroupPart1=ring
+GroupPart1Importance=High
+
+[ring]
+e-life=1
+e-local-orient=0
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=1.5
+p-linger=0.5
+p-quadrot=90 0 0
+p-rgba=Twitch_Base_W_Red_Ring.dds
+p-scale=300 300 300
+p-texture=ring_highres.tga
+p-type=1
+rendermode=0
+teamcolor-correction=1
+

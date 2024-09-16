@@ -1,0 +1,174 @@
+[System]
+GroupPart1=twisted_vines
+GroupPart1Type=Complex
+GroupPart2=lite
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=lite1
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart5=poison_flower_02
+GroupPart5Importance=High
+GroupPart5Type=Simple
+GroupPart6=poison_flower_04
+GroupPart6Importance=High
+GroupPart6Type=Simple
+GroupPart7=base
+GroupPart7Importance=High
+GroupPart7Type=Simple
+GroupPart8=outer_graphic
+GroupPart8Importance=High
+GroupPart8Type=Simple
+GroupPart9=base_02
+GroupPart9Importance=High
+GroupPart9Type=Simple
+SimulateEveryFrame=1
+group-scale-cap=0
+
+[base]
+e-life=0.125
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-life=1.8
+p-linger=0
+p-quadrot=0 0 0
+p-rgba=alpha_12.tga
+p-scale=65
+p-simpleorient=2
+p-texture=deathGrasp_fire.tga
+p-type=1
+
+[base_02]
+e-life=0.125
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-life=1.8
+p-linger=0
+p-quadrot=0 0 0
+p-rgba=alpha_12.tga
+p-scale=45
+p-simpleorient=2
+p-texture=deathGrasp_fire.tga
+p-type=1
+
+[lite]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=1
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 30 0
+p-rgba=alpha_12.tga
+p-scale=150 0 0
+p-simpleorient=2
+p-texture=Flare-Sun_orange.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.25
+p-xscale2=1 1
+rendermode=0
+
+[lite1]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=30
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.15
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 30 0
+p-rgba=alpha_12.tga
+p-scale=350 0 0
+p-simpleorient=2
+p-texture=Flare-Sun_orange.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.25
+p-xscale2=1 1
+rendermode=0
+
+[poison_flower_02]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=10
+p-bindtoemitter=0 0
+p-life=0.55
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 30 0
+p-rgba=alpha_12.tga
+p-rotvel=-10
+p-scale=145 0 0
+p-simpleorient=2
+p-texture=izara_ground_graphic_fire_02.tga
+p-type=1
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.55
+p-xscale2=1 1.2000000000000002
+rendermode=0
+
+[poison_flower_04]
+e-life=0.3
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.25
+p-bindtoemitter=0 0
+p-life=0.85
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 20 0
+p-rgba=alpha_20.tga
+p-rotvel=10
+p-scale=75 0 0
+p-simpleorient=2
+p-texture=izara_ground_graphic_fire_02.tga
+p-type=1
+p-vel=0 0 0
+rendermode=1
+
+[twisted_vines]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-animation=zyra_E_vines_root_14.anm
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=2
+p-linger=0
+p-local-orient=1
+p-meshtex=izara_plant_props_fire_19.tga
+p-postoffset=0 0 0
+p-quadrot=0 180 0
+p-rotvel=0 0 0
+p-scale=0.3 0.3 0.3
+p-shadow=1
+p-skeleton=zyra_E_rootvines_v8.skl
+p-skin=zyra_E_rootvines_v8.skn
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.16 1 1 1 1
+p-xrgba4=0.8 1 1 1 1
+p-xrgba5=0.9 1 1 1 1
+p-xrgba6=1 1 1 1 0
+rendermode=1
+single-particle=1
+

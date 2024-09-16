@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Lulu_Glitterbolt.dds"
+BuffTextureName = L0_1
+L0_1 = "LuluQSlow"
+BuffName = L0_1
+L0_1 = "GLOBAL_SLOW.TROY"
+AutoBuffActivateEffect = L0_1
+L0_1 = "lulu_Q_slow_trigger_units.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "game_floatingtext_Slowed"
+PopupMessage1 = L0_1

@@ -1,0 +1,196 @@
+{
+	"champion": "Template",
+	"title": "LeeSinSR",
+	"type": "riot",
+	"map": "SR",
+	"mode": "CLASSIC",
+	"priority": false,
+	"blocks": [{
+		"type": "starting",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "SummonerSmite",
+		"items": [{
+			"id": "1055",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "dblade"
+		},
+		{
+			"id": "2003",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "health pots"
+		},
+		{
+			"id": "3340",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "yellow trinket"
+		}]
+	},
+	{
+		"type": "startingjungle",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "SummonerSmite",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "1039",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "machete"
+		},
+		{
+			"id": "2003",
+			"count": 2,
+			"hideCount": false,
+			"itemname": "health pots"
+		},
+		{
+			"id": "3340",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "yellow trinket"
+		}]
+	},
+	{
+		"type": "essential",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "SummonerSmite",
+		"items": [{
+			"id": "3047",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "tabi"
+		},
+		{
+			"id": "3134",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "bruta"
+		},
+		{
+			"id": "3074",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "hydra"
+		}]
+	},
+	{
+		"type": "essentialjungle",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "SummonerSmite",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "3117",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "mobis"
+		},
+		{
+			"id": "3707",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "ganker w/ AD + LS"
+		},
+		{
+			"id": "2049",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "sightstone"
+		}]
+	},
+	{
+		"type": "offensive",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "3071",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "black cleaver"
+		},
+		{
+			"id": "3156",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "maw"
+		},
+		{
+			"id": "3035",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "last whisper"
+		}]
+	},
+	{
+		"type": "defensive",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "3143",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "omen"
+		},
+		{
+			"id": "3102",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "veil"
+		},
+		{
+			"id": "3026",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "GA"
+		}]
+	},
+	{
+		"type": "consumables",
+		"recMath": false,
+		"minSummonerLevel": -1,
+		"maxSummonerLevel": -1,
+		"showIfSummonerSpell": "",
+		"hideIfSummonerSpell": "",
+		"items": [{
+			"id": "2003",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "health pots"
+		},
+		{
+			"id": "2044",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "green ward"
+		},
+		{
+			"id": "2043",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "pink ward"
+		},
+		{
+			"id": "2140",
+			"count": 1,
+			"hideCount": false,
+			"itemname": "lifesteal elixir"
+		}]
+	}]
+}

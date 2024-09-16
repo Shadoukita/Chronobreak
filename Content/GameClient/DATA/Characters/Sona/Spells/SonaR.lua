@@ -1,0 +1,21 @@
+local L0_1, L1_1, L2_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Sona_R.dds"
+BuffTextureName = L0_1
+L0_1 = "SonaR"
+BuffName = L0_1
+L0_1 = "LOC_Stun.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "C_BUFFBONE_GLB_CENTER_LOC"
+AutoBuffActivateAttachBoneName2 = L0_1
+L0_1 = "game_floatingtext_Stunned"
+PopupMessage1 = L0_1
+L0_1 = {}
+L1_1 = "GuqinSona"
+L2_1 = "PaxSona"
+L0_1[1] = L1_1
+L0_1[2] = L2_1
+SpellFXOverrideSkins = L0_1

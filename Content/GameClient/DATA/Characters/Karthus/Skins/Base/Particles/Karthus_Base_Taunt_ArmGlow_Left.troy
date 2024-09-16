@@ -1,0 +1,31 @@
+[Arm_Wisps]
+e-life=3.3000000000000003
+e-rate=20
+p-bindtoemitter=1
+p-life=0.7
+p-local-orient=1
+p-mesh=karthus_base_taunt_armaura.scb
+p-meshtex=karthus_base_taunt_armaura.tga
+p-meshtex-mult=karthus_base_taunt_armaura_mask.tga
+p-offset=0 0 0
+p-quadrot=360 360 -90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-scale=1 1 1
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.2000000000000002
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.2000000000000002
+p-scaleZP1=0 0.8
+p-scaleZP2=1 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=0 -1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=1 1 1 1 1
+rendermode=1
+
+[System]
+GroupPart1=Arm_Wisps
+SimulateEveryFrame=1
+

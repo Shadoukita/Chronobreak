@@ -1,0 +1,63 @@
+[Accel]
+f-accel=20 150 20
+f-localspace=0
+
+[Drag]
+f-drag=0.4
+f-pos=0 300 0
+f-radius=1000
+
+[System]
+GroupPart1=neckfire
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[neckfire]
+KeywordsRequired=FirewolfWarwick
+e-life=10000
+e-linger=0
+e-local-orient=1
+e-rate=140
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Accel
+field-drag-1=Drag
+p-bindtoemitter=1 0
+p-colorscale=1 0
+p-life=1.1
+p-lifeP1=0.5 0.55
+p-lifeP2=1 0.75
+p-lifeP3=0.2 0.15
+p-numframes=16
+p-offset=13 5 13
+p-postoffset=-5 30 -5
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-redflame.tga
+p-scale=11
+p-scaleXP1=0.6 0.3
+p-scaleXP2=1 1.2000000000000002
+p-scaleXP3=0.1 0.5
+p-scaleXP4=0.5 0.1
+p-scaleYP1=0.1 0.4
+p-scaleYP2=0.5 0.85
+p-scaleYP3=0.7 0.75
+p-scaleYP4=0.8 0.23
+p-scaleYP5=1 1.1
+p-startframe=0
+p-texdiv=4 4
+p-texture=flames04.tga
+p-xscale=1.7000000000000002
+p-xscale1=0 0.35
+p-xscale2=0.5 0.8
+p-xscale3=1 0.1
+rendermode=0
+

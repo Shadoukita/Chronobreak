@@ -1,0 +1,69 @@
+[System]
+GroupPart1=flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=head
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[flash]
+e-life=0.15000000596046448
+e-rate=12
+p-bindtoemitter=1 1
+p-life=0.2
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_01_fade.tga
+p-scale=15
+p-simpleorient=2
+p-texture=blast_ring_15.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 15 0 0
+p-xscale2=0.5 7.5 0 0
+p-xscale3=1 0 0 0
+
+[head]
+e-life=3
+e-linger=0
+e-rate=8
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.4
+p-linger=3
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_03.tga
+p-scale=7
+p-simpleorient=2
+p-texture=blast_ring_15.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+
+[UNKNOWN_HASHES]
+unk1D2311C5=2
+unk2222CB7E=1
+unk2E3E42CA=0.1
+unk3A561515=0.05
+unk44670742=alpha_03.tga
+unk468A98DC=1
+unk484D3C11=-1
+unk4D9C80F9=30
+unk65FAD8DC=360
+unk6BADFF6D=flare-Rainbow_red_03.tga
+unkA16F6C79=0
+unkAA5FC348=0
+unkB9CCC3F8=1 1
+unkC4232D8A=0
+unkCF6C941F=0
+unkD2D4469D=0 0.9
+unkD2D4469E=1 1
+unkFD243221=0 30 0

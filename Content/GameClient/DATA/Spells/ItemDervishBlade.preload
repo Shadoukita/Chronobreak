@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="summoner_boost.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="itemdervishblade"}}, 
+}

@@ -1,0 +1,109 @@
+[Accel]
+f-accel=0 1000 0
+
+[Basic]
+e-life=6
+e-rate=2
+e-ratebyvel=0.05 60
+e-rgba=58 58 58 143
+p-drag=1 1 1
+p-life=1
+p-life1=0 3
+p-life2=0.2 1
+p-life3=1 1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=1 1 1
+p-offsetXP1=0 -20
+p-offsetXP2=1 20
+p-offsetYP1=0 -20
+p-offsetYP2=1 20
+p-offsetZP1=0 -80
+p-offsetZP2=1 -100
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=0.5 0.5 0
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texture=GnarBig_Skin01_Recall_Smoke.dds
+p-vel=1 1 1
+p-velXP1=0 -60
+p-velXP2=1 60
+p-velYP1=0 -60
+p-velYP2=1 60
+p-velZP1=0 -60
+p-velZP2=1 60
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 30 30 0
+p-xscale2=0.5 50 50 0
+p-xscale3=1 55 55 0
+rendermode=1
+
+[Drag]
+f-direction=1 1 1
+f-drag=4
+f-radius=1000
+
+[Flame]
+e-life=4.5
+e-rate=500
+e-rotation1-axis=1 0 0
+e-rotation2-axis=0 1 0
+field-accel-1=Accel
+field-drag-1=Drag
+field-orbit-1=FlameOrbit
+p-bindtoemitter=0.3 0
+p-colorscale=1 0.2
+p-life=2
+p-lifeP1=0 0.1
+p-lifeP2=0.8999999761581421 0.25
+p-lifeP3=1 0.4
+p-numframes=16
+p-offset=1 1 1
+p-offsetXP1=0 -20
+p-offsetXP2=1 20
+p-offsetYP1=0 -20
+p-offsetYP2=1 20
+p-offsetZP1=0 -80
+p-offsetZP2=1 -100
+p-quadrot=1
+p-quadrotP1=0 -30
+p-quadrotP2=1 30
+p-randomstartframe=1
+p-rgba=color-addflame.tga
+p-rotvel=120
+p-rotvelP1=0 -1
+p-rotvelP2=0.10000000149011612 -0.30000001192092896
+p-rotvelP3=0.9 0.30000000000000004
+p-rotvelP4=1 1
+p-scale=5
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-scalebias=1.2000000000000002 1
+p-texdiv=4 4
+p-texture=GnarBig_Skin01_Recall_Fire.dds
+p-vel=0 30 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 0 0
+p-xscale2=0.4 1.5 0 0
+p-xscale3=0.6 1 0 0
+p-xscale4=1 0.1 0 0
+pass=1
+
+[System]
+GroupPart1=Basic
+GroupPart2=Flame
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk2BA018E9=1

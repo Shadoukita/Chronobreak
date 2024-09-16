@@ -1,0 +1,39 @@
+[System]
+GroupPart1=Wisps1
+SimulateEveryFrame=1
+
+[Wisps1]
+e-rate=2
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-noise-2=Noise2
+p-life=1.5
+p-lifeP1=0 0.2
+p-lifeP2=1 1.4000000000000001
+p-offset=1 1 0
+p-offsetXP1=0 50
+p-offsetXP2=1 500
+p-offsetYP1=0 0
+p-offsetYP2=1 50
+p-randomstartframe=1
+p-scale=35 35 35
+p-scaleXP1=0 0.4
+p-scaleXP2=0.8 0.4
+p-scaleXP3=1 1
+p-texture=SRU_WaterSparkle_01.dds
+p-xquadrot=1 0 0
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 0
+p-xquadrot2=1 1 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 2 0.0010000000474974513 1
+p-xscale3=1 1 1 1
+rendermode=4
+

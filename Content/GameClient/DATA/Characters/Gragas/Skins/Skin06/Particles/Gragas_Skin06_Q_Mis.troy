@@ -1,0 +1,27 @@
+[Oktoberfest]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.09000000357627869
+p-bindtoemitter=1
+p-drag=1 0 0
+p-life=2
+p-linger=0
+p-mesh=Gragas_Skin06_Q_Mis.sco
+p-meshtex=Gragas_Skin06_Q_Mis.tga
+p-offset=0 0 0
+p-postoffset=-70 0 -100
+p-quadrot=0 5 5
+p-rotvel=-800 0 0
+p-scale=1.274999976158142 1.274999976158142 1.274999976158142
+p-shadow=1
+p-type=3
+p-vel=70 0 -5
+rendermode=3
+single-particle=1
+
+[System]
+GroupPart1=Oktoberfest
+SimulateEveryFrame=1
+

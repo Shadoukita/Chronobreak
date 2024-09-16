@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="leblancslidereturnm"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_rw_return_indicator.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_w_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_w_return_activation.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="leblanc_base_rw_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancslidemovem"}}, 
+{Function=BBPreloadSpell, Params={Name="leblancslidewallfixm"}}, 
+}

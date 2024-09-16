@@ -1,0 +1,68 @@
+[SoulGlow1]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=0.4 1
+p-colortype=0 0
+p-life=4
+p-linger=0
+p-rgba=Kalista_Base_P_Blade_White_rgba.dds
+p-rotvel=10
+p-scale=60
+p-texture=Kalista_Base_Joke_Soul.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 1
+p-xscale3=1 1
+single-particle=1
+teamcolor-correction=1
+
+[SoulGlow2]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=0.4 1
+p-colortype=0 0
+p-life=4
+p-linger=0
+p-rgba=Kalista_Base_P_Blade_White_rgba.dds
+p-rotvel=-10
+p-scale=60
+p-texture=Kalista_Base_Joke_Soul.dds
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 1
+p-xscale3=1 1
+single-particle=1
+teamcolor-correction=1
+
+[SoulMist]
+e-life=4
+e-rate=8
+p-bindtoemitter=1 1
+p-colorscale=1 0.7000000000000001
+p-life=0.7000000000000001
+p-linger=0.7000000000000001
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bell-cyan.tga
+p-scale=60
+p-texture=Kalista_Base_Joke_Circle_Mist.dds
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=1 2
+teamcolor-correction=1
+
+[System]
+GroupPart1=SoulGlow1
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=SoulGlow2
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=SoulMist
+GroupPart3Importance=High
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

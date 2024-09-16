@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="frost_counter_01.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_03.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_04.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_01minion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_02minion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_03minion.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="frost_counter_04minion.troy"}}, 
+}

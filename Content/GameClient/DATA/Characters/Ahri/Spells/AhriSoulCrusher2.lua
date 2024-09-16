@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "3017_Egitai_Twinsoul.dds"
+BuffTextureName = L0_1
+L0_1 = "AhriSoulCrusher"
+BuffName = L0_1
+L0_1 = "PotionofElusiveness_itm.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "PotionofBrilliance_itm.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "PotionofGiantStrength_itm.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1

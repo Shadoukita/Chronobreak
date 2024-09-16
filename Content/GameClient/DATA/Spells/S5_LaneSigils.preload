@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="itemmuramanatoggle.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="s5_lanesigilbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="stylebatteringramtagadd"}}, 
+{Function=BBPreloadParticle, Params={Name="temp_sparkles_evil.troy"}}, 
+}

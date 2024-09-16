@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="skarner_base_q_activate_l.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_q_activate_r.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_q_buf_blades.troy"}}, 
+}

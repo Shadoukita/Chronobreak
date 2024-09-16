@@ -1,0 +1,33 @@
+[System]
+GroupPart1=large_streaks
+SimulateEveryFrame=1
+
+[large_streaks]
+e-life=0.1
+e-local-orient=1
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=0.2
+p-local-orient=1
+p-offset=1 1 2
+p-offsetXP1=0 20
+p-offsetXP2=1 -20
+p-postoffset=-30 30 0
+p-quadrot=0 0 0
+p-scale=150 200 150
+p-texdiv=1 4
+p-texture=Nasus_Base_Z_Cast_Lines.dds
+p-type=1
+p-uvscroll-no-alpha=0
+p-vel=0 0 0
+p-xrgba1=0 1 0.8 0.2 0
+p-xrgba2=0.5 1 0.8 0.2 0.75
+p-xrgba3=1 0.3 0.3 0.1 0
+p-xscale1=0 0.45 0.45 0.45
+p-xscale2=1 0.3 1.2 0.3
+p-xscaleXP1=0 0.6
+p-xscaleXP2=1 1.2000000000000002
+pass=10
+rendermode=1
+

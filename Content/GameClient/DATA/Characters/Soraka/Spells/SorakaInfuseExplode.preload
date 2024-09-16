@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="soraka_infuse_enemy_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="moveawaycollision"}}, 
+{Function=BBPreloadParticle, Params={Name="ziggsq_tar.troy"}}, 
+}

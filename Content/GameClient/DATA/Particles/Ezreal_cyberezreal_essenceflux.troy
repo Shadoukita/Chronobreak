@@ -1,0 +1,17 @@
+[System]
+GroupPart1=empty
+GroupPart1Type=Simple
+SimulateWhileOffScreen=1
+SoundOnCreate=Play_sfx_CyberEzreal_EzrealEssenceFlux_activate
+SoundsPlayWhileOffScreen=1
+VoiceOverOnCreate=Play_vo_CyberEzreal_Spell2D_spell2
+
+[empty]
+e-life=1
+e-rate=1
+p-life=0
+p-rgba=black.tga
+p-scale=0
+p-texture=black.tga
+rendermode=0
+

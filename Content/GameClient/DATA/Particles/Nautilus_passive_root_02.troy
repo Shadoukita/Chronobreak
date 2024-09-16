@@ -1,0 +1,101 @@
+[System]
+GroupPart1=base-proj
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+GroupPart2=base_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=waves
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=base-proj_05
+GroupPart4Importance=Low
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[base-proj]
+e-life=3
+e-linger=0
+e-rate=3
+p-bindtoemitter=1 1
+p-flexscale=0.004
+p-life=0.33
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 35 0
+p-projection-fading=200
+p-projection-y-range=200
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-scale=160
+p-simpleorient=2
+p-texture=nautilus_root_target_03.tga
+p-type=7
+pass=-1
+
+[base-proj_05]
+e-life=0.1
+e-linger=0
+e-rate=10
+p-bindtoemitter=1 1
+p-flexscale=0.004
+p-life=0.75
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 35 0
+p-projection-fading=200
+p-projection-y-range=200
+p-quadrot=0
+p-rgba=alpha_12.tga
+p-scale=200
+p-simpleorient=2
+p-texture=nautilus_root_target_03.tga
+p-type=7
+p-xscale=1 1 1
+p-xscale1=0 1
+p-xscale2=0.5 1.2000000000000002
+p-xscale3=1 1.4000000000000001
+pass=-1
+
+[base_02]
+e-life=3
+e-linger=0
+e-rate=6
+p-bindtoemitter=1 1
+p-flexscale=0.004
+p-life=0.33
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=45 0 0
+p-rgba=color-bellcurve.tga
+p-scale=120
+p-simpleorient=2
+p-texture=nautilus_root_target_03.tga
+p-type=0
+p-vel=0 200 0
+
+[waves]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=1
+p-linger=-1
+p-offset=0 0 0
+p-postoffset=0 30 0
+p-rgba=alpha_20.tga
+p-scale=250 0 0
+p-simpleorient=2
+p-texture=seafoam32.tga
+p-type=0
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=1 1
+rendermode=1
+

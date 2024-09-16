@@ -1,0 +1,78 @@
+[System]
+GroupPart1=rays
+GroupPart4=outerring
+GroupPart4Type=Simple
+GroupPart5=innerring
+GroupPart5Type=Simple
+PersistThruDeath=1
+SoundOnCreate=Play_sfx_Lux_LuxIlluminationPassive_hit
+
+[innerring]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-life=0.30000000000000004
+p-offset=0 40 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=200
+p-texdiv=1 1
+p-texture=ringflare.tga
+p-xscale=1
+p-xscale1=0 0.6000000000000001
+p-xscale2=1 1
+
+[outerring]
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 1
+p-flexscale=0.004999999888241291
+p-life=0.5
+p-offset=0 40 0
+p-rgba=color-rainbowbell.tga
+p-scale=200
+p-startframe=4
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xscale=1
+p-xscale1=0 0.8
+p-xscale2=1 1
+
+[rays]
+e-life=0.2
+e-linger=1
+e-local-orient=0
+e-rate=60
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.25
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 100 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=20 20 0
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.6000000000000001
+p-scaleYP2=1 1
+p-texdiv=1 1
+p-texture=rainbowray.tga
+p-type=2
+p-xscale1=0 2 8 0
+p-xscale2=0.25 2 6 0
+p-xscale3=1 0.4 4 0
+rendermode=0
+

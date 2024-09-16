@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="cardmasterteleport_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="cardmasterteleport_red.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="globalcannotclickobjects"}}, 
+{Function=BBPreloadParticle, Params={Name="gatemarker_green_underworld.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gatemarker_red_underworld.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gatemarker_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="gatemarker_red.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcuberender10vision"}}, 
+{Function=BBPreloadSpell, Params={Name="twistedfategatetarget"}}, 
+}

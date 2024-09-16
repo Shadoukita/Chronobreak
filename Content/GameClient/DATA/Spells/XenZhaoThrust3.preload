@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="xenziou_wind_chainattack03.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="xenziou_chainattack_03.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="xenzhaoknockup"}}, 
+}

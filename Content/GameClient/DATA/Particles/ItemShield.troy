@@ -1,0 +1,112 @@
+[System]
+GroupPart1=shieldInside
+GroupPart1Type=Simple
+GroupPart2=jizballs
+GroupPart2Type=Simple
+GroupPart3=shieldOUT
+GroupPart3Type=Simple
+GroupPart4=shield_4
+GroupPart4Type=Simple
+
+[jizballs]
+e-life=60
+e-linger=0
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0.30000000000000004
+p-offset=0 80 0
+p-quadrot=316
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.30000000000000004 0
+p-rotvel3=0.6499999761581421 0
+p-rotvel4=1 0
+p-scale=50
+p-scaleP1=0 0.8
+p-scaleP2=1 1
+p-startframe=1
+p-texdiv=2 2
+p-texture=SpellBlock02.tga
+p-vel=25 0 0
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 2
+
+[shieldInside]
+e-life=60
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0.30000000000000004
+p-offset=0 80 0
+p-quadrot=316
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.30000000000000004 0
+p-rotvel3=0.6499999761581421 0
+p-rotvel4=1 0
+p-scale=6
+p-texdiv=2 2
+p-texture=SpellBlock02.tga
+p-xscale=1
+p-xscale1=0 2
+p-xscale2=0.5 8
+p-xscale3=1 11.70302963256836
+
+[shieldOUT]
+e-life=60
+e-linger=0
+p-bindtoemitter=1 1
+p-life=20
+p-linger=0.30000000000000004
+p-offset=0 80 0
+p-quadrot=316
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 360
+p-rotvel2=0.30000001192092896 180
+p-rotvel3=0.6499999761581421 0
+p-rotvel4=1 0
+p-scale=9
+p-texdiv=2 2
+p-texture=SpellBlock02.tga
+p-xscale=1
+p-xscale1=0 10
+p-xscale2=0.5 10
+p-xscale3=1 10
+single-particle=1
+
+[shield_4]
+e-life=60
+e-linger=0
+e-rate=8
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0.30000000000000004
+p-offset=0 80 0
+p-quadrot=0
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=0.30000000000000004 0
+p-rotvel3=0.6499999761581421 0
+p-rotvel4=1 0
+p-scale=13.200000000000001
+p-startframe=2
+p-texdiv=2 2
+p-texture=SpellBlock02.tga
+p-xscale=1
+p-xscale1=0 10
+p-xscale2=0.5 10
+p-xscale3=1 10
+

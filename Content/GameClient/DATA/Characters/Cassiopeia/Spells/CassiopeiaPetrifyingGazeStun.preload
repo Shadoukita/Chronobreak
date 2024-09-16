@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="turntostone.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="turntostonejade.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="casspetrifymiss_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadParticle, Params={Name="turnback.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="turnbackjade.troy"}}, 
+}

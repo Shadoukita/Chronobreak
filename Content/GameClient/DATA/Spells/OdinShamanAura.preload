@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sonasongofdiscord_aura.troy"}}, 
+}

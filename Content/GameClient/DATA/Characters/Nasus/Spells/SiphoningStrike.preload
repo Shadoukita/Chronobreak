@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="deathscaress_nova.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="siphoningstrikedamagebonus"}}, 
+}

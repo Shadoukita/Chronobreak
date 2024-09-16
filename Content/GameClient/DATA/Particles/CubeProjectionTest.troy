@@ -1,0 +1,18 @@
+[Projected]
+p-bindtoemitter=1
+p-falloff-texture=DefaultFalloff.dds
+p-life=-1
+p-rotvel=10 50 0
+p-scale=500 0 0
+p-texture=color_circle_cube.DDS
+p-type=8
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Projected
+GroupPart1Type=Complex
+
+[UNKNOWN_HASHES]
+unk62C95636=1
+unk9F0F7D31=1

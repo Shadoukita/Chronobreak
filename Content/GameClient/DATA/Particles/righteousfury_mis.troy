@@ -1,0 +1,107 @@
+[1_trail]
+e-life=0.7000000000000001
+e-linger=0
+e-local-orient=1
+e-rate=80
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-fixedorbit=0
+p-frameRate=0
+p-life=0.6000000000000001
+p-linger=30
+p-numframes=1
+p-postoffset=0 0 0
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 70
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 0
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 10
+p-quadrot=-360
+p-randomstartframe=0
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 0
+p-scale=30
+p-scalebias=1 1
+p-simpleorient=0
+p-startframe=4
+p-texdiv=2 3
+p-texture=Disintegrate02.tga
+p-type=0
+p-uvscroll-rgb=0 0
+p-vecalign=0
+p-vel=0 0 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+
+[CustomAccelField-1]
+f-accel=0 -1 0
+f-localspace=0
+
+[System]
+GroupPart1=trail
+GroupPart1Type=Simple
+GroupPart2=1_trail
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+group-vis=0
+
+[trail]
+e-life=0.1
+e-linger=0
+e-local-orient=1
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=0
+field-accel-1=CustomAccelField-1
+p-bindtoemitter=1 0.5
+p-coloroffset=0 0
+p-colorscale=1 1
+p-fixedorbit=0
+p-frameRate=0
+p-life=1
+p-linger=30
+p-numframes=1
+p-postoffset=0 0 0
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 5
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 5
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 5
+p-quadrot=-360
+p-randomstartframe=0
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 0
+p-scale=60
+p-scalebias=1 1
+p-simpleorient=0
+p-startframe=5
+p-texdiv=2 3
+p-texture=Disintegrate02.tga
+p-type=0
+p-uvscroll-rgb=0 0
+p-vecalign=0
+p-vel=0 30 0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2.5
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkE14F341F=0 0 0
+unkF7E25F8D=0 0 0

@@ -1,0 +1,277 @@
+[Axe_Mesh]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-mesh=Draven_Skin03_Z_weapon.sco
+p-meshtex=Draven_Skin03_Z_weapon.tga
+p-quadrot=0 90 90
+p-rgba=Draven_Skin03_Z_Color-hold.tga
+p-rotvel=0 0 -1400
+p-scale=1.4000000000000001 1.4000000000000001 1.4000000000000001
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+
+[Axe_Sheen]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 0
+p-colortype=1 0
+p-life=0.5
+p-linger=0
+p-mesh=Draven_Skin03_Z_weapon.sco
+p-meshtex=Draven_Skin03_Z_WeaponSheen.tga
+p-quadrot=0 90 90
+p-rgba=Draven_Skin03_Z_color-bellcurve.tga
+p-rotvel=0 0 -1400
+p-scale=1.4000000000000001 1.4000000000000001 1.4000000000000001
+p-texdiv=2 1
+p-type=3
+p-uvscroll-rgb=0 -1.7999999523162842
+pass=100
+rendermode=0
+single-particle=1
+
+[Black_Spark]
+e-life=1
+e-local-orient=0
+e-rate=20
+field-accel-1=SparkeAccel
+field-drag-1=SparkDrag
+p-colortype=1 3
+p-frameRate=0
+p-life=0.5
+p-life1=0 0.4
+p-life2=1 1.2000000000000002
+p-linger=1.2000000000000002
+p-numframes=2
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Draven_Skin03_Z_Color-hold.tga
+p-scale=23
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-startframe=1
+p-texdiv=2 1
+p-texture=Draven_Skin03_Z_Movequick01.tga
+p-type=0
+p-vel=300 300 300
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 1
+p-velYP2=1 -1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0.1
+rendermode=2
+single-particle=1
+
+[FlameAccel]
+f-accel=0 50 0
+f-localspace=0
+
+[FlameOrbit]
+f-direction=0 1 0
+f-localspace=0
+
+[Flash]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=0
+p-life=0.2
+p-linger=0.2
+p-rgba=Draven_Skin03_Z_Color-Rampdown01.tga
+p-scale=150
+p-texture=Draven_Skin03_Z_FlashRed.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=1
+single-particle=1
+
+[Flash_02]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=0
+p-life=0.2
+p-linger=0.2
+p-rgba=Draven_Skin03_Z_Color-Rampdown01.tga
+p-scale=170
+p-texture=Draven_Skin03_Z_Flare-Omnimax_purp.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[GlowTrail]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=30
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.35
+p-linger=0.35
+p-rgba=Draven_Skin03_BA_Color-CritRampdown01.tga
+p-scale=125
+p-texture=Draven_Skin03_Z_Glow_Maroon.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0.1
+rendermode=0
+
+[Purple_Flame]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=FlameAccel
+field-orbit-1=FlameOrbit
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1
+p-lifeP1=0 0.2
+p-lifeP2=0.9 0.3
+p-lifeP3=1 0.5
+p-linger=1
+p-numframes=12
+p-offset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=6
+p-rgba=Draven_Skin03_Q_color-DravenFlame.tga
+p-rotvel=1
+p-rotvelP2=1 100
+p-scale=20
+p-scaleP1=0 0.8
+p-scaleP2=1 1.1
+p-startframe=6
+p-texdiv=4 4
+p-texture=Draven_Skin03_Z_Flames_4x4.tga
+p-type=0
+p-vel=100 100 100
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale1=0 0.1
+p-xscale2=0.2 1.5
+p-xscale3=1 0
+pass=100
+rendermode=2
+
+[Slash]
+e-life=1
+e-linger=0
+e-rate=200
+p-bindtoemitter=0 0
+p-life=0.3
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.3
+p-quadrot=1 1 1
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-quadrotZP1=0 1
+p-quadrotZP2=1 360
+p-rgba=Draven_Skin03_Z_color-bellcurve.tga
+p-rotvel=-1300
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=60 60 60
+p-scaleXP1=0 0.7
+p-scaleXP2=1 2
+p-scaleYP1=0 0.7
+p-scaleYP2=1 2
+p-scaleZP1=0 0.7
+p-scaleZP2=1 2
+p-texture=Draven_Skin03_Z_RingswirlBlur.tga
+p-type=1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+pass=10
+rendermode=2
+
+[SparkDrag]
+f-drag=0.3
+f-pos=0 0 0
+f-radius=1000
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Flash_02
+GroupPart2Type=Simple
+GroupPart3=Black_Spark
+GroupPart3Type=Simple
+GroupPart4=Axe_Mesh
+GroupPart5=Axe_Sheen
+GroupPart6=WeaponTrail
+GroupPart7=GlowTrail
+GroupPart7Type=Simple
+GroupPart8=Purple_Flame
+GroupPart8Type=Simple
+GroupPart9=Slash
+SimulateEveryFrame=1
+group-vis=10000
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=15
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-backfaceon=0
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.2
+p-linger=0.2
+p-mesh=Draven_Skin03_Z_weapontrail.sco
+p-meshtex=Draven_Skin03_Z_weapontrail.tga
+p-quadrot=0 90 0
+p-rgba=Draven_Skin03_Z_Color-Rampdown02.tga
+p-scale=1.4000000000000001 1.4000000000000001 1.4000000000000001
+p-type=3
+p-uvscroll-rgb=-6.199999809265137 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk593FB661=0
+unkBA4D4C22=0 0
+unkCC2A630A=0 -100
+unkEDD52C82=0 -400 0

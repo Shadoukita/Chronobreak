@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="monkeyking_base_e_mis_self.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="monkeykingnimbuskickfx"}}, 
+{Function=BBPreloadSpell, Params={Name="monkeykingnimbusas"}}, 
+}

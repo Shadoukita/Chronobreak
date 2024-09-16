@@ -1,0 +1,36 @@
+[System]
+GroupPart1=whirl
+GroupPart1Type=Simple
+
+[whirl]
+e-life=0.7000000000000001
+e-local-orient=1
+e-rate=400
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.7000000000000001
+p-lifeP1=0 0.3
+p-lifeP2=1 1
+p-local-orient=1
+p-numframes=1
+p-offset=1 1 1
+p-offsetXP1=0 10
+p-offsetXP2=1 -30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-rotvel=720
+p-rotvelP1=0 1
+p-rotvelP2=1 2
+p-scale=30
+p-scale1=0 1
+p-scale2=1 0.5
+p-simpleorient=1
+p-startframe=0
+p-texdiv=2 2
+p-texture=RapidFire.tga
+p-type=1
+rendermode=0
+

@@ -1,0 +1,29 @@
+[System]
+GroupPart1=overhead_flash
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[overhead_flash]
+e-life=5
+e-local-orient=0
+e-rate=12
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.25
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_12.tga
+p-rotvel=40
+p-scale=120
+p-scaleP1=0 0.5
+p-scaleP2=1 1.2000000000000002
+p-texture=flare-sun_lightblue.dds
+p-xquadrot=0
+p-xscale=1
+

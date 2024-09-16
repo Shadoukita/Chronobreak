@@ -1,0 +1,112 @@
+[Hit]
+e-life=0.2
+e-linger=1
+e-local-orient=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-postoffset=0 100 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 90
+p-rgba=color-bubblerupples.tga
+p-scale=340 40 340
+p-texture=MasterYi_Base_X_hit_flare.dds
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 1 1 1
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+pass=30
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=Hit
+GroupPart3=bubble
+GroupPart3Type=Simple
+GroupPart4=slash_mesh
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_MasterYi_AlphaStrike_hit
+
+[bubble]
+e-life=0.1
+e-rate=1
+p-life=0.15000000596046448
+p-offset=0 100 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=35
+p-texture=MasterYi_Base_Z_Fade_Bubble.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 2
+p-xscale3=1 5
+
+[flash]
+e-life=0.2
+e-rate=1
+p-life=0.11999999731779099
+p-offset=0 100 0
+p-quadrot=90
+p-rgba=color-rampdown.tga
+p-scale=110
+p-texture=MasterYi_Base_Z_Hit_Flash.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 4
+p-xscale3=1 1
+
+[slash_mesh]
+e-life=0.15
+e-linger=0
+e-local-orient=1
+e-rate=14
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.19
+p-linger=0
+p-mesh=Hecarim_QTrail.sco
+p-meshtex=MasterYi_Base_Q_Slash_Scroll_Tar.dds
+p-postoffset=0 120 0
+p-quadrot=10 -180 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 0
+p-quadrotYP1=0 1
+p-quadrotYP2=1 0
+p-rgba=color-rampdown.tga
+p-rotvel=100 0 0
+p-scale=0.2 0.2 0.2
+p-scaleXP1=0 0.8
+p-scaleXP2=1 2
+p-type=3
+p-uvscroll-rgb=2 0
+p-xscale1=0 1 1 1
+p-xscale2=1 2 3 2
+pass=100
+rendermode=4
+single-particle=0
+
+[UNKNOWN_HASHES]
+unk0D76AE06=0.30000000000000004
+unk198E8051=0.2
+unk239F727E=color-rampdown.tga
+unk2CD4EC35=1
+unk3B86F475=0 0.5
+unk3B86F476=0.5 4
+unk3B86F477=1 1
+unk69D44FFE=100
+unk8823BABC=1
+unk936D4566=160
+unk94887A21=1
+unkB74EC131=MasterYi_Q_Slash.dds
+unkC0193CA0=75
+unkD9C50E27=0 0
+unkD9C50E28=1 100
+unkE1FE041D=0 10 0

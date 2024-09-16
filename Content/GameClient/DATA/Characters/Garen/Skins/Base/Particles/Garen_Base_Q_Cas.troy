@@ -1,0 +1,139 @@
+[Hit]
+KeywordsExcluded=SteellegionGaren
+e-life=1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-quadrot=0 0 0
+p-rgba=alpha_12.tga
+p-scale=140 40 140
+p-texture=Garen_Base_Q_Hit_Flash.dds
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 1 1 1
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+pass=30
+rendermode=0
+single-particle=1
+
+[Hit_steel]
+KeywordsRequired=SteellegionGaren
+e-life=1
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-quadrot=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=340 140 340
+p-texture=Garen_Skin06_Z_Slash_Flare.dds
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 1 0.2 1
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+pass=30
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=bubble
+GroupPart1Type=Simple
+GroupPart2=bubble_2
+GroupPart2Type=Simple
+GroupPart3=bubble_black
+GroupPart3Type=Simple
+GroupPart4=Hit
+GroupPart4Type=Simple
+GroupPart5=bubble_steel
+GroupPart5Type=Simple
+GroupPart6=bubble_2_steel
+GroupPart6Type=Simple
+GroupPart7=Hit_steel
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+
+[bubble]
+KeywordsExcluded=SteellegionGaren
+e-life=1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.3
+p-offset=0 0 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=80
+p-texture=Garen_Base_Q_Cas_Bubble.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+single-particle=1
+
+[bubble_2]
+KeywordsExcluded=SteellegionGaren
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.23
+p-offset=0 0 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=80
+p-texture=Garen_Base_Q_Cas_Bubble_2.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+single-particle=1
+
+[bubble_2_steel]
+KeywordsRequired=SteellegionGaren
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.23
+p-offset=0 0 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=80
+p-texture=Garen_Steel_Q_Cas_Bubble_2.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+single-particle=1
+
+[bubble_black]
+e-life=1
+e-rate=10
+p-bindtoemitter=1 1
+p-life=0.13
+p-offset=0 0 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=30
+p-texture=Garen_Base_Q_Cas_Bubble_Black.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+rendermode=2
+single-particle=1
+
+[bubble_steel]
+KeywordsRequired=SteellegionGaren
+e-life=1
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.3
+p-offset=0 0 0
+p-quadrot=90
+p-rgba=alpha_12.tga
+p-scale=80
+p-texture=Garen_Steel_Q_Cas_Bubble.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 2
+single-particle=1
+

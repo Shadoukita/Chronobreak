@@ -1,0 +1,81 @@
+[Energy_Wave]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=20
+p-bindtoemitter=1 0.2
+p-flexscale=0.005
+p-life=1
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.8
+p-offset=0 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Udyr_Spirit_Phoenix_Aura_Colormap.dds
+p-rotvel=3 3 3
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=120
+p-scaleP1=0 1
+p-scaleP2=1 0.4
+p-simpleorient=2
+p-texture=Udyr_Spirit_Energy_Wave.dds
+p-type=1
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.01 0.25
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 1 0 0 0.5
+p-xscale1=0 0.3
+p-xscale2=1 1.5
+pass=-100
+rendermode=4
+
+[System]
+GroupPart1=Energy_Wave
+GroupPart1Type=Simple
+GroupPart2=glow
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=3
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 90
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=1
+p-offset=2 -10 0
+p-rgba=alpha_12.dds
+p-rotvel=20
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=85 85 85
+p-scaleXP1=0 0.7
+p-scaleXP2=1 0.95
+p-simpleorient=2
+p-texture=Udyr_Spirit_Phoenix_glow.dds
+p-type=0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.1 1 1 1
+p-xscale3=1 2 2 2
+pass=-100
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk60DACBAB=0 1
+unk60DACBAC=1 -1

@@ -1,0 +1,122 @@
+[Aura]
+e-disabled=1
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=0.7000000000000001
+p-linger=0
+p-offset=0 10 0
+p-rgba=alpha_12.tga
+p-scale=35
+p-simpleorient=2
+p-texture=ring_green.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0.1
+p-xscale2=1 1.8
+teamcolor-correction=1
+
+[Aura1]
+e-life=0.1
+e-rate=1
+e-rgba=255 255 255 124
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=-1
+p-linger=0
+p-offset=0 1 0
+p-quadrot=90 0 0
+p-rotvel=0 100 0
+p-scale=60 60 60
+p-simpleorient=2
+p-texture=Caitlyn_Skin06_W_Trap_Green_01.dds
+p-type=1
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+
+[Cupcake_01]
+e-life=0.1
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=caitlyn_skin06_w_cupcake_01.scb
+p-meshtex=Caitlyn_Skin06_W_Cupcake_01.dds
+p-postoffset=0 -5 0
+p-scale=2 2 2
+p-texdiv=1 0.5
+p-type=3
+p-uvscroll-rgb=0 0.3
+rendermode=4
+
+[Cupcake_02]
+e-life=0.1
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=caitlyn_skin06_w_cupcake_02.scb
+p-meshtex=Caitlyn_Skin06_W_Cupcake_02.dds
+p-scale=2 2 2
+p-type=3
+p-uvscroll-rgb=0 0.3
+pass=1
+
+[System]
+GroupPart1=hand_glow_stage_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Aura
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=Aura1
+GroupPart3Importance=High
+GroupPart4=Cupcake_01
+GroupPart5=Cupcake_02
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_CaitlynSkin06_CaitlynYordleTrap_buffactivate
+
+[hand_glow_stage_01]
+e-disabled=1
+e-life=100000
+e-rate=4
+p-bindtoemitter=1 1
+p-life=0.3499999940395355
+p-offset=1 1 1
+p-postoffset=0 5 0
+p-rotvel=90
+p-rotvelXP1=0 0
+p-rotvelXP2=1 1
+p-scale=105
+p-scale1=0 0.7
+p-scale2=0.30000001192092896 1.4500000476837158
+p-scale3=1 0.7000000000000001
+p-simpleorient=2
+p-texture=Caitlyn_Skin06_W_Trap_Green_02.dds
+p-vel=0 -15 0
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.5 1
+p-xscale3=1 0.5
+rendermode=4
+teamcolor-correction=1
+

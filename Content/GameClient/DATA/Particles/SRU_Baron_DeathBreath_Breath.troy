@@ -1,0 +1,69 @@
+[SlimeSpit]
+e-life=0.5
+e-rate=45
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 2
+e-rotation1P2=1 -2
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 0
+e-uvoffset-multXP2=1 1
+e-uvoffset-multYP1=0 0
+e-uvoffset-multYP2=1 1
+p-life=0.2
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-quadrot=90 0 0
+p-scale=45 250 0
+p-texdiv-mult=2 2
+p-texture=SRU_Baron_DeathBreath_Breath_Goop.dds
+p-texture-mult=SRU_Baron_DeathBreath_Breath_Goop_mult.dds
+p-uvscroll-rgb-mult=0 -1
+p-uvscroll-rgb-multYP1=0 0
+p-uvscroll-rgb-multYP2=1 1
+p-vecalign=1
+p-vel=-3500 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.8 1 0
+p-xscale2=1 1.4 0.5 0
+pass=2
+rendermode=1
+
+[System]
+GroupPart1=SlimeSpit
+GroupPart2=Trail
+SimulateEveryFrame=1
+
+[Trail]
+e-active=1
+e-life=1.5
+e-linger=1
+e-period=1
+e-rate=100
+e-tilesize=100 0 0
+e-trail-cutoff=1000
+p-life=0.30000000000000004
+p-linger=0
+p-offset=0 25 0
+p-scale=100 0 0
+p-texture=SRU_Baron_DeathBreath_Breath_Trail.dds
+p-trailmode=1
+p-type=5
+p-vel=-2500 -450 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=0.6 1 1 1 0.3
+p-xrgba4=1 1 1 1 0
+pass=3
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk3AF6C19D=1 0

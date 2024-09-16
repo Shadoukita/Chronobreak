@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "TT_SpiderbossAttackDebuff.dds"
+BuffTextureName = L0_1
+L0_1 = "TT_SpiderbossAttackDebuff"
+BuffName = L0_1
+L0_1 = "TT_spiderboss_debuff.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = true
+IsDeathRecapSource = L0_1

@@ -1,0 +1,69 @@
+[System]
+GroupPart1=heal
+GroupPart1Importance=High
+GroupPart2=heal_magic
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[heal]
+e-life=10
+e-linger=0
+e-local-orient=1
+e-rate=25
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=0.9
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.5
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=2
+p-offset=0 20 15
+p-postoffset=0 -20 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=13 28 13
+p-scaleYP1=0 1
+p-scaleYP2=1 10
+p-startframe=0
+p-texdiv=2 1
+p-texture=lifetap_ghost_green_03.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 0.3499999940395355 0 1
+p-xscale2=1 1 2.2 1
+
+[heal_magic]
+e-life=10
+e-linger=0
+e-rate=10
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-life=0.65
+p-offset=20 25 20
+p-postoffset=0 -60 0
+p-quadrot=1
+p-rgba=alpha_12.tga
+p-rotvel=0 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=30
+p-texture=green_buf_01.tga
+p-vel=0 220 0
+p-velYP1=0 0.3499999940395355
+p-velYP2=1 1.149999976158142
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.7 1 0 0
+p-xscale3=1 0 0 0
+
+[UNKNOWN_HASHES]
+unkAC135C4D=1

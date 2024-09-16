@@ -1,0 +1,33 @@
+[System]
+GroupPart1=beam1
+SimulateEveryFrame=1
+
+[beam1]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+e-uvoffset=1 0
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-linger=0
+p-local-orient=1
+p-numframes=1
+p-offset=-12 0 0
+p-rgba=color-greendisc.tga
+p-scale=3 150 0
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.4000000000000001
+p-startframe=0
+p-texdiv=1 1
+p-texture=UrgotLaserSight.tga
+p-type=2
+p-uvscroll-rgb=1 0
+pass=1000
+rendermode=0
+

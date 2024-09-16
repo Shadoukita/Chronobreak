@@ -1,0 +1,54 @@
+[System]
+GroupPart1=sparkles
+GroupPart1Type=Simple
+
+[sparkles]
+e-life=-1
+e-rate=10
+e-rateP1=0 0
+e-rateP2=0.8 0
+e-rateP3=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1.5
+p-numframes=2
+p-offset=1 30 1
+p-offsetXP1=0 -2
+p-offsetXP2=1 14
+p-offsetZP1=0 -30
+p-offsetZP2=1 -5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-bearfire.tga
+p-scale=10
+p-scaleP1=0 0.5
+p-scaleP2=0.8 1
+p-scaleP3=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=deadeye01.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk00B08B50=0
+unk0D2F0D76=1
+unk682A0800=1 1
+unk6BE412D4=100 100 100
+unk848F0AD2=1
+unk940EED92=1
+unk98A9BD65=ball02.tga
+unkA3ED4901=1
+unkA6CFA195=255 255 255 255
+unkBA78D617=0
+unkBB6BA881=0
+unkD6CAAE20=1 1
+unkFF1CBAE9=0 0 0

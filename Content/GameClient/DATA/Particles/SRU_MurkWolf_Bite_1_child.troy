@@ -1,0 +1,68 @@
+[Bot]
+e-disabled=1
+e-life=1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexscale=0.004000000189989805
+p-life=0.4
+p-local-orient=1
+p-mesh=SRU_MurkWolf_bite_2_bottomjaw.sco
+p-meshtex=SRU_MurkWolf_Bite_teeth.dds
+p-postoffset=0 0 0
+p-quadrot=0 180 0
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=0
+p-uvscroll-rgb=0 -1.7999999523162842
+p-xrgba=1 1 1 1
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Top
+GroupPart2=Bot
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[Top]
+e-alpharef=64
+e-life=3
+e-linger=1
+e-local-orient=0
+e-rate=2
+e-rgba=255 255 255 255
+e-timeoffset=0.1
+flag-disable-z=1
+p-bindtoemitter=0
+p-drag=0 0 1
+p-life=0.30000000000000004
+p-lifeXP1=0 0.2
+p-lifeXP2=1 1
+p-linger=1
+p-offset=1 0 10
+p-quadrot=1 1 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-scale=50 50 0
+p-texture=SRU_VulturesMini_BA1_sparkRing.tga
+p-type=0
+p-vel=0 0 0
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.6 0.6 0.6
+p-xscale2=1 1 1 1
+pass=2
+rendermode=3
+single-particle=1
+uniformscale=1
+
+[UNKNOWN_HASHES]
+unk1B70FEEB=1

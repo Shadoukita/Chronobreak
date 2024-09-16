@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="lulu_r_forward.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="lulu_r_cas.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="lulurboom"}}, 
+{Function=BBPreloadSpell, Params={Name="lulurslow"}}, 
+{Function=BBPreloadParticle, Params={Name="lulu_r_expire.troy"}}, 
+}

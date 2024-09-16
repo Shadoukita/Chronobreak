@@ -1,0 +1,53 @@
+[System]
+GroupPart1=aoering
+GroupPart1Importance=High
+GroupPart2=meshring
+SimulateEveryFrame=1
+
+[aoering]
+e-life=1
+e-rate=1
+e-rgba=65 179 255 255
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=Maokai_Base_R_ring.sco
+p-meshtex=Maokai_Base_R_teamcolor_ring.dds
+p-postoffset=0 10 0
+p-scale=520 520 520
+p-texdiv=0.2 0.2
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=-0.10000000149011612 0.10000000149011612
+p-xrgba=0.5 0.5 0.5 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.9 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=100
+teamcolor-correction=1
+
+[meshring]
+e-rate=1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=10
+p-linger=0.5
+p-mesh=maokai_base_r_aura_edge.scb
+p-meshtex=TEST_maokai_Base_R_teamcolor_blue.dds
+p-offset=0 5 0
+p-scale=1.4000000000000001 1 1.4000000000000001
+p-texdiv=0.4 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.5 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.98 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+single-particle=1
+

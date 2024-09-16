@@ -1,0 +1,22 @@
+[Ring]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=4
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=0.25
+p-quadrot=90 0 0
+p-rgba=Orianna_EAllyRange_Ring.tga
+p-scale=1510 1510 0
+p-texture=ring_highres.tga
+p-type=1
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=Ring
+GroupPart1Importance=High
+SimulateEveryFrame=0
+group-vis=1000
+

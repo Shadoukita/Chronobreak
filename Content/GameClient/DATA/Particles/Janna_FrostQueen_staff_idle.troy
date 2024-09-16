@@ -1,0 +1,217 @@
+[Drag]
+f-drag=1
+f-pos=0 0 0
+f-radius=1000
+
+[Falling]
+KeywordsRequired=FrostqueenJanna
+e-life=-1
+e-rate=4
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=Gravity
+field-drag-1=Drag
+field-noise-1=Noise
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-linger=-1
+p-numframes=1
+p-offset=100 30 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=40 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-rotvel=1
+p-rotvelP1=0 -360
+p-rotvelP2=1 360
+p-scale=1
+p-scaleP1=0 1
+p-scaleP2=1 4
+p-texdiv=2 2
+p-texture=Snowflakes03.tga
+p-type=0
+rendermode=0
+
+[Gravity]
+f-accel=0 -300 0
+f-localspace=0
+
+[Noise]
+f-period=1
+f-pos=0 500 0
+f-radius=1000
+f-veldelta=20
+
+[System]
+GroupPart1=littleray
+GroupPart1Importance=Low
+GroupPart1Type=Complex
+GroupPart2=glow
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=sparkles
+GroupPart3Type=Simple
+GroupPart4=Falling
+GroupPart4Type=Simple
+GroupPart5=helix
+GroupPart6=helix2
+SimulateEveryFrame=1
+
+[glow]
+KeywordsRequired=FrostqueenJanna
+e-life=-1
+e-rate=4
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 0.6
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-ringdust.tga
+p-scale=110
+p-startframe=2
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.7000000000000001 0.7000000000000001
+p-xscale3=1 1.4000000000000001
+rendermode=0
+
+[helix]
+KeywordsRequired=FrostqueenJanna
+e-life=-1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 1.5
+p-lifeP2=1 0.5
+p-local-orient=1
+p-mesh=Vlad_Pool_Spiral.sco
+p-meshtex=janna_blue_ribbon.tga
+p-offset=0 -35 0
+p-quadrot=0 -90 0
+p-rgba=color-bellramp.tga
+p-rotvel=10 -80 0
+p-rotvelYP1=0 1
+p-rotvelYP2=1 -1
+p-scale=0.35 0.25 0.35
+p-scaleP1=0 0.6 0.3 0.6
+p-scaleP2=1 0.1 1 0.1
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=-0.58 -0.2
+p-vel=0 25 0
+p-xscale1=0 1 1 1
+p-xscale2=0.7 1 1 1
+p-xscale3=1 0.3 1 0.3
+rendermode=0
+
+[helix2]
+KeywordsRequired=FrostqueenJanna
+e-life=-1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=1
+p-lifeP1=0 2
+p-lifeP2=1 0.3
+p-mesh=Vlad_Pool_Spiral.sco
+p-meshtex=janna_blue_ribbon.tga
+p-offset=0 -35 0
+p-quadrot=0 -180 0
+p-rgba=color-bellramp.tga
+p-rotvel=0 200 0
+p-rotvelYP1=0 1
+p-rotvelYP2=1 -1
+p-scale=0.35 0.25 0.35
+p-scaleP1=0 0.4 0.3 0.4
+p-scaleP2=1 0.5 0.85 0.5
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=-0.58 -1
+p-vel=0 35 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.35 1 1 1
+p-xscale3=1 0 0.85 0
+rendermode=0
+
+[littleray]
+KeywordsRequired=FrostqueenJanna
+e-life=-1
+e-local-orient=0
+e-rate=80
+p-bindtoemitter=1 1
+p-colorscale=1 0.2
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-linger=0
+p-offset=0 0 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rgba=color-terrorize.tga
+p-scale=20 50 0
+p-startframe=1
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=2
+p-xscale1=0 0 0 0
+p-xscale2=0.7000000000000001 0.5 0.5 0.5
+p-xscale3=1 1 1 1
+rendermode=0
+
+[sparkles]
+KeywordsRequired=FrostqueenJanna
+e-life=-1
+e-rate=2
+p-bindtoemitter=1 0.85
+p-colorscale=1 0.85
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=10 20 -13
+p-offsetXP1=0 -10
+p-offsetXP2=1 10
+p-offsetYP1=0 -0.5
+p-offsetYP2=1 0.30000000000000004
+p-quadrot=45
+p-rgba=color-hold.tga
+p-scale=10
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk543314A6=0 -1 0.85
+unk543314A7=1 0 0.5
+unk71EDAB70=0 1 1r
+unk71EDAB71=1 0 -0.5

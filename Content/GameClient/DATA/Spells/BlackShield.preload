@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="morgana_blackthorn_blackshield.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Morgana_Base_E_Tar.troy"}}, 
+}

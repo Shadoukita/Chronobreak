@@ -1,0 +1,29 @@
+[System]
+GroupPart1=splat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[splat]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-coloroffset=0 1
+p-colorscale=1 1
+p-colortype=1 2
+p-life=9
+p-offset=0 0 0
+p-rgba=hard_in_slow_out_p-rgba.tga
+p-scale=130 0 0
+p-simpleorient=2
+p-texture=blood_feast_01.tga
+p-type=1
+p-xquadrot=0 1 1
+p-xquadrot-on=1
+p-xquadrot1=0 0 0 0
+p-xquadrot2=0.5 0 180 0
+p-xquadrot3=1 0 360 0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk1813292F=1

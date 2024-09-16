@@ -1,0 +1,38 @@
+[System]
+GroupPart1=hit
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Velkoz_VelkozPresearchedFull_buffactivate
+
+[hit]
+e-life=1
+e-local-orient=1
+e-rate=2
+p-alphaslicerange=0.05999999865889549
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 1.5
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-randomstartframe=1
+p-rgba=Velkoz_Base_P_hit_slice_rgba.tga
+p-scale=1
+p-simpleorient=3
+p-texdiv=2 2
+p-texture=Velkoz_Base_Z_Alphaslice_Mesh.tga
+p-texture-pixelate=1
+p-type=11
+p-uvscroll-rgb=0 0
+p-xscale1=0 1.1
+p-xscale2=0.30000001192092896 1.0499999523162842
+p-xscale3=0.8999999761581421 1.024999976158142
+p-xscale4=1 1.024999976158142
+pass=100
+rendermode=4
+single-particle=1
+

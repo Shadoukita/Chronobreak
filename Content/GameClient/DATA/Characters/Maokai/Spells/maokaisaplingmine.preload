@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="maokai_base_e_explo.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaieslow"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaieaggrosound"}}, 
+{Function=BBPreloadParticle, Params={Name="maokaieaggrosound.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaisapling2"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_e_sapling_idle.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_e_teamid_blue.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="maokai_base_e_teamid_red.troy"}}, 
+}

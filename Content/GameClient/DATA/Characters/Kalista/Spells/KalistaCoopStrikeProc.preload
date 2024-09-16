@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="goldacquisition_glb.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistacoopstrikeprotect"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_skin01_p_bladefall_hero.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_p_bladefall_hero.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_skin01_p_bladefall.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_p_bladefall.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistacoopstrikeprocsynthetickill"}}, 
+}

@@ -1,0 +1,93 @@
+[Arctic_Aura]
+KeywordsRequired=VarusSkin03
+e-life=1
+e-local-orient=0
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.25
+p-linger=0.1
+p-local-orient=0
+p-postoffset=0 100 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 -1
+p-quadrotXP2=1 1
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-quadrotZP1=0 -1
+p-quadrotZP2=1 1
+p-scale=300 300 0
+p-simpleorient=2
+p-texture=Light_Rays_01.tga
+p-type=2
+p-xrgba1=0 0.8 0.8 0.8 0
+p-xrgba2=0.25 0.4 0.8 0.8 1
+p-xrgba3=1 0.2 0.4 0.8 0
+p-xscale1=0 1 0 0
+p-xscale2=1 1 1 1
+pass=30
+rendermode=0
+single-particle=1
+
+[Ascended_Aura]
+KeywordsRequired=VarusAscended
+e-life=1
+e-local-orient=0
+e-rate=10
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.25
+p-linger=0.1
+p-local-orient=0
+p-postoffset=0 100 0
+p-quadrot=360 360 360
+p-quadrotXP1=0 -1
+p-quadrotXP2=1 1
+p-quadrotYP1=0 -1
+p-quadrotYP2=1 1
+p-quadrotZP1=0 -1
+p-quadrotZP2=1 1
+p-scale=300 300 0
+p-simpleorient=2
+p-texture=Light_Rays_01.tga
+p-type=2
+p-xrgba1=0 0.8 0.8 0.8 0
+p-xrgba2=0.25 0.8 0.8 0.5 1
+p-xrgba3=1 0.8 0.8 0.2 0
+p-xscale1=0 1 0 0
+p-xscale2=1 1 1 1
+pass=30
+rendermode=0
+single-particle=1
+
+[Flash]
+KeywordsExcluded=VarusAscended VarusSkin03
+e-life=4
+e-local-orient=0
+e-rate=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.6000000000000001
+p-linger=0
+p-offset=0 0 0
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-hold.tga
+p-scale=400 400 0
+p-texture=shadow_step_red.tga
+p-type=1
+p-xscale1=0 0.3 0.3 0
+p-xscale2=0.2 1 1 0
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart2=Ascended_Aura
+GroupPart3=Arctic_Aura
+PersistThruDeath=1
+SimulateEveryFrame=1
+

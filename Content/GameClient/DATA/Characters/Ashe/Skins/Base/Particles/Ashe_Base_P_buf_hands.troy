@@ -1,0 +1,45 @@
+[Dark]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=4
+p-bindtoemitter=1.0 1.0
+p-colorscale=1.0 1.0
+p-colortype=1.0 3.0
+p-life=0.3
+p-lifeP1=0.0 1.0
+p-lifeP2=1.0 1.5
+p-linger=0
+p-rgba="color-bellcurve32.tga"
+p-scale=45
+p-texture="Ashe_Base_P_Buf_Hands_Dark.tga"
+p-type=0
+pass=-100
+rendermode=1
+
+[Glow]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=8
+p-bindtoemitter=1.0 1.0
+p-colorscale=1.0 1.0
+p-colortype=1.0 3.0
+p-life=0.7
+p-lifeP1=0.0 1.0
+p-lifeP2=1.0 1.5
+p-linger=0
+p-rgba="color-bellcurve.tga"
+p-scale=40
+p-texture="Ahrifirelight.tga"
+p-type=0
+pass=100
+rendermode=0
+
+[System]
+GroupPart1="Glow"
+GroupPart1Type="Simple"
+GroupPart2="Dark"
+GroupPart2Type="Simple"
+SimulateEveryFrame=1
+

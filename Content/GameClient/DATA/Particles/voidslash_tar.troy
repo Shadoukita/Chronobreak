@@ -1,0 +1,72 @@
+[System]
+GroupPart1=voidslash
+GroupPart1Type=Simple
+GroupPart2=flash
+GroupPart2Type=Simple
+GroupPart3=outerring
+GroupPart3Type=Simple
+GroupPart4=innerring
+GroupPart4Type=Simple
+
+[flash]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hit-physical.tga
+p-scale=150
+p-texture=hiteffect.dds
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+single-particle=1
+
+[innerring]
+e-life=1
+e-rate=1
+p-life=0.15000000596046448
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=color-darkbinding.tga
+p-scale=130
+p-startframe=3
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xscale=1
+p-xscale1=0 0.779
+p-xscale2=1 1.0010000467300415
+
+[outerring]
+e-life=1
+e-rate=1
+p-coloroffset=0.8 0
+p-colorscale=0.2 0.1
+p-life=0.5
+p-offset=0 40 0
+p-rgba=color-darkbinding.tga
+p-scale=90
+p-scalebias=1.5 1
+p-startframe=4
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.dds
+p-xscale=1
+p-xscale1=0 0.779
+p-xscale2=1 1.1863700151443481
+
+[voidslash]
+e-life=1
+e-rate=1
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-offset=0 80 0
+p-rgba=color-rampdown.tga
+p-scale=130
+p-scalebias=1 0.2
+p-texture=voidslash.dds
+p-xscale=1
+p-xscale1=0 0.8
+p-xscale2=1 2
+

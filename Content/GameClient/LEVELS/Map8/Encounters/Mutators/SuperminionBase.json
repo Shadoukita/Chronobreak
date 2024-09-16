@@ -1,0 +1,40 @@
+{
+  "MutatorDefinition": {
+    "Type": "StatGraph",
+    "MutatedData": [
+      {
+        "MutationIndex": 0,
+        "Mutation": [
+          {
+            "Stat": "FlatHPPoolMod",
+            "Value": -60.0,
+            "PerLevelValue": 0.0,
+            "Min": -3.4028234663852886E+38,
+            "Max": 3.4028234663852886E+38
+          },
+          {
+            "Stat": "FlatPhysicalDamageMod",
+            "Value": 9.0,
+            "PerLevelValue": 0.0,
+            "Min": -3.4028234663852886E+38,
+            "Max": 3.4028234663852886E+38
+          },
+          {
+            "Stat": "FlatArmorMod",
+            "Value": -10.0,
+            "PerLevelValue": 0.0,
+            "Min": -3.4028234663852886E+38,
+            "Max": 3.4028234663852886E+38
+          },
+          {
+            "Stat": "FlatSpellBlockMod",
+            "Value": 35.0,
+            "PerLevelValue": 0.0,
+            "Min": -3.4028234663852886E+38,
+            "Max": 3.4028234663852886E+38
+          }
+        ]
+      }
+    ]
+  }
+}

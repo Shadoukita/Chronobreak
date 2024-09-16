@@ -1,0 +1,23 @@
+[System]
+GroupPart1=bleed_counter_05
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[bleed_counter_05]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.009999999776482582
+p-life=300
+p-linger=0
+p-mesh=bleed_drop_counter_05.sco
+p-meshtex=bleed_blood_drop.dds
+p-postoffset=0 20 0
+p-rgba=color-hold.tga
+p-rotvel=0 60 0
+p-shadow=1
+p-type=3
+rendermode=3
+single-particle=1
+

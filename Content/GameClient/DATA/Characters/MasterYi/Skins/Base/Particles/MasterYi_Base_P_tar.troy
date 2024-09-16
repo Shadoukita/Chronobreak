@@ -1,0 +1,42 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=slice
+SimulateEveryFrame=1
+
+[flash]
+e-life=0.2
+e-rate=1
+p-life=0.2199999988079071
+p-offset=0 30 0
+p-quadrot=90
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-scale=115
+p-texture=MasterYi_Base_Z_Hit_Flash.dds
+p-xquadrot=0
+p-xscale=1
+p-xscale1=0 1 1 1
+p-xscale2=0.5 4 4 4
+p-xscale3=1 1 1 1
+
+[slice]
+e-life=0.15000000596046448
+e-rate=10
+p-life=0.15000000596046448
+p-linger=0
+p-local-orient=1
+p-quadrot=-90 0 -90
+p-rgba=alpha_12.tga
+p-scale=80 200 0
+p-simpleorient=2
+p-texture=MasterYi_Base_Z_Hit_Impact1.dds
+p-type=2
+p-vel=0 180 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.2 1 1 0
+p-xscale3=1 2.5 3 0
+pass=-100
+single-particle=1
+

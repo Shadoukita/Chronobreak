@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="tagteamcooldownq"}}, 
+{Function=BBPreloadSpell, Params={Name="tagteamcooldownw"}}, 
+{Function=BBPreloadSpell, Params={Name="tagteamcooldowne"}}, 
+{Function=BBPreloadSpell, Params={Name="tagteamcooldownr"}}, 
+{Function=BBPreloadSpell, Params={Name="tagteamswap"}}, 
+{Function=BBPreloadParticle, Params={Name="global_ss_teleport_blue.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_ss_teleport_red.troy"}}, 
+}

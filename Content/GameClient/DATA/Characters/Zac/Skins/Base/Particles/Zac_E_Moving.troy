@@ -1,0 +1,85 @@
+[Grumpy_Spikes_Curved]
+KeywordsRequired=ZacGrumpy
+SoundPersistent=Play_sfx_ZacGrumpy_ZacEMove_missilelaunch
+e-life=1
+e-local-orient=1
+e-rate=20
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=0.8
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=0.2
+p-mesh=Zac_SKN1_Spike_02.sco
+p-meshtex=Zac_Spike_Color.tga
+p-offset=0 0 0
+p-quadrot=180 0 0
+p-reflection-fresnel=1
+p-reflection-fresnel-color=1 1 1 1
+p-reflection-map=Zac_RM_SKN1.dds
+p-reflection-opacity-direct=0.2
+p-reflection-opacity-glancing=0.1
+p-rgba=Zac_Goo_RGB.tga
+p-rotvel=0 1000 0
+p-scale=100 100 100
+p-scaleXP1=0 1
+p-scaleXP2=1 1.25
+p-shadow=1
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+pass=4
+rendermode=1
+uniformscale=1
+
+[Spatter]
+KeywordsExcluded=ZacGrumpy
+SoundPersistent=Play_sfx_Zac_ZacEMove_missilelaunch
+e-life=2
+e-linger=0.7000000000000001
+e-rate=100
+p-backfaceon=0
+p-bindtoemitter=0.1 0
+p-drag=3 3 3
+p-frameRate=0
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-numframes=4
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rotvel=30 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=60 0 0
+p-scaleXP1=0 0.75
+p-scaleXP2=1 1.5
+p-shadow=0
+p-startframe=0
+p-texdiv=2 2
+p-texture=Zac_Goo_03.tga
+p-worldaccel=0 -1000 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.15 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=20
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Grumpy_Spikes_Curved
+GroupPart2=Spatter
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Zac_ZacEMove_buffactivate
+
+[UNKNOWN_HASHES]
+unk586214B3=0

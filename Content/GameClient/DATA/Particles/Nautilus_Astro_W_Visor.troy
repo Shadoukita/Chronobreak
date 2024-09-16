@@ -1,0 +1,27 @@
+[System]
+GroupPart1=visor
+SimulateEveryFrame=1
+
+[visor]
+e-life=3
+e-local-orient=1
+e-rate=1
+e-uvoffset=0 0.5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=11
+p-linger=0
+p-local-orient=1
+p-mesh=Nautilus_Astro_Visor.sco
+p-meshtex=Malphite_Glacial_Mesh_Sparkle.tga
+p-postoffset=0 0 -9
+p-quadrot=0 0 3
+p-rgba=coin01.tga
+p-scale=1 1 1
+p-simpleorient=2
+p-type=3
+p-uvscroll-rgb=-0.6000000238418579 -0.6000000238418579
+pass=100
+rendermode=4
+single-particle=1
+

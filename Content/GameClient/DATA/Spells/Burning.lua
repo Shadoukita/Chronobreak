@@ -1,0 +1,11 @@
+local L0_1, L1_1
+L0_1 = "Burning.dds"
+BuffTextureName = L0_1
+L0_1 = "Burning"
+BuffName = L0_1
+L0_1 = "Cape_neg_buf.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "GLOBAL_SLOW.TROY"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "game_floatingtext_Slowed"
+PopupMessage1 = L0_1

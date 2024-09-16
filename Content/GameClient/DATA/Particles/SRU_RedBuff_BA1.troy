@@ -1,0 +1,26 @@
+[Mesh]
+e-life=0.25
+e-rate=1
+p-backfaceon=1
+p-fresnel=0.021
+p-fresnel-color=0.5 0.2 0.1 -1
+p-life=0.3
+p-local-orient=1
+p-mesh=SRU_RedBuff_Attack1_SwipeMesh.sco
+p-meshtex=SRU_RedBuff_BA1_Swipe.tga
+p-meshtex-mult=SRU_RedBuff_BA1_Swipe_Mask.tga
+p-offset=-20 50 50
+p-scale=1.5 1.5 1.5
+p-type=3
+p-uvscroll-rgb=-4 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Mesh
+SimulateEveryFrame=1
+

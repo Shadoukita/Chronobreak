@@ -1,0 +1,18 @@
+[3DPoof]
+e-rate=1
+p-life=1
+p-mesh=Kalista_Base_BA_Hit_Poof.scb
+p-meshtex=Kalista_Base_BA_Hit_Poof.dds
+p-scale=5 5 5
+p-type=3
+p-uvscroll-rgb=0 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=3DPoof
+SimulateEveryFrame=1
+

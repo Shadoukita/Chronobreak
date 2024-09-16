@@ -1,0 +1,30 @@
+[System]
+GroupPart1=electric
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[electric]
+e-life=-1
+e-linger=0
+e-rate=129
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-life=0.1
+p-lifeP1=0 1
+p-lifeP2=1 0
+p-linger=0
+p-offset=1 1 1
+p-offsetXP1=0 10
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=alpha_20.tga
+p-scale=0.25
+p-scaleP1=0 0.2
+p-scaleP2=1 2
+p-startframe=3
+p-texdiv=2 2
+p-texture=skarner_plasma_electricity_01.tga
+p-vel=10 50 10
+rendermode=4
+

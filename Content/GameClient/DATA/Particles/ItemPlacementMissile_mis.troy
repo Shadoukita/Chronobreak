@@ -1,0 +1,29 @@
+[System]
+GroupPart1=put
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[put]
+e-life=0.30000000000000004
+e-linger=0.30000000000000004
+e-local-orient=1
+e-rate=240
+e-tilesize=600 0 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-offset=0 0 -30
+p-rgba=color-rampdown.tga
+p-scale=6 0 0
+p-scale1=0 0.2
+p-scale2=1 1
+p-texture=puttrail.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=0 0
+p-xscale1=0 1 0 0
+p-xscale2=1 10 0 0
+rendermode=0
+

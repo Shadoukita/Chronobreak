@@ -1,0 +1,25 @@
+[System]
+GroupPart1=lifebar-mockup
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[lifebar-mockup]
+e-life=100000
+e-linger=0
+e-rate=10
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=0.4 1
+p-colortype=0 0
+p-life=0.1
+p-linger=0
+p-offset=0 1 0
+p-quadrot=-90
+p-rgba=color-rampup32.tga
+p-scale=100
+p-simpleorient=2
+p-texdiv=1 1
+p-texture=lifebar-mockup.tga
+p-type=1
+rendermode=1
+

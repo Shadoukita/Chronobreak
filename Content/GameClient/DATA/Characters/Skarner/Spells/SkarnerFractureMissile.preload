@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="skarner_base_e_unit_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_fracture_tar_consume.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_fracture_heal.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="skarnerfracture"}}, 
+{Function=BBPreloadSpell, Params={Name="skarnervirulentslashslow"}}, 
+{Function=BBPreloadParticle, Params={Name="luxpassive_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="skarner_base_e_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="skarnerfractureslow"}}, 
+{Function=BBPreloadSpell, Params={Name="skarnerpassivebuff"}}, 
+}

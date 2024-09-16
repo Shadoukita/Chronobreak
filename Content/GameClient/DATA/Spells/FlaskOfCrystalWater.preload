@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="flaskofcrystalwater"}}, 
+{Function=BBPreloadSpell, Params={Name="potion_internal"}}, 
+}

@@ -1,0 +1,30 @@
+[System]
+GroupPart1=Target
+GroupPart1Importance=High
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Quinn_QuinnWPassiveReady_hit
+
+[Target]
+e-life=4.5
+e-linger=0
+e-rate=4
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.6
+p-linger=0
+p-offset=0 15 0
+p-rgba=color-bellramp.tga
+p-scale=150
+p-texture=Quinn_W_target.tga
+p-type=0
+p-xscale1=0 0.8
+p-xscale2=1 1
+pass=100
+rendermode=0
+

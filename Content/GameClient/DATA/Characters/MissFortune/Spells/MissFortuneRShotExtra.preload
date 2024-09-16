@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="missfortune_base_q_second_02_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="missfortune_base_q_second_tar.troy"}}, 
+}

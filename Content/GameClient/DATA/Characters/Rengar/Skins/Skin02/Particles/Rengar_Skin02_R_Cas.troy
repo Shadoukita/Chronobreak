@@ -1,0 +1,107 @@
+[Avatar]
+e-life=1
+e-linger=1
+e-rate=1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0.5
+e-uvoffsetXP2=1 1
+p-alphaslicerange=0.1
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=2
+p-linger=2
+p-local-orient=1
+p-rgba=Rengar_Skin02_R_TransRamp.tga
+p-scale=1.0149999856948853 1.0149999856948853 1.0149999856948853
+p-simpleorient=3
+p-texture=Rengar_Skin02_R_AlphaSlice.tga
+p-type=11
+rendermode=4
+
+[Stealth_Swirls]
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=150
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 10
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 10
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-life=0.25
+p-linger=0.3
+p-local-orient=1
+p-mesh=Rengar_Skin02_Z_Sphere.sco
+p-meshtex=Rengar_Skin02_R_Cas.tga
+p-offset=0 150 0
+p-quadrot=1 -90 90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Rengar_Skin02_Z_RGB.tga
+p-scale=8 8 8
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0 0 -100
+p-xscale1=0 1 1 1
+p-xscale2=1 1 2 1
+rendermode=2
+
+[Stealth_Swirls_Add]
+e-life=3
+e-linger=0
+e-local-orient=1
+e-rate=100
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 10
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 10
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-fresnel=0.05
+p-fresnel-color=-1 -1 -1 -1
+p-life=0.25
+p-linger=0.3
+p-local-orient=1
+p-mesh=Rengar_Skin02_Z_Sphere.sco
+p-meshtex=Rengar_Skin02_R_Cas.tga
+p-offset=0 150 0
+p-quadrot=1 -90 90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Rengar_Skin02_Z_RGB_add.tga
+p-scale=8 8 8
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0 0 -100
+p-xscale1=0 1 1 1
+p-xscale2=1 1 2 1
+rendermode=0
+
+[System]
+GroupPart1=Stealth_Swirls
+GroupPart2=Stealth_Swirls_Add
+GroupPart3=Gimbal
+GroupPart3Type=Simple
+GroupPart4=Avatar
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk553567C8=1 1
+unk6C29B784=2
+unk70B138F0=128
+unk711407BD=2
+unk7D2BDA08=1
+unk84131F7D=4
+unk873CCC35=Rengar_Skin02_Z_Rampdown_RGB.tga
+unkB2BABA4B=Rengar_Skin02_R_MaterialOverrideTrans.tga
+unkD6F6B95C=1 0
+unkD73FC03E=2000
+unkE3E49E41=Rengar_Skin02_R_MatOverride_Self.tga

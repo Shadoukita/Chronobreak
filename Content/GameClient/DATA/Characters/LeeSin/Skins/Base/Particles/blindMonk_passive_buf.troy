@@ -1,0 +1,49 @@
+[System]
+GroupPart1=blade_01
+GroupPart1Importance=High
+GroupPart2=glow
+group-scale-cap=-1
+
+[blade_01]
+e-life=0.1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-quadrot=0 90 0
+p-rotvel=0 0 550
+p-scale=45 45 1
+p-texture=blind_monk_blur_05.dds
+p-type=1
+rendermode=4
+single-particle=1
+uniformscale=1
+
+[glow]
+e-local-orient=0
+e-rate=8
+e-rgba=255 48 51 255
+p-bindtoemitter=1 1
+p-life=0.4
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-rotvel=100 0 0
+p-rotvelXP1=0 0.5
+p-rotvelXP2=1 -0.5
+p-scale=80 80 1
+p-texture=LeeSin_Base_R_Glow_01.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 0.497993
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1.5 1.5 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1

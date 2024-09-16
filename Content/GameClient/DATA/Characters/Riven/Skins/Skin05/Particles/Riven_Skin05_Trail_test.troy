@@ -1,0 +1,29 @@
+[System]
+GroupPart1=trail_white_01
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[trail_white_01]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-alphaslicerange=0.07
+p-bindtoemitter=0 0.4
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.08
+p-colortype=1 0
+p-life=4
+p-linger=-1
+p-postoffset=0 5 0
+p-quadrot=0 90 0
+p-rgba=alpha_20.tga
+p-rotvel=0 0 100
+p-scale=100 100 100
+p-texture=Riven_Skin05_Trail_Test.tga
+p-type=1
+p-vel=0 0 400
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=4
+

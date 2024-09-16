@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="kalistapassiveon"}}, 
+{Function=BBPreloadCharacter, Params={Name="threshlantern"}}, 
+{Function=BBPreloadCharacter, Params={Name="kalistaaltar"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistapaltarbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimernoghost"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistacoopstrikeself"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistacoopstrikeally"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistaw"}}, 
+}

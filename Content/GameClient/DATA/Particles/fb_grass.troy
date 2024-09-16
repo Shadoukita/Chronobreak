@@ -1,0 +1,63 @@
+[Grass_01]
+e-life=1
+e-linger=1
+e-local-orient=1
+e-rate=40
+e-timeoffset=0.15
+p-bindtoemitter=0 0
+p-drag=2 2 2
+p-dragYP1=0 0.2
+p-dragYP2=1 1
+p-dragZP1=0 1
+p-dragZP2=1 2
+p-frameRate=0
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-numframes=8
+p-offset=100 90 40
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=1 1 1
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rotvel=300 100 300
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=32 32 32
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-scaleZP1=0 0.5
+p-scaleZP2=1 1
+p-startframe=0
+p-texdiv=4 2
+p-texture=fb_grass.dds
+p-type=1
+p-vel=200 50 500
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -0.3
+p-velZP2=1 1
+p-worldaccel=0 -500 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Grass_01
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk65DF6308=1

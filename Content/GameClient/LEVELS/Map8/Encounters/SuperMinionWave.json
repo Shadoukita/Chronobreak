@@ -1,0 +1,50 @@
+{
+  "EncounterDefinition": {
+    "BonusValue": 12,
+    "SquadAI": "Wave",
+    "MaxMonstersPerSpawn": 1,
+    "SpawnDelay": 0.75,
+    "Tags": [],
+    "MonsterGroups": [
+      {
+        "Tags": [],
+        "Monsters": [
+          {
+            "SkinName": "",
+            "OrderSkinName": "Blue_Minion_Melee",
+            "ChaosSkinName": "Red_Minion_Melee",
+            "Value": 1,
+            "Count": 0,
+            "Tags": [
+              "Melee"
+            ],
+            "MinimapIcon": "",
+            "Targetable": 1,
+			"IsLaneMinion": 1,
+            "GoldAwarded": 15,
+            "ExperienceAwarded": 15,
+            "BehaviorTreeAI": 0,
+            "runLuaAI" : "default"
+          },
+          {
+            "SkinName": "",
+            "OrderSkinName": "Blue_Minion_superminion",
+            "ChaosSkinName": "Red_Minion_superminion",
+            "Value": 1,
+            "Count": 1,
+            "Tags": [
+              "SuperMinion"
+            ],
+            "MinimapIcon": "",
+            "Targetable": 1,
+			"IsLaneMinion": 1,
+            "GoldAwarded": 25,
+            "ExperienceAwarded": 15,
+            "BehaviorTreeAI": 0,
+            "runLuaAI" : "default"
+          }
+        ]
+      }
+    ]
+  }
+}

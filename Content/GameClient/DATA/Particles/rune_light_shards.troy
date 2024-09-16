@@ -1,0 +1,27 @@
+[System]
+GroupPart1=rune_light_shards
+GroupPart1Importance=High
+SimulateEveryFrame=1
+group-vis=5000
+
+[rune_light_shards]
+e-life=-1
+e-linger=0
+e-rate=0.009999999776482582
+e-uvoffset=0.6700000166893005 0
+e-uvoffset_flex0=1 0
+flag-disable-z=0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=100
+p-linger=1
+p-mesh=TT_rune_light_shards.sco
+p-meshtex=rune_light_shards.dds
+p-postoffset=4 -7 5
+p-quadrot=0 146 0
+p-rotvel=0 0 0
+p-scale=1 1 1
+p-texdiv=1 1
+p-type=3
+rendermode=0
+

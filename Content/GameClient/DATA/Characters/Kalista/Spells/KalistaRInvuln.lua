@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Kalista_R.dds"
+BuffTextureName = L0_1
+L0_1 = "KalistaRInvuln"
+BuffName = L0_1
+L0_1 = "Kalista_Base_R_Zhonyas_Sound.troy"
+AutoBuffActivateEffect4 = L0_1
+L0_1 = "C_Buffbone_Glb_Head_Loc"
+AutoBuffActivateAttachBoneName4 = L0_1

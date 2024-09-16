@@ -1,0 +1,135 @@
+[Rise]
+f-accel=0 400 0
+f-localspace=0
+
+[SmokeDrag]
+f-drag=2
+f-pos=0 0 0
+f-radius=2000
+
+[SparksDrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=2000
+
+[System]
+GroupPart1=fire
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=smoke_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+PersistThruDeath=1
+
+[fire]
+e-life=0.4
+e-rate=500
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Rise
+field-drag-1=SparksDrag
+p-bindtoemitter=0.6000000000000001 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-life=1
+p-lifeP1=0 0.2
+p-lifeP2=0.8 0.4
+p-lifeP3=1 1
+p-linger=-1
+p-numframes=4
+p-offset=15 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-sparks.tga
+p-scale=30
+p-scaleP1=0 0.1
+p-scaleP2=1 1
+p-startframe=2
+p-texdiv=2 3
+p-texture=fireball_hit.tga
+p-vel=0 100 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=0.8 1
+p-xscale4=1 0
+
+[smoke_02]
+e-life=0.15
+e-linger=0
+e-rate=70
+field-drag-1=SmokeDrag
+p-bindtoemitter=0.1 0
+p-colortype=1 3
+p-life=0.95
+p-lifeP1=0 0.8
+p-lifeP2=1 1.4000000000000001
+p-linger=-1
+p-offset=10 10 10
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-frostsmoke32.tga
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1.6
+p-startframe=2
+p-texdiv=2 4
+p-texture=InfernalGuardian02.tga
+p-vel=300 300 300
+p-velYP1=0 0.1
+p-velYP2=1 1.1
+p-velZP1=0 0.3
+p-velZP2=1 1.1
+p-xscale=1
+p-xscale1=0 0.7
+p-xscale2=1 1.649999976158142
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk06ED5D14=4
+unk0DF4AE86=1
+unk130896C6=-1
+unk14CB39FB=-1
+unk1D3D74CB=5 50 5
+unk23BFC333=0 0.6000000000000001
+unk23BFC334=1 1.4000000000000001
+unk2AACD674=1
+unk2FBC9FBE=0 0
+unk40D1AF47=0 1
+unk40D1AF48=1 1.5
+unk658CC072=40
+unk864AC1E2=2 2
+unk8DC1C025=1 3
+unk978873AE=0 0
+unk978873AF=1 1
+unk9806832F=0 -1
+unk98068330=1 1
+unk988492B0=0 0
+unk988492B1=1 1
+unk98B80038=1
+unk9FA39775=0 0.8
+unk9FA39776=1 1.4000000000000001
+unkA4CB15B4=1.5
+unkB0E2E7FF=0.55
+unkBAF3DA2C=color-smokedark.tga
+unkBC997C03=smokepuffs.tga
+unkC3632B6A=1
+unkC42953E3=80
+unkD8BB7FF9=0 0
+unkD8BB7FFA=1 360

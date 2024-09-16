@@ -1,0 +1,115 @@
+[Flash]
+e-life=0.2
+e-rate=10
+e-rateP1=0 0.5
+e-rateP2=1 1
+p-life=0.1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Jinx_Q_Rocket_RGB.tga
+p-scale=250 250 250
+p-texture=glow-soft.tga
+p-type=0
+p-xrgba=1 1 1 0.2
+pass=100
+rendermode=0
+
+[Muzzle_Flash]
+e-life=0.2
+e-linger=0.5
+e-local-orient=1
+e-rate=15
+e-rateP1=0 0
+e-rateP2=0 1
+p-bindtoemitter=1 1
+p-life=0.15
+p-numframes=4
+p-quadrot=-90 20 90
+p-quadrotZP1=0 0.5
+p-quadrotZP2=1 1.5
+p-randomstartframe=1
+p-rgba=Jinx_Q_Rocket_RGB.tga
+p-scale=80 80 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1.5
+p-scaleYP1=0 1
+p-scaleYP2=1 1.5
+p-startframe=0
+p-texdiv=2 2
+p-texture=Jinx_Muzzle_Flash.tga
+p-type=1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 2 2 1
+pass=40
+rendermode=0
+
+[System]
+GroupPart1=Muzzle_Flash
+GroupPart1Importance=High
+GroupPart2=Flash
+GroupPart3=bullet
+GroupPart4=bullet_Shell
+SimulateEveryFrame=1
+
+[bullet]
+e-life=0.3
+e-linger=0
+e-rate=40
+p-life=0.1
+p-linger=0
+p-offset=13 13 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-quadrot=90 0 -90
+p-scale=175 5 0
+p-texture=Jinx_Basic_Bullet.tga
+p-type=1
+p-vel=0 0 -1675
+p-velZP1=0 1.5
+p-velZP2=1 2
+p-xscale1=0 0 1 1
+p-xscale2=0.1 1 1 1
+p-xscale3=0.2 0.4 1 1
+p-xscale4=1 0.4 1 1
+pass=40
+rendermode=0
+
+[bullet_Shell]
+e-life=0.25
+e-linger=0
+e-local-orient=1
+e-rate=40
+p-drag=5 5 5
+p-life=0.6
+p-mesh=Jinx_Bullet_Shell.sco
+p-meshtex=Jinx_Bullet_Shell.tga
+p-offset=0 0 75
+p-quadrot=-90 0 0
+p-reflection-fresnel=1
+p-reflection-fresnel-color=1 1 1 1
+p-reflection-map=Jinx_Bullet_RM.dds
+p-reflection-opacity-direct=0.2
+p-reflection-opacity-glancing=1
+p-rotvel=500 500 500
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=0.075 0.075 0.075
+p-type=3
+p-vel=-1000 500 450
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-velZP1=0 1
+p-velZP2=1 2
+p-worldaccel=0 -1000 0
+pass=40
+rendermode=1
+

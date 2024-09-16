@@ -1,0 +1,114 @@
+[System]
+GroupPart1=icerock
+GroupPart1Importance=High
+GroupPart2=magicdots
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=smoke
+GroupPart3Type=Simple
+
+[gravity]
+f-accel=0 -3400 0
+
+[icerock]
+e-active=1
+e-life=0.30000000000000004
+e-period=1
+e-rate=45
+e-rotation1=20
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-life=1.25
+p-mesh=skarner_crystal_single.sco
+p-meshtex=crystal_overlay_02.dds
+p-offset=0 200 0
+p-rotvel=100 200 300
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-rotvelYP1=0 -1
+p-rotvelYP2=1 1
+p-rotvelZP1=0 -1
+p-rotvelZP2=1 1
+p-scale=7 7 7
+p-scaleXP1=0 0.667
+p-scaleXP2=1 1.5570000410079956
+p-scaleYP1=0 0.556
+p-scaleYP2=1 1.6312589645385742
+p-scaleZP1=0 0.741
+p-scaleZP2=1 1.3346669673919678
+p-type=3
+p-vel=0 500 0
+p-worldaccel=0 -2000 0
+p-xscale=0.8 1 1
+
+[magicdots]
+e-active=1
+e-life=0.2
+e-period=1
+e-rate=60
+e-rotation1=20
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity
+p-life=0.75
+p-offset=10 40 10
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-rotvelP1=0 30
+p-rotvelP2=1 -30
+p-scale=110
+p-scaleP1=0 0.889
+p-scaleP2=1 1.2000000000000002
+p-startframe=6
+p-texdiv=2 4
+p-texture=InfernalGuardian03.dds
+p-vel=0 600 0
+p-xscale=0.8
+p-xscale1=0 0.1
+p-xscale2=0.5 1.149999976158142
+p-xscale3=1 0.1
+
+[smoke]
+e-active=1
+e-life=0.2
+e-period=1
+e-rate=400
+e-rotation1=20
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=gravity
+p-life=0.75
+p-offset=20 40 20
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-rotvel=0
+p-rotvelP1=0 30
+p-rotvelP2=1 -30
+p-scale=110
+p-scaleP1=0 0.889
+p-scaleP2=1 1.2000000000000002
+p-startframe=6
+p-texture=skarner_electric_smoke_01.dds
+p-vel=0 700 0
+p-xscale=0.8
+p-xscale1=0 0.1
+p-xscale2=0.5 1.149999976158142
+p-xscale3=1 0.1
+

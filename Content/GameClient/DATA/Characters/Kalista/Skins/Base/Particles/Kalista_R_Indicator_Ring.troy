@@ -1,0 +1,52 @@
+[Ring]
+e-life=0.1
+e-local-orient=0
+e-rate=40
+flag-disable-z=1
+p-bindtoemitter=1
+p-life=7
+p-linger=0
+p-quadrot=90 0 0
+p-rgba=Global_Indicator_Ring_bright.tga
+p-scale=950 950 0
+p-texture=ring_highres.tga
+p-type=1
+rendermode=0
+
+[System]
+GroupPart1=Ring
+GroupPart1Importance=High
+SimulateEveryFrame=0
+
+[UNKNOWN_HASHES]
+unk0A75EAD0=2 2
+unk0EA2BB51=0
+unk23CEC063=0 1
+unk23CEC064=1 1.5
+unk343E80EC=0 1 0
+unk3B0D8EA3=0 0
+unk3B0D8EA4=1 360
+unk3E14D620=1
+unk484512CA=0 0 90
+unk58CAE474=1
+unk5B1B2597=1 0 0
+unk5FC543E2=1
+unk6A5780F9=0 0 0
+unk6C268E95=Global_Indicator_Shafts.tga
+unk70F66862=0
+unk98F662E9=0.5
+unkA1689DB9=740 0 0
+unkBFA6E9BD=1
+unkC1C9555D=1.5 1
+unkC1F355A2=1
+unkCE0B27ED=100000
+unkD2627C04=5 40 10
+unkD81C1A1A=color-bellcurve.tga
+unkE15193D1=50
+unkE4F646A6=4
+unkE50AB750=1 1
+unkEEDC9197=1
+unkEEF4D9F8=0
+unkF05EC1D9=0 10 5 1
+unkF05EC1DA=1 30 5 1
+unkFB0A059A=1

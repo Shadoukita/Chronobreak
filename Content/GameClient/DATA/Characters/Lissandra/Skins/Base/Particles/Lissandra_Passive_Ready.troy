@@ -1,0 +1,57 @@
+[Head]
+KeywordsExcluded=Lissandra_skin01
+e-life=-1
+e-linger=0
+e-rate=0.5
+e-uvoffset=0 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=0.0026000000070780516
+p-life=2
+p-linger=0
+p-local-orient=1
+p-mesh=Lissandra_Passive_Head.sco
+p-meshtex=Lissandra_Passive_Head_Sheen.tga
+p-offset=0 0 0
+p-rgba=color-Lissandra_passive.tga
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=-0.4000000059604645 0
+pass=100
+rendermode=0
+
+[Head_Red]
+KeywordsRequired=Lissandra_skin01
+e-life=-1
+e-linger=0
+e-rate=0.5
+e-uvoffset=0 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-linger=0
+p-local-orient=1
+p-mesh=Lissandra_Deadwood_Passive_Head.sco
+p-meshtex=Lissandra_Passive_Head_Sheen_red.tga
+p-offset=0 0 1
+p-rgba=color-hold.tga
+p-scale=1.100000023841858 1.2000000476837158 1.0499999523162842
+p-type=3
+p-uvscroll-rgb=-0.4000000059604645 0
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Head
+GroupPart2=Head_Red
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-scale-cap=-1
+group-vis=10000
+

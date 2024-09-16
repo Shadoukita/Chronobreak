@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="brandwildfire"}}, 
+{Function=BBPreloadParticle, Params={Name="brandconflagration_tar_frost.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="brandconflagration_ult_tar_zombie.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="brandconflagration_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="brandablaze"}}, 
+}

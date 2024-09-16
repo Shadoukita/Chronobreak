@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="karthus_base_q_point.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="karthus_base_q_tar.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcube"}}, 
+{Function=BBPreloadCharacter, Params={Name="spellbook1"}}, 
+}

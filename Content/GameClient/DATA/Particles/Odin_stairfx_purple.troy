@@ -1,0 +1,29 @@
+[System]
+GroupPart1=stairfx
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=12000
+
+[stairfx]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-colorscale=0.5 0.5
+p-colortype=0 0
+p-life=4
+p-linger=4
+p-mesh=stairfx_left.sco
+p-meshtex=stairFX32.tga
+p-offset=-610 -200 410
+p-quadrot=0 215 0
+p-rgba=color-purp_01.tga
+p-scale=1 1 1
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.25
+pass=1
+rendermode=4
+

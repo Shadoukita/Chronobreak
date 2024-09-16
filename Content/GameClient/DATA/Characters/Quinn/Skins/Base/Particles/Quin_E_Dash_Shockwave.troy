@@ -1,0 +1,34 @@
+[System]
+GroupPart3=speed2
+SimulateEveryFrame=1
+
+[speed2]
+e-life=0.1
+e-rate=1
+e-uvoffset=0 1
+e-uvoffsetYP1=0 -1
+e-uvoffsetYP2=1 1
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=1
+p-local-orient=1
+p-mesh=Quin_E_Dash_Mesh.sco
+p-meshtex=Quin_E_Dash_Lines.tga
+p-offset=0 130 0
+p-postoffset=0 0 140
+p-quadrot=-70 0 0
+p-rgba=alpha_20.tga
+p-scale=5 5 5
+p-simpleorient=2
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 1
+p-uvscroll-rgbYP1=0 -1
+p-uvscroll-rgbYP2=1 1
+p-vel=0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 1 1
+p-xscale3=1 5 15 5
+rendermode=4
+

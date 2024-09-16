@@ -1,0 +1,104 @@
+[System]
+GroupPart1=ground_01
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+GroupPart2=cast_flash
+GroupPart2Importance=Low
+GroupPart2Type=Simple
+GroupPart3=cast_flash_02
+GroupPart3Importance=Low
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[cast_flash]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.65
+p-linger=0
+p-projection-fading=100
+p-projection-y-range=50
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=alpha_12.tga
+p-rotvel=20
+p-scale=95
+p-texture=flare-Rainbow_yellow_11.tga
+p-type=7
+p-vel=0 0 0
+rendermode=0
+
+[cast_flash_02]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.0035000001080334187
+p-life=0.65
+p-linger=0
+p-projection-fading=100
+p-projection-y-range=50
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=alpha_12.tga
+p-rotvel=-20
+p-scale=40
+p-texture=flare-Rainbow_yellow_06.tga
+p-type=7
+p-vel=0 0 0
+rendermode=0
+
+[ground_01]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.15
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.0035000001080334187
+p-life=0.8
+p-linger=0
+p-offset=0 10 0
+p-projection-fading=100
+p-projection-y-range=50
+p-rgba=alpha_12.tga
+p-scale=65 65 65
+p-texture=sword_of_divine.tga
+p-type=7
+p-xscale=1
+p-xscale1=0 1.1
+p-xscale2=1 1.5499999523162842
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk00245BD0=1 2
+unk00F2AF7F=1
+unk09EFA318=50
+unk19E46254=1 0.1
+unk20B04B69=0 0.9
+unk20FC14C7=7
+unk35AB0A9F=1
+unk431E8163=45
+unk50981ADB=0
+unk525ABE10=0
+unk5ACCF8E0=0 10 0
+unk66FFFD2E=sword_of_divine.tga
+unk7C87B069=1 1
+unk9546A6AA=100
+unk9B11A009=0
+unk9DC27384=0.0035000001080334187
+unkA4DA9449=1
+unkB0F26694=-1
+unkBB0358C1=AlphaStrike_prison__ball__p-rgba.tga
+unkC438D278=2
+unkE7F1E71D=110 110 110
+unkEB383072=0 1.2000000000000002
+unkEB383073=1 0.65

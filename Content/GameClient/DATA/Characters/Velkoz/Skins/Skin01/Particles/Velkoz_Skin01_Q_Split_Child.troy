@@ -1,0 +1,25 @@
+[System]
+GroupPart1=Trail
+SimulateEveryFrame=1
+
+[Trail]
+e-life=1
+e-linger=-1
+e-local-orient=1
+e-rate=60
+e-tilesize=500 0 0
+p-colortype=1 0
+p-life=0.4
+p-linger=-1
+p-rgba=Velkoz_Skin01_Q_mis_rgba.tga
+p-scale=120 0 0
+p-texture=Velkoz_Skin01_Q_FireTrail_01.dds
+p-trailmode=1
+p-type=4
+p-uvscroll-rgb=-0.6 0
+p-xscale1=0 1 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+pass=2
+rendermode=4
+

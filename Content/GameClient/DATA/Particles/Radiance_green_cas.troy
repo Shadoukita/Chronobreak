@@ -1,0 +1,63 @@
+[GreenGemLight]
+e-life=10000
+e-linger=0
+e-local-orient=0
+e-rate=4
+p-bindtoemitter=1 1
+p-life=3
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-offset=0 1 0
+p-projection-fading=100
+p-projection-y-range=250
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=500
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-simpleorient=2
+p-texture=greengemlight.tga
+p-type=7
+p-xscale1=0 0.8
+p-xscale2=0.5 1
+p-xscale3=1 0.8
+rendermode=0
+teamcolor-correction=1
+
+[GreenGemLightFlat]
+e-life=10000
+e-linger=0
+e-local-orient=0
+e-rate=4
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=3
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-offset=0 1 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=500
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-simpleorient=2
+p-texture=greengemlight.tga
+p-type=1
+p-xscale1=0 0.8
+p-xscale2=0.5 1
+p-xscale3=1 0.8
+rendermode=0
+teamcolor-correction=1
+
+[System]
+GroupPart1=GreenGemLight
+GroupPart1Importance=Low
+GroupPart1Type=Simple
+GroupPart2=GreenGemLightFlat
+GroupPart2Importance=NotWhenHigh
+GroupPart2Type=Simple
+

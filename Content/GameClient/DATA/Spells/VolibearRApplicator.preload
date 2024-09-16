@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="volibear_r_cas_03.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_cas_04.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_lightning_arms.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_chain_lighting_01.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="volibearrchain"}}, 
+{Function=BBPreloadSpell, Params={Name="volibearrlimit"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_r_tar_02.troy"}}, 
+}

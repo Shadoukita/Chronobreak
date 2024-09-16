@@ -1,0 +1,23 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = true
+CastingBreaksStealth = L0_1
+L0_1 = false
+IsDamagingSpell = L0_1
+L0_1 = "Shen_Feint.dds"
+BuffTextureName = L0_1
+L0_1 = "Shen Feint Buff"
+BuffName = L0_1
+L0_1 = "LuxPrismaticWave_shield.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = 3
+OnPreDamagePriority = L0_1
+L0_1 = {}
+L1_1 = "RivenSkin05"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

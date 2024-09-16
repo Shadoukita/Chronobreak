@@ -1,0 +1,27 @@
+local L0_1, L1_1
+L0_1 = true
+NotSingleTargetSpell = L0_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = true
+DoesntTriggerSpellCasts = L0_1
+L0_1 = false
+CastingBreaksStealth = L0_1
+L0_1 = false
+IsDamagingSpell = L0_1
+L0_1 = "GreenTerror_ChitinousExoplates.dds"
+BuffTextureName = L0_1
+L0_1 = "Vorpal Spikes"
+BuffName = L0_1
+L0_1 = 3
+SpellToggleSlot = L0_1
+L0_1 = true
+PersistsThroughDeath = L0_1
+L0_1 = {}
+L1_1 = "BattlecastChogath"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1
+L0_1 = {}
+L1_1 = "BattlecastChogath"
+L0_1[1] = L1_1
+SpellVOOverrideSkins = L0_1

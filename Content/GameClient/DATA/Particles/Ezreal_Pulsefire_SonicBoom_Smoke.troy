@@ -1,0 +1,56 @@
+[System]
+GroupPart1=smoke
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[dustdrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=1000
+
+[smoke]
+e-life=0.1
+e-rate=130
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=dustdrag
+flag-disable-z=1
+p-bindtoemitter=0.1 0.1
+p-coloroffset=0.4 0.1
+p-colorscale=0.6000000000000001 0.8
+p-colortype=1 3
+p-life=0.95
+p-lifeP1=0 0.2
+p-lifeP2=0.9 3
+p-lifeP3=1 1
+p-linger=2
+p-numframes=4
+p-offset=100 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-buildingsmoke.tga
+p-rotvel=20
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=50
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=SmokePuffs_02.tga
+p-type=0
+p-vel=600 -100 0
+p-velXP1=0 0.2
+p-velXP2=1 2
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.10000000149011612 0.550000011920929
+p-xscale3=0.2 1
+p-xscale4=1 2
+rendermode=1
+single-particle=1
+

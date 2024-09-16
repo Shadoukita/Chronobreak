@@ -1,0 +1,51 @@
+[Aura_02]
+e-alpharef=0
+e-local-orient=0
+e-rate=1
+e-rgba=12 162 255 255
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-life=5
+p-linger=0
+p-offset=0 10 0
+p-quadrot=90 0 1
+p-scale=90 90 1
+p-simpleorient=2
+p-texture=Maokai_Base_E_TEAMID_Ring.dds
+p-type=1
+p-xquadrot=0 2 0
+p-xquadrot-on=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 0.258824 0.356863 1 1
+p-xrgba3=1 0 0.215686 0.654902 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.1 0.1 0.1
+rendermode=1
+
+[Sphere_glow]
+e-rate=1
+e-rgba=0 170 255 255
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=2
+p-offset=0 40 10
+p-scale=120 120 200
+p-texture=Maokai_Base_Q_Mis_softglow.dds
+p-xrgba=1 1 1 0.33299800753593445
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+pass=-3
+rendermode=1
+
+[System]
+GroupPart1=Aura_02
+GroupPart1Importance=High
+GroupPart2=Sphere_glow
+SimulateEveryFrame=1
+

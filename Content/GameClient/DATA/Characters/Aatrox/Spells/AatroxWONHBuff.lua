@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "TalonNoxianDiplomacy.dds"
+BuffTextureName = L0_1
+L0_1 = "TalonNoxianDiplomacyBuff"
+BuffName = L0_1
+L0_1 = "TEMP_Aatrox_W_Buff.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "R_Hand"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "TEMP_Aatrox_W_Buff.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "L_Hand"
+AutoBuffActivateAttachBoneName2 = L0_1

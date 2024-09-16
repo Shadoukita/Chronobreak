@@ -1,0 +1,23 @@
+[Net_Hunter]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.007499999832361937
+p-life=1.75
+p-mesh=Rengar_Skin01_E_Net.sco
+p-meshtex=Rengar_Skin01_E_Net.tga
+p-quadrot=0 0 0
+p-rotvel=0 0 0
+p-scale=150 150 150
+p-shadow=1
+p-type=3
+rendermode=1
+
+[System]
+GroupPart1=Net_Hunter
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Rengar_RengarEFinalMAX_hit
+

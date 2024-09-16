@@ -1,0 +1,26 @@
+[System]
+GroupPart1=circletimer
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[circletimer]
+e-life=0.1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=7.5
+p-mesh=circletimer.sco
+p-meshtex=white-black.tga
+p-offset=0 0 -40
+p-rgba=color-circletimer.tga
+p-scale=14 14 14
+p-type=3
+p-uvscroll-rgb=0.06666000187397003 0
+pass=1000
+rendermode=4
+single-particle=1
+

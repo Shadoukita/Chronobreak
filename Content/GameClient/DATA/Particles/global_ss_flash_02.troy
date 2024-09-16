@@ -1,0 +1,220 @@
+[Avatar]
+e-life=1
+e-linger=0
+e-rate=1
+p-alphaslicerange=0.13500000536441803
+p-backfaceon=1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.35
+p-linger=0.4
+p-local-orient=1
+p-rgba=color-SS-Flash.tga
+p-scale=1.0499999523162842 1.0499999523162842 1.0499999523162842
+p-simpleorient=3
+p-texture=alphaslice_mesh2.tga
+p-type=11
+rendermode=4
+
+[Beam]
+e-life=1
+e-local-orient=0
+e-rate=1
+field-accel-1=upBeam
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-fixedorbittype=1
+p-life=0.2
+p-linger=0
+p-offset=0 300 0
+p-quadrot=0
+p-rgba=Global_SS_Flash_Godray_Color.dds
+p-scale=70 400 10
+p-scalebias=1 10
+p-simpleorient=3
+p-texture=Global_SS_Flash_Godray.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 1.75 1.5 1
+p-xscale2=0.25 2 1.600000023841858 1
+p-xscale3=1 0.009999999776482582 0.20000000298023224 1
+pass=-1
+rendermode=4
+
+[CloudPuffs]
+e-life=0.8
+e-linger=1
+e-rate=2
+e-timeoffset=0.06
+field-noise-1=puffs
+p-flexoffset=0.0065
+p-flexscale=0.0065
+p-life=1.25
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=20 50 20
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 1
+p-offsetYP2=1 2
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-orbitvel=0 -2.5 0
+p-orbitvelYP1=0 0.3
+p-orbitvelYP2=1 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotXP2=1 360
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-rotvel=0 200 0
+p-scale=80 80 80
+p-texture=global_ss_flash_cloudpuff.tga
+p-type=0
+p-worldaccel=0 50 0
+p-xquadrot-on=1
+p-xrgba=1 0.6 0.1 0.25
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.25 0.25 0.25
+p-xscale2=1 1.1 1.1 1.1
+rendermode=0
+single-particle=1
+
+[FlareCore]
+e-life=1
+e-linger=-1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.25
+p-numframes=6
+p-offset=0 100 0
+p-quadrot=90 0 0
+p-randomstartframe=1
+p-scale=100 75 50
+p-scaleXP1=0 1
+p-scaleXP2=0.5 1
+p-scaleXP3=0.5000100135803223 -1
+p-scaleYP1=0 1
+p-scaleYP2=0.5 1
+p-scaleYP3=0.5000100135803223 -1
+p-startframe=0
+p-texdiv=2 5
+p-texture=global_ss_flash_flare_core_2x5.tga
+p-type=0
+p-xrgba=1 0.6 0.2 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 0.8 0.8 0.8 1
+p-xrgba3=1 0 0 0 0
+p-xscale1=0 0 0 0
+p-xscale2=1 2 2 0
+rendermode=0
+single-particle=1
+
+[GroundGlow]
+e-life=1
+e-rate=2
+p-backfaceon=1
+p-life=0.25
+p-local-orient=1
+p-offset=0 20 0
+p-quadrot=1 1 0
+p-quadrotXP1=0 90
+p-quadrotYP1=0 1
+p-quadrotYP2=1 360
+p-scale=150 150 100
+p-texture=bigglow.tga
+p-type=1
+p-xquadrot-on=1
+p-xrgba=1 0.5 0.2 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=0.5 1 1 0
+p-xscale3=1 0 0 1
+rendermode=4
+single-particle=1
+
+[SparklesBurst]
+e-life=0.5
+e-linger=1
+e-rate=15
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=1 0 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-noise-1=funish
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-flexoffset=0.0065
+p-flexscale=0.0065
+p-life=1
+p-lifeP1=0 0.1
+p-lifeP2=1 1
+p-numframes=4
+p-offset=0 -30 0
+p-orbitvel=0 -5 0
+p-orbitvelYP1=0 0.3
+p-orbitvelYP2=1 0
+p-quadrot=1 1 1
+p-randomstartframe=1
+p-scale=15 15 1
+p-scaleXP1=0 0.75
+p-scaleXP2=1 1.5
+p-scaleYP1=0 0.75
+p-scaleYP2=1 1.5
+p-texdiv=2 2
+p-texture=global_ss_flash_sparkle_2x2.dds
+p-type=0
+p-vel=10 2 0
+p-worldaccel=0 300 0
+p-xquadrot1=0 0 90 0
+p-xquadrot2=1 0 -90 0
+p-xscale1=0 1 1 1
+p-xscale2=0.4 0.5 0.5 0.5
+p-xscale3=0.6 1.5 1.5 1.5
+p-xscale4=1 0 0 0
+pass=0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=CloudPuffs
+GroupPart2=FlareCore
+GroupPart3=SparklesBurst
+GroupPart4=Avatar
+GroupPart4Type=Simple
+GroupPart5=Beam
+GroupPart6=GroundGlow
+GroupPart6Importance=High
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SummonerFlash_return
+
+[funish]
+f-period=0.1
+f-pos=0 0 0
+f-radius=50
+f-veldelta=50
+
+[puffs]
+f-period=0.1
+f-pos=0 0 0
+f-radius=50
+f-veldelta=20
+
+[upBeam]
+f-accel=0 10000 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk44C93D1B=0 0 1 0
+unk44C93D1C=1 0 0 0
+unkEF79907A=0
+unkFA6226AE=0

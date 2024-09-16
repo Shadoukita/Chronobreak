@@ -1,0 +1,26 @@
+[System]
+GroupPart1=Test
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[Test]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=Test_Geo.sco
+p-meshtex=Test_Texture.DDS
+p-postoffset=1 1 1
+p-scale=0.2 0.2 0.2
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0CC6D14F=1 2

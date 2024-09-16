@@ -1,0 +1,25 @@
+[System]
+GroupPart1=soft_glow
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_Maokai_MaokaiEAggroSound_buffcast
+
+[soft_glow]
+e-rate=1
+e-rgba=0 170 0 0
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=1
+p-offset=0 -5 10
+p-scale=70 70 200
+p-texture=TEST_Maokai_Q_Mis_softglow.dds
+p-xrgba=1 1 1 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 0 0 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+pass=-3
+rendermode=4
+

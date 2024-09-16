@@ -1,0 +1,49 @@
+[Ring_Vec_align]
+e-life=-1
+e-linger=0
+e-rate=220
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-colortype=1 3
+p-drag=1 0 1
+p-life=0.8
+p-linger=0
+p-numframes=16
+p-offset=125 0 125
+p-orbitvel=0 2 0
+p-postoffset=0 80 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve.tga
+p-rotvel=20 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=40 80 40
+p-scaleXP1=0 1
+p-scaleXP2=1 0.5
+p-scaleYP1=0 1
+p-scaleYP2=1 0.8
+p-texdiv=4 4
+p-texture=TT_Alters_Captured.tga
+p-vecalign=1
+p-vel=40 80 160
+p-velXP1=0 1.1
+p-velXP2=1 0.5
+p-xrgba=0.4 0.4 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale1=0 0.3 0.1 0.1
+p-xscale2=0.5 1 1.5 1.5
+p-xscale3=1 1 0.4 1.5
+rendermode=0
+
+[System]
+GroupPart1=Ring_Vec_align
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk10111E16=Play_sfx_TT_Alter_alterunlockedcaptured

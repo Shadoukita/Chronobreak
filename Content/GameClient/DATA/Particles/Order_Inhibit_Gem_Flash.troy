@@ -1,0 +1,41 @@
+[Flash]
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=4
+p-postoffset=0 160 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=600
+p-startframe=0
+p-texdiv=1 1
+p-texture=Flarebuilding.tga
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=gemfade
+GroupPart2Type=Complex
+
+[gemfade]
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 100 120
+p-backfaceon=1
+p-life=8
+p-mesh=Nexus_Gem.sco
+p-meshtex=sivirblade01.tga
+p-offset=0 150 0
+p-rgba=color-rampdown.tga
+p-rotvel=0 30 0
+p-scale=7.150000095367432 7.150000095367432 7.150000095367432
+p-type=3
+rendermode=0
+single-particle=1
+

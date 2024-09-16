@@ -1,0 +1,33 @@
+[System]
+GroupPart1=star
+GroupPart1Type=Simple
+
+[star]
+e-life=-1
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 0.7000000000000001
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-offset=1 1 1
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rodofages2.tga
+p-rotvel=1
+p-rotvel1=0 0
+p-rotvel2=1 -90
+p-scale=10
+p-startframe=0
+p-texdiv=4 2
+p-texture=EvelynnIdle02.tga
+p-xscale1=0 1
+p-xscale2=1 2
+

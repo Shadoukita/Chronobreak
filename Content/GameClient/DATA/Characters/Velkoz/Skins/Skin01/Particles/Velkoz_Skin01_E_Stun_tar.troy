@@ -1,0 +1,51 @@
+[Flash]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.2
+p-linger=0.2
+p-rgba=Velkoz_Skin01_Z_Rampdown_rgb.tga
+p-scale=230
+p-texture=Velkoz_Skin01_Z_Flare_Omnimax.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[Glow]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=4
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.2
+p-linger=0.2
+p-offset=5 0 0
+p-rgba=Velkoz_Skin01_Z_Rampdown_rgb.tga
+p-scale=250
+p-texture=Velkoz_Skin01_Z_Glow_DeepRed.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Glow
+GroupPart2Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

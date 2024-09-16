@@ -1,0 +1,65 @@
+[System]
+GroupPart1=mesh
+GroupPart2=watersplash
+
+[mesh]
+e-life=1
+e-rate=1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-life=1
+p-mesh=sru_baron_backspikes_praxis.scb
+p-meshtex=SRU_Baron_Spawn_Wave.dds
+p-scale=8 8 8
+p-texdiv=1 0.5
+p-type=3
+p-uvscroll-rgb=0 3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=1
+
+[watersplash]
+e-life=0.6000000000000001
+e-rate=100
+e-shape-name=sru_baron_backspikes_meshemit.scb
+e-shape-scale=8
+e-timeoffset=0.1
+p-frameRate=30
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-local-orient=1
+p-numframes=16
+p-scale=84 42 70
+p-scaleXP1=0 -0.3
+p-scaleXP2=0.5 -1
+p-scaleXP3=0.5001000165939331 1
+p-scaleXP4=1 0.30000000000000004
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.5
+p-scaleZP1=0 0.8
+p-scaleZP2=1 1
+p-texdiv=4 4
+p-texture=SRU_Baron_WaterSplash_anim.dds
+p-vecalign=1
+p-vel=100 0 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0.6 0.1 0.6
+p-xscale2=0.4 0.8 1.2000000000000002 0.8
+p-xscale3=1 1 1.1 1
+pass=2
+rendermode=1
+

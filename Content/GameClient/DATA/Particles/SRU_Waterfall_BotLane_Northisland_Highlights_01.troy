@@ -1,0 +1,44 @@
+[SRU_WaterFall_Highlight_01]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2
+e-rateP1=0 1
+e-rateP2=1 0.5
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=2.5
+p-lifeP1=0 1
+p-lifeP2=1 0.4
+p-linger=0
+p-mesh=SRU_Waterfall_BotLane_Northisland_Highlights_01.scb
+p-meshtex=SRU_WaterFall_Test_Small_Highlight_01.DDS
+p-meshtex-mult=SRU_WaterFall_Test_Small_Highlight_Mult_01.DDS
+p-offset=20 0 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-postoffset=-45 45 1
+p-scale=0.2 0.2 0.2
+p-shadow=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.8
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=21
+rendermode=4
+single-particle=0
+
+[System]
+GroupPart1=SRU_WaterFall_Highlight_01
+GroupPart3Importance=high
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk0961C0C5=color-hold.DDS
+unk86E06082=sphere.sco
+unkB505B5C0=0 1
+unkB505B5C1=1 2

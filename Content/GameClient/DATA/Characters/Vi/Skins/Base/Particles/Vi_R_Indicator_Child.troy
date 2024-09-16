@@ -1,0 +1,118 @@
+[Drag]
+f-drag=4
+f-pos=0 0 0
+f-radius=1000
+
+[Noise]
+f-period=0.2
+f-pos=0 0 0
+f-radius=500
+f-veldelta=50
+
+[SteamAccel]
+f-accel=0 100 0
+f-localspace=0
+
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=steam_l
+GroupPart2Type=Simple
+GroupPart4=steam_r
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=1
+e-linger=0
+e-rate=7
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-life=0.8
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-redblink.tga
+p-scale=75
+p-scaleP1=0 0.9
+p-scaleP2=1 1.2000000000000002
+p-startframe=3
+p-texdiv=2 2
+p-texture=Glows.tga
+pass=-100
+
+[steam_l]
+e-life=1
+e-linger=0
+e-rate=40
+field-accel-1=SteamAccel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=1 0
+p-colortype=1 3
+p-life=0.65
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 1
+p-postoffset=0 20 0
+p-rgba=color-steam.tga
+p-scale=5
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texture=lofog01.tga
+p-vel=400 100 0
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 3
+p-xscale3=1 4
+rendermode=1
+
+[steam_r]
+e-life=1
+e-linger=0
+e-rate=40
+field-accel-1=SteamAccel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=1 0
+p-colortype=1 3
+p-life=0.65
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 1
+p-postoffset=0 20 0
+p-rgba=color-steam.tga
+p-scale=5
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texture=lofog01.tga
+p-vel=-400 100 0
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.5 3
+p-xscale3=1 4
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk04363B42=1 1
+unk05B1CCE5=2 2
+unk1B530451=1
+unk206DE9FB=1 1
+unk21F831C0=gemglow.tga
+unk2D206866=2
+unk437E3237=1
+unk4F960482=1
+unk59A6F6AF=color-ringdust.tga
+unk62DC7066=8
+unk9023C4AF=60
+unk9CA47FCE=0 -10 0
+unkA2276762=1 3
+unkA3C2ADFB=0 0
+unkA6306504=0 0
+unkA6306505=0.7000000000000001 0.8
+unkA6306506=1 1.6
+unkBF9FB2B5=0
+unkC89CCCF2=0
+unkD2B88FF7=0
+unkED212736=0 0
+unkED212737=1 360
+unkFE16B5F5=1

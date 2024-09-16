@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="karthus_base_w_tar_slow.troy"}}, 
+}

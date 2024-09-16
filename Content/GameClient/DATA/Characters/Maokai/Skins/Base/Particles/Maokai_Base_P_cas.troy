@@ -1,0 +1,25 @@
+[System]
+GroupPart1=flash
+SimulateEveryFrame=1
+
+[flash]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rgba=207 255 162 255
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.1
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 1
+p-rgba=color-hold.tga
+p-scale=350 350 1
+p-texture=SR2_Gromp_Death_flash.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+pass=10
+single-particle=1
+

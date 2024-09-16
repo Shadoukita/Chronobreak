@@ -1,0 +1,9 @@
+local L0_1, L1_1
+L0_1 = "Pantheon_HSS.dds"
+BuffTextureName = L0_1
+L0_1 = "PantheonESound"
+BuffName = L0_1
+L0_1 = {}
+L1_1 = "PantheonSkin06"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

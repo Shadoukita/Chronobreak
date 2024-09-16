@@ -1,0 +1,57 @@
+[Boost]
+KeywordsRequired=PaxSona
+e-life=0.6
+e-linger=0.30000000000000004
+e-local-orient=1
+e-rate=240
+e-tilesize=200 0 0
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.7000000000000001 1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-offset=0 0 -100
+p-rgba=color-sona_pax_speed.tga
+p-scale=5 0 0
+p-scale1=0 0.2
+p-scale2=1 1
+p-texture=Sona_Pax_Speedboost.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=0 0
+p-xscale1=0 10 0 0
+p-xscale2=1 10 0 0
+rendermode=0
+
+[System]
+GroupPart1=put
+GroupPart2=put
+GroupPart3=Boost
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[put]
+KeywordsExcluded=PaxSona
+e-life=0.6000000000000001
+e-linger=0.30000000000000004
+e-local-orient=1
+e-rate=240
+e-tilesize=300 0 0
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.7000000000000001 1
+p-colortype=1 0
+p-life=0.30000000000000004
+p-linger=0.30000000000000004
+p-offset=0 0 -100
+p-rgba=color-hymnofvalor.tga
+p-scale=6 0 0
+p-scale1=0 0.2
+p-scale2=1 1
+p-texture=TrailGiveHaste.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=0 0
+p-xscale1=0 1 0 0
+p-xscale2=1 10 0 0
+rendermode=0
+

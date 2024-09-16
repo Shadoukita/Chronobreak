@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="shenteleport_v2.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="shenstandunitedlock"}}, 
+{Function=BBPreloadSpell, Params={Name="shenstandunitedshield"}}, 
+{Function=BBPreloadSpell, Params={Name="shenstandunitedtarget"}}, 
+}

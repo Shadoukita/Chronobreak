@@ -1,0 +1,34 @@
+[GroundCover]
+e-life=-1
+e-linger=1
+e-local-orient=0
+e-rate=0.25
+e-uvoffset=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=6
+p-linger=-1
+p-mesh=SRU_Fog_GroundCover_01.sco
+p-meshtex=SRU_Fog_GroundCover_01.DDS
+p-meshtex-mult=SRU_Fog_GroundCover_Mult_01.DDS
+p-scale=1 1 1
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=0
+p-uvscroll-rgb=-0.10000000149011612 0.009999999776482582
+p-uvscroll-rgb-mult=-0.1 0.11
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 0.15
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+
+[System]
+GroupPart1=GroundCover
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unkEE7D245A=0 1
+unkEE7D245B=1 0.4

@@ -1,0 +1,72 @@
+[System]
+GroupPart1=followsparks
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=blossoms
+GroupPart2Importance=High
+GroupPart2Type=Simple
+
+[blossoms]
+e-rate=22
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0.8 0
+p-life=0.5249999761581421
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=0.5
+p-offset=7 32 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 180
+p-scale=10
+p-scaleP1=0 0.30000000000000004
+p-scaleP2=1 1
+p-texture=blossom_08.tga
+p-type=0
+p-vel=0 1 0
+p-velYP1=0 0
+p-velYP2=1 20
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 2
+p-xscale3=0.8 0.8
+p-xscale4=1 0
+rendermode=1
+
+[followsparks]
+e-rate=45
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0.8 0
+p-life=0.5
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=0.5
+p-offset=6 20 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 180
+p-rgba=color-rampdown.tga
+p-scale=1
+p-scaleP1=0 18
+p-scaleP2=1 50
+p-texture=Flare-Rainbow_teal_02.tga
+p-type=0
+p-vel=0 1 0
+p-velYP1=0 0
+p-velYP2=1 15
+p-xscale=1 1 1
+p-xscale1=0 0
+p-xscale2=0.7000000000000001 0.8
+p-xscale3=1 0.2
+

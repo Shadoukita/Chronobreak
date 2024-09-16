@@ -1,0 +1,38 @@
+[CloudCover]
+e-local-orient=0
+e-rate=0.15000000596046448
+e-uvoffset=1 1
+e-uvoffsetXP1=0 1
+e-uvoffsetXP2=0.2 1
+e-uvoffsetXP3=0.800000011920929 -1
+e-uvoffsetXP4=1 -1
+e-uvoffsetYP1=0 1
+e-uvoffsetYP2=0.2 1
+e-uvoffsetYP3=0.800000011920929 -1
+e-uvoffsetYP4=1 -1
+p-bindtoemitter=1 1
+p-life=15
+p-lifeP1=0 1
+p-lifeP2=1 0.4
+p-linger=0
+p-mesh=SRU_WolfDen_CloudGroundCover_01.scb
+p-meshtex=SRU_WolfDen_CloudGroundCover_02.DDS
+p-scale=0.5 0.5 0.5
+p-type=3
+p-uvscroll-rgb=0.00800000037997961 0.00800000037997961
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=CloudCover
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk2B770582=sphere.sco
+unk2DED65C3=1
+unk7A7BB37A=1.0099999904632568 1.0099999904632568
+unk99D6DBC5=color-hold.dds
+unkF2FE7FF8=SRU_WolfDen_CloudGroundCover_Mult_01.DDS

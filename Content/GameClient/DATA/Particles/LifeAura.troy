@@ -1,0 +1,33 @@
+[System]
+GroupPart1=lifeaura
+GroupPart1Type=complex
+SoundOnCreate=Play_sfx_Zilean_ChronoRevive_buffactivate
+
+[lifeaura]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=6
+e-uvoffset=-0.10000000149011612 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=1
+p-flexoffset=0.004999999888241291
+p-life=4
+p-mesh=lifeaura.sco
+p-meshtex=lifeaura.tga
+p-offset=0 100 0
+p-quadrot=-90 0 0
+p-rgba=color-lifeaura.tga
+p-scale=20 20 20
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.2000000000000002
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.2000000000000002
+p-scaleZP1=0 0.8
+p-scaleZP2=1 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=0.2 0
+rendermode=0
+single-particle=1
+

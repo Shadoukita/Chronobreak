@@ -1,0 +1,18 @@
+[System]
+GroupPart1=Turn_Back
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[Turn_Back]
+MaterialOverride1Priority=2000
+MaterialOverride1Texture=stone-jade.tga
+MaterialOverrideTransMap=Transition_test.tga
+e-life=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=1
+p-rgba=color-rampdown.tga
+p-trans-sample=64
+rendermode=1
+

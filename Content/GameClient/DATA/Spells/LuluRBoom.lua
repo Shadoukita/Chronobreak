@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = "Minotaur_TriumphantRoar.dds"
+BuffTextureName = L0_1
+L0_1 = "Stun"
+BuffName = L0_1
+L0_1 = "Lulu_R_knock_up_impact_ground.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "game_floatingtext_Knockup"
+PopupMessage1 = L0_1
+L0_1 = {}
+L1_1 = "luluSkin04"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

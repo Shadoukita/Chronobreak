@@ -1,0 +1,100 @@
+[System]
+GroupPart1=obelisk_green_loop
+GroupPart2=obelisk_sand
+GroupPart3=obelisk_green_loop_skin01
+GroupPart4=obelisk_sand_skin01
+SimulateEveryFrame=1
+group-vis=5000
+
+[obelisk_green_loop]
+KeywordsExcluded=AzirSkin01
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=Azir_base_R_Obelisk_Loop.anm
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=100000
+p-linger=0
+p-meshtex=Azir_Base_Z_Soldier_TX_CM.tga
+p-offset=0 0 0
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=Azir_base_R_Obelisk.skl
+p-skin=Azir_base_R_Obelisk.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[obelisk_green_loop_skin01]
+KeywordsRequired=AzirSkin01
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-animation=Azir_Skin01_Spell4_Obelisk_Loop.anm
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=100000
+p-linger=0
+p-meshtex=Azir_Skin01_Abilities_TX_CM.tga
+p-offset=0 0 0
+p-scale=1 1 1
+p-shadow=0
+p-skeleton=Azir_Skin01_R_Obelisk.skl
+p-skin=Azir_Skin01_R_Obelisk.skn
+p-type=3
+rendermode=1
+single-particle=1
+
+[obelisk_sand]
+KeywordsExcluded=AzirSkin01
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=8
+p-linger=0
+p-mesh=Azir_base_R_obelisk_sand.sco
+p-meshtex=Azir_base_R_obelisk_sand.tga
+p-offset=0 5 0
+p-scale=1 1 1
+p-texdiv=0.5 1
+p-type=3
+p-uvscroll-rgb=0 -0.07999999821186066
+pass=100
+rendermode=1
+single-particle=1
+
+[obelisk_sand_skin01]
+KeywordsRequired=AzirSkin01
+Particle-Acceleration=0 1 0
+Particle-Acceleration1=0 0 20 0
+Particle-Acceleration2=0.10000000149011612 0 -20 0
+Particle-Acceleration3=0.2 0 20 0
+Particle-Acceleration4=0.30000001192092896 0 -20 0
+Particle-Acceleration5=0.4 0 20 0
+Particle-Acceleration6=0.5 0 -20 0
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-uvoffset=0.30000000000000004 0
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=10
+p-linger=0
+p-mesh=Azir_skin01_R_Obelisk_Sand.sco
+p-meshtex=Azir_skin01_R_obelisk_sand.tga
+p-offset=0 0 -2
+p-scale=1 1 1
+p-texdiv=0.5 1
+p-type=3
+p-uvscroll-rgb=0 -0.10000000149011612
+pass=100
+rendermode=1
+single-particle=1
+

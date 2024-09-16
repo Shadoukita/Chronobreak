@@ -1,0 +1,23 @@
+[Eye_Ray]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=1
+p-linger=0
+p-local-orient=1
+p-quadrot=-90 0 0
+p-scale=5 50 0
+p-texture=Kalista_Skin01_Recall_EyeRay.dds
+p-type=2
+p-xscale=1 1 1
+p-xscale1=0 2.375 1 0
+p-xscale2=0.25 1 1.7 0
+p-xscale3=1 0 0 0
+pass=200
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Eye_Ray
+SimulateEveryFrame=1
+

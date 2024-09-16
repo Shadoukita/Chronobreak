@@ -1,0 +1,111 @@
+[System]
+GroupPart1=innerring
+GroupPart1Type=Simple
+GroupPart2=smoke2
+GroupPart2Type=Simple
+GroupPart3=firecircle3
+GroupPart3Type=Simple
+
+[drag]
+f-drag=12
+f-dragP1=0 0.8529999852180481
+f-dragP2=1 1.0751479864120483
+f-pos=0 0 0
+f-radius=1500
+
+[firecircle3]
+e-active=1
+e-life=0.4
+e-linger=1
+e-period=1
+e-rate=10
+p-bindtoemitter=1 0
+p-bindtoemitter1=0 1 0
+p-bindtoemitter2=1 1 0
+p-frameRate=2
+p-life=1
+p-offset=0 100 0
+p-quadrot=45
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=color-poisonsmoke.tga
+p-rotvel=20
+p-rotvel1=0 0 0 0
+p-rotvel2=1 0 0 0
+p-scale=5
+p-simpleorient=2
+p-startframe=3
+p-texdiv=2 4
+p-texture=InfernalGuardian03.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.10385189950466156 6.231113910675049 0 0
+p-xscale3=0.24829639494419098 14.897780418395996 0 0
+p-xscale4=0.25200000405311584 15.119999885559082 0 0
+p-xscale5=1 60 0 0
+uniformscale=1
+
+[innerring]
+e-life=1
+e-rate=1
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=globalhit_blue_tar__outerring__p-rgba.tga
+p-scale=130
+p-startframe=3
+p-texdiv=2 3
+p-texture=GlobalTargetHit01.tga
+p-xrgba=255 255 255 255
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.0010000467300415
+
+[smoke2]
+e-life=0.5
+e-rate=40
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=drag
+p-colortype=1 2
+p-life=3
+p-lifeP1=0 0.8159999847412109
+p-lifeP2=1 1.1122219562530518
+p-offset=0 30 0
+p-quadrot=1
+p-quadrotP1=0 -360
+p-quadrotP2=1 360
+p-rgba=color-poisonsmoke32.tga
+p-rotvel=45
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=100
+p-scaleP1=0 0.8899999856948853
+p-scaleP2=0.9962962865829468 1.260517954826355
+p-startframe=2
+p-texdiv=2 4
+p-texture=InfernalGuardian02.tga
+p-vel=700 100 0
+p-velXP1=0 1.187000036239624
+p-velXP2=1 0.6668518781661987
+p-worldaccel=0 -500 0
+p-xscale=1
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk0328ADC6=0 0 0
+unk267CF285=0 -400 0
+unk2714941E=0
+unk47DF2542=2
+unk492ADD6E=0 60 165 183 255
+unk492ADD6F=0.92 0 0 0 255
+unk55A3942D=0 0 0
+unk62ACEBF9=2000
+unk7A84D89B=4
+unk87211C7E=0 -3000 0
+unk9D7FE283=0
+unkC02E4165=0
+unkC5BBF5E0=0 400 0
+unkE1DD5520=1000

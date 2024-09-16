@@ -1,0 +1,84 @@
+[System]
+GroupPart1=ambientGlow2
+GroupPart2=littleray
+
+[ambientGlow2]
+e-rate=1
+e-rate1=0 0.5
+e-rate2=1 5
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-shape-scale=1.3
+e-shape-use-normal-for-birth=0
+e-uvoffset-mult=1 1
+e-uvoffset-multXP1=0 0
+e-uvoffset-multXP2=1 1
+e-uvoffset-multYP1=0 0
+e-uvoffset-multYP2=1 1
+p-bindtoemitter=1 1
+p-life=7
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0.2
+p-offset=30 30 0
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-scale=200 250 200
+p-scaleXP1=0 0.81
+p-scaleXP2=0.8 1
+p-scaleXP3=1 1.2000000000000002
+p-texdiv-mult=0.5 0.5
+p-texture=SRU_Peref_RockGlow_01.dds
+p-texture-mult=SRU_Order_sparklesMult.dds
+p-uvscroll-rgb-mult=0.05 0
+p-uvscroll-rgb-multXP1=0 0.3
+p-uvscroll-rgb-multXP2=1 1
+p-worldaccel=0 0.25 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.6 0.6 1
+p-xscale2=1 1 1.2000000000000002 1
+pass=1
+rendermode=4
+uniformscale=1
+
+[littleray]
+e-linger=0.6000000000000001
+e-local-orient=0
+e-rate=-11.199999809265137
+e-shape-name=sruap_orderinhibitor_crystal.scb
+p-bindtoemitter=1 0
+p-life=0.6000000000000001
+p-postoffset=0 10 -5
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-scale=30 150 32
+p-scaleZP1=0 1
+p-scaleZP2=1 3
+p-texture=SRU_Order_ambientGlow.dds
+p-type=2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=0.2 1 0.7000000000000001 0.8
+p-xscale3=0.6000000238418579 1 0.5249999761581421 0.4000000059604645
+p-xscale4=1 1 0.5 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk4584D10D=10

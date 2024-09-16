@@ -1,0 +1,44 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+e-life=100000
+e-linger=0
+e-local-orient=1
+e-rate=120
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.30000000000000004 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.30000000000000004
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=0
+p-numframes=1
+p-offset=1 1 1
+p-offsetXP1=0 -15
+p-offsetXP2=1 22
+p-offsetYP1=0 0
+p-offsetYP2=1 0
+p-offsetZP1=0 -7
+p-offsetZP2=1 7
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellramp.tga
+p-scale=20
+p-startframe=0
+p-texdiv=1 1
+p-texture=voiddot.tga
+p-type=0
+p-vel=0 -10 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale1=0 1
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+

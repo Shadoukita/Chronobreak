@@ -1,0 +1,60 @@
+[Base]
+e-life=0.2
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1 1
+p-life=0.65
+p-quadrot=-90 0 1
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rgba=Rengar_Base_Z_RGB.tga
+p-rotvel=0 -250 0
+p-scale=100 100 100
+p-simpleorient=2
+p-texture=Rengar_Base_W_ShoutRing.tga
+p-type=1
+p-xscale1=0 0 0 0
+p-xscale2=0.34 0.7 0.7 0.7
+p-xscale3=0.55 0.9 0.9 0.9
+p-xscale4=1 1 1 1
+rendermode=2
+single-particle=1
+
+[System]
+GroupPart1=Base
+GroupPart1Type=Complex
+GroupPart2=Zap
+GroupPart2Type=Complex
+SimulateEveryFrame=1
+
+[Zap]
+e-life=0.2
+e-linger=-1
+e-rate=32
+flag-disable-z=1
+p-bindtoemitter=1
+p-flexscale=0.005
+p-life=0.2
+p-lifeP1=0 0.75
+p-lifeP2=1 1
+p-offset=0 2 0
+p-offsetYP1=0 0
+p-offsetYP2=1 30
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=Rengar_Base_Z_RGB.tga
+p-scale=65 40 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 0.65
+p-scaleYP2=1 1
+p-texture=Rengar_Base_W_Barbs.tga
+p-type=2
+p-xscale1=0 4 0 0
+p-xscale2=0.5 4 3 0
+p-xscale3=1 0 5.5 0
+rendermode=2
+

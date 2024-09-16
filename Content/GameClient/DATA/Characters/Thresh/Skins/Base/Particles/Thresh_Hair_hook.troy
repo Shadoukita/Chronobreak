@@ -1,0 +1,25 @@
+[Hair_hook]
+KeywordsExcluded=ThreshUndersea ThreshSkin02
+e-life=-1
+e-linger=0
+e-rate=20
+p-bindtoemitter=1
+p-coloroffset=0 0.5
+p-colorscale=0.5 0.5
+p-colortype=0 3
+p-life=0.05000000074505806
+p-linger=0
+p-local-orient=1
+p-offset=11 -3 0
+p-quadrot=0 0 0
+p-rgba=color-bellramp.tga
+p-scale=20 20 0
+p-texture=Thresh_hair_hook.tga
+p-type=1
+rendermode=0
+
+[System]
+GroupPart1=Hair_hook
+GroupPart1Importance=High
+SimulateEveryFrame=1
+

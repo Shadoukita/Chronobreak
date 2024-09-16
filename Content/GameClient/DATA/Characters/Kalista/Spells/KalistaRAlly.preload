@@ -1,0 +1,10 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kalista_base_r_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallystunmarker"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallystun"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallyknockbackally"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarmis"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistaunlockanimation"}}, 
+{Function=BBPreloadSpell, Params={Name="unstoppableforcemarker"}}, 
+{Function=BBPreloadParticle, Params={Name="kalista_base_r_aoe.troy"}}, 
+}

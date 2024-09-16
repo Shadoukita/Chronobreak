@@ -1,0 +1,76 @@
+[Flash]
+e-life=1
+e-local-orient=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-flexscale=0.004999999888241291
+p-life=0.7000000000000001
+p-linger=0
+p-quadrot=-90 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=color-hold.tga
+p-scale=150 150 0
+p-texture=flare-blue.dds
+p-xrgba=0 0.231373 1 1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+single-particle=1
+
+[Sparkle]
+e-life=0.5
+e-local-orient=0
+e-rate=25
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-drag=3 2 3
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-lifeP1=0 1.3
+p-lifeP2=1 2.6
+p-linger=2
+p-numframes=4
+p-offset=40 30 40
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-orbitvel=0 0.8 0
+p-orbitvelYP1=0 -1
+p-orbitvelYP2=1 1
+p-randomstartframe=1
+p-scale=1 1 1
+p-scale1=0 100 100 100
+p-scale2=1 20 20 20
+p-scaleXP1=0 0.3
+p-scaleXP2=1 0.8500000238418579
+p-texdiv=2 2
+p-texture=Global_Item_ManaPotion_4x4_Sparkle.dds
+p-vel=100 400 0
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xscale=1 1 1
+p-xscale1=0 0.1 0.1 0.1
+p-xscale2=0.1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+p-xscale3=0.30000000000000004 2 2 2
+p-xscale4=0.6000000000000001 0.30000000000000004 0.30000000000000004 0.30000000000000004
+p-xscale5=1 0.1 0.1 0.1
+uniformscale=1
+
+[System]
+GroupPart1=Flash
+GroupPart1Importance=High
+GroupPart2=Sparkle
+GroupPart2Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+

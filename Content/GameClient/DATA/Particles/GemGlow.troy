@@ -1,0 +1,93 @@
+[System]
+GroupPart1=littleray
+GroupPart1Importance=Low
+GroupPart1Type=Complex
+GroupPart2=glow
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=sparkles
+GroupPart3Type=Simple
+
+[glow]
+e-life=-1
+e-rate=4
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=2
+p-numframes=1
+p-offset=0 -10 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-ringdust.tga
+p-scale=100
+p-startframe=2
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.7000000000000001 0.8
+p-xscale3=1 1.6
+rendermode=0
+
+[littleray]
+e-life=-1
+e-local-orient=0
+e-rate=50
+p-bindtoemitter=1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-linger=0
+p-offset=0 -10 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-quadrotZP1=0 0
+p-quadrotZP2=1 360
+p-rgba=color-terrorize.tga
+p-scale=20 60 0
+p-startframe=1
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=2
+p-xscale1=0 0 0 0
+p-xscale2=0.7000000000000001 0.5 0.5 0.5
+p-xscale3=1 1 1 1
+rendermode=0
+
+[sparkles]
+e-life=-1
+e-rate=2
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=10 20 -13
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -0.5
+p-offsetYP2=1 0.30000000000000004
+p-quadrot=45
+p-rgba=color-hold.tga
+p-scale=20
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.5 1
+p-xscale3=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk4584D10D=20

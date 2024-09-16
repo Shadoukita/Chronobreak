@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="kalistarinvuln"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarally"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallylineupdater"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallystun"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistarallystunbuffer"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistadummyspell"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistaraestheticmis"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistavorallylowhealth"}}, 
+{Function=BBPreloadSpell, Params={Name="kalistavornormal"}}, 
+}

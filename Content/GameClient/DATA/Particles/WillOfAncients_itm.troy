@@ -1,0 +1,83 @@
+[System]
+GroupPart1=cross1
+GroupPart1Type=Simple
+GroupPart2=cross2
+GroupPart2Type=Simple
+GroupPart3=cross3
+GroupPart3Type=Simple
+GroupPart4=rings
+GroupPart4Type=Simple
+
+[cross1]
+e-life=-1
+e-rate=0.5
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=100
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=WOA_cross.tga
+p-type=1
+
+[cross2]
+e-life=-1
+e-rate=0.5
+e-timeoffset=0.25
+p-bindtoemitter=1 1
+p-life=1.2000000000000002
+p-linger=0
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=100
+p-simpleorient=2
+p-startframe=1
+p-texdiv=2 2
+p-texture=WOA_cross.tga
+p-type=1
+
+[cross3]
+e-life=-1
+e-rate=0.5
+e-timeoffset=0.5
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-offset=0 10 0
+p-quadrot=0
+p-rgba=color-bellcurve.tga
+p-rotvel=0
+p-scale=100
+p-simpleorient=2
+p-startframe=2
+p-texdiv=2 2
+p-texture=WOA_cross.tga
+p-type=1
+
+[rings]
+e-life=-1
+e-rate=2
+p-bindtoemitter=1 1
+p-linger=0
+p-offset=0 10 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-bellcurve.tga
+p-scale=150
+p-simpleorient=2
+p-startframe=3
+p-texdiv=2 2
+p-texture=WOA_cross.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=1 0
+

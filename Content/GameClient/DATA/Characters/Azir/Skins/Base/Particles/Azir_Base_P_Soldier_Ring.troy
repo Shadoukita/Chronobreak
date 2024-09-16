@@ -1,0 +1,41 @@
+[Ring_Azir]
+e-life=1
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1
+p-life=-1
+p-linger=0.75
+p-quadrot=90 0 0
+p-rotvel=0 -4 0
+p-scale=100 100 0
+p-texture=Azir_Base_W_RingHighRes.tga
+p-type=1
+p-xrgba=0.2 0.4 1 0.1
+pass=2
+rendermode=4
+single-particle=1
+
+[Ring_Azir2]
+e-life=1
+e-local-orient=0
+e-rate=2
+p-bindtoemitter=1
+p-life=-1
+p-linger=0.75
+p-quadrot=90 0 0
+p-rotvel=0 10 0
+p-scale=100 100 0
+p-texture=Azir_Base_W_RingHighRes.tga
+p-type=1
+p-xrgba=0.2 0.4 1 0.1
+pass=0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Ring_Azir
+GroupPart1Importance=High
+GroupPart2=Ring_Azir2
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

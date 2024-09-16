@@ -1,0 +1,63 @@
+[System]
+GroupPart1=slice
+GroupPart1Type=Simple
+GroupPart2=slice2
+GroupPart2Type=Simple
+GroupPart3=materialize_dist
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[materialize_dist]
+e-life=1.5
+e-rate=3
+p-distortion-mode=1
+p-distortion-power=1
+p-frameRate=0
+p-life=1.350000023841858
+p-local-orient=1
+p-normal-map=distort-heat-trail.dds
+p-numframes=1
+p-rgba=alpha_20.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-startframe=0
+p-texture=ezreal_pulsefire_model1_white.tga
+p-type=11
+rendermode=0
+
+[slice]
+e-life=6
+e-rate=1
+e-timeoffset=0.85
+p-alphaslicerange=0.07
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.5099999904632568
+p-colortype=1 0
+p-life=1.850000023841858
+p-local-orient=1
+p-rgba=color-beacontrail32.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=ezreal_pulsefire_wireframe_model1.tga
+p-type=11
+rendermode=4
+
+[slice2]
+e-life=3
+e-rate=1
+e-timeoffset=0.85
+p-alphaslicerange=0.1
+p-coloroffset=0.5 1
+p-colorscale=0.5 0.42
+p-colortype=1 0
+p-life=2
+p-local-orient=1
+p-rgba=color-beacontrail32.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=ezreal_pulsefire_wireframe_model1_part2.tga
+p-type=11
+rendermode=4
+
+[UNKNOWN_HASHES]
+unkF08AC4EC=1

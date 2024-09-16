@@ -1,0 +1,37 @@
+[System]
+GroupPart1=rays
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[rays]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=50
+p-bindtoemitter=0
+p-coloroffset=0.2 0
+p-colorscale=1 0.2
+p-colortype=1 0
+p-life=1
+p-life1=0 1
+p-life2=1 0
+p-linger=0
+p-offset=0 0 0
+p-quadrot=1 1 1
+p-quadrotXP1=0 -200
+p-quadrotXP2=1 10
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-rampupblue.tga
+p-scale=15 100 0
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1.4000000000000001
+p-texdiv=1 1
+p-texture=exploshaft.tga
+p-type=2
+p-xscale1=0 1 1 1
+p-xscale2=0.2 4 4 4
+p-xscale3=0.9700000286102295 4 4 4
+p-xscale4=1 0 0 0
+rendermode=0
+

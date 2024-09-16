@@ -1,0 +1,171 @@
+[Distort_1]
+e-life=1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 0
+p-distortion-mode=1
+p-distortion-power=0.029999999329447746
+p-life=1
+p-linger=0
+p-normal-map=Velkoz_Base_Portal_Distortion.tga
+p-postoffset=0 600 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-rotvel=40 0 0
+p-scale=350 350 0
+p-texture=Velkoz_Base_Z_White.tga
+p-type=0
+pass=1
+rendermode=1
+single-particle=1
+
+[Portal1]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-life=1
+p-linger=0
+p-mesh=Velkoz_Base_Portal_Disc.scb
+p-offset=0 600 0
+p-quadrot=-90 0 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=100 100 100
+p-texdiv=2 2
+p-texture=Velkoz_Base_Z_Void_BG1.tga
+p-type=1
+p-uvmode=3
+p-uvparallax-scale=-1
+p-uvscroll-rgb=0 0
+pass=1
+rendermode=1
+single-particle=1
+
+[Portal2]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-uvoffset=-0.029999999329447746 0
+p-bindtoemitter=0 0
+p-life=1
+p-linger=0
+p-mesh=Velkoz_Base_Portal_Disc.scb
+p-offset=0 600 0
+p-quadrot=-90 0 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=100 100 100
+p-texdiv=1 1
+p-texture=Velkoz_Base_Z_Void_BG2.tga
+p-type=1
+p-uvmode=3
+p-uvparallax-scale=-0.5
+p-uvscroll-rgb=-0.009999999776482582 0
+pass=2
+rendermode=1
+single-particle=1
+
+[Portal3]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-uvoffset=-0.05999999865889549 0
+p-bindtoemitter=0 0
+p-life=1
+p-linger=0
+p-mesh=Velkoz_Base_Portal_Disc.scb
+p-offset=0 600 0
+p-quadrot=-90 0 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=100 100 100
+p-texdiv=1 1
+p-texture=Velkoz_Base_Z_Void_BG3.tga
+p-type=1
+p-uvmode=3
+p-uvparallax-scale=-0.20000000298023224
+p-uvscroll-rgb=-0.019999999552965164 0
+pass=3
+rendermode=1
+single-particle=1
+
+[Portal4]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-uvoffset=-0.11999999731779099 0
+p-bindtoemitter=0 0
+p-life=1
+p-linger=0
+p-mesh=Velkoz_Base_Portal_Disc.scb
+p-offset=0 600 0
+p-quadrot=-90 0 0
+p-rgba=Velkoz_Base_Z_White.tga
+p-scale=100 100 100
+p-texdiv=1 1
+p-texture=Velkoz_Base_Z_Void_BG4.tga
+p-type=1
+p-uvmode=3
+p-uvparallax-scale=0.1
+p-uvscroll-rgb=-0.03999999910593033 0
+pass=4
+rendermode=1
+single-particle=1
+
+[PortalFrame]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-rgba=255 255 255 255
+p-bindtoemitter=0 0
+p-life=1
+p-linger=0
+p-mesh=radialdisc.sco
+p-meshtex=Velkoz_Base_Portal_Disc1.tga
+p-meshtex-mult=Velkoz_Base_Portal_Disc2.tga
+p-offset=0 601 0
+p-scale=2.3000000000000003 2.3000000000000003 2.3000000000000003
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=-0.019999999552965164 0
+p-uvscroll-rgb-mult=0.019999999552965164 0
+pass=5
+rendermode=1
+single-particle=1
+
+[PortalRim]
+e-life=1
+e-local-orient=0
+e-rate=2
+e-rgba=255 100 255 255
+e-uvoffset=0.029999999329447746 0
+p-bindtoemitter=0 0
+p-life=1
+p-linger=0
+p-mesh=Velkoz_Base_Portal_Rim.sco
+p-meshtex=Velkoz_Base_Portal_Rim1.tga
+p-meshtex-mult=Velkoz_Base_Portal_Rim2.tga
+p-offset=0 602 0
+p-scale=1.9000000000000001 1.9000000000000001 1.9000000000000001
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=-0.009999999776482582 0
+p-uvscroll-rgb-mult=0.009999999776482582 0
+pass=10
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Portal1
+GroupPart2=Portal2
+GroupPart3=Portal3
+GroupPart4=Portal4
+GroupPart5=PortalFrame
+GroupPart6=PortalRim
+GroupPart7=Distort_1
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=5000
+
+[UNKNOWN_HASHES]
+unk23A69013=-0.029999999329447746 0

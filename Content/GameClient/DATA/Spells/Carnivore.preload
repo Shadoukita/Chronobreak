@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="chogath_battlecast_heal.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="globallifesteal_buf.troy"}}, 
+}

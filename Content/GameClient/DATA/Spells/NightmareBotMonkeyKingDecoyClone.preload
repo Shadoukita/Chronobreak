@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotmonkeykingdecoyswipe"}}, 
+{Function=BBPreloadParticle, Params={Name="MonkeyKing_Base_W_Copy.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+{Function=BBPreloadSpell, Params={Name="monkeykingkillclonew"}}, 
+}

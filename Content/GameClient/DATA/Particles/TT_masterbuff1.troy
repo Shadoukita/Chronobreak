@@ -1,0 +1,55 @@
+[Runes]
+e-life=1
+e-linger=0
+e-rate=5
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-mesh=TT_Buff_Alter_01.sco
+p-meshtex=buff_TT_Spider_Add.tga
+p-postoffset=0 120 0
+p-rotvel=0 40 0
+p-scale=9.5 9.5 9.5
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.5 0
+p-xrgba=0.4 0.4 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+pass=20
+rendermode=4
+single-particle=1
+
+[Runes_Add]
+e-life=-1
+e-linger=0
+e-rate=5
+e-timeoffset=0.1
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=100000
+p-linger=0
+p-mesh=TT_Buff_Alter_01.sco
+p-meshtex=buff_TT_Spider_Add.tga
+p-postoffset=0 120 0
+p-rotvel=0 40 0
+p-scale=9.5 9.5 9.5
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.5 0
+p-xrgba=0.4 0.4 1 0.25
+pass=20
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Runes
+GroupPart1Importance=High
+GroupPart2=Runes_Add
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unkB7F2136F=1
+unkFB4336B1=1

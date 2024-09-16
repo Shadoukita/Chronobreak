@@ -1,0 +1,62 @@
+[Slash]
+e-life=1
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-life=0.3
+p-local-orient=0
+p-mesh=Rengar_Base_Q_Slash.sco
+p-meshtex=Rengar_Base_Q_Slash.tga
+p-postoffset=0 100 80
+p-quadrot=0 180 0
+p-scale=200 200 200
+p-scaleXP1=0 1
+p-scaleXP2=1 1.25
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=0 -3
+p-uvscroll-rgbYP1=0 0.8
+p-uvscroll-rgbYP2=1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=2
+rendermode=1
+single-particle=1
+
+[SlashAdd]
+e-life=1
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-life=0.3
+p-local-orient=0
+p-mesh=Rengar_Base_Q_Slash.sco
+p-meshtex=Rengar_Base_Q_Slash_Add.tga
+p-postoffset=0 100 80
+p-quadrot=0 180 0
+p-scale=200 200 200
+p-scaleXP1=0 1
+p-scaleXP2=1 1.25
+p-simpleorient=1
+p-type=3
+p-uvscroll-rgb=0 -3
+p-uvscroll-rgbYP1=0 0.8
+p-uvscroll-rgbYP2=1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+pass=20
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Slash
+GroupPart1Type=complex
+GroupPart2=SlashAdd
+GroupPart2Type=complex
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Rengar_RengarQAttack_hit
+VoiceOverOnCreate=Play_vo_Rengar_RengarQ_cast
+

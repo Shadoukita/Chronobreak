@@ -1,0 +1,101 @@
+[Gravity]
+f-accel=0 -200 0
+f-localspace=0
+
+[System]
+GroupPart1=core
+GroupPart1Type=Simple
+GroupPart2=slime
+GroupPart2Type=Simple
+GroupPart3=slimedots
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+
+[core]
+e-linger=0
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 0
+p-colortype=1 1
+p-frameRate=16
+p-life=0.2
+p-linger=0
+p-numframes=4
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=40
+p-startframe=1
+p-texdiv=2 2
+p-texture=slimedrops.tga
+p-vel=0 0 0
+p-xscale1=0 0.5
+p-xscale2=1 1
+rendermode=1
+
+[slime]
+e-rate=60
+p-bindtoemitter=0.5 0
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=6
+p-life=0.44999998807907104
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-numframes=4
+p-offset=0 50 0
+p-offsetYP1=0 -1
+p-offsetYP2=1 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-goop.tga
+p-scale=40
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=2 2
+p-texture=slimegoop.tga
+p-vel=0 90 0
+p-xscale1=0 1
+p-xscale2=1 2
+rendermode=1
+
+[slimedots]
+e-rate=400
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=Gravity
+p-bindtoemitter=0 0
+p-colorscale=1 0.6000000000000001
+p-colortype=1 3
+p-frameRate=30
+p-life=1
+p-linger=1
+p-numframes=16
+p-offset=0 50 50
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-offsetZP1=0 0
+p-offsetZP2=1 1
+p-randomstartframe=1
+p-rgba=color-goop.tga
+p-scale=5
+p-scaleP1=0 0.5
+p-scaleP2=1 1.5
+p-startframe=0
+p-texdiv=4 4
+p-texture=slimedrops.tga
+p-vel=0 0 20
+p-velZP1=0 0
+p-velZP2=1 2
+p-xscale1=0 1
+p-xscale2=0.8 1
+p-xscale3=1 0
+rendermode=1
+

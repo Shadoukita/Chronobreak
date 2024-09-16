@@ -1,0 +1,55 @@
+[System]
+GroupPart1=nut_skin05
+GroupPart2=nut_tech_skin05
+GroupPart2Importance=Medium
+SimulateEveryFrame=1
+
+[nut_skin05]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=5000
+p-linger=0
+p-mesh=Heimerdinger_Base_Q_Ammo_Nut.scb
+p-meshtex=Heimerdinger_Skin05_Q_Ammo_Nut.tga
+p-offset=70 20 0
+p-orbitvel=0 1 0
+p-quadrot=90 0 0
+p-rotvel=100 100 100
+p-scale=4 4 4
+p-type=3
+pass=-1
+rendermode=3
+single-particle=1
+
+[nut_tech_skin05]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=5000
+p-linger=0
+p-mesh=Heimerdinger_Base_Q_Ammo_Nut_Tech.scb
+p-meshtex=Heimerdinger_Skin05_Q_Ammo_Nut_Tech.tga
+p-offset=70 20 0
+p-orbitvel=0 1 0
+p-quadrot=90 0 0
+p-rotvel=100 100 100
+p-scale=4.6000000000000005 4.6000000000000005 4.6000000000000005
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.55 0.55
+p-uvscroll-rgbXP1=0 2
+p-uvscroll-rgbXP2=1 -2
+p-uvscroll-rgbYP1=0 2
+p-uvscroll-rgbYP2=1 -2
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unkE8AF2715=0.1

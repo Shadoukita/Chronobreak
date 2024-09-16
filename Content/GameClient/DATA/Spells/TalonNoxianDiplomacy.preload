@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="talonbleeddebuff"}}, 
+{Function=BBPreloadSpell, Params={Name="talonnoxiandiplomacybuff"}}, 
+{Function=BBPreloadSpell, Params={Name="talonnoxiandiplomacy"}}, 
+}

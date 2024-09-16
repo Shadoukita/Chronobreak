@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sivir_base_e_proc.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sivir_base_e_manaback.troy"}}, 
+}

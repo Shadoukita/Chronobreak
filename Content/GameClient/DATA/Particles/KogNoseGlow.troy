@@ -1,0 +1,24 @@
+[System]
+GroupPart1=noseglow
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[noseglow]
+KeywordsRequired=ReindeerKogMaw
+e-life=100000
+e-local-orient=1
+e-rate=0.1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.30000000000000004
+p-colortype=1 0
+p-life=5
+p-offset=0 0 0
+p-rgba=color-buildingflash.tga
+p-scale=40
+p-startframe=0
+p-texdiv=1 1
+p-texture=clouddome2.tga
+p-type=1
+rendermode=0
+

@@ -1,0 +1,18 @@
+{"MutatorDefinition": {
+"Type": "ProgressiveMultiply",
+"Mutations":
+[
+	{	
+		"Stat": "FlatPhysicalDamageMod",
+		"Value": 3.5
+	},
+	{	
+		"Stat": "FlatArmorMod",
+		"Value": 4
+	},
+	{	
+		"Stat": "FlatSpellBlockMod",
+		"Value": 3
+	}
+]
+}} 

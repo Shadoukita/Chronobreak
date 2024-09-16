@@ -1,0 +1,27 @@
+[System]
+GroupPart1=beamdots
+SimulateEveryFrame=1
+group-vis=5000
+
+[beamdots]
+e-life=10000
+e-linger=-1
+e-local-orient=1
+e-rate=2000
+e-rgba=100 200 255 255
+p-bindtoemitter=1
+p-frameRate=0
+p-life=0.05000000074505806
+p-local-orient=1
+p-numframes=1
+p-offset=0 1 0
+p-offsetYP1=0 0
+p-offsetYP2=1 865
+p-scale=2 2 2
+p-startframe=0
+p-texdiv=1 1
+p-texture=ball02.tga
+p-type=0
+pass=0
+rendermode=0
+

@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="vi_armorshred_hit_1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_armorshred_hit_minion_1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_armorshred_hit_2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="vi_armorshred_hit_minion_2.troy"}}, 
+}

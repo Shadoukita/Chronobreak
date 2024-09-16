@@ -1,0 +1,42 @@
+[System]
+GroupPart1=centipede
+SimulateEveryFrame=1
+build-up-time=10
+
+[centipede]
+ChildEmitOnDeath=0
+ChildParticleName=centipedetrail.troy
+Particle-Acceleration=100 0 100
+Particle-Acceleration1=0 1 0 -1
+Particle-Acceleration2=0.20000000298023224 -1 0 1
+Particle-Acceleration3=0.4000000059604645 1 0 -1
+Particle-Acceleration4=0.6000000238418579 -1 0 1
+Particle-Acceleration5=0.800000011920929 1 0 -1
+Particle-Acceleration6=1 -1 0 1
+Particle-AccelerationXP1=0 -20
+Particle-AccelerationXP2=1 20
+Particle-AccelerationZP1=0 -20
+Particle-AccelerationZP2=1 20
+e-life=-1
+e-local-orient=0
+e-rate=1
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1
+p-colorscale=0 1
+p-colortype=0 0
+p-drag=1 1 1
+p-life=8
+p-quadrot=90 0 0
+p-rgba=color-rampup32.tga
+p-scale=8 8 0
+p-texture=ball32_01.tga
+p-type=1
+p-vel=200 0 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+pass=-100
+rendermode=1
+

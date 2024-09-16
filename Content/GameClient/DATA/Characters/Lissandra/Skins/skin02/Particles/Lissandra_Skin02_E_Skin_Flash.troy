@@ -1,0 +1,19 @@
+[System]
+GroupPart1=base
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[base]
+MaterialOverride1BlendMode=0
+MaterialOverride1Texture=Lissandra_R_groundChunks_diff.tga
+e-life=1
+e-linger=0
+e-rate=1
+p-life=1
+p-rgba=color-hold.tga
+p-scale=0
+p-texture=missing_instant.tga
+p-type=0
+p-uvscroll-rgb=10 10
+single-particle=1
+

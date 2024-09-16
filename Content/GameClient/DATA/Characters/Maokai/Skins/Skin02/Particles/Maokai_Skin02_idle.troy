@@ -1,0 +1,22 @@
+[Sphere_glow]
+e-rate=1
+e-rgba=255 255 255 119
+p-bindtoemitter=1 0
+p-life=2
+p-offset=0 0 10
+p-scale=70 70 200
+p-texture=Maokai_Base_Q_Mis_softglow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 0.666667 0.498039 0
+p-xrgba2=0.3 1 0.666667 0 1
+p-xrgba3=1 1 0.666667 0.498039 0
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+pass=-3
+rendermode=1
+
+[System]
+GroupPart1=Sphere_glow
+SimulateEveryFrame=1
+

@@ -1,0 +1,53 @@
+[Arm_Wisps]
+e-life=3.1
+e-rate=20
+e-rate1=0 1
+e-rate2=1 2
+p-bindtoemitter=1
+p-life=1.2000000000000002
+p-life1=0 1
+p-life2=1 0.5
+p-local-orient=1
+p-mesh=karthus_base_taunt_staffaura.scb
+p-meshtex=karthus_base_taunt_armaura.tga
+p-meshtex-mult=karthus_base_taunt_armaura_mask.tga
+p-offset=0 0 0
+p-quadrot=360 360 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 1
+p-scale=1 1 1
+p-type=3
+p-uvscroll-rgb=0 -1
+p-uvscroll-rgb1=0 1 1
+p-uvscroll-rgb2=1 1 2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=1 1 1 1 1
+rendermode=1
+
+[System]
+GroupPart1=Arm_Wisps
+GroupPart2=glow
+SimulateEveryFrame=1
+
+[glow]
+e-life=3
+e-linger=0
+e-rate=1
+e-rgba=50 255 225 255
+p-bindtoemitter=1
+p-life=3.3499999046325684
+p-linger=0
+p-local-orient=1
+p-quadrot=0 0 0
+p-scale=40 300 140
+p-texture=Karthus_Base_Z_Spotlight.DDS
+p-type=1
+p-xrgba=1 1 1 0.75
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.65 1 1 1 0.5
+p-xrgba3=0.9 1 1 1 1
+pass=500
+rendermode=4
+single-particle=1
+

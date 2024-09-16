@@ -1,0 +1,107 @@
+[Glows]
+MaterialOverride1Priority=2000
+MaterialOverride1Texture=Rengar_Skin02_R_MatOverride_Self.tga
+MaterialOverrideTransMap=Rengar_Skin02_R_MaterialOverrideTrans.tga
+e-life=7
+e-rate=1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=7
+p-linger=1
+p-rgba=color-bellcurve3.tga
+p-trans-sample=128
+rendermode=4
+
+[Stealth_Swirls]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=40
+e-rate1=0 0.5
+e-rate2=1 1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 10
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 10
+p-backfaceon=1
+p-bindtoemitter=1
+p-colortype=1 3
+p-life=1
+p-linger=0.3
+p-local-orient=1
+p-mesh=Rengar_Skin02_Z_Sphere.sco
+p-meshtex=Rengar_Skin02_R_Cas.tga
+p-offset=0 150 0
+p-quadrot=1 -90 90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Rengar_Skin02_Z_RGB.tga
+p-scale=8 8 8
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0 0 -100
+p-xscale1=0 1 1 1
+p-xscale2=1 1 2 1
+rendermode=2
+
+[Stealth_Swirls_Add]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=50
+e-rate1=0 0.5
+e-rate2=1 1
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 10
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 10
+p-backfaceon=0
+p-bindtoemitter=1
+p-colortype=1 3
+p-fresnel=0.05
+p-fresnel-color=-1 -1 -1 -1
+p-life=1
+p-linger=0.3
+p-local-orient=1
+p-mesh=Rengar_Skin02_Z_Sphere.sco
+p-meshtex=Rengar_Skin02_R_Cas.tga
+p-offset=0 150 0
+p-quadrot=1 -90 90
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rgba=Rengar_Skin02_Z_RGB_add.tga
+p-scale=8 8 8
+p-type=3
+p-uvscroll-rgb=-0.25 0.1
+p-vel=0 0 -100
+p-xscale1=0 1 1 1
+p-xscale2=1 1 2 1
+rendermode=0
+
+[System]
+GroupPart1=Stealth_Swirls
+GroupPart2=Stealth_Swirls_Add
+GroupPart3=Glows
+GroupPart3Type=Simple
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk08356175=1
+unk124653A2=color-hold.tga
+unk1B7BCD59=1
+unk219B8735=1
+unk3B119E25=3
+unk4F5B5A2F=1 3
+unk5C4EA47C=1.1 1.1 1.1
+unk783F0FA8=11
+unk96CBFBB5=1 1
+unkAD95FB0D=Rengar_Skin02_R_MatOverride_Self.tga
+unkB0C9B53C=0
+unkB28C5871=0.4
+unkC6936521=1 1
+unkE7900C3A=1
+unkF7DA19EA=1
+unkFC1D8F2A=7

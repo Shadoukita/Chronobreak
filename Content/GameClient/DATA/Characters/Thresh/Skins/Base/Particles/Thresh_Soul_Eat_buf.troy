@@ -1,0 +1,56 @@
+[Skin02Clone]
+KeywordsRequired=ThreshSkin02
+e-life=0.2
+e-local-orient=1
+e-rate=40
+p-alphaslicerange=0.029999999329447746
+p-bindtoemitter=0 0
+p-colortype=1 3
+p-life=1
+p-local-orient=1
+p-rgba=color-blue_slice.tga
+p-scale=1
+p-simpleorient=3
+p-texture=alphaslice_mesh.tga
+p-type=11
+p-xscale1=0 1.2
+p-xscale2=0.30000000000000004 1.1
+p-xscale3=0.8999999761581421 1.0499999523162842
+p-xscale4=1 1.0499999523162842
+pass=100
+rendermode=4
+teamcolor-correction=1
+
+[System]
+GroupPart1=clone
+GroupPart1Type=Simple
+GroupPart2=Skin02Clone
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Thresh_ThreshPassiveSoulsDead_buffactivate
+
+[clone]
+KeywordsExcluded=ThreshSkin02
+e-life=0.2
+e-local-orient=1
+e-rate=40
+p-alphaslicerange=0.029999999329447746
+p-bindtoemitter=0 0
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0.7000000000000001 1
+p-colortype=1 0
+p-life=1
+p-local-orient=1
+p-rgba=color-cyan_slice.tga
+p-scale=1
+p-simpleorient=3
+p-texture=alphaslice_mesh.tga
+p-type=11
+p-xscale1=0 1.2
+p-xscale2=0.30000000000000004 1.1
+p-xscale3=0.8999999761581421 1.0499999523162842
+p-xscale4=1 1.0499999523162842
+pass=100
+rendermode=4
+teamcolor-correction=1
+

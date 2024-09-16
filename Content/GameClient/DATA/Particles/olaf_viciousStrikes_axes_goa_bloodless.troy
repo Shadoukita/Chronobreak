@@ -1,0 +1,38 @@
+[System]
+GroupPart1=axe_glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+
+[axe_glow]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=8
+p-bindtoemitter=1 1
+p-life=0.2
+p-linger=0
+p-offset=1 1 1
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-smoke32_07.tga
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=80
+p-scale1=0 0.7
+p-scale2=0.30000001192092896 4.349999904632568
+p-scale3=1 0.7
+p-texture=flare-Rainbow_purp_03.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1.5 1.5 1.5
+p-xscale3=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unkF9A7F18F=1

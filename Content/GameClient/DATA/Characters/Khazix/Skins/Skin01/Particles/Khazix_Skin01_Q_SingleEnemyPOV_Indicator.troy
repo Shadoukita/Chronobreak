@@ -1,0 +1,28 @@
+[Droid_Warning]
+e-life=-1
+e-local-orient=1
+e-rate=4
+flag-disable-z=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-frameRate=8
+p-life=0.5
+p-linger=0
+p-numframes=8
+p-postoffset=0 120 0
+p-randomstartframe=0
+p-rgba=Khazix_Skin01_Z_Rampdown_Quick_RGB.tga
+p-scale=80 40 80
+p-startframe=0
+p-texdiv=1 2
+p-texture=Khazix_Skin01_Q_SingelEnemyPOV_Indicator.tga
+p-type=0
+p-xrgba=1 1 1 1 1
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Droid_Warning
+PersistThruDeath=1
+SimulateEveryFrame=1
+

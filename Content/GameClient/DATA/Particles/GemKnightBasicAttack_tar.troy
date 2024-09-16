@@ -1,0 +1,42 @@
+[System]
+GroupPart1=star
+GroupPart1Type=Simple
+GroupPart2=innerring
+GroupPart2Type=Simple
+
+[innerring]
+e-life=1
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.019999999552965164
+p-flexoffset=0.004999999888241291
+p-flexscale=0.003000000026077032
+p-life=0.8
+p-offset=0 40 0
+p-rgba=color-rampdown.tga
+p-scale=150
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=rainbowhalo.tga
+p-type=1
+p-xscale=1
+p-xscale1=0 0.7789999842643738
+p-xscale2=1 1.0010000467300415
+
+[star]
+e-life=1
+e-rate=1
+e-timeoffset=0.019999999552965164
+p-flexoffset=0.004999999888241291
+p-flexscale=0.003000000026077032
+p-life=0.2
+p-offset=0 40 0
+p-quadrot=45
+p-rgba=color-rampdown.tga
+p-scale=200
+p-startframe=0
+p-texdiv=1 1
+p-texture=rainbowflash.tga
+p-xscale=1
+

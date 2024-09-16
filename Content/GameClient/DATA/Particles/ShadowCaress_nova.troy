@@ -1,0 +1,51 @@
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=ghosts
+GroupPart2Type=Complex
+
+[flash]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-postoffset=0 100 0
+p-quadrot=20
+p-rgba=color-hold.tga
+p-scale=600
+p-simpleorient=2
+p-startframe=2
+p-texdiv=2 2
+p-texture=angerwaves.tga
+p-type=1
+p-xscale1=0 1
+p-xscale2=1 0
+single-particle=1
+
+[ghosts]
+e-life=0.2
+e-linger=0
+e-rate=200
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-numframes=2
+p-postoffset=0 100 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color-deathscaress.tga
+p-scale=100 150 100
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=2 1
+p-texture=DeathsCaressGhost.tga
+p-type=2
+p-xscale1=0 0.2 0 0.5
+p-xscale2=0.800000011920929 0.8999999761581421 1.9900000095367432 1
+p-xscale3=1 1 2 1
+
+[UNKNOWN_HASHES]
+unk120A7C09=1

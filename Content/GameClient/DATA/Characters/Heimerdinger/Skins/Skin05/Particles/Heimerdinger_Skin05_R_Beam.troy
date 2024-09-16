@@ -1,0 +1,57 @@
+[System]
+GroupPart1=lightning-base
+GroupPart1Importance=High
+GroupPart2=lightning-base2
+SimulateEveryFrame=1
+
+[lightning-base]
+e-active=0.1
+e-beam-segments=2
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-period=0.5
+e-rate=100
+e-tilesize=180 80 0
+p-backfaceon=0
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-postoffset=0 0 0
+p-scale=30 0 0
+p-texture=Heimerdinger_Skin05_R_Lightning.dds
+p-trailmode=1
+p-type=9
+p-uvscroll-rgb=0 1
+p-xrgba=0.6 1 0.6 1
+pass=100
+rendermode=4
+
+[lightning-base2]
+e-active=0.1
+e-beam-segments=2
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-period=0.5
+e-rate=15
+e-tilesize=90 60 0
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-postoffset=0 0 0
+p-scale=80 0 0
+p-texture=Heimerdinger_Skin05_R_Lightning.dds
+p-trailmode=1
+p-type=9
+p-uvscroll-rgb=0 2
+p-xrgba=1 1 1 1
+pass=100
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk2069D454=1
+unkA627C08A=0

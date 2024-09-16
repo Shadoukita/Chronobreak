@@ -1,0 +1,152 @@
+[Gravity]
+f-accel=0 -400 0
+f-localspace=0
+
+[SparksDrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=2000
+
+[System]
+GroupPart1=firebomb
+GroupPart1Importance=High
+GroupPart2=firebombadd
+GroupPart2Importance=High
+GroupPart3=followflames
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=followsparks
+GroupPart4Importance=High
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[firebomb]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.004999999888241291
+p-life=3
+p-linger=0
+p-local-orient=1
+p-mesh=fireball.sco
+p-meshtex=fire_ball32_02.tga
+p-numframes=1
+p-offset=0 80 0
+p-quadrot=90 90 180
+p-rgba=color-hold.tga
+p-scale=2.5 2.5 2.5
+p-startframe=0
+p-texdiv=0.5 0.5
+p-type=3
+p-uvscroll-rgb=0 -6
+rendermode=1
+
+[firebombadd]
+e-life=2
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-backfaceon=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.004999999888241291
+p-life=3
+p-linger=0
+p-local-orient=1
+p-mesh=fireball.sco
+p-meshtex=fireball_thin.tga
+p-numframes=1
+p-offset=0 80 0
+p-quadrot=90 90 180
+p-rgba=color-hold.tga
+p-scale=2.25 2.25 2.25
+p-startframe=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=0 -3
+rendermode=0
+
+[followflames]
+e-life=1.75
+e-linger=0
+e-rate=300
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-drag=0 1 0
+p-life=0.3499999940395355
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-linger=-1
+p-numframes=12
+p-offset=15 40 0
+p-offsetXP1=0 0.2
+p-offsetXP2=1 1
+p-postoffset=0 60 0
+p-randomstartframe=1
+p-rgba=color-summonerdot.tga
+p-scale=8 8 8
+p-scaleXP1=0 1
+p-scaleXP2=1 2
+p-startframe=0
+p-texdiv=4 4
+p-texture=summoner_dot.tga
+p-vecalign=1
+p-vel=0 400 0
+p-velYP1=0 0.4
+p-velYP2=1 1
+p-worldaccel=0 200 0
+p-xscale1=0 0 0 0
+p-xscale2=0.1 1 2 1
+p-xscale3=0.8 1 1 1
+p-xscale4=1 0 0 0
+
+[followsparks]
+e-linger=0
+e-rate=160
+field-accel-1=Gravity
+field-drag-1=SparksDrag
+p-bindtoemitter=0.6000000000000001 0
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-life=0.25
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=-1
+p-postoffset=15 15 15
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 1
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-postoffsetZP1=0 0
+p-postoffsetZP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-firemissile.tga
+p-scale=4
+p-scaleP1=0 0.1
+p-scaleP2=1 1
+p-startframe=4
+p-texdiv=2 3
+p-texture=disintegrate02.tga
+p-vel=0 1000 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5109999775886536 1.5570000410079956
+p-xscale3=1 0
+

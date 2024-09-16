@@ -1,0 +1,11 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="threesisters"}}, 
+{Function=BBPreloadSpell, Params={Name="apbonusdamagetotowers"}}, 
+{Function=BBPreloadSpell, Params={Name="lissandrapassive"}}, 
+{Function=BBPreloadSpell, Params={Name="lissandrapassiveready"}}, 
+{Function=BBPreloadSpell, Params={Name="globalruncyclemanager"}}, 
+{Function=BBPreloadSpell, Params={Name="crestbigmarker"}}, 
+{Function=BBPreloadSpell, Params={Name="lissandratauntsejuani"}}, 
+{Function=BBPreloadSpell, Params={Name="lissandratauntashe"}}, 
+{Function=BBPreloadSpell, Params={Name="lissandratauntbrand"}}, 
+}

@@ -1,0 +1,50 @@
+[System]
+GroupPart1=add
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=1000
+
+[add]
+e-life=10000.2001953125
+e-rate=4
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+e-timeoffset=0.2
+flag-disable-z=1
+p-bindtoemitter=1 0
+p-life=1
+p-lifeP1=0 1
+p-lifeP2=1 2
+p-linger=2
+p-offset=20 0 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-rotvel=1 0 0
+p-rotvelXP1=0 -25
+p-rotvelXP2=1 25
+p-scale=200 200 200
+p-scaleXP1=0 0.25
+p-scaleXP2=1 1
+p-texture=Kalista_Skin01_P_Glow.dds
+p-vel=0 1 0
+p-velYP1=0 5
+p-velYP2=1 20
+p-xrgba=1 1 1 0.30000799894332886
+p-xrgba1=0 0.870588 0.290196 0 0
+p-xrgba2=0.1 0.760784 0 0 1
+p-xrgba3=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0.6 0.6 0.6
+p-xscale2=1 2 2 2
+rendermode=1
+uniformscale=1
+

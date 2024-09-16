@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="renektondice"}}, 
+{Function=BBPreloadSpell, Params={Name="renektonsliceanddicetimer"}}, 
+{Function=BBPreloadSpell, Params={Name="renektonsliceanddice"}}, 
+}

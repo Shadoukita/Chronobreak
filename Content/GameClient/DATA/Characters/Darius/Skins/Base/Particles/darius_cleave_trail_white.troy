@@ -1,0 +1,30 @@
+[System]
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk0035E228=3
+unk0A4197C8=0 0
+unk1ADF0E35=1 1
+unk3645E5DC=-1.149999976158142 0
+unk4741EAF1=1
+unk48FABD48=1
+unk4FB425C1=0 0 0
+unk5CFD3BD1=0 0.9 0.9 0.9
+unk5CFD3BD2=1 1 1 1
+unk665681CD=0 0.2
+unk78DBA7AF=1 0
+unk7B1DCC6C=swipetrail.tga
+unk81CEA5FA=1
+unk841461AA=1
+unk902C33F5=1
+unk9A3D2622=color-swipetrail-rage.tga
+unkA3729FD9=1
+unkA48C71FC=1.3 1 1.3
+unkA5EE6C6A=0
+unkB0AFF79B=renekton_spell1_trail.sco
+unkB4E38CC2=0 -220 0
+unkB8C172D8=1 1
+unkFB1CEFF1=0
+unkFCCBD600=1

@@ -1,0 +1,100 @@
+[System]
+GroupPart1=starFlash
+GroupPart2=pulseWave
+GroupPart2Type=Simple
+GroupPart3=sparks
+GroupPart4=blackHole
+GroupPart4Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[blackHole]
+e-life=0.30000000000000004
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.005
+p-life=0.4
+p-offset=0 35 0
+p-rgba=Quinn_W_Enhanced_ramp.tga
+p-scale=110
+p-texture=Quinn_W_Enchanted_blackHole.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+pass=-1
+rendermode=1
+
+[pulseWave]
+e-life=0.30000000000000004
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-flexoffset=0.005
+p-life=0.4
+p-offset=0 35 0
+p-rgba=Quinn_W_Enhanced_ramp.tga
+p-scale=90
+p-texture=Quinn_W_Enhanced_pulseWave.tga
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+rendermode=0
+
+[sparks]
+e-life=0.15000000596046448
+e-rate=75
+e-rotation1=90
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-life=0.5
+p-lifeXP1=0 0.6000000000000001
+p-lifeXP2=1 1
+p-offset=0 35 0
+p-scale=10 55 10
+p-scaleXP1=0 0.6000000000000001
+p-scaleXP2=1 1
+p-scaleYP1=0 0.6000000000000001
+p-scaleYP2=1 1
+p-scaleZP1=0 0.6000000000000001
+p-scaleZP2=1 1
+p-texture=Quinn_W_Enhanced_sparks.tga
+p-type=0
+p-vecalign=1
+p-vel=400 0 0
+p-vel1=0 1 1 1
+p-vel2=1 0.4 0.4 0.4
+p-velXP1=0 0.6
+p-velXP2=1 1
+p-velYP1=0 0.6
+p-velYP2=1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.30000000000000004 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+
+[starFlash]
+e-life=0.30000000000000004
+e-rate=1
+p-bindtoemitter=1 1
+p-flexoffset=0.005
+p-life=0.3499999940395355
+p-offset=0 35 0
+p-scale=250 100 250
+p-texture=Quinn_W_Enhanced_starFlash.tga
+p-type=0
+p-xscale1=0 1 0 1
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk2BCB9EA3=1
+unk2EB63AF6=1
+unk9CE9E75A=1
+unkCDE15282=1

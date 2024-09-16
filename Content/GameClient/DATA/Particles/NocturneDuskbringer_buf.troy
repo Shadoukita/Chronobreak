@@ -1,0 +1,66 @@
+[System]
+GroupPart1=flat
+GroupPart1Type=Simple
+GroupPart2=disc
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[disc]
+e-life=4
+e-linger=0
+e-local-orient=1
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=1
+p-linger=1
+p-quadrot=45
+p-rgba=color-bellcurve.tga
+p-rotvel=20
+p-scale=100
+p-simpleorient=2
+p-texture=blast_nova_22.tga
+p-type=1
+p-xscale1=0 0.5
+p-xscale2=1 1
+pass=-5
+rendermode=0
+
+[flat]
+e-life=4
+e-linger=0
+e-local-orient=1
+e-rate=4
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.5
+p-linger=0.5
+p-numframes=4
+p-offset=0 0 1
+p-offsetZP1=0 40
+p-offsetZP2=1 -40
+p-quadrot=45
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve32.tga
+p-rotvel=1
+p-rotvelP1=0 -40
+p-rotvelP2=0.5 -10
+p-rotvelP3=0.5099999904632568 10
+p-rotvelP4=1 40
+p-scale=160
+p-shadow=0
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=darkpath32.tga
+p-type=1
+p-vel=0 0 1
+p-velZP1=0 -20
+p-velZP2=1 20
+pass=-10
+rendermode=1
+

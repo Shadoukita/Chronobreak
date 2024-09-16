@@ -1,0 +1,46 @@
+[Flash_Base]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-coloroffset=0.5 0.5
+p-colorscale=0.1 0.1
+p-colortype=3 3
+p-life=0.2
+p-linger=0.01
+p-offset=0 50 0
+p-rgba=diana_skin02_Z_colors_ramp.tga
+p-scale=375
+p-simpleorient=2
+p-texture=Diana_Skin02_Z_Flash.tga
+p-type=1
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+single-particle=1
+
+[GroundLightBase_Skin02]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=0 0
+p-life=0.3
+p-linger=0.01
+p-offset=0 50 0
+p-rgba=color-darkpurp_rampdown.tga
+p-scale=300
+p-simpleorient=2
+p-texture=Diana_Skin02_R_Flash.tga
+p-type=1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash_Base
+GroupPart1Type=Simple
+GroupPart2=GroundLightBase_Skin02
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+

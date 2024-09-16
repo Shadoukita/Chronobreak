@@ -1,0 +1,53 @@
+[System]
+GroupPart1=death
+MaterialOverride1Texture=empty32.tga
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[death]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-colorscale=1 1
+p-colortype=0 0
+p-life=2.8000000000000003
+p-linger=2.8000000000000003
+p-mesh=Alzahar_death.sco
+p-meshtex=voidscroll32.tga
+p-offset=0 0 0
+p-postoffset=0 -260 0
+p-quadrot=0 0 0
+p-rgba=color-hold.tga
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-shadow=0
+p-texdiv=0.5 1.5
+p-type=3
+p-uvscroll-rgb=0 0.25
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk004F07AC=1
+unk0D8C5F6E=Alzahar_death_inv.sco
+unk0F431D41=0
+unk147EF60F=0
+unk16419944=4
+unk1A5CB2D9=newvoidtile.tga
+unk1EB3D414=0 0 0
+unk263A8285=1
+unk269C18E7=1
+unk39138988=1 1
+unk5422732F=0 0 0
+unk5D1249FB=3
+unk87C1212B=0.5 1
+unkBCD6213D=1
+unkBDB27C54=0 -260 0
+unkD0B4279C=0 0
+unkE0F0C97D=4
+unkE69CFEE9=1.2000000000000002 1.2000000000000002 1.2000000000000002
+unkED089BC8=1
+unkEDC83035=1
+unkF7198DF5=color-hold.tga
+unkFB51D7D3=1

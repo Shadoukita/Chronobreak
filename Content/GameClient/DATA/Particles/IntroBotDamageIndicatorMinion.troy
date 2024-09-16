@@ -1,0 +1,31 @@
+[RETREAT]
+e-life=0.5
+e-local-orient=0
+e-rate=0.5
+p-bindtoemitter=1 1
+p-life=2
+p-linger=0
+p-offset=0 225 0
+p-scale=120 7.5 1
+p-scalebias=1 0.0625
+p-texture=IntroBotDamageAlertMinion.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0.95 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 1.5 1.5 1.5
+p-xscale2=0.15000000596046448 0.800000011920929 0.800000011920929 0.800000011920929
+p-xscale3=0.30000000000000004 1.6 1.6 1.6
+p-xscale4=0.4 1.4000000000000001 1.4000000000000001 1.4000000000000001
+p-xscale5=0.5 1.5 1.5 1.5
+p-xscale6=1 1.5 1.5 1.5
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=RETREAT
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_hud_Pings_GetBack
+
+[UNKNOWN_HASHES]
+unk98ED4791=1

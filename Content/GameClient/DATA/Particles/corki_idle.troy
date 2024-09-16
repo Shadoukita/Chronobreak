@@ -1,0 +1,114 @@
+[System]
+GroupPart1=propulsion_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=propulsion_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=helisound
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=ufosound
+GroupPart4Importance=High
+GroupPart4Type=Simple
+
+[helisound]
+KeywordsRequired=BaseCorki
+SoundPersistent=Play_sfx_Corki_RapidReload_helibuffactivate
+
+[propulsion_01]
+KeywordsRequired=BaseCorki
+e-local-orient=1
+e-rate=15
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 40
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-life=1.5
+p-lifeP1=0 0.1
+p-lifeP2=0.8999999761581421 0.15000000596046448
+p-lifeP3=1 0.30000000000000004
+p-offset=12 12 12
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=-62 -50 -30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32_07.tga
+p-rotvel=1
+p-rotvel1=0 0 0 0
+p-rotvel2=1 0 0 180
+p-scale=80
+p-scaleP1=0 0.35
+p-scaleP2=1 1
+p-texture=Flare-Rainbow_orange_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[propulsion_02]
+KeywordsRequired=BaseCorki
+e-rate=15
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 40
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=1 0
+p-life=1.5
+p-lifeP1=0 0.1
+p-lifeP2=0.8999999761581421 0.15000000596046448
+p-lifeP3=1 0.30000000000000004
+p-offset=12 12 12
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-postoffset=-62 -50 30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32_07.tga
+p-rotvel=1
+p-rotvel1=0 0 0 0
+p-rotvel2=1 0 0 180
+p-scale=80
+p-scaleP1=0 0.35
+p-scaleP2=1 1
+p-texture=Flare-Rainbow_orange_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.4 0.8
+p-xscale3=1 0
+rendermode=0
+
+[ufosound]
+KeywordsRequired=UFOCorki
+SoundPersistent=Play_sfx_Corki_RapidReload_ufobuffactivate
+
+[UNKNOWN_HASHES]
+unk1AAD4EA3=0 0 0 0 255
+unk1AAD4EA4=0.12 255 255 255 255
+unk1AAD4EA5=0.24 211 255 212 255
+unk1AAD4EA6=0.35 166 255 154 255
+unk1AAD4EA7=0.72 0 255 0 255
+unk1AAD4EA8=1 0 0 0 255
+unk1FDCBF88=1
+unkB943F207=1
+unkCC0410E2=0 0 0 0 255
+unkCC0410E3=0.12 255 255 255 255
+unkCC0410E4=0.24 211 255 212 255
+unkCC0410E5=0.35 166 255 154 255
+unkCC0410E6=0.72 0 255 0 255
+unkCC0410E7=1 0 0 0 255

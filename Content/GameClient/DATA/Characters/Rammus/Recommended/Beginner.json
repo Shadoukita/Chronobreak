@@ -1,0 +1,15 @@
+{
+	"champion":"Rammus",
+	"title":"Beginner",
+	"type":"riot",
+	"map":"SR",
+	"mode":"INTRO",
+	"priority":false,
+	"blocks": [
+		{"type":"beginner_Starter","maxSummonerLevel":4,"items":[{"id":"1054","count":1}]},
+		{"type":"beginner_Starter","minSummonerLevel":5,"items":[{"id":"1054","count":1},{"id":"2003","count":1}]},
+		{"type":"beginner_Advanced","recMath":true,"items":[{"id":"1027","count":1},{"id":"1029","count":1},{"id":"3024","count":1}]},
+		{"type":"beginner_MovementSpeed","recMath":true,"items":[{"id":"1001","count":1},{"id":"3009","count":1}]},
+		{"type":"beginner_LegendaryItem","recMath":true,"items":[{"id":"3082","count":1},{"id":"3024","count":1},{"id":"3110","count":1}]},
+		{"type":"beginner_MoreLegendaryItems","items":[{"id":"3068","count":1},{"id":"3102","count":1},{"id":"3105","count":1},{"id":"3001","count":1}]}
+]}

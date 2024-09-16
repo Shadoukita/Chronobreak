@@ -1,0 +1,23 @@
+[Ribbon]
+e-life=3
+e-rate=60
+e-tilesize=100 0 0
+p-accel=0 -80 80
+p-life=0.5
+p-linger=1
+p-scale=20 0 0
+p-scaleXP1=0 0.75
+p-scaleXP2=1 1
+p-texture=Khazix_Skin02_W_Mis_Child_Ribbon.dds
+p-trailmode=1
+p-type=4
+p-xscale1=0 1 0 0
+p-xscale2=0.5 1 0 0
+p-xscale3=1 0 0 0
+pass=0
+rendermode=1
+
+[System]
+GroupPart1=Ribbon
+SimulateEveryFrame=1
+

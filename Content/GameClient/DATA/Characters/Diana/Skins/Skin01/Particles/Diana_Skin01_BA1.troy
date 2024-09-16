@@ -1,0 +1,117 @@
+[Crescent]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-bindtoemitter1=0 1
+p-bindtoemitter2=1 0
+p-life=0.2
+p-linger=0.01
+p-mesh=Diana_Skin01_BA_Crescent.sco
+p-meshtex=Diana_Skin01_BA_Crescent.tga
+p-offset=0 50 0
+p-quadrot=0 180 0
+p-rgba=Diana_Skin01_BA_Crescent_RGB.tga
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=-0.8 0
+p-vel=0 0 -200
+pass=-100
+rendermode=4
+single-particle=1
+
+[Dust]
+e-life=0.25
+e-linger=0
+e-local-orient=1
+e-rate=80
+field-accel-1=DustAccel
+field-drag-1=DustDrag
+p-bindtoemitter=1 0
+p-life=0.6
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-linger=0.6
+p-offset=0 120 0
+p-offsetYP1=0 -0.8
+p-offsetYP2=1 0.5
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Diana_Skin01_Z_Rampdown_Purple_RGB.tga
+p-rotvel=80
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=100
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=Diana_Skin01_BA_Dust.tga
+p-type=0
+p-vel=0 0 120
+p-velZP1=0 0
+p-velZP2=1 1.5
+p-xscale1=0 0.7
+p-xscale2=1 2
+rendermode=0
+
+[DustAccel]
+f-accel=0 100 220
+f-localspace=1
+
+[DustDrag]
+f-drag=0.1
+f-pos=0 130 0
+f-radius=1000
+
+[GroundLight]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.3
+p-linger=0.01
+p-offset=50 -100 -200
+p-rgba=Diana_Skin01_BA_WeaponTrail_RGB.tga
+p-scale=230
+p-simpleorient=2
+p-texture=Diana_Skin01_Z_GroundLight.tga
+p-type=1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=WeaponTrail
+GroupPart2=Crescent
+GroupPart3=GroundLight
+GroupPart3Type=Simple
+GroupPart4=Dust
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[WeaponTrail]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.22
+p-linger=0.01
+p-local-orient=1
+p-mesh=Diana_Skin01_BA_WeaponTrail.sco
+p-meshtex=Diana_Skin01_BA_WeaponTrail.tga
+p-offset=0 60 0
+p-quadrot=0 180 0
+p-rgba=Diana_Skin01_Z_Rampdown_RGB.tga
+p-scale=1.2000000000000002 1.2000000000000002 1.2000000000000002
+p-type=3
+p-uvscroll-rgb=2.1 0
+rendermode=2
+single-particle=1
+

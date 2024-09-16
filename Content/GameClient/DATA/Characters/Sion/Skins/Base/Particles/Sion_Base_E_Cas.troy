@@ -1,0 +1,21 @@
+[Avataryell]
+e-life=1.1
+e-rate=1
+e-rgba=255 255 255 243
+e-timeoffset=0.1
+p-backfaceon=1
+p-life=0.3499999940395355
+p-linger=0
+p-local-orient=1
+p-offset=0 -200 0
+p-rgba=Sion_Base_R_Cas_Imagetrail_alpha.dds
+p-simpleorient=3
+p-texture=Sion_Base_Passive_Body_TX.dds
+p-type=11
+rendermode=4
+
+[System]
+GroupPart1=Avataryell
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+

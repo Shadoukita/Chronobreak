@@ -1,0 +1,65 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=orb
+SimulateEveryFrame=1
+
+[glow]
+e-life=1
+e-rate=1
+p-life=0.75
+p-offset=0 0 0
+p-rgba=alpha_12.dds
+p-scale=280
+p-simpleorient=2
+p-texture=Udyr_Spirit_bear_Glow.dds
+p-type=0
+pass=-100
+rendermode=0
+
+[orb]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=35
+p-backfaceon=1
+p-bindtoemitter=0.95 0.75
+p-frameRate=0
+p-life=0.5
+p-mesh=Udyr_Spirit_Recall_Core.sco
+p-meshtex=Jayce_Lightning_Sparks.dds
+p-meshtex-mult=Udyr_Spirit_Recall_Helix_Mult_Bear.dds
+p-numframes=8
+p-offset=0 120 0
+p-orbitvel=0 2 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rotvel=1 1 1
+p-rotvelP1=0 350
+p-rotvelP2=1 -350
+p-scale=10 12 10
+p-scaleYP1=0 0.85
+p-scaleYP2=1 1.5
+p-texdiv=1 8
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.25 0.25
+p-uvscroll-rgb-mult=0.3 0.1
+p-uvscroll-rgbXP1=0 1
+p-uvscroll-rgbXP2=1 -1
+p-uvscroll-rgbYP1=0 1
+p-uvscroll-rgbYP2=1 0.1
+p-vel=0 -30 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.6 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1 2 1
+pass=100
+rendermode=4
+uniformscale=0
+

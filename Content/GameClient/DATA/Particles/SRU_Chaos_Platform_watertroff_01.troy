@@ -1,0 +1,60 @@
+[ShoreTop]
+e-rate=0.30000000000000004
+p-life=6.5
+p-linger=0
+p-mesh=sru_chaos_platform_watertroff_edge_01.scb
+p-meshtex=SRU_Waterfall_TopFoam_01.DDS
+p-meshtex-mult=SRU_Waterfall_TopFoam_Mult_01.DDS
+p-scale=1 1 1
+p-scaleXP1=0 0
+p-scaleXP2=0.1 0
+p-scaleXP3=0.10000099986791611 1
+p-type=3
+p-uvscroll-rgb=0 -0.4
+p-uvscroll-rgb-mult=0 -1.2
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.333333 0.666667 1 0
+p-xrgba2=0.1 0.333333 1 1 1
+p-xrgba3=0.9 0.333333 0.666667 1 1
+p-xrgba4=1 0.333333 0.666667 1 0
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=Waterfall_plane
+GroupPart2=WhiteFalls
+GroupPart3=ShoreTop
+GroupPart3Importance=Low
+SimulateEveryFrame=1
+
+[Waterfall_plane]
+e-rate=-1
+p-bindtoemitter=1 0
+p-life=-1
+p-linger=0
+p-mesh=sru_chaos_platform_watertroff_plane_01.scb
+p-meshtex=SRU_Waterfall_plane_01.DDS
+p-meshtex-mult=SRU_Waterfall_plane_Mult_01.dds
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.2
+p-uvscroll-rgb-mult=0 -0.4
+rendermode=1
+single-particle=1
+
+[WhiteFalls]
+e-rate=-1
+p-bindtoemitter=1 0
+p-life=-1
+p-linger=0
+p-mesh=sru_chaos_platform_watertroff_plane_01.scb
+p-meshtex=SRU_Waterfall_WhiteFalls_01.DDS
+p-meshtex-mult=SRU_Waterfall_WhiteFalls_Mult_01.DDS
+p-postoffset=5 0 0
+p-type=3
+p-uvscroll-rgb=0 -0.35
+p-uvscroll-rgb-mult=0 -0.25
+p-xrgba=1 1 1 0.7259939908981323
+pass=20
+rendermode=4
+

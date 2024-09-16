@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="braum_base_p_stack_1.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="braum_base_p_stack_2.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="braum_base_p_stack_3.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="braum_base_p_stack_3_warning.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="braum_base_p_stack_4.troy"}}, 
+}

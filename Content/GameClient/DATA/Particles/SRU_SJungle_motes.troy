@@ -1,0 +1,48 @@
+[Motes]
+e-rate=5
+e-rotation1=45
+e-rotation1-axis=0 1 0
+p-bindtoemitter=1 1
+p-life=20
+p-lifeP1=0 0.3
+p-lifeP2=0.8 0.5
+p-lifeP3=1 1
+p-numframes=4
+p-offset=400 400 400
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 -1
+p-offsetYP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-scale=1 1 1
+p-scaleXP1=0 0.3
+p-scaleXP2=0.8 0.5
+p-scaleXP3=1 1
+p-texdiv=2 2
+p-texture=SRU_SJungle_motes.dds
+p-vel=30 0 0
+p-velXP1=0 0.3
+p-velXP2=0.8 0.5
+p-velXP3=1 1
+p-worldaccel=0 4 0
+p-xrgba=1 1 1 0.4
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=20 20 20
+p-xscale1=0 0.2 0.2 0.2
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0.2 0.2 0.2
+rendermode=1
+uniformscale=1
+
+[System]
+GroupPart1=Motes
+SimulateEveryFrame=1
+build-up-time=5
+

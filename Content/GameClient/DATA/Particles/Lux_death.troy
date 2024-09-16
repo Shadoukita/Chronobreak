@@ -1,0 +1,49 @@
+[System]
+GroupPart2=streaks
+MaterialOverride1Texture=empty32.tga
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[streaks]
+Particle-Velocity=0 100 0
+Particle-Velocity1=0 0 0 0
+Particle-Velocity2=0.6000000000000001 0 0 0
+Particle-Velocity3=0.8 0 1 0
+Particle-Velocity4=1 0 2 0
+e-life=0.5
+e-linger=0
+e-local-orient=1
+e-rate=20
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=2
+p-linger=2
+p-numframes=1
+p-offset=1 -500 1
+p-offsetXP1=0 -30
+p-offsetXP2=1 30
+p-offsetZP1=0 -120
+p-offsetZP2=1 -350
+p-quadrot=-90 0 0
+p-rgba=color-bellcurve.tga
+p-scale=400 1000 1000
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-startframe=0
+p-texdiv=1 1
+p-texture=sliver.tga
+p-type=2
+p-xscale1=0 0 0 0
+p-xscale2=0.30000000000000004 1 2 0
+p-xscale3=0.5 0.5 2 0
+p-xscale4=0.7000000000000001 0.2 2 1
+p-xscale5=1 0 0 2
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0C127BF6=0
+unk0DD51F2B=0
+unkD32092E4=0
+unkDF38652F=30

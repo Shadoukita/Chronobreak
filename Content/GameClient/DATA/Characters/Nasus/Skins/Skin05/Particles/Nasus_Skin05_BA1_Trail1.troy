@@ -1,0 +1,79 @@
+[System]
+GroupPart1=Trail
+GroupPart2=Trail2
+SimulateEveryFrame=1
+group-scale-cap=-1
+
+[Trail]
+e-life=1
+e-linger=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0
+flag-disable-z=0
+p-backfaceon=0
+p-bindtoemitter=0
+p-flexscale=0.004999999888241291
+p-life=0.44999998807907104
+p-linger=0
+p-local-orient=0
+p-mesh=Nasus_Skin05_BA1_Trail1_Geo.sco
+p-meshtex=Nasus_Skin05_BA1_Trail1.dds
+p-meshtex-mult=Nasus_Skin05_BA1_Trail1_mult.dds
+p-offset=0 0 -20
+p-quadrot=0 0 0
+p-scale=0.550000011920929 0.550000011920929 0.550000011920929
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.6000000000000001 0
+p-uvscroll-rgb-mult=2.7 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 1
+pass=2
+rendermode=1
+single-particle=1
+
+[Trail2]
+e-life=1
+e-linger=1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.029999999329447746
+flag-disable-z=0
+p-backfaceon=0
+p-bindtoemitter=0
+p-flexscale=0.004999999888241291
+p-life=0.44999998807907104
+p-linger=0
+p-local-orient=0
+p-mesh=Nasus_Skin05_BA1_Trail2_Geo.sco
+p-meshtex=Nasus_Skin05_BA1_Trail2.dds
+p-meshtex-mult=Nasus_Skin05_BA1_Trail2_mult.dds
+p-offset=0 0 -20
+p-quadrot=0 0 0
+p-scale=0.550000011920929 0.550000011920929 0.550000011920929
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.10000000149011612 -1
+p-uvscroll-rgb-mult=1.7000000000000002 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.8 1 1 1 0.5
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1 1 1
+pass=2
+rendermode=4
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5B6DCDD0=0
+unkEED7736A=0

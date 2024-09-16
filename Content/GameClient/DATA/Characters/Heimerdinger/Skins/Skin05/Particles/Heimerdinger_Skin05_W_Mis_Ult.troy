@@ -1,0 +1,43 @@
+[System]
+GroupPart1=missle
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[missle]
+ChildEmitOnDeath=0
+ChildParticleName=Heimerdinger_Skin05_W_Mis_Ult_Child.troy
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=Heimerdinger_Skin05_W_mis_01.scb
+p-meshtex=Heimerdinger_Skin05_W_mis_01.dds
+p-postoffset=0 0 130
+p-quadrot=-90 30 0
+p-rotvel=0 0 1440
+p-scale=1 1 1
+p-shadow=1
+p-type=3
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk023CD67F=0 0 90
+unk18280A39=30 50 30
+unk261E524A=Heimerdinger_Base_W_Black_Ribbon.dds
+unk268BBE4C=0 0 0
+unk4D745766=1
+unk52C961F4=0
+unk5C889B85=0 0.4
+unk6B5DEA2D=0.5
+unk6FF39504=0 -100 150
+unk780343F6=0 0.15 0.35 0.65 0.45
+unk780343F7=0.1 0.15 0.35 0.55 0.1
+unk780343F8=0.3 0.15 0.35 0.45 0.1
+unk780343F9=1 0.35 0.35 0.35 0
+unk8ABC285C=100
+unk8D9E80F0=255 255 255 255
+unkAA56858E=0 2 1 1
+unkAA56858F=1 0.1 0.1 0.1
+unkC5319883=1
+unkE77F6AAB=1
+unkF8A491ED=1

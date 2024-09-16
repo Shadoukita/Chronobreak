@@ -1,0 +1,14 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="nami_base_e_counter_03.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_base_e_buf.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="namie"}}, 
+{Function=BBPreloadSpell, Params={Name="namipassivedebuff"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_skin01_e_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_base_e_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_base_e_counter_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_base_e_counter_01.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_e_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="namieslow"}}, 
+{Function=BBPreloadParticle, Params={Name="nami_e_mis_ally.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="root"}}, 
+}

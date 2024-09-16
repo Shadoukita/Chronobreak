@@ -1,0 +1,38 @@
+[Splat]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=1 0
+p-life=1.5
+p-linger=0
+p-numframes=4
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-Brand_Zombie_flames.tga
+p-scale=10
+p-shadow=0
+p-simpleorient=2
+p-startframe=0
+p-texdiv=2 2
+p-texture=toxic_splats32.tga
+p-type=1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=1 1.1
+pass=-100
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Splat
+GroupPart1Importance=High
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

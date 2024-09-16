@@ -1,0 +1,21 @@
+[System]
+GroupPart1=Turn_To_Stone
+GroupPart1Importance=High
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_OdinCaptureNeutralize_cast
+
+[Turn_To_Stone]
+MaterialOverride1Priority=5
+MaterialOverride1Texture=Capture_Tower_TX_DM.tga
+MaterialOverrideTransMap=color-rampdown.tga
+e-life=25000
+p-colorscale=1 1
+p-colortype=1 0
+p-life=1
+p-linger=1
+p-rgba=trans-stone.tga
+p-trans-sample=128
+rendermode=1
+

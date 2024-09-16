@@ -1,0 +1,63 @@
+[Black]
+e-life=0.3
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-offset=-40 0 0
+p-rgba=Quinn_Skin02_W_Cas_Passive_Black_Ramp.dds
+p-scale=60
+p-texture=Quinn_Skin02_W_Cas_Passive_Black.dds
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+pass=-1
+rendermode=1
+single-particle=1
+
+[Flash]
+e-life=0.3
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.35
+p-linger=0
+p-offset=-40 0 0
+p-scale=100 40 0
+p-texture=Quinn_Skin02_W_Cas_Passive_Flash.tga
+p-type=0
+p-xscale1=0 1 0 0
+p-xscale2=0.2 1 1 0
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+
+[Pulse]
+e-life=0.30000000000000004
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.4
+p-linger=0
+p-offset=-40 0 0
+p-rgba=Quinn_Skin02_W_Cas_Passive_Pulse_Ramp.dds
+p-scale=45
+p-texture=Quinn_Skin02_W_Cas_Passive_Pulse.dds
+p-type=0
+p-xscale1=0 0.4
+p-xscale2=1 1
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Flash
+GroupPart2=Pulse
+GroupPart2Type=Simple
+GroupPart3=Black
+GroupPart3Type=Simple
+SimulateEveryFrame=1
+

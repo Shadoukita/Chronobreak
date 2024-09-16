@@ -1,0 +1,22 @@
+[System]
+GroupPart1=Type11
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[Type11]
+e-life=0.25
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-life=0.5
+p-local-orient=1
+p-rgba=Lucian_E_RGB.tga
+p-scale=1.0199999809265137
+p-simpleorient=3
+p-texture=whitesquare.tga
+p-type=11
+pass=100
+rendermode=0
+single-particle=1
+

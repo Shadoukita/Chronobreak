@@ -1,0 +1,8 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="resistantskindragon"}}, 
+{Function=BBPreloadSpell, Params={Name="ascbufftransfer"}}, 
+{Function=BBPreloadSpell, Params={Name="ascxerathcontrol"}}, 
+{Function=BBPreloadSpell, Params={Name="azirtowerbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="azirtowerbuffchaos"}}, 
+{Function=BBPreloadSpell, Params={Name="ascinedibility"}}, 
+}

@@ -1,0 +1,113 @@
+[System]
+GroupPart1=spotlight_cone1
+GroupPart2=spotlight_cone2
+GroupPart3=spotlight_cone3
+GroupPart4=cloudringfast
+SimulateEveryFrame=1
+SoundPersistent=Play_sfx_SpecialForcesGangplank_CannonBarrage_heli
+
+[cloudringfast]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=5
+p-bindtoemitter=0 0
+p-life=1.4000000000000001
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 0.5
+p-linger=0
+p-offset=0 0 0
+p-postoffset=0 10 10
+p-quadrot=90 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=700 700 700
+p-scaleXP1=0 0.1
+p-scaleXP2=1 0.85
+p-texture=GangPlank_SpecialForces_R_Clouds.tga
+p-type=1
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.3 0.3 0.3
+p-xscale2=1 1 1 1
+uniformscale=1
+
+[spotlight_cone1]
+e-life=-1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.3
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=11
+p-linger=0
+p-local-orient=1
+p-mesh=GangPlank_SpecialForces_Spotlight_Cone.sco
+p-meshtex=Gangplank_Specialforces_UltLight_TX.tga
+p-postoffset=0 250 0
+p-quadrot=0 0 0
+p-rgba=alpha_20.tga
+p-rotvel=0 30 0
+p-scale=470 820 470
+p-shadow=0
+p-type=3
+pass=-1000
+rendermode=0
+single-particle=1
+
+[spotlight_cone2]
+e-life=-1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=11
+p-linger=0
+p-local-orient=1
+p-mesh=GangPlank_SpecialForces_Spotlight_Cone.sco
+p-meshtex=Gangplank_Specialforces_UltLight_TX.tga
+p-postoffset=0 250 0
+p-quadrot=0 -90 0
+p-rgba=alpha_20.tga
+p-rotvel=0 -20 0
+p-scale=470 820 470
+p-shadow=0
+p-type=3
+pass=-1000
+rendermode=0
+single-particle=1
+
+[spotlight_cone3]
+e-life=-1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.5
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-life=11
+p-linger=0
+p-local-orient=1
+p-mesh=GangPlank_SpecialForces_Spotlight_Cone.sco
+p-meshtex=Gangplank_Specialforces_UltLight_TX.tga
+p-postoffset=0 250 0
+p-quadrot=0 30 0
+p-rgba=alpha_20.tga
+p-rotvel=0 20 0
+p-scale=470 820 470
+p-shadow=0
+p-type=3
+pass=-1000
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk0D8F8D88=1000
+unk3338EECF=1200
+unk551330D7=0 0 0
+unk732D275E=0 0 0
+unkDEAC1F92=400
+unkF3A66671=0

@@ -1,0 +1,25 @@
+[Spear_In_Enemy]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=30
+p-linger=0
+p-local-orient=1
+p-mesh=Kalista_base_ba_spear_counter.scb
+p-meshtex=Kalista_Base_BA_Spear_counter.dds
+p-quadrot=0 190 0
+p-shadow=1
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 1 0.533333 0.675
+p-xrgba2=0.25 0 0.55 1 0.65
+p-xrgba3=0.5 0.3 0 1 0.05
+p-xrgba4=1 0.675 0 1 0.05
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Spear_In_Enemy
+SimulateEveryFrame=1
+group-scale-cap=400
+

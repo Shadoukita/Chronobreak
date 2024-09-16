@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="Maokai_Base_E_Hit.troy"}}, 
+{Function=BBPreloadCharacter, Params={Name="maokaisproutling"}}, 
+{Function=BBPreloadSpell, Params={Name="maokaisaplingmine"}}, 
+}

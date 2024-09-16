@@ -1,0 +1,24 @@
+[System]
+GroupPart1=cursor
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[cursor]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=999999999999999
+p-lockedtoemitter=1
+p-offset=0 20 0
+p-rgba=color-hold.tga
+p-scale=69
+p-simpleorient=2
+p-startframe=0
+p-texdiv=1 1
+p-texture=AOE.tga
+p-type=1
+rendermode=0
+

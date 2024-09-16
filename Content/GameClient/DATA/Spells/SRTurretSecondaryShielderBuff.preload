@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sru_regentowershield_buff.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_regentowershield_tower.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="srturretshielderlines"}}, 
+}

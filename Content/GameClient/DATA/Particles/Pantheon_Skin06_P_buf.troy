@@ -1,0 +1,71 @@
+[DarkBackground]
+e-disabled=1
+e-local-orient=0
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.7000000000000001
+p-linger=0
+p-offset=0 10 0
+p-scale=80 80 80
+p-texture=ball32_01.dds
+p-xrgba=0.203922 0 0 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0.75 0.75 0.75
+p-xscale2=1 1.350000023841858 1.350000023841858 1.350000023841858
+rendermode=1
+
+[System]
+GroupPart1=shields
+GroupPart1Importance=High
+GroupPart2=ground_indicator_04
+GroupPart2Importance=High
+GroupPart3=DarkBackground
+GroupPart3Importance=High
+SimulateEveryFrame=1
+
+[ground_indicator_04]
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.7000000000000001
+p-linger=0
+p-offset=0 10 0
+p-quadrot=45 1 1
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-rgba=AlphaStrike_prison__ball__p-rgba.dds
+p-scale=120 120 0
+p-texture=Pantheon_Skin06_P_FireRing.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 0.8 1
+p-xrgba2=0.2 1 0.8 0 1
+p-xrgba3=0.5 1 0.3 0 1
+p-xrgba4=1 1 0 0 1
+p-xscale=1 1 1
+p-xscale1=0 0.75 0.75 0.75
+p-xscale2=1 1.100000023841858 1.100000023841858 1.350000023841858
+pass=10
+
+[shields]
+e-rate=1
+p-bindtoemitter=1 1
+p-life=-1
+p-linger=0
+p-mesh=Pantheon_Skin06_P_shields.sco
+p-meshtex=Pantheon_Skin06_P_shields.dds
+p-postoffset=0 20 0
+p-rotvel=0 -165 0
+p-scale=5.5 5.5 5.5
+p-type=3
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk6CD29120=0

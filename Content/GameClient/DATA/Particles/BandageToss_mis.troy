@@ -1,0 +1,46 @@
+[System]
+GroupPart1=roll
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[roll]
+e-rate=1
+p-bindtoemitter=1
+p-life=10
+p-linger=0
+p-mesh=sphere.sco
+p-meshtex=mummy02.tga
+p-quadrot=90 0 0
+p-scale=0.2 0.2 0.2
+p-shadow=1
+p-type=3
+rendermode=1
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk3A4A2BA9=10 10 10
+unk4C1F246B=1 1
+unk676BDCF5=0
+unk7D13DCB1=0 1 1 1 1
+unk7D13DCB2=0.1 1 0.4 0.4 1
+unk7D13DCB3=0.2 1 1 1 1
+unk7D13DCB4=0.3 1 0.4 0.4 1
+unk7D13DCB5=0.4 1 1 1 1
+unk7D13DCB6=0.5 1 0.4 0.4 1
+unk7D13DCB7=0.6 1 1 1 1
+unk7D13DCB8=0.7 1 0.4 0.4 1
+unk7D13DCB9=0.8 1 1 1 1
+unkA4944FBF=0.9 1 0.4 0.4 1
+unkA4944FC0=1 1 1 1 1
+unkAA853FEF=0 0 0
+unkC89079EC=0
+unkCBE6847D=1
+unkCE3FF677=0 -100 0
+unkCE66BBBA=disc32.tga
+unkCF6C6CBD=1
+unkD3A12081=1
+unkD8DCF94F=0
+unkDA9F9C84=0
+unkDB843F08=1
+unkEECAAAEC=180
+unkF1AD0380=10 255 255 255

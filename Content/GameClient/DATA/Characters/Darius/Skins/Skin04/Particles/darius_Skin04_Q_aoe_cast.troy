@@ -1,0 +1,80 @@
+[System]
+GroupPart1=blur_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart3=blur_02
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=blur_04
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[blur_01]
+e-life=0.1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.4
+p-postoffset=0 40 0
+p-quadrot=0
+p-rgba=alpha_20.tga
+p-rotvel=-600
+p-scale=440 0 0
+p-simpleorient=2
+p-texture=Darius_Skin04_Z_Weapon_Swipe.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[blur_02]
+e-life=0.1
+e-local-orient=1
+e-rate=2
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.4
+p-postoffset=0 40 0
+p-quadrot=0
+p-rotvel=-600
+p-scale=312 0 0
+p-simpleorient=2
+p-texture=darius_Skin04_axe_spin_trail_inner.dds
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=1
+
+[blur_04]
+e-life=0.1
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1 1
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=0.4
+p-postoffset=0 40 0
+p-quadrot=0
+p-rgba=alpha_20.tga
+p-rotvel=-600
+p-scale=422.5 0 0
+p-simpleorient=2
+p-texture=darius_Skin04_axe_spin_trail.tga
+p-type=1
+p-vel=0 0 0
+p-xrgba=1 1 1 0.5
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.25 1 1 1 0.05
+p-xrgba3=1 1 1 1 0
+rendermode=1
+

@@ -1,0 +1,37 @@
+[System]
+GroupPart1=letter
+GroupPart1Type=Simple
+GroupPart2=slow
+SimulateEveryFrame=1
+
+[letter]
+KeywordsExcluded=Blackthorn
+e-rate=4
+e-rotation1=80
+field-drag-1=slow
+p-bindtoemitter=1 0
+p-life=1
+p-lifeP1=0 0.593
+p-lifeP2=1 1.1492960453033447
+p-linger=0
+p-offset=50 10 50
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetZP1=0 -1
+p-offsetZP2=1 1
+p-rgba=Morgana_Skin06_Idle2_Letter_Ramp.dds
+p-scale=15
+p-texture=Morgana_Skin06_Idle2_Letter.dds
+p-type=1
+p-vel=0 60 0
+p-velYP1=0 0.8
+p-velYP2=0.4555560052394867 1.0010000467300415
+p-velYP3=0.5960000157356262 2.3359999656677246
+p-velYP4=1 1.2000000000000002
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 1.1
+p-xscale3=1 1
+rendermode=1
+uniformscale=1
+

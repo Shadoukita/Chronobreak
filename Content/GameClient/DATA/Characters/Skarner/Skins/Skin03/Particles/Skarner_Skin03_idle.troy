@@ -1,0 +1,114 @@
+[Drag]
+f-drag=4
+f-radius=1000
+
+[Flames_2]
+e-active=2
+e-disabled=1
+e-period=2
+e-rate=40
+p-bindtoemitter=1 1
+p-life=0.15000000596046448
+p-linger=0
+p-numframes=4
+p-postoffset=15 0 0
+p-quadrot=1 0 180
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-scale=55 35 0
+p-scaleXP1=0 1
+p-scaleXP2=1 1
+p-scaleYP1=0 1
+p-scaleYP2=1 1
+p-texdiv=2 2
+p-texture=Skarner_Skin03_E_muzzle_04.tga
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+pass=10
+
+[Noise]
+f-period=0.2
+f-radius=500
+f-veldelta=50
+
+[SteamAccel]
+f-accel=0 100 0
+
+[System]
+GroupPart1=steam_left
+GroupPart1Type=Simple
+GroupPart2=steam_left1
+GroupPart2Type=Simple
+GroupPart3=Flames_2
+SimulateEveryFrame=1
+
+[steam_left]
+e-active=2
+e-period=2
+e-rate=30
+field-accel-1=SteamAccel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=1 0
+p-colortype=1 3
+p-life=0.6000000000000001
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=-15 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Skarner_Skin03_Idle_color_01.dds
+p-rotvel=1
+p-rotvelP1=0 -120
+p-rotvelP2=1 120
+p-scale=4
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texture=lofog01.dds
+p-vel=100 0 0
+p-velZP1=0 0.8
+p-velZP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 3
+p-xscale3=1 4
+rendermode=1
+
+[steam_left1]
+e-active=2
+e-disabled=1
+e-period=2
+e-rate=20
+field-accel-1=SteamAccel
+field-drag-1=Drag
+field-noise-1=Noise
+p-bindtoemitter=1 0
+p-colortype=1 3
+p-life=0.6000000000000001
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-offset=-15 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-steam.tga
+p-rotvel=1
+p-rotvelP1=0 -120
+p-rotvelP2=1 120
+p-scale=4
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-texture=lofog01.dds
+p-vel=100 0 0
+p-velZP1=0 0.8
+p-velZP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5 3
+p-xscale3=1 4
+rendermode=1
+

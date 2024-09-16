@@ -1,0 +1,45 @@
+[System]
+GroupPart1=clouds
+SimulateEveryFrame=1
+
+[clouds]
+e-life=5
+e-local-orient=1
+e-rate=120
+e-rgba=255 255 255 255
+flag-disable-z=0
+p-bindtoemitter=1
+p-drag=2 2 2
+p-life=0.7
+p-lifeP1=0 1
+p-lifeP2=1 1
+p-linger=0.7
+p-numframes=4
+p-offset=45 190 90
+p-offsetXP1=0 -1
+p-offsetXP2=1 1
+p-offsetYP1=0 1
+p-offsetYP2=1 1
+p-postoffset=0 0 -90
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-rgba=color-bellcurve32.tga
+p-rotvel=20 0 0
+p-rotvelXP1=0 -1
+p-rotvelXP2=1 1
+p-scale=100 100 30
+p-shadow=1
+p-texdiv=2 2
+p-texture=Janna_skn5_clouds.tga
+p-type=0
+p-vecalign=0
+p-vel=0 0 0
+p-velXP2=1 1
+p-worldaccel=0 0 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1 1 1
+pass=1
+rendermode=1
+

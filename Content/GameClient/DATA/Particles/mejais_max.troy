@@ -1,0 +1,97 @@
+[System]
+GroupPart1=mejais_element_02
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=mejais_element_03
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=mejais_element_04
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=mejais_element_06
+GroupPart4Importance=High
+GroupPart4Type=Simple
+SoundOnCreate=Play_sfx_MejaisSoulStealer_maxbuff
+SoundPersistent=Play_sfx_MejaisSoulStealer_loop
+
+[mejais_element_02]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1.3
+e-timeoffset=0.3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.0035000001080334187
+p-life=0.7
+p-offset=0 10 0
+p-postoffset=0 20 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-rotvel=0 0 0
+p-scale=98 0 0
+p-simpleorient=2
+p-texture=mejais_19.tga
+p-type=1
+
+[mejais_element_03]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2.6
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.0035000001080334187
+p-life=0.65
+p-offset=0 10 0
+p-postoffset=0 20 0
+p-quadrot=45 0 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=83 0 0
+p-simpleorient=2
+p-texture=mejais_18.tga
+p-type=1
+
+[mejais_element_04]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2.6
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.0035000001080334187
+p-life=0.7
+p-offset=0 10 0
+p-postoffset=0 0 0
+p-quadrot=45 0 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=90 0 0
+p-simpleorient=2
+p-texture=mejais_11.tga
+p-type=1
+p-vel=0 100 0
+
+[mejais_element_06]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=2.6
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-flexscale=0.0035000001080334187
+p-life=0.65
+p-offset=0 10 0
+p-postoffset=0 20 0
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=100 0 0
+p-simpleorient=2
+p-texture=mejais_15.tga
+p-type=1
+

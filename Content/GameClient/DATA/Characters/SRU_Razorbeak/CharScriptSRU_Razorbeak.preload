@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="regenerationruneaura"}}, 
+{Function=BBPreloadSpell, Params={Name="npcinitializer"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_razorbeak_marker.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="global_item_righteousglory_allycas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sru_junglebuff_raptor_buff_flash.troy"}}, 
+}

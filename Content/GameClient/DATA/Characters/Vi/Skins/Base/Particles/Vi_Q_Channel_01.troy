@@ -1,0 +1,26 @@
+[System]
+GroupPart1=arm
+GroupPart1Importance=High
+GroupPart1Type=Complex
+SimulateEveryFrame=1
+
+[arm]
+e-life=-1
+e-rate=30
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=3
+p-local-orient=1
+p-mesh=Vi_Arm_Cylnder.sco
+p-meshtex=Vi_Q_Speed_lines.tga
+p-offset=0 0 0
+p-postoffset=5 0 0
+p-quadrot=0 0 90
+p-rgba=alpha_12.tga
+p-scale=30 30 30
+p-simpleorient=2
+p-type=3
+p-vel=100 0 0
+pass=-1000
+rendermode=4
+

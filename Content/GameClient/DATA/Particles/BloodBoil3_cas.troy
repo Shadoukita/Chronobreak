@@ -1,0 +1,42 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2Type=Simple
+
+[glow]
+e-rate=10
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.5
+p-numframes=1
+p-offset=0 0 0
+p-rgba=color-bloodboil.tga
+p-scale=100
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 20
+p-xscale3=1 50
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk04001268=100
+unk0995E63E=1
+unk0EDCC1AB=0
+unk1FBEAAB6=color-ordershop.tga
+unk280A85B4=1 1
+unk28F4246D=1
+unk3012DCFE=0
+unk3C61D634=0.30000000000000004 0
+unk42AC74C9=0 0.4
+unk6192F90A=1
+unk6B96A1ED=0
+unk6D94A055=10 -40 0
+unk85B766BC=0
+unkAD9732F9=glows.tga
+unkD6A1ED6C=2 2
+unkE8675C1B=1 0

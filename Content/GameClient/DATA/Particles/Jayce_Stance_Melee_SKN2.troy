@@ -1,0 +1,60 @@
+[Coverup_Gent]
+e-life=0.1
+e-linger=1
+e-local-orient=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.2
+p-lifeP1=0 1
+p-lifeP2=0 1.25
+p-linger=0
+p-local-orient=1
+p-offset=6 -19 6
+p-rgba=Jayce_Color_Fade_Range2_Gent.tga
+p-scale=80 50 80
+p-startframe=0
+p-texture=Jayce_Hit_Flash.tga
+p-type=0
+p-xscale1=0 0 0 0
+p-xscale2=0.4 5 1 5
+p-xscale3=0.8 1 0.1 1
+p-xscale4=1 1 0 1
+pass=30
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=Coverup_Gent
+GroupPart1Importance=High
+GroupPart2=Constant_Coverup_Gent
+GroupPart2Importance=High
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk065D40CA=0
+unk11D4436B=Jayce_Hit_Flash.tga
+unk419D755E=0
+unk4BD25363=6 -19 6
+unk5472A7DF=0 0.5
+unk5472A7E0=1 1
+unk54F0B760=0 0.5
+unk54F0B761=1 1
+unk556EC6E1=0 0.5
+unk556EC6E2=1 1
+unk6ECDCB26=1 1
+unk86DEBBDA=30 30 30
+unk8A3BC04C=1
+unk960C76AF=0 0 0 0
+unk960C76B0=0.4 5 1 5
+unk960C76B1=0.8 1 0.1 1
+unk960C76B2=1 1 0 1
+unk96539297=-1
+unkA06484C4=Jayce_Color_Fade3.tga
+unkA999FE7B=5
+unkCC7BA544=100
+unkCE38760D=0 0.75
+unkCE38760E=1 1.25
+unkEA82F457=1
+unkEB8BE90C=0
+unkFF0170A2=1

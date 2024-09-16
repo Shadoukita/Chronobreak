@@ -1,0 +1,35 @@
+[System]
+GroupPart1=Trail
+GroupPart1Importance=Low
+SimulateEveryFrame=1
+
+[Trail]
+e-life=0.2
+e-linger=0
+e-local-orient=1
+e-rate=120
+e-rgba=255 255 255 255
+e-tilesize=410 0 0
+e-trail-cutoff=10000
+flag-disable-z=0
+p-drag=0 0 1
+p-life=0.2
+p-linger=1
+p-offset=0 0 -10
+p-scale=85 0 0
+p-texture=SRU_RedBuff_redTrail.tga
+p-trailmode=0
+p-type=5
+p-uvscroll-rgb=-0.10000000149011612 0
+p-vel=0 50 100
+p-worldaccel=0 0 0
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 0.6
+p-xrgba3=0.7 0.5 0 0 0.4
+p-xrgba4=1 0.5 0 0 0
+p-xscale1=0 0 1 1
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+pass=1
+rendermode=1
+

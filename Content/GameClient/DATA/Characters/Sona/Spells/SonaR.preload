@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="sona_base_r_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sona_base_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="sona_base_r_cas.troy"}}, 
+}

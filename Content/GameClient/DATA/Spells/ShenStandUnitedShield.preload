@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="shen_standunited_shield_v2.troy"}}, 
+}

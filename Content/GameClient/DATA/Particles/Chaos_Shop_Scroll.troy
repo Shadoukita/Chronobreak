@@ -1,0 +1,42 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=glow2
+GroupPart2Type=Simple
+
+[glow]
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=-10 40 0
+p-rgba=color-ordershop.tga
+p-scale=100
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+rendermode=0
+
+[glow2]
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0.30000000000000004 0
+p-colorscale=0 0.4
+p-colortype=1 0
+p-frameRate=0
+p-life=1
+p-numframes=1
+p-offset=10 -40 0
+p-rgba=color-ordershop.tga
+p-scale=100
+p-startframe=0
+p-texdiv=2 2
+p-texture=glows.tga
+p-type=0
+rendermode=0
+

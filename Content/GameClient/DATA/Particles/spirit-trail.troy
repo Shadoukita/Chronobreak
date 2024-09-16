@@ -1,0 +1,30 @@
+[System]
+GroupPart1=spirit-trail
+SimulateEveryFrame=1
+group-vis=10000
+
+[spirit-trail]
+e-life=2
+e-linger=2
+e-rate=30
+e-tilesize=800 -1 0
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-flexscale=1
+p-life=3
+p-linger=3
+p-offset=0 0 0
+p-rgba=color-bellcurve4.tga
+p-rotvel=0 0 0
+p-scale=1 1 0
+p-texture=spirit-trail01.tga
+p-trailmode=1
+p-type=5
+p-uvscroll-rgb=-0.25 0
+p-xscale1=0 1 1 1
+p-xscale2=0.6000000000000001 1 1 1
+p-xscale3=0.8 3 3 1
+p-xscale4=1 5 5 1
+rendermode=0
+

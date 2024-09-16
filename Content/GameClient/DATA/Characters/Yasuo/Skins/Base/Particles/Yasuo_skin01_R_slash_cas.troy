@@ -1,0 +1,82 @@
+[System]
+GroupPart1=slash1
+GroupPart2=slash2
+GroupPart3=slash3
+SimulateEveryFrame=1
+
+[slash1]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.1
+e-uvoffset=-1 1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-flexoffset=0.004999999888241291
+p-life=0.3
+p-linger=0.5
+p-local-orient=1
+p-mesh=Yasuo_basic_attack_mesh_01.sco
+p-meshtex=Yasuo_skin01_BA_trail_cas.dds
+p-offset=0 225 -100
+p-quadrot=-80 -100 0
+p-scale=9 6 7
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-3.0999999046325684 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+rendermode=4
+single-particle=1
+
+[slash2]
+e-life=0.6
+e-rate=1
+e-timeoffset=0.4
+e-uvoffset=-1 1
+p-backfaceon=1
+p-bindtoemitter=0 0
+p-coloroffset=0 0
+p-flexoffset=0.004999999888241291
+p-life=0.3
+p-linger=0.5
+p-mesh=Yasuo_basic_attack_mesh_01.sco
+p-meshtex=Yasuo_skin01_BA_trail_cas.dds
+p-offset=0 350 -150
+p-quadrot=0 -90 0
+p-scale=9 5 7
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=3.5 0
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 0.9 0.9 0.9
+p-xscale3=1 1 1 1
+rendermode=4
+single-particle=1
+
+[slash3]
+e-life=1.1
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.95
+e-uvoffset=-1 1
+p-backfaceon=1
+p-flexoffset=0.004999999888241291
+p-life=0.25
+p-linger=0.5
+p-mesh=Yasuo_basic_attack_mesh_01.sco
+p-meshtex=Yasuo_skin01_BA_trail_cas.dds
+p-offset=0 250 0
+p-postoffset=100 250 0
+p-quadrot=80 -100 20
+p-scale=7 7 7
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-3.5 0
+rendermode=4
+single-particle=1
+

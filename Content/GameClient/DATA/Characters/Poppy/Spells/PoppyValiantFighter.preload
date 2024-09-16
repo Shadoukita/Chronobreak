@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="poppyvaliantfighter_eff.troy"}}, 
+}

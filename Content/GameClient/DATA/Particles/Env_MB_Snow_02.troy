@@ -1,0 +1,41 @@
+[Clouds]
+e-life=-1
+e-rate=10000
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-accel=-50 0 0
+p-life=5
+p-lifeP1=0 0.4
+p-lifeP2=0.9 1
+p-lifeP3=1 2
+p-linger=2
+p-offset=800 0 0
+p-offsetXP1=0 0.25
+p-offsetXP2=1 1
+p-quadrot=0 0 -30
+p-scale=500 1000 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 2
+p-scaleYP1=0 0.5
+p-scaleYP2=1 1
+p-texture=Env_MB_SnowCloud_01.dds
+p-type=1
+p-vecalign=1
+p-vel=0 -100 0
+p-worldaccel=-500 0 400
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.4 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale1=0 0.5 0.25 0
+p-xscale2=1 0.5 0.75 1
+pass=100
+rendermode=1
+
+[System]
+GroupPart1=Clouds
+SimulateEveryFrame=1
+

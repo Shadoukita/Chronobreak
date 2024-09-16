@@ -1,0 +1,25 @@
+[System]
+GroupPart1=Trail
+SimulateEveryFrame=1
+
+[Trail]
+e-life=0.5
+e-linger=0.5
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.2
+e-uvoffset=-1 1
+p-backfaceon=1
+p-life=0.2
+p-linger=0.2
+p-mesh=Yasuo_basic_attack_mesh_01.sco
+p-meshtex=Yasuo_skin01_BA_trail_cas.dds
+p-offset=-30 100 10
+p-quadrot=15 126 0
+p-scale=5 5 5
+p-texdiv=1 1
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-4.300000190734863 0
+rendermode=4
+

@@ -1,0 +1,35 @@
+[ForecastWind]
+KeywordsRequired=JannaForecast
+e-life=0.65
+e-rate=20
+p-life=1.4000000000000001
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-mesh=Janna_skn5_UltGeo_01.sco
+p-meshtex=Janna_skn5_ultSwipe_02.tga
+p-offset=0 400 0
+p-quadrot=0 1 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-scale=1.5 8 1.5
+p-scaleYP1=0 0.5
+p-scaleYP2=1 2
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.55
+p-vel=0 400 0
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.3 1 1 1 0.3
+p-xrgba3=0.4 1 1 1 0.3
+p-xrgba4=1 1 1 1 0
+rendermode=4
+
+[System]
+GroupPart1=ForecastWind
+PersistThruDeath=1
+SimulateEveryFrame=1
+

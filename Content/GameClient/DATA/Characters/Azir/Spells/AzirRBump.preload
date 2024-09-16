@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="azir_skin01_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="azirbase_r_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="azir_skin01_r_tar02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="azirbase_r_tar02.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="azirrbumpimmune"}}, 
+}

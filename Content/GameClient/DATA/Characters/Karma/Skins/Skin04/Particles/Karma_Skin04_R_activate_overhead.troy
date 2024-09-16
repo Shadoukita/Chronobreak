@@ -1,0 +1,128 @@
+[Motes]
+e-rate=3
+field-noise-1=moteNoise
+p-bindtoemitter=1 0
+p-colorscale=0.5 0.5
+p-colortype=1 3
+p-drag=3 3 3
+p-life=2
+p-lifeP1=0 0.5
+p-lifeP2=0.9 1.5
+p-lifeP3=1 3
+p-offset=10 0 0
+p-rgba=Karma_Skin04_idle_glow.tga
+p-scale=13 20 10
+p-scaleXP1=0 0.4
+p-scaleXP2=1 1.5
+p-texture=Nidalee_Glowspecks.dds
+p-vecalign=1
+p-vel=30 30 30
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 -1
+p-velYP2=1 1
+p-velZP1=0 0.3
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.6 0.933333 0.4 1 1
+p-xrgba3=0.8 0 0.4 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 0.5 0.5 0.5
+rendermode=4
+uniformscale=1
+
+[Override]
+KeywordsExcluded=SungoddessKarma GeishaKarma KarmaClassic KarmaLunar
+MaterialOverride1Priority=1
+MaterialOverride1Texture=Karma_Skin04_R_override.dds
+e-life=1
+e-rate=1
+p-life=8
+p-linger=8
+p-rgba=color-karma_mantraglow.dds
+p-texture=empty32.dds
+p-trans-sample=50
+single-particle=1
+
+[System]
+GroupPart1=flash
+GroupPart1Type=Simple
+GroupPart2=Override
+GroupPart2Type=Simple
+GroupPart3=flare
+GroupPart3Type=Simple
+GroupPart4=glow2
+GroupPart4Importance=High
+GroupPart4Type=Simple
+GroupPart5=Motes
+GroupPart6=Motes_lunar
+SimulateEveryFrame=1
+
+[flare]
+KeywordsExcluded=KarmaLunar
+e-life=1
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.30000000000000004
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=Karma_Skin04_z_color_01.tga
+p-scale=90
+p-texture=glowflare.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.30000000000000004 0.7000000000000001
+p-xscale3=1 1
+single-particle=1
+
+[flash]
+KeywordsExcluded=KarmaLunar
+e-life=1
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=0.15000000596046448
+p-linger=0
+p-quadrot=-90
+p-rgba=color-hold.tga
+p-scale=250
+p-texture=Karma_Skin04_Q_flash_01.dds
+p-type=1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.2 1
+p-xscale3=1 0
+single-particle=1
+
+[glow2]
+KeywordsExcluded=KarmaLunar
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-flexoffset=0.004999999888241291
+p-life=1
+p-linger=0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=Karma_Skin04_Q_color_08.tga
+p-scale=50
+p-texture=glow-soft.dds
+p-type=1
+
+[moteNoise]
+f-period=0.1
+f-radius=1000
+f-veldelta=20
+
+[UNKNOWN_HASHES]
+unk2D6ABB85=0 0 0

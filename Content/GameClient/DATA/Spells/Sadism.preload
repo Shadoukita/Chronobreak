@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="sadismheal"}}, 
+{Function=BBPreloadParticle, Params={Name="dr_mundo_sadism_cas.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="dr_mundo_sadism_cas_02.troy"}}, 
+}

@@ -1,0 +1,107 @@
+[System]
+GroupPart1=grow
+GroupPart1Type=Simple
+GroupPart2=grow_classic
+GroupPart2Type=Simple
+GroupPart3=grow_baseball
+GroupPart3Type=Simple
+GroupPart4=grow_junkyard
+GroupPart4Type=Simple
+SimulateEveryFrame=1
+
+[grow]
+KeywordsRequired=BaseTrundle
+e-life=0.1
+e-local-orient=1
+e-rate=4
+p-backfaceon=1
+p-bindtoemitter=0.5 0
+p-life=0.75
+p-local-orient=1
+p-rgba=color-bellcurve4.dds
+p-scale=1
+p-simpleorient=3
+p-texture=Trundle_R_Skin_Flash.dds
+p-type=11
+p-xscale1=0 1
+p-xscale2=0.2 1.01
+p-xscale3=0.5 1.03
+p-xscale4=1 1.1
+pass=100
+rendermode=4
+
+[grow_baseball]
+KeywordsRequired=BaseballTrundle
+e-life=0.1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=0.5 0
+p-life=0.75
+p-local-orient=1
+p-rgba=color-bellcurve4.dds
+p-scale=1
+p-simpleorient=3
+p-texture=Trundle_R_Skin_Flash_Baseball.dds
+p-type=11
+p-xscale1=0 1
+p-xscale2=0.2 1.02
+p-xscale3=0.5 1.05
+p-xscale4=1 1.1
+pass=100
+rendermode=0
+
+[grow_classic]
+KeywordsRequired=ClassicTrundle
+e-life=0.1
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=0.5 0
+p-life=0.75
+p-local-orient=1
+p-rgba=color-bellcurve4.dds
+p-scale=1
+p-simpleorient=3
+p-texture=Trundle_R_Skin_Flash_Classic.dds
+p-type=11
+p-xscale1=0 1
+p-xscale2=0.2 1.02
+p-xscale3=0.5 1.05
+p-xscale4=1 1.1
+pass=100
+rendermode=0
+
+[grow_junkyard]
+KeywordsRequired=JunkyardTrundle
+e-life=0.1
+e-local-orient=1
+e-rate=3
+p-backfaceon=1
+p-bindtoemitter=0.5 0
+p-life=0.75
+p-local-orient=1
+p-rgba=color-bellcurve4.dds
+p-scale=1
+p-simpleorient=3
+p-texture=Trundle_R_Skin_Swap_Junkyard.dds
+p-type=11
+p-xscale1=0 1
+p-xscale2=0.2 1.02
+p-xscale3=0.5 1.07
+p-xscale4=1 1.1
+pass=100
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0D313D6C=0
+unk31ABE7B8=0
+unk555A044B=4
+unk75F94100=0
+unk77BBE435=0
+unk910FBCEE=0.75
+unk9D278F39=1
+unkA165AE3E=BaseTrundle
+unkA7388166=color-bellcurve4.dds
+unkB06DFB1D=0.1
+unkF62386F2=Trundle_R_Skin_Swap.dds

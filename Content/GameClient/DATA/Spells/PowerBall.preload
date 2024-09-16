@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadCharacter, Params={Name="rammuspb"}}, 
+{Function=BBPreloadParticle, Params={Name="powerballstop.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="powerballhit.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="powerballstunself"}}, 
+{Function=BBPreloadSpell, Params={Name="powerballslow"}}, 
+{Function=BBPreloadSpell, Params={Name="powerballstun"}}, 
+{Function=BBPreloadSpell, Params={Name="powerball"}}, 
+}

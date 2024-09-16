@@ -1,0 +1,6 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotmorganamissile"}}, 
+{Function=BBPreloadParticle, Params={Name="Morgana_Skin05_q_tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="morgana_blackthorn_Morgana_Base_Q_Tar.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="Morgana_Base_Q_Tar.troy"}}, 
+}

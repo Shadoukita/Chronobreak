@@ -1,0 +1,28 @@
+[System]
+GroupPart1=orb
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[orb]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-life=1000000
+p-linger=0
+p-local-orient=1
+p-mesh=oriana_ball_base.sco
+p-meshtex=color-c-red32.tga
+p-offset=-3 10 3
+p-postoffset=0 0 0
+p-quadrot=0 0 0
+p-rotvel=0 0 0
+p-scale=1 1 1
+p-shadow=1
+p-type=3
+p-vel=0 0 0
+rendermode=3
+single-particle=1
+

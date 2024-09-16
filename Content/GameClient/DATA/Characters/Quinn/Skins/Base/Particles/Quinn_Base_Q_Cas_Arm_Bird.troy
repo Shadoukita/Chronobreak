@@ -1,0 +1,29 @@
+[System]
+GroupPart1=falcon
+GroupPart1Importance=High
+GroupPart1Type=complex
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[falcon]
+e-life=0.75
+e-linger=0
+e-rate=1
+p-animation=quinnvalor_q_bird_cast04.anm
+p-backfaceon=1
+p-bindtoemitter=1
+p-life=0.265
+p-linger=0.1
+p-meshtex=QuinnValor_props_01.tga
+p-quadrot=0 180 0
+p-scale=1.7000000000000002 1.7000000000000002 1.7000000000000002
+p-skeleton=QuinnValor_Q.skl
+p-skin=QuinnValor_Q.skn
+p-type=3
+rendermode=3
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk79E0B822=1

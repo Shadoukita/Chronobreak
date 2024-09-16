@@ -1,0 +1,29 @@
+[MultiPass_Mesh]
+e-life=1
+e-linger=0
+e-rate=0.5
+p-backfaceon=1
+p-bindtoemitter=1
+p-flexscale=0.004999999888241291
+p-life=-1
+p-linger=0
+p-local-orient=1
+p-mesh=Azir_base_Idle_Weapon_Glow.sco
+p-meshtex=Azir_base_Z_Weapon_Glow1.tga
+p-meshtex-mult=Azir_base_Z_Weapon_Glow2.tga
+p-offset=0 18 -7
+p-quadrot=0 180 0
+p-scale=1 1 1
+p-texdiv=0.5 1
+p-texdiv-mult=0.5 1
+p-type=3
+p-uvscroll-rgb=-0.20000000298023224 0
+p-uvscroll-rgb-mult=0.2 0
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=MultiPass_Mesh
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+

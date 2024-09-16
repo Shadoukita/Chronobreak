@@ -1,0 +1,54 @@
+[StarsAccel]
+f-accel=0 700 0
+f-localspace=0
+
+[StarsOrbit]
+f-direction=0 1 0
+f-localspace=0
+
+[System]
+GroupPart1=stars_Green
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[stars_Green]
+e-life=0.5
+e-linger=0
+e-local-orient=0
+e-rate=20
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-accel-1=StarsAccel
+field-orbit-1=StarsOrbit
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=0.7
+p-lifeP1=0 0.5
+p-lifeP2=1 1.1
+p-linger=1
+p-offset=50 25 0
+p-offsetXP1=0 -2
+p-offsetXP2=1 2
+p-offsetYP1=0 0.1
+p-offsetYP2=1 3
+p-rgba=color-AhriOrbPassive.tga
+p-scale=18
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=prismaticflash.tga
+p-type=0
+p-vel=100 100 0
+p-velXP1=0 0.5
+p-velXP2=1 1
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-velZP1=0 0.5
+p-velZP2=1 1
+p-xscale1=0 1
+p-xscale3=1 0.1
+rendermode=0
+

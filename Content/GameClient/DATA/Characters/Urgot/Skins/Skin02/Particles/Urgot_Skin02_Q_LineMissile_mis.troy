@@ -1,0 +1,47 @@
+[System]
+GroupPart1=missle_butcher
+GroupPart2=missleglow_butcher
+SimulateEveryFrame=1
+
+[missle_butcher]
+KeywordsRequired=ButcherUrgot
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-local-orient=1
+p-mesh=UrgotClaw_butcher.sco
+p-meshtex=urgot_butcher_TX_CM.tga
+p-postoffset=0 0 0
+p-quadrot=0 180 0
+p-rotvel=0 0 -500
+p-scale=2 2 2
+p-shadow=1
+p-type=3
+pass=10
+rendermode=3
+single-particle=1
+
+[missleglow_butcher]
+KeywordsRequired=ButcherUrgot
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=1
+p-colorscale=0.2 0.8
+p-colortype=0 0
+p-life=5
+p-linger=0
+p-local-orient=1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=0 0 90
+p-rgba=color-rainbowbell.tga
+p-rotvel=0 0 500
+p-scale=110 110 0
+p-texture=urgotclawbutcher_glow.tga
+p-type=1
+pass=-10
+rendermode=0
+single-particle=1
+

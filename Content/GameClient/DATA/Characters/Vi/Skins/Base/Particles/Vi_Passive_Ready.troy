@@ -1,0 +1,31 @@
+[System]
+GroupPart1=swoosh
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+build-up-time=2
+
+[swoosh]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=2
+p-colorscale=1 1
+p-colortype=1 3
+p-life=4
+p-local-orient=1
+p-rgba=color-rampdown.tga
+p-scale=1.0199999809265137 1.0199999809265137 1.0199999809265137
+p-simpleorient=3
+p-texdiv=1 2
+p-texture=Vi_Passive_Swoosh.dds
+p-type=11
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=1 1
+pass=10
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk69FCCF5D=0 1
+unk69FCCF5E=1 0
+unk6A7ADEDE=0 1
+unk6A7ADEDF=1 0

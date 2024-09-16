@@ -1,0 +1,36 @@
+[BigImage]
+e-life=1
+e-rate=1
+p-life=0.4
+p-local-orient=1
+p-rgba=Nasus_Skin05_R_Cas_Color.tga
+p-scale=1.1 1.1 1.1
+p-simpleorient=3
+p-texture=Nasus_Skin05_R_Cas_TX_CM.tga
+p-type=11
+pass=15
+rendermode=1
+
+[Images]
+e-life=0.25
+e-rate=12
+p-life=0.5
+p-local-orient=1
+p-rgba=Nasus_Skin05_R_Cas_Color.tga
+p-scale=1.2000000000000002 1 1.2000000000000002
+p-simpleorient=3
+p-texture=Nasus_Skin05_R_Cas_TX_CM.tga
+p-type=11
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.6 0.8 0.8 0.8
+p-xscale3=1 1 1 1
+pass=15
+rendermode=4
+
+[System]
+GroupPart1=Images
+GroupPart1Type=Simple
+GroupPart2=BigImage
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+

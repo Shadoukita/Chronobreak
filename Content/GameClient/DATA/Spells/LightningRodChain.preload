@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="kennen_btl_beam.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="lightningrodchain"}}, 
+{Function=BBPreloadParticle, Params={Name="kennen_btl_tar.troy"}}, 
+}

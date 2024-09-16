@@ -1,0 +1,62 @@
+[Rays]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=480
+e-rate1=0 1
+e-rate2=0.25 0.5
+e-rate3=0.2500999867916107 0
+e-rate4=1 0
+p-bindtoemitter=0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=2 0 2
+p-frameRate=0
+p-life=0.6000000000000001
+p-life1=0 1.5
+p-life2=0.25 1
+p-life3=1 1
+p-lifeP1=0 0.6
+p-lifeP2=1 1
+p-linger=2
+p-numframes=4
+p-offset=1 0 0
+p-offset1=0 50 0 0
+p-offset2=0.25 0 0 0
+p-offset3=1 0 0 0
+p-offsetXP1=0 -1
+p-offsetXP2=0.5 -1
+p-offsetXP3=0.5009999871253967 1
+p-offsetXP4=1 1
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-randomstartframe=1
+p-rgba=Velkoz_Base_E_Puffs_rgba.tga
+p-scale=40 400 0
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1
+p-startframe=0
+p-texdiv=2 2
+p-texture=Velkoz_Base_E_Tar_EnergyBeams.tga
+p-type=1
+p-vel=200 0 0
+p-vel1=0 1 0 0
+p-vel2=0.25 0 0 0
+p-vel3=1 0 0 0
+p-velXP1=0 -1
+p-velXP2=1 1
+pass=100
+rendermode=0
+
+[System]
+GroupPart1=Rays
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=5000
+
+[UNKNOWN_HASHES]
+unk9AF10F14=0 200 0

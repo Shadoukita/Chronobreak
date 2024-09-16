@@ -1,0 +1,85 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=starfilter
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+KeywordsRequired=SteelLegionLux
+e-life=100000
+e-linger=0
+e-local-orient=1
+e-rate=60
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.5 0.5
+p-colortype=0 0
+p-frameRate=0
+p-life=0.2
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hold.tga
+p-scale=6
+p-startframe=0
+p-texdiv=1 1
+p-texture=prismaticflash_08.tga
+p-type=0
+pass=1
+rendermode=0
+
+[starfilter]
+KeywordsRequired=SteelLegionLux
+e-life=100000
+e-linger=0
+e-local-orient=1
+e-rate=35
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=0.7000000000000001 1
+p-colortype=0 0
+p-frameRate=0
+p-life=0.1
+p-linger=0
+p-numframes=1
+p-offset=0 0 0
+p-rgba=alpha_12.tga
+p-scale=50
+p-startframe=0
+p-texdiv=1 1
+p-texture=flare-rainbow_orange_03.tga
+p-type=0
+pass=1
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk0DB5EEFF=0
+unk0ED5BF9C=0
+unk0F789234=0
+unk103FA22D=0
+unk17EACD04=0 0 0
+unk22D468C3=1
+unk37D9DB45=1 1
+unk51C67F9B=1
+unk5D313A6D=0.03333333333
+unk69490CB8=100000
+unk7359FEE5=color-rampdown.tga
+unk7C8F789C=30
+unk80F81A1B=1 1
+unk84A1D9C0=1
+unk86992445=0 0
+unkC57B320A=prismaticflash_08.tga
+unkCDE65FE5=1
+unkD660254C=1
+unkD89AE2AC=0 0
+unkD952BAEB=0
+unkDA5F84E3=1
+unkE5EB9278=0.7000000000000001 1
+unkEB68C9F9=40
+unkFF10483C=0

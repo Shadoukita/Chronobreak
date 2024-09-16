@@ -1,0 +1,17 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = "Lulu_Whimsy.dds"
+BuffTextureName = L0_1
+L0_1 = "LuluWBuff"
+BuffName = L0_1
+L0_1 = "Lulu_W_buf_hand_cas.troy"
+AutoBuffActivateEffect3 = L0_1
+L0_1 = "l_hand"
+AutoBuffActivateAttachBoneName3 = L0_1
+L0_1 = "Lulu_W_buf_hand_cas.troy"
+AutoBuffActivateEffect4 = L0_1
+L0_1 = "r_hand"
+AutoBuffActivateAttachBoneName4 = L0_1
+L0_1 = true
+TriggersSpellCasts = L0_1

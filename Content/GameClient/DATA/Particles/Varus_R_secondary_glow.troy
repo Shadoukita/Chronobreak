@@ -1,0 +1,26 @@
+[System]
+GroupPart1=tip
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[tip]
+KeywordsExcluded=VarusAscended
+e-life=2
+e-linger=-1
+e-local-orient=1
+e-rate=60
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=0.16699999570846558
+p-linger=-1
+p-offset=0 0 0
+p-rgba=color-rampdown.tga
+p-scale=300
+p-texture=shadow_step_red.tga
+p-type=0
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+

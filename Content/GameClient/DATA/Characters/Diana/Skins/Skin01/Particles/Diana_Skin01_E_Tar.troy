@@ -1,0 +1,105 @@
+[Flash]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.2
+p-linger=0.2
+p-offset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Diana_Skin01_Z_Rampdown_RGB.tga
+p-scale=280
+p-simpleorient=2
+p-texture=Diana_Skin01_E_Tar_Flash.tga
+p-type=1
+p-xscale1=0 1
+p-xscale2=1 0
+pass=100
+rendermode=0
+single-particle=1
+
+[Lingering_Glow]
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.5
+p-linger=0
+p-offset=0 100 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=Diana_Skin01_Z_Rampdown_Purple_RGB.tga
+p-scale=200
+p-texture=Diana_Skin01_Z_Glow.tga
+p-type=0
+rendermode=0
+single-particle=1
+
+[Sparks]
+e-life=1
+e-linger=0
+e-rate=50
+field-accel-1=Sparks_Accel
+field-drag-1=Sparks_Drag
+p-bindtoemitter=1 1
+p-coloroffset=0 0.5
+p-colorscale=1 1
+p-colortype=1 3
+p-flexoffset=0.005
+p-flexscale=0.005
+p-life=0.4
+p-lifeP1=0 0.4
+p-lifeP2=1 1
+p-linger=0.4
+p-offset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 1
+p-quadrotP2=1 360
+p-rgba=Diana_Skin01_Z_BellRamp_Purple_RGB.tga
+p-scale=20
+p-scaleP1=0 0.5
+p-scaleP2=1 1
+p-texture=Diana_Skin01_R_Spark.tga
+p-type=0
+p-vel=300 300 300
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+rendermode=0
+single-particle=1
+
+[Sparks_Accel]
+f-accel=0 -500 0
+f-localspace=0
+
+[Sparks_Drag]
+f-drag=0.5
+f-pos=0 50 0
+f-radius=1000
+
+[System]
+GroupPart1=Flash
+GroupPart1Type=Simple
+GroupPart2=Lingering_Glow
+GroupPart2Type=Simple
+GroupPart3=Sparks
+GroupPart3Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+

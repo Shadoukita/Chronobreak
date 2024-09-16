@@ -1,0 +1,58 @@
+[HexNut]
+e-life=-1
+e-linger=0
+e-rate=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-mesh=Heimerdinger_Base_Q_Target_HexNut.sco
+p-postoffset=0 100 0
+p-rgba=Heimerdinger_Base_Q_Target_HexNut_Ramp.dds
+p-rotvel=200 0 0
+p-scale=8 8 8
+p-simpleorient=0
+p-texture=Heimerdinger_Base_Q_Target_HexNut.dds
+p-type=3
+p-xscale1=0 1 1 1
+p-xscale2=1 0.35 0.35 0.35
+rendermode=1
+
+[System]
+GroupPart1=HexNut
+GroupPart1Type=Simple
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk246CD6BD=200 0 0
+unk270B058E=1
+unk32C941B9=1
+unk45BC2DB6=0.833 240
+unk45BC2DB7=0.834 300
+unk45BC2DB8=1 300
+unk4C32B54A=0 100 0
+unk4EAED3F1=3
+unk566CF533=4
+unk56AABD84=Heimerdinger_Base_Q_Target_HexShine.dds
+unk5B50906E=0
+unk727E8FBF=1 1
+unk8FD305A5=0.55 -1.5
+unkBBC210FA=0 0
+unkBBC210FB=0.166 0
+unkBBC210FC=0.167 60
+unkBBC210FD=0.333 60
+unkBBC210FE=0.334 120
+unkBBC210FF=0.4999 120
+unkBBC21100=0.5 180
+unkBBC21101=0.666 180
+unkBBC21102=0.667 240
+unkD28D5373=1
+unkDAE2F0C8=0 1 1 1
+unkDAE2F0C9=1 0.35 0.35 0.35
+unkDEA525BE=-1
+unkE618F273=8 8 8
+unkE789E505=0
+unkE8B617EB=Heimerdinger_Base_Q_Target_HexShine_Ramp.dds
+unkE94C883A=0
+unkF1EB91A2=1
+unkFF28E964=Heimerdinger_Base_Q_Target_HexShine.sco

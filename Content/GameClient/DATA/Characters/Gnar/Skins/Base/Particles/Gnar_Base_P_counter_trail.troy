@@ -1,0 +1,25 @@
+[System]
+GroupPart1=streaks
+SimulateEveryFrame=1
+
+[streaks]
+e-life=0.25
+e-linger=0
+e-rate=120
+e-rgba=255 255 255 255
+p-bindtoemitter=0
+p-life=1
+p-life1=0 1
+p-life2=1 0.75
+p-linger=1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=50 50 0
+p-scale1=0 1 1 0
+p-scale2=1 0 0 0
+p-texture=Jinx_Base_R_Tar_FireCloud.dds
+p-xrgba1=0 1 1 1 1
+p-xrgba2=1 1 1 1 1
+rendermode=3
+

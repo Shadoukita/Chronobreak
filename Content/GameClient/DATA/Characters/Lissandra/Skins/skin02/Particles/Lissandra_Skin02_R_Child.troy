@@ -1,0 +1,26 @@
+[System]
+GroupPart1=Trail
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[Trail]
+e-life=1
+e-linger=-1
+e-local-orient=1
+e-rate=60
+e-tilesize=1 0 0
+p-colortype=1 1
+p-life=0.4
+p-linger=-1
+p-scale=120 0 0
+p-texture=Lissandra_Skin02_R_Soul_Trail.dds
+p-trailmode=0
+p-type=4
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=-0.6 0
+p-xscale1=0 1 0 0
+p-xscale2=0.1 1 0 0
+p-xscale3=1 0 0 0
+pass=2
+rendermode=1
+

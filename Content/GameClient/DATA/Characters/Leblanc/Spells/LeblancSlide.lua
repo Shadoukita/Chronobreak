@@ -1,0 +1,13 @@
+local L0_1, L1_1
+L0_1 = true
+DoesntBreakShields = L0_1
+L0_1 = "LeblancDisplacementReturn.dds"
+BuffTextureName = L0_1
+L0_1 = "LeblancDisplacement"
+BuffName = L0_1
+L0_1 = 2
+SpellToggleSlot = L0_1
+L0_1 = {}
+L1_1 = "LeblancSkin04"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1

@@ -1,0 +1,51 @@
+[Gravity]
+f-accel=0 -400 0
+f-localspace=0
+
+[System]
+GroupPart1=mouthfoam
+GroupPart1Type=Simple
+
+[mouthfoam]
+e-life=1
+e-linger=1
+e-rate=120
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 45
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Gravity
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.6000000000000001
+p-lifeP1=0 0.8
+p-lifeP2=1 1.2000000000000002
+p-linger=2
+p-numframes=16
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-randomstartframe=1
+p-rgba=color-hold.tga
+p-scale=8
+p-scaleP1=0 0.8
+p-scaleP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=4 4
+p-texture=slimedrops.tga
+p-vel=100 -10 0
+p-velXP1=0 0
+p-velXP2=1 1
+p-xscale1=0 1
+p-xscale2=1 0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk6E3BA045=1
+unkA462613A=1

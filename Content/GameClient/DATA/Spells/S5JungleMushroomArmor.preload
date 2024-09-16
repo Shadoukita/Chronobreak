@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="s5junglemushroomarmorbuff"}}, 
+{Function=BBPreloadSpell, Params={Name="crestoftheancientgolemlines"}}, 
+{Function=BBPreloadSpell, Params={Name="s5junglemushroomarmor"}}, 
+}

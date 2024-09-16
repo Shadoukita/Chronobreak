@@ -1,0 +1,20 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+SimulateEveryFrame=1
+
+[glow]
+e-life=-1
+e-rate=5
+p-bindtoemitter=1 1
+p-life=0.5
+p-local-orient=1
+p-offset=0 -20 0
+p-rgba=Rengar_Passive_add.tga
+p-scale=10 20 10
+p-texture=Rengar_Q_Blade.tga
+p-type=2
+p-xscale1=0 5 5 5
+p-xscale2=1 6 5 5
+rendermode=2
+

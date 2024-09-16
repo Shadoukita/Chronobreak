@@ -1,0 +1,97 @@
+[SideFoam]
+e-rate=0.6399999856948853
+p-bindtoemitter=1 0
+p-life=2
+p-linger=0
+p-local-orient=1
+p-mesh=sru_chaos_platform_waterfall_sidefoam_01.scb
+p-meshtex=SRU_Waterfalll_SideFoam_01.DDS
+p-meshtex-mult=SRU_waterfall_SideFoam_Mult_01.DDS
+p-quadrot=0 85 0
+p-type=3
+p-uvscroll-rgb=0 -0.4
+p-uvscroll-rgb-mult=0 -0.2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 0.8
+p-xrgba3=0.8 1 1 1 0.8
+p-xrgba4=1 1 1 1 0
+rendermode=1
+
+[System]
+GroupPart1=Waterfall_plane1
+GroupPart1Importance=High
+GroupPart2=WhiteFalls1
+GroupPart2Importance=High
+GroupPart3=SideFoam
+GroupPart3Importance=Low
+GroupPart4=TopEdgeHightlight1
+
+[TopEdgeHightlight1]
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-life=1.5
+p-linger=0
+p-mesh=sru_chaos_platform_waterfall_hightlight_01.scb
+p-meshtex=SRU_Waterfalll_Highlight_Small_01.dds
+p-meshtex-mult=SRU_WaterFall_Small_Highlight_Mult_01.DDS
+p-quadrot=0 80 0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb-mult=0 -1.5
+p-uvscroll-rgb-multYP1=0 1
+p-uvscroll-rgb-multYP2=0.30000000000000004 1
+p-uvscroll-rgb-multYP3=1 1.2000000000000002
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.9 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=30
+rendermode=4
+uniformscale=1
+
+[Waterfall_plane1]
+e-rate=0.6399999856948853
+p-bindtoemitter=1 0
+p-life=2
+p-linger=0
+p-mesh=sru_chaos_platform_waterfall_03.scb
+p-meshtex=SRU_Waterfall_plane_01.dds
+p-meshtex-mult=SRU_Waterfall_plane_Mult_01.dds
+p-quadrot=0 80 0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 -0.8
+p-uvscroll-rgb-mult=0 -0.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+rendermode=1
+
+[WhiteFalls1]
+e-rate=0.6399999856948853
+p-bindtoemitter=1 0
+p-life=2
+p-linger=0
+p-mesh=sru_chaos_platform_waterfall_04.scb
+p-meshtex=SRU_Waterfall_WhiteFalls_01.DDS
+p-meshtex-mult=SRU_Waterfall_WhiteFalls_Mult_01.DDS
+p-postoffset=1 0 0
+p-postoffset1=0 10 0 0
+p-postoffset2=1 30 0 0
+p-quadrot=0 80 0
+p-type=3
+p-uvscroll-rgb=0 -0.15
+p-uvscroll-rgb-mult=0 -0.07
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 1 1 1 0
+pass=20
+rendermode=4
+

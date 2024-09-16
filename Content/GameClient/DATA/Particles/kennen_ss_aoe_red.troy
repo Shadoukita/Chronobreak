@@ -1,0 +1,156 @@
+[System]
+GroupPart1=cylinder1
+GroupPart1Importance=High
+GroupPart2=ground1
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=ground2
+GroupPart3Type=Simple
+GroupPart4=wisps
+GroupPart5=edgering
+SimulateEveryFrame=1
+
+[cylinder1]
+e-alpharef=0
+e-life=6
+e-local-orient=0
+e-rate=3
+e-uvoffset=1 0.5
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-backfaceon=1
+p-bindtoemitter=1 0
+p-coloroffset=0.5 0
+p-colorscale=0.5 1
+p-colortype=3 0
+p-life=1
+p-lifeP1=0 0.2
+p-lifeP2=0.30000000000000004 0.8
+p-lifeP3=1 1.2000000000000002
+p-linger=0
+p-mesh=saucer9.scb
+p-meshtex=lightning-ring.dds
+p-numframes=10
+p-postoffset=0 40 0
+p-quadrot=0 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rotvel=0 1 0
+p-rotvelYP1=0 5
+p-rotvelYP2=1 10
+p-scale=40 40 40
+p-scaleXP1=0 0.9
+p-scaleXP2=1 1
+p-scaleYP1=0 1
+p-scaleYP2=1 1.3
+p-texdiv=0.5 2
+p-type=3
+p-uvscroll-rgb=-0.05000000074505806 0.03999999910593033
+p-xscale=1 1 1
+p-xscale1=0 1 0.5 1
+p-xscale2=1 1.0099999904632568 1.2999999523162842 1.0099999904632568
+
+[edgering]
+e-disabled=1
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=6
+p-linger=0
+p-rgba=color-eyefade32.tga
+p-scale=900 0 0
+p-simpleorient=2
+p-texture=team_ring_green_02.dds
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.66 0.66 0.66
+p-xscale2=1 0.6600000262260437 0.6600000262260437 0.6600000262260437
+rendermode=1
+single-particle=1
+
+[ground1]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 1
+p-colortype=1 3
+p-life=5
+p-linger=0
+p-mesh=disc.sco
+p-quadrot=0
+p-rgba=color-flicker.tga
+p-rotvel=0
+p-scale=5400
+p-simpleorient=1
+p-texdiv=1 1.3
+p-texture=lightning-bg-red.dds
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=0.009999999776482582 0.003000000026077032
+p-xquadrot=0
+p-xscale=1
+single-particle=1
+teamcolor-correction=1
+
+[ground2]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-coloroffset=0 1
+p-colortype=1 3
+p-life=5
+p-linger=0
+p-mesh=disc.sco
+p-quadrot=0
+p-rgba=color-flicker.tga
+p-rotvel=0
+p-scale=5400
+p-simpleorient=1
+p-texdiv=1.2000000000000002 1
+p-texture=lightning-bg2.dds
+p-type=3
+p-uvmode=1
+p-uvscroll-rgb=-0.009999999776482582 0.004999999888241291
+p-xquadrot=0
+p-xscale=1
+single-particle=1
+
+[wisps]
+e-disabled=1
+e-life=2
+e-local-orient=0
+e-rate=200
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-life=0.5
+p-lifeP1=0 0.3
+p-lifeP2=1 2
+p-numframes=9
+p-offset=0 0 500
+p-offsetZP1=0 0.2
+p-offsetZP2=1 1
+p-quadrot=0 0 -90
+p-randomstartframe=1
+p-rgba=AlphaStrike_prison__ball__p-rgba.tga
+p-scale=20 40 0
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-scaleYP1=0 -2
+p-scaleYP2=0.5 -1
+p-scaleYP3=0.5009999871253967 1
+p-scaleYP4=1 2
+p-texdiv=3 3
+p-texture=multilightning.dds
+p-type=1
+p-vel=0 10 0
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 5 1 1
+
+[UNKNOWN_HASHES]
+unkBC954356=linger=0

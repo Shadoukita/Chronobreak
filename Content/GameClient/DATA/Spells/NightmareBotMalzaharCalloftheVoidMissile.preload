@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotmalzaharcallofthevoidmissile"}}, 
+{Function=BBPreloadSpell, Params={Name="silence"}}, 
+}

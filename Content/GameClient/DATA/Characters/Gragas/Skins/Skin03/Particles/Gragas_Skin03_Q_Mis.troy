@@ -1,0 +1,27 @@
+[System]
+GroupPart1=giftbarrel
+SimulateEveryFrame=1
+
+[giftbarrel]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+e-timeoffset=0.09000000357627869
+p-bindtoemitter=1
+p-drag=1 0 0
+p-life=2
+p-linger=0
+p-mesh=Gragas_Skin03_Q_Mis.sco
+p-meshtex=Gragas_Skin03_Q_Mis.tga
+p-offset=0 0 0
+p-postoffset=-70 0 -100
+p-quadrot=0 90 0
+p-rotvel=0 0 -1200
+p-scale=0.8 0.8 0.8
+p-shadow=1
+p-type=3
+p-vel=70 0 -10
+rendermode=3
+single-particle=1
+

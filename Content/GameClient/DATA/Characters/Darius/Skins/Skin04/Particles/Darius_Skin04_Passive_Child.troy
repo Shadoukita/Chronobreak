@@ -1,0 +1,69 @@
+[Flames_Add]
+e-rate=50
+e-rotation1=1
+e-rotation1-axis=0 1 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+p-bindtoemitter=1 1
+p-drag=2 1 2
+p-life=0.30000000000000004
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-numframes=8
+p-offset=16 1 0
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-randomstartframe=1
+p-scale=1 1 1
+p-scaleXP1=0 0.8
+p-scaleXP2=1 1.2000000000000002
+p-scaleYP1=0 0.8
+p-scaleYP2=1 1.2000000000000002
+p-scaleZP1=0 0.8
+p-scaleZP2=1 1.2000000000000002
+p-texdiv=4 2
+p-texture=Darius_Skin04_Z_Flames_01.dds
+p-vel=20 200 20
+p-velXP1=0 -1
+p-velXP2=1 1
+p-velYP1=0 0.5
+p-velYP2=1 1
+p-velZP1=0 -1
+p-velZP2=1 1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=0.7 1 1 1 1
+p-xrgba4=1 1 1 1 0
+p-xscale=20 20 20
+p-xscale1=0 1 1 1
+p-xscale2=1 0.30000000000000004 0.30000000000000004 0.30000000000000004
+rendermode=4
+
+[System]
+GroupPart1=basketball_01
+GroupPart1Importance=High
+GroupPart2=Flames_Add
+PersistThruRevive=0
+
+[basketball_01]
+e-life=1
+e-local-orient=0
+e-rate=1
+p-bindtoemitter=1 1
+p-flexscale=0.009999999776482582
+p-life=300
+p-linger=0
+p-mesh=darius_skin04_passive_basketball_single.scb
+p-meshtex=Darius_Skin04_TX_CM.dds
+p-rgba=color-hold.dds
+p-rotvel=0 60 0
+p-shadow=1
+p-type=3
+p-xscale=6 6 6
+rendermode=1
+single-particle=1
+

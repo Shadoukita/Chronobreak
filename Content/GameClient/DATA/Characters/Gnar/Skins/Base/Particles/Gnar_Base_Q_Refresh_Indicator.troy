@@ -1,0 +1,72 @@
+[System]
+GroupPart1=sparks
+GroupPart2=catch
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[catch]
+e-life=1
+e-rate=1
+p-accel=0 200 0
+p-drag=8 8 8
+p-frameRate=60
+p-life=0.8
+p-linger=0.8
+p-numframes=64
+p-offset=0 -100 0
+p-quadrot=90 0 90
+p-scale=20 20 0
+p-texdiv=8 8
+p-texture=Gnar_Base_Q_Catch_Hit.dds
+p-type=1
+p-vecalign=1
+p-vel=0 1000 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.01 1 1 1 1
+p-xrgba3=0.8 1 1 1 1
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 3 3 0
+p-xscale2=0.2 3 3 0
+p-xscale3=1 5 5 0
+pass=100
+single-particle=1
+
+[sparks]
+e-life=1
+e-linger=1
+e-rate=10
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 -60
+e-rotation1P2=1 60
+p-accel=0 200 0
+p-drag=10 8 10
+p-life=1
+p-lifeP1=0 0.5
+p-lifeP2=1 1
+p-linger=1
+p-numframes=4
+p-offset=0 -100 0
+p-randomstartframe=1
+p-scale=10 10 0
+p-scaleXP1=0 2
+p-scaleXP2=1 1
+p-texdiv=2 2
+p-texture=Gnar_Base_Q_Catch_Spike.dds
+p-vecalign=1
+p-vel=0 1200 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 0
+p-xrgba2=0.01 1 1 1 1
+p-xrgba3=0.5 1 1 1 1
+p-xrgba4=1 0 0 0 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.001 1 4 0
+p-xscale3=0.9 2 1 0
+p-xscale4=1 0 0 0
+pass=100
+single-particle=1
+

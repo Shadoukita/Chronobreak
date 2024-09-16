@@ -1,0 +1,66 @@
+[System]
+GroupPart1=glow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=cast_flash
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[cast_flash]
+KeywordsRequired=VoidCrystalRyze
+e-life=-1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=1.25
+p-offset=1 1 1
+p-postoffset=5 -6 -15
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=360 0 0
+p-scale=3
+p-simpleorient=2
+p-texture=blast_ring_09.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+
+[glow]
+KeywordsRequired=VoidCrystalRyze
+e-life=-1
+e-linger=0
+e-rate=2
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-local-orient=0
+p-offset=1 1 1
+p-postoffset=5 -6 -15
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=200
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=70
+p-texture=Flare-Rainbow_purp_01.tga
+p-vel=10 10 10
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+pass=-1000
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk9BD31F60=1

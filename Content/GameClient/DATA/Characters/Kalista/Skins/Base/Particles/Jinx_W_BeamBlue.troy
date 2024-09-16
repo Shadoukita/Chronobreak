@@ -1,0 +1,28 @@
+[Skin01_Warning_Glow]
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-bindtoemitter=0
+p-life=0.6
+p-linger=0
+p-offset=0 0 250
+p-quadrot=270 0 90
+p-scale=250 20 0
+p-texture=white_square_2Blue.dds
+p-type=1
+p-xscale1=0 1 2 1
+p-xscale2=0.2 1 1 1
+p-xscale3=1 1 0.25 1
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart4=Skin01_Warning_Glow
+PersistThruDeath=1
+SimulateEveryFrame=1
+SimulateWhileOffScreen=1
+group-vis=10000
+
+[UNKNOWN_HASHES]
+unk6ADAC5F8=Jinx_Skin01_W_Beam_Warning_RGB.tga

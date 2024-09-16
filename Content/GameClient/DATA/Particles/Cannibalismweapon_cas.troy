@@ -1,0 +1,109 @@
+[System]
+GroupPart1=bowglow
+GroupPart2=glow
+GroupPart2Type=Simple
+GroupPart3=centerglow
+GroupPart3Type=Simple
+
+[bowglow]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-linger=0
+p-local-orient=1
+p-offset=18 30 0
+p-quadrot=0 0 89
+p-quadrotXP1=0 0
+p-quadrotXP2=1 1
+p-scale=80 50 50
+p-startframe=0
+p-texture=SionWeaponGreen.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+
+[centerglow]
+e-life=1
+e-rate=30
+field-accel-2=up2
+p-colortype=1 3
+p-frameRate=2
+p-life=2
+p-linger=10
+p-offset=18 70 0
+p-offsetXP1=0 0.4449999928474426
+p-offsetXP2=1 1.5941849946975708
+p-offsetYP1=0 0.7414814829826355
+p-offsetYP2=1 0.9269999861717224
+p-offsetZP1=0 0
+p-offsetZP2=1 0.8897777795791626
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rgba=color-rampdown.tga
+p-scale=20
+p-startframe=0
+p-texdiv=2 2
+p-texture=Cannibalism05.tga
+p-vel=0 10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 1.8170000314712524 1 1
+p-xscale2=0.02199999988079071 1.8170000314712524 1 1
+p-xscale3=0.4962962865829468 0.7785555720329285 1 1
+p-xscale4=1 0.33366671204566956 1 1
+
+[glow]
+e-life=1
+e-rate=30
+field-accel-1=up
+p-colortype=1 3
+p-frameRate=2
+p-life=2
+p-linger=10
+p-numframes=2
+p-offset=18 70 0
+p-offsetXP1=0 0.4449999928474426
+p-offsetXP2=1 1.5941849946975708
+p-offsetYP1=0 0.7414814829826355
+p-offsetYP2=1 0.9269999861717224
+p-offsetZP1=0 0
+p-offsetZP2=1 0.8897777795791626
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-randomstartframe=1
+p-rgba=color-cannibalism.tga
+p-scale=30
+p-startframe=0
+p-texdiv=2 2
+p-texture=Cannibalism05.tga
+p-vel=0 20 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 0 1
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 1.8170000314712524 1 1
+p-xscale2=0.02199999988079071 1.8170000314712524 1 1
+p-xscale3=0.4962962865829468 0.7785555720329285 1 1
+p-xscale4=1 0.33366671204566956 1 1
+
+[up]
+f-accel=0 200 0
+f-localspace=0
+
+[up2]
+f-accel=0 70 0
+f-localspace=0
+
+[UNKNOWN_HASHES]
+unk762C8A86=0 0
+unk762C8A87=1 1
+unkB425A6DC=0 0
+unkB425A6DD=1 1
+unkEE6AF5B1=0 0
+unkEE6AF5B2=1 1

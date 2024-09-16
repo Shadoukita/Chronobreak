@@ -1,0 +1,5 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="nightmarebotamumudespairdamage"}}, 
+{Function=BBPreloadParticle, Params={Name="despair_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="despairpool_tar.troy"}}, 
+}

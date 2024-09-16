@@ -1,0 +1,76 @@
+[System]
+GroupPart1=spirit01
+GroupPart2=spirit02
+SimulateEveryFrame=1
+group-vis=10000
+
+[spirit01]
+ChildEmitOnDeath=0
+ChildParticleName=spirit-trail01.troy
+Particle-Acceleration=100 100 0
+Particle-Acceleration1=0 0.3 0 -0.3
+Particle-Acceleration2=0.20000000298023224 -0.6000000238418579 0 0.6000000238418579
+Particle-Acceleration3=0.4000000059604645 1 0 -1
+Particle-Acceleration4=0.6000000238418579 -1 0 1
+Particle-Acceleration5=0.800000011920929 1 0 -1
+Particle-Acceleration6=1 -1 0 1
+Particle-AccelerationXP1=0 -20
+Particle-AccelerationXP2=1 20
+Particle-AccelerationYP1=0 -20
+Particle-AccelerationYP2=1 20
+e-life=-1
+e-local-orient=1
+e-rate=0.029999999329447746
+e-rateP1=0 6
+e-rateP2=0.009999999776482582 0
+e-rateP3=1 0
+p-bindtoemitter=1
+p-colorscale=0 1
+p-colortype=0 0
+p-drag=1 0 1
+p-life=2
+p-quadrot=0 0 0
+p-rgba=color-rampup.tga
+p-scale=10 20 0
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texture=ball02.tga
+p-type=1
+p-vel=0 200 0
+rendermode=0
+
+[spirit02]
+ChildEmitOnDeath=0
+ChildParticleName=spirit-trail02.troy
+Particle-Acceleration=100 100 0
+Particle-Acceleration1=0 0.3 0 -0.3
+Particle-Acceleration2=0.20000000298023224 -0.6000000238418579 0 0.6000000238418579
+Particle-Acceleration3=0.4000000059604645 1 0 -1
+Particle-Acceleration4=0.6000000238418579 -1 0 1
+Particle-Acceleration5=0.800000011920929 1 0 -1
+Particle-Acceleration6=1 -1 0 1
+Particle-AccelerationXP1=0 -20
+Particle-AccelerationXP2=1 20
+Particle-AccelerationYP1=0 -20
+Particle-AccelerationYP2=1 20
+e-life=-1
+e-local-orient=1
+e-rate=0.019999999552965164
+e-rateP1=0 5
+e-rateP2=0.009999999776482582 0
+e-rateP3=1 0
+p-bindtoemitter=1
+p-colorscale=0 1
+p-colortype=0 0
+p-drag=1 0 1
+p-life=2
+p-quadrot=0 0 0
+p-rgba=color-rampup.tga
+p-scale=10 20 0
+p-scaleYP1=0 1
+p-scaleYP2=1 2
+p-texture=ball02.tga
+p-type=1
+p-vel=0 200 0
+rendermode=0
+

@@ -1,0 +1,87 @@
+[System]
+GroupPart1=base
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=omw
+GroupPart2Importance=High
+GroupPart3=omw-arrow
+SimulateEveryFrame=1
+
+[base]
+e-life=1
+e-linger=0
+e-rate=1
+flag-brighter-in-fow=1
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=3
+p-local-orient=1
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=90 0 0
+p-rgba=ping-omw-base-color.tga
+p-scale=100
+p-simpleorient=2
+p-texture=ping-omw-base.tga
+p-type=1
+pass=10
+rendermode=0
+single-particle=1
+teamcolor-correction=0
+
+[omw]
+e-life=2
+e-linger=0
+e-rate=1
+flag-brighter-in-fow=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-drag=0 10 0
+p-life=3
+p-offset=0 0 0
+p-postoffset=0 80 0
+p-quadrot=0 0 0
+p-rgba=alpha_20_03.tga
+p-scale=60 120 0
+p-texture=ping-Omw_02.tga
+p-type=0
+p-vel=0 -800 0
+pass=20
+rendermode=1
+single-particle=1
+teamcolor-correction=0
+
+[omw-arrow]
+e-life=1.4000000000000001
+e-linger=0
+e-rate=1
+e-timeoffset=0.4
+flag-brighter-in-fow=1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-life=2
+p-local-orient=1
+p-mesh=ping-omwarrow.sco
+p-meshtex=ping-omw-arrow.tga
+p-offset=0 0 0
+p-postoffset=0 0 0
+p-quadrot=0 180 0
+p-rgba=alpha_20_03.tga
+p-scale=2 2 2
+p-shadow=0
+p-type=3
+p-xscale1=0 2.8 1 1.2
+p-xscale2=0.05000000074505806 2 1 1.2000000476837158
+p-xscale3=0.10000000149011612 1.25 1 1.2000000476837158
+p-xscale4=0.15000000596046448 1 1 1.2000000476837158
+p-xscale5=0.2 1 1 1.2000000000000002
+p-xscale6=1 1 1 1.2000000000000002
+pass=10
+rendermode=1
+teamcolor-correction=0
+

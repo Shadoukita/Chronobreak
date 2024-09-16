@@ -1,0 +1,78 @@
+[PoolGlow]
+e-life=1.2000000000000002
+e-rate=3
+e-rgba=255 0 0 255
+e-timeoffset=0.2
+p-life=0.3499999940395355
+p-lifeP1=0 0.8
+p-lifeP2=1 1
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=200 200 200
+p-scaleXP1=0 0.5
+p-scaleXP2=1 1
+p-texture=SRU_chaos_poolGlow.dds
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.5 1 1 1 0.309804
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=1 1 1 1
+rendermode=4
+single-particle=1
+uniformscale=1
+
+[System]
+GroupPart2=PoolGlow
+GroupPart3=flash
+SimulateEveryFrame=1
+
+[flash]
+e-life=0.30000000000000004
+e-linger=0.30000000000000004
+e-rate=3
+e-rgba=255 0 0 255
+e-timeoffset=0.1
+flag-disable-z=1
+p-bindtoemitter=1 1
+p-life=0.30000000000000004
+p-quadrot=1 0 0
+p-quadrotXP1=0 0
+p-quadrotXP2=1 360
+p-scale=300 300 1
+p-texture=SRU_chaos_ambientGlow.dds
+p-xscale=1 1 1
+p-xscale1=0 1 1 1
+p-xscale2=1 0 0 0
+rendermode=4
+
+[UNKNOWN_HASHES]
+unk120542AC=0 1 1 1
+unk120542AD=1 1 0.2 0
+unk19AC168F=0.30000000000000004
+unk2468125C=0 0
+unk2468125D=1 360
+unk24E621DD=0 0
+unk24E621DE=1 360
+unk2564315E=0 0
+unk2564315F=1 360
+unk25C3E8DA=0.30000000000000004
+unk26AF0E66=0 10 -5
+unk29C6F657=30 140 70
+unk2A53CBA3=1 0
+unk390A54BE=50
+unk39C31C4F=4
+unk3A356719=1 1 1 1
+unk3BECAD52=255 0 0 255
+unk439B6EC5=1 1 1
+unk4584D10D=10
+unk69EB939D=1 1 1
+unk8DCD0F68=SRU_chaos_ambientGlow.dds
+unk9340DA21=0.6000000000000001
+unk940280E5=0
+unk95CD970D=2
+unkBA3D5F58=0 1 0 1 0
+unkBA3D5F59=0.5 1 1 1 1
+unkBA3D5F5A=1 1 1 1 0

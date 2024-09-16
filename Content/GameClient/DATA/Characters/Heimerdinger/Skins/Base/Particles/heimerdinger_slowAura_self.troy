@@ -1,0 +1,217 @@
+[System]
+GroupPart1=snow
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=ice_sparkle
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=storm_02
+GroupPart3Importance=High
+GroupPart3Type=Simple
+GroupPart4=cast_flash_02
+GroupPart4Importance=Low
+GroupPart4Type=Simple
+GroupPart5=cast_flash
+GroupPart5Importance=High
+GroupPart5Type=Simple
+
+[attraction]
+f-accel=140
+f-pos=0 0 0
+f-radius=1200
+
+[attraction_02]
+f-accel=400
+f-pos=0 0 0
+f-radius=700
+
+[cast_flash]
+e-life=0.2
+e-rate=10
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.5
+p-postoffset=0 35 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=360
+p-scale=10
+p-simpleorient=2
+p-texture=frost_blast_ring_01.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 25 0 0
+
+[cast_flash_02]
+e-life=0.05000000074505806
+e-rate=60
+p-bindtoemitter=1 1
+p-coloroffset=0 0.9
+p-colorscale=1 0.1
+p-colortype=1 2
+p-life=0.65
+p-postoffset=0 10 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 -15 0 0
+p-rgba=alpha_02.tga
+p-rotvel=270 0 0
+p-rotvelP1=0 -1
+p-rotvelP2=0.5 -1
+p-rotvelP3=0.5 1
+p-rotvelP4=1 1
+p-scale=12
+p-texture=blue_buf_05.tga
+p-type=0
+p-xscale=1
+p-xscale1=0 25 0 0
+p-xscale2=0.5 12.5 0 0
+p-xscale3=1 0 0 0
+
+[drag]
+f-drag=1
+f-dragP1=0 0.953000009059906
+f-dragP2=1 1.0751479864120483
+f-pos=0 0 0
+f-radius=800
+
+[ice_sparkle]
+e-life=50
+e-rate=15
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-timeoffset=-5
+field-attract-1=attraction_02
+field-drag-1=drag
+field-orbit-1=snow_orbit
+p-life=1.5
+p-lifeP1=0 0.8159999847412109
+p-lifeP2=1 1.1122219562530518
+p-offset=35 40 35
+p-postoffset=0 20 0
+p-rgba=color-smoke32_07.tga
+p-rotvel=180
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=40
+p-scaleP1=0 1.2000000000000002
+p-scaleP2=1 0.2
+p-texture=flare-Rainbow_blue_01.tga
+p-vel=-125 75 0
+p-velXP1=0 1.1
+p-velXP2=1 0.7699999809265137
+p-xscale=1
+p-xscale1=0 0.75
+p-xscale2=0.5 1.5
+p-xscale3=1 0.15
+rendermode=0
+
+[snow]
+e-life=50
+e-linger=1
+e-rate=6
+e-rotation1=360
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=360
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+e-timeoffset=-6
+field-attract-1=attraction
+field-drag-1=snow_drag
+p-bindtoemitter=1 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=1.8
+p-offset=10 20 10
+p-postoffset=0 120 0
+p-quadrot=1
+p-quadrotP1=0 290
+p-quadrotP2=1 -290
+p-rgba=color-smoke32_07.tga
+p-rotvel=1
+p-rotvelP1=0 75
+p-rotvelP2=0.5 75
+p-rotvelP3=0.5 -75
+p-rotvelP4=1 -75
+p-scale=12
+p-scaleP1=0 0.45
+p-scaleP2=1 1.4500000476837158
+p-texture=snowflake_sam_04.tga
+p-type=0
+p-vel=0 100 0
+rendermode=1
+
+[snow_drag]
+f-drag=0.5
+f-pos=0 0 0
+f-radius=1200
+
+[snow_orbit]
+f-direction=0 1 0
+f-localspace=1
+
+[storm_02]
+e-life=50
+e-rate=2
+p-colortype=1 3
+p-life=2
+p-offset=0 2 0
+p-quadrot=20
+p-quadrot1=0 0 0 0
+p-quadrot2=1 360 0 0
+p-rgba=color-smoke32_07.tga
+p-scale=85
+p-simpleorient=2
+p-texture=glacial_storm_02.tga
+p-type=1
+p-xscale=1 1 1
+p-xscale1=0 0.5 0.5 0.5
+p-xscale2=1 1.25 1.25 1.25
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk05CAAB23=drag
+unk1543C863=0 255 0
+unk1F830460=0 -6000 0
+unk20411740=-5
+unk22AECFC6=InfernalGuardian02.tga
+unk3C9DF488=0 20 0
+unk43855D13=0 255 0
+unk45480048=50 40 50
+unk6C5DFC93=1
+unk6DF2FED4=0 0
+unk6DF2FED5=1 360
+unk703D1206=18000
+unk77F613FB=45
+unk84DF9B94=1200
+unk878CCFB1=1
+unk89D516F6=0 0.9
+unk89D516F7=1 1.149999976158142
+unk8EB737C8=-250 0 0
+unk93A4A1FC=50
+unk9D264D1A=attraction_02
+unk9DAF7371=1
+unk9DB59429=color-smoke32_07.tga
+unkA6E7030A=0 0.75
+unkA6E7030B=1 1.5
+unkA6EB0DE0=25
+unkAE554D5F=2 4
+unkB425E23C=0 -1
+unkB425E23D=1 1
+unkB63C7E71=0 1.1
+unkB63C7E72=1 0.7699999809265137
+unkC7AE22F2=0 0.8159999847412109
+unkC7AE22F3=1 1.1122219562530518
+unkE0E92EE0=2
+unkEB6DB6E7=1
+unkED3685B5=58

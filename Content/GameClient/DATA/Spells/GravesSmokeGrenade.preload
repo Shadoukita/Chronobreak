@@ -1,0 +1,9 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="graves_smokegrenade_cloud_team_green.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="graves_smokegrenade_cloud_team_red.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="gravessmokegrenadeboomslow"}}, 
+{Function=BBPreloadSpell, Params={Name="gravessmokegrenadeboom"}}, 
+{Function=BBPreloadSpell, Params={Name="gravessmokegrenadenocturneult"}}, 
+{Function=BBPreloadCharacter, Params={Name="testcuberender10vision"}}, 
+{Function=BBPreloadSpell, Params={Name="expirationtimer"}}, 
+}

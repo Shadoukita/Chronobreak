@@ -1,0 +1,22 @@
+[SandBib]
+e-life=1
+e-linger=0
+e-local-orient=0
+e-rate=1
+e-rgba=200 255 255 255
+p-bindtoemitter=1
+p-life=15
+p-linger=0
+p-postoffset=0 130 0
+p-scale=30 30 50
+p-texture=Azir_Skin01_W_SandBib.dds
+p-type=0
+p-xrgba=1 1 1 1
+pass=100
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=SandBib
+SimulateEveryFrame=1
+

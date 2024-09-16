@@ -1,0 +1,33 @@
+[Scale_Mesh]
+Particle-Velocity=0 1 0
+Particle-Velocity1=0 0 1000 0
+Particle-Velocity2=0.025 0 -100 0
+Particle-Velocity3=0.03 0 0 0
+Particle-Velocity4=0.2 0 0 0
+Particle-Velocity5=1 0 -100 0
+e-life=0.25
+e-linger=0.25
+e-rate=44
+p-colortype=1 3
+p-life=4
+p-mesh=gnar_skin01_p_scale.scb
+p-meshtex=Gnar_Skin01_P_Scale.dds
+p-quadrot=0 90 1
+p-quadrotZP1=0 -20
+p-quadrotZP2=1 20
+p-rgba=Gnar_Skin01_P_Scale_rgba.dds
+p-scale=1 2 2
+p-scaleXP1=0 0.7
+p-scaleXP2=1 1
+p-scaleYP1=0 0.7
+p-scaleYP2=1 1
+p-scaleZP1=0 0.7
+p-scaleZP2=1 1
+p-shadow=1
+p-type=3
+rendermode=3
+
+[System]
+GroupPart1=Scale_Mesh
+SimulateEveryFrame=1
+

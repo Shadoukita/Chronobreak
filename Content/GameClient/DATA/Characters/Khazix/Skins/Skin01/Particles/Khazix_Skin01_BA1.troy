@@ -1,0 +1,33 @@
+[SlashBase]
+e-life=0.2
+e-local-orient=1
+e-rate=1
+p-backfaceon=1
+p-life=0.3
+p-linger=0
+p-local-orient=0
+p-mesh=Khazix_Skin01_BA_Slash.sco
+p-meshtex=Khazix_Skin01_Q_Slash.tga
+p-numframes=4
+p-postoffset=0 140 40
+p-quadrot=0 45 -20
+p-scale=300 300 300
+p-shadow=0
+p-simpleorient=1
+p-startframe=1
+p-texdiv=4 1
+p-type=3
+p-uvscroll-rgb=0 -3
+p-xrgba=1 1 1 0.25
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=SlashBase
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unk4121354A=2
+unk55E7DDD3=1

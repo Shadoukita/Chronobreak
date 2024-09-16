@@ -1,0 +1,41 @@
+[Magic_BlueBuff_bolt]
+e-local-orient=0
+e-rate=0.1
+p-bindtoemitter=1 0
+p-life=6
+p-linger=0
+p-mesh=SRU_EastJungle_MagicBlueBuff_01.scb
+p-meshtex=SRU_EastJungle_MagicBlueBuff_01.DDS
+p-type=3
+p-uvscroll-rgb=-0.16 0
+rendermode=4
+
+[Magic_BlueBuff_rotate]
+e-local-orient=0
+e-rate=0.1
+p-bindtoemitter=1 0
+p-life=6
+p-linger=0
+p-mesh=SRU_EastJungle_MagicBlueBuff_02.scb
+p-meshtex=SRU_EastJungle_MagicBlueBuff_02.DDS
+p-type=3
+p-uvscroll-rgb=-0.1599999964237213 1
+rendermode=1
+
+[System]
+GroupPart1=Magic_BlueBuff_bolt
+GroupPart1Importance=Low
+GroupPart2=Magic_BlueBuff_rotate
+GroupPart2Importance=Low
+SimulateEveryFrame=1
+group-vis=50
+
+[UNKNOWN_HASHES]
+unk2B1096AC=color-hold.DDS
+unk3E129327=-0.15000000596046448 0
+unk860D7D5B=sphere.sco
+unk89B905D1=SRU_EastJungle_TreeMist_Swirl_Mult_01.dds
+unk9B719BF2=color-hold.DDS
+unkDC2C4395=sphere.sco
+unkE0A0D80B=SRU_EastJungle_TreeMist_Swirl_Mult_01.dds
+unkE665DCE1=-0.15000000596046448 0

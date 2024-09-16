@@ -1,0 +1,145 @@
+[System]
+GroupPart1=sword_base
+GroupPart1Importance=High
+GroupPart2=sword_drop
+GroupPart3=sword_base_fade
+GroupPart4=sword_steel
+GroupPart4Importance=High
+GroupPart5=sword_drop_steel
+GroupPart6=sword_steel_fade
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[sword_base]
+KeywordsExcluded=SteellegionGaren
+e-life=0.44999998807907104
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.2
+p-backfaceon=1
+p-life=0.5
+p-linger=1
+p-mesh=Garen_Base_R_Sword_Plane.sco
+p-meshtex=Garen_Base_R_Sword_Plane.dds
+p-postoffset=0 450 0
+p-scale=3 4 3
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.35 1 1 1 0.75
+p-xrgba4=1 1 1 1 0
+pass=100
+rendermode=4
+
+[sword_base_fade]
+KeywordsExcluded=SteellegionGaren
+e-life=0.3499999940395355
+e-local-orient=0
+e-rate=4
+e-timeoffset=0.1
+p-backfaceon=1
+p-life=0.9
+p-linger=0
+p-mesh=Garen_Base_R_Sword_Plane.sco
+p-meshtex=Garen_Base_R_Sword_Plane_Fire.dds
+p-meshtex-mult=Garen_Base_R_Sword_Fade.dds
+p-postoffset=0 450 0
+p-scale=3 4 3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.5
+p-uvscroll-rgb-mult=0 -0.3
+p-vel=0 10 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.45 1 1 1 0.75
+p-xrgba4=1 1 1 1 0
+pass=100
+rendermode=4
+
+[sword_drop]
+KeywordsExcluded=SteellegionGaren
+e-life=0.5
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.1
+p-backfaceon=1
+p-life=1
+p-linger=1
+p-mesh=Garen_Base_R_Sword_Plane.sco
+p-meshtex=Garen_Base_R_Sword_Plane.dds
+p-postoffset=0 1120 0
+p-scale=3.5 5 3.5
+p-type=3
+p-vel=0 -2100 0
+p-worldaccel=0 -123300 0
+pass=100
+
+[sword_drop_steel]
+KeywordsRequired=SteellegionGaren
+e-life=0.5
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.1
+p-backfaceon=1
+p-life=1
+p-linger=1
+p-mesh=Garen_Base_R_Sword_Plane.sco
+p-meshtex=Garen_SteelLegion_Sword.dds
+p-postoffset=0 1150 0
+p-scale=3.5 5 3.5
+p-type=3
+p-vel=0 -2100 0
+p-worldaccel=0 -138800 0
+pass=100
+
+[sword_steel]
+KeywordsRequired=SteellegionGaren
+e-life=0.44999998807907104
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.2
+p-backfaceon=1
+p-life=0.4
+p-linger=1
+p-mesh=Garen_Base_R_Sword_Plane.sco
+p-meshtex=Garen_SteelLegion_Sword.dds
+p-postoffset=0 400 0
+p-scale=3 3 3
+p-type=3
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.35 1 1 1 0.75
+p-xrgba4=1 1 1 1 0
+pass=100
+rendermode=4
+
+[sword_steel_fade]
+KeywordsRequired=SteellegionGaren
+e-life=0.44999998807907104
+e-local-orient=0
+e-rate=1
+e-timeoffset=0.2
+p-backfaceon=1
+p-life=0.949999988079071
+p-linger=1
+p-mesh=Garen_Base_R_Sword_Plane.sco
+p-meshtex=Garen_SteelLegion_Sword_Fire.dds
+p-meshtex-mult=Udyr_Spirit_Recall_Helix_Mult_Tiger.dds
+p-postoffset=0 400 0
+p-scale=3 4 3
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0 0.5
+p-uvscroll-rgb-mult=0 -0.2
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.35 1 1 1 0.75
+p-xrgba4=1 1 1 1 0
+pass=100
+rendermode=4
+

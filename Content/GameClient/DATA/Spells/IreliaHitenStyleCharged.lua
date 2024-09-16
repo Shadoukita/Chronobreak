@@ -1,0 +1,17 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "Irelia_HitenStyle.dds"
+BuffTextureName = L0_1
+L0_1 = "IreliaHitenStyleCharged"
+BuffName = L0_1
+L0_1 = "irelia_hitenStyle_activate.troy"
+AutoBuffActivateEffect = L0_1
+L0_1 = "BUFFBONE_GLB_WEAPON_1"
+AutoBuffActivateAttachBoneName = L0_1
+L0_1 = "irelia_hitenStlye_active_glow.troy"
+AutoBuffActivateEffect2 = L0_1
+L0_1 = "BUFFBONE_GLB_WEAPON_1"
+AutoBuffActivateAttachBoneName2 = L0_1

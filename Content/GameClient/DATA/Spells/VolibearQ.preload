@@ -1,0 +1,13 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="volibear_q_speed_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_q_cas_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_q_attack_buf.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_q_attack_buf_l.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_q_attack_buf_r.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_q_lightning_cast.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="volibear_q_lightning_cast_02.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="kennen_lr_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="volibearqextra"}}, 
+{Function=BBPreloadSpell, Params={Name="volibearqspeed"}}, 
+{Function=BBPreloadSpell, Params={Name="volibearqflashlock"}}, 
+}

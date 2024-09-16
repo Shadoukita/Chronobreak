@@ -1,0 +1,70 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=glow_skin01
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[glow]
+KeywordsExcluded=Lissandra_skin01 Lissandra_Skin02
+e-life=0.55
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 0 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=78
+p-texture=Lissandra_Skin01_R_LensFlash.dds
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 3 3 3
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+
+[glow_skin01]
+KeywordsRequired=Lissandra_skin01
+e-life=0.55
+e-linger=0
+e-rate=1
+p-bindtoemitter=1 1
+p-life=0.5
+p-linger=0
+p-offset=1 1 1
+p-postoffset=0 0 0
+p-quadrot=360
+p-quadrotP1=0 0
+p-quadrotP2=1 1
+p-rotvel=100
+p-rotvelP1=0 0.5
+p-rotvelP2=1 -0.5
+p-scale=78
+p-texture=vlad_red_flare_01.tga
+p-vel=0 0 0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=1 1 1 1 1
+p-xscale=1 1 1
+p-xscale1=0 3 3 3
+p-xscale2=0.1 1 1 1
+p-xscale3=1 0 0 0
+rendermode=0
+single-particle=1
+
+[UNKNOWN_HASHES]
+unk5672A866=1
+unk9BD31F60=1
+unkDA5F84E3=1
+unkDB870E1D=1

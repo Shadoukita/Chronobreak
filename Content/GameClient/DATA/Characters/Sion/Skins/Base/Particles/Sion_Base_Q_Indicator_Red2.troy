@@ -1,0 +1,26 @@
+[Red_groundmark]
+e-life=1
+e-linger=0.2
+e-rate=1
+flag-disable-z=1
+p-life=2.1
+p-linger=0
+p-mesh=sion_base_q_cas_charge.scb
+p-meshtex=Sion_Base_Q_Hit2_scortch.dds
+p-offset=0 20 0
+p-scale=1.2000000000000002 1 1.6
+p-type=3
+p-uvscroll-no-alpha=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 0.666667 0 0 1
+p-xrgba2=0.5 0.203922 0.078431 0 1
+p-xrgba3=0.6 1 0 0 1
+p-xscale=2 2 2
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Red_groundmark
+GroupPart1Importance=High
+group-vis=500
+

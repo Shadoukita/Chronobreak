@@ -1,0 +1,55 @@
+[Orbit]
+ChildParticleName=GLOBAL_Item_FoM_ChargeAttach_Red.troy
+e-life=-1
+e-linger=0.1
+e-rate=1
+p-bindtoemitter=1
+p-life=100000
+p-linger=0.1
+p-offset=120 0 0
+p-orbitvel=0 1 0
+p-postoffset=0 100 0
+p-scale=5 5 5
+p-texture=disc32.tga
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+single-particle=1
+
+[Orbit2]
+ChildParticleName=GLOBAL_Item_FoM_ChargeAttach_Red.troy
+e-life=-1
+e-linger=0.1
+e-rate=1
+e-rotation1=180
+e-rotation1-axis=0 1 0
+p-bindtoemitter=1
+p-life=100000
+p-linger=0.1
+p-offset=130 0 0
+p-orbitvel=0 1 0
+p-postoffset=0 100 0
+p-scale=5 5 5
+p-texture=disc32.tga
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 0 0 0
+rendermode=1
+single-particle=1
+
+[System]
+GroupPart1=Orbit
+GroupPart2=Orbit2
+SimulateEveryFrame=1
+

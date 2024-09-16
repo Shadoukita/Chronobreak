@@ -1,0 +1,147 @@
+[Drag]
+f-drag=4
+f-pos=0 100 0
+f-radius=1000
+
+[Gravity]
+f-accel=0 -1000 0
+f-localspace=0
+
+[System]
+GroupPart1=poisonhit
+GroupPart1Type=Simple
+GroupPart2=bloodslash
+GroupPart2Type=complex
+GroupPart3=bloodstrands
+GroupPart3Type=complex
+
+[bloodslash]
+ExcludeAttachmentType=turret nexus inhibitor
+e-life=0.1
+e-rate=1600
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 20
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=1 1 1
+p-frameRate=16
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 2
+p-numframes=16
+p-postoffset=0 100 0
+p-rgba=color-bloodfade32.tga
+p-scale=15 15 15
+p-scale1=0 1 6 1
+p-scale2=0.5 1 1 1
+p-scale3=1 1 1 1
+p-scaleXP1=0 0.4
+p-scaleXP2=1 1.2000000000000002
+p-startframe=0
+p-texdiv=4 4
+p-texture=poisonblurdrops.tga
+p-vecalign=1
+p-vel=0 500 0
+p-velYP1=0 0.7000000000000001
+p-velYP2=1 2
+p-worldaccel=0 -1000 0
+rendermode=1
+
+[bloodstrands]
+ExcludeAttachmentType=turret nexus inhibitor
+e-alpharef=64
+e-life=0.2
+e-rate=200
+e-rotation1=1
+e-rotation1-axis=0 0 1
+e-rotation1P1=0 0
+e-rotation1P2=1 20
+e-rotation2=1
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+p-bindtoemitter=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-drag=2 2 2
+p-life=0.5
+p-lifeP1=0 0.5
+p-lifeP2=1 1.5
+p-postoffset=0 100 0
+p-quadrot=1 0 0
+p-quadrotXP1=0 -50
+p-quadrotXP2=1 50
+p-rgba=color-bloodstrand32.tga
+p-rotvel=1 0 0
+p-rotvelXP1=0 -120
+p-rotvelXP2=1 120
+p-scale=20 20 20
+p-scale1=0 1 1 1
+p-scale2=1 3 3 3
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1.2000000000000002
+p-scaleYP1=0 0.30000000000000004
+p-scaleYP2=1 0.6000000000000001
+p-texdiv=1 1
+p-texture=poisonstrand.tga
+p-vel=0 500 0
+p-velYP1=0 0.8
+p-velYP2=1 1.8
+p-worldaccel=0 -500 0
+rendermode=3
+
+[poisonhit]
+e-life=0.1
+e-linger=0
+e-local-orient=0
+e-rate=300
+e-rotation1=1
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+e-rotation2=1
+e-rotation2-axis=0 1 0
+e-rotation2P1=0 0
+e-rotation2P2=1 360
+field-accel-1=Gravity
+field-drag-1=Drag
+p-bindtoemitter=0.5 0
+p-colorscale=1 1
+p-colortype=1 3
+p-flexscale=0.004999999888241291
+p-frameRate=6
+p-life=0.7000000000000001
+p-lifeP1=0 0.30000000000000004
+p-lifeP2=1 1
+p-numframes=4
+p-postoffset=0 50 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-poisongas.tga
+p-rotvel=1
+p-rotvelP1=0 -30
+p-rotvelP2=1 30
+p-scale=10
+p-scaleP1=0 1
+p-scaleP2=1 2
+p-startframe=0
+p-texdiv=2 2
+p-texture=juicygoop2.tga
+p-vel=0 400 0
+p-velYP1=0 1
+p-velYP2=1 2
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.30000000000000004 4
+p-xscale3=1 4.5
+rendermode=1
+
+[UNKNOWN_HASHES]
+unk16DF0682=0
+unk5DC1C321=0 -500 0

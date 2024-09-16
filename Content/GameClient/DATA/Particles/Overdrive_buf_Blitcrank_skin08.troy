@@ -1,0 +1,67 @@
+[System]
+GroupPart1=beam_skin_08
+GroupPart1Importance=High
+GroupPart1Type=complex
+GroupPart2=head_light_flash_tiny_skin08
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+
+[beam_skin_08]
+KeywordsRequired=blitzcrankskin08
+e-life=1
+e-linger=0
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-coloroffset=0 0
+p-colorscale=1 1
+p-colortype=1 3
+p-life=8
+p-linger=0
+p-local-orient=1
+p-mesh=eye_beam_02.sco
+p-meshtex=eye_energy_02.tga
+p-quadrot=180 -90 0
+p-rotvel=0 720 0
+p-scale=0.95 0.15 0.85
+p-type=3
+p-uvscroll-rgb=-0.1 0.025
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 1
+p-xrgba2=0.05 1 1 1 1
+p-xrgba3=0.95 1 1 1 1
+p-xrgba4=1 1 1 1 1
+rendermode=1
+
+[head_light_flash_tiny_skin08]
+KeywordsRequired=blitzcrankskin08
+e-life=8
+e-linger=0
+e-rate=4
+p-bindtoemitter=1 1
+p-life=0.1
+p-rgba=alpha_12.tga
+p-scale=115
+p-texture=Blitzcrank_Skin08_W_flash_01.tga
+p-type=0
+p-xscale1=0 0.2
+p-xscale2=1 1
+pass=0
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk04A7BB87=0
+unk27346E45=0
+unk4396A03F=0
+unk4FB52230=Blitzcrank_Riot_W_flash_01.tga
+unkAB12EDC7=0.1
+unkB72AC012=5
+unkC13BB23F=alpha_12.tga
+unkC1F71097=blitzcrankskin08
+unkC94DED1F=150
+unkCA712BF6=6
+unkCC3F9559=0
+unkD3ED5574=0 0.7
+unkD3ED5575=1 1
+unkE68B326B=1 1

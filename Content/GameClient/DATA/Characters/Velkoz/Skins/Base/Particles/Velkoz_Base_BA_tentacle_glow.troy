@@ -1,0 +1,55 @@
+[BA_glow]
+KeywordsExcluded=VelkozSkin01
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=0.5
+p-linger=0
+p-scale=50 50 0
+p-texture=Velkoz_Base_Z_Flare_Purp.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=0.7000000000000001 2 2 0
+p-xscale3=0.8 0.5 0.5 0
+p-xscale4=1 0.5 0.5 0
+rendermode=0
+single-particle=1
+
+[Skin01_Glow]
+KeywordsRequired=VelkozSkin01
+e-life=1
+e-linger=0
+e-rate=1
+e-rgba=255 255 255 255
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=0.5
+p-linger=0
+p-scale=50 50 0
+p-texture=VelkozSkin01_Z_Flare_Red.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 0 0 1 1
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 1
+p-xscale1=0 1 1 0
+p-xscale2=0.7000000000000001 2 2 0
+p-xscale3=0.8 0.5 0.5 0
+p-xscale4=1 0.5 0.5 0
+rendermode=0
+single-particle=1
+
+[System]
+GroupPart1=BA_glow
+GroupPart1Importance=High
+GroupPart2=Skin01_Glow
+GroupPart2Importance=High
+SimulateEveryFrame=1
+

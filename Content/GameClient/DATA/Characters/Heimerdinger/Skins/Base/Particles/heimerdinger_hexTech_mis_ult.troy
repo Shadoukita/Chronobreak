@@ -1,0 +1,198 @@
+[Flash]
+e-life=0.5
+e-rate=145
+e-rateP1=0 1
+e-rateP2=1 0.2
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-colortype=1 0
+p-frameRate=0
+p-life=0.05999999865889549
+p-numframes=1
+p-postoffset=0 -40 30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-rampdown.tga
+p-scale=7.25
+p-scaleP1=0 0.25
+p-scaleP2=1 5
+p-startframe=0
+p-texdiv=2 3
+p-texture=TristanaShot.tga
+p-type=0
+rendermode=0
+
+[Gravity]
+f-accel=0 -400 0
+f-localspace=0
+
+[SparksDrag]
+f-drag=4
+f-pos=0 0 0
+f-radius=2000
+
+[System]
+GroupPart1=engine_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=engine_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+GroupPart3=streak_02
+GroupPart3Importance=High
+GroupPart4=missle
+GroupPart4Importance=High
+GroupPart4Type=complex
+GroupPart5=streak
+GroupPart5Importance=High
+GroupPart6=Flash
+GroupPart6Importance=High
+GroupPart6Type=Simple
+GroupPart7=followsparks
+GroupPart7Importance=High
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+
+[engine_01]
+e-rate=75
+p-bindtoemitter=1 0.5
+p-colorscale=1 0.25
+p-colortype=1 3
+p-life=0.25
+p-linger=-1
+p-offset=3 3 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 0 30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-firemissile.tga
+p-scale=15
+p-scaleP1=0 0.9
+p-scaleP2=1 1.1
+p-texdiv=2 3
+p-texture=disintegrate02.tga
+p-xscale=1
+p-xscale1=0 0.5
+p-xscale2=0.2 1
+p-xscale3=0.7000000000000001 0.5
+p-xscale4=0.949999988079071 0.10000000149011612
+p-xscale5=1 0.1
+
+[engine_02]
+e-rate=50
+p-bindtoemitter=0.9 0
+p-colorscale=1 0.4
+p-life=0.25
+p-linger=-1
+p-offset=3 3 0
+p-offsetXP1=0 0
+p-offsetXP2=1 1
+p-offsetYP1=0 0
+p-offsetYP2=1 1
+p-postoffset=0 0 30
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-firemissile.tga
+p-scale=10
+p-scaleP1=0 0.9
+p-scaleP2=1 1.1
+p-texdiv=2 3
+p-texture=disintegrate02.tga
+p-xscale=1
+p-xscale1=0 0.4
+p-xscale2=0.5 1.5
+p-xscale3=0.7000000000000001 0.8
+p-xscale4=0.949999988079071 0.4000000059604645
+p-xscale5=1 0.2
+
+[followsparks]
+e-linger=0
+e-rate=160
+field-accel-1=Gravity
+field-drag-1=SparksDrag
+p-bindtoemitter=0.6000000000000001 0
+p-coloroffset=0 0.5
+p-colorscale=1 0.5
+p-colortype=1 3
+p-life=0.3499999940395355
+p-lifeP1=0 0.8
+p-lifeP2=1 2
+p-linger=-1
+p-postoffset=15 15 30
+p-postoffsetXP1=0 0
+p-postoffsetXP2=1 1
+p-postoffsetYP1=0 0
+p-postoffsetYP2=1 1
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-firemissile.tga
+p-scale=4
+p-scaleP1=0 0.1
+p-scaleP2=1 1
+p-startframe=4
+p-texdiv=2 3
+p-texture=disintegrate02.tga
+p-vel=0 1000 0
+p-velYP1=0 0
+p-velYP2=1 1
+p-xscale=1
+p-xscale1=0 1
+p-xscale2=0.5109999775886536 1.5570000410079956
+p-xscale3=1 0
+
+[missle]
+e-rate=1
+p-bindtoemitter=1
+p-life=5
+p-linger=0
+p-mesh=missile_std.sco
+p-meshtex=heimerdinger_hexTech_missile_06.tga
+p-postoffset=0 0 30
+p-quadrot=-90 30 0
+p-rotvel=0 0 1440
+p-scale=0.4 0.4 1.1
+p-shadow=1
+p-type=3
+rendermode=1
+
+[streak]
+e-local-orient=1
+e-rate=100
+p-bindtoemitter=1 0.15
+p-life=0.025
+p-linger=-1
+p-postoffset=0 -80 30
+p-quadrot=0 90 90
+p-scale=30 30 30
+p-texture=missile_trail_01.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.2 0.2 0.2
+rendermode=0
+
+[streak_02]
+e-local-orient=1
+e-rate=100
+p-bindtoemitter=1 0.15
+p-life=0.025
+p-linger=-1
+p-postoffset=0 -80 30
+p-quadrot=0 0 90
+p-scale=30 30 30
+p-texture=missile_trail_01.tga
+p-type=1
+p-vel=0 0 0
+p-xscale1=0 1 1 1
+p-xscale2=1 0.2 0.2 0.2
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk4D745766=1

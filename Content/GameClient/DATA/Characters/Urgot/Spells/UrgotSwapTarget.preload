@@ -1,0 +1,3 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="urgot_battlecast_swap_beam.troy"}}, 
+}

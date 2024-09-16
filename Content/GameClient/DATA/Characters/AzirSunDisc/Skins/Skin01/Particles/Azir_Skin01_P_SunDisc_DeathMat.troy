@@ -1,0 +1,22 @@
+[Death]
+MaterialOverride1Priority=20000
+MaterialOverride1Texture=Azir_Skin01_P_SunDisc_MatOverride.tga
+MaterialOverrideTransMap=Azir_Skin01_P_SunDisc_SpawnTransition.tga
+e-life=2
+e-linger=0
+p-colorscale=1 1
+p-colortype=1 0
+p-life=3.5
+p-linger=1
+p-rgba=Azir_Skin01_P_RampOut_RGB.tga
+p-trans-sample=0.01
+rendermode=4
+single-particle=1
+
+[System]
+GroupPart1=Death
+GroupPart1Type=Simple
+PersistThruDeath=1
+SimulateEveryFrame=1
+group-vis=5000
+

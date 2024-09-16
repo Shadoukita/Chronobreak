@@ -1,0 +1,81 @@
+[System]
+GroupPart1=spirit1
+GroupPart2=spirit2
+GroupPart3=spirit3
+SimulateEveryFrame=1
+
+[spirit1]
+e-life=1
+e-linger=0
+e-rate=1
+e-uvoffset=0.6000000000000001 0
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-mesh=shockwave.sco
+p-meshtex=nitemarespirit.tga
+p-offset=0 10 0
+p-rgba=color-distortbell32.tga
+p-rotvel=0 -200 0
+p-scale=25 25 25
+p-shadow=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=-1.2000000476837158 -0.30000001192092896
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+rendermode=1
+single-particle=1
+
+[spirit2]
+e-life=1
+e-linger=0
+e-rate=1
+e-uvoffset=0 0
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-mesh=shockwave.sco
+p-meshtex=nitemarespirit.tga
+p-offset=0 30 0
+p-rgba=color-distortbell32.tga
+p-rotvel=0 -200 0
+p-scale=18 18 18
+p-shadow=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=-1 -0.30000001192092896
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+rendermode=1
+single-particle=1
+
+[spirit3]
+e-life=1
+e-linger=0
+e-rate=1
+e-uvoffset=0.5 0
+p-bindtoemitter=0
+p-coloroffset=0 0
+p-colorscale=1 0.4
+p-colortype=1 0
+p-life=2
+p-mesh=shockwave.sco
+p-meshtex=nitemarespirit.tga
+p-offset=0 50 0
+p-rgba=color-distortbell32.tga
+p-rotvel=0 -200 0
+p-scale=14 14 14
+p-shadow=0
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=-1.2999999523162842 -0.30000001192092896
+p-xscale1=0 1 1 1
+p-xscale2=1 0.5 0.5 0.5
+rendermode=1
+single-particle=1
+

@@ -1,0 +1,169 @@
+[System]
+GroupPart1=glow
+GroupPart1Type=Simple
+GroupPart2=celticglow
+GroupPart2Type=Simple
+GroupPart3=reefglow
+GroupPart3Type=Simple
+GroupPart4=rockmonsterglow
+GroupPart4Type=Simple
+GroupPart5=obsidianGlow
+GroupPart5Type=Simple
+GroupPart6=glacial_glow
+GroupPart6Type=Simple
+GroupPart7=dry_ice
+GroupPart7Type=Simple
+SimulateEveryFrame=1
+
+[celticglow]
+KeywordsRequired=ShamrockMalphite
+MaterialOverride1Texture=celticmalphite_glow.tga
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-life=0.1599999964237213
+p-linger=0
+p-offset=0 -50 60
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-celticbeam.tga
+p-scale=100
+p-scale1=0 1
+p-scale2=1 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Glows.tga
+
+[dry_ice]
+KeywordsRequired=GlacialMalphite
+e-life=-1
+e-rate=5
+p-bindtoemitter=0.2 0.2
+p-coloroffset=0 0.2
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=1.25
+p-numframes=1
+p-postoffset=-80 0 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-ringdust.tga
+p-scale=110
+p-startframe=2
+p-texdiv=2 2
+p-texture=Malphite_Glacial_Dry_Ice_Smoke.tga
+p-type=0
+p-vel=60 0 -20
+p-xscale1=0 0
+p-xscale2=0.75 1
+p-xscale3=1 0.1
+pass=-100
+rendermode=4
+
+[glacial_glow]
+KeywordsRequired=GlacialMalphite
+MaterialOverride1Texture=Malphite_Glacial_Enrrage_Buff_Text.tga
+e-life=-1
+e-rate=3
+p-bindtoemitter=1 1
+p-coloroffset=0 0.2
+p-colorscale=1 1
+p-colortype=1 3
+p-frameRate=0
+p-life=2
+p-numframes=1
+p-offset=-40 -10 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-ringdust.tga
+p-scale=110
+p-startframe=2
+p-texdiv=2 2
+p-texture=gemglow.tga
+p-type=0
+p-xscale1=0.1 0.4
+p-xscale2=0.7000000000000001 0.8
+p-xscale3=1 1.6
+pass=-100
+rendermode=4
+
+[glow]
+KeywordsExcluded=ShamrockMalphite ReefMalphite RockmonsterMalphite ObsidianMalphite GlacialMalphite
+MaterialOverride1Texture=malphite_glow.tga
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-life=0.1599999964237213
+p-linger=0
+p-offset=0 -50 60
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hurtbeam.tga
+p-scale=100
+p-scale1=0 1
+p-scale2=1 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Glows.tga
+
+[obsidianGlow]
+KeywordsRequired=ObsidianMalphite
+MaterialOverride1Texture=malphite_obsidian_enraged_TX_CM.dds
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-life=0.1599999964237213
+p-linger=0
+p-offset=0 -50 60
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-hurtbeam.tga
+p-scale=100
+p-scale1=0 1
+p-scale2=1 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Glows.tga
+
+[reefglow]
+KeywordsRequired=ReefMalphite
+MaterialOverride1Texture=reefmalphite_glow.tga
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=60
+p-bindtoemitter=1 1
+p-colorscale=1 1
+p-life=0.1599999964237213
+p-linger=0
+p-offset=0 -50 60
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-reefbeam.tga
+p-scale=100
+p-scale1=0 1
+p-scale2=1 0
+p-startframe=3
+p-texdiv=2 2
+p-texture=Glows.tga
+
+[rockmonsterglow]
+KeywordsRequired=RockmonsterMalphite
+MaterialOverride1Texture=malphite_rockmonster_glow_TX_CM.tga
+

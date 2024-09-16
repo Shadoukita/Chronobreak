@@ -1,0 +1,85 @@
+[Grounddecal_big]
+e-life=1
+e-rate=1
+p-bindtoemitter=1 0
+p-life=0.8
+p-linger=0
+p-local-orient=1
+p-offset=0 15 0
+p-quadrot=270 0 0
+p-scale=275 275 275
+p-texture=Aatrox_Skin02_Q_indicator_decal_large_green.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.4 1 1 1 1
+p-xrgba3=1 1 1 1 0.1
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1 1 1
+p-xscale3=1 1.0199999809265137 1.0199999809265137 1.0199999809265137
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+
+[Grounddecal_small]
+e-life=1
+e-rate=1
+e-timeoffset=0.1
+p-bindtoemitter=1 0
+p-life=0.7000000000000001
+p-linger=0
+p-local-orient=1
+p-offset=0 15 0
+p-quadrot=270 0 0
+p-scale=150 150 150
+p-texture=Aatrox_Skin02_Q_indicator_decal_small_green.dds
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.6 1 1 1 0.75
+p-xrgba3=1 1 1 0 1
+rendermode=4
+single-particle=1
+teamcolor-correction=1
+
+[System]
+GroupPart1=Grounddecal_big
+GroupPart2=Grounddecal_small
+GroupPart3=shadow
+SimulateEveryFrame=1
+group-vis=5000
+
+[shadow]
+KeywordsExcluded=Aatroxskin01
+e-life=1
+e-rate=35
+p-bindtoemitter=1 0
+p-life=0.5
+p-linger=0
+p-local-orient=1
+p-numframes=4
+p-offset=0 15 0
+p-quadrot=270 1 0
+p-quadrotYP1=0 0
+p-quadrotYP2=1 360
+p-rgba=color_aatrox_Q_indicator_green.tga
+p-scale=150 150 150
+p-scaleXP1=0 0.2
+p-scaleXP2=1 1.2000000000000002
+p-startframe=1
+p-texdiv=2 2
+p-texture=Aatrox_Q_Indicator_shadow.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.8 1 1 1 0.1
+p-xrgba3=1 1 1 1 0
+p-xscale=1 1 1
+p-xscale1=0 0 0 0
+p-xscale2=0.5 1 1 1
+p-xscale3=1 1.2000000000000002 1.2000000000000002 1.2000000000000002
+rendermode=4
+teamcolor-correction=1
+uniformscale=1
+

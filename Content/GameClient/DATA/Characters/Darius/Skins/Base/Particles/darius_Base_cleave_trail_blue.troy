@@ -1,0 +1,32 @@
+[System]
+GroupPart1=meshtrail
+GroupPart1Importance=High
+PersistThruDeath=1
+SimulateEveryFrame=1
+
+[meshtrail]
+e-life=1
+e-local-orient=1
+e-rate=1
+p-backfaceon=0
+p-bindtoemitter=1
+p-coloroffset=0 0
+p-colorscale=1 0.5
+p-colortype=1 0
+p-life=1
+p-linger=1
+p-mesh=renekton_spell1_trail.sco
+p-meshtex=dariusswipetrail.tga
+p-offset=0 0 0
+p-quadrot=0 280 0
+p-rgba=color-swipetrail.tga
+p-rotvel=0 -720 0
+p-scale=1.3 1 1.3
+p-texdiv=1 1
+p-type=3
+p-uvscroll-rgb=-0.5 0
+p-xscale1=0 1 1 1
+p-xscale2=1 1.1 1 1.1
+rendermode=0
+single-particle=1
+

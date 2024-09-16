@@ -1,0 +1,127 @@
+[Dust_01]
+e-life=0.22
+e-linger=-1
+e-local-orient=0
+e-rate=320
+e-rotation1=360
+e-rotation1-axis=1 0 0
+e-rotation1P1=0 0
+e-rotation1P2=1 1
+e-rotation2=360
+e-rotation2-axis=0 0 1
+e-rotation2P1=0 0
+e-rotation2P2=1 1
+field-drag-1=SmokeDrag
+p-bindtoemitter=0 0
+p-life=0.45
+p-lifeP1=0 0.9
+p-lifeP2=1 1.1
+p-linger=-1
+p-offset=0 30 0
+p-postoffset=0 -7 50
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32.tga
+p-rotvel=1
+p-rotvelP1=0 -60
+p-rotvelP2=1 60
+p-scale=17
+p-scaleP1=0 1
+p-scaleP2=1 1.8
+p-texture=sand_04.tga
+p-type=0
+p-vel=0 90 0
+p-velYP1=0 0.35
+p-velYP2=1 1.1
+p-xscale=1
+p-xscale1=0 0
+p-xscale2=0.1 1
+p-xscale3=1 2
+rendermode=1
+
+[Dust_02]
+e-life=0.5
+e-linger=-1
+e-rate=20
+e-rotation1=1
+e-rotation1P1=0 0
+e-rotation1P2=1 360
+field-drag-1=dustdrag
+p-bindtoemitter=0
+p-life=1.75
+p-lifeP1=0 0.2
+p-lifeP2=1 1
+p-linger=-1
+p-offset=5 40 5
+p-offsetYP1=0 1
+p-offsetYP2=1 7
+p-postoffset=0 -200 0
+p-quadrot=1
+p-quadrotP1=0 0
+p-quadrotP2=1 360
+p-rgba=color-smoke32_03.tga
+p-rotvel=60
+p-rotvelP1=0 -1
+p-rotvelP2=1 1
+p-scale=43
+p-scaleP1=0 0.5
+p-scaleP2=1 1.6
+p-texture=sand_04.tga
+p-vel=200 1800 200
+p-velXP1=0 0.6000000000000001
+p-velXP2=1 1
+p-xscale=1
+p-xscale1=0 0 0 0
+p-xscale2=0.2 1.3
+p-xscale3=0.25 1.399999976158142
+p-xscale4=1 1.7000000000000002
+rendermode=1
+single-particle=1
+
+[SmokeDrag]
+f-drag=2
+f-pos=0 0 0
+f-radius=10000
+
+[System]
+GroupPart1=Dust_01
+GroupPart1Importance=High
+GroupPart1Type=Simple
+GroupPart2=Dust_02
+GroupPart2Importance=High
+GroupPart2Type=Simple
+SimulateEveryFrame=1
+SoundOnCreate=Play_sfx_Olaf_OlafAxeThrow_grab
+
+[dustdrag]
+f-drag=7
+f-pos=0 0 0
+f-radius=400
+
+[UNKNOWN_HASHES]
+unk044E25BF=0 0
+unk18948873=160
+unk26D6C0BD=0 0 150
+unk3815C202=0.45
+unk41198415=1
+unk54729F4A=0 20 0
+unk59CC3D73=0.5
+unk5CF386C8=0 0
+unk5CF386C9=0.5 0.5
+unk5CF386CA=1 1
+unk5D35FA21=1 1
+unk65E40FBE=0.62
+unk6943DFC9=0
+unk6E3B7A6E=2
+unk6FF501EB=alpha_02.tga
+unk792A7BA2=9
+unkB4D9D7B9=45
+unkC7EDE726=1 0
+unkCFD3AC7E=1 1
+unkD5EDBDF1=0
+unkD8BB5384=Flare-Rainbow_blue_green_02.tga
+unkE9F3CF05=-1
+unkEE634CB6=0
+unkEE81DF33=0
+unkF8BDD9A2=0

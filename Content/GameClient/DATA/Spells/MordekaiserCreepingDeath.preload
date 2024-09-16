@@ -1,0 +1,7 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadParticle, Params={Name="mordekaiser_creepingdeath_auragold.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="mordekaiser_creepingdeath_aurared.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="mordekaiser_creepingdeath_aura.troy"}}, 
+{Function=BBPreloadParticle, Params={Name="mordekaiser_creepingdeath_tar.troy"}}, 
+{Function=BBPreloadSpell, Params={Name="mordekaisercreepingdeathdebuff"}}, 
+}

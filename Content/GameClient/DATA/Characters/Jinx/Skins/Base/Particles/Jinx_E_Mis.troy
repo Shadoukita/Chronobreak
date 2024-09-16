@@ -1,0 +1,93 @@
+[Grenade]
+KeywordsExcluded=JinxSkin01
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-scale=30 30 30
+p-shadow=1
+p-texture=Jinx_Base_E_Mis_Grenade.tga
+p-type=0
+p-xrgba=1 1 1 1
+pass=4
+rendermode=1
+
+[Grenade_Blur]
+e-life=1
+e-linger=0
+e-rate=80
+p-life=0.2
+p-lifeXP1=0 0.5
+p-lifeXP2=1 1
+p-linger=1
+p-scale=35 35 0
+p-texture=Jinx_Base_E_Mis_Grenade_Blur.tga
+p-type=1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.1 1 1 1 1
+p-xrgba3=0.5 1 1 1 0.3
+p-xrgba4=1 1 1 1 0
+pass=5
+rendermode=1
+
+[Skin01_Grenade]
+KeywordsRequired=JinxSkin01
+e-life=1
+e-linger=0
+e-rate=1
+p-bindtoemitter=1
+p-life=1
+p-linger=0
+p-quadrot=1 0 0
+p-quadrotXP1=0 1
+p-quadrotXP2=1 360
+p-scale=30 30 30
+p-shadow=1
+p-texture=Jinx_Skin01_E_Mis_Grenade.tga
+p-type=0
+p-xrgba=1 1 1 1
+pass=4
+rendermode=1
+
+[System]
+GroupPart1=Grenade
+GroupPart2=Skin01_Grenade
+GroupPart3=Trail
+GroupPart4=Grenade_Blur
+SimulateEveryFrame=1
+
+[Trail]
+e-life=-1
+e-linger=0
+e-local-orient=1
+e-rate=30
+e-tilesize=400 0 0
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+p-life=0.30000000000000004
+p-lifeXP1=0 0
+p-lifeXP2=1 1
+p-linger=1
+p-offset=0 20 0
+p-scale=25 0 0
+p-texture=Jinx_Base_E_Mis_Trail.tga
+p-trailmode=1
+p-type=5
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.2 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 1 0 0
+p-xscale2=1 0.30000000000000004 0 0
+pass=3
+rendermode=0
+
+[UNKNOWN_HASHES]
+unk35C7391C=1

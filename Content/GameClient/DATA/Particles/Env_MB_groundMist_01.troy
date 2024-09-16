@@ -1,0 +1,41 @@
+[System]
+GroupPart1=Wind
+SimulateEveryFrame=1
+group-vis=500
+
+[Wind]
+e-life=-1
+e-linger=0
+e-local-orient=0
+e-rate=0.30000000000000004
+e-uvoffset=1 1
+e-uvoffsetXP1=0 0
+e-uvoffsetXP2=1 1
+e-uvoffsetYP1=0 0
+e-uvoffsetYP2=1 1
+p-backfaceon=0
+p-bindtoemitter=1 1
+p-life=6
+p-lifeP1=0.4 1
+p-lifeP2=1 0.4
+p-linger=2
+p-mesh=Env_MB_highWind_01.sco
+p-meshtex=Env_MB_highWind_01.dds
+p-postoffset=0 -650 0
+p-quadrot=0 64 0
+p-scale=20 0 20
+p-shadow=0
+p-type=3
+p-uvscroll-no-alpha=1
+p-uvscroll-rgb=0.15000000596046448 0.15000000596046448
+p-uvscroll-rgbXP1=0 0.6000000000000001
+p-uvscroll-rgbXP2=1 0.7000000000000001
+p-uvscroll-rgbYP1=0 -0.10000000149011612
+p-uvscroll-rgbYP2=1 0.1
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+rendermode=4
+single-particle=0
+

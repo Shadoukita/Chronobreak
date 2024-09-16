@@ -1,0 +1,17 @@
+local L0_1, L1_1
+L0_1 = false
+NotSingleTargetSpell = L0_1
+L0_1 = false
+DoesntTriggerSpellCasts = L0_1
+L0_1 = "XinZhao_BattleCry.dds"
+BuffTextureName = L0_1
+L0_1 = "XenZhaoBattleCry"
+BuffName = L0_1
+L0_1 = {}
+L1_1 = "ZhaoYunXinZhao"
+L0_1[1] = L1_1
+SpellFXOverrideSkins = L0_1
+L0_1 = {}
+L1_1 = "ZhaoYunXinZhao"
+L0_1[1] = L1_1
+SpellVOOverrideSkins = L0_1

@@ -1,0 +1,4 @@
+PreLoadBuildingBlocks = {
+{Function=BBPreloadSpell, Params={Name="cassiopeiapoisonparticlemanager"}}, 
+{Function=BBPreloadSpell, Params={Name="cassiopeiapoisontickerlockout"}}, 
+}

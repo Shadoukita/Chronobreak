@@ -1,0 +1,22 @@
+[System]
+GroupPart1=glow
+SimulateEveryFrame=1
+
+[glow]
+e-life=-1
+e-rate=1
+p-bindtoemitter=1 1
+p-life=1
+p-scale=120 120 120
+p-texture=Braum_Base_I_shield_blue_glow.dds
+p-type=0
+p-xrgba=1 1 1 1
+p-xrgba1=0 1 1 1 0
+p-xrgba2=0.5 1 1 1 1
+p-xrgba3=1 1 1 1 0
+p-xscale1=0 0.4 0.4 0.4
+p-xscale2=0.6 1 1 1
+p-xscale3=1 1 1 1
+pass=0
+rendermode=4
+

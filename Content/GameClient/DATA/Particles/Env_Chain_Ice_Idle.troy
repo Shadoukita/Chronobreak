@@ -1,0 +1,24 @@
+[System]
+GroupPart1=ice_idle
+SimulateEveryFrame=1
+group-vis=10000
+
+[ice_idle]
+e-life=-1
+e-local-orient=0
+e-rate=1
+p-animation=Env_Chain_Ice_Idle1.anm
+p-bindtoemitter=1 1
+p-life=-1
+p-local-orient=0
+p-meshtex=FJ_AP_ChainsIce.dds
+p-offset=70 30 0
+p-quadrot=0 -45 0
+p-scale=800 800 800
+p-skeleton=FJ_AP_CHAINSICE.skl
+p-skin=FJ_AP_CHAINSICE.skn
+p-type=3
+pass=1000
+rendermode=1
+single-particle=1
+

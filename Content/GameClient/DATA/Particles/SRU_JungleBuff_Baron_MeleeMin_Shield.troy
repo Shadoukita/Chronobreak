@@ -1,0 +1,25 @@
+[Avatar]
+e-life=0.1
+e-rate=1
+p-backfaceon=1
+p-bindtoemitter=1 1
+p-flexscale=0.004999999888241291
+p-life=-1
+p-linger=3
+p-local-orient=1
+p-meshtex=SRU_JungleBuff_Baron_MeleeMin_AvatarOverlay.dds
+p-numframes=4
+p-randomstartframe=1
+p-scale=1.309999942779541 1 1
+p-simpleorient=3
+p-type=11
+p-uvscroll-rgb=0.4 0.2
+rendermode=4
+uniformscale=1
+
+[System]
+GroupPart1=Avatar
+SimulateEveryFrame=1
+
+[UNKNOWN_HASHES]
+unkCA858A41=1
